@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "minetest-mod-nether"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "013ddfe3e7a7ab1234892e6f9152c16082fd075515cabf23bac11ee17738cda0 2040 minetest-mod-nether_3.5-1.dsc a18daca234fe82d826b4356b0114ef071a424d829cbc27353a11dc7ae2f9255d 339204 minetest-mod-nether_3.5.orig.tar.gz ed1793472e1005f16f0ac19c6f448dc7faf61b7b5f5018e3e20ede14eca075dc 14776 minetest-mod-nether_3.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/minetest-mod-nether"
+  ],
+  "Files": [
+    "9d38237e7168704489f2b5d103f6f97a 2040 minetest-mod-nether_3.5-1.dsc 49d66e8b7b4c0ee6b05e9037a42c7aa8 339204 minetest-mod-nether_3.5.orig.tar.gz 50126db40b8cb4b88ee4ee92ea42fc68 14776 minetest-mod-nether_3.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/minetest-mods/nether"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "minetest-mod-nether"
+  ],
+  "Package-List": [
+    "minetest-mod-nether deb games optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/minetest-mod-nether"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/minetest-mod-nether.git"
+  ],
+  "Version": [
+    "3.5-1"
+  ]
+}

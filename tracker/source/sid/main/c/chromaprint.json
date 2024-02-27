@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libchromaprint-dev, libchromaprint1, libchromaprint-tools"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libavcodec-dev, libavformat-dev, libgtest-dev \u003c!nocheck\u003e, libswresample-dev, python3-docutils"
+  ],
+  "Checksums-Sha256": [
+    "19d11a9a63cb49209da32c94770e6e21d532f5067ad75158a921f931e37efff9 1651 chromaprint_1.5.1-5.dsc a1aad8fa3b8b18b78d3755b3767faff9abb67242e01b478ec9a64e190f335e1c 1581159 chromaprint_1.5.1.orig.tar.gz 751cbeffbe2a014fe98dbcb633dc5f5d0c160d375ab820512fca31c42349d69c 11248 chromaprint_1.5.1-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/chromaprint"
+  ],
+  "Files": [
+    "43b8a6ffa632542fdbe26e1bde1aa219 1651 chromaprint_1.5.1-5.dsc 54e71f86bcf1d34989db639044ba9628 1581159 chromaprint_1.5.1.orig.tar.gz 88e29e563e96aceb72a926a15bca3d5a 11248 chromaprint_1.5.1-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://acoustid.org/chromaprint"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "chromaprint"
+  ],
+  "Package-List": [
+    "libchromaprint-dev deb libdevel optional arch=any libchromaprint-tools deb sound optional arch=any libchromaprint1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/chromaprint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/chromaprint.git"
+  ],
+  "Version": [
+    "1.5.1-5"
+  ]
+}

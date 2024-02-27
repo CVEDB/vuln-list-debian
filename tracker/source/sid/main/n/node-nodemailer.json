@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-nodemailer"
+  ],
+  "Build-Depends": [
+    "chai \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-nodejs, mocha \u003c!nocheck\u003e, node-commander \u003c!nocheck\u003e, node-debug \u003c!nocheck\u003e, node-iconv-lite \u003c!nocheck\u003e, node-ms \u003c!nocheck\u003e, node-proxy (\u003e= 2) \u003c!nocheck\u003e, node-safer-buffer \u003c!nocheck\u003e, node-sinon \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c34eef9494fce9004d89dcf8968eac7d33e30b142eb565afec0cb0383db2416c 2676 node-nodemailer_6.9.4+~6.4.9-4.dsc 7bb02d7227ca043927a165709f7b193e32f863c4ac9593f279570e087794efc0 21220 node-nodemailer_6.9.4+~6.4.9.orig-types-nodemailer.tar.gz e0f36dc3ceedc5980a1d9825e3a77d6ddb071a9eef8fda7762543e949c999d1d 8575781 node-nodemailer_6.9.4+~6.4.9.orig.tar.gz 360a4c70f00472a6928ebba8cc686e2f3863023d43327aab4ed5311a9ef8b548 98936 node-nodemailer_6.9.4+~6.4.9-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-nodemailer"
+  ],
+  "Files": [
+    "cfea6f7acf13177a956743d567fcb85d 2676 node-nodemailer_6.9.4+~6.4.9-4.dsc 79b37b362e3584c4f2598ec27ac725bc 21220 node-nodemailer_6.9.4+~6.4.9.orig-types-nodemailer.tar.gz 4da617823dee82360d483dab467703bd 8575781 node-nodemailer_6.9.4+~6.4.9.orig.tar.gz af3d70dfed01af565be91bedbe61b39b 98936 node-nodemailer_6.9.4+~6.4.9-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nodemailer.com/"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-nodemailer"
+  ],
+  "Package-List": [
+    "node-nodemailer deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-nodejs"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Yadd \u003cyadd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-nodemailer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-nodemailer.git"
+  ],
+  "Version": [
+    "6.9.4+~6.4.9-4"
+  ]
+}

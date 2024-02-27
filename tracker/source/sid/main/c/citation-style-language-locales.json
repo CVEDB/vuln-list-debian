@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "citation-style-language-locales"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "dc98086da6ebf2ffd0d1eca51ac2eadaefe2747fa6c9a5056d741f12b56f4c99 2412 citation-style-language-locales_0.0.11-1.dsc 4344cc1a11394e7b5b77815c46b2eee70e5267c59eacfb15d2007864e78bb885 97369 citation-style-language-locales_0.0.11.orig.tar.gz 4ea633ab7505fbfa689a125470c2b85de15b37916ae178587c56b3f14cc25e80 10796 citation-style-language-locales_0.0.11-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "6c38a3820dcfffb53caf2ca8e0f28b796649514b debian archive/debian/0.0.11-1 https://git.dgit.debian.org/citation-style-language-locales"
+  ],
+  "Directory": [
+    "pool/main/c/citation-style-language-locales"
+  ],
+  "Files": [
+    "9721f92e5aa34a6a839e70428b917e15 2412 citation-style-language-locales_0.0.11-1.dsc 886dea295f9cacb1c0d9a771710e8161 97369 citation-style-language-locales_0.0.11.orig.tar.gz 71800e6f4eca7901a20ea0b2e5ca5b6e 10796 citation-style-language-locales_0.0.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://citationstyles.org/"
+  ],
+  "Maintainer": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Package": [
+    "citation-style-language-locales"
+  ],
+  "Package-List": [
+    "citation-style-language-locales deb text optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "tony mancill \u003ctmancill@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://git.toastfreeware.priv.at/debian/citation-style-language-locales.git"
+  ],
+  "Vcs-Git": [
+    "https://git.toastfreeware.priv.at/debian/citation-style-language-locales.git"
+  ],
+  "Version": [
+    "0.0.11-1"
+  ]
+}

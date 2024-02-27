@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lomiri-desktop-session"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libsystemd-dev [linux-any], pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "7be9aa08bb6fc238ef96abc8bb574989bfaeae6f53a76af6cce1c9d78f86dde9 2102 lomiri-session_0.2-7.dsc 02ac170f3e821baab61888f62faee20edd34a4b7afb1ed84c9fe7384252ad722 7983 lomiri-session_0.2.orig.tar.gz 26554beb33eb61cf7761f4cafe132f4462e6c26ee7aa0aa6877c7e92b72fc1fc 8272 lomiri-session_0.2-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lomiri-session"
+  ],
+  "Files": [
+    "4faede5f9f82c42ec032bba5482c0b00 2102 lomiri-session_0.2-7.dsc 7977e055e4acbf3ea4cad5085f9371c1 7983 lomiri-session_0.2.orig.tar.gz 2ffac6f498fb9060f8a806c66cededcd 8272 lomiri-session_0.2-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/ubports/development/core/lomiri-session"
+  ],
+  "Maintainer": [
+    "Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lomiri-session"
+  ],
+  "Package-List": [
+    "lomiri-desktop-session deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Marius Gripsgard \u003cmarius@ubports.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ubports-team/lomiri-session"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ubports-team/lomiri-session.git"
+  ],
+  "Version": [
+    "0.2-7"
+  ]
+}

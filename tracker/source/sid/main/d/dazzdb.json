@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dazzdb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "9092686182bec3d814301f76d19372d3fe637a67df359592f8f6233756dbdb6a 2121 dazzdb_1.0+git20230919.414ad05-1.dsc 72fa5d236c5e3e635187b6bb28f3cbea3533e8c67766ac0516caa698ff368e50 98856 dazzdb_1.0+git20230919.414ad05.orig.tar.xz 7de912c53952c2d4a07e2fb3883324f45606277b510c4f420e9bbd340fa355e6 6708 dazzdb_1.0+git20230919.414ad05-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dazzdb"
+  ],
+  "Files": [
+    "6f6ec90733d693b19a0f0bea66d1536c 2121 dazzdb_1.0+git20230919.414ad05-1.dsc ce592f9926e1c757e0e6a76ba6d3a305 98856 dazzdb_1.0+git20230919.414ad05.orig.tar.xz d4f2f59732acd3d9b1371f1bfbab32ff 6708 dazzdb_1.0+git20230919.414ad05-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/thegenemyers/DAZZ_DB"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dazzdb"
+  ],
+  "Package-List": [
+    "dazzdb deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Pranav Ballaney \u003cballaneypranav@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/dazzdb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/dazzdb.git"
+  ],
+  "Version": [
+    "1.0+git20230919.414ad05-1"
+  ]
+}

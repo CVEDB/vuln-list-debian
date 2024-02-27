@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "plymouth-theme-breeze"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 2.8.12), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.82.0~), libevdev-dev, libplymouth-dev, libudev-dev, libxkbcommon-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.18~), qtbase5-dev (\u003e= 5.4)"
+  ],
+  "Checksums-Sha256": [
+    "dd3bec23e80ae654334ea58fae5aab8db083ff9470106cc14f42c3c73fad86e0 2596 breeze-plymouth_5.27.10-2.dsc 081e67f78cef1063f864465382d50212c1301ecbd3055e7ae058c07eed9e4bf5 111080 breeze-plymouth_5.27.10.orig.tar.xz d0e2f97db5b8f806f99d12cd24eca1f816d6201e24fd0f8b2432b2f02a160683 833 breeze-plymouth_5.27.10.orig.tar.xz.asc 5535571b639e4a6760f22f4ab808e150a4c3e370aa749b42be8e715eda1e2d9b 15212 breeze-plymouth_5.27.10-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/breeze-plymouth"
+  ],
+  "Files": [
+    "e012fdc4ab545d779434eda3ca6ddf67 2596 breeze-plymouth_5.27.10-2.dsc fe7bb4efec17206a9faceb9cfe35fbf5 111080 breeze-plymouth_5.27.10.orig.tar.xz f9e8b2e796cc2c57394e1898a674a3ac 833 breeze-plymouth_5.27.10.orig.tar.xz.asc c289fbce9067679cfcf102ece25100b8 15212 breeze-plymouth_5.27.10-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/breeze-plymouth"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "breeze-plymouth"
+  ],
+  "Package-List": [
+    "plymouth-theme-breeze deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/breeze-plymouth"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/breeze-plymouth.git"
+  ],
+  "Version": [
+    "5.27.10-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-schemars-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-dyn-clone-1+default-dev \u003c!nocheck\u003e, librust-schemars-derive-0.8.16+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev (\u003e= 1.0.25-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "506841da5415ac8b11dba0e90e8a8b1069c6228b019ca5a410f1a8e07fdd8fe4 2521 rust-schemars_0.8.16-1.dsc 45a28f4c49489add4ce10783f7911893516f15afe45d015608d41faca6bc4d29 57072 rust-schemars_0.8.16.orig.tar.gz ad7e0e093e01bd8d03d9ed5fa92080efe0e1ea7f3a3f299ca867ef051edcd321 5332 rust-schemars_0.8.16-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-schemars"
+  ],
+  "Files": [
+    "2611b12344773e5862e68e7f03be53fa 2521 rust-schemars_0.8.16-1.dsc f283aa4a0ac53d5ad6bd7c562c1d1f73 57072 rust-schemars_0.8.16.orig.tar.gz 8f27a162fd2c40efe9f18ca8a341feaf 5332 rust-schemars_0.8.16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://graham.cool/schemars/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-schemars"
+  ],
+  "Package-List": [
+    "librust-schemars-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-pretty-assertions-1+default-dev, librust-trybuild-1+default-dev"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/schemars"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/schemars]"
+  ],
+  "Version": [
+    "0.8.16-1"
+  ]
+}

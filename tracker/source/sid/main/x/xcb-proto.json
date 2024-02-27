@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "xcb-proto, python3-xcbgen"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libxml2-utils, python3"
+  ],
+  "Checksums-Sha256": [
+    "b1d7536230b10f98fce516321511725bcd81e0cd1986ab80eb011ba0b238366c 2244 xcb-proto_1.16.0-1.dsc d9c7f010b1105fc3858bf07b5169b2dd8e7493c6652b1fe45f3321d874f291d7 204564 xcb-proto_1.16.0.orig.tar.gz 603ae483801818a23ecba2b5cfb7563ad1f162e172a951441dbd266a28c2272a 358 xcb-proto_1.16.0.orig.tar.gz.asc 003cc8285589fbbfb9d86191534952bf21f2f8eaf5f6cd532ad4d6ad3b113592 17050 xcb-proto_1.16.0-1.diff.gz"
+  ],
+  "Directory": [
+    "pool/main/x/xcb-proto"
+  ],
+  "Files": [
+    "fa31c55e4f83d02c735164d7ee7c349e 2244 xcb-proto_1.16.0-1.dsc 2504851659eac073f7726ec8c26a193a 204564 xcb-proto_1.16.0.orig.tar.gz 830f4938ff8e0fe483af4a4f07434ceb 358 xcb-proto_1.16.0.orig.tar.gz.asc c0f4da1a683dc737313fa212fbd3f78c 17050 xcb-proto_1.16.0-1.diff.gz"
+  ],
+  "Format": [
+    "1.0"
+  ],
+  "Homepage": [
+    "https://xcb.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "xcb-proto"
+  ],
+  "Package-List": [
+    "python3-xcbgen deb python optional arch=all xcb-proto deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libdevel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Cristau \u003cjcristau@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/proto/xcb-proto"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/proto/xcb-proto.git"
+  ],
+  "Version": [
+    "1.16.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2-feature-table"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, python3-pytest-cov, python3-biom-format, python3-seaborn, qiime (\u003e= 2024.2), q2templates (\u003e= 2024.2), q2-types (\u003e= 2024.2)"
+  ],
+  "Checksums-Sha256": [
+    "b035a1f10177acc9c3720c20be8f784bacc12771424704deafbc8a85e2ec163b 2330 q2-feature-table_2024.2.0+dfsg-1.dsc 5d60ee99d9c728fc02d68d86ebe7349404df6cb641ec563c20fc1cec7493dfe0 407864 q2-feature-table_2024.2.0+dfsg.orig.tar.xz 2c8f574397457fc8f209bc1fb5e6562ac7cb360ee16bd63fffbab114702345fb 383292 q2-feature-table_2024.2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-feature-table"
+  ],
+  "Files": [
+    "1d546fb146c646675fa047be4c1c764b 2330 q2-feature-table_2024.2.0+dfsg-1.dsc d56524734eb4d2d7f1d745ddc2a97581 407864 q2-feature-table_2024.2.0+dfsg.orig.tar.xz f2fa0c25ef0dbd3f656d6f324d453781 383292 q2-feature-table_2024.2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-feature-table"
+  ],
+  "Package-List": [
+    "q2-feature-table deb science optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-feature-table"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-feature-table.git"
+  ],
+  "Version": [
+    "2024.2.0+dfsg-1"
+  ]
+}

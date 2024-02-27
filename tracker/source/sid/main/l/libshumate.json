@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libshumate-1.0-1, libshumate-dev, gir1.2-shumate-1.0, libshumate-common, libshumate-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, gperf, libgirepository1.0-dev, gir1.2-freedesktop-dev, gir1.2-gdk-4.0-dev, gir1.2-gobject-2.0-dev, gir1.2-gsk-4.0-dev, gir1.2-gtk-4.0-dev, libcairo2-dev (\u003e= 1.4), libglib2.0-dev (\u003e= 2.74.0), libgtk-4-dev, libsoup-3.0-dev, libsqlite3-dev (\u003e= 1.12.0), libsysprof-capture-4-dev, libjson-glib-dev (\u003e= 1.6), libprotobuf-c-dev, meson (\u003e= 0.55.0), valac (\u003e= 0.11.0), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7eed8c1d387ea8bf558d7bda133ac6d9d2aa1171891fdb3ca702db231cf9ec53 2726 libshumate_1.2~beta-3.dsc 74901a5684409cf470ac720a28665e71c7a00df567b0cff66abfa9d3c422e982 326082 libshumate_1.2~beta.orig.tar.bz2 893df2d5fd5b313bacfddf7d1dde40bcbadc74ae35858b8d014c24af71e9cd42 8780 libshumate_1.2~beta-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libshumate"
+  ],
+  "Files": [
+    "adf4b9a3a85a1b1369447f0da439b169 2726 libshumate_1.2~beta-3.dsc 172461c9b5245c6e626f3fd53a09905d 326082 libshumate_1.2~beta.orig.tar.bz2 2351c1d6c0969cf0574968924e0c9fc5 8780 libshumate_1.2~beta-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/libshumate"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libshumate"
+  ],
+  "Package-List": [
+    "gir1.2-shumate-1.0 deb introspection optional arch=any libshumate-1.0-1 deb libs optional arch=any libshumate-common deb libs optional arch=all libshumate-dev deb libdevel optional arch=any libshumate-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libshumate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libshumate.git"
+  ],
+  "Version": [
+    "1.2~beta-3"
+  ]
+}

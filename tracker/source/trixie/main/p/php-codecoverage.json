@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-codecoverage"
+  ],
+  "Build-Depends": [
+    "ant, cssmin, debhelper-compat (= 13), dh-sequence-phpcomposer, libjs-bootstrap4, libjs-d3, libjs-jquery, minify, php-parser, php-pcov, php-tokenizer, php-xdebug, phpab, phpunit (\u003e= 9), phpunit-code-unit-reverse-lookup, phpunit-complexity, phpunit-lines-of-code, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "a14822ac8319b02efb1154a3eeb617ff49e30cf621594d1d619fc6aef5b862d2 2188 php-codecoverage_9.2.30+dfsg-1.dsc 58d3f710188669db95e1d5c67819b63bff688cd52fdd18058bb0d00d4b8f04d4 2088580 php-codecoverage_9.2.30+dfsg.orig.tar.xz 7f7a2ec35e86050252a6741d89a274260354bc7a640794cb6d5aa1970b1aae47 115236 php-codecoverage_9.2.30+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-codecoverage"
+  ],
+  "Files": [
+    "cdcd304b1368c8ba852f752e3af0f429 2188 php-codecoverage_9.2.30+dfsg-1.dsc 5b16001a9a6a15ba24a54f087fd3a04e 2088580 php-codecoverage_9.2.30+dfsg.orig.tar.xz 519eb5187b43e5f70f6ac1745050958d 115236 php-codecoverage_9.2.30+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sebastianbergmann/php-code-coverage"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-codecoverage"
+  ],
+  "Package-List": [
+    "php-codecoverage deb php optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "php"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-pcov, php-xdebug, phpunit"
+  ],
+  "Uploaders": [
+    "Arthur Gautier \u003csuperbaloo@superbaloo.net\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e, David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-codecoverage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-codecoverage.git -b debian/bookworm"
+  ],
+  "Version": [
+    "9.2.30+dfsg-1"
+  ]
+}

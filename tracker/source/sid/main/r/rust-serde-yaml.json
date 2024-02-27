@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-yaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-indexmap+default-dev (\u003e= 1.5.2-~~) \u003c!nocheck\u003e, librust-indexmap+std-dev (\u003e= 1.5.2-~~) \u003c!nocheck\u003e, librust-ryu-1+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.69-~~) \u003c!nocheck\u003e, librust-yaml-rust-0.4+default-dev (\u003e= 0.4.5-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9815f1b3dbdc97bc5235dbb79934c5762dab1dbf1aada4248b694e86242dae6c 2546 rust-serde-yaml_0.8.26-2.dsc 578a7433b776b56a35785ed5ce9a7e777ac0598aac5a6dd1b4b18a307c7fc71b 40670 rust-serde-yaml_0.8.26.orig.tar.gz dc09c98c84dcef509f50f746e628f839caa58c6c3ba74592799595d82df8d884 3012 rust-serde-yaml_0.8.26-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde-yaml"
+  ],
+  "Files": [
+    "8bcc8ff6abbc47889f0ec786a3f6cb1a 2546 rust-serde-yaml_0.8.26-2.dsc 6ecbf702843725be10bdc19c6e7c41d4 40670 rust-serde-yaml_0.8.26.orig.tar.gz 1b75da952116d35a981f03ba53cde639 3012 rust-serde-yaml_0.8.26-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde-yaml"
+  ],
+  "Package-List": [
+    "librust-serde-yaml-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-indoc-2+default-dev, librust-serde-derive-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-yaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-yaml]"
+  ],
+  "Version": [
+    "0.8.26-2"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pdlzip"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "436bea88193c2345e6e4a829ec190651cef646a5f8628bdcc1147fc0f150684f 1879 pdlzip_1.13-1.dsc f398c26c7ee81f344335888d6ca66bbdd44c99b46aa7d29ee521f00811549f93 64660 pdlzip_1.13.orig.tar.xz b051457bf54ca9ed217eae5d8e2a0e7efe71a7658ac664f02aca4325c75c13af 5772 pdlzip_1.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdlzip"
+  ],
+  "Files": [
+    "a0c9fefbd15e1ad7d972d4c1f04e6212 1879 pdlzip_1.13-1.dsc f8e049ee9809cc072ff372b7ae8bcba5 64660 pdlzip_1.13.orig.tar.xz 645dc14c7053d3fca23b16e783e1cfba 5772 pdlzip_1.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.nongnu.org/lzip/pdlzip.html"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "pdlzip"
+  ],
+  "Package-List": [
+    "pdlzip deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/pdlzip"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/pdlzip"
+  ],
+  "Version": [
+    "1.13-1"
+  ]
+}

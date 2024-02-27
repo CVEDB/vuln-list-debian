@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gqrx-sdr"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), gnuradio-dev, gr-osmosdr (\u003e= 0.2), libasound2-dev, libgl-dev, libjack-jackd2-dev, libpulse-dev, libqt5svg5-dev, libsndfile1-dev, libvolk-dev, portaudio19-dev, qt6-base-dev, qt6-base-dev-tools, qt6-svg-dev"
+  ],
+  "Checksums-Sha256": [
+    "6d9f9bb712c6f9541566473d89ab2270d3e0b12eb762995c0c32b1c183cc2d1e 2050 gqrx-sdr_2.17.4-2.dsc 06be55cd8ccadd3cb08218a4234f94c5c2bcd9e7b63a775650e473115e93d4e7 3623122 gqrx-sdr_2.17.4.orig.tar.gz c7737f12bc28585ff8e112922cda0650f6d98a1aa945d66cee23807127eaed78 12680 gqrx-sdr_2.17.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gqrx-sdr"
+  ],
+  "Files": [
+    "1b8b8e9db2c3babac47b401c2b7922c2 2050 gqrx-sdr_2.17.4-2.dsc 8ece623c9bc3480f4e642cd66c4818ec 3623122 gqrx-sdr_2.17.4.orig.tar.gz 84be6d5a381ce968157620156d0afbdb 12680 gqrx-sdr_2.17.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gqrx.dk/"
+  ],
+  "Maintainer": [
+    "A. Maitland Bottoms \u003cbottoms@debian.org\u003e"
+  ],
+  "Package": [
+    "gqrx-sdr"
+  ],
+  "Package-List": [
+    "gqrx-sdr deb hamradio optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bottoms/pkg-gqrx-sdr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bottoms/pkg-gqrx-sdr.git"
+  ],
+  "Version": [
+    "2.17.4-2"
+  ]
+}

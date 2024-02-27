@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-memisc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-lattice, r-cran-mass, r-cran-data.table, r-cran-yaml, r-cran-jsonlite"
+  ],
+  "Checksums-Sha256": [
+    "131f22ea037365d5d54209230cfcb3c6233a939f56846b00280fb004465d791b 2182 r-cran-memisc_0.99.31.7+dfsg-1.dsc 660da2aca901c7351baf2c8083596432c6707a0faad0f7d4573d31698ba442f6 345792 r-cran-memisc_0.99.31.7+dfsg.orig.tar.xz 92e498c9618b2b94f8ab22047b178cc7d90d5c73284d36e736567bf6fe5e5a84 2480 r-cran-memisc_0.99.31.7+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-memisc"
+  ],
+  "Files": [
+    "7b825b88127ac3258c7fe839f49f401d 2182 r-cran-memisc_0.99.31.7+dfsg-1.dsc b0b2d6a084dce2cec39dc4d359595745 345792 r-cran-memisc_0.99.31.7+dfsg.orig.tar.xz f8619449d79559236374079ee0aee04a 2480 r-cran-memisc_0.99.31.7+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=memisc"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-memisc"
+  ],
+  "Package-List": [
+    "r-cran-memisc deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-memisc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-memisc.git"
+  ],
+  "Version": [
+    "0.99.31.7+dfsg-1"
+  ]
+}

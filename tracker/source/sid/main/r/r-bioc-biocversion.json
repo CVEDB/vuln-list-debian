@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-biocversion"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "07972b000fed7ae9b8cbd1113f49acc5445ba58b0911cc20281f86e27ba5c6d0 2099 r-bioc-biocversion_3.18.1-1.dsc a5c8ea9ffcbd52fc7bf305bb9c58c988f590db2c5eb7114455a32fea43319997 973 r-bioc-biocversion_3.18.1.orig.tar.gz ae4815ca11454b282ac4a633487edd647a4d1dd655ed65931b8f20b28574bb9c 4836 r-bioc-biocversion_3.18.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-biocversion"
+  ],
+  "Files": [
+    "b7ea02fb7705f9851d72642fe628c238 2099 r-bioc-biocversion_3.18.1-1.dsc 46dbe2f6ca9c058b24da1bd98f79631e 973 r-bioc-biocversion_3.18.1.orig.tar.gz 926ef27402e060084e79adc618041aa6 4836 r-bioc-biocversion_3.18.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/BiocVersion/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-biocversion"
+  ],
+  "Package-List": [
+    "r-bioc-biocversion deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocversion"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocversion.git"
+  ],
+  "Version": [
+    "3.18.1-1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fricas, fricas-source, fricas-test, fricas-doc, fricas-databases, fricas-graphics, fricas-graphics-data, fricas-hypertex, fricas-hypertex-data, elpa-fricas"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gcl (\u003e= 2.6.14), libgmp3-dev, libeditreadline-dev, libxpm-dev, xvfb"
+  ],
+  "Build-Depends-Indep": [
+    "dh-elpa, sharutils"
+  ],
+  "Checksums-Sha256": [
+    "3a09e53205de9a00bc192041d57ff75d0b4487ccd684b5c71bec658d5808708e 2363 fricas_1.3.10-1.dsc fc2112ad45ba7b45ac423165f32bd5b244622107a1e4e1d56b9136f96746f2a0 10971513 fricas_1.3.10.orig.tar.bz2 0310fd45eea62ae93fc9adf0028e11c7a4fd3dc172a17629c5ba32eaa99dec40 246072 fricas_1.3.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fricas"
+  ],
+  "Files": [
+    "97ed0c4611a1360eadbc5aebd77b087f 2363 fricas_1.3.10-1.dsc d2ecd6f8c45cfc41c407b7d5f6eaae07 10971513 fricas_1.3.10.orig.tar.bz2 b8ed3ac4e935da96a463afcfb84c1940 246072 fricas_1.3.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://fricas.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Camm Maguire \u003ccamm@debian.org\u003e"
+  ],
+  "Package": [
+    "fricas"
+  ],
+  "Package-List": [
+    "elpa-fricas deb lisp optional arch=all fricas deb math optional arch=any fricas-databases deb math optional arch=all fricas-doc deb doc optional arch=all fricas-graphics deb math optional arch=any fricas-graphics-data deb math optional arch=all fricas-hypertex deb math optional arch=any fricas-hypertex-data deb math optional arch=all fricas-source deb math optional arch=all fricas-test deb math optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Version": [
+    "1.3.10-1"
+  ]
+}

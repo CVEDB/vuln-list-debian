@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "bouncy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-opengl, python3-pygame"
+  ],
+  "Checksums-Sha256": [
+    "78ee492653b4825b295b1458e924bae1510f621a247541bc7299e1086ff156a7 2057 bouncy_0.6.20071104-9.dsc 0aeb48bd4c90fe814798b74d93cd760500cfe66018c1285283a122b96ad44d81 413823 bouncy_0.6.20071104.orig.tar.gz 616453561832abf5de6445ba269f8276910964de99dcb0e86cc2c15a7afa03ac 14548 bouncy_0.6.20071104-9.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bouncy"
+  ],
+  "Files": [
+    "b7ef4511a65f32bfea32e229bc60abd2 2057 bouncy_0.6.20071104-9.dsc ee11947b08851146ace01ec1b2c4553d 413823 bouncy_0.6.20071104.orig.tar.gz a13bdd503e1a857a05e6125712ef81e4 14548 bouncy_0.6.20071104-9.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pyweek.org/e/bouncy/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "bouncy"
+  ],
+  "Package-List": [
+    "bouncy deb games optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Miriam Ruiz \u003clittle_miry@yahoo.es\u003e, Barry deFreese \u003cbdefreese@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/bouncy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/bouncy.git"
+  ],
+  "Version": [
+    "0.6.20071104-9"
+  ]
+}

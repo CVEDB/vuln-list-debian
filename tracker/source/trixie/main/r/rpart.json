@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rpart"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, r-cran-survival (\u003e= 2.13.2)"
+  ],
+  "Checksums-Sha256": [
+    "84bfc4124dbebd5c3f22a7789ce61cb85d78bef62d8aa617e9438948996b0ac2 1843 rpart_4.1.23-1.dsc f9b89aed6aa6cea656a2dcb271574e969ce2b1c98beb07bd91e17339f6daabaf 618016 rpart_4.1.23.orig.tar.gz 5cb2cd24d3faede047e4637de541ddf5dc350ad1309ba0cc3c8e974328ee34f3 4424 rpart_4.1.23-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rpart"
+  ],
+  "Files": [
+    "520a85e51a590c90e736473e247acf08 1843 rpart_4.1.23-1.dsc 3edb60e43c90b773588469edebc22596 618016 rpart_4.1.23.orig.tar.gz 9110632eeb4d602d93fb34ca71cb4f25 4424 rpart_4.1.23-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=rpart"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "rpart"
+  ],
+  "Package-List": [
+    "r-cran-rpart deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-rpart"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-rpart.git"
+  ],
+  "Version": [
+    "4.1.23-1"
+  ]
+}

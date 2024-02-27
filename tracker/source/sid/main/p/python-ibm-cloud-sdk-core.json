@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-ibm-cloud-sdk-core"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-dateutil, python3-jwt, python3-pytest, python3-requests, python3-responses, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "40de415f1246669e73c4043582a0e4c192faa1798f2b6289f832a632a0e81c1d 2019 python-ibm-cloud-sdk-core_3.18.2-1.dsc d208c84ab2842e8a52304b991cbf1fcbcabbaccb8cab301390ff9ce18f08fbd0 57920 python-ibm-cloud-sdk-core_3.18.2.orig.tar.gz 8b13033f0315459e82f11122ad07dc3348270416a701a7d2ce939c6fa0afc99e 5088 python-ibm-cloud-sdk-core_3.18.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ibm-cloud-sdk-core"
+  ],
+  "Files": [
+    "81bcd095f117a6f0d2d43fca92dc39c0 2019 python-ibm-cloud-sdk-core_3.18.2-1.dsc 3390a9c10823027d25a6c9dc15813e7b 57920 python-ibm-cloud-sdk-core_3.18.2.orig.tar.gz fdba712f09220c6ca59d3bcccc157cf4 5088 python-ibm-cloud-sdk-core_3.18.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/IBM/python-sdk-core/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-ibm-cloud-sdk-core"
+  ],
+  "Package-List": [
+    "python3-ibm-cloud-sdk-core deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-ibm-cloud-sdk-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-ibm-cloud-sdk-core.git"
+  ],
+  "Version": [
+    "3.18.2-1"
+  ]
+}

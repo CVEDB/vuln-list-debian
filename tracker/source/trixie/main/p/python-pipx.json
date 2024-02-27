@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pipx"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, dh-sequence-python3, mkdocs \u003c!nodoc\u003e, mkdocs-gen-files \u003c!nodoc\u003e, mkdocs-macros-plugin \u003c!nodoc\u003e, mkdocs-material \u003c!nodoc\u003e, python3, python3-argcomplete, python3-argparse-manpage \u003c!nodoc\u003e, python3-hatch-vcs, python3-hatchling, python3-packaging, python3-platformdirs, python3-tomli, python3-userpath"
+  ],
+  "Checksums-Sha256": [
+    "093e7741406e69a686bc4ad2c65d896f8b935fd6e72d8093eadd105f8bbc9662 1755 python-pipx_1.4.3-1.dsc 79b4b836b4ce497061f8d34348408c6dcec0b6aded0cf36fb3a39cd513ae1517 361782 python-pipx_1.4.3.orig.tar.gz 668bf37fc7daff12c9644cac052acaf9d91287b83f75bf6b1f5f6967b6049730 8128 python-pipx_1.4.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pipx"
+  ],
+  "Files": [
+    "a805a04715c09e42a21f114bf36f9a5f 1755 python-pipx_1.4.3-1.dsc c10f4b80e7909b08cbd2d5aebe92b6d0 361782 python-pipx_1.4.3.orig.tar.gz 64cc284f74632d3a3fd85fd958a7ea5b 8128 python-pipx_1.4.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pypa/pipx"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pipx"
+  ],
+  "Package-List": [
+    "pipx deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libtest-command-simple-perl, perl"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pipx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pipx.git"
+  ],
+  "Version": [
+    "1.4.3-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-pcapp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-mvtnorm"
+  ],
+  "Checksums-Sha256": [
+    "fd87335e1bad7103174fb22e3ed0254ba72f93792a80c5bf5027b9eb025f498a 2100 r-cran-pcapp_2.0-4-1.dsc d6c5670611d92ffa11904746a62191e6bcf294fb96afee10cb25ebbbd8458133 199329 r-cran-pcapp_2.0-4.orig.tar.gz 992938d6d162ee143b62ab07fd73458c140b622819809f9feb2e02e652566c98 3568 r-cran-pcapp_2.0-4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-pcapp"
+  ],
+  "Files": [
+    "60ffaa93e67c68c7dc4c61dc8aa35cb8 2100 r-cran-pcapp_2.0-4-1.dsc 1d4f3e97f1fca7cd3f476f33740b87c9 199329 r-cran-pcapp_2.0-4.orig.tar.gz 2b92d4afa6825fa5180834d99f68e670 3568 r-cran-pcapp_2.0-4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=pcaPP"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-pcapp"
+  ],
+  "Package-List": [
+    "r-cran-pcapp deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-robustbase"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-pcapp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-pcapp.git"
+  ],
+  "Version": [
+    "2.0-4-1"
+  ]
+}

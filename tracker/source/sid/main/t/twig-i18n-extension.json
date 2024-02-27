@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-twig-i18n-extension"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-phpmyadmin-motranslator, php-twig, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "b6aecbb26d44966a1707cb4152fef9092680db0ed25ae8cee2eb7baadcb4a390 2259 twig-i18n-extension_4.1.0-1.dsc aa18a0c7c1cc3b37ad7887b49a7605fdf00a8448ccd7c5349ec1dfe35ec1bc5e 11827 twig-i18n-extension_4.1.0.orig.tar.gz a248a3811f374bf6f4d1c74c7fbc04065044a9a750d5438f11c64949599e1ee6 3560 twig-i18n-extension_4.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/twig-i18n-extension"
+  ],
+  "Files": [
+    "f844c0df733ea47c98e4a6226e6ddb3d 2259 twig-i18n-extension_4.1.0-1.dsc 74f14683a34152fe98dae79b3806bcd6 11827 twig-i18n-extension_4.1.0.orig.tar.gz 0be90f8c339ba1a1581420e25dd50c4b 3560 twig-i18n-extension_4.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/phpmyadmin/twig-i18n-extension/"
+  ],
+  "Maintainer": [
+    "phpMyAdmin Team \u003cteam+phpmyadmin@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "twig-i18n-extension"
+  ],
+  "Package-List": [
+    "php-twig-i18n-extension deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-phpmyadmin-motranslator, phpab, phpunit"
+  ],
+  "Uploaders": [
+    "William Desportes \u003cwilliamdes@wdes.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/phpmyadmin-team/twig-i18n-extension"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/phpmyadmin-team/twig-i18n-extension.git -b debian/latest"
+  ],
+  "Version": [
+    "4.1.0-1"
+  ]
+}

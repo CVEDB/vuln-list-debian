@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "iredis"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-poetry, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "bd5fc1ae7c38a1dda9fda1fa81e7bea126e628e81db94dba98ba6d3c01a2da52 2004 iredis_1.14.1-1.dsc 257ca2f7b9ea762357957713e6dd8465d1314824088c505185983932b82337a0 274628 iredis_1.14.1.orig.tar.xz 9874829a90c0cbe2c1c66e47eabb5cd86e7f6ea94cbb9fdf8aaa83f4e6d5ec92 2708 iredis_1.14.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iredis"
+  ],
+  "Files": [
+    "02d25d3ce1e17df825710e24a18e897c 2004 iredis_1.14.1-1.dsc 5c81989217a97e21581c44ffb0d89033 274628 iredis_1.14.1.orig.tar.xz a2c0e4bafdeacd97a70102321b7834e2 2708 iredis_1.14.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://iredis.io"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "iredis"
+  ],
+  "Package-List": [
+    "iredis deb database optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/iredis"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/iredis"
+  ],
+  "Version": [
+    "1.14.1-1"
+  ]
+}

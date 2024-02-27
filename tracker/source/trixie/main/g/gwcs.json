@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-gwcs, python-gwcs-doc"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, libjs-jquery, libjs-underscore, pybuild-plugin-pyproject, python3-all, python3-asdf-astropy, python3-asdf-wcs-schemas, python3-astropy, python3-pytest, python3-pytest-doctestplus, python3-scipy, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-astropy, python3-sphinx-automodapi, python3-tomli"
+  ],
+  "Checksums-Sha256": [
+    "989ba2eb457ce73fd5a113549808ed4f4582f422147d23b9bc6363dc8f725c1f 2416 gwcs_0.20.0-1.dsc e3f445556656d214327e7ee722afa6e304ca83d8a9dd8491088067ce2ad01bee 188452 gwcs_0.20.0.orig.tar.gz 4f0b0684120db9d4170812e73a821eb009de4acf2c5feb2ac5c4b7e6c30492d0 4608 gwcs_0.20.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gwcs"
+  ],
+  "Files": [
+    "2c68df11307ff9f69e2e4033121841d5 2416 gwcs_0.20.0-1.dsc 295a9ca0e3e9774d8d1abfd7f4e6a410 188452 gwcs_0.20.0.orig.tar.gz f60103103ec87d2a5ed3d9b816602dd2 4608 gwcs_0.20.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gwcs.readthedocs.io"
+  ],
+  "Maintainer": [
+    "Debian Astro Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gwcs"
+  ],
+  "Package-List": [
+    "python-gwcs-doc deb doc optional arch=all python3-gwcs deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest, python3-scipy"
+  ],
+  "Uploaders": [
+    "Miguel de Val-Borro \u003cmiguel@archlinux.net\u003e, Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/gwcs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/gwcs.git"
+  ],
+  "Version": [
+    "0.20.0-1"
+  ]
+}

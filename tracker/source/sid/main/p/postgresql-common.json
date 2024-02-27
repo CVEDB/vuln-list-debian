@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "postgresql-common, postgresql-client-common, postgresql-server-dev-all, postgresql, postgresql-client, postgresql-doc, postgresql-contrib, postgresql-all"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "db724f047317e710ea641bfb206b9476daba5601c741b4ef183ffcc0000fcf09 2383 postgresql-common_257.dsc 5be68f37bb93b7c1c2328f49ef83fb9ff3a42c9dc13623a859878997f8bd46de 217492 postgresql-common_257.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/postgresql-common"
+  ],
+  "Files": [
+    "b97fe32b797509174673aa5d1fb7c240 2383 postgresql-common_257.dsc 1263fbf82b7c0b17f784f900b46c79ac 217492 postgresql-common_257.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "postgresql-common"
+  ],
+  "Package-List": [
+    "postgresql deb database optional arch=all postgresql-all deb database optional arch=all postgresql-client deb database optional arch=all postgresql-client-common deb database optional arch=all postgresql-common deb database optional arch=all postgresql-contrib deb database optional arch=all postgresql-doc deb doc optional arch=all postgresql-server-dev-all deb database optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "database"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debhelper, fakeroot, hunspell-en-us, iproute2, locales-all, logrotate, netcat-openbsd, perl, procps"
+  ],
+  "Uploaders": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e, Peter Eisentraut \u003cpetere@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/postgresql-common"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/postgresql-common.git"
+  ],
+  "Version": [
+    "257"
+  ]
+}

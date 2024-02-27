@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "alfred"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcap-dev [linux-any], libgps-dev (\u003e= 3.20), libnl-3-dev, libnl-genl-3-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "47a6415933cd75d2b6fc2feffafa7667aa9af1cbcb93ba785cd0ec3ef50b9642 2272 alfred_2024.0-1.dsc d029a43638ab16771e5f71e134bc843d1713d74041c65bcda18a31d18f5531bd 72979 alfred_2024.0.orig.tar.gz 1591df2f7bba9f32958d48a0fffff159fa7488f4dd7f5e5665ebebd7d8baa58b 919 alfred_2024.0.orig.tar.gz.asc 61b05c1f7d85835b77ce8f679a42ebb26ffc14cea240d147be50f96f00019805 8868 alfred_2024.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/alfred"
+  ],
+  "Files": [
+    "fa291737d3a56dde0fb6d3b3af09c3d1 2272 alfred_2024.0-1.dsc f8bac027d71c26f7d98a53f90c896057 72979 alfred_2024.0.orig.tar.gz 3ba50c2432cd3fe32277d5d1c6379bc1 919 alfred_2024.0.orig.tar.gz.asc d42bc728e324bcb9f94d4ab983a919a6 8868 alfred_2024.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-mesh.org/projects/alfred/wiki"
+  ],
+  "Maintainer": [
+    "Debian CommunityWLAN Team \u003cteam+communitywlan@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "alfred"
+  ],
+  "Package-List": [
+    "alfred deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/communitywlan-team/alfred"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/communitywlan-team/alfred.git -b debian/unstable"
+  ],
+  "Version": [
+    "2024.0-1"
+  ]
+}

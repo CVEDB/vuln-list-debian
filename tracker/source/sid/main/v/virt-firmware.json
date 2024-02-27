@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-virt-firmware"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "ddaeec19198feb3fca19d4f4bc9038634e17666e248a60f584b1e6c64dfdf74b 2012 virt-firmware_24.1.1-1.dsc a473df124ab4c84aaa218a7a4a488d2f97118c4b185dc1f7d7fabcff37a12673 96375 virt-firmware_24.1.1.orig.tar.gz 1a4b717b16217fde1ab60d8ca82910b4b5f0e24b85ed6d0b3ec4fe02d706f8cc 3012 virt-firmware_24.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/virt-firmware"
+  ],
+  "Files": [
+    "430667a691805ca44cde82869e82cafd 2012 virt-firmware_24.1.1-1.dsc 24ace368712e4950c7965244478edd66 96375 virt-firmware_24.1.1.orig.tar.gz fee4acee177fdfe20ec1638e3ef7cf78 3012 virt-firmware_24.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/kraxel/virt-firmware"
+  ],
+  "Maintainer": [
+    "dann frazier \u003cdannf@debian.org\u003e"
+  ],
+  "Package": [
+    "virt-firmware"
+  ],
+  "Package-List": [
+    "python3-virt-firmware deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dannf/virt-firmware"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dannf/virt-firmware.git"
+  ],
+  "Version": [
+    "24.1.1-1"
+  ]
+}

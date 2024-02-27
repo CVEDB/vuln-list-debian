@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libodsstream0, libodsstream-dev, libodsstream-doc, ods2tsv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1.1), dh-exec, cmake, d-shlibs, qt6-base-dev, libqt6core5compat6-dev, zlib1g-dev, libquazip1-qt6-dev, doxygen, catch2"
+  ],
+  "Checksums-Sha256": [
+    "d909a4e5e70edb48b6dea1b991c75cba3aa98ec3ff4f1ba9ee3c64ca7f037c6b 2263 libodsstream_0.9.6-1.dsc 830f233ecdf941dfb60fd9b8a1c528d932b75346b911efc6fee7ead4f6192f2f 98902 libodsstream_0.9.6.orig.tar.gz f7a0b1c92307438fb7beceea3aa186bd056aefe93da66fbb948f56aaa743ce24 5920 libodsstream_0.9.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libo/libodsstream"
+  ],
+  "Files": [
+    "683b795cf0630548f133f483491dd08d 2263 libodsstream_0.9.6-1.dsc cb82231d7769dfb28b0fc9ce0654a7a0 98902 libodsstream_0.9.6.orig.tar.gz e785dbf796845dbaf333057bf142804f 5920 libodsstream_0.9.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pappso.inrae.fr/bioinfo"
+  ],
+  "Maintainer": [
+    "The Debichem Group \u003cdebichem-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libodsstream"
+  ],
+  "Package-List": [
+    "libodsstream-dev deb libdevel optional arch=any libodsstream-doc deb doc optional arch=all libodsstream0 deb libs optional arch=any ods2tsv deb text optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Filippo Rusconi \u003clopippo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/libodsstream"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/libodsstream.git"
+  ],
+  "Version": [
+    "0.9.6-1"
+  ]
+}

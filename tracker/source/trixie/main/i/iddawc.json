@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libiddawc1.1, libiddawc-dev, idwcc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), liborcania-dev, libyder-dev, libulfius-dev, librhonabwy-dev, libgnutls28-dev, libjansson-dev, zlib1g-dev, cmake, pkg-config, check, doxygen, gnutls-bin, fonts-fork-awesome, libjs-jquery, libjs-bootstrap4, libjs-popper.js, node-qrcode-generator"
+  ],
+  "Checksums-Sha256": [
+    "94a2041a18748a107f88aac5decff2effb395fd4ffda9e8343b4598676c9bea8 2498 iddawc_1.1.9+ds-1.dsc 88fd76a4188bc7fb2effed6e3698fa328e5136f3f814fba8a6867927474026ad 187068 iddawc_1.1.9+ds.orig.tar.xz e574d5584ebf520b1422d9a41dcd58a9403ab5616b9974d8d1701ceb0c906a36 5884 iddawc_1.1.9+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iddawc"
+  ],
+  "Files": [
+    "4577c6f3efdcb5a6910cce06087a62ce 2498 iddawc_1.1.9+ds-1.dsc ebe38e35281fac30e99fd01c1e738d8d 187068 iddawc_1.1.9+ds.orig.tar.xz 744f1d34d9a7e7c1e74cac4fb7c1ff0c 5884 iddawc_1.1.9+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/babelouest/iddawc"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "iddawc"
+  ],
+  "Package-List": [
+    "idwcc deb devel optional arch=any libiddawc-dev deb libdevel optional arch=any libiddawc1.1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "check, gcc, gnutls-bin, libc-dev, libgnutls28-dev, libjansson-dev, liborcania-dev, librhonabwy-dev, libsubunit-dev, libulfius-dev, libyder-dev, pkg-config"
+  ],
+  "Uploaders": [
+    "Nicolas Mora \u003cbabelouest@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/iddawc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/iddawc.git"
+  ],
+  "Version": [
+    "1.1.9+ds-1"
+  ]
+}

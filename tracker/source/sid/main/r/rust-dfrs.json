@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dfrs"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native, rustc:native, libstd-rust-dev, librust-anyhow-1+default-dev, librust-colored-2+default-dev, librust-env-logger-0.10+default-dev, librust-lazy-static-1+default-dev (\u003e= 1.4-~~), librust-log-0.4+default-dev, librust-nix-0+default-dev (\u003e= 0.24-~~), librust-nix-0+fs-dev (\u003e= 0.24-~~), librust-structopt-0.3+default-dev, librust-strum-0.25+default-dev, librust-strum-macros-0.25+default-dev, bash-completion, scdoc"
+  ],
+  "Checksums-Sha256": [
+    "85e138d99fb2579bbce8ede5ae6dacc629e65cc2869de0915ea2c8b9312bf742 2398 rust-dfrs_0.0.7-9.dsc a7b46f8ef49cc26159f3588b6a54ccbed45b6367853e7841f5bb3bac8c4be0a1 30020 rust-dfrs_0.0.7.orig.tar.gz 73e8b5f92e799153a471882fddbd44c80ab8a54595fe6a3aa0a0b7f051529c81 3704 rust-dfrs_0.0.7-9.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-dfrs"
+  ],
+  "Files": [
+    "e8ac328897d14bd0d7938370a2f998cd 2398 rust-dfrs_0.0.7-9.dsc 7fd26138fc639e47ec536e1f8599f72b 30020 rust-dfrs_0.0.7.orig.tar.gz 6e7bd6207f366936e20329f69f1b3daa 3704 rust-dfrs_0.0.7-9.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/anthraxx/dfrs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-dfrs"
+  ],
+  "Package-List": [
+    "dfrs deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dfrs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/dfrs]"
+  ],
+  "Version": [
+    "0.0.7-9"
+  ]
+}

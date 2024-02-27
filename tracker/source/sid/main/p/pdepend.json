@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pdepend"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, php-symfony-config, php-symfony-dependency-injection, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "71744840fed34fd07e6c540a73c8a45b8710ef6f9810c5926104e7f251f73148 1835 pdepend_2.16.2-1.dsc 488cd5976e12e75e1a2c16ea28dd0c766b9febb4ac3dae324d3f049d8f177cfc 838092 pdepend_2.16.2.orig.tar.xz b8104092f3040ea3c6a7de04e4d538df73ba14220d6874b2bf084d9c8ec1a5c5 24208 pdepend_2.16.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdepend"
+  ],
+  "Files": [
+    "b2e36195f70f923ade7f30c93319843f 1835 pdepend_2.16.2-1.dsc ab67301b4cec8e57b0e0051fcad0cf1b 838092 pdepend_2.16.2.orig.tar.xz 355ef770d15afd1887a640251dd25af9 24208 pdepend_2.16.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pdepend.org"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pdepend"
+  ],
+  "Package-List": [
+    "pdepend deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "Prach Pongpanich \u003cprachpub@gmail.com\u003e, David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/pdepend"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/pdepend.git -b debian/latest"
+  ],
+  "Version": [
+    "2.16.2-1"
+  ]
+}

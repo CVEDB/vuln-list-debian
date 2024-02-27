@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libintelrdfpmath-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "d039da7b9bc3d3978fe1a8934380eb82113feb6ea5ef97829ebf9b740b4b0175 2001 intelrdfpmath_2.0u2-9.dsc 93c0c78e0989df88f8540bf38d6743734804cef1e40706fd8fe5c6a03f79e173 5886362 intelrdfpmath_2.0u2.orig.tar.gz 79f092260e5b083ffdcb7ec0b04217c4a6948055d183fc0ef7f4c3a378ebe54f 7324 intelrdfpmath_2.0u2-9.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/intelrdfpmath"
+  ],
+  "Files": [
+    "370fdbe800a6f8e534a76be63142046d 2001 intelrdfpmath_2.0u2-9.dsc df7cdbf4b02f4a46aa38a64f7dff69e0 5886362 intelrdfpmath_2.0u2.orig.tar.gz f8a78533a116cf9d97c538714d69f9a3 7324 intelrdfpmath_2.0u2-9.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://software.intel.com/en-us/articles/intel-decimal-floating-point-math-library"
+  ],
+  "Maintainer": [
+    "Christian Stalp \u003cchristian.stalp@mailbox.org\u003e"
+  ],
+  "Package": [
+    "intelrdfpmath"
+  ],
+  "Package-List": [
+    "libintelrdfpmath-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/intelrdfpmath"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/intelrdfpmath.git"
+  ],
+  "Version": [
+    "2.0u2-9"
+  ]
+}

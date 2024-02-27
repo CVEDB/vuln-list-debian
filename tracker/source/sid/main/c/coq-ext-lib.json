@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-ext-lib"
+  ],
+  "Build-Depends": [
+    "coq, debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-core-ocaml-dev, libcoq-stdlib"
+  ],
+  "Checksums-Sha256": [
+    "79700b63435804bc7b4f81c5fbac86813563908e8a49b642ef8b7ed7f0757150 2089 coq-ext-lib_0.12.0-1.dsc b46b2e139de395917d1fc713b33511a00b48674f2f02cf2cc1af209fef223b51 83450 coq-ext-lib_0.12.0.orig.tar.gz 59ec97967a778b444a85c3ade1fc02ef0e01482d6b07ac634e9a55269b29fc76 2248 coq-ext-lib_0.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-ext-lib"
+  ],
+  "Files": [
+    "0593ce3c7526712cf4120ddfc9ab5c0f 2089 coq-ext-lib_0.12.0-1.dsc ab08c703d854fdb90f35cf40614e089a 83450 coq-ext-lib_0.12.0.orig.tar.gz 3d768bce935197b7e3d216a6ccc7b08c 2248 coq-ext-lib_0.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/coq-community/coq-ext-lib"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-ext-lib"
+  ],
+  "Package-List": [
+    "libcoq-ext-lib deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-ext-lib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-ext-lib.git"
+  ],
+  "Version": [
+    "0.12.0-1"
+  ]
+}

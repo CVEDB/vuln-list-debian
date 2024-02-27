@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "adql-java, adql-java-doc"
+  ],
+  "Build-Depends": [
+    "ant, debhelper-compat (= 13), dh-exec, javahelper"
+  ],
+  "Build-Depends-Indep": [
+    "default-jdk, default-jdk-doc, gradle-debian-helper, javacc, junit4, libgradle-plugins-java, libpostgresql-jdbc-java, libpostgresql-jdbc-java-doc"
+  ],
+  "Checksums-Sha256": [
+    "7d7e5792c24c640b697efedbca3ddcba4fc363331b0fe0056eac67555a01f66c 2303 adql_2.0~beta+ds-2.dsc 83662d9c46ca67d104b1fb1351f2e997265f1431545f53e655bd95a25282f28f 231808 adql_2.0~beta+ds.orig.tar.xz 9d6ef6a6bd97ac01990f19f207dbb1cd4cbad0e379140375d1b3f9c4ed03d79c 7968 adql_2.0~beta+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/adql"
+  ],
+  "Files": [
+    "7f7534b089927ad75a343fa2b182d17c 2303 adql_2.0~beta+ds-2.dsc 4096a27bafef11086ff68f171ae5be83 231808 adql_2.0~beta+ds.orig.tar.xz 271c6df717cc5c14114079eb659a7feb 7968 adql_2.0~beta+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cdsportal.u-strasbg.fr/adqltuto/index.html"
+  ],
+  "Maintainer": [
+    "Debian Astro Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "adql"
+  ],
+  "Package-List": [
+    "adql-java deb java optional arch=all adql-java-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ant, ant-optional, default-jdk, junit4, libpostgresql-jdbc-java"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/adql"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/adql.git"
+  ],
+  "Version": [
+    "2.0~beta+ds-2"
+  ]
+}

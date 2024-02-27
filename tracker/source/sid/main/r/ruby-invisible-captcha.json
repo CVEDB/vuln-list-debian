@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-invisible-captcha"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 2.1~), rake, ruby-byebug, ruby-rails (\u003e= 2:6.1~), ruby-rspec, ruby-rspec-rails, ruby-test-unit, ruby-simplecov"
+  ],
+  "Checksums-Sha256": [
+    "e85e5cb4b0f8d7bdff8e71de41fe3658d7a71e619f81158a5bf0ddcdc059c7aa 2226 ruby-invisible-captcha_2.1.0-1.dsc 1d2f7a164c09a6cce71f7b54aeb6eda392241202426e92eecbe037eea66983a7 21573 ruby-invisible-captcha_2.1.0.orig.tar.gz 250f32bd89083dc7a288f3048a16d207db13009e6bf22f641f47ee2f30574614 4560 ruby-invisible-captcha_2.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-invisible-captcha"
+  ],
+  "Files": [
+    "77d61143dfb04d10316627f67fc66634 2226 ruby-invisible-captcha_2.1.0-1.dsc 5737c1acad2007ba38dcdf4370f0be26 21573 ruby-invisible-captcha_2.1.0.orig.tar.gz 0a93a2f879f4cb43f3cb87b854facf9a 4560 ruby-invisible-captcha_2.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/markets/invisible_captcha"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-invisible-captcha"
+  ],
+  "Package-List": [
+    "ruby-invisible-captcha deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Sruthi Chandran \u003csrud@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-invisible-captcha"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-invisible-captcha.git"
+  ],
+  "Version": [
+    "2.1.0-1"
+  ]
+}

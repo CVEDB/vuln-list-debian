@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python-greenlet-doc, python-greenlet-dev, python3-greenlet"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-objgraph, python3-psutil, python3-setuptools, python3-sphinx, sphinx-common"
+  ],
+  "Checksums-Sha256": [
+    "cd582cac10636391132f15b3c02c1bb5bd29175dbe823e8cd904974603be3c5d 1722 python-greenlet_3.0.1-2.dsc 13ba4f0085f7caa75e9995062683dc65b2819c93c714c96ac6362cb6fd8641b2 168973 python-greenlet_3.0.1.orig.tar.gz b6208ff59918271982ed6d96b8351e4c0da4dc661ed235bc400951e7fbb204ff 10444 python-greenlet_3.0.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-greenlet"
+  ],
+  "Files": [
+    "3732c16644cd2b4e487cbe7b0bb4520f 1722 python-greenlet_3.0.1-2.dsc 344be104975d01fc854663455b867a09 168973 python-greenlet_3.0.1.orig.tar.gz f20172748df005331de0b09857161787 10444 python-greenlet_3.0.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pypi.python.org/pypi/greenlet"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Package": [
+    "python-greenlet"
+  ],
+  "Package-List": [
+    "python-greenlet-dev deb python optional arch=any python-greenlet-doc deb doc optional arch=all python3-greenlet deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Uploaders": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e, Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-greenlet"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-greenlet.git"
+  ],
+  "Version": [
+    "3.0.1-2"
+  ]
+}

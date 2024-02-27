@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-shadow-rs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-const-format-0.2+default-dev (\u003e= 0.2.22-~~) \u003c!nocheck\u003e, librust-git2-0.18-dev \u003c!nocheck\u003e, librust-is-debug-1+default-dev (\u003e= 1.0.1-~~) \u003c!nocheck\u003e, librust-time-0.3+default-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-time-0.3+formatting-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-time-0.3+local-offset-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-time-0.3+parsing-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "54b6501711336a93f64d9308138bd027201c4edcacbf77592423db4a84056a27 2636 rust-shadow-rs_0.24.1-2.dsc f9198caff1c94f1a5df6664bddbc379896b51b98a55b0b3fedcb23078fe00c77 27168 rust-shadow-rs_0.24.1.orig.tar.gz 1c894c713f45c0397bc3580a874550201351106cb8e077f3714b6998bf68ccea 3976 rust-shadow-rs_0.24.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-shadow-rs"
+  ],
+  "Files": [
+    "5e335e3cd12b7a01875924dd69a495ef 2636 rust-shadow-rs_0.24.1-2.dsc d588433b58a5723073ae816c451cea39 27168 rust-shadow-rs_0.24.1.orig.tar.gz f0750451f5c49bfb0a42da4ae3c4a578 3976 rust-shadow-rs_0.24.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/baoyachi/shadow-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-shadow-rs"
+  ],
+  "Package-List": [
+    "librust-shadow-rs-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-regex-1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/shadow-rs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/shadow-rs]"
+  ],
+  "Version": [
+    "0.24.1-2"
+  ]
+}

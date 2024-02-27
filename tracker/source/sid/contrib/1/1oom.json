@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "1oom"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libsamplerate0-dev, libsdl2-dev, libsdl2-mixer-dev"
+  ],
+  "Checksums-Sha256": [
+    "ac821db221106149d0e252c0bf3518de6f6fe1932f913d60c1e33105fe211362 1938 1oom_1.8.0-1.dsc 5070dfc66d30fa97eda8269e251ff84c6ff3ddc14607477b06a3046417ba27ca 571828 1oom_1.8.0.orig.tar.gz 51bdb621d50baea42843848423f23015fb0c5ae7b4b8c7043d172e076430acdf 4376 1oom_1.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/1/1oom"
+  ],
+  "Files": [
+    "feb51b15ec3f0f1714f9d408f2079142 1938 1oom_1.8.0-1.dsc 85ec4ec3bded4e44608ac468315c3424 571828 1oom_1.8.0.orig.tar.gz 0971f27f0477d64480de2ae1fd5f3f86 4376 1oom_1.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kilgoretroutmaskreplicant.gitlab.io/plain-html/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "1oom"
+  ],
+  "Package-List": [
+    "1oom deb contrib/games optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Joseph Nahmias \u003cjello@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/1oom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/1oom.git"
+  ],
+  "Version": [
+    "1.8.0-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gcovr"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), python3, python3-setuptools, dh-python, help2man, python3-importlib-metadata, python3-lxml"
+  ],
+  "Checksums-Sha256": [
+    "0d76810a9e16663b63ab18cb0511ae18eb2016390829045cb1ae6105c6f0fff9 1908 gcovr_7.0-1.dsc 03ebb2485d1b07cf6bf363b6e7191b3d9c1d492003fbf06f06a7e954166bf132 2682509 gcovr_7.0.orig.tar.gz b22b577626ee9e192eff94af621d917f8e538ce8c5fe7032c47163dd6c2a482c 3816 gcovr_7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gcovr"
+  ],
+  "Files": [
+    "50e189805efb4ab910fcde917e69b889 1908 gcovr_7.0-1.dsc 2124853a579220f0f974d50a175d2a07 2682509 gcovr_7.0.orig.tar.gz 3934bc2cdb63b13439e396321d28a77a 3816 gcovr_7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gcovr.com/"
+  ],
+  "Maintainer": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Package": [
+    "gcovr"
+  ],
+  "Package-List": [
+    "gcovr deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/gcovr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/gcovr.git"
+  ],
+  "Version": [
+    "7.0-1"
+  ]
+}

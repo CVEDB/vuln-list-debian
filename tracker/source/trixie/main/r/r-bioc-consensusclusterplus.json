@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-consensusclusterplus"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase, r-bioc-all, r-cran-cluster"
+  ],
+  "Checksums-Sha256": [
+    "17da3abed3695e89465e953feb5da0a1724b0c0fc90e869619b04e76a0ba7d41 2260 r-bioc-consensusclusterplus_1.66.0-1.dsc bae72341fbc941456a94d67b890139fa98a8de645b38c4d0b771bc4a56faac87 236148 r-bioc-consensusclusterplus_1.66.0.orig.tar.gz 97372c05c28eea3d7eb22525815ccd51db46e2b0f4ec941e7f809679ceba711f 2176 r-bioc-consensusclusterplus_1.66.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-consensusclusterplus"
+  ],
+  "Files": [
+    "d95b972014147306c279c5d8f9af80b4 2260 r-bioc-consensusclusterplus_1.66.0-1.dsc 0943cc2a0d1dff314f384e65b8d71897 236148 r-bioc-consensusclusterplus_1.66.0.orig.tar.gz c5a4490f28cb6373dd46ed56533da063 2176 r-bioc-consensusclusterplus_1.66.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/ConsensusClusterPlus/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-consensusclusterplus"
+  ],
+  "Package-List": [
+    "r-bioc-consensusclusterplus deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-consensusclusterplus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-consensusclusterplus.git"
+  ],
+  "Version": [
+    "1.66.0-1"
+  ]
+}

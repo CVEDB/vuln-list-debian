@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kde-config-flatpak"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.102.0~), libconfig-dev, libflatpak-dev, libkf5config-dev (\u003e= 5.102.0~), libkf5declarative-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5itemmodels-dev (\u003e= 5.102.0~), libkf5kcmutils-dev (\u003e= 5.102.0~), libqt5svg5-dev (\u003e= 5.15.2~), pkg-config, qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "447260dcca5096a576df67b7f95042e0ed9b592d473bf0cca2adf199a3d526a9 2718 flatpak-kcm_5.27.10-1.dsc ba527040a4fa39ac0e3021bcf4117238d20eab148bc48259f5f9e3c86c885a55 230664 flatpak-kcm_5.27.10.orig.tar.xz 13660df2ce13fa5bbc588b699ab5cc56782844d5582b0fdbcbe9be30641dc42f 833 flatpak-kcm_5.27.10.orig.tar.xz.asc e21c5822bed19751cbbc180adbfb1649eaa2b50f7f3734ba7eaf5f13e46d8fb6 13004 flatpak-kcm_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/flatpak-kcm"
+  ],
+  "Files": [
+    "a6e842e547b68ab6b9cf3c51fceb9b2c 2718 flatpak-kcm_5.27.10-1.dsc 16e67ca215d44ec59130214ca6e13e80 230664 flatpak-kcm_5.27.10.orig.tar.xz da28a79736092fd5f02f6d230de936a2 833 flatpak-kcm_5.27.10.orig.tar.xz.asc 29f8243168ba7aea68990f7756dc71bf 13004 flatpak-kcm_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/flatpak-kcm"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "flatpak-kcm"
+  ],
+  "Package-List": [
+    "kde-config-flatpak deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/flatpak-kcm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/flatpak-kcm.git"
+  ],
+  "Version": [
+    "5.27.10-1"
+  ]
+}

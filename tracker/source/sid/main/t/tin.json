@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, bison, libcanlock-dev, libicu-dev, libncurses-dev, libpcre2-dev, libssl-dev, libuu-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "da8dd44aff0c76fdb4d8bcc509ec92b14bf26eb337e5a2409a2b3c8928f5f786 1316 tin_2.6.4~20240224-1.dsc 09aa255f11979e59082910a07e34d638ef08c9164fae71d52dee7740a312f978 1639352 tin_2.6.4~20240224.orig.tar.xz 11d0b86d84a5b4a343211180bf7cb074687b96d3ac538adefc9a4e67aad6eee1 15268 tin_2.6.4~20240224-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tin"
+  ],
+  "Files": [
+    "a8dd47141d9ede70f90d35852a7192c9 1316 tin_2.6.4~20240224-1.dsc 214e5622210f1cf3b0d3fb61d5014762 1639352 tin_2.6.4~20240224.orig.tar.xz 98d6b87e1ecd15de31274a8b8a980b1a 15268 tin_2.6.4~20240224-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.tin.org/"
+  ],
+  "Maintainer": [
+    "Marco d'Itri \u003cmd@linux.it\u003e"
+  ],
+  "Package": [
+    "tin"
+  ],
+  "Package-List": [
+    "tin deb news optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "news"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/md/tin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/md/tin.git"
+  ],
+  "Version": [
+    "1:2.6.4~20240224-1"
+  ]
+}

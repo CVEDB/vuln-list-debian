@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armhf i386 powerpc ppc64el ppc64 mips64el riscv64 sparc64 s390x loong64"
+  ],
+  "Binary": [
+    "libopenblas0, libopenblas0-pthread, libopenblas0-openmp, libopenblas0-serial, libopenblas-dev, libopenblas-pthread-dev, libopenblas-openmp-dev, libopenblas-serial-dev, libopenblas64-0, libopenblas64-0-pthread, libopenblas64-0-openmp, libopenblas64-0-serial, libopenblas64-dev, libopenblas64-pthread-dev, libopenblas64-openmp-dev, libopenblas64-serial-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 12.8~), gfortran, liblapack-dev (\u003e= 3.12), liblapack64-dev (\u003e= 3.12) [amd64 arm64 ppc64el ppc64 mips64el riscv64 sparc64 s390x loong64]"
+  ],
+  "Checksums-Sha256": [
+    "b87770354793b4056faa0788574b3b15eccfad6b300e5cabd3b0698606d9b85e 4553 openblas_0.3.26+ds-1.dsc 246434b777a3431742d178cdd7d0ea3562771a4eda41e39cd7ca142acd7f6493 1994012 openblas_0.3.26+ds.orig.tar.xz 7dbb87740729508dab8701cd99ba2f1a52430d19947223d2c44d97e7f2981a69 24448 openblas_0.3.26+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openblas"
+  ],
+  "Files": [
+    "8f8570c36bec68896406991653f6b9a9 4553 openblas_0.3.26+ds-1.dsc d96b00b27058645e0b861e342086561a 1994012 openblas_0.3.26+ds.orig.tar.xz a5fcf90fa6be01a06d77d9165b97bca7 24448 openblas_0.3.26+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openblas.net/"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "openblas"
+  ],
+  "Package-List": [
+    "libopenblas-dev deb metapackages optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas-openmp-dev deb libdevel optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas-pthread-dev deb libdevel optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas-serial-dev deb libdevel optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas0 deb metapackages optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas0-openmp deb libs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas0-pthread deb libs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas0-serial deb libs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-0 deb metapackages optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-0-openmp deb libs optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-0-pthread deb libs optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-0-serial deb libs optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-dev deb metapackages optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-openmp-dev deb libdevel optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-pthread-dev deb libdevel optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64 libopenblas64-serial-dev deb libdevel optional arch=amd64,arm64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x,loong64"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dpkg-dev, gfortran"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e, Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/openblas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/openblas.git"
+  ],
+  "Version": [
+    "0.3.26+ds-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rbootd"
+  ],
+  "Build-Depends": [
+    "libpcap-dev"
+  ],
+  "Checksums-Sha256": [
+    "b861c74b9a8ee2c834fed719572c9e5afa800cff17a416c7ff1a2fdd040aee7f 1603 rbootd_3.2.dsc 3340db07a7bab5bcb2a83ea933569ef272f76e3de067bc614480515d1f8da155 32056 rbootd_3.2.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rbootd"
+  ],
+  "Files": [
+    "c1b1738acf2a8b86d40f50780cb3b640 1603 rbootd_3.2.dsc 8352aba4c4cdabd40d90b7663013387d 32056 rbootd_3.2.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/deller/rbootd.git"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "rbootd"
+  ],
+  "Package-List": [
+    "rbootd deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/deller/rbootd.git"
+  ],
+  "Vcs-Git": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/deller/rbootd.git"
+  ],
+  "Version": [
+    "3.2"
+  ]
+}

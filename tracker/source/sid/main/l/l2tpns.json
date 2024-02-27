@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "l2tpns"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcli-dev"
+  ],
+  "Checksums-Sha256": [
+    "7803ee4c0496a8556c1210485081bedba6847d629bc27cd0b97bc20473ca2375 1958 l2tpns_2.4.1-2.dsc e76b3085ef97a74a3aa16d49fe9a9ef0ac43a3eb679d5f80150ac71c879add7c 862492 l2tpns_2.4.1.orig.tar.gz 802da4d6c56035ee731acd2a00e4db09e78470c56a8c443098e9dd0a998202e4 5464 l2tpns_2.4.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/l2tpns"
+  ],
+  "Files": [
+    "86f2ab5b99ba1b39264e8fd1135998d1 1958 l2tpns_2.4.1-2.dsc 50e9d52a69dbcb4c6bf8c7763512f1e6 862492 l2tpns_2.4.1.orig.tar.gz c44e7fa94b263e98502f90c0b0d9b464 5464 l2tpns_2.4.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian l2tpns Packaging Team \u003cteam+debian-l2tpns@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "l2tpns"
+  ],
+  "Package-List": [
+    "l2tpns deb net optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Sebastien Badia \u003csbadia@debian.org\u003e, Julien Rabier \u003cjulien@ilico.org\u003e, Fernando Alves \u003cfendo@sameswifi.fr\u003e, Samuel Thibault \u003csthibault@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/l2tpns"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/l2tpns.git"
+  ],
+  "Version": [
+    "2.4.1-2"
+  ]
+}

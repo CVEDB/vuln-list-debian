@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnorm1, libnorm-dev, libnorm-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libpcap-dev [hurd-any], libxml2-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "a99a29b037e9249078634fd447630e7f217ef64128867c19444d7028699dbc3d 2028 norm_1.5.9+dfsg-3.dsc 603218491eaafddab44e6a5a5d6f57ff16558df9923fde0c2b21e6e17397394c 1526456 norm_1.5.9+dfsg.orig.tar.xz e869ff6497f07097a107b3cfd794e91533987a217867f83fc0599ca4c6fad5b0 9084 norm_1.5.9+dfsg-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/norm"
+  ],
+  "Files": [
+    "97e3940a85142678c49cebcf272fb8a9 2028 norm_1.5.9+dfsg-3.dsc 693775f66379c1a4e17b2fce278021c6 1526456 norm_1.5.9+dfsg.orig.tar.xz 6e0c2b6cacef74822f933e7192015017 9084 norm_1.5.9+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nrl.navy.mil/itd/ncs/products/norm"
+  ],
+  "Maintainer": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e"
+  ],
+  "Package": [
+    "norm"
+  ],
+  "Package-List": [
+    "libnorm-dev deb libdevel optional arch=any libnorm-doc deb doc optional arch=all libnorm1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/norm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/norm.git"
+  ],
+  "Version": [
+    "1.5.9+dfsg-3"
+  ]
+}

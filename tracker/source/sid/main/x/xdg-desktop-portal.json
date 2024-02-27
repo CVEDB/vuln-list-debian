@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "xdg-desktop-portal, xdg-desktop-portal-dev, xdg-desktop-portal-tests"
+  ],
+  "Build-Depends": [
+    "dbus-daemon, debhelper-compat (= 13), geoclue-2.0 \u003c!nocheck\u003e, fuse3 \u003c!nocheck\u003e, libcap2-bin \u003c!nocheck\u003e, libgdk-pixbuf-2.0-dev, libgeoclue-2-dev, libflatpak-dev, libfuse3-dev, libglib2.0-dev, libjson-glib-dev, libpipewire-0.3-dev, libportal-dev (\u003e= 0.3), libsystemd-dev, meson, pipewire \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, python3 \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, python3-gi \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, xmlto"
+  ],
+  "Checksums-Sha256": [
+    "b077d7b4d4a4586cb6aedececf9056e130b434e603db61cddafb52c041f2738f 2694 xdg-desktop-portal_1.18.2-1.dsc dfac239c5476aafd117a9a10131a2f0b142f72106c52fc03859938e00545f440 698912 xdg-desktop-portal_1.18.2.orig.tar.xz 7655b409ae1093869b36026595d5bd89a09853e268b913fc3f15b9186e9aa5d3 10696 xdg-desktop-portal_1.18.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xdg-desktop-portal"
+  ],
+  "Files": [
+    "87bc2a100470037a9a7fbd0e673af3f8 2694 xdg-desktop-portal_1.18.2-1.dsc 20e0b28c1528e57b13cc236ba7840e03 698912 xdg-desktop-portal_1.18.2.orig.tar.xz 9783b059570b17e3b846487d5addf28a 10696 xdg-desktop-portal_1.18.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/flatpak/xdg-desktop-portal"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "xdg-desktop-portal"
+  ],
+  "Package-List": [
+    "xdg-desktop-portal deb admin optional arch=linux-any xdg-desktop-portal-dev deb admin optional arch=all xdg-desktop-portal-tests deb admin optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gnome-desktop-testing"
+  ],
+  "Uploaders": [
+    "Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/xdg-desktop-portal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/xdg-desktop-portal.git"
+  ],
+  "Version": [
+    "1.18.2-1"
+  ]
+}

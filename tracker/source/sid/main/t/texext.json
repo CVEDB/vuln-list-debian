@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-texext"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-docutils, python3-matplotlib, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinxtesters, python3-sympy"
+  ],
+  "Checksums-Sha256": [
+    "2629608c16f8e061a48ab21b27df3bd240109f770ded5b9793a41843c5c96594 2128 texext_0.6.7-3.dsc f1fc9d0665694176de7e48cd4ef4786c8902e40776bb1652fa3ded11c9c8ccb2 33368 texext_0.6.7.orig.tar.xz 16e83c2e31d34c7283bacb587ab58094ba18bbad75a26c9e6b0bc4960877e42b 3892 texext_0.6.7-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/texext"
+  ],
+  "Files": [
+    "5fcd11add22dfa500de5855a00138bd3 2128 texext_0.6.7-3.dsc 89daf50f28c7d93aaee9ed2838aa972d 33368 texext_0.6.7.orig.tar.xz 8522661efdbf552f90c4e57ea70ef83c 3892 texext_0.6.7-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/matthew-brett/texext"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "texext"
+  ],
+  "Package-List": [
+    "python3-texext deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/texext"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/texext.git"
+  ],
+  "Version": [
+    "0.6.7-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "openssl, libssl3, libcrypto3-udeb, libssl3-udeb, libssl-dev, libssl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.15.7)"
+  ],
+  "Checksums-Sha256": [
+    "57b8018f770cfa4d68efb6ba1be0d8849a722de329425e2f37e2eba68b947f34 2451 openssl_3.1.5-1.dsc 6ae015467dabf0469b139ada93319327be24b98251ffaeceda0221848dc09262 15663524 openssl_3.1.5.orig.tar.gz 817a9db4196f2aa7dcb2d0775afaf83ec0eb372c865664c157345a4b0d3bc85b 833 openssl_3.1.5.orig.tar.gz.asc 2583bb40965003bcb7f922e80956e7a8a62c98b40e7586f6c34742c8de3c91fa 69824 openssl_3.1.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openssl"
+  ],
+  "Files": [
+    "79c7a2d29e3e9c5ee5798c0dc01c4dc0 2451 openssl_3.1.5-1.dsc 567235bf15ad72fcb9555e3b1c8ee4bc 15663524 openssl_3.1.5.orig.tar.gz c4876eb67699bc6e374388f1b6314d97 833 openssl_3.1.5.orig.tar.gz.asc e960fdf8395c157337b78684f7491758 69824 openssl_3.1.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openssl.org/"
+  ],
+  "Maintainer": [
+    "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "openssl"
+  ],
+  "Package-List": [
+    "libcrypto3-udeb udeb debian-installer optional arch=any profile=!noudeb libssl-dev deb libdevel optional arch=any libssl-doc deb doc optional arch=all libssl3 deb libs optional arch=any libssl3-udeb udeb debian-installer optional arch=any profile=!noudeb openssl deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "perl"
+  ],
+  "Uploaders": [
+    "Christoph Martin \u003cchristoph.martin@uni-mainz.de\u003e, Kurt Roeckx \u003ckurt@roeckx.be\u003e, Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/openssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/openssl.git"
+  ],
+  "Version": [
+    "3.1.5-1"
+  ]
+}

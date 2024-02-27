@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "texinfo, texinfo-lib, info, install-info"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libncurses-dev, gettext, libtext-unidecode-perl, help2man, libperl-dev, desktop-file-utils"
+  ],
+  "Checksums-Sha256": [
+    "12926ef9447a28e75e53076bf508c6381ff819a0f3f3be5e18401635ec076047 2438 texinfo_7.1-3.dsc deeec9f19f159e046fdf8ad22231981806dac332cc372f1c763504ad82b30953 5545720 texinfo_7.1.orig.tar.xz 50ad81ddd18394b4c9382e6966c56a8593a8c83e3f36871aa54d1f9419bf5472 28704 texinfo_7.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/texinfo"
+  ],
+  "Files": [
+    "a556e0a89fdeec883be57b815a65605e 2438 texinfo_7.1-3.dsc edd9928b4a3f82674bcc3551616eef3b 5545720 texinfo_7.1.orig.tar.xz a2a4dc6f05cf99404a97a77a74622da7 28704 texinfo_7.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/texinfo/"
+  ],
+  "Maintainer": [
+    "Debian TeX Task Force \u003cdebian-tex-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "texinfo"
+  ],
+  "Package-List": [
+    "info deb doc important arch=any install-info deb doc important arch=any texinfo deb text optional arch=all texinfo-lib deb text optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "doc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gettext, libncurses-dev, libperl-dev, libtext-unidecode-perl"
+  ],
+  "Uploaders": [
+    "Norbert Preining \u003cnorbert@preining.info\u003e, Frank Küster \u003cfrank@debian.org\u003e, Hilmar Preusse \u003chille42@web.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-tex/texinfo"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-tex/texinfo.git"
+  ],
+  "Version": [
+    "7.1-3"
+  ]
+}

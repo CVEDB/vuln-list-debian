@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "colmap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libeigen3-dev, libgoogle-glog-dev, libceres-dev, libcgal-dev, libqt5opengl5-desktop-dev, libflann-dev, libfreeimage-dev, libglew-dev, libmetis-dev, libsqlite3-dev, libboost-system-dev, libboost-program-options-dev, libboost-filesystem-dev, libboost-regex-dev, libboost-test-dev, libboost-graph-dev, libsuitesparse-dev"
+  ],
+  "Checksums-Sha256": [
+    "e0826210289fb964bbfd006d75cf480a3b0be52848a4867dfaca7be333d30976 2124 colmap_3.9.1-2.dsc f947ad80802baa8f00f30f26d316d8c608ab2626465eac1c81cf325d57879862 3399928 colmap_3.9.1.orig.tar.gz 27893bfaf40c2433cef8015371aa0b8799d2180139ae11272936477fa70415c7 22376 colmap_3.9.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/colmap"
+  ],
+  "Files": [
+    "ae1e240dba9a922c067a594b941d1cb0 2124 colmap_3.9.1-2.dsc 8e25cea0e4ea4924a9df4d16fe2649ec 3399928 colmap_3.9.1.orig.tar.gz 8dc88422a40499c093683ec406a2f625 22376 colmap_3.9.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/colmap/colmap"
+  ],
+  "Maintainer": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e"
+  ],
+  "Package": [
+    "colmap"
+  ],
+  "Package-List": [
+    "colmap deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tar/colmap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tar/colmap.git"
+  ],
+  "Version": [
+    "3.9.1-2"
+  ]
+}

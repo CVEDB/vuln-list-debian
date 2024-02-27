@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-aom-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen-0.66+default-dev \u003c!nocheck\u003e, librust-system-deps-6+default-dev \u003c!nocheck\u003e, libaom-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ffb8707bdc237cdd2b0fa63bae3b57e9c656692eb1598557db8851a3cff23e51 1616 rust-aom-sys_0.3.3-1.dsc 623675d7dbe1d65db81582231b0971384277a4dd2006763021ba2436e86f812d 3736 rust-aom-sys_0.3.3.orig.tar.gz d76fe4fe05907497d983cb1011b339dff3fecebe30b026cc5f2484a421b7714f 2964 rust-aom-sys_0.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-aom-sys"
+  ],
+  "Files": [
+    "3fbfaa8186e3a9cd5a1692e5fe5f6cf1 1616 rust-aom-sys_0.3.3-1.dsc bf22fd51c3068951104ac0aaaf1cb637 3736 rust-aom-sys_0.3.3.orig.tar.gz 8ac9ca13323d993e887bb0ad841ba126 2964 rust-aom-sys_0.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-aom-sys"
+  ],
+  "Package-List": [
+    "librust-aom-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/aom-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/aom-sys]"
+  ],
+  "Version": [
+    "0.3.3-1"
+  ]
+}

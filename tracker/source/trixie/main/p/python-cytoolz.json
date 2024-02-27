@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-cytoolz"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libpython3-all-dev, python3-all-dev:any, python3-pytest \u003c!nocheck\u003e, python3-toolz, python3-setuptools, cython3:native"
+  ],
+  "Checksums-Sha256": [
+    "a7d8393e3932d77a1ebea97215466d10e55d6c46c80c4f223cad1ad9b297c978 1602 python-cytoolz_0.12.2-1.dsc 7396d1e2fa64fe49d1498c35ed210b872212308d327e1ed88caf342f6833f461 59976 python-cytoolz_0.12.2.orig.tar.xz 10bd7f03e6f6b338c377589ce2f978a9d84c9bcdb4f10dbb3bb998c07af5f0bd 4464 python-cytoolz_0.12.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-cytoolz"
+  ],
+  "Files": [
+    "e88a1783c14b5d17bcf472696703cf50 1602 python-cytoolz_0.12.2-1.dsc 7e29d661a1e0a972e62d4f99830a0320 59976 python-cytoolz_0.12.2.orig.tar.xz 2b17fa17c897a6944c1daa65e490f310 4464 python-cytoolz_0.12.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytoolz/cytoolz"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-cytoolz"
+  ],
+  "Package-List": [
+    "python3-cytoolz deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-cytoolz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-cytoolz.git"
+  ],
+  "Version": [
+    "0.12.2-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "mpc-ace, libace-7.1.2, libace-dev, libace-doc, libace-ssl-7.1.2, libace-ssl-dev, libace-rmcast-7.1.2, libace-rmcast-dev, libace-tmcast-7.1.2, libace-tmcast-dev, libace-htbp-7.1.2, libace-htbp-dev, libace-inet-7.1.2, libace-inet-dev, libace-inet-ssl-7.1.2, libace-inet-ssl-dev, ace-gperf, libacexml-7.1.2, libacexml-dev, libace-xml-utils-7.1.2, libace-xml-utils-dev, libkokyu-7.1.2, libkokyu-dev, libace-xtreactor-7.1.2, libace-xtreactor-dev, libace-tkreactor-7.1.2, libace-tkreactor-dev, libace-flreactor-7.1.2, libace-flreactor-dev, libace-foxreactor-7.1.2, libace-foxreactor-dev, ace-netsvcs, libnetsvcs-7.1.2, libnetsvcs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libxt-dev (\u003e= 4.3.0), libfltk1.3-dev, tk-dev (\u003e= 8.5), libfox-1.6-dev, docbook-to-man, libxerces-c-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha256": [
+    "c1c58499b1231356f1211d226b1c1a402d8cfc6ff46f1e170d99463bb5192ccf 4292 ace_7.1.2+dfsg-2.dsc 90e47ffafcba90b9e899fbac834076655dee1a0c8330070405a4ddaf3700a387 8192621 ace_7.1.2+dfsg.orig.tar.gz a53bab8e79438f0c863a54efaefa976796a57604d72ebd54770f08ebe77f3b16 34092 ace_7.1.2+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/ace"
+  ],
+  "Files": [
+    "4b020389d8e5f4045f0e26b275f567c8 4292 ace_7.1.2+dfsg-2.dsc 0fe3d15e6bd6c832cd85aee3fd92f532 8192621 ace_7.1.2+dfsg.orig.tar.gz 149480c174ca2b5d4f8ffaa1a481a450 34092 ace_7.1.2+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.dre.vanderbilt.edu/~schmidt/ACE.html"
+  ],
+  "Maintainer": [
+    "Debian ACE maintainers \u003cteam+ace@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ace"
+  ],
+  "Package-List": [
+    "ace-gperf deb devel optional arch=any ace-netsvcs deb devel optional arch=any libace-7.1.2 deb libs optional arch=any libace-dev deb libdevel optional arch=any libace-doc deb doc optional arch=all libace-flreactor-7.1.2 deb libs optional arch=any libace-flreactor-dev deb libdevel optional arch=any libace-foxreactor-7.1.2 deb libs optional arch=any libace-foxreactor-dev deb libdevel optional arch=any libace-htbp-7.1.2 deb libs optional arch=any libace-htbp-dev deb libdevel optional arch=any libace-inet-7.1.2 deb libs optional arch=any libace-inet-dev deb libdevel optional arch=any libace-inet-ssl-7.1.2 deb libs optional arch=any libace-inet-ssl-dev deb libdevel optional arch=any libace-rmcast-7.1.2 deb libs optional arch=any libace-rmcast-dev deb libdevel optional arch=any libace-ssl-7.1.2 deb libs optional arch=any libace-ssl-dev deb libdevel optional arch=any libace-tkreactor-7.1.2 deb libs optional arch=any libace-tkreactor-dev deb libdevel optional arch=any libace-tmcast-7.1.2 deb libs optional arch=any libace-tmcast-dev deb libdevel optional arch=any libace-xml-utils-7.1.2 deb libs optional arch=any libace-xml-utils-dev deb libdevel optional arch=any libace-xtreactor-7.1.2 deb libs optional arch=any libace-xtreactor-dev deb libdevel optional arch=any libacexml-7.1.2 deb libs optional arch=any libacexml-dev deb libdevel optional arch=any libkokyu-7.1.2 deb libs optional arch=any libkokyu-dev deb libdevel optional arch=any libnetsvcs-7.1.2 deb libs optional arch=any libnetsvcs-dev deb libdevel optional arch=any mpc-ace deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Thomas Girard \u003cthomas.g.girard@free.fr\u003e, Johnny Willemsen \u003cjwillemsen@remedy.nl\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ace"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ace.git"
+  ],
+  "Version": [
+    "7.1.2+dfsg-2"
+  ]
+}

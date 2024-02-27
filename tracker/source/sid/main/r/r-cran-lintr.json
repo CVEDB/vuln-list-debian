@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-lintr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-backports, r-cran-codetools, r-cran-cyclocomp, r-cran-digest, r-cran-glue, r-cran-knitr, r-cran-rex, r-cran-xml2, r-cran-xmlparsedata"
+  ],
+  "Checksums-Sha256": [
+    "9a0571cf3d97bb95d690216351617537fa8aa4ede7a3ef197219404568f0aa0d 2413 r-cran-lintr_3.1.1-1.dsc bcf146f4e74e6bf132fcbee7c9a43cd9c8abb4787e76a4164fa20468c180871d 2424354 r-cran-lintr_3.1.1.orig.tar.gz 6209c5cab2d58e7a88e1de8bbe912a2591031be758afe0a2cee77b3d85675e24 3220 r-cran-lintr_3.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-lintr"
+  ],
+  "Files": [
+    "bf831dc615b046f14d659489edf10e72 2413 r-cran-lintr_3.1.1-1.dsc 8bd97eec8532bedbca25108a9b7b4cea 2424354 r-cran-lintr_3.1.1.orig.tar.gz 8f054a3c8b56e50303095c6c449216c6 3220 r-cran-lintr_3.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=lintr"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-lintr"
+  ],
+  "Package-List": [
+    "r-cran-lintr deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bookdown, r-cran-crayon, r-cran-httr, r-cran-jsonlite, r-cran-mockery, r-cran-patrick, r-cran-rlang, r-cran-rmarkdown, r-cran-rstudioapi, r-cran-testthat, r-cran-tibble, r-cran-tufte, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-lintr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-lintr.git"
+  ],
+  "Version": [
+    "3.1.1-1"
+  ]
+}

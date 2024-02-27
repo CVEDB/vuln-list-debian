@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-jsimonetti-rtnetlink-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-cilium-ebpf-dev, golang-github-google-go-cmp-dev, golang-github-mdlayher-netlink-dev (\u003e= 1.4), golang-golang-x-sys-dev"
+  ],
+  "Checksums-Sha256": [
+    "76721cebfbd9a8cfd50580ff441854b025764f159e5d3d93376317b3002a2659 2542 golang-github-jsimonetti-rtnetlink_1.4.1-1.dsc d9f834330e19064339ceb4d3d304e111a713c30a10d507c007ae8f99d1f7a812 95307 golang-github-jsimonetti-rtnetlink_1.4.1.orig.tar.gz 449204c8b04350070af2afcd658407c3402627459c09f7efd5ecf2a435fc25a4 2796 golang-github-jsimonetti-rtnetlink_1.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-jsimonetti-rtnetlink"
+  ],
+  "Files": [
+    "f9dd3cb15fe10ec02993f6980034e12d 2542 golang-github-jsimonetti-rtnetlink_1.4.1-1.dsc 635f8c5812f9cde2a3a3238c9ce1d579 95307 golang-github-jsimonetti-rtnetlink_1.4.1.orig.tar.gz 5da41ea04684852c799fb9dc272acedd 2796 golang-github-jsimonetti-rtnetlink_1.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/jsimonetti/rtnetlink"
+  ],
+  "Homepage": [
+    "https://github.com/jsimonetti/rtnetlink"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-jsimonetti-rtnetlink"
+  ],
+  "Package-List": [
+    "golang-github-jsimonetti-rtnetlink-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Benjamin Drung \u003cbdrung@debian.org\u003e, Daniel Swarbrick \u003cdswarbrick@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-jsimonetti-rtnetlink"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-jsimonetti-rtnetlink.git"
+  ],
+  "Version": [
+    "1.4.1-1"
+  ]
+}

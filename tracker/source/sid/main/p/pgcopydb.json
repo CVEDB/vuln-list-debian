@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pgcopydb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libedit-dev, libkrb5-dev, liblz4-dev, libncurses-dev, libpam0g-dev, libreadline-dev, libselinux1-dev, libsqlite3-dev, libssl-dev, libxslt1-dev, libzstd-dev, postgresql, postgresql-server-dev-all (\u003e= 158~), python3-sphinx, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "2582320de70dc0c59b673752b312b8531aa5d4835ebb6e4a8bccdc5369842af5 2150 pgcopydb_0.15-1.dsc 8a13600e0340ae640e75c8c3826faae037e759d3d6573881895f119f8545ddd5 16347437 pgcopydb_0.15.orig.tar.gz 084e89eb926b5ec8f94543487d0538fefc74f9dbce3670001b7ddc13c59b1bce 4036 pgcopydb_0.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgcopydb"
+  ],
+  "Files": [
+    "e65d6360f7a5239b40f6fc44956e6336 2150 pgcopydb_0.15-1.dsc e340539d0feff4fc43b15e8c78a38568 16347437 pgcopydb_0.15.orig.tar.gz f3f16125d7e9c70aaa536a13d391a7c7 4036 pgcopydb_0.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dimitri/pgcopydb"
+  ],
+  "Maintainer": [
+    "Dimitri Fontaine \u003cdim@tapoueh.org\u003e"
+  ],
+  "Package": [
+    "pgcopydb"
+  ],
+  "Package-List": [
+    "pgcopydb deb database optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/dimitri/pgcopydb"
+  ],
+  "Vcs-Git": [
+    "https://github.com/dimitri/pgcopydb.git"
+  ],
+  "Version": [
+    "0.15-1"
+  ]
+}

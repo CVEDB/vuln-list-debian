@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all amd64 arm64 i386 ia64 loong64 mips64el ppc64 ppc64el riscv64 s390x sparc64 x32"
+  ],
+  "Binary": [
+    "libgudhi-dev, libgudhi-examples, libgudhi-doc, python3-gudhi, gudhui, gudhi-utils"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.8), cython3 (\u003e= 3.0.0), debhelper-compat (= 13), dh-python, libboost-filesystem-dev (\u003e= 1.71), libboost-program-options-dev (\u003e= 1.71), libboost-system-dev (\u003e= 1.71), libboost-test-dev (\u003e= 1.71), libboost-thread-dev (\u003e= 1.71), libboost-timer-dev (\u003e= 1.71), libcgal-dev (\u003e= 5.5.1), libcgal-qt5-dev (\u003e= 5.5.1), libeigen3-dev, libgmp-dev, libhera-dev (\u003e= 2.0.0), libqglviewer-dev-qt5, libtbb-dev, pybind11-dev, python3-all-dev, python3-eagerpy, python3-matplotlib, python3-numpy, python3-pot, python3-pybind11, python3-pytest, python3-scipy, python3-setuptools, python3-sklearn, python3-tk, qtbase5-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha256": [
+    "b3c0ab8c30eb4cf6f8eecaabd86a8939eb66f4cf2829640d502cf7e7c78c824c 3246 gudhi_3.9.0+dfsg-1.dsc 47ddda12099ac5ef02425257896f785865a1eebd22231a45d8553a10d3346312 17680040 gudhi_3.9.0+dfsg.orig.tar.xz 5620bae0f2ec34d8573fa0cb5dd7437a0e4675a6eddd46573135b0f1109f474d 11188 gudhi_3.9.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gudhi"
+  ],
+  "Files": [
+    "140b21d402d9233b2785d6c389a62e7e 3246 gudhi_3.9.0+dfsg-1.dsc dae2ee1b23201daf9bd89d36a03c963a 17680040 gudhi_3.9.0+dfsg.orig.tar.xz e02a0640156f129df374b8ef77436419 11188 gudhi_3.9.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gudhi.inria.fr/"
+  ],
+  "Maintainer": [
+    "Gard Spreemann \u003cgspr@nonempty.org\u003e"
+  ],
+  "Package": [
+    "gudhi"
+  ],
+  "Package-List": [
+    "gudhi-utils deb math optional arch=amd64,arm64,i386,ia64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64,x32 gudhui deb math optional arch=amd64,arm64,i386,ia64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64,x32 libgudhi-dev deb libdevel optional arch=all libgudhi-doc deb doc optional arch=all libgudhi-examples deb misc optional arch=all python3-gudhi deb python optional arch=amd64,arm64,i386,ia64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64,x32"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-eagerpy, python3-matplotlib, python3-pot, python3-pytest, python3-scipy, python3-sklearn, python3-tk"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gspr/gudhi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gspr/gudhi.git -b debian/sid"
+  ],
+  "Version": [
+    "3.9.0+dfsg-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kscreen"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, libkf5config-dev (\u003e= 5.102.0~), libkf5dbusaddons-dev (\u003e= 5.102.0~), libkf5declarative-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5iconthemes-dev (\u003e= 5.102.0~), libkf5kcmutils-dev (\u003e= 5.102.0~), libkf5plasma-dev (\u003e= 5.102.0~), libkf5screen-dev (\u003e= 4:5.27.10~), libkf5xmlgui-dev (\u003e= 5.102.0~), liblayershellqtinterface-dev, libqt5sensors5-dev (\u003e= 5.15.2~), libqt5x11extras5-dev (\u003e= 5.15.2~), libx11-xcb-dev, libxcb-util-dev, libxcb1-dev, libxi-dev, pkg-kde-tools (\u003e= 0.15.16), qtbase5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "756a09a473135c127497ab83d4fd55b8e7337bcafb9bf93ad2b1211d80a8bd39 2989 kscreen_5.27.10-1.dsc 8987bfcdb4e8617a229090ff42c4e4142ac0b5228e9bed7c3d2f03ed4e981c3c 185960 kscreen_5.27.10.orig.tar.xz 444dd4c1d6b390c1cba16e11cc144b2390caed755ef1c26ca5a2748660dbb750 833 kscreen_5.27.10.orig.tar.xz.asc b08d6174c8c8478728fcb5e3f97f89a3fb341629e7d979f6c7b36f14aed744c5 16436 kscreen_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kscreen"
+  ],
+  "Files": [
+    "8c99d5a477498e5b1abe460e8c432b30 2989 kscreen_5.27.10-1.dsc 24bc4ed3ad5587bd05591aafd758df2c 185960 kscreen_5.27.10.orig.tar.xz 50aa7db2abc7e31390a7ea10d62fdaf3 833 kscreen_5.27.10.orig.tar.xz.asc 1254a44365f5237f18dfc3bc85de8d62 16436 kscreen_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kscreen"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kscreen"
+  ],
+  "Package-List": [
+    "kscreen deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Felix Geyer \u003cfgeyer@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Rohan Garg \u003crohan@kde.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kscreen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kscreen.git"
+  ],
+  "Version": [
+    "4:5.27.10-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "sherlock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pandoc, python3-all, python3-certifi, python3-colorama, python3-openpyxl, python3-pandas, python3-pytest, python3-requests-futures, python3-setuptools, python3-socks, python3-stem, python3-torrequest"
+  ],
+  "Checksums-Sha256": [
+    "75b9a976a2da9661d57afa6979348ed23af5a8ee669cf594810204b37b073a87 2415 sherlock_0.14.3+git20240119.e3a09f8-1.dsc 2223463fcdc60e8c6062ffa6794251ec739db941d28d9029ae77b3dbbe0a1fc8 181972 sherlock_0.14.3+git20240119.e3a09f8.orig.tar.xz c2a832ba2efeb50045a0ff3af88153940c678a5e47cfd091c68eb9e6296def37 5512 sherlock_0.14.3+git20240119.e3a09f8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sherlock"
+  ],
+  "Files": [
+    "ec3a94570e93692063b4ea8392998a8c 2415 sherlock_0.14.3+git20240119.e3a09f8-1.dsc bfef6c39b6c2edd545361dde4a13d6a2 181972 sherlock_0.14.3+git20240119.e3a09f8.orig.tar.xz 17a554d73f4e7d816b135e9542858f71 5512 sherlock_0.14.3+git20240119.e3a09f8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sherlock-project/sherlock"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sherlock"
+  ],
+  "Package-List": [
+    "sherlock deb misc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Francisco Vilmar Cardoso Ruviaro \u003cvilmar@debian.org\u003e, Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/sherlock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/sherlock.git"
+  ],
+  "Version": [
+    "0.14.3+git20240119.e3a09f8-1"
+  ]
+}

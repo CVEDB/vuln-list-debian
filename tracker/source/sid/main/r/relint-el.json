@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-relint"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa, elpa-xr"
+  ],
+  "Checksums-Sha256": [
+    "ad5d3aebeacd494b9bcc3ad0ee6a3c34935de71ae031515031730080296cb15c 2005 relint-el_1.24+repack-1.dsc 71183aa0eedbc21a2fcb078d871a97ef3c93edc36e2c0712daf3287efe64c74b 46691 relint-el_1.24+repack.orig.tar.gz 54b5cd964e13f7ba6027113339dd19ece93bacd5751897f1e5efd8f08f768ef5 3860 relint-el_1.24+repack-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/relint-el"
+  ],
+  "Files": [
+    "5d6eb11a572721c43f1ba3ae80bad12b 2005 relint-el_1.24+repack-1.dsc daeee39e65536c1779dbcd56c74fa235 46691 relint-el_1.24+repack.orig.tar.gz af369439f4f84f3775e6af9e501c8299 3860 relint-el_1.24+repack-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mattiase/relint"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "relint-el"
+  ],
+  "Package-List": [
+    "elpa-relint deb editors optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "Lev Lamberov \u003cdogsleg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/relint-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/relint-el.git"
+  ],
+  "Version": [
+    "1.24+repack-1"
+  ]
+}

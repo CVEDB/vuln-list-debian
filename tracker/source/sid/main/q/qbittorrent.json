@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "qbittorrent, qbittorrent-nox"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libtorrent-rasterbar-dev (\u003e= 2.0.9~), libboost-dev (\u003e= 1.83~), zlib1g-dev, qt6-base-dev, qt6-tools-dev, qt6-svg-dev, libxkbcommon-dev, systemd-dev, ninja-build"
+  ],
+  "Checksums-Sha256": [
+    "6afec10d77faaaafdc18afa0d42f21c9f133722de8d1aea4c67ed75f3c19844b 2233 qbittorrent_4.6.3-1.dsc 5f9f3e0b89861e8bae1894656f8b8f76feddb3c92e228065c8173632af6e544e 4512004 qbittorrent_4.6.3.orig.tar.xz 964fb014a0879c220947c5026aa75689d565bb2d8b4ba0ab18252118b4f303b4 849 qbittorrent_4.6.3.orig.tar.xz.asc e28cfe04311bbde11d40f2252dbe942c245b96e614f5fe394ccf34ab4abcbe37 124976 qbittorrent_4.6.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qbittorrent"
+  ],
+  "Files": [
+    "cc6db0b8228de346a4a20e78aa635eb4 2233 qbittorrent_4.6.3-1.dsc 297475918d6cf0df38914a256592e3ff 4512004 qbittorrent_4.6.3.orig.tar.xz aea7bdcbba73a49d63dda1c99a2d8570 849 qbittorrent_4.6.3.orig.tar.xz.asc 8f0ebafe523f72045fc6dcf2a7ff3f45 124976 qbittorrent_4.6.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.qbittorrent.org/"
+  ],
+  "Maintainer": [
+    "Christian Marillat \u003cmarillat@debian.org\u003e"
+  ],
+  "Package": [
+    "qbittorrent"
+  ],
+  "Package-List": [
+    "qbittorrent deb net optional arch=any qbittorrent-nox deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Version": [
+    "4.6.3-1"
+  ]
+}

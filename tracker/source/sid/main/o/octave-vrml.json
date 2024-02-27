@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "octave-vrml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-octave, dh-octave (\u003e= 1.2.5), texlive, ghostscript"
+  ],
+  "Checksums-Sha256": [
+    "b00df688e29c4b6fd66d8a92b3dd974bad751d01a682d74a724bba036651c3dd 2327 octave-vrml_1.0.13-9.dsc c45357d47382b22a37dded72888c34a3839ff608baedbfea11ed2950c21ca9d7 1115406 octave-vrml_1.0.13.orig.tar.gz d58accdf9eea4ab33e9cc87ec6717d577a9ed242aa5a9b3a742a6daf76217cec 13432 octave-vrml_1.0.13-9.debian.tar.xz"
+  ],
+  "Dgit": [
+    "6e3e8c4dede78890389b678f50c5890275327805 debian archive/debian/1.0.13-9 https://git.dgit.debian.org/octave-vrml"
+  ],
+  "Directory": [
+    "pool/main/o/octave-vrml"
+  ],
+  "Files": [
+    "325cf750715c9ab72f35493e4148a573 2327 octave-vrml_1.0.13-9.dsc 79df290cea3f45e49eb58bfc664679b1 1115406 octave-vrml_1.0.13.orig.tar.gz 84bd389dad6e0d64aace551e0da020da 13432 octave-vrml_1.0.13-9.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnu-octave.github.io/packages/vrml/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "octave-vrml"
+  ],
+  "Package-List": [
+    "octave-vrml deb math optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-octave"
+  ],
+  "Uploaders": [
+    "Thomas Weber \u003ctweber@debian.org\u003e, Rafael Laboissière \u003crafael@debian.org\u003e, Sébastien Villemot \u003csebastien@debian.org\u003e, Mike Miller \u003cmtmiller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/octave-vrml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/octave-vrml.git"
+  ],
+  "Version": [
+    "1.0.13-9"
+  ]
+}

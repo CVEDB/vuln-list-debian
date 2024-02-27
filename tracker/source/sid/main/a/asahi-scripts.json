@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "asahi-scripts"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "069cf53f45d23799ff6d7c9b44df4107a58d4484fdb58a111b80b852bdc2d5da 1924 asahi-scripts_20231219.1-1.dsc 9190e86d61cc7e64c99109027fb74506ad7bad4574516d42d24c54ec1cb4d749 10690 asahi-scripts_20231219.1.orig.tar.gz 03a6019d0227048387fdb2eaf564ebfa9f1b5e8b0a89026543b0a8cfaf1d9ce5 5200 asahi-scripts_20231219.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/asahi-scripts"
+  ],
+  "Files": [
+    "01c2f520be09e641b6bbd52c3505fb02 1924 asahi-scripts_20231219.1-1.dsc d71def747f5a90345aaea22d761576a2 10690 asahi-scripts_20231219.1.orig.tar.gz c087a96f1ee8920302beb6636a56dd1c 5200 asahi-scripts_20231219.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AsahiLinux/asahi-scripts"
+  ],
+  "Maintainer": [
+    "Tobias Heider \u003cme@tobhe.de\u003e"
+  ],
+  "Package": [
+    "asahi-scripts"
+  ],
+  "Package-List": [
+    "asahi-scripts deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bananas-team/asahi-scripts"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bananas-team/asahi-scripts.git"
+  ],
+  "Version": [
+    "20231219.1-1"
+  ]
+}

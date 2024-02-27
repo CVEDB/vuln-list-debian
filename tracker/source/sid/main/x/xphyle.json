@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-xphyle"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, python3-pyproject-hooks, python3-setuptools-scm, python3-wheel, python3-pytest \u003c!nocheck\u003e, python3-pokrok \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eb296ea3d4a891aabb41c7def7bd31afa643a8261cba0543764406c261a228b9 2144 xphyle_4.4.4-2.dsc 940d3e4a4e3f77dcec81e0bb41188ff663036143ddea5b5f0f9ba3d40fd4b697 1348935 xphyle_4.4.4.orig.tar.gz 7f0a41bca441f221ae3f4fa7d76e0070d428f8d4eecdcf712746b0fa28ac9e83 3496 xphyle_4.4.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xphyle"
+  ],
+  "Files": [
+    "83078f6af2e8fdc114a3261192e0a90c 2144 xphyle_4.4.4-2.dsc faacd9b1495eb2ffc5c7a638369518e6 1348935 xphyle_4.4.4.orig.tar.gz ef3ab6717300a84260be77017d228c19 3496 xphyle_4.4.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jdidion/xphyle"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "xphyle"
+  ],
+  "Package-List": [
+    "python3-xphyle deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/xphyle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/xphyle.git"
+  ],
+  "Version": [
+    "4.4.4-2"
+  ]
+}

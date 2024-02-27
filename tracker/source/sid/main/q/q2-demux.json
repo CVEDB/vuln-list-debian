@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2-demux"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, webpack, node-terser-webpack-plugin, node-babel-loader, node-d3, python3-pytest-cov, python3-yaml, python3-pandas, python3-skbio, python3-psutil, python3-seaborn, qiime (\u003e= 2024.2), q2-types (\u003e= 2024.2), q2templates (\u003e= 2024.2)"
+  ],
+  "Checksums-Sha256": [
+    "3df11aaf8caac9ff6393cfe8aaec39894f8b77ec4a185a4a971677ad4dd63127 2379 q2-demux_2024.2.0+dfsg-1.dsc ca1b31085e1dca767efb364a2f007037a7485bf2a285d956314f8160b6e7d338 288612 q2-demux_2024.2.0+dfsg.orig.tar.xz bb70317dffef24c0fa8ceab0261ac4456fa49c92413f02894771130c1002cbf9 7696 q2-demux_2024.2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-demux"
+  ],
+  "Files": [
+    "224ea5f229527c221be64bbc0ec99225 2379 q2-demux_2024.2.0+dfsg-1.dsc 967eeb945932e063e04b41647cb7add6 288612 q2-demux_2024.2.0+dfsg.orig.tar.xz 409c3a859282f69601ba21a87e16b73b 7696 q2-demux_2024.2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-demux"
+  ],
+  "Package-List": [
+    "q2-demux deb science optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e, Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-demux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-demux.git"
+  ],
+  "Version": [
+    "2024.2.0+dfsg-1"
+  ]
+}

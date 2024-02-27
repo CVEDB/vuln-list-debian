@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "sugarjar"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, gem2deb (\u003e= 1), gh, git, help2man, rake, ruby, ruby-deep-merge, ruby-mixlib-log, ruby-mixlib-shellout, ruby-pastel, ruby-rspec"
+  ],
+  "Checksums-Sha256": [
+    "fba70766f1cb4942e1e4b9191088247c5937b29bfdc2a329889b3d15d700fc1d 1487 sugarjar_1.1.1-1.dsc 27dcadee28327585cf26d1285a0a4806352c3d118131d9efde3729d7956510bd 42492 sugarjar_1.1.1.orig.tar.gz aae016702b16569f71efaab1bbf0cbe885da96ff7b915ea5e156226f785cab12 3164 sugarjar_1.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sugarjar"
+  ],
+  "Files": [
+    "ad6d3749ef57843a824f9e6e105d1765 1487 sugarjar_1.1.1-1.dsc ded491db6078d69609d2b9f9224ca370 42492 sugarjar_1.1.1.orig.tar.gz 98e922e1ee79d300fb9d7acc4d56cbf2 3164 sugarjar_1.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jaymzh/sugarjar"
+  ],
+  "Maintainer": [
+    "Michel Lind \u003cmichel@michel-slm.name\u003e"
+  ],
+  "Package": [
+    "sugarjar"
+  ],
+  "Package-List": [
+    "sugarjar deb vcs optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/michel/sugarjar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/michel/sugarjar.git"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

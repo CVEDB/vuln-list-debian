@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gpredict, gpredict-doc"
+  ],
+  "Build-Depends": [
+    "autoconf, automake, debhelper-compat (= 13), intltool, libcurl4-gnutls-dev | libcurl-dev, libglib2.0-dev, libgoocanvas-2.0-dev, libgtk-3-dev, libtool, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "libreoffice-writer"
+  ],
+  "Checksums-Sha256": [
+    "7b964362ee6df1774d191e6622f513a45d0c75cb84b2f10cd6cc31c552028a71 2308 gpredict_2.3-115-g0f3beb6-3.dsc 18e1cd688e8bcd84362bb20bc1ca41d38bffce2538e6b37bf3c6888dd83d6a5b 7720267 gpredict_2.3-115-g0f3beb6.orig.tar.gz 2d4aa149de17b2348a20b25f29f6763421f566d4664e3f8110d9c19f009ba1f7 6184 gpredict_2.3-115-g0f3beb6-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gpredict"
+  ],
+  "Files": [
+    "a71eedcaa4bc4ac29552c0fd6f1750ea 2308 gpredict_2.3-115-g0f3beb6-3.dsc b97e5f46a0e2ff0ae206fb44737b7280 7720267 gpredict_2.3-115-g0f3beb6.orig.tar.gz bcf7ede8919378724eb4d9b86a7712f8 6184 gpredict_2.3-115-g0f3beb6-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gpredict.oz9aec.net/"
+  ],
+  "Maintainer": [
+    "Debian Hamradio Maintainers \u003cdebian-hams@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "gpredict"
+  ],
+  "Package-List": [
+    "gpredict deb hamradio optional arch=any gpredict-doc deb hamradio optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "hamradio"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "A. Maitland Bottoms \u003cbottoms@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/gpredict"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/gpredict.git"
+  ],
+  "Version": [
+    "2.3-115-g0f3beb6-3"
+  ]
+}

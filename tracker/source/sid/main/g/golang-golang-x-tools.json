@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-golang-x-tools, golang-golang-x-tools-dev, gopls"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-yuin-goldmark-dev (\u003e= 1.4.13), golang-golang-x-mod-dev (\u003e= 0.15.0), golang-golang-x-net-dev (\u003e= 1:0.21.0), golang-golang-x-sync-dev (\u003e= 0.6.0), golang-golang-x-text-dev (\u003e= 0.14.0), golang-golang-x-vuln-dev (\u003e= 1.0.1), golang-gopkg-yaml.v3-dev (\u003e= 3.0.1), golang-honnef-go-tools-dev (\u003e= 2023.1.6), golang-mvdan-gofumpt-dev (\u003e= 0.6.0), golang-mvdan-xurls-dev (\u003e= 2.5.0)"
+  ],
+  "Checksums-Sha256": [
+    "9fccc8b84121e46c6db40b2f33b74d161f039580396c9f06940183845b7c046c 2835 golang-golang-x-tools_0.18.0+ds-1.dsc 86cc759a7e62d18b8e33a3ca1d2c5ee3df2fb667ca554c97ce15b7a94bb87761 2426968 golang-golang-x-tools_0.18.0+ds.orig.tar.xz f097cecbcd12e211fd0119a2233cfea70b5ef179049c233ea637a18fbb72fba9 33220 golang-golang-x-tools_0.18.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-tools"
+  ],
+  "Files": [
+    "9bbe6dd10ef682f68f6b114b8fae7160 2835 golang-golang-x-tools_0.18.0+ds-1.dsc 5089109cfed7c73c711783e7b59d2948 2426968 golang-golang-x-tools_0.18.0+ds.orig.tar.xz c7341ebf889e63ee01eb6d593bcba8bf 33220 golang-golang-x-tools_0.18.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/tools"
+  ],
+  "Homepage": [
+    "https://golang.org/x/tools"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-tools"
+  ],
+  "Package-List": [
+    "golang-golang-x-tools deb golang optional arch=any golang-golang-x-tools-dev deb golang optional arch=all gopls deb golang optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martina Ferrari \u003ctina@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-tools.git"
+  ],
+  "Version": [
+    "1:0.18.0+ds-1"
+  ]
+}

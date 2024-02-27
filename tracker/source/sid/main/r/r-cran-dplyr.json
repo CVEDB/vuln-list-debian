@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-dplyr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-cli (\u003e= 3.4.0), r-cran-generics, r-cran-glue, r-cran-lifecycle (\u003e= 1.0.3), r-cran-magrittr, r-cran-pillar (\u003e= 1.9.0), r-cran-r6, r-cran-rlang (\u003e= 1.1.0), r-cran-tibble (\u003e= 3.2.0), r-cran-tidyselect (\u003e= 1.2.0), r-cran-vctrs (\u003e= 0.6.4), libboost-dev"
+  ],
+  "Checksums-Sha256": [
+    "58741a8911c0552bc58947559901a6f140320c53dd49b98f1a99ae06a249988b 2591 r-cran-dplyr_1.1.4-1.dsc cf730414d5d4ab387b4e9890a4b1df9d17a3903488e8da8df1cf2e11e44558cb 1207521 r-cran-dplyr_1.1.4.orig.tar.gz e2ec70295daa87fac60edcc852eb7c2950b395641ccbce53fcc5224e88c17992 4992 r-cran-dplyr_1.1.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-dplyr"
+  ],
+  "Files": [
+    "054440352b0afdf56b10268d4da3308d 2591 r-cran-dplyr_1.1.4-1.dsc 29bdf98592722336f0d07484baf2a959 1207521 r-cran-dplyr_1.1.4.orig.tar.gz db65a0e1c0a033330d834f52bcf0e33e 4992 r-cran-dplyr_1.1.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=dplyr"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-dplyr"
+  ],
+  "Package-List": [
+    "r-cran-dplyr deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bench, r-cran-broom, r-cran-callr, r-cran-covr, r-cran-dbi, r-cran-dbplyr, r-cran-ggplot2, r-cran-knitr, r-cran-lobstr, r-cran-purrr, r-cran-rmarkdown, r-cran-rmysql, r-cran-rpostgresql, r-cran-rsqlite, r-cran-stringi, r-cran-testthat, r-cran-tidyr, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-dplyr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-dplyr.git"
+  ],
+  "Version": [
+    "1.1.4-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-v8"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-jsonlite, r-cran-curl, libnode-dev"
+  ],
+  "Checksums-Sha256": [
+    "f1f9393bc5701f12c139119c5c96d3beca986d0704755da45cb113a8be765bdc 2177 r-cran-v8_4.4.1+dfsg-1.dsc fb5f9dbb4041d036a2a942864904d900d1a2df54b525c1e48ca029c519f7324f 43056 r-cran-v8_4.4.1+dfsg.orig.tar.xz 1ae2cb872a75d5d8ae099cc32eafe63a31517709a6d5a1b8831d31ba5e7e2aa8 21600 r-cran-v8_4.4.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-v8"
+  ],
+  "Files": [
+    "dd5439dc936a3d37fda75800934a41cc 2177 r-cran-v8_4.4.1+dfsg-1.dsc 28d1bfa67346ea9110c61b4118ee6178 43056 r-cran-v8_4.4.1+dfsg.orig.tar.xz a41b40c12696df959e59eb2cb34c4cc7 21600 r-cran-v8_4.4.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=V8"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-v8"
+  ],
+  "Package-List": [
+    "r-cran-v8 deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-knitr, r-cran-rmarkdown, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Leopold Palomo-Avellaneda \u003cleo@alaxarxa.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-v8"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-v8.git"
+  ],
+  "Version": [
+    "4.4.1+dfsg-1"
+  ]
+}

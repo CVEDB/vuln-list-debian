@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-sphinx-automodapi"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools, python3-setuptools-scm, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "6bdbb9c82be0b6b5edc908476040db24368f5ec3c3bd575ce8d45b6502816940 2247 sphinx-automodapi_0.17.0-1.dsc 7ccdadad57add4aa9149d9f2bb5cf28c8f8b590280b4735b1156ea8355c423a1 49688 sphinx-automodapi_0.17.0.orig.tar.gz efaf67c130667b3544673ee810a2dbb37bb3d956ce7cf07425eabdebb505604d 3592 sphinx-automodapi_0.17.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sphinx-automodapi"
+  ],
+  "Files": [
+    "9c67c78768ac5c5faeef4e8ca396a170 2247 sphinx-automodapi_0.17.0-1.dsc 54c693447d26bae9532d77a501d1637b 49688 sphinx-automodapi_0.17.0.orig.tar.gz 184205d5e7275f1a9fb13cbf0e33754f 3592 sphinx-automodapi_0.17.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://astropy.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sphinx-automodapi"
+  ],
+  "Package-List": [
+    "python3-sphinx-automodapi deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cython3, gcc, graphviz, python3-all-dev, python3-pytest, python3-setuptools"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sphinx-automodapi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sphinx-automodapi.git"
+  ],
+  "Version": [
+    "0.17.0-1"
+  ]
+}

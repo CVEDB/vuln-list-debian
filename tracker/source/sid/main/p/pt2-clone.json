@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pt2-clone"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-exec, libflac-dev, libsdl2-dev"
+  ],
+  "Checksums-Sha256": [
+    "59705f812cace13a42ab7acdab57ba0b95e45fdc4a00752fa04a9b4a9b9d1f64 2041 pt2-clone_1.66.1+ds-1.dsc 70d025da7c71435a72972c10eccbf359a4b0ff50b5e53e32850abe19db2210f9 332664 pt2-clone_1.66.1+ds.orig.tar.xz 43996c99f50f6b86ba1f9657d29636146488d09e3217af3c1f8fc31b06b9ef08 8072 pt2-clone_1.66.1+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pt2-clone"
+  ],
+  "Files": [
+    "148651ae017bc5346579051f64af3f7e 2041 pt2-clone_1.66.1+ds-1.dsc bebf3f582034313feb3603fc173c61bf 332664 pt2-clone_1.66.1+ds.orig.tar.xz 2ae7d73261b9f71704155fce9aff683e 8072 pt2-clone_1.66.1+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://16-bits.org/pt.php"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "pt2-clone"
+  ],
+  "Package-List": [
+    "pt2-clone deb sound optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e, Dennis Braun \u003csnd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/pt2-clone"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/pt2-clone.git"
+  ],
+  "Version": [
+    "1.66.1+ds-1"
+  ]
+}

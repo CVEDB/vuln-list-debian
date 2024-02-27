@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-gvm, python-gvm-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-defusedxml, python3-lxml, python3-paramiko, python3-poetry-core, python3-pontos, python3-sphinx, python3-sphinx-autodoc-typehints"
+  ],
+  "Checksums-Sha256": [
+    "2938134a05f582f053df5a0cdc3fdcd4934a2064064c33193c3c44c6c795414e 2282 python-gvm_23.11.0-1.dsc 0e63f84ada4098389a2c3ce1e2920e5053f8f2f2864b9100d38d200a6d83d19a 273395 python-gvm_23.11.0.orig.tar.gz 7330382f0a53f87a6f417e6fc333537d7646b67534541581a9832dd027a578e2 3816 python-gvm_23.11.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-gvm"
+  ],
+  "Files": [
+    "7bb249fe51b5f14cce26d1ab2478c029 2282 python-gvm_23.11.0-1.dsc 2db3f0fb4301548b021fcaf3746f3ae1 273395 python-gvm_23.11.0.orig.tar.gz 7b8c3e9ea3fac52b6fc6a7e4ab7471af 3816 python-gvm_23.11.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/greenbone/python-gvm"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-gvm"
+  ],
+  "Package-List": [
+    "python-gvm-doc deb doc optional arch=all python3-gvm deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Sophie Brun \u003csophie@offensive-security.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/python-gvm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/python-gvm.git"
+  ],
+  "Version": [
+    "23.11.0-1"
+  ]
+}

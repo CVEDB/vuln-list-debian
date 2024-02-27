@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "josm, josm-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk (\u003e= 2:1.9) | java9-sdk, ant, ant-contrib, gettext, javacc, jmapviewer (\u003e= 2.19), libcommons-compress-java, libgettext-ant-tasks-java, libgettext-commons-java (\u003e= 0.9.6), libterm-readkey-perl, openjfx"
+  ],
+  "Checksums-Sha256": [
+    "0a49336a0102674de43c4802ff38c56ea481b0b2074aa34c49c75571d082ba4e 2263 josm_0.0.svn18969+dfsg-1.dsc f747e9d857669836945f36130a82be2b48d75ef1d2a23b4f549a3072d5e0e72c 58250968 josm_0.0.svn18969+dfsg.orig.tar.gz c842b5ec9bac6370e97988ecfb593f5e2b1d67d10990d5dd5e2e84c03c011bff 56452 josm_0.0.svn18969+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/j/josm"
+  ],
+  "Files": [
+    "d48a3b3e400b7e9d1f24f0e108e8d168 2263 josm_0.0.svn18969+dfsg-1.dsc 7a0f0cd76e8bce3695897e69b685fd85 58250968 josm_0.0.svn18969+dfsg.orig.tar.gz 764c1f6efea890608fd4356145b3b6a4 56452 josm_0.0.svn18969+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://josm.openstreetmap.de"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "josm"
+  ],
+  "Package-List": [
+    "josm deb utils optional arch=all josm-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "David Paleino \u003cdapal@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/josm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/josm.git"
+  ],
+  "Version": [
+    "0.0.svn18969+dfsg-1"
+  ]
+}

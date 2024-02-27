@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-packetfu"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb, rake, ruby-rspec, ruby-rspec-its"
+  ],
+  "Checksums-Sha256": [
+    "4f1bbc040f00cf6062472ccaae538b542b4a487e9e19dfe461157a8b65de3613 2093 ruby-packetfu_1.1.11-3.dsc 8936d69ea809a8e6b417b635a62cbc957c2e8d488dc07c6643af355414c447ed 761572 ruby-packetfu_1.1.11.orig.tar.gz 040bffc86b2bb7e352bfe025accc74892d7aa76c95931ebce1df8546341569af 6656 ruby-packetfu_1.1.11-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-packetfu"
+  ],
+  "Files": [
+    "6139646c03daa839b02f766b8bc2b446 2093 ruby-packetfu_1.1.11-3.dsc 54617685c78d142f3b00dac82393856f 761572 ruby-packetfu_1.1.11.orig.tar.gz 12fa9bbd676ffa03b8736fdb356777b6 6656 ruby-packetfu_1.1.11-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/todb/packetfu"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-packetfu"
+  ],
+  "Package-List": [
+    "ruby-packetfu deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Jérémy Bobbio \u003clunar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-packetfu"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-packetfu.git"
+  ],
+  "Version": [
+    "1.1.11-3"
+  ]
+}

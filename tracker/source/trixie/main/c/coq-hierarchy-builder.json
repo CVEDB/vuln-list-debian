@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-hierarchy-builder, coq-hierarchy-builder"
+  ],
+  "Build-Depends": [
+    "coq, debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-elpi, libelpi-ocaml-dev, wdiff"
+  ],
+  "Checksums-Sha256": [
+    "1ea62dba88ebf9907e5565bf7e34862728d5db0489765b14aabac8c0dec4cd7f 2225 coq-hierarchy-builder_1.6.0-1.dsc 18904a8bcd945adbf083bfc5af3bd98afa182d950253fba8733b638913738d22 202232 coq-hierarchy-builder_1.6.0.orig.tar.gz 0a0df2e54ed3f0ceff913416daa0bc3ba5f14e99b42f411301da5c7f68b4fad4 3420 coq-hierarchy-builder_1.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-hierarchy-builder"
+  ],
+  "Files": [
+    "a7c9f34a9fca3630f3b4b4d23ec0b7bd 2225 coq-hierarchy-builder_1.6.0-1.dsc cf7c99cfa85c6efbeb69a232fd1012b7 202232 coq-hierarchy-builder_1.6.0.orig.tar.gz fe0a85877e84d5ffe15d693ec267e97e 3420 coq-hierarchy-builder_1.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/math-comp/hierarchy-builder"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-hierarchy-builder"
+  ],
+  "Package-List": [
+    "coq-hierarchy-builder deb ocaml optional arch=any libcoq-hierarchy-builder deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-hierarchy-builder"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-hierarchy-builder.git"
+  ],
+  "Version": [
+    "1.6.0-1"
+  ]
+}

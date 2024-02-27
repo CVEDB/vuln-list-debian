@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-zope.configuration"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-manuel, python3-setuptools, python3-zope.i18nmessageid, python3-zope.schema (\u003e= 4.9.0), python3-zope.testing, python3-zope.testrunner"
+  ],
+  "Checksums-Sha256": [
+    "0cdb630984ded19cec65429223f8d340fb57874391140f1e7c3652a2387122b7 2128 zope.configuration_5.0-1.dsc 234b4a18c71f6b3b9bf6bcf225264bae0149ac68dea07b072f0f699a4cec26e7 83357 zope.configuration_5.0.orig.tar.gz d407570acbda3f2fc974bb2b08287b65cada221d63bef827b483ad0b12eb97d1 4444 zope.configuration_5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zope.configuration"
+  ],
+  "Files": [
+    "c7f716070e8fa4e67a548e8963d364c7 2128 zope.configuration_5.0-1.dsc 4f0d160ae259ed1b11c7bb6288ae604d 83357 zope.configuration_5.0.orig.tar.gz dd04fa8d171d8f6e02cac502fc33e666 4444 zope.configuration_5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zopefoundation/zope.configuration"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "zope.configuration"
+  ],
+  "Package-List": [
+    "python3-zope.configuration deb zope optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-manuel, python3-pytest, python3-zope.testing"
+  ],
+  "Version": [
+    "5.0-1"
+  ]
+}

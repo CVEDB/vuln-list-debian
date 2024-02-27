@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gnome-shell-extension-dash-to-panel"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libglib2.0-bin"
+  ],
+  "Checksums-Sha256": [
+    "34dc27ad45bca6faf03b389fd292dd79bbf56c8808ec56fab2604ad6e7fb29cf 2209 gnome-shell-extension-dash-to-panel_60-1~exp1.dsc e58178fa2088d633818f6089a00005a2135494869bddcf95cd70ca7efb6a201e 21206762 gnome-shell-extension-dash-to-panel_60.orig.tar.gz 44a1d4ec8b82ebbf49a0f69221b0af1c80c2270c7fe08f7049cc92ac3a7d3bd1 3800 gnome-shell-extension-dash-to-panel_60-1~exp1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-shell-extension-dash-to-panel"
+  ],
+  "Files": [
+    "3b001ca9eb1cc5247d936d505577c690 2209 gnome-shell-extension-dash-to-panel_60-1~exp1.dsc 3feaa7092fbf93892b3bc3468f6d7106 21206762 gnome-shell-extension-dash-to-panel_60.orig.tar.gz f5295b4b545bb3d0a7ce79c708346105 3800 gnome-shell-extension-dash-to-panel_60-1~exp1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jderose9/dash-to-panel"
+  ],
+  "Maintainer": [
+    "Jonathan Carter \u003cjcc@debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-shell-extension-dash-to-panel"
+  ],
+  "Package-List": [
+    "gnome-shell-extension-dash-to-panel deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-extension-dash-to-panel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-extension-dash-to-panel.git"
+  ],
+  "Version": [
+    "60-1~exp1"
+  ]
+}

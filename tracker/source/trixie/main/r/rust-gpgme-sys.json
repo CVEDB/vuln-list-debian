@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gpgme-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.64) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-libgpg-error-sys-0.6+default-dev \u003c!nocheck\u003e, librust-system-deps-6+default-dev (\u003e= 6.0.2-~~) \u003c!nocheck\u003e, libgpgme-dev \u003c!nocheck\u003e, pkgconf \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "26ce11c6f333d709d25e019a76444ab1dd780c96d1bf0d82f35f7eda3a11d848 2481 rust-gpgme-sys_0.11.0-1.dsc 509223d659c06e4a26229437d6ac917723f02d31917c86c6ecd50e8369741cf7 10216 rust-gpgme-sys_0.11.0.orig.tar.gz d7b101ec8509e501a0c5008c10b2ead7fa0f3f3c6cc653ac4f2b97ac95587f9c 2468 rust-gpgme-sys_0.11.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gpgme-sys"
+  ],
+  "Files": [
+    "254c87a80905a84938d3b9c80b68a891 2481 rust-gpgme-sys_0.11.0-1.dsc 5d3c151a1ca7fe5c052163242756e260 10216 rust-gpgme-sys_0.11.0.orig.tar.gz c15b7b490712c3512562a442c8f8d3d3 2468 rust-gpgme-sys_0.11.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gpgme-sys"
+  ],
+  "Package-List": [
+    "librust-gpgme-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gpgme-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gpgme-sys]"
+  ],
+  "Version": [
+    "0.11.0-1"
+  ]
+}

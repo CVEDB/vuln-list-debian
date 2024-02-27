@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libhtp-dev, libhtp2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libz-dev"
+  ],
+  "Checksums-Sha256": [
+    "15e58b663a9fb30efcda2ac37f28c675b3c63a694d4ce43da4168571c40bdb96 1906 libhtp_0.5.46-1.dsc 31a184c9aa1d015f5add33c5480f95738189449954c383e217b27cda97e98789 503286 libhtp_0.5.46.orig.tar.gz d5a3c11ad7353b5f9bdcee81958c68b74dad35281902b7409955723af6856380 6388 libhtp_0.5.46-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libh/libhtp"
+  ],
+  "Files": [
+    "915b148c925bc77c77cb44b5a0a0bcae 1906 libhtp_0.5.46-1.dsc 6ebae7b65eb7eef76cebff8352f84d1f 503286 libhtp_0.5.46.orig.tar.gz 7bd8a87f1b45c04573ab1fe7e0370c32 6388 libhtp_0.5.46-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://openinfosecfoundation.org/"
+  ],
+  "Maintainer": [
+    "Sascha Steinbiss \u003csatta@debian.org\u003e"
+  ],
+  "Package": [
+    "libhtp"
+  ],
+  "Package-List": [
+    "libhtp-dev deb libdevel optional arch=any libhtp2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-suricata-team/pkg-libhtp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-suricata-team/pkg-libhtp.git"
+  ],
+  "Version": [
+    "1:0.5.46-1"
+  ]
+}

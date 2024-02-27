@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tmuxinator"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb, pry, rake, ruby-awesome-print, ruby-coveralls, ruby-erubis, ruby-factory-bot, ruby-rspec, ruby-thor, ruby-simplecov, ruby-xdg, tmux, bash-completion"
+  ],
+  "Checksums-Sha256": [
+    "a813ef69927436858d5da6a8ff89fa8809bd7370820698881f11377f9f3b2f65 2175 tmuxinator_3.1.0-2.dsc 5889ef4166433ae90026ae71551e4a5cdf8a8d33fa97bee218fec17d68692ca0 51276 tmuxinator_3.1.0.orig.tar.gz fb949dd71d5bfc114f886980150369dfd16b9d1035c423f9998fdaae595dc777 5476 tmuxinator_3.1.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tmuxinator"
+  ],
+  "Files": [
+    "1f4645055e536cf1d1a4dec64e3d41eb 2175 tmuxinator_3.1.0-2.dsc db08c4569ae0d22db25dbb07398a27f0 51276 tmuxinator_3.1.0.orig.tar.gz 95039d60b1afe5071b4e0327665889ab 5476 tmuxinator_3.1.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tmuxinator/tmuxinator"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "tmuxinator"
+  ],
+  "Package-List": [
+    "tmuxinator deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, gem2deb-test-runner"
+  ],
+  "Uploaders": [
+    "Youhei SASAKI \u003cuwabami@gfd-dennou.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/tmuxinator"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/tmuxinator.git"
+  ],
+  "Version": [
+    "3.1.0-2"
+  ]
+}

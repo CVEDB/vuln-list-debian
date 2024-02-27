@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "power-calibrate"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "a34545da336fba5479b6128a052f09c31ff68e790e90569a1294d94eef7d0165 1838 power-calibrate_0.01.36-1.dsc 3077a558a3cc5f81fd4a70d63e8175cf0187c315ab7dcdc787a12902ac34e89b 26700 power-calibrate_0.01.36.orig.tar.xz 38b210a45f8e572fa4f2d0cbb87cc21d6e86780bb8e03d457789539c7ed802f8 4560 power-calibrate_0.01.36-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/power-calibrate"
+  ],
+  "Files": [
+    "1ce982ca350b98729cfc7f831f32f9de 1838 power-calibrate_0.01.36-1.dsc 1d65f7b545ecbe452f6a80a7aaf3b812 26700 power-calibrate_0.01.36.orig.tar.xz ff59227eb4358fb41005fce555c929c1 4560 power-calibrate_0.01.36-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/power-calibrate"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "power-calibrate"
+  ],
+  "Package-List": [
+    "power-calibrate deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.01.36-1"
+  ]
+}

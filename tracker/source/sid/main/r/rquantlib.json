@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rquantlib"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev (\u003e= 4.3.2), r-cran-rcpp (\u003e= 0.11.0), libquantlib0-dev (\u003e= 1.8), libboost-dev (\u003e= 1.38.1), libboost-test-dev (\u003e= 1.38.1), g++ (\u003e= 4:5.2), r-cran-zoo"
+  ],
+  "Checksums-Sha256": [
+    "bcf4a2605f0042d2dedbb82f68ad3bd0e88b80dab35a7841a8a8aed6da91d688 1999 rquantlib_0.4.21-1.dsc d2c2617a3b03b5626403a5188c29081305fb9b826136a4970c02c9132833b21b 195062 rquantlib_0.4.21.orig.tar.gz a2842cfc67285c308eb06e2fd52714cf2121f8610dc0cb9b900d465e660e1cde 6444 rquantlib_0.4.21-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rquantlib"
+  ],
+  "Files": [
+    "968b248e70103f49089938823d738599 1999 rquantlib_0.4.21-1.dsc 954b47a29afd7d2e08c27fa445c6b61a 195062 rquantlib_0.4.21.orig.tar.gz c2a2919e57b8e387c0e118e87e5529ed 6444 rquantlib_0.4.21-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=RQuantLib"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "rquantlib"
+  ],
+  "Package-List": [
+    "r-cran-rquantlib deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-rquantlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-rquantlib.git"
+  ],
+  "Version": [
+    "0.4.21-1"
+  ]
+}

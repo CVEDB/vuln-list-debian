@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ikvswitch"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), openstack-pkg-tools"
+  ],
+  "Checksums-Sha256": [
+    "f1d9c5d660b2b37629dc94a2a7dd48a99f43416165af1cf5da5ca61d434e60af 1697 ikvswitch_0.0.3.dsc 18cad465c48675b701fdc34f4839aaf45883dc1a01cfa1d94b98909d99643256 14020 ikvswitch_0.0.3.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/ikvswitch"
+  ],
+  "Files": [
+    "4cb3d5b8c9f039d4409bc2ae792616bd 1697 ikvswitch_0.0.3.dsc 83007cb44e8f8411a88ce1b96cc4ee7d 14020 ikvswitch_0.0.3.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/openstack-team/debian/ikvswitch"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ikvswitch"
+  ],
+  "Package-List": [
+    "ikvswitch deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/debian/ikvswitch"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/debian/ikvswitch.git"
+  ],
+  "Version": [
+    "0.0.3"
+  ]
+}

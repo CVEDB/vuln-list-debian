@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-make-elpa"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "4b9147f000c03145ab7807e73c0ce85456fc230229fcc10968314c401464d11c 1644 dh-make-elpa_0.19.3.dsc cb1c6e47deeef1567ba7be36480baa3fae80aceadb3ebd5d3a39c7ff936931ee 15896 dh-make-elpa_0.19.3.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dh-make-elpa"
+  ],
+  "Files": [
+    "01f89e9123b84b4a86e04dbb78de8e72 1644 dh-make-elpa_0.19.3.dsc e11544a9b6d7aaa0381f9ee09eb1b28f 15896 dh-make-elpa_0.19.3.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "dh-make-elpa"
+  ],
+  "Package-List": [
+    "dh-make-elpa deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Lev Lamberov \u003cdogsleg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/dh-make-elpa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/dh-make-elpa.git"
+  ],
+  "Version": [
+    "0.19.3"
+  ]
+}

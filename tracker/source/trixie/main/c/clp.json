@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "coinor-clp, coinor-libclp1, coinor-libclp-dev, coinor-libclp-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), coinor-libcoinutils-dev, coinor-libosi-dev, doxygen, graphviz, libbz2-dev, liblapack-dev, pkg-config, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "0c7aca5bdf91739e3585f72645855e3bda17b4a8c77d09ad3b982547bbf11174 2286 clp_1.17.9+ds-1.dsc 7f48047691debcf0a134e54b3a443e53d33571f99ecc4680ed6ef5784c3fb7bf 1349972 clp_1.17.9+ds.orig.tar.xz 4783abe4b93904ad556cee73a4161fd44ca9f048932f554264d872c933d53f3f 14940 clp_1.17.9+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/clp"
+  ],
+  "Files": [
+    "eb2aec6c0d99806bf76847a6adbb627a 2286 clp_1.17.9+ds-1.dsc 552740d3917826a24848de4ae370d8e9 1349972 clp_1.17.9+ds.orig.tar.xz bdf420b8cc626f80aa4b7535015837ea 14940 clp_1.17.9+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://projects.coin-or.org/Clp"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "clp"
+  ],
+  "Package-List": [
+    "coinor-clp deb science optional arch=any coinor-libclp-dev deb libdevel optional arch=any coinor-libclp-doc deb doc optional arch=all coinor-libclp1 deb science optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Pierre Gruet \u003cpgt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/clp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/clp.git"
+  ],
+  "Version": [
+    "1.17.9+ds-1"
+  ]
+}

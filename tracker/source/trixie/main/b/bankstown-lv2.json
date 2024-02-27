@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "bankstown-lv2"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-biquad-0.4+default-dev (\u003e= 0.4.2-~~) \u003c!nocheck\u003e, librust-lv2-0.6+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8d36ae65250184acfbb02bf423b1b1afe0492837091557d6f17de391cc760a56 2033 bankstown-lv2_1.1.0-1.dsc 6274ec0afaa4679e6ac70e68601cab776bee0f4656bd8a9639c03ef4d393a426 6665 bankstown-lv2_1.1.0.orig.tar.gz 9414f281226df7cb98ee24412a8b8b3f243f9aa7f2297e7e5cd5edfca1ffe101 2932 bankstown-lv2_1.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bankstown-lv2"
+  ],
+  "Files": [
+    "2d3b21feae067381031545d577680a8f 2033 bankstown-lv2_1.1.0-1.dsc edcab1b2d9c81303a97cc547295e58e5 6665 bankstown-lv2_1.1.0.orig.tar.gz 27bbf7ac3abc214b439c905bbac730cb 2932 bankstown-lv2_1.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Andreas Henriksson \u003candreas@fatal.se\u003e"
+  ],
+  "Package": [
+    "bankstown-lv2"
+  ],
+  "Package-List": [
+    "bankstown-lv2 deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bananas-team/bankstown-lv2.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bananas-team/bankstown-lv2.git"
+  ],
+  "Version": [
+    "1.1.0-1"
+  ]
+}

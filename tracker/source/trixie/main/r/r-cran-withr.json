@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-withr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "f4535937ec7b73bfa36dfb2b31b9c9f6dc85012d44a3116f8f7cd449bc3f82fa 2227 r-cran-withr_3.0.0+dfsg-1.dsc 7a8a659da24b6e90ce097c15b21486886021a62d49b3ffdd2cf46335df1c1b6c 81592 r-cran-withr_3.0.0+dfsg.orig.tar.xz 3aaf1ce96bd2630226a630c021b36ee3b4fc0edf839ef8d772d9d8777da2e40d 3276 r-cran-withr_3.0.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-withr"
+  ],
+  "Files": [
+    "ede6f482e200152922684634324e4fae 2227 r-cran-withr_3.0.0+dfsg-1.dsc 8660d924f7e57f785d7b29c75c4a8164 81592 r-cran-withr_3.0.0+dfsg.orig.tar.xz 0d68afcbf4ad6186be555aebe1937ae2 3276 r-cran-withr_3.0.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=withr"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-withr"
+  ],
+  "Package-List": [
+    "r-cran-withr deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-callr, r-cran-covr, r-cran-dbi, r-cran-knitr, r-cran-lattice, r-cran-rlang, r-cran-rmarkdown, r-cran-rsqlite, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-withr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-withr.git"
+  ],
+  "Version": [
+    "3.0.0+dfsg-1"
+  ]
+}

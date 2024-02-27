@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-kivy, python-kivy-examples, elpa-kivy-mode"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-elpa, dh-python, libgl-dev, libgles-dev, libgstreamer1.0-dev, libpango1.0-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libsdl2-ttf-dev, pkg-config, python3-all-dev, python3-packaging, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "fe05a87d35ec74b8d94f534d88539f6b62ef46149909defa2b8fd2b2769584f3 2317 kivy_2.2.1-3.dsc 047a434e8efd32d425321e065fcccf725f165adb0c81ed69dc33c360d4796f7e 23972000 kivy_2.2.1.orig.tar.gz 171a855fd0fc39a54373c1234ff5ddec637292345026f4c755d865257cfae912 10568 kivy_2.2.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kivy"
+  ],
+  "Files": [
+    "ba1e0cb655dc474f2e6b566fad2ea32a 2317 kivy_2.2.1-3.dsc 576636a8a82be9e9b6cf15876f4e7c2f 23972000 kivy_2.2.1.orig.tar.gz 87f3a2a3a4b2159400534b0235071415 10568 kivy_2.2.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kivy.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "kivy"
+  ],
+  "Package-List": [
+    "elpa-kivy-mode deb editors optional arch=all python-kivy-examples deb python optional arch=all python3-kivy deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Bastian Venthur \u003cventhur@debian.org\u003e, Vincent Cheng \u003cvcheng@debian.org\u003e, Dean Serenevy \u003cdean@serenevy.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/kivy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/kivy.git"
+  ],
+  "Version": [
+    "2.2.1-3"
+  ]
+}

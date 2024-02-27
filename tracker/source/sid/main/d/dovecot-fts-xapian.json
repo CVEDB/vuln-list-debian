@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dovecot-fts-xapian"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dovecot-dev, libxapian-dev, libicu-dev, libsqlite3-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "617c701c345054b5ddb9c52349d2c35dc46b32b62960313885c5ae9674b024cd 1998 dovecot-fts-xapian_1.6.0-1.dsc c8c5b646e7163c94bfb892a3442e033c7ac72b1e92c2e919cffba4e6f6ec93c3 34444 dovecot-fts-xapian_1.6.0.orig.tar.gz 04e64bb061c0a4733b3925a8819d797f0d08861256c9aaf7dd575bb90c0eba0d 3316 dovecot-fts-xapian_1.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dovecot-fts-xapian"
+  ],
+  "Files": [
+    "1dd3b89b82cfc00380c2268ad20f05db 1998 dovecot-fts-xapian_1.6.0-1.dsc 957a611b93ae6e59106f59aa05a258a2 34444 dovecot-fts-xapian_1.6.0.orig.tar.gz 8fa3239b80e4bce04c72661325944b8b 3316 dovecot-fts-xapian_1.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/grosjo/fts-xapian"
+  ],
+  "Maintainer": [
+    "Joseph Nahmias \u003cjello@debian.org\u003e"
+  ],
+  "Package": [
+    "dovecot-fts-xapian"
+  ],
+  "Package-List": [
+    "dovecot-fts-xapian deb mail optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dovecot-fts-xapian"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dovecot-fts-xapian.git"
+  ],
+  "Version": [
+    "1.6.0-1"
+  ]
+}

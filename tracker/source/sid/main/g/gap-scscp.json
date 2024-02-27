@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gap-scscp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), help2man, gap (\u003e= 4.11.0), gap-gapdoc, gap-io, gap-openmath, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "1aaedcc2f48f6a5460d57de7539a41000c6f39309033b61097d878cb6ca08554 2889 gap-scscp_2.4.2+ds-1.dsc 7c9bd60c6f33e2e3f868019eee219a61da1837ef483dd6fb3d15ae05443dcd42 369324 gap-scscp_2.4.2+ds.orig.tar.xz 61fa7d5f03ac41a6776684c1104ab41f4390a18c1a7881c118b155da99cf118f 13924 gap-scscp_2.4.2+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gap-scscp"
+  ],
+  "Files": [
+    "3e770ce0ae0eaa4b91e355c8965aea88 2889 gap-scscp_2.4.2+ds-1.dsc abcf674491fbb4000488e96ea585a44a 369324 gap-scscp_2.4.2+ds.orig.tar.xz c1c7fc354e14a5b29a9bcb97cf6b8aea 13924 gap-scscp_2.4.2+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gap-system.org/Packages/scscp.html"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "gap-scscp"
+  ],
+  "Package-List": [
+    "gap-scscp deb math optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gap-smallgrp"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/gap-scscp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/gap-scscp.git"
+  ],
+  "Version": [
+    "2.4.2+ds-1"
+  ]
+}

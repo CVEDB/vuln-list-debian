@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libhtscodecs2, libhtscodecs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), d-shlibs, libbz2-dev"
+  ],
+  "Checksums-Sha256": [
+    "6511ab847ffe255365206ec86f42349bb448bdf2f58e2294c9f629ac7dd82f07 2214 htscodecs_1.6.0-1.dsc 99c136f2d04b2887f46e35dd18c65c6502ff9f1bdd44df6a9c0ce51597234347 3200115 htscodecs_1.6.0.orig.tar.gz da255738808003b26d8894209bd9e5a4465996522eabf5403a6db73e8341276c 5168 htscodecs_1.6.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "773d80a3a0d87a628c95122b4ac44f95fb4c7142 debian archive/debian/1.6.0-1 https://git.dgit.debian.org/htscodecs"
+  ],
+  "Directory": [
+    "pool/main/h/htscodecs"
+  ],
+  "Files": [
+    "d949be742e312fa22e4aa8d2b3530389 2214 htscodecs_1.6.0-1.dsc 0befd7f72227d22bcfdecee1a6149f63 3200115 htscodecs_1.6.0.orig.tar.gz 443e84f214792dacb53454f6541f0990 5168 htscodecs_1.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jkbonfield/htscodecs/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "htscodecs"
+  ],
+  "Package-List": [
+    "libhtscodecs-dev deb libdevel optional arch=any libhtscodecs2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/htscodecs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/htscodecs.git"
+  ],
+  "Version": [
+    "1.6.0-1"
+  ]
+}

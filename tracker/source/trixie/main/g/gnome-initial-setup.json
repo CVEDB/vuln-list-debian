@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "gnome-initial-setup"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dconf-cli, dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 3.37.1), itstool, libaccountsservice-dev, libadwaita-1-dev (\u003e= 1.2~alpha), libfontconfig-dev, libgdm-dev (\u003e= 3.8.3), libgeoclue-2-dev (\u003e= 2.3.1), libgeocode-glib-dev, libglib2.0-dev (\u003e= 2.63.1), libgnome-desktop-4-dev, libgoa-1.0-dev (\u003e= 3.45.1), libgoa-backend-1.0-dev (\u003e= 3.45.1), libgtk-4-dev, libgweather-4-dev (\u003e= 4.1), libibus-1.0-dev (\u003e= 1.5.2), libjson-glib-dev, libkrb5-dev, libmalcontent-ui-dev (\u003e= 0.7.0) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa powerpc ppc64 x32], libnm-dev (\u003e= 1.2), libnma-gtk4-dev (\u003e= 1.0), libpango1.0-dev (\u003e= 1.32.5), libpolkit-gobject-1-dev (\u003e= 0.103), libpwquality-dev, libsecret-1-dev (\u003e= 0.18.8), libsystemd-dev [linux-any], libwebkitgtk-6.0-dev, libxml2-utils, meson (\u003e= 0.50.0), systemd (\u003e= 242)"
+  ],
+  "Checksums-Sha256": [
+    "492eae027bc386bf545ca84255c2e4e595773a714b76d7514a4ea5f6c6a380b1 3025 gnome-initial-setup_46~beta-1.dsc 15bedafc2d65aa0dc107492bd3f36da436e3d468a2bf9f5135697944c7ac219e 534944 gnome-initial-setup_46~beta.orig.tar.xz d57ad80c17c44103013867533d13bc69bb97d7df50fd91e9c1f7075578ae9767 9676 gnome-initial-setup_46~beta-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-initial-setup"
+  ],
+  "Files": [
+    "5cb3747349366b452157e73bd90c3e2a 3025 gnome-initial-setup_46~beta-1.dsc 281eabb86b972fea46a289d751f143ab 534944 gnome-initial-setup_46~beta.orig.tar.xz f3b7972efea78ec14524256cd87205d3 9676 gnome-initial-setup_46~beta-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.gnome.org/browse/gnome-initial-setup/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-initial-setup"
+  ],
+  "Package-List": [
+    "gnome-initial-setup deb gnome optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-initial-setup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-initial-setup.git"
+  ],
+  "Version": [
+    "46~beta-1"
+  ]
+}

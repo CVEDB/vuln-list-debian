@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-eliot"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-boltons, python3-hypothesis, python3-pyrsistent, python3-setuptools, python3-six, python3-testtools, python3-zope.interface"
+  ],
+  "Checksums-Sha256": [
+    "b0c5f14e56e0e28550911876268f4178b2d2afe42583de0dd73b67625b00b02c 2183 python-eliot_1.15.0-1.dsc b167dfe79d18101b979246cebd14d0e07d74394200a8e6c63cd5452f6386cfc6 721992 python-eliot_1.15.0.orig.tar.gz cd63dde010f7781e088553e5bac80ee74f8e5dcfa650f7b8116db60b4192f933 2756 python-eliot_1.15.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-eliot"
+  ],
+  "Files": [
+    "96ce2e36c36c6ca7312b18bc247ba1aa 2183 python-eliot_1.15.0-1.dsc fee3f1c23a5a4f73ab9fef18991746e3 721992 python-eliot_1.15.0.orig.tar.gz 635da617c5a26c3ed81e2c786b81c71e 2756 python-eliot_1.15.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/itamarst/eliot/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-eliot"
+  ],
+  "Package-List": [
+    "python3-eliot deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/eliot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/eliot.git"
+  ],
+  "Version": [
+    "1.15.0-1"
+  ]
+}

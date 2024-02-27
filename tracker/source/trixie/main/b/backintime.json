@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "backintime-common, backintime-qt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3"
+  ],
+  "Checksums-Sha256": [
+    "71237d9b005e6ba0167589f574dbc74757e0497d94c20a67ec921629bbb57547 1451 backintime_1.4.1-1.dsc fd9482f94981b2df0da568e09376a0961e873c37ccf641d4cc91effc810c4e94 1866748 backintime_1.4.1.orig.tar.gz 45957e79f7d3f7caaf464c71a19cb9664d92b32c3aa4f4f4aae92820d314006b 7692 backintime_1.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/backintime"
+  ],
+  "Files": [
+    "bbf1e58ddc7cadd2daacd414c44d8bf0 1451 backintime_1.4.1-1.dsc a3a35817b4a87add051ede3a6af5b6ed 1866748 backintime_1.4.1.orig.tar.gz 8c4dc233672566eddc6f2dfb49b9aa72 7692 backintime_1.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bit-team/backintime"
+  ],
+  "Maintainer": [
+    "Jonathan Wiltshire \u003cjmw@debian.org\u003e"
+  ],
+  "Package": [
+    "backintime"
+  ],
+  "Package-List": [
+    "backintime-common deb utils optional arch=all backintime-qt deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Fabian Wolff \u003cfabi.wolff@arcor.de\u003e, Fabio Fantoni \u003cfantonifabio@tiscali.it\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/jmw/pkg-backintime"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/jmw/pkg-backintime.git"
+  ],
+  "Version": [
+    "1.4.1-1"
+  ]
+}

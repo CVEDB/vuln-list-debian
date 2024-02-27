@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ruby-pg"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 2.1~), libpq-dev, rake-compiler, ruby-hoe"
+  ],
+  "Checksums-Sha256": [
+    "80aa16cfa7da74cda8e20fc0fa55765918987791389cad5b2a8dbb07f967a765 2026 ruby-pg_1.5.5-1.dsc 73cd200beee681e774a67dc9de63f3f17a792745b92aab78aacea33e38c6befc 220694 ruby-pg_1.5.5.orig.tar.gz 15c0a49ee3a809bec7841ba18001b0b33de75569473fc36ca73883dd1e080eed 8132 ruby-pg_1.5.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-pg"
+  ],
+  "Files": [
+    "8b1301670aabe8f67c1cd400cdb74ce5 2026 ruby-pg_1.5.5-1.dsc b40630a1ff2af7ed1130a537604a95d3 220694 ruby-pg_1.5.5.orig.tar.gz 6970ea62598896923be6967629bcbeb8 8132 ruby-pg_1.5.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://bitbucket.org/ged/ruby-pg"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-pg"
+  ],
+  "Package-List": [
+    "ruby-pg deb ruby optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ruby"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Dmitry Borodaenko \u003cangdraug@debian.org\u003e, Pirate Praveen \u003cpraveen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-pg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-pg.git"
+  ],
+  "Version": [
+    "1.5.5-1"
+  ]
+}

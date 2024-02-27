@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-git-testament-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-time-0.3+default-dev \u003c!nocheck\u003e, librust-time-0.3+formatting-dev \u003c!nocheck\u003e, librust-time-0.3+macros-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c67fd8a8e9bc2a996007016cd1279c7ec380581ef4bb4413fc2fbeeed403b466 2604 rust-git-testament-derive_0.2.0-1.dsc 9b31494efbbe1a6730f6943759c21b92c8dc431cb4df177e6f2a6429c3c96842 5795 rust-git-testament-derive_0.2.0.orig.tar.gz c803266c6a79c42056d60203e596d95530cccab546b8aa8e21596d8c72149952 2900 rust-git-testament-derive_0.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-git-testament-derive"
+  ],
+  "Files": [
+    "0f2250ad5e7a1fbf573c5feb97978f53 2604 rust-git-testament-derive_0.2.0-1.dsc e3cff12d4076ce87f4faa8c4d82cdaf6 5795 rust-git-testament-derive_0.2.0.orig.tar.gz 3371f13df0cce94c942a3238a9495522 2900 rust-git-testament-derive_0.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-git-testament-derive"
+  ],
+  "Package-List": [
+    "librust-git-testament-derive-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-git-testament-0.2+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/git-testament-derive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/git-testament-derive]"
+  ],
+  "Version": [
+    "0.2.0-1"
+  ]
+}

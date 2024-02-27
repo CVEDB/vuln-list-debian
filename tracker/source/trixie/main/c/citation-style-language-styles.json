@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "citation-style-language-styles"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "0eae877782d2ad820109e465faf81198faed4e1f035462c2505221cf4cf21b5f 2414 citation-style-language-styles_0.0.335-1.dsc d576bf938175c7777bd668191f7555e716a42ea95a88e4a0fe6c8893156bcd18 3804121 citation-style-language-styles_0.0.335.orig.tar.gz b8b56f32c28225957542d15950f4da0943303f737f38398ec855f7068ae34b72 56984 citation-style-language-styles_0.0.335-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "583e48a3143cefc06dcf699fed66dbd3a7d57266 debian archive/debian/0.0.335-1 https://git.dgit.debian.org/citation-style-language-styles"
+  ],
+  "Directory": [
+    "pool/main/c/citation-style-language-styles"
+  ],
+  "Files": [
+    "d9732392a9442805609e746933ffbc21 2414 citation-style-language-styles_0.0.335-1.dsc f0a11617ccb51861787d7e4fdcb84bf1 3804121 citation-style-language-styles_0.0.335.orig.tar.gz 59a117f9cf0ba9baff66fe9811be910a 56984 citation-style-language-styles_0.0.335-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://citationstyles.org/"
+  ],
+  "Maintainer": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Package": [
+    "citation-style-language-styles"
+  ],
+  "Package-List": [
+    "citation-style-language-styles deb text optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "tony mancill \u003ctmancill@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://git.toastfreeware.priv.at/debian/citation-style-language-styles.git"
+  ],
+  "Vcs-Git": [
+    "https://git.toastfreeware.priv.at/debian/citation-style-language-styles.git"
+  ],
+  "Version": [
+    "0.0.335-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "slurm-wlm-nvml-plugin, slurm-wlm-nvml-plugin-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), libmunge-dev, libncurses-dev, po-debconf, python3, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-exec, librrd-dev, libipmimonitoring-dev, hdf5-helpers, libfreeipmi-dev, libhdf5-dev, man2html, libcurl4-openssl-dev, libpmix-dev, libhttp-parser-dev, libyaml-dev, libjson-c-dev, libjwt-dev, liblz4-dev, bash-completion, libdbus-1-dev, librdkafka-dev, librocm-smi-dev, libnvidia-ml-dev"
+  ],
+  "Checksums-Sha256": [
+    "41b11cb6f91d57aab473a18753134d5347c2c8e747301000de8102cf854e023c 2494 slurm-wlm-contrib_23.11.3-1.dsc 149eaa9b18f269bfb21f5a1f5c9ccac1aaea49612a7c96ec74f96562ac551ff7 10058176 slurm-wlm-contrib_23.11.3.orig.tar.gz d55d0a0bddc3c87df7d1090a817a38927cfab739978aedd47f38b5b3ea8a45b7 84648 slurm-wlm-contrib_23.11.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/s/slurm-wlm-contrib"
+  ],
+  "Files": [
+    "093aca44c934ee763b4f1b3fca61edba 2494 slurm-wlm-contrib_23.11.3-1.dsc 972a049110417f745e26035c84e15313 10058176 slurm-wlm-contrib_23.11.3.orig.tar.gz 07c1b6b2beca25d897750cd195e16c2d 84648 slurm-wlm-contrib_23.11.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://slurm.schedmd.com"
+  ],
+  "Maintainer": [
+    "Gennaro Oliva \u003coliva@debian.org\u003e"
+  ],
+  "Package": [
+    "slurm-wlm-contrib"
+  ],
+  "Package-List": [
+    "slurm-wlm-nvml-plugin deb contrib/libs optional arch=any slurm-wlm-nvml-plugin-dev deb contrib/devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/hpc-team/slurm-wlm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/hpc-team/slurm-wlm.git"
+  ],
+  "Version": [
+    "23.11.3-1"
+  ]
+}

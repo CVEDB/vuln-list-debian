@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmbedtls-dev, libmbedcrypto7, libmbedtls14, libmbedx509-1, libmbedtls-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "faketime \u003c!nocheck\u003e, python3:any"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, python3"
+  ],
+  "Checksums-Sha256": [
+    "9000647047795c78f855657ab03c011103210d60d3671905afdf29b14f78ae0e 1785 mbedtls_2.28.7-1.dsc 909f064eb1ba0facc4997a4dc388e09ac61fc5ebc5e245b2869dee10d5f2fd66 3991911 mbedtls_2.28.7.orig.tar.gz d2a436e08540ce016e729df1973097a79fce4c8eccaba7b1c6d358ca947fcee0 15692 mbedtls_2.28.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mbedtls"
+  ],
+  "Files": [
+    "da8a7e4d13589b41b66954ed857a3178 1785 mbedtls_2.28.7-1.dsc f598c00d142c4860e90d8ca0580beb33 3991911 mbedtls_2.28.7.orig.tar.gz 7ffb6f58eb8d63b7d1a790bc27bc63bd 15692 mbedtls_2.28.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.trustedfirmware.org/projects/mbed-tls/"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "mbedtls"
+  ],
+  "Package-List": [
+    "libmbedcrypto7 deb libs optional arch=any libmbedtls-dev deb libdevel optional arch=any libmbedtls-doc deb doc optional arch=all libmbedtls14 deb libs optional arch=any libmbedx509-1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc-dev, libc6-dev"
+  ],
+  "Uploaders": [
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-iot-team/mbedtls"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-iot-team/mbedtls.git"
+  ],
+  "Version": [
+    "2.28.7-1"
+  ]
+}

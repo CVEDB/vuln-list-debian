@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-responses"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-httpserver \u003c!nocheck\u003e, python3-requests, python3-setuptools, python3-tomli-w \u003c!nocheck\u003e, python3-urllib3 (\u003e= 1.25.10), python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "c37623dcf868cf05c96545689cc47ab20b39bbea63660a1ed539a64e87222f00 2242 responses_0.24.1-1.dsc b127c6ca3f8df0eb9cc82fd93109a3007a86acb24871834c47b77765152ecf8c 77530 responses_0.24.1.orig.tar.gz f0d83686ab9148df802de0a3570656131687df49b995265c79cfd885a0fb6ea5 3732 responses_0.24.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/responses"
+  ],
+  "Files": [
+    "477cb59cabf50bb066d45858205bde2c 2242 responses_0.24.1-1.dsc 449d23beb287fef36bddeb808510a7d4 77530 responses_0.24.1.orig.tar.gz d1855e955026c0147f2a9f7b93e19d6f 3732 responses_0.24.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/getsentry/responses"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "responses"
+  ],
+  "Package-List": [
+    "python3-responses deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andrew Starr-Bochicchio \u003casb@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/responses"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/responses.git"
+  ],
+  "Version": [
+    "0.24.1-1"
+  ]
+}

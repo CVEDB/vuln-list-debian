@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-seclib"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-codesniffer, php-gmp, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "9474871581e3b5e95947bf95333cc5297cc14877c51fa6e68db5707eb88a898a 1786 phpseclib_1.0.22-1.dsc f3dd0b742d79f12388930e90542c962a7d6694010287f5da8047091ddd6b89cd 277060 phpseclib_1.0.22.orig.tar.xz 9841e3ff975834b723d864c37f10796566fa5b3180af1c84182dcc78a2f7196e 10540 phpseclib_1.0.22-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phpseclib"
+  ],
+  "Files": [
+    "a2800b13c39d176f7bebe4c88a2bf939 1786 phpseclib_1.0.22-1.dsc 0a0ab0d32b63de4ff0deae2309dd5772 277060 phpseclib_1.0.22.orig.tar.xz f0fd19ee4121094d4d0b9e053230fc26 10540 phpseclib_1.0.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phpseclib.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phpseclib"
+  ],
+  "Package-List": [
+    "php-seclib deb php optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-codesniffer, php-gmp, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpseclib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpseclib.git -b v1"
+  ],
+  "Version": [
+    "1.0.22-1"
+  ]
+}

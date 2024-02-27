@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gix-command-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bstr-1+std-dev (\u003e= 1.5.0-~~) \u003c!nocheck\u003e, librust-gix-path-0.10+default-dev \u003c!nocheck\u003e, librust-gix-trace-0.1+default-dev \u003c!nocheck\u003e, librust-shell-words-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4da01da78a5e3015c2c29739ca5351942d2bcc75f1f1399c60d9b82262ff5780 2376 rust-gix-command_0.3.2-1.dsc deefa783a418ceb5ae88d0701ab110efaec2df398f4520d90529dec543e48467 8621 rust-gix-command_0.3.2.orig.tar.gz 654031e81f8fbd05c2ad2aa42c8dc3470c9e1f1c0b99e685f4c23f9c5463aedb 2916 rust-gix-command_0.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gix-command"
+  ],
+  "Files": [
+    "3fdaaeaa6ef9e77174ba9a6403c3782a 2376 rust-gix-command_0.3.2-1.dsc 9f2054e8bb9ac37206c387d00f94d57b 8621 rust-gix-command_0.3.2.orig.tar.gz 8c3d822ebbfe40a95d61f7f953d78610 2916 rust-gix-command_0.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gix-command"
+  ],
+  "Package-List": [
+    "librust-gix-command-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gix-command"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-command]"
+  ],
+  "Version": [
+    "0.3.2-1"
+  ]
+}

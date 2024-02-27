@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ruby-libvirt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 0.6.0), libvirt-dev (\u003e= 0.2.0), pkgconf, rake"
+  ],
+  "Checksums-Sha256": [
+    "88ef5a20cc7fac0a0e96ed5eb195e1d0a1821eee6a96a884cbadff3cdcc47a82 2109 ruby-libvirt_0.8.2-1.dsc 4c3c1c8a1283cf456c998c06b5b4e5217ba38e46407b6902e7b30e60b5ff2b16 102105 ruby-libvirt_0.8.2.orig.tar.gz 18f587ede84e40fe5de3e6fbc792faaedb5da4441d93c6b5728f8276aa06fe9e 4708 ruby-libvirt_0.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-libvirt"
+  ],
+  "Files": [
+    "82376943e2c1a167b3d4f011e2d37435 2109 ruby-libvirt_0.8.2-1.dsc f518c86afd82747ab744c5fb8437d478 102105 ruby-libvirt_0.8.2.orig.tar.gz fdc091f5f14d1c19f45d0b58aa71fb19 4708 ruby-libvirt_0.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ruby.libvirt.org"
+  ],
+  "Maintainer": [
+    "Debian Libvirt Maintainers \u003cpkg-libvirt-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-libvirt"
+  ],
+  "Package-List": [
+    "ruby-libvirt deb ruby optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ruby"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gem2deb-test-runner, libvirt-dev, pkg-config, rake"
+  ],
+  "Uploaders": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/libvirt-team/ruby-libvirt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/libvirt-team/ruby-libvirt.git"
+  ],
+  "Version": [
+    "0.8.2-1"
+  ]
+}

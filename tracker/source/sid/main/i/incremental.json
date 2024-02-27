@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-incremental"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-click, python3-setuptools, python3-twisted"
+  ],
+  "Checksums-Sha256": [
+    "d7a531d0868b54074494ef1a6e42422076e918fbb0df82f74a36a4ae414ccf2f 1589 incremental_22.10.0-1.dsc 912feeb5e0f7e0188e6f42241d2f450002e11bbc0937c65865045854c24c0bd0 18305 incremental_22.10.0.orig.tar.gz 6abaeb7645c02b6087b795789b82755a9ceb792faca3410ce034d4b6bcb79e88 4456 incremental_22.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/incremental"
+  ],
+  "Files": [
+    "06cd551ca5a293c3ff1fa777cf4165d3 1589 incremental_22.10.0-1.dsc 9fffa2490ca649550c79a78e85ef2eef 18305 incremental_22.10.0.orig.tar.gz 7ba4471779cee1d297653300dd4c74c0 4456 incremental_22.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/twisted/incremental"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "incremental"
+  ],
+  "Package-List": [
+    "python3-incremental deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-click, python3-twisted"
+  ],
+  "Uploaders": [
+    "Free Ekanayaka \u003cfreee@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/incremental"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/incremental.git"
+  ],
+  "Version": [
+    "22.10.0-1"
+  ]
+}

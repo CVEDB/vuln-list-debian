@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-cpufeatures-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.149-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "362ee6f8566aa75f9b252c20fdfbb953afd0468fa3bd9ee101fe747f35833f3a 2230 rust-cpufeatures_0.2.11-1.dsc ce420fe07aecd3e67c5f910618fe65e94158f6dcc0adf44e00d69ce2bdfe0fd0 12727 rust-cpufeatures_0.2.11.orig.tar.gz ae9a0ab3e12fc3e522e4b35236e034852797288b16b6ff512647e40d491fafa2 3084 rust-cpufeatures_0.2.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-cpufeatures"
+  ],
+  "Files": [
+    "c6a956bcb99746d8f4e024c2556e5ee6 2230 rust-cpufeatures_0.2.11-1.dsc e7b31625f54f7c0f141d9bc9701dc389 12727 rust-cpufeatures_0.2.11.orig.tar.gz 7c8456ea43389133e2a1c84c149aee00 3084 rust-cpufeatures_0.2.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-cpufeatures"
+  ],
+  "Package-List": [
+    "librust-cpufeatures-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Liang Yan \u003cly@xryan.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cpufeatures"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cpufeatures]"
+  ],
+  "Version": [
+    "0.2.11-1"
+  ]
+}

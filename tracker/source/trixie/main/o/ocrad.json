@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libocrad-dev, ocrad"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16), install-info, libpng-dev"
+  ],
+  "Checksums-Sha256": [
+    "5cbeb33449d77b89d056cbeacc90f715f6845271ce1aaa982b67e2d79c98c851 1947 ocrad_0.28-4.dsc f4434a0fafaa867cffe91318eff391ac0282720b9a4fab0d5be0d1be0814c90b 96240 ocrad_0.28.orig.tar.xz f054cfdcd20b7ccc4647424e448329905e52144a434bb488780f48cda5876179 7700 ocrad_0.28-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocrad"
+  ],
+  "Files": [
+    "d3cd00ab58fbc0fe840d0ab197e1d9b9 1947 ocrad_0.28-4.dsc 7cad213d90218bbc8d6125ae40c6e934 96240 ocrad_0.28.orig.tar.xz c9df68770f09c5f94ba6cd5532e5dff4 7700 ocrad_0.28-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/ocrad/ocrad.html"
+  ],
+  "Maintainer": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e"
+  ],
+  "Package": [
+    "ocrad"
+  ],
+  "Package-List": [
+    "libocrad-dev deb libdevel optional arch=any ocrad deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ocrad"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ocrad.git"
+  ],
+  "Version": [
+    "0.28-4"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-logutils-doc, python3-logutils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 99~), python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "ebdf23b205a2cccd9bcb7808b21618c996b8e4e166609459b6653727065ae932 2161 python-logutils_0.3.5-3.dsc 82cb5281444e96d4a8de823db43c79fff3046372f23b68df9a0a4957c6db36eb 24748 python-logutils_0.3.5.orig.tar.xz a1c62a5d97c50155ccbe124c288aee4e9580a34220e31a4cc7a5e2bdf6300880 4392 python-logutils_0.3.5-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-logutils"
+  ],
+  "Files": [
+    "7598e6e002e65dae34d44f689fccf362 2161 python-logutils_0.3.5-3.dsc ff6e045b395f394068353fd3cd1f08cf 24748 python-logutils_0.3.5.orig.tar.xz 2bb9548ca742a94ecc5b33e3ded190c7 4392 python-logutils_0.3.5-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bitbucket.org/vinay.sajip/logutils/"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-logutils"
+  ],
+  "Package-List": [
+    "python-logutils-doc deb doc optional arch=all python3-logutils deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/python/python-logutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/python/python-logutils.git"
+  ],
+  "Version": [
+    "0.3.5-3"
+  ]
+}

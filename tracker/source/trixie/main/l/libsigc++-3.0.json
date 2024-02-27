@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsigc++-3.0-0, libsigc++-3.0-dev, libsigc++-3.0-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, libxml2-utils \u003c!nocheck\u003e, meson (\u003e= 0.55.0), mm-common, pkg-kde-tools, python3-distutils, xsltproc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4065e124fa874ccf076d2653d7c74fa47449d2657377c1ad219174a0140c1d93 2422 libsigc++-3.0_3.6.0-1.dsc 103be20f0d4d0bfc3067f22e53824f6276543dfa824f6ba0e4946eb8044a4ed8 153964 libsigc++-3.0_3.6.0.orig.tar.xz f5d0dbfcce20f6745ecab24a34f1974a89aad57c21dd3dfefd2fe6dca6cf4199 11796 libsigc++-3.0_3.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libsigc++-3.0"
+  ],
+  "Files": [
+    "b19b5773c5b7025f047de8c00a0cf429 2422 libsigc++-3.0_3.6.0-1.dsc 24f10091f3590df9dfb1a957c1405933 153964 libsigc++-3.0_3.6.0.orig.tar.xz 502c3418ac5cd2cbd3ff4452770335e0 11796 libsigc++-3.0_3.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libsigcplusplus.github.io/libsigcplusplus/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsigc++-3.0"
+  ],
+  "Package-List": [
+    "libsigc++-3.0-0 deb libs optional arch=any libsigc++-3.0-dev deb libdevel optional arch=any libsigc++-3.0-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, g++"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libsigcplusplus-3.0"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libsigcplusplus-3.0.git"
+  ],
+  "Version": [
+    "3.6.0-1"
+  ]
+}

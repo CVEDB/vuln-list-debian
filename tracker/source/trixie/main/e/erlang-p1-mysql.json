@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "erlang-p1-mysql"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-rebar (\u003e= 0.0.6), erlang-base, erlang-crypto, erlang-eunit, erlang-syntax-tools"
+  ],
+  "Checksums-Sha256": [
+    "165e753c25ed6cb2c75fdf56a963d8893476826e9ea58146607df7ff41693e51 2124 erlang-p1-mysql_1.0.22-1.dsc 0bf6fe306dc8ab321a9f1c0996e5d3727952c286b6913b22bf969a70dd802db4 28266 erlang-p1-mysql_1.0.22.orig.tar.gz 754a95d011db9d5a55ac76945e4730cd78dde2e2af855fa5e7024aa3f10c63ef 4532 erlang-p1-mysql_1.0.22-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/erlang-p1-mysql"
+  ],
+  "Files": [
+    "ff56f0814a32f884b1a22a95e106d424 2124 erlang-p1-mysql_1.0.22-1.dsc 74eb343a8acaf9383fbb71a4e16c8278 28266 erlang-p1-mysql_1.0.22.orig.tar.gz 5fc9aa47e3c69bde449efc2a8e7873c5 4532 erlang-p1-mysql_1.0.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/processone/p1_mysql"
+  ],
+  "Maintainer": [
+    "Ejabberd Packaging Team \u003cejabberd@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "erlang-p1-mysql"
+  ],
+  "Package-List": [
+    "erlang-p1-mysql deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Philipp Huebner \u003cdebalance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ejabberd-packaging-team/erlang-p1-mysql"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ejabberd-packaging-team/erlang-p1-mysql.git"
+  ],
+  "Version": [
+    "1.0.22-1"
+  ]
+}

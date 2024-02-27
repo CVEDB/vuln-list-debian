@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "findent"
+  ],
+  "Build-Depends": [
+    "flex, bison, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5209499753eea9a346bb4c5579de0e4d9971ba82a1d6433bb58d7c610442a6c6 1751 findent_4.3.2-1.dsc 62144eb84bda93d21241a6963ef973f92778bca7c915bfea9b38973774e85c7e 597524 findent_4.3.2.orig.tar.gz e11b9b0703779f068ffaacd459ec34e9cb4c67aa8e24fe0df66d180c346817e0 33292 findent_4.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/findent"
+  ],
+  "Files": [
+    "8f3822c4bb70de498ebfbfaf5852405a 1751 findent_4.3.2-1.dsc b4a739a8e26497ac6b3fee047e2b2773 597524 findent_4.3.2.orig.tar.gz 4e9290964782d2d278545132b6c91029 33292 findent_4.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sourceforge.net/projects/findent/"
+  ],
+  "Maintainer": [
+    "Willem Vermin \u003cwvermin@gmail.com\u003e"
+  ],
+  "Package": [
+    "findent"
+  ],
+  "Package-List": [
+    "findent deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Version": [
+    "4.3.2-1"
+  ]
+}

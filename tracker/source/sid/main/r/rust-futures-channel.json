@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-futures-channel-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-futures-core-0.3+alloc-dev (\u003e= 0.3.30-~~) \u003c!nocheck\u003e, librust-futures-core-0.3+std-dev (\u003e= 0.3.30-~~) \u003c!nocheck\u003e, librust-futures-core-0.3-dev (\u003e= 0.3.30-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7fd02f56a7dfdf1e963c7026eaddfa15282beaca271ec044c90e35c548c8ea21 2541 rust-futures-channel_0.3.30-1.dsc eac8f7d7865dcb88bd4373ab671c8cf4508703796caa2b1985a9ca867b3fcb78 31736 rust-futures-channel_0.3.30.orig.tar.gz 5c801d7db97dd4dbc4e3cafd3fa37939c572e0ca83caf9fe6a657f39276a8edd 3448 rust-futures-channel_0.3.30-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-futures-channel"
+  ],
+  "Files": [
+    "db47a1e6a7923ba930dd1db804e8ea44 2541 rust-futures-channel_0.3.30-1.dsc f6af880cfdb0c579b698586d841c664b 31736 rust-futures-channel_0.3.30.orig.tar.gz c4bb1edad7f98e2883cf698fc09dfec1 3448 rust-futures-channel_0.3.30-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rust-lang.github.io/futures-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-futures-channel"
+  ],
+  "Package-List": [
+    "librust-futures-channel-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-0.3+default-dev, librust-futures-test-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Henry-Nicolas Tourneur \u003cdebian@nilux.be\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-channel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-channel]"
+  ],
+  "Version": [
+    "0.3.30-1"
+  ]
+}

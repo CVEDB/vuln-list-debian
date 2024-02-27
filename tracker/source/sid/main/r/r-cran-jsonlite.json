@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-jsonlite"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "2f179c0f773ec5d07e4a875dc2b0ad1e1040143e494b0ce2ef6fd42bdc85c7fb 2233 r-cran-jsonlite_1.8.8+dfsg-1.dsc c200e24ef4aefa9f2f88116c513e2f61a1806d0058847d3b311c03a816bf643b 372024 r-cran-jsonlite_1.8.8+dfsg.orig.tar.xz 28b525013e2c6dca34cd9ad37dcecfcdf6d5e70da955f9c5d93844b025a1c996 3912 r-cran-jsonlite_1.8.8+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-jsonlite"
+  ],
+  "Files": [
+    "2e733e0558a47cc1811e3ba176b6420c 2233 r-cran-jsonlite_1.8.8+dfsg-1.dsc b257aead1a8dd7bd0085061e6a5c4f19 372024 r-cran-jsonlite_1.8.8+dfsg.orig.tar.xz 013dc3f35d178dcfb84e2fabe4b96fcc 3912 r-cran-jsonlite_1.8.8+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=jsonlite"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-jsonlite"
+  ],
+  "Package-List": [
+    "r-cran-jsonlite deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-httr, r-cran-knitr, r-cran-r.rsp, r-cran-rmarkdown, r-cran-sf, r-cran-testthat, r-cran-vctrs"
+  ],
+  "Uploaders": [
+    "Chris Lawrence \u003clawrencc@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-jsonlite"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-jsonlite.git"
+  ],
+  "Version": [
+    "1.8.8+dfsg-1"
+  ]
+}

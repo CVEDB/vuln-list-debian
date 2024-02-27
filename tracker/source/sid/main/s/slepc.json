@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "slepc-dev, libslepc-real-dev, libslepc-complex-dev, libslepc-real3.19-dev, libslepc3.19-dev-examples, libslepc-real3.19, slepc3.19-doc, libslepc-complex3.19-dev, libslepc-complex3.19, slepc64-dev, libslepc64-real-dev, libslepc64-complex-dev, libslepc64-real3.19-dev, libslepc64-real3.19, libslepc64-complex3.19-dev, libslepc64-complex3.19"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3, pkg-config, dh-python, gfortran, dh-fortran-mod, libpetsc-real3.19-dev, libpetsc-complex3.19-dev, libpetsc3.19-dev-examples, libpetsc64-real3.19-dev, libpetsc64-complex3.19-dev, libarpack2-dev, libparpack2-dev"
+  ],
+  "Checksums-Sha256": [
+    "1b41be6c77dc9051d87c98d661e7576707b739d6646069a4bccce2c7a1b6289a 3399 slepc_3.19.2+dfsg1-2.dsc 37fc6ad5f294c5a69c773467065788cd3868c355a4f1eb6186ec2f789ad2ae4c 3578392 slepc_3.19.2+dfsg1.orig.tar.xz 25eaf4247ed7cefa83592d23d2b0417dc13b1c95df3e864935faf89043e66216 20872 slepc_3.19.2+dfsg1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/slepc"
+  ],
+  "Files": [
+    "98e47eff8bd01cfba39d3251e7657b5e 3399 slepc_3.19.2+dfsg1-2.dsc d0b645f87b2992f651a80605771ba60c 3578392 slepc_3.19.2+dfsg1.orig.tar.xz e47db8addaf65bc9fe36e421c900f171 20872 slepc_3.19.2+dfsg1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://slepc.upv.es/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "slepc"
+  ],
+  "Package-List": [
+    "libslepc-complex-dev deb libdevel optional arch=any libslepc-complex3.19 deb libs optional arch=any libslepc-complex3.19-dev deb libdevel optional arch=any libslepc-real-dev deb libdevel optional arch=any libslepc-real3.19 deb libs optional arch=any libslepc-real3.19-dev deb libdevel optional arch=any libslepc3.19-dev-examples deb libdevel optional arch=all libslepc64-complex-dev deb libdevel optional arch=any libslepc64-complex3.19 deb libs optional arch=any libslepc64-complex3.19-dev deb libdevel optional arch=any libslepc64-real-dev deb libdevel optional arch=any libslepc64-real3.19 deb libs optional arch=any libslepc64-real3.19-dev deb libdevel optional arch=any slepc-dev deb libdevel optional arch=any slepc3.19-doc deb doc optional arch=all slepc64-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "\"Adam C. Powell, IV\" \u003chazelsct@debian.org\u003e, Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/slepc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/slepc.git"
+  ],
+  "Version": [
+    "3.19.2+dfsg1-2"
+  ]
+}

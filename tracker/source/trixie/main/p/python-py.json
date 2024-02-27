@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-py"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest \u003c!nocheck\u003e, subversion \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2a5cbe2260d2cfe21cf0aadef4feeb5c9a0d77442941b2f3335a70da4839a292 2178 python-py_1.11.0-2.dsc 51c75c4126074b472f746a24399ad32f6053d1b34b68d2fa41e558e6f4a98719 207796 python-py_1.11.0.orig.tar.gz def94be97b34dec367c17473ef6a28bb836abcf13414e227dc0458f5349ecafd 13692 python-py_1.11.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-py"
+  ],
+  "Files": [
+    "af57248d4a83815c23d4216310397d0c 2178 python-py_1.11.0-2.dsc bde7dcc1cb452a1e10206ef2f811ba88 207796 python-py_1.11.0.orig.tar.gz c5fe881d0e33b9351b9b3dc4ed4c759d 13692 python-py_1.11.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytest-dev/py"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-py"
+  ],
+  "Package-List": [
+    "python3-py deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Ondřej Nový \u003conovy@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-py"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-py.git"
+  ],
+  "Version": [
+    "1.11.0-2"
+  ]
+}

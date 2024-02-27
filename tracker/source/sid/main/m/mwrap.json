@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mwrap"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), flex, latexmk, octave-dev"
+  ],
+  "Checksums-Sha256": [
+    "d51c827999a00f42a4388927cbdf8e587b4cd59ad0c1b1ac891469be831c22f0 2175 mwrap_1.1.1-2.dsc 7c007a2c833d956d4805f12922920c8c8f9a47dc3f483ba0ffffca5aa130daed 255235 mwrap_1.1.1.orig.tar.gz db01f10688a9dff4a69c63cd7ad11edceb01b585c78402105d5e62f382b0102c 6604 mwrap_1.1.1-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a49ba119401ec08a8b657f8550504df3e6597ea8 debian archive/debian/1.1.1-2 https://git.dgit.debian.org/mwrap"
+  ],
+  "Directory": [
+    "pool/main/m/mwrap"
+  ],
+  "Files": [
+    "307e8c7050f787ccd60f67b22a965c8a 2175 mwrap_1.1.1-2.dsc 35cb6c325acb89f6f2d482b2615c0a55 255235 mwrap_1.1.1.orig.tar.gz c040092e29729eda50519b0af0e17ce8 6604 mwrap_1.1.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.cs.cornell.edu/~bindel/blurbs/mwrap.html"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "mwrap"
+  ],
+  "Package-List": [
+    "mwrap deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "octave-dev"
+  ],
+  "Uploaders": [
+    "Nicolas Bourdaud \u003cnicolas.bourdaud@gmail.com\u003e, Rafael Laboissière \u003crafael@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/mwrap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/mwrap.git"
+  ],
+  "Version": [
+    "1.1.1-2"
+  ]
+}

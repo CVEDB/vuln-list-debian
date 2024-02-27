@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-record-update"
+  ],
+  "Build-Depends": [
+    "coq, debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-core-ocaml-dev, libcoq-stdlib"
+  ],
+  "Checksums-Sha256": [
+    "895f29d16db712a4ee02f6c896e7b5a8fda533e630ba7d1d1ea81433c0b5569b 2148 coq-record-update_0.3.3-1.dsc 6d01fa6ffc58f2bfa3c56c3a5b8b8bd28a9bf7ceff804788f74a2ea4f65d76d3 13644 coq-record-update_0.3.3.orig.tar.gz 9de844e2fc220dcadb38cc8c8b256a760e1a24e8899e1ac3441324a3a275a38d 1972 coq-record-update_0.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-record-update"
+  ],
+  "Files": [
+    "8552500c7c00b9f8341df70c54cc5266 2148 coq-record-update_0.3.3-1.dsc 67fc7dead388bfec2b737241dcd9e3d8 13644 coq-record-update_0.3.3.orig.tar.gz 91abd01ad26e0754300c15514b246a10 1972 coq-record-update_0.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tchajed/coq-record-update"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-record-update"
+  ],
+  "Package-List": [
+    "libcoq-record-update deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-record-update"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-record-update.git"
+  ],
+  "Version": [
+    "0.3.3-1"
+  ]
+}

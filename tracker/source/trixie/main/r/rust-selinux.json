@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-selinux-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-2+default-dev (\u003e= 2.4-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.19-~~) \u003c!nocheck\u003e, librust-reference-counted-singleton-0.1+default-dev \u003c!nocheck\u003e, librust-selinux-sys-0.6+default-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "748289d8d417502cba4aa6da5ef870e1ce2075e2b7f79e1e9e721fb16406bfd6 2558 rust-selinux_0.4.3-1.dsc c88696d7211f03e87034e8687498f3f71890633e0e3e0c051ca3a716d2bc03e4 37218 rust-selinux_0.4.3.orig.tar.gz 2c4756cec80fc8c92cc5412e4b5868fdc1ff49476dc066602dbe441f422c37c8 2928 rust-selinux_0.4.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-selinux"
+  ],
+  "Files": [
+    "187ff4cce62530eb8127feb227dc353a 2558 rust-selinux_0.4.3-1.dsc 6ecd4e36a73d0ad27c546255b00d8ecf 37218 rust-selinux_0.4.3.orig.tar.gz 65842874f8d84e590cc131dc7d3b2d7f 2928 rust-selinux_0.4.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-selinux"
+  ],
+  "Package-List": [
+    "librust-selinux-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-assert-matches-1+default-dev, librust-serial-test-3+default-dev, librust-socketpair-0.19+default-dev, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/selinux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/selinux]"
+  ],
+  "Version": [
+    "0.4.3-1"
+  ]
+}

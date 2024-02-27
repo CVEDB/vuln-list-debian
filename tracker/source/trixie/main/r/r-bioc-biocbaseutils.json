@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-biocbaseutils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "b69e0d6afc32e93c46809eb7f199f835df79824d91e77bf4a9c74b312cd62cc1 2150 r-bioc-biocbaseutils_1.4.0+dfsg-1.dsc 06d7311cdd4c8450cf1bbfb460b0a373edb034e6b9acef9342d80d73d3b2f8da 7444 r-bioc-biocbaseutils_1.4.0+dfsg.orig.tar.xz a32ff0f95268805255ae3c543e138f5ae6b7350f67138ee222b38b7b76d16a05 4936 r-bioc-biocbaseutils_1.4.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-biocbaseutils"
+  ],
+  "Files": [
+    "9caf08d75ba1b6e41ebc300a2ac3585d 2150 r-bioc-biocbaseutils_1.4.0+dfsg-1.dsc ac52c4e70f694a82ece4c012cc1d5393 7444 r-bioc-biocbaseutils_1.4.0+dfsg.orig.tar.xz 111ee7bc245075aa84e090ac87587269 4936 r-bioc-biocbaseutils_1.4.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/BiocBaseUtils/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-biocbaseutils"
+  ],
+  "Package-List": [
+    "r-bioc-biocbaseutils deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocbaseutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocbaseutils.git"
+  ],
+  "Version": [
+    "1.4.0+dfsg-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "wayland-protocols"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson (\u003e= 0.55.0), libwayland-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "94650b6a32f8a2ed26bb1afda3dcdf698ab6609b4e1e20eb58697ebfa9a4cc29 2096 wayland-protocols_1.33-1.dsc 71a7d2f062d463aa839497ddfac97e4bd3f00aa306e014f94529aa3a2be193a8 137725 wayland-protocols_1.33.orig.tar.gz 78498dd4e415ad17901356b2679e8dc4b9b46c600af6697bad780a6b1695cc9e 5760 wayland-protocols_1.33-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wayland-protocols"
+  ],
+  "Files": [
+    "58c161470ec5b6b647c02f7a5e40de17 2096 wayland-protocols_1.33-1.dsc 4b38876fca59f6771e4aa98d3147ad18 137725 wayland-protocols_1.33.orig.tar.gz ccb264c6150c073a27b7455398f929de 5760 wayland-protocols_1.33-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://wayland.freedesktop.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "wayland-protocols"
+  ],
+  "Package-List": [
+    "wayland-protocols deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Héctor Orón Martínez \u003czumbi@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/wayland/wayland-protocols"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/wayland/wayland-protocols.git"
+  ],
+  "Version": [
+    "1.33-1"
+  ]
+}

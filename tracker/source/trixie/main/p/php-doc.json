@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "php-cli, php-sqlite3, php-xml"
+  ],
+  "Checksums-Sha256": [
+    "1a7875fb1aef728e6c8646432bd652eb7c29cf72414749f157885df30dba898c 2803 php-doc_20231206~git.66ff996+dfsg-2.dsc 6609bd33aaa400d3492a817150607608994b15e17e1a690d573e01f65f7f0f02 3643312 php-doc_20231206~git.66ff996+dfsg.orig-en.tar.xz 927314282e54ace3d3141689c7a58027e423eccf4281b9cec561b2e7b8413e04 154480 php-doc_20231206~git.66ff996+dfsg.orig-phd.tar.xz 184f52dcac1b518f0c852695abaa1782643c56336176f0b61c3d4a312a15b5ab 226900 php-doc_20231206~git.66ff996+dfsg.orig.tar.xz 8e9424a10c116a8f88589e288b790d83f8179068ae3517fc1b60a4cedd2e6903 17136 php-doc_20231206~git.66ff996+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-doc"
+  ],
+  "Files": [
+    "1f2dc03698b1f75f7a350ad857dddcd2 2803 php-doc_20231206~git.66ff996+dfsg-2.dsc 3b547d0afbbdfc9052c8c04dbd81d078 3643312 php-doc_20231206~git.66ff996+dfsg.orig-en.tar.xz 31e0fea49657b671117924f744d6a41f 154480 php-doc_20231206~git.66ff996+dfsg.orig-phd.tar.xz 20efe72e904c3f458e7d933386f290db 226900 php-doc_20231206~git.66ff996+dfsg.orig.tar.xz f2447c12d7da891956a846c22b13902c 17136 php-doc_20231206~git.66ff996+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://docs.php.net/manual/en/"
+  ],
+  "Maintainer": [
+    "Debian PHP Maintainers \u003cteam+pkg-php@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "php-doc"
+  ],
+  "Package-List": [
+    "php-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "linkchecker"
+  ],
+  "Uploaders": [
+    "Athos Ribeiro \u003cathos.ribeiro@canonical.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/php-doc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/php-doc.git"
+  ],
+  "Version": [
+    "20231206~git.66ff996+dfsg-2"
+  ]
+}

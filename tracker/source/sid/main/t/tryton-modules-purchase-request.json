@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tryton-modules-purchase-request"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, jdupes, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "c2584d1f28976b3454db5b4f5c3e75781995c69703fcd505597d0d134cc7c58d 2677 tryton-modules-purchase-request_6.0.5-1.dsc 2df09503d4e9aaba38e70ffcab06a1605378f905d0408a46a9c2c441b58efc21 42883 tryton-modules-purchase-request_6.0.5.orig.tar.gz 5878dd89170eef624cfbe3100329b52976b7a8b32dcb78c8dac4d30d07ec6301 506 tryton-modules-purchase-request_6.0.5.orig.tar.gz.asc a5d6574659e24cb01616295524075099676aca8a5acaa2dd9d83fbd01e6fb7b3 12712 tryton-modules-purchase-request_6.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tryton-modules-purchase-request"
+  ],
+  "Files": [
+    "3674ac2dfc45af963934c5f80c7c2eb5 2677 tryton-modules-purchase-request_6.0.5-1.dsc 76d83ba88d3855b431ff2220f45c7682 42883 tryton-modules-purchase-request_6.0.5.orig.tar.gz 80280c200b17522d3cf781a488ab34d7 506 tryton-modules-purchase-request_6.0.5.orig.tar.gz.asc d22590890234978a08ce1c066ddda8c4 12712 tryton-modules-purchase-request_6.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.tryton.org/"
+  ],
+  "Maintainer": [
+    "Debian Tryton Maintainers \u003cteam+tryton-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tryton-modules-purchase-request"
+  ],
+  "Package-List": [
+    "tryton-modules-purchase-request deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-setuptools, tryton-modules-stock-supply, tryton-proteus"
+  ],
+  "Uploaders": [
+    "Mathias Behrle \u003cmathiasb@m9s.biz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-purchase-request"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-purchase-request.git"
+  ],
+  "Version": [
+    "6.0.5-1"
+  ]
+}

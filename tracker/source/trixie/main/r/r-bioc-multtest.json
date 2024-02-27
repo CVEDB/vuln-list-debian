@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-multtest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics, r-bioc-biobase, r-cran-survival, r-cran-mass"
+  ],
+  "Checksums-Sha256": [
+    "6b1af03ceca426ddab894d75955fd5f14a164e59ed072b79a239a6e5a80ec40c 2142 r-bioc-multtest_2.58.0-1.dsc 92c40644fb6a3adbca9cba1da864482ec5db737fcbcfc8c4e3cadc2e5e161d69 1294473 r-bioc-multtest_2.58.0.orig.tar.gz 36c9612b7e0547bf77ac09d49631e86a25612e686fc3566d1733f7df12e7fcb9 3496 r-bioc-multtest_2.58.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-multtest"
+  ],
+  "Files": [
+    "b9e0c0415446fcdcc9bc2015a954699c 2142 r-bioc-multtest_2.58.0-1.dsc 7d81a8460781f4a86f01a9df5fcf50d7 1294473 r-bioc-multtest_2.58.0.orig.tar.gz bdb0068db92277198f6b67bca7e181e3 3496 r-bioc-multtest_2.58.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/multtest/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-multtest"
+  ],
+  "Package-List": [
+    "r-bioc-multtest deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-multtest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-multtest.git"
+  ],
+  "Version": [
+    "2.58.0-1"
+  ]
+}

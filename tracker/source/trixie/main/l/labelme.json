@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "labelme, labelme-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3-pyqt5, dh-python, python3-matplotlib, python3-setuptools, pyqt5-dev, python3-pil, python3-qtpy, python3-termcolor, python3-yaml, python3-imgviz"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-python3, python3"
+  ],
+  "Checksums-Sha256": [
+    "d359321af401ba991228f8dd7257e4df33098db7be209726457e086de9d5c471 2092 labelme_5.4.1-1.dsc fdf389bdff265098fb0a546ae564ba1202db1478cb67343a10ddf6d40fea2bf9 12931451 labelme_5.4.1.orig.tar.gz 7c970543806253d39635d1bf0cb759a6c4882ac971a6f8b38d2c25e8c222412b 48796 labelme_5.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/labelme"
+  ],
+  "Files": [
+    "796e4d64de7c00e9365ad07b52775441 2092 labelme_5.4.1-1.dsc cf22534329c8733c990b6d7882fb6b1c 12931451 labelme_5.4.1.orig.tar.gz 90b3638a285114b24adb173bf2879051 48796 labelme_5.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/wkentaro/labelme"
+  ],
+  "Maintainer": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e"
+  ],
+  "Package": [
+    "labelme"
+  ],
+  "Package-List": [
+    "labelme deb graphics optional arch=all labelme-examples deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/labelme"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/labelme.git"
+  ],
+  "Version": [
+    "5.4.1-1"
+  ]
+}

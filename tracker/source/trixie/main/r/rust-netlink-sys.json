@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-netlink-sys-dev, librust-netlink-sys+async-io-dev, librust-netlink-sys+futures-dev, librust-netlink-sys+mio-dev, librust-netlink-sys+smol-socket-dev, librust-netlink-sys+tokio-dev, librust-netlink-sys+tokio-socket-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytes-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.66-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e6fd905c685da80e2ecd5fc1b09be14449f596dc71ee142289aae73f6bf8271e 3106 rust-netlink-sys_0.8.5-3.dsc 6471bf08e7ac0135876a9581bf3217ef0333c191c128d34878079f42ee150411 23450 rust-netlink-sys_0.8.5.orig.tar.gz 8a552b2f4679273b528775c81f2f8afc39f4975d1675cc15c791eed29983f4c4 5516 rust-netlink-sys_0.8.5-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-netlink-sys"
+  ],
+  "Files": [
+    "a0ecdea3ffbdbcc728d8526d34949903 3106 rust-netlink-sys_0.8.5-3.dsc a219b2e8e30f97c251059bc4e91b96ad 23450 rust-netlink-sys_0.8.5.orig.tar.gz bc99ad38f2f1f3c93b6604db4052dac9 5516 rust-netlink-sys_0.8.5-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-netlink/netlink-sys"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-netlink-sys"
+  ],
+  "Package-List": [
+    "librust-netlink-sys+async-io-dev deb rust optional arch=any librust-netlink-sys+futures-dev deb rust optional arch=any librust-netlink-sys+mio-dev deb rust optional arch=any librust-netlink-sys+smol-socket-dev deb rust optional arch=any librust-netlink-sys+tokio-dev deb rust optional arch=any librust-netlink-sys+tokio-socket-dev deb rust optional arch=any librust-netlink-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-std-1+attributes-dev, librust-async-std-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+net-dev, librust-tokio-1+rt-multi-thread-dev"
+  ],
+  "Uploaders": [
+    "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/netlink-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/netlink-sys]"
+  ],
+  "Version": [
+    "0.8.5-3"
+  ]
+}

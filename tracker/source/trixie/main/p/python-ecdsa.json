@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-ecdsa"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, python3-pytest, python3-hypothesis, openssl"
+  ],
+  "Checksums-Sha256": [
+    "310f5c7a730c450de75d16336dbc6c6a64dc7fe0cfab7f43ee383907ee9c916d 2196 python-ecdsa_0.18.0-5.dsc 190348041559e21b22a1d65cee485282ca11a6f81d503fddb84d5017e9ed1e49 197938 python-ecdsa_0.18.0.orig.tar.gz 5de9a6aed63273efa24104839e489df264be6728d057770e40e8a03efe3911f1 16068 python-ecdsa_0.18.0-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ecdsa"
+  ],
+  "Files": [
+    "a0241c5be73a76a5fba9627007183174 2196 python-ecdsa_0.18.0-5.dsc cbca26ec29cc50e32e8b070aa2ec0786 197938 python-ecdsa_0.18.0.orig.tar.gz 0348c52842749053cd7f1daced9218f7 16068 python-ecdsa_0.18.0-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/warner/python-ecdsa"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-ecdsa"
+  ],
+  "Package-List": [
+    "python3-ecdsa deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "openssl, python3-all, python3-hypothesis, python3-pytest"
+  ],
+  "Uploaders": [
+    "Josue Ortega \u003cjosue@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-ecdsa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-ecdsa.git"
+  ],
+  "Version": [
+    "0.18.0-5"
+  ]
+}

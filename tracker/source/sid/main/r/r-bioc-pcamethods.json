@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-pcamethods"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase, r-bioc-biocgenerics, r-cran-rcpp, r-cran-mass"
+  ],
+  "Checksums-Sha256": [
+    "7c12c74e02cf08ba7c1c0eb93cedc9688cd4c6fec99d63644b78646a1bee0fe3 2159 r-bioc-pcamethods_1.94.0-1.dsc e0babf4e0bae227ca3e4ef74968eb942ebe48bdd5d27297644a9fee6542455ab 612404 r-bioc-pcamethods_1.94.0.orig.tar.gz 9ec20a70c4e5df069fba1ac8b9e0fba3882ee4363297db10b5ee9842e35b7326 3072 r-bioc-pcamethods_1.94.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-pcamethods"
+  ],
+  "Files": [
+    "5be616032c38bf5dd968b7b7d79b63f7 2159 r-bioc-pcamethods_1.94.0-1.dsc a989ad925a9852f55eb5e4d16d1529d0 612404 r-bioc-pcamethods_1.94.0.orig.tar.gz 63729827775cf64b3b6a72767e59a2c0 3072 r-bioc-pcamethods_1.94.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/pcaMethods/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-pcamethods"
+  ],
+  "Package-List": [
+    "r-bioc-pcamethods deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-pcamethods"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-pcamethods.git"
+  ],
+  "Version": [
+    "1.94.0-1"
+  ]
+}

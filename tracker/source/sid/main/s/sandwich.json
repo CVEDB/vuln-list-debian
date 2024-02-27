@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-sandwich"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, r-cran-zoo"
+  ],
+  "Checksums-Sha256": [
+    "f76e6ef18afd88f7baf9357596fcae70fd1ebdba5d5bb88d05c531b4fb473dc9 1858 sandwich_3.1-0-1.dsc 96b0e105ee50391a1fd286e9556ba6669f08565fa30788b1a21bc861b0a023fa 1401761 sandwich_3.1-0.orig.tar.gz 06df966a60ea8c717b0d41ce0a2e6dce1bedef80f53263125643271337cb404a 3220 sandwich_3.1-0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sandwich"
+  ],
+  "Files": [
+    "2250638ac69a327ecc466bf25d04edfe 1858 sandwich_3.1-0-1.dsc a5abc91469c1f1ae604dba272268b10b 1401761 sandwich_3.1-0.orig.tar.gz e8d2fa69f853b0cdc16a9452c5fd002f 3220 sandwich_3.1-0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=sandwich"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "sandwich"
+  ],
+  "Package-List": [
+    "r-cran-sandwich deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-sandwich"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-sandwich.git"
+  ],
+  "Version": [
+    "3.1-0-1"
+  ]
+}

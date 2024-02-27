@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "moreutils"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), docbook-xml, docbook-xsl, libxml2-utils, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "07095a3267c16c54a808cf6651c816f415b04c72420f76bda93bd757c8ce3619 1866 moreutils_0.68-1.dsc a504f70e863391d770c82c8979350a35fce62ebd83acc84fab2f2b9e91130764 81444 moreutils_0.68.orig.tar.xz edca582ab062fc8f7828186ba8f791b2cef2598f61189f0ffc28dbded9883609 17660 moreutils_0.68-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/moreutils"
+  ],
+  "Files": [
+    "ea427bc1bb3985896e714958418b21e9 1866 moreutils_0.68-1.dsc 1027a687cdd050aa128bc52a8c591da8 81444 moreutils_0.68.orig.tar.xz aeb1987a568053749ece97f54618ced6 17660 moreutils_0.68-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://joeyh.name/code/moreutils/"
+  ],
+  "Maintainer": [
+    "Nicolas Schier \u003cnicolas@fjasle.eu\u003e"
+  ],
+  "Package": [
+    "moreutils"
+  ],
+  "Package-List": [
+    "moreutils deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nsc/moreutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nsc/moreutils.git"
+  ],
+  "Version": [
+    "0.68-1"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "amd64 arm64 i386 ppc64el powerpc ppc64"
+  ],
+  "Binary": [
+    "python3-ptrace"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev"
+  ],
+  "Checksums-Sha256": [
+    "3b2d9df7d19c1cc63c8e154a4360530ef07225766d1f15d8ba09452936b525dd 1878 python-ptrace_0.9.8-0.2.dsc 1e3bc6223f626aaacde8a7979732691c11b13012e702fee9ae16c87f71633eaa 107064 python-ptrace_0.9.8.orig.tar.gz 942f1dfad608f7e9857335b519848759617e7d381a91eae061eef7b25bf6e8b8 4132 python-ptrace_0.9.8-0.2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ptrace"
+  ],
+  "Files": [
+    "eaa8c59167e93cc75d84b64c9cee3134 1878 python-ptrace_0.9.8-0.2.dsc 3baa969bea1b27d2f3c14df0b2a4274b 107064 python-ptrace_0.9.8.orig.tar.gz 3845438705673c3e5c8bdb563a429041 4132 python-ptrace_0.9.8-0.2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/vstinner/python-ptrace"
+  ],
+  "Maintainer": [
+    "Pierre Chifflier \u003cpollux@debian.org\u003e"
+  ],
+  "Package": [
+    "python-ptrace"
+  ],
+  "Package-List": [
+    "python3-ptrace deb python optional arch=amd64,arm64,i386,ppc64el,powerpc,ppc64"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.1.4"
+  ],
+  "Version": [
+    "0.9.8-0.2"
+  ]
+}

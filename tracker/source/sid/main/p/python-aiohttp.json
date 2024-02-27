@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-aiohttp, python-aiohttp-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-sphinx, python3-multidict, python3-async-timeout, python3-yarl, cython3, python3-aiosignal, python3-aiodns, python3-attr, python3-frozenlist, python3-pytest, python3-pytest-mock, python3-chardet, python3-charset-normalizer, python3-gunicorn, python3-sphinxcontrib.blockdiag"
+  ],
+  "Checksums-Sha256": [
+    "0b12ff10d79180721d690a0785992c6b1966a09c88140f9f56f7819f66a21e36 2383 python-aiohttp_3.9.1-1.dsc 8fc49a87ac269d4529da45871e2ffb6874e87779c3d0e2ccd813c0899221239d 7482118 python-aiohttp_3.9.1.orig.tar.gz 23b81f8a72bb19fec70d47807d175c7fd57cad4a46822620a8ca7ef8d48d866d 7444 python-aiohttp_3.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-aiohttp"
+  ],
+  "Files": [
+    "3dce80aec6d0471db578de1635cf94ea 2383 python-aiohttp_3.9.1-1.dsc 264e1b4fbe9f09050523c03f4d9b5ee2 7482118 python-aiohttp_3.9.1.orig.tar.gz 2c98cd2e469d80d097a27a3f4f6b7b28 7444 python-aiohttp_3.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://aiohttp.readthedocs.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-aiohttp"
+  ],
+  "Package-List": [
+    "python-aiohttp-doc deb doc optional arch=all python3-aiohttp deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Tianon Gravi \u003cadmwiggin@gmail.com\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e, Piotr Ożarowski \u003cpiotr@debian.org\u003e, William Grzybowski \u003cwilliam@grzy.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-aiohttp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-aiohttp.git"
+  ],
+  "Version": [
+    "3.9.1-1"
+  ]
+}

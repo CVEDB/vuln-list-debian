@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-pynauty"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, libnauty-dev, python3-all-dev, python3-pytest, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "8382078837430031f8a23f9462e1fefccf592421c15dda2cf3cac989c1ebcb54 2165 pynauty_2.8.6+ds-2.dsc df610d85d41484f5c566746b9dc8b1806751a5d207bc5773bdf0b7c3056c95e8 32228 pynauty_2.8.6+ds.orig.tar.xz e47c23290b82593d48ea10cbc941dff2cb9f99e373c8a1b5040a03de9469a448 3768 pynauty_2.8.6+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pynauty"
+  ],
+  "Files": [
+    "b8358f916737811b2513749876347459 2165 pynauty_2.8.6+ds-2.dsc 87a986782d5292e7a50d2b0230aeafa4 32228 pynauty_2.8.6+ds.orig.tar.xz 89deba7f422c457b0ad3100308cd7e79 3768 pynauty_2.8.6+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdobsan/pynauty"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pynauty"
+  ],
+  "Package-List": [
+    "python3-pynauty deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Doug Torrance \u003cdtorrance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pynauty"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pynauty.git"
+  ],
+  "Version": [
+    "2.8.6+ds-2"
+  ]
+}

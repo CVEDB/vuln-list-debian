@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "swig, swig-examples, swig-doc"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.16.1~), bison, debhelper (\u003e= 10~), debhelper-compat (= 10), libpcre2-dev"
+  ],
+  "Checksums-Sha256": [
+    "82bc88e773851aabecfa06cf98533c64e1f0879f54185b993d58cb9a9f7a76ea 2199 swig_4.2.0-2.dsc 261ca2d7589e260762817b912c075831572b72ff2717942f75b3e51244829c97 8339586 swig_4.2.0.orig.tar.gz d25c5283d4e6f75922e8a5c395a660035b1227f1569e9f53946e841b9348053f 21616 swig_4.2.0-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5a1ed45644346b273274d59909c56fef5335a465 debian archive/debian/4.2.0-2 https://git.dgit.debian.org/swig"
+  ],
+  "Directory": [
+    "pool/main/s/swig"
+  ],
+  "Files": [
+    "d4a145cf6bdd5304f1fa5cf18a85dba6 2199 swig_4.2.0-2.dsc 4d03374a2c30367699fa0928e1d901e8 8339586 swig_4.2.0.orig.tar.gz bb8887fdb9624132d1de7cf4c3d8714d 21616 swig_4.2.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.swig.org/"
+  ],
+  "Maintainer": [
+    "Torsten Landschoff \u003ctorsten@debian.org\u003e"
+  ],
+  "Package": [
+    "swig"
+  ],
+  "Package-List": [
+    "swig deb interpreters optional arch=any swig-doc deb doc optional arch=all swig-examples deb interpreters optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "swig4.0"
+  ],
+  "Uploaders": [
+    "Rafael Laboissière \u003crafael@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/swig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/swig.git"
+  ],
+  "Version": [
+    "4.2.0-2"
+  ]
+}

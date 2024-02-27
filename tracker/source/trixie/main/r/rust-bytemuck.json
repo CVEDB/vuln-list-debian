@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bytemuck-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1efc6d66d06a2e8dd376240ae3efa7023207a2daa637e6588b2e732df1ad4c0b 2253 rust-bytemuck_1.14.0-1.dsc 374d28ec25809ee0e23827c2ab573d729e293f281dfe393500e7ad618baa61c6 44933 rust-bytemuck_1.14.0.orig.tar.gz bcbadfccb808b4604a49369b817cb125f4ea631110ff628907668aa5881308b0 3896 rust-bytemuck_1.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bytemuck"
+  ],
+  "Files": [
+    "18f9ebe735a864302f3396b7dce06e3c 2253 rust-bytemuck_1.14.0-1.dsc 9dd8e437188fced85429d9d0d9db145f 44933 rust-bytemuck_1.14.0.orig.tar.gz 13d28fea3e76d5ec427a60fafa912e4a 3896 rust-bytemuck_1.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bytemuck"
+  ],
+  "Package-List": [
+    "librust-bytemuck-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytemuck"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytemuck]"
+  ],
+  "Version": [
+    "1.14.0-1"
+  ]
+}

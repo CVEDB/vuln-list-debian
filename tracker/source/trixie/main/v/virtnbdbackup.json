@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "virtnbdbackup"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), debhelper-compat (= 13), dh-python, python3-all, python3-libnbd, python3-libvirt, python3-lxml, python3-lz4, python3-paramiko, python3-setuptools, python3-tqdm"
+  ],
+  "Checksums-Sha256": [
+    "b45dee09459380eca0a34ba3de29f8a9db5088147e7ed9e13a8aea295f0a03b1 2044 virtnbdbackup_1.9.55-1.dsc b44384d714b7ca61e7ee5628307ad25a577e46f74158918ce2dd0bf7457bf802 86754 virtnbdbackup_1.9.55.orig.tar.gz cc9edc866ff0e89ef952234c54bc0fad8352e860d96b90f489c810ecd4a73860 2280 virtnbdbackup_1.9.55-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/virtnbdbackup"
+  ],
+  "Files": [
+    "cd2439e489defa1d40c29f6631ffe0b9 2044 virtnbdbackup_1.9.55-1.dsc 101475830abd681dbc454c84d6208c16 86754 virtnbdbackup_1.9.55.orig.tar.gz 5c2b54bb68a4089f80ca5cfabfa6f453 2280 virtnbdbackup_1.9.55-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/abbbi/virtnbdbackup/"
+  ],
+  "Maintainer": [
+    "Michael Ablassmeier \u003cabi@debian.org\u003e"
+  ],
+  "Package": [
+    "virtnbdbackup"
+  ],
+  "Package-List": [
+    "virtnbdbackup deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/virtnbdbackup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/virtnbdbackup.git"
+  ],
+  "Version": [
+    "1.9.55-1"
+  ]
+}

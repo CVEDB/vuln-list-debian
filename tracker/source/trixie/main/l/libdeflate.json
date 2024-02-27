@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libdeflate0, libdeflate-dev, libdeflate-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), d-shlibs, zlib1g-dev, python3 \u003c!nocheck\u003e, xxd \u003c!nocheck\u003e, libdebhelper-perl, cmake"
+  ],
+  "Checksums-Sha256": [
+    "a0fc083efcf9b54596a885928f780745146c01c7f644bddee0945334ba57a5e8 2196 libdeflate_1.19-1.dsc 27bf62d71cd64728ff43a9feb92f2ac2f2bf748986d856133cc1e51992428c25 187684 libdeflate_1.19.orig.tar.gz eaaa5ceac6fffc48b53997df8cfec3152e7fc922214667dfe82a669b81ef99b1 4796 libdeflate_1.19-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libd/libdeflate"
+  ],
+  "Files": [
+    "40c2dc75367757ace4da53a3c6e3ccf3 2196 libdeflate_1.19-1.dsc c69e9193d2975a729068ffa862c81fb6 187684 libdeflate_1.19.orig.tar.gz 899edf577bc0c1712381eb59157e9827 4796 libdeflate_1.19-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ebiggers/libdeflate"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdeflate"
+  ],
+  "Package-List": [
+    "libdeflate-dev deb libdevel optional arch=any libdeflate-tools deb libdevel optional arch=any libdeflate0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/libdeflate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/libdeflate.git"
+  ],
+  "Version": [
+    "1.19-1"
+  ]
+}

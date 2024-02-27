@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-prodash-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-parking-lot-0.12-dev (\u003e= 0.12.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e4545440b292bd404d2e8ddbe587c96f8793cc21cf36ea9d29f1af7d3d2feaa7 2620 rust-prodash_26.2.2-4.dsc 794b5bf8e2d19b53dcdcec3e4bba628e20f5b6062503ba89281fa7037dd7bbcf 88268 rust-prodash_26.2.2.orig.tar.gz 16cee985844f6193761cd0c24857df24d042a73a310fa159ed4a8a93ec7bd258 5476 rust-prodash_26.2.2-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-prodash"
+  ],
+  "Files": [
+    "5da23123f7d63bc97372151b6bf42037 2620 rust-prodash_26.2.2-4.dsc 33a6273a72fc27d8b78ca1a499ada23d 88268 rust-prodash_26.2.2.orig.tar.gz dc78d21388d832c3df4c854c5e285c82 5476 rust-prodash_26.2.2-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-prodash"
+  ],
+  "Package-List": [
+    "librust-prodash-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-argh-0.1+default-dev, librust-async-executor-1+default-dev, librust-async-io-2+default-dev, librust-blocking-1+default-dev, librust-criterion-0.5-dev, librust-env-logger-0.10+humantime-dev, librust-futures-0.3+default-dev, librust-futures-util-0.3-dev, librust-is-terminal-0.4+default-dev, librust-once-cell-1+default-dev, librust-rand-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/prodash"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/prodash]"
+  ],
+  "Version": [
+    "26.2.2-4"
+  ]
+}

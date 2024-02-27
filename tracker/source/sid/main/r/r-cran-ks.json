@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-ks"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-fnn, r-cran-kernlab, r-cran-kernsmooth, r-cran-matrix, r-cran-mclust, r-cran-mgcv, r-cran-multicool, r-cran-mvtnorm, r-cran-pracma"
+  ],
+  "Checksums-Sha256": [
+    "673da1516be38aaf0a01591f29859981781f6e65aebf3ae3ab1b791053c88b98 2155 r-cran-ks_1.14.2-1.dsc f19130476cfafec26bba102b66ecbaeb80a9312c62d55eeec54d1aec75803fcb 1119246 r-cran-ks_1.14.2.orig.tar.gz 94cdd41076db223c5cc25f64f93f455a01f407aef4cc208ffcfcf852d72ade10 2664 r-cran-ks_1.14.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ks"
+  ],
+  "Files": [
+    "ffb0c18cc3deee6aecd5634a4d64a4ac 2155 r-cran-ks_1.14.2-1.dsc 895115f86f71e1c4694a8279e5445083 1119246 r-cran-ks_1.14.2.orig.tar.gz 776f6aa5bfe629328b7db132030641e2 2664 r-cran-ks_1.14.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ks"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ks"
+  ],
+  "Package-List": [
+    "r-cran-ks deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ks"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ks.git"
+  ],
+  "Version": [
+    "1.14.2-1"
+  ]
+}

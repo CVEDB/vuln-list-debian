@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-yasnippet-snippets"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "61faf9a361362ab497c5e9dbf7e1adad6f6273ccaced6f06c5b2cf241649d064 2160 yasnippet-snippets_1.0+58.ge6ec9f1-1.dsc 556558a9cf275a6e8872f29fd93b55297002099e520718c82c42999bc0037465 108120 yasnippet-snippets_1.0+58.ge6ec9f1.orig.tar.xz 5dc24756d6c9ad10e5d65564836e00dd7b757be62a33c9288669f1ee55fb2135 5876 yasnippet-snippets_1.0+58.ge6ec9f1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yasnippet-snippets"
+  ],
+  "Files": [
+    "5a644b5c770530e3746f05eab3ab185a 2160 yasnippet-snippets_1.0+58.ge6ec9f1-1.dsc e747d3d694927b440e2dc1bf5013415f 108120 yasnippet-snippets_1.0+58.ge6ec9f1.orig.tar.xz ea14ce168494de483e848435c478fed7 5876 yasnippet-snippets_1.0+58.ge6ec9f1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AndreaCrotti/yasnippet-snippets"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "yasnippet-snippets"
+  ],
+  "Package-List": [
+    "elpa-yasnippet-snippets deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alberto Luaces Fernández \u003caluaces@udc.es\u003e, Nicholas D Steeves \u003csten@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/yasnippet-snippets"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/yasnippet-snippets.git"
+  ],
+  "Version": [
+    "1.0+58.ge6ec9f1-1"
+  ]
+}

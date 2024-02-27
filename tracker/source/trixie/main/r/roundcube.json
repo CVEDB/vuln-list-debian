@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "roundcube-core, roundcube, roundcube-mysql, roundcube-pgsql, roundcube-sqlite3, roundcube-plugins"
+  ],
+  "Build-Depends": [
+    "aspell-en \u003c!nocheck\u003e, cleancss, debhelper-compat (= 13), dh-buildinfo, hunspell-en-us \u003c!nocheck\u003e, locales \u003c!nocheck\u003e, node-less (\u003e= 3.0.0~), php-bacon-qr-code [!armel !armhf !i386 !mipsel] \u003c!nocheck\u003e, php-crypt-gpg \u003c!nocheck\u003e, php-enchant \u003c!nocheck\u003e, php-gd \u003c!nocheck\u003e, php-guzzlehttp-guzzle \u003c!nocheck\u003e, php-intl \u003c!nocheck\u003e, php-mail-mime \u003c!nocheck\u003e, php-masterminds-html5 \u003c!nocheck\u003e, php-mbstring, php-net-ldap3 \u003c!nocheck\u003e, php-pspell \u003c!nocheck\u003e, php-roundcube-rtf-html-php \u003c!nocheck\u003e, php-sqlite3 \u003c!nocheck\u003e, phpunit (\u003e= 9~) \u003c!nocheck\u003e, pigz, pkg-php-tools, po-debconf, sqlite3 \u003c!nocheck\u003e, uglifyjs"
+  ],
+  "Checksums-Sha256": [
+    "6533ba9ef83c196620fffeacd180f979066e53d983df3571d76f822eb5cf3ba2 3835 roundcube_1.6.6+dfsg-1.dsc dbdfffced9f6027d1053853f29da81ad48006a50880ae79ebe1a83178a2efffb 126876 roundcube_1.6.6+dfsg.orig-tinymce-langs.tar.xz 6e917cfa0da0da05007158ee50e1b171e95131a96dad6713715da2524eb1ae27 1928588 roundcube_1.6.6+dfsg.orig-tinymce.tar.xz eafa73e231d3d0580e4f41b0098e6b1b88472e9e28411189947814b2592f7fc6 2785604 roundcube_1.6.6+dfsg.orig.tar.xz c7c5fb24b7f99f629b67d0109851ade291590440908b1e6b76d9fa1ba3673b55 106368 roundcube_1.6.6+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/roundcube"
+  ],
+  "Files": [
+    "26cd8fb5d61064e439944d245289f157 3835 roundcube_1.6.6+dfsg-1.dsc 6444a8703039e211d7c9d7706b0c629a 126876 roundcube_1.6.6+dfsg.orig-tinymce-langs.tar.xz 7b629d2fc39cc4255f1e499a5610da83 1928588 roundcube_1.6.6+dfsg.orig-tinymce.tar.xz fd068474e328496390b015f1562bbc8c 2785604 roundcube_1.6.6+dfsg.orig.tar.xz 5c800843f253ce1fe70c0e54ea0afa46 106368 roundcube_1.6.6+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.roundcube.net/"
+  ],
+  "Maintainer": [
+    "Debian Roundcube Maintainers \u003cpkg-roundcube-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "roundcube"
+  ],
+  "Package-List": [
+    "roundcube deb web optional arch=all roundcube-core deb web optional arch=all roundcube-mysql deb web optional arch=all roundcube-pgsql deb web optional arch=all roundcube-plugins deb web optional arch=all roundcube-sqlite3 deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, aspell-en, curl, dbconfig-no-thanks, default-mysql-server, hunspell-en-us, lighttpd, locales, nginx-light, php-bacon-qr-code, php-cgi, php-crypt-gpg, php-enchant, php-fpm, php-gd, php-net-ldap3, php-pspell, php-roundcube-rtf-html-php, phpunit"
+  ],
+  "Uploaders": [
+    "Vincent Bernat \u003cbernat@debian.org\u003e, Sandro Knauß \u003chefee@debian.org\u003e, Guilhem Moulin \u003cguilhem@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/roundcube-team/roundcube"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/roundcube-team/roundcube.git -b debian/latest"
+  ],
+  "Version": [
+    "1.6.6+dfsg-1"
+  ]
+}

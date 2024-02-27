@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-future.apply"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-future (\u003e= 1.28.0), r-cran-globals (\u003e= 0.16.1)"
+  ],
+  "Checksums-Sha256": [
+    "fe74b44cfd56e3cdc41a14af1f636f75f9b18b9851b9154c05b30a6003fed59e 2290 r-cran-future.apply_1.11.1+dfsg-1.dsc 437e00066330985a3e39eb03d1f486ea1a181e52a3d3705709ff7fdec6a44e48 46340 r-cran-future.apply_1.11.1+dfsg.orig.tar.xz c9e75663454fb8759aeedfc8f55f962a979d304608184f2d42cd37f34ffeeab5 2864 r-cran-future.apply_1.11.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-future.apply"
+  ],
+  "Files": [
+    "61081be2d7ddcb9171339b16c9a03fc8 2290 r-cran-future.apply_1.11.1+dfsg-1.dsc a59c83c252b89bebfe51aa2632ea7994 46340 r-cran-future.apply_1.11.1+dfsg.orig.tar.xz 815e13c8f0903862e02db39359bb11aa 2864 r-cran-future.apply_1.11.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=future.apply"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-future.apply"
+  ],
+  "Package-List": [
+    "r-cran-future.apply deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-listenv, r-cran-markdown, r-cran-r.rsp"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-future.apply"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-future.apply.git"
+  ],
+  "Version": [
+    "1.11.1+dfsg-1"
+  ]
+}

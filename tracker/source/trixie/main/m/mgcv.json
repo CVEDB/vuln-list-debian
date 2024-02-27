@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-mgcv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), r-cran-nlme, r-cran-matrix, dh-r"
+  ],
+  "Checksums-Sha256": [
+    "402384fa1204a1101155a3c265e71927396ebad3a97a57c817db7e24cf5b4b94 1826 mgcv_1.9-1-1.dsc 700fbc37bedd3a49505b9bc4949faee156d9cfb4f669d797d06a10a15a5bdb32 1083217 mgcv_1.9-1.orig.tar.gz cf18ffe6e93b47a69db0b2c8d577312230fbe4bd3ce2fb2a050f8efa86593076 5528 mgcv_1.9-1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mgcv"
+  ],
+  "Files": [
+    "c7ac021a305f986379889a2e9dbc3435 1826 mgcv_1.9-1-1.dsc 458c552f0fd41c12cdddbc5af6bf1fca 1083217 mgcv_1.9-1.orig.tar.gz 4f114719898b964fbf1a7ecb994a572b 5528 mgcv_1.9-1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=mgcv"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "mgcv"
+  ],
+  "Package-List": [
+    "r-cran-mgcv deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-mgcv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-mgcv.git"
+  ],
+  "Version": [
+    "1.9-1-1"
+  ]
+}

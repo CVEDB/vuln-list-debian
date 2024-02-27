@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "yadifa, libyadifa-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "27b3c5648dae7281f1482a970e2de26b1a3afbf6767d03807c237fd05d3cc9f3 2119 yadifa_2.6.5-1.dsc fb7976ed15df7837888d2b09eefdcea6c5f31ea7c1ec9dce77ee593194f1ec85 2693964 yadifa_2.6.5.orig.tar.gz 62f3930ac56fa8913ede4e38921ada0005be3db65aad1e37bcb0217ebfe415f5 836 yadifa_2.6.5.orig.tar.gz.asc 0263b2a426224d588e44bafab13e01c57a3cc9d01c66beb656772dbc969a1513 17884 yadifa_2.6.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yadifa"
+  ],
+  "Files": [
+    "b11493e85140ca642308179c550b336b 2119 yadifa_2.6.5-1.dsc 64f50de4225a780cf6a72dab91621a8f 2693964 yadifa_2.6.5.orig.tar.gz dccf0d4dfb80ed36bbc9a9ea50ac096c 836 yadifa_2.6.5.orig.tar.gz.asc 9527b5c7a38cffa1afec8c0b84744bd4 17884 yadifa_2.6.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.yadifa.eu"
+  ],
+  "Maintainer": [
+    "Markus Schade \u003cmarkus.schade@gmail.com\u003e"
+  ],
+  "Package": [
+    "yadifa"
+  ],
+  "Package-List": [
+    "libyadifa-dev deb libdevel optional arch=all yadifa deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dns-team/yadifa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dns-team/yadifa.git"
+  ],
+  "Version": [
+    "2.6.5-1"
+  ]
+}

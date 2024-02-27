@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xpdf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, libpaper-dev, libxt-dev, libx11-dev, libmotif-dev, libpoppler-private-dev (\u003e= 0.76)"
+  ],
+  "Checksums-Sha256": [
+    "14217343ca967af1643bd4021c6b6f86941c2cd417a418e61bf258d72b163374 1949 xpdf_3.04+git20240202-1.dsc 3a020caedde7e75997373e6eb2076c81e25586d8422cd161d6d17203c51f76ae 99428 xpdf_3.04+git20240202.orig.tar.xz d657514ef8f5265985b508b5e934f7586fc6f5d764857bbfe9374ec5c7e798b6 24936 xpdf_3.04+git20240202-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xpdf"
+  ],
+  "Files": [
+    "77f266a8a0fc61618ec89486b31d0563 1949 xpdf_3.04+git20240202-1.dsc 2c991aa0f682eeab4ba6dfc038340439 99428 xpdf_3.04+git20240202.orig.tar.xz 9a53ecd04a6d4b539f3bd3bcb8c05f64 24936 xpdf_3.04+git20240202-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://offog.org/code/xpopple/"
+  ],
+  "Maintainer": [
+    "Florian Schlichting \u003cfsfs@debian.org\u003e"
+  ],
+  "Package": [
+    "xpdf"
+  ],
+  "Package-List": [
+    "xpdf deb text optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "text"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/xpdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/xpdf.git"
+  ],
+  "Version": [
+    "3.04+git20240202-1"
+  ]
+}

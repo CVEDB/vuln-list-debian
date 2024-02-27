@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-datacache"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, python3-requests, python3-pandas, python3-appdirs, python3-biopython \u003c!nocheck\u003e, python3-typechecks \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "86a49e5d47f8a6ee2dc2c24c13e100faf3cac14143acae3e75e28a63cd5974f9 2289 python-datacache_1.2.1-2.dsc ed24c419ed9791ef0f0375ca5552b2300922235ee9ffa81d200f002c6f7d7955 18714 python-datacache_1.2.1.orig.tar.gz 97b5dd952645b5d031d35865856719ed8e45067bba746be8d0af94d6d8ece9b2 4904 python-datacache_1.2.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-datacache"
+  ],
+  "Files": [
+    "94a100c97ad7efa0f7e4ba4634921759 2289 python-datacache_1.2.1-2.dsc 8b1488dfa1fe1916dda53a5afe2524eb 18714 python-datacache_1.2.1.orig.tar.gz 001182233c2da8d90ae71b032d48f8f9 4904 python-datacache_1.2.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openvax/datacache"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-datacache"
+  ],
+  "Package-List": [
+    "python3-datacache deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/python-datacache"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/python-datacache.git"
+  ],
+  "Version": [
+    "1.2.1-2"
+  ]
+}

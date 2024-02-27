@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpeas-2-0, libpeas-2-dev, libpeas-2-doc, libpeas-2-common, gir1.2-peas-2"
+  ],
+  "Build-Depends": [
+    "adwaita-icon-theme \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, libgirepository1.0-dev (\u003e= 1.39.0), libgirepository1.0-doc \u003c!nodoc\u003e, libgladeui-dev, libglib2.0-dev (\u003e= 2.74.0), libglib2.0-doc \u003c!nodoc\u003e, meson (\u003e= 0.50), python-gi-dev (\u003e= 3.7.2), python3-dev (\u003e= 3.2.0), python3-gi (\u003e= 3.7.2)"
+  ],
+  "Checksums-Sha256": [
+    "705d11155a4ac76f648b75ff3e4c67b03ec6448d3a3c90b4f2b07f6f01188ac3 2629 libpeas2_2.0.1-1.dsc 9ddc1d51f38663da4df52163051b7b2cea3a242cfaee9f5a7e140f0784c8aa77 156424 libpeas2_2.0.1.orig.tar.xz 2d252d485a17b9f9216c45fdc603ea0ff84a1f1aa3c36e0fbb58d405117d0c68 10660 libpeas2_2.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpeas2"
+  ],
+  "Files": [
+    "b1122bce10d4d8df20e2df77ffa97ace 2629 libpeas2_2.0.1-1.dsc 1761b35ab87c32592463aca71aefdb26 156424 libpeas2_2.0.1.orig.tar.xz d304404386b5964125cbe5c88f892c95 10660 libpeas2_2.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Libpeas"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libpeas2"
+  ],
+  "Package-List": [
+    "gir1.2-peas-2 deb introspection optional arch=any libpeas-2-0 deb libs optional arch=any libpeas-2-common deb libs optional arch=all libpeas-2-dev deb libdevel optional arch=any libpeas-2-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3, python3-gi"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libpeas2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libpeas2.git"
+  ],
+  "Version": [
+    "2.0.1-1"
+  ]
+}

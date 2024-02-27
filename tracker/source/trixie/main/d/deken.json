@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pd-deken, pd-deken-apt, deken"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-buildinfo, help2man, hy, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "af57f10e624e1521bbedef27ec6431175b7c10bc357b9316bd7de58bb8418e5b 2207 deken_0.9.16-1.dsc 1ea689c6e10f168b1f568fc7f3885f5fbfea56b0869c3cf8d8ba21bae31954a1 231352 deken_0.9.16.orig.tar.gz 3a843e6304677c317cc83891ae31d53edf2262c17b62b4646fe1e0a10342f259 7068 deken_0.9.16-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "bd544b64e2d2e20a3c2c37ce46aa89601a137ffc debian archive/debian/0.9.16-1 https://git.dgit.debian.org/deken"
+  ],
+  "Directory": [
+    "pool/main/d/deken"
+  ],
+  "Files": [
+    "abb2261e8d9d6d2ba629ac07d31ec933 2207 deken_0.9.16-1.dsc 5ba66b35d643c394aa4a4cbadf813f43 231352 deken_0.9.16.orig.tar.gz 79f082ed6c25750a5a26d65369ed0c20 7068 deken_0.9.16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pure-data/deken"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "deken"
+  ],
+  "Package-List": [
+    "deken deb sound optional arch=all pd-deken deb sound optional arch=all pd-deken-apt deb sound optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/pd/deken"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/pd/deken.git"
+  ],
+  "Version": [
+    "0.9.16-1"
+  ]
+}

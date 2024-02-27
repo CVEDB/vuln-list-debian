@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-strip-ansi-escapes-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-vte-0.11+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5878a9ad3addbf68a45e82ff62fafad88219355267bceaabf2dd7ce7abda684f 2481 rust-strip-ansi-escapes_0.1.1-2.dsc 011cbb39cf7c1f62871aea3cc46e5817b0937b49e9447370c93cacbe93a766d8 8668 rust-strip-ansi-escapes_0.1.1.orig.tar.gz 5ed04df4967b863e48d58a6a394fcb91ec37f2aff3073adaab2a51ad193307fe 3764 rust-strip-ansi-escapes_0.1.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-strip-ansi-escapes"
+  ],
+  "Files": [
+    "fecb74c12a20658cd7ca9e6755b7998e 2481 rust-strip-ansi-escapes_0.1.1-2.dsc 409984247a8d8f4e15a7e0d097a0447a 8668 rust-strip-ansi-escapes_0.1.1.orig.tar.gz b9db368a3a60d62609d020b6f815e0c8 3764 rust-strip-ansi-escapes_0.1.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/luser/strip-ansi-escapes"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-strip-ansi-escapes"
+  ],
+  "Package-List": [
+    "librust-strip-ansi-escapes-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/strip-ansi-escapes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/strip-ansi-escapes]"
+  ],
+  "Version": [
+    "0.1.1-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-tifffile"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-numpy"
+  ],
+  "Checksums-Sha256": [
+    "74f057bb0669b483de4d75bfd78727099d1cc4466e2feaf3b2b0a929c14515ab 2140 tifffile_20240212-1.dsc 4920a3ec8e8e003e673d3c6531863c99eedd570d1b8b7e141c072ed78ff8030d 354832 tifffile_20240212.orig.tar.gz 080aaba0df84269db5bd54e658ca21c9deef45c69e6cac0c15ef898f341b2340 8400 tifffile_20240212-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tifffile"
+  ],
+  "Files": [
+    "66dd3daa29ee07f0c2d7a1ee49884210 2140 tifffile_20240212-1.dsc 113f9b64820f9b1c95ee593a085309ef 354832 tifffile_20240212.orig.tar.gz 84c29ef88362d6cc458aea5305fd8eae 8400 tifffile_20240212-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.lfd.uci.edu/~gohlke/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tifffile"
+  ],
+  "Package-List": [
+    "python3-tifffile deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3, python3-fsspec, python3-lxml, python3-pytest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/tifffile"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/tifffile.git"
+  ],
+  "Version": [
+    "20240212-1"
+  ]
+}

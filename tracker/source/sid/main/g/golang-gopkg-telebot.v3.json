@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-gopkg-telebot.v3-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-goccy-go-yaml-dev, golang-github-spf13-viper-dev, golang-github-stretchr-testify-dev"
+  ],
+  "Checksums-Sha256": [
+    "1c9334c7df3c5b5b89cb17100edfa650e9b894b250d032bc4beb13ea06f7e1ae 2317 golang-gopkg-telebot.v3_3.2.1-1.dsc b3e4a672e8a62b7cfe938fdc104b3af104c2cd6289ef1a93e8b6b89a1db7c88f 107638 golang-gopkg-telebot.v3_3.2.1.orig.tar.gz 74e164735d542dffe7e03d7507b81c8aaf327a743fb82bd6c6f9392fc9c1a704 2352 golang-gopkg-telebot.v3_3.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-gopkg-telebot.v3"
+  ],
+  "Files": [
+    "5d22fd90083cee0d435034365f002794 2317 golang-gopkg-telebot.v3_3.2.1-1.dsc 1a2d126b90abb6a614f3774cb2438599 107638 golang-gopkg-telebot.v3_3.2.1.orig.tar.gz 21849b65d2d704762c9d977263566086 2352 golang-gopkg-telebot.v3_3.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "gopkg.in/telebot.v3"
+  ],
+  "Homepage": [
+    "https://gopkg.in/telebot.v3"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-gopkg-telebot.v3"
+  ],
+  "Package-List": [
+    "golang-gopkg-telebot.v3-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Daniel Swarbrick \u003cdswarbrick@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-gopkg-telebot.v3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-gopkg-telebot.v3.git"
+  ],
+  "Version": [
+    "3.2.1-1"
+  ]
+}

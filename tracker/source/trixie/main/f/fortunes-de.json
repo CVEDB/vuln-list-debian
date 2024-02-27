@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fortunes-de"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "fortune-mod, recode"
+  ],
+  "Checksums-Sha256": [
+    "e4f2a7a116795517476ae6f8b28c79421167463da2bdedee554b193b47bad835 1928 fortunes-de_0.36-1.dsc 82283062755b7f5a64d196b66133c3d030b66118312cdf61e1db726a66136f9e 1108862 fortunes-de_0.36.orig.tar.gz e2f26f00d97c3ee555a405ac3cf3d88e8ee9662f216bee381d4151bd97a20830 11024 fortunes-de_0.36-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fortunes-de"
+  ],
+  "Files": [
+    "8305de49a9c51897f9a91d397f4669ae 1928 fortunes-de_0.36-1.dsc 0a59881abb5af5d44be06c70ed91308f 1108862 fortunes-de_0.36.orig.tar.gz f3811648cf5e51d71e28f45cf5d58ccb 11024 fortunes-de_0.36-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/debian/fortunes-de"
+  ],
+  "Maintainer": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Package": [
+    "fortunes-de"
+  ],
+  "Package-List": [
+    "fortunes-de deb games optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/fortunes-de"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/fortunes-de.git"
+  ],
+  "Version": [
+    "0.36-1"
+  ]
+}

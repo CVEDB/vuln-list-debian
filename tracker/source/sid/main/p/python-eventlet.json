@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-eventlet-doc, python3-eventlet"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, netbase, openstack-pkg-tools, python3-all, python3-setuptools (\u003e= 20.6.8), python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-dnspython, python3-greenlet, python3-httplib2, python3-monotonic (\u003e= 1.4), python3-openssl, python3-pytest, python3-six, python3-sphinxcontrib.apidoc, python3-zmq"
+  ],
+  "Checksums-Sha256": [
+    "6320c2070bc761f35a9c3cd81797b1addc803276bcb2609b6c5d104af5c2c266 2420 python-eventlet_0.35.1-1.dsc c98caf76d71c345db9cf0133daacfbbc1d9e9d5dc3642056650b9654429db75d 462892 python-eventlet_0.35.1.orig.tar.xz 5d6024f0a1b9b64ecc327639598c3ed7340c18ef7474bff3898e30b11436c7f7 22108 python-eventlet_0.35.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-eventlet"
+  ],
+  "Files": [
+    "097db0fa98696684637405372b1ce7db 2420 python-eventlet_0.35.1-1.dsc 5cc51dfb3b29b530789bbe25ac34901a 462892 python-eventlet_0.35.1.orig.tar.xz 1b7cc2c4ec7c5286ccd466278162b692 22108 python-eventlet_0.35.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://eventlet.net"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-eventlet"
+  ],
+  "Package-List": [
+    "python-eventlet-doc deb doc optional arch=all python3-eventlet deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/third-party/python-eventlet"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/third-party/python-eventlet.git"
+  ],
+  "Version": [
+    "0.35.1-1"
+  ]
+}

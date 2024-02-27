@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-ilorest-doc, python3-ilorest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-jsonpatch \u003c!nodoc\u003e, python3-jsonpath-rw \u003c!nodoc\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-sphinxcontrib.restbuilder \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f385aa8e3c3db14f2fdbde4e8964a0ad891ab1ecc0254a55ea93a7f5f9ba2e82 2360 python-ilorest_4.8.0.0+ds-1.dsc 5557d10cde8eff591d7dc6ec599bde8a56a43a9b1fb10d5f0808b5f123257f31 1354411 python-ilorest_4.8.0.0+ds.orig.tar.gz 102d7c15ef1d3edf7b7bd9457be5e5e633bda7235e432267dd63edcccb848fbe 11204 python-ilorest_4.8.0.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ilorest"
+  ],
+  "Files": [
+    "0baa41470e8abdfb67202cfe23552042 2360 python-ilorest_4.8.0.0+ds-1.dsc 2dbd3b98d46f8af2ae74a66fbfcf6892 1354411 python-ilorest_4.8.0.0+ds.orig.tar.gz eaf5e8647012af897460fe7298ac03d3 11204 python-ilorest_4.8.0.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/HewlettPackard/python-ilorest-library"
+  ],
+  "Maintainer": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e"
+  ],
+  "Package": [
+    "python-ilorest"
+  ],
+  "Package-List": [
+    "python-ilorest-doc deb doc optional arch=all python3-ilorest deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tijuca/python-ilorest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tijuca/python-ilorest.git"
+  ],
+  "Version": [
+    "4.8.0.0+ds-1"
+  ]
+}

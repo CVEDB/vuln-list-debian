@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "menhir, libmenhir-ocaml-dev, menhir-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml (\u003e= 1.2.2), hevea, imagemagick, ocaml-dune (\u003e= 2.2.0), ocaml, texlive-fonts-recommended, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "71d70ddc5b37bdcf74e83a540b4b4f503ba51d9706dcfec2ea39784c37151492 2084 menhir_20231231+ds-1.dsc 509349d9b03d0e072d941a7c9fae95cfbcbfcff1940b5addab54195e9350731e 540084 menhir_20231231+ds.orig.tar.xz 49fa01a03d1d4536c96d0e535db7ee417b2e8adcaeacead6f9303038b33ec549 13756 menhir_20231231+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "f3f876e1879416cd91a39d7e0ace00b665730700 debian archive/debian/20231231+ds-1 https://git.dgit.debian.org/menhir"
+  ],
+  "Directory": [
+    "pool/main/m/menhir"
+  ],
+  "Files": [
+    "66183c27fd03b2463183417489a8650f 2084 menhir_20231231+ds-1.dsc 1180509ebc215ffcc6a249651b60e63b 540084 menhir_20231231+ds.orig.tar.xz bfa883f7f517da803cba3e6fa1475627 13756 menhir_20231231+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gallium.inria.fr/~fpottier/menhir/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "menhir"
+  ],
+  "Package-List": [
+    "libmenhir-ocaml-dev deb ocaml optional arch=any menhir deb ocaml optional arch=any menhir-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ocaml, ocaml-findlib, ocamlbuild"
+  ],
+  "Uploaders": [
+    "Mehdi Dogguy \u003cmehdi@debian.org\u003e, Ralf Treinen \u003ctreinen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/menhir"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/menhir.git"
+  ],
+  "Version": [
+    "20231231+ds-1"
+  ]
+}

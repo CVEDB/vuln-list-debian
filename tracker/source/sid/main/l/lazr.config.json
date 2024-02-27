@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-lazr.config, python-lazr.config-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-docutils, python3-sphinx (\u003e= 1.0.7+dfsg-1~), python3-all, python3-lazr.delegates, python3-pytest, python3-setuptools, python3-zope.interface"
+  ],
+  "Checksums-Sha256": [
+    "8030fc9ef0ff4e82a7037756d7c4cba6edaafb6b89f99f77af00fe979c2b1efe 2357 lazr.config_3.0-1.dsc a14e4f6cc09aebc1d40b176158aea0eee2252c14003b8d0ef0b31c7c514c3644 36202 lazr.config_3.0.orig.tar.gz 58aeb3a73d2f1d24f69c89f7073a6f888dfee3f09a8a4d61f0b292c3bd0a9e14 8156 lazr.config_3.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "b76795eb12d8429131a5433c46bc1c443f9c3c53 debian archive/debian/3.0-1 https://git.dgit.debian.org/lazr.config"
+  ],
+  "Directory": [
+    "pool/main/l/lazr.config"
+  ],
+  "Files": [
+    "ab093642a0206257e11ee99ab67baf0a 2357 lazr.config_3.0-1.dsc 3d6f19ff1fd2a3eb2f59134c4b118988 36202 lazr.config_3.0.orig.tar.gz 8f831589a127a7e09ab57c233045d7f2 8156 lazr.config_3.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/lazr.config"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lazr.config"
+  ],
+  "Package-List": [
+    "python-lazr.config-doc deb doc optional arch=all python3-lazr.config deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Jonas Meurer \u003cjonas@freesources.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/lazr.config"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/lazr.config.git"
+  ],
+  "Version": [
+    "3.0-1"
+  ]
+}

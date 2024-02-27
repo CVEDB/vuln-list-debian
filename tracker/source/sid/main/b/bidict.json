@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-bidict, python-bidict-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, furo, pybuild-plugin-pyproject, python3-all, python3-hypothesis \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-setuptools, python3-sortedcollections \u003c!nocheck\u003e, python3-sortedcontainers \u003c!nocheck\u003e, python3-sphinx, python3-sphinx-copybutton"
+  ],
+  "Checksums-Sha256": [
+    "3c58fac5a1884270c9781bd897dfc976d1bce50e642d2ad04a7f5c4662047adb 2521 bidict_0.22.1-2.dsc da32e2e9a36f34396feb4999e4bbbb5d7e97096554418b522936502a4d9ab0e5 181134 bidict_0.22.1.orig.tar.gz a81dfedd6abf01e222c2d12299d1cfcd017a9e272c616452dfee17cb19390f8f 11028 bidict_0.22.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bidict"
+  ],
+  "Files": [
+    "4b0e624c9d68f918581176d109180b0b 2521 bidict_0.22.1-2.dsc 6058eed31badebba87141e119f04cad6 181134 bidict_0.22.1.orig.tar.gz 831f8b529d21281b3bb0c9b4586eff2c 11028 bidict_0.22.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bidict.readthedocs.io"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "bidict"
+  ],
+  "Package-List": [
+    "python-bidict-doc deb doc optional arch=all python3-bidict deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-hypothesis, python3-pytest, python3-pytest-benchmark, python3-pytest-xdist, python3-sortedcollections, python3-sortedcontainers"
+  ],
+  "Uploaders": [
+    "William Grzybowski \u003cwilliam@grzy.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/bidict"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/bidict.git"
+  ],
+  "Version": [
+    "0.22.1-2"
+  ]
+}

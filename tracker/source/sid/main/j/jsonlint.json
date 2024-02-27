@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "jsonlint"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "88670e50e2b747811744645733313b386d6e90bb3822999a2115cea2443fb821 1725 jsonlint_1.10.2-1.dsc a369924c70a23273841b59de115ce7d96f689e63bab462a0d314971a0baaef55 13900 jsonlint_1.10.2.orig.tar.xz c3f7bf83be4136bf0ab5eef7e57552e0cdf18cc64af7e79f372b3c437922a574 6996 jsonlint_1.10.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/j/jsonlint"
+  ],
+  "Files": [
+    "f84eb8a962e176cee151336ba4936ec6 1725 jsonlint_1.10.2-1.dsc f252a58dbda484f5076eb0eaed1b21c4 13900 jsonlint_1.10.2.orig.tar.xz a21da17528adc055865e18a1479cb20d 6996 jsonlint_1.10.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Seldaek/jsonlint"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "jsonlint"
+  ],
+  "Package-List": [
+    "jsonlint deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpunit"
+  ],
+  "Uploaders": [
+    "andrea rota \u003ca@xelera.eu\u003e, David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/jsonlint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/jsonlint.git"
+  ],
+  "Version": [
+    "1.10.2-1"
+  ]
+}

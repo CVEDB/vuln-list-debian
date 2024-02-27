@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pymatgen-test-files"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "6e2c2bb5c7d374710f3127cfb9bd8c8a5d52c1da54d2cc60cb0282b1c0ecd90c 2049 pymatgen-test-files_2024.1.27-2.dsc b07a7eb604b433a5836472470db9aa2c2e0df942a126b1f573eda1e8fdfb2b40 227215780 pymatgen-test-files_2024.1.27.orig.tar.xz 3a0f1e0d8246a7925ba07ff1cc9c18fe7677c8f39edef0503bd8383bf186b73c 7076 pymatgen-test-files_2024.1.27-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pymatgen-test-files"
+  ],
+  "Files": [
+    "b7a2db3654928e6f95036e556c6690d0 2049 pymatgen-test-files_2024.1.27-2.dsc 48e91f0f23b3aac5e8c439f92bf13555 227215780 pymatgen-test-files_2024.1.27.orig.tar.xz 285794dd307208bc99792e8290c5a6c6 7076 pymatgen-test-files_2024.1.27-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pymatgen.org/"
+  ],
+  "Maintainer": [
+    "Debichem Team \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pymatgen-test-files"
+  ],
+  "Package-List": [
+    "pymatgen-test-files deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/pymatgen-test-files"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/pymatgen-test-files.git"
+  ],
+  "Version": [
+    "2024.1.27-2"
+  ]
+}

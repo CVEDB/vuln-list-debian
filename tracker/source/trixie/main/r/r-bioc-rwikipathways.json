@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-rwikipathways"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-httr, r-cran-xml, r-cran-rjson, r-cran-data.table, r-cran-rcurl, r-cran-dplyr, r-cran-tidyr, r-cran-readr, r-cran-stringr, r-cran-purrr, r-cran-lubridate"
+  ],
+  "Checksums-Sha256": [
+    "b7d054f55854051c1eb75108e805365c518faac6d9868dc8b6d2eb8487368491 2328 r-bioc-rwikipathways_1.22.1+dfsg-1.dsc 92eb49a3ebafda82810411e68661bc07e456c0fb00ae783bab3118c807228fb7 6635376 r-bioc-rwikipathways_1.22.1+dfsg.orig.tar.xz 154a00fd3bd2f9f2f43f367822deeeaa55552c06b25114dfb8be3b311c6cc6a3 3072 r-bioc-rwikipathways_1.22.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-rwikipathways"
+  ],
+  "Files": [
+    "fcb217e07d4482591bc82e702c171710 2328 r-bioc-rwikipathways_1.22.1+dfsg-1.dsc b961f260333ecd7ae561faf019515f2a 6635376 r-bioc-rwikipathways_1.22.1+dfsg.orig.tar.xz cc5ee8a7877eb099b53379e58541f4da 3072 r-bioc-rwikipathways_1.22.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/rWikiPathways/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-rwikipathways"
+  ],
+  "Package-List": [
+    "r-bioc-rwikipathways deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rwikipathways"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rwikipathways.git"
+  ],
+  "Version": [
+    "1.22.1+dfsg-1"
+  ]
+}

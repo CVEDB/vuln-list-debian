@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "ksh93u+m, ksh"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec"
+  ],
+  "Checksums-Sha256": [
+    "aaf5f1a76c819d5f204267ae87b6f4b825d22006b0236bca69cc2bef13096279 1892 ksh93u+m_1.0.8-1.dsc b46565045d0eb376d3e6448be6dbc214af454efc405d527f92cb81c244106c8e 2114262 ksh93u+m_1.0.8.orig.tar.gz de71bb703f54c357f7caa8a4b33f11ac3039d33cd096a82abc7e61a389889057 14616 ksh93u+m_1.0.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/ksh93u+m"
+  ],
+  "Files": [
+    "a3408dc7d7dbe6cb6f858a007cff6a27 1892 ksh93u+m_1.0.8-1.dsc 7e54340178a45eb3c60d1c2694512b9f 2114262 ksh93u+m_1.0.8.orig.tar.gz 9e395663eb53e19f11efebe836ebbd77 14616 ksh93u+m_1.0.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.kornshell.com/"
+  ],
+  "Maintainer": [
+    "Anuradha Weeraman \u003canuradha@debian.org\u003e"
+  ],
+  "Package": [
+    "ksh93u+m"
+  ],
+  "Package-List": [
+    "ksh deb oldlibs optional arch=all ksh93u+m deb shells optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ksh"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ksh.git"
+  ],
+  "Version": [
+    "1.0.8-1"
+  ]
+}

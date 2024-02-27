@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gsad"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, clang-format, cppcheck, libmicrohttpd-dev, libgvm-dev (\u003e= 22.6.3), libxslt1-dev, doxygen, xmltoman, pkg-config, libxml2-dev"
+  ],
+  "Checksums-Sha256": [
+    "1e4f71a0301d10c27e88d29e60eb87d5c0a795a219b0bbe2ce1b819e2e624372 2046 gsad_22.8.0-1.dsc 5cce16c3ee7748b6d1449ba927008166dcf4d52d760e1c099281020c055d9c24 224470 gsad_22.8.0.orig.tar.gz 422a57c1ec28fe2988b2de7478c36ce2edaa89527921f9950f09208108441619 14000 gsad_22.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gsad"
+  ],
+  "Files": [
+    "2bc64227bb726a5d06e352c29726a7cd 2046 gsad_22.8.0-1.dsc 8252c8b0245da9258599d2c2a6450e6d 224470 gsad_22.8.0.orig.tar.gz e71a0baee2d1c937eb5ea594bf06e0d8 14000 gsad_22.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.greenbone.net"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "gsad"
+  ],
+  "Package-List": [
+    "gsad deb admin optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sophie Brun \u003csophie@offensive-security.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/gsad"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/gsad.git"
+  ],
+  "Version": [
+    "22.8.0-1"
+  ]
+}

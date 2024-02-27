@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gi-docgen, gi-docgen-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python (\u003e= 5.20230130~), dh-sequence-gnome, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, gnome-pkg-tools, meson, python3 (\u003e= 3.11), python3-jinja2, python3-markdown, python3-markupsafe, python3-packaging, python3-pygments, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-typogrify, sphinx-common \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "22d9708253a64df718984089eee052a8e57bb3e7ef860b7ff532e8dc7d345183 2524 gi-docgen_2023.3+ds-1.dsc abdb879b002bd04e84e56443fcb01bd19877842da1e720abef7d35e1afa57262 959848 gi-docgen_2023.3+ds.orig.tar.xz 25e335026c6b64cd495429a7289b3ab3aeb0b0a8ab9b40ede7f3622174cfa851 14148 gi-docgen_2023.3+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "753915fde740580a1f6fc972276afe4a142401ad debian archive/debian/2023.3+ds-1 https://git.dgit.debian.org/gi-docgen"
+  ],
+  "Directory": [
+    "pool/main/g/gi-docgen"
+  ],
+  "Files": [
+    "1a24ce3b8aa243e3b77e0107f503ecee 2524 gi-docgen_2023.3+ds-1.dsc 9cda36418426a45c6ffe3ad6cc68f502 959848 gi-docgen_2023.3+ds.orig.tar.xz 4c4158ccf0812926f15855275169aa1b 14148 gi-docgen_2023.3+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/gi-docgen/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gi-docgen"
+  ],
+  "Package-List": [
+    "gi-docgen deb gnome optional arch=all gi-docgen-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Simon McVittie \u003csmcv@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gi-docgen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gi-docgen.git"
+  ],
+  "Version": [
+    "2023.3+ds-1"
+  ]
+}

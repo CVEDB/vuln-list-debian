@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-drizzle, python-drizzle-testdata, python-drizzle-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-astropy, python3-numpy, python3-pytest, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-automodapi"
+  ],
+  "Checksums-Sha256": [
+    "5e11762494499dcf7ee8a31848d809eb2d674124c93161c1d5267ac8bb747699 2385 python-drizzle_1.15.0-1.dsc ee59438a0385435943e8dc120ba5a2f85472dbcb61ed3e27b41490e62ed0ba42 47173084 python-drizzle_1.15.0.orig.tar.gz 780036bf900765738db9924b202675dc1efa2c810414c83f2da7b9621041e4d3 5632 python-drizzle_1.15.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-drizzle"
+  ],
+  "Files": [
+    "041cffcd30c9d249932e3a41e35fc21d 2385 python-drizzle_1.15.0-1.dsc 6279a617dffb3afcde2f61a45d19a863 47173084 python-drizzle_1.15.0.orig.tar.gz 33491f980869aa7f5eacdbb7e3b6c28a 5632 python-drizzle_1.15.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://spacetelescope.github.io/drizzle/"
+  ],
+  "Maintainer": [
+    "Debian Astro Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-drizzle"
+  ],
+  "Package-List": [
+    "python-drizzle-doc deb doc optional arch=all python-drizzle-testdata deb science optional arch=all python3-drizzle deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/python-drizzle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/python-drizzle.git"
+  ],
+  "Version": [
+    "1.15.0-1"
+  ]
+}

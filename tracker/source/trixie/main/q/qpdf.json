@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqpdf29, libqpdf-dev, qpdf, qpdf-doc"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper (\u003e\u003e 10.3~), libjpeg-dev, zlib1g-dev, libgnutls28-dev"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-sphinx-rtd-theme (\u003e= 1~), libjs-sphinxdoc (\u003e= 4.3.2~), texlive, texlive-latex-extra, latexmk, tex-gyre"
+  ],
+  "Checksums-Sha256": [
+    "015c900e6031388e8c11ef0c5c2036610d9c97d03bb7f9ed4fe51e9d009f4e80 2383 qpdf_11.9.0-1.dsc 9f5d6335bb7292cc24a7194d281fc77be2bbf86873e8807b85aeccfbff66082f 18552462 qpdf_11.9.0.orig.tar.gz d7093602be4d1253bd93ca1a2821e7903c8fbae43881244dda7bd5815f8a2cdb 833 qpdf_11.9.0.orig.tar.gz.asc de32994d989ead85e58253989cf97f066e5a10388245d394a18779bd8abd15fb 15036 qpdf_11.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qpdf"
+  ],
+  "Files": [
+    "d396439e0dce9315f33ad99c2b8a3081 2383 qpdf_11.9.0-1.dsc 479befd15a61516ef3b2634f63ec684a 18552462 qpdf_11.9.0.orig.tar.gz 65541020f604a7373696e92e94657741 833 qpdf_11.9.0.orig.tar.gz.asc 9d992429316ff3545abde5575004f284 15036 qpdf_11.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qpdf.sourceforge.io"
+  ],
+  "Maintainer": [
+    "Jay Berkenbilt \u003cqjb@debian.org\u003e"
+  ],
+  "Package": [
+    "qpdf"
+  ],
+  "Package-List": [
+    "libqpdf-dev deb libdevel optional arch=any libqpdf29 deb libs optional arch=any qpdf deb text optional arch=any qpdf-doc deb text optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "text"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, pkg-config"
+  ],
+  "Version": [
+    "11.9.0-1"
+  ]
+}

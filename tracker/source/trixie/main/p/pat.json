@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pat"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-adrg-xdg-dev, golang-github-bndr-gotabulate-dev, golang-github-dimchansky-utfbom-dev, golang-github-elazarl-go-bindata-assetfs-dev, golang-github-fsnotify-fsnotify-dev, golang-github-gorhill-cronexpr-dev, golang-github-gorilla-mux-dev, golang-github-howeyc-gopass-dev, golang-github-imdario-mergo-dev, golang-github-jteeuwen-go-bindata-dev, golang-github-kelseyhightower-envconfig-dev, golang-github-la5nta-wl2k-go-dev (\u003e= 0.11.4), golang-github-microcosm-cc-bluemonday-dev, golang-github-nfnt-resize-dev, golang-github-pd0mz-go-maidenhead-dev, golang-github-peterh-liner-dev, golang-github-spf13-pflag-dev, golang-github-gorilla-websocket-dev, golang-github-tarm-serial-dev, libax25-dev"
+  ],
+  "Checksums-Sha256": [
+    "2659040e983b6b95ff9d2d4ceafd3b8bb6d9a229ddc0147538e4ba072676254f 2713 pat_0.15.1-1.dsc 5ccc7d954f9042eb48d2062a750e06ef2aa76b19898ab7a037530af24adc33fa 744114 pat_0.15.1.orig.tar.gz 6d0877fc72c750bf16a5b14c67f73b3a00b522bd3226d2a5dcf15f7b79f048ad 21216 pat_0.15.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pat"
+  ],
+  "Files": [
+    "a8c3b0915f61e1f37de2175b6c6230ac 2713 pat_0.15.1-1.dsc 4dfab34f061129b8a6c8937ca5c6cba0 744114 pat_0.15.1.orig.tar.gz c43a6e95304c638d8d9e3e1a1465a2bf 21216 pat_0.15.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/la5nta/pat"
+  ],
+  "Homepage": [
+    "https://getpat.io"
+  ],
+  "Maintainer": [
+    "Debian Hamradio Maintainers \u003cdebian-hams@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "pat"
+  ],
+  "Package-List": [
+    "pat deb hamradio optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Taowa \u003ctaowa@debian.org\u003e, Federico Grau \u003cdonfede@casagrau.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/pat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/pat.git"
+  ],
+  "Version": [
+    "0.15.1-1"
+  ]
+}

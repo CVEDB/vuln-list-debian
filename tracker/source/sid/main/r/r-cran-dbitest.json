@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-dbitest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-blob, r-cran-callr, r-cran-dbi (\u003e= 1.2.0), r-cran-desc, r-cran-hms, r-cran-lubridate, r-cran-magrittr, r-cran-nanoarrow, r-cran-palmerpenguins, r-cran-rlang, r-cran-testthat, r-cran-vctrs, r-cran-withr"
+  ],
+  "Checksums-Sha256": [
+    "63fde2cdae23e9dd5544480593a61a5930e51e492d2f24aa7737a51842785ee7 2418 r-cran-dbitest_1.8.0-1.dsc dd35c24d556c7a2bc82fff097897bb0229d78004e0de147167c30bcf66e13ccd 132802 r-cran-dbitest_1.8.0.orig.tar.gz 8f3316c1dc6e16bba43a15bf8a01275677118facd466473ffa8305041003e766 2972 r-cran-dbitest_1.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-dbitest"
+  ],
+  "Files": [
+    "9367fe6f8bab185216a932b30ffb8c50 2418 r-cran-dbitest_1.8.0-1.dsc c30ed34e11c4e2e44ecb051fad564b66 132802 r-cran-dbitest_1.8.0.orig.tar.gz 9c2d517ccb7ef11735c6eaeeb12aa12b 2972 r-cran-dbitest_1.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=DBItest"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-dbitest"
+  ],
+  "Package-List": [
+    "r-cran-dbitest deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-clipr, r-cran-devtools, r-cran-dplyr, r-cran-knitr, r-cran-lintr, r-cran-pkgload, r-cran-rmarkdown, r-cran-rsqlite"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-dbitest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-dbitest.git"
+  ],
+  "Version": [
+    "1.8.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "iso-codes"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "gettext, python3"
+  ],
+  "Checksums-Sha256": [
+    "72857e616f3bd81c9a3bd2a8d3a3f66396b084f50e409ce738d71b25cd4eba14 1957 iso-codes_4.16.0-1.dsc d37ff1b2b76e63926e8043b42e0ff806bb4e41e2a57d93c9d4ec99c06b409530 3892348 iso-codes_4.16.0.orig.tar.xz 6b034941457fbe935f040cb37bc962541df1e89d8e95dc1613ce1f2d4e39b4aa 24472 iso-codes_4.16.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iso-codes"
+  ],
+  "Files": [
+    "16763fcb6beb8ea36154021f2b51ba88 1957 iso-codes_4.16.0-1.dsc 5760b5a359301397cc3ab2baa165c31c 3892348 iso-codes_4.16.0.orig.tar.xz 24e007b728bc49c1fd234971117e9586 24472 iso-codes_4.16.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/iso-codes-team/iso-codes"
+  ],
+  "Maintainer": [
+    "Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e"
+  ],
+  "Package": [
+    "iso-codes"
+  ],
+  "Package-List": [
+    "iso-codes deb misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/iso-codes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/iso-codes.git"
+  ],
+  "Version": [
+    "4.16.0-1"
+  ]
+}

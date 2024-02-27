@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libxtrxll-dev, libxtrxll0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), cmake, libusb-1.0-0-dev, libusb3380-dev"
+  ],
+  "Checksums-Sha256": [
+    "14ae6aab7565290cd924bff33445ebd623a6205c69d5302b1d0c453a656049f6 2108 libxtrxll_0.0.1+git20201202.1b6eddf-1.1.dsc f44fee81dca73e16a593d25bbf91ca097982fda38ca11c9ba3ed97890268e7ee 57196 libxtrxll_0.0.1+git20201202.1b6eddf.orig.tar.xz 4432b103db453fc6dd659f29e1bcdd4aef37176b505c6f122a7b3f30f9a39148 3784 libxtrxll_0.0.1+git20201202.1b6eddf-1.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libx/libxtrxll"
+  ],
+  "Files": [
+    "737945ed2a762e93ddc60c0f91c5e374 2108 libxtrxll_0.0.1+git20201202.1b6eddf-1.1.dsc 8f4d87a6487030cb97a41d3fbd33dd34 57196 libxtrxll_0.0.1+git20201202.1b6eddf.orig.tar.xz 2663a706f96b4eece7a7bb757bd20fe8 3784 libxtrxll_0.0.1+git20201202.1b6eddf-1.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xtrx-sdr/libxtrxll"
+  ],
+  "Maintainer": [
+    "Sepi Gair \u003csepigair@email.cz\u003e"
+  ],
+  "Package": [
+    "libxtrxll"
+  ],
+  "Package-List": [
+    "libxtrxll-dev deb libdevel optional arch=any libxtrxll0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/libxtrxll"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/libxtrxll.git"
+  ],
+  "Version": [
+    "0.0.1+git20201202.1b6eddf-1.1"
+  ]
+}

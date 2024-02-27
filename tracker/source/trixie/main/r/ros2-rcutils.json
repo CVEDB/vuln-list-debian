@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "librcutils1d, librcutils-dev, python3-rcutils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ament-cmake-python, ament-cmake-ros, cmake, dh-ros, dh-sequence-python3, python3-empy"
+  ],
+  "Checksums-Sha256": [
+    "f5d2cd09d5d6dde205cd9c98a802fce656a5ecad2c847ebd6fd9d5c9e9b0e552 2374 ros2-rcutils_6.5.0-1.dsc 65813aa547406b66d2f5d84e8d3251dec791e527933cd6dc0224b8922acc6ec3 149257 ros2-rcutils_6.5.0.orig.tar.gz cb1caebf1d88c3d67fbbedb9b35f02ea9f76c468936fe5297ce3e88cbd990b32 5940 ros2-rcutils_6.5.0-1.debian.tar.xz"
+  ],
+  "Description": [
+    "C Utilities and Data Structures for ROS 2 This package is part of ROS 2, the Robot Operating System. It provides basic macros, functions, and data structures for the ROS 2 codebase."
+  ],
+  "Dgit": [
+    "187bde2b415e97f6f419fbae081c06799a0cead8 debian archive/debian/6.5.0-1 https://git.dgit.debian.org/ros2-rcutils"
+  ],
+  "Directory": [
+    "pool/main/r/ros2-rcutils"
+  ],
+  "Files": [
+    "096f824079d3535fcb28acdf242ffa6c 2374 ros2-rcutils_6.5.0-1.dsc 8c29d6a97c546e0efedaca8a50eba075 149257 ros2-rcutils_6.5.0.orig.tar.gz 6e3729a51b6f4ea1b7a3ee257bf810b2 5940 ros2-rcutils_6.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ros2/rcutils"
+  ],
+  "Maintainer": [
+    "Debian Robotics Team \u003cteam+robotics@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ros2-rcutils"
+  ],
+  "Package-List": [
+    "librcutils-dev deb libdevel optional arch=any librcutils1d deb libs optional arch=any python3-rcutils deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e, Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/robotics-team/ros2-rcutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/robotics-team/ros2-rcutils.git"
+  ],
+  "Version": [
+    "6.5.0-1"
+  ]
+}

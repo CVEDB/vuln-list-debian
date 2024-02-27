@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "qimgv"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libexiv2-dev, libfftw3-dev, libkf5windowsystem-dev, libmpv-dev, libopencv-core-dev, libopencv-dev, libopencv-imgproc-dev, libqt5svg5-dev, pkg-config, qtbase5-dev (\u003e= 5.9~), qttools5-dev"
+  ],
+  "Checksums-Sha256": [
+    "6f2a05a66a3b3abdcb7cbef712e19c57b7c555e3bf0779ead4b7727e0220893b 2167 qimgv_1.0.2+git20240112-1.dsc 55c86f5cec86f72bcd63e50041d027fc416cb4b28c1056015c8eefe42420f00b 1071600 qimgv_1.0.2+git20240112.orig.tar.gz 53a0f43ffb8b4cf65dc36dfed231ad0a4020ad048162803ac44405827f9f3ce0 4412 qimgv_1.0.2+git20240112-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qimgv"
+  ],
+  "Files": [
+    "edabacafd7f449092d94da3273a066d5 2167 qimgv_1.0.2+git20240112-1.dsc 0819721c9537a26f7adc25e937e93451 1071600 qimgv_1.0.2+git20240112.orig.tar.gz afa250946f54f61de0a4b7b0078ee764 4412 qimgv_1.0.2+git20240112-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/easymodo/qimgv"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qimgv"
+  ],
+  "Package-List": [
+    "qimgv deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/qimgv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/qimgv.git"
+  ],
+  "Version": [
+    "1.0.2+git20240112-1"
+  ]
+}

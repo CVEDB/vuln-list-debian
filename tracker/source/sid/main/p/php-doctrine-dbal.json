@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-doctrine-dbal"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, php-doctrine-cache, php-doctrine-deprecations, php-doctrine-event-manager, php-mysql, php-sqlite3, php-symfony-cache, php-symfony-console, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "500d44ad2927eb36a1e56b0ae3b54fd7d134cda4a9f69030bef63ed6c56405cd 2067 php-doctrine-dbal_3.8.2+dfsg-1.dsc 5140b89dcb5cf4749e5f78d34cfb9d035705fe7ff274497e0cfa7a80fa38471d 304692 php-doctrine-dbal_3.8.2+dfsg.orig.tar.xz a42b16ce5a298c1d10eb0b824626c3dab557c5aed655de59a7907cea310ac011 52268 php-doctrine-dbal_3.8.2+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-doctrine-dbal"
+  ],
+  "Files": [
+    "6f73ec92ad61e6c87b48d1fc42e0865b 2067 php-doctrine-dbal_3.8.2+dfsg-1.dsc f9b1724d97c788dc43dd119a8cd4d267 304692 php-doctrine-dbal_3.8.2+dfsg.orig.tar.xz 918cf7d0fe2d137c196ba193c4b1f833 52268 php-doctrine-dbal_3.8.2+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.doctrine-project.org/projects/dbal.html"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-doctrine-dbal"
+  ],
+  "Package-List": [
+    "php-doctrine-dbal deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-symfony-cache, php-symfony-console, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-doctrine-dbal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-doctrine-dbal.git -b debian/bookworm"
+  ],
+  "Version": [
+    "3.8.2+dfsg-1"
+  ]
+}

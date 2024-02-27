@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "i386 amd64 armel armhf arm64 powerpc ppc64 ppc64el"
+  ],
+  "Binary": [
+    "health-check"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), libjson-c-dev (\u003e= 0.9), libbsd-dev"
+  ],
+  "Checksums-Sha256": [
+    "e6eea246701936f7eb6cda5a20ddc42472e859696d3d87a35d9ca47f258b9b46 1926 health-check_0.03.12-1.dsc 5cff95ae89b2a917dced88926918d733ce8e09d96eb191522d86784a78fee532 51672 health-check_0.03.12.orig.tar.xz 8e82dba27ae7eba8a48a7164783727d87397142f78368b84aff16f3cff5212d0 8576 health-check_0.03.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/health-check"
+  ],
+  "Files": [
+    "bb8f72ac220c804c37808b5627cf5e89 1926 health-check_0.03.12-1.dsc eb3fea6553bf764e90818867083b4e39 51672 health-check_0.03.12.orig.tar.xz 51860b938e397b1daa7a8a5567549ef2 8576 health-check_0.03.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/health-check"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "health-check"
+  ],
+  "Package-List": [
+    "health-check deb admin optional arch=i386,amd64,armel,armhf,arm64,powerpc,ppc64,ppc64el"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.03.12-1"
+  ]
+}

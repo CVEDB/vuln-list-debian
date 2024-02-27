@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libglfw3, libglfw3-dev, libglfw3-doc, libglfw3-wayland"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.0), debhelper-compat (= 13), dh-exec, extra-cmake-modules (\u003e= 1.6) [linux-any], libegl1-mesa-dev [linux-any], libgl-dev, libglvnd-dev, libwayland-dev [linux-any], libx11-dev, libxcursor-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkg-config [linux-any], wayland-protocols (\u003e= 1.15) [linux-any]"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha256": [
+    "0b97d01f4ee2d7aab7f32bacb40527df1c4b495dd6f5914e534fe132e73febad 2547 glfw3_3.3.10-1.dsc 4ff18a3377da465386374d8127e7b7349b685288cb8e17122f7e1179f73769d5 820774 glfw3_3.3.10.orig.tar.gz ad6f5412fa216f393d5031af717d258add4dd34165d23ca153f634b99be8c6ba 10060 glfw3_3.3.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/glfw3"
+  ],
+  "Files": [
+    "142e8c1dd8e1a321ecbbe0190e6d7a3f 2547 glfw3_3.3.10-1.dsc f6e72e39141fb7f9e71017d52781ee42 820774 glfw3_3.3.10.orig.tar.gz 697fdee2b7a7e01e04aae31d9002712f 10060 glfw3_3.3.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.glfw.org/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "glfw3"
+  ],
+  "Package-List": [
+    "libglfw3 deb libs optional arch=any libglfw3-dev deb libdevel optional arch=any libglfw3-doc deb doc optional arch=all libglfw3-wayland deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, pkg-config"
+  ],
+  "Uploaders": [
+    "Mahyuddin Susanto \u003cudienz@ubuntu.com\u003e, Roman Valov \u003croman.valov@gmail.com\u003e, James Cowgill \u003cjcowgill@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/glfw3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/glfw3.git"
+  ],
+  "Version": [
+    "3.3.10-1"
+  ]
+}

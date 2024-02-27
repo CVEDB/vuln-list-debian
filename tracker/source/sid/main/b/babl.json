@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libbabl-0.1-0, libbabl-dev, libbabl-doc, gir1.2-babl-0.1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gi-docgen, libgirepository1.0-dev (\u003e= 1.32.0), liblcms2-dev (\u003e= 2.8), meson (\u003e= 0.54.0), python3-setuptools, pkg-config, valac (\u003e= 0.20.0), w3m"
+  ],
+  "Checksums-Sha256": [
+    "8d998315718462efcb5fd807d0aea518f5858a45dd2ddc5c6c90b232baac2a92 2319 babl_0.1.108-1.dsc 26defe9deaab7ac4d0e076cab49c2a0d6ebd0df0c31fd209925a5f07edee1475 317036 babl_0.1.108.orig.tar.xz 11c43b4ca46265c18643a0830c4a716f9a5340e70075571e1cdc8a4bb563fe67 8856 babl_0.1.108-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/babl"
+  ],
+  "Files": [
+    "54943adb598005254f786aaa3db9e7b7 2319 babl_0.1.108-1.dsc 749169721b551882332a64ac17735de6 317036 babl_0.1.108.orig.tar.xz ea00012141f22cd428c4f3753b3f9293 8856 babl_0.1.108-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gegl.org/babl/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "babl"
+  ],
+  "Package-List": [
+    "gir1.2-babl-0.1 deb introspection optional arch=any libbabl-0.1-0 deb libs optional arch=any libbabl-dev deb libdevel optional arch=any libbabl-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3-gi"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/babl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/babl.git"
+  ],
+  "Version": [
+    "1:0.1.108-1"
+  ]
+}

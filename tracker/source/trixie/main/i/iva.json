@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "iva"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, libssl-dev, bioperl, fastaq, kmc, help2man, mummer, python3, python3-setuptools, python3-packaging, python3-numpy, python3-networkx, python3-pysam, python3-pytest, samtools, smalt, default-jdk-headless"
+  ],
+  "Checksums-Sha256": [
+    "1ad3416620ffd250aeacac49d5588600e2aa34183a5719d47856673ef153f679 2289 iva_1.0.11+ds-5.dsc 0835a11746deaa4067aeb1bc9817ed8d415f36de51ae4fc122ea5b287c5ecf1d 8680588 iva_1.0.11+ds.orig.tar.xz aea1686cc3a60ec0fbfd9340b5332cf0430cd814f96ae1ac6992cb8e6f8a6467 5992 iva_1.0.11+ds-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iva"
+  ],
+  "Files": [
+    "2afc4c6810608a670bcd59838f7562bd 2289 iva_1.0.11+ds-5.dsc e7b6c8d9cc2adb23b0d90168122c33b3 8680588 iva_1.0.11+ds.orig.tar.xz 0ef1450aea819feff2cd1b7b0edb906a 5992 iva_1.0.11+ds-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sanger-pathogens/iva"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "iva"
+  ],
+  "Package-List": [
+    "iva deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-packaging, trimmomatic"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Jorge Soares \u003cj.s.soares@gmail.com\u003e, Sascha Steinbiss \u003csatta@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/iva"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/iva.git"
+  ],
+  "Version": [
+    "1.0.11+ds-5"
+  ]
+}

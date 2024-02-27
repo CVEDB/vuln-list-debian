@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pytest-xdist"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm, python3-execnet, python3-filelock, python3-pytest (\u003e= 6.2.0~), pandoc"
+  ],
+  "Checksums-Sha256": [
+    "7f4e0d34237c47fae813eff2cdc933160d19d988bcfcc3d234fd703d163dc89c 2235 pytest-xdist_3.4.0-1.dsc 3a94a931dd9e268e0b871a877d09fe2efb6175c2c23d60d56a6001359002b832 78703 pytest-xdist_3.4.0.orig.tar.gz 1e9841d6c29bac26a82310c5817bccbf43101f0753cac99e8074887d0f122732 5336 pytest-xdist_3.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pytest-xdist"
+  ],
+  "Files": [
+    "2a5e878e243d13a70a27dc8e7646ce85 2235 pytest-xdist_3.4.0-1.dsc 9eadd96f8623aab9754c07f61539a3ce 78703 pytest-xdist_3.4.0.orig.tar.gz 7c14dbaabb31bd43e23c3a59c150cf3c 5336 pytest-xdist_3.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytest-dev/pytest-xdist"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pytest-xdist"
+  ],
+  "Package-List": [
+    "python3-pytest-xdist deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-filelock"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pytest-xdist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pytest-xdist.git"
+  ],
+  "Version": [
+    "3.4.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-envisage"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-apptools, python3-setuptools, python3-traitsui (\u003e= 7) \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b27bfbaab56c68eb741a593f564f8252023957a8fe937422de7b756250e092b9 2213 python-envisage_7.0.3-1.dsc d7cb25abad84a3c7718671ae07c362e87cc8f1f4f4db417c1bbf3f8b855e3dac 300538 python-envisage_7.0.3.orig.tar.gz 8593ee4f137c593c99d43166defae681d37e2dd068f29c08679afb5c3cfd3875 5396 python-envisage_7.0.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-envisage"
+  ],
+  "Files": [
+    "a55cb5434191b7e2d1be0f1f43bd3033 2213 python-envisage_7.0.3-1.dsc 5a1ac067f33f8da85e072010b1834921 300538 python-envisage_7.0.3.orig.tar.gz 11060905b51c5b1e40b45da5debeac49 5396 python-envisage_7.0.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.enthought.com/envisage/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-envisage"
+  ],
+  "Package-List": [
+    "python3-envisage deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Varun Hiremath \u003cvarun@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-envisage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-envisage.git"
+  ],
+  "Version": [
+    "7.0.3-1"
+  ]
+}

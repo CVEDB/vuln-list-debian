@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "joint-state-publisher, joint-state-publisher-gui"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), catkin, librostest-dev, python3-rostest, dh-sequence-python3"
+  ],
+  "Checksums-Sha256": [
+    "832010244ab41898aebc81b62f8cbf07fa38e403db12860345047e9994d4aefb 2381 ros-joint-state-publisher_1.15.1-2.dsc 565824ef6537b2f104d8f1b29aeff375bc99a0a2d358db58596f141409b12b28 28821 ros-joint-state-publisher_1.15.1.orig.tar.gz ff9391cb23ddd2c12baf1af58073056835617d209c1eaeaab0657d0cbb11e5ea 4048 ros-joint-state-publisher_1.15.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ros-joint-state-publisher"
+  ],
+  "Files": [
+    "f9b00e9dd031f27e064dfaaa738c1fcc 2381 ros-joint-state-publisher_1.15.1-2.dsc e927f1ed77679dcbf44575cd2b9b5e7c 28821 ros-joint-state-publisher_1.15.1.orig.tar.gz f5b970ba2d0ac77e03ea6448626ec7f0 4048 ros-joint-state-publisher_1.15.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.ros.org/joint_state_publisher"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ros-joint-state-publisher"
+  ],
+  "Package-List": [
+    "joint-state-publisher deb utils optional arch=all joint-state-publisher-gui deb utils optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Johannes 'josch' Schauer \u003cjosch@debian.org\u003e, Jochen Sprickerhof \u003cjspricke@debian.org\u003e, Leopold Palomo-Avellaneda \u003cleo@alaxarxa.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/ros-joint-state-publisher"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/ros-joint-state-publisher.git"
+  ],
+  "Version": [
+    "1.15.1-2"
+  ]
+}

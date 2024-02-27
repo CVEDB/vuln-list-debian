@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-johanneskaufmann-html-to-markdown-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-puerkitobio-goquery-dev (\u003e= 1.8.1), golang-github-sebdah-goldie-dev, golang-github-yuin-goldmark-dev, golang-golang-x-net-dev, golang-gopkg-yaml.v2-dev"
+  ],
+  "Checksums-Sha256": [
+    "7caba3dfe59f7bd95220ceb0213c76584833deb1188abe8662273939f5a76837 2675 golang-github-johanneskaufmann-html-to-markdown_1.5.0-1.dsc d47b4837d779dddfd13efdca9bde844ad4e33918da0ebf88ca0efcbf5cf66245 271000 golang-github-johanneskaufmann-html-to-markdown_1.5.0.orig.tar.gz c183e43021721b0db4a57167b7b89ae18b2b8631ab4e10a7964da66a72ed79ff 8352 golang-github-johanneskaufmann-html-to-markdown_1.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-johanneskaufmann-html-to-markdown"
+  ],
+  "Files": [
+    "c6cabfa217f18902291262747e441b6a 2675 golang-github-johanneskaufmann-html-to-markdown_1.5.0-1.dsc 84ffb0cd75edb3e332bd37c6479d41e4 271000 golang-github-johanneskaufmann-html-to-markdown_1.5.0.orig.tar.gz 4b52d63040618be7bf523164c429516f 8352 golang-github-johanneskaufmann-html-to-markdown_1.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/JohannesKaufmann/html-to-markdown"
+  ],
+  "Homepage": [
+    "https://github.com/JohannesKaufmann/html-to-markdown"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-johanneskaufmann-html-to-markdown"
+  ],
+  "Package-List": [
+    "golang-github-johanneskaufmann-html-to-markdown-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-johanneskaufmann-html-to-markdown"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-johanneskaufmann-html-to-markdown.git"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

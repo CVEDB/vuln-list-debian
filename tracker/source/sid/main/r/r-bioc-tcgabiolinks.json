@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-tcgabiolinks"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-downloader, r-bioc-biomart, r-cran-dplyr, r-cran-tibble, r-bioc-genomicranges, r-cran-xml, r-cran-data.table, r-cran-jsonlite, r-cran-plyr, r-cran-knitr, r-cran-ggplot2, r-cran-stringr, r-bioc-iranges, r-cran-rvest, r-bioc-s4vectors, r-cran-r.utils, r-bioc-summarizedexperiment, r-bioc-tcgabiolinksgui.data (\u003e= 1.15.1), r-cran-readr, r-cran-tidyr, r-cran-purrr, r-cran-xml2, r-cran-httr"
+  ],
+  "Checksums-Sha256": [
+    "c2d13a5cb0799eb7aa18aacdb463582420cce105479de1149ff9d7b429f2d358 2549 r-bioc-tcgabiolinks_2.30.0+dfsg-1.dsc 84aa34aac09837100ec2f32552085a98d9efb921a8368ee2f69df567d9fd0b93 7622224 r-bioc-tcgabiolinks_2.30.0+dfsg.orig.tar.xz 19aadf1bec30c42391aacf9401f6465313c4cc80622a5db2777756b5d725199d 4944 r-bioc-tcgabiolinks_2.30.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-tcgabiolinks"
+  ],
+  "Files": [
+    "2d61164d639f82fd825287484941bd9a 2549 r-bioc-tcgabiolinks_2.30.0+dfsg-1.dsc c9f3cb6ed245b876eec1a0bdcb44cdd2 7622224 r-bioc-tcgabiolinks_2.30.0+dfsg.orig.tar.xz 96e123e26497ffa2c7b72abb5b787357 4944 r-bioc-tcgabiolinks_2.30.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/TCGAbiolinks/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-tcgabiolinks"
+  ],
+  "Package-List": [
+    "r-bioc-tcgabiolinks deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-tcgabiolinks"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-tcgabiolinks.git"
+  ],
+  "Version": [
+    "2.30.0+dfsg-1"
+  ]
+}

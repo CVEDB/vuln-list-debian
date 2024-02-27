@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-h2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytes-1+default-dev \u003c!nocheck\u003e, librust-fnv-1+default-dev (\u003e= 1.0.5-~~) \u003c!nocheck\u003e, librust-futures-core-0.3-dev \u003c!nocheck\u003e, librust-futures-sink-0.3-dev \u003c!nocheck\u003e, librust-futures-util-0.3-dev \u003c!nocheck\u003e, librust-http-0.2+default-dev \u003c!nocheck\u003e, librust-indexmap+default-dev (\u003e= 1.9.3-~~) \u003c!nocheck\u003e, librust-indexmap+std-dev (\u003e= 1.9.3-~~) \u003c!nocheck\u003e, librust-slab-0.4+default-dev (\u003e= 0.4.2-~~) \u003c!nocheck\u003e, librust-tokio-1+default-dev \u003c!nocheck\u003e, librust-tokio-1+io-util-dev \u003c!nocheck\u003e, librust-tokio-util-0.7+codec-dev (\u003e= 0.7.1-~~) \u003c!nocheck\u003e, librust-tokio-util-0.7+default-dev (\u003e= 0.7.1-~~) \u003c!nocheck\u003e, librust-tokio-util-0.7+io-dev (\u003e= 0.7.1-~~) \u003c!nocheck\u003e, librust-tracing-0.1+std-dev (\u003e= 0.1.35-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b7205201aad31008a593af830db2b3f6f5aeed668cb4585efaa6023b316765c4 3227 rust-h2_0.3.24-1.dsc bb2c4422095b67ee78da96fbb51a4cc413b3b25883c7717ff7ca1ab31022c9c9 167814 rust-h2_0.3.24.orig.tar.gz cf729439c2eb1434a788508367452c3b9c81a5eac604e0156351c860143c1fb0 4288 rust-h2_0.3.24-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-h2"
+  ],
+  "Files": [
+    "727015b9ad017246567350f6d2de20b0 3227 rust-h2_0.3.24-1.dsc f8d17c98def1d7d057d2f5da3d29bc9b 167814 rust-h2_0.3.24.orig.tar.gz d62f636e1421fff5c1a4d62ffa1980a0 4288 rust-h2_0.3.24-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-h2"
+  ],
+  "Package-List": [
+    "librust-h2-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-env-logger-0.10-dev, librust-hex-0.4+default-dev, librust-quickcheck-1-dev, librust-rand-0.8+default-dev, librust-serde-1+default-dev, librust-serde-json-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+net-dev, librust-tokio-1+rt-multi-thread-dev, librust-tokio-1+sync-dev, librust-tokio-rustls-0.24+default-dev, librust-walkdir-2+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/h2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/h2]"
+  ],
+  "Version": [
+    "0.3.24-1"
+  ]
+}

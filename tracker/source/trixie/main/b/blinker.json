@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-blinker-doc, python3-blinker"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), flit, pybuild-plugin-pyproject, python3-all, python3-pallets-sphinx-themes \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-issues \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "10c87cdce6b46a65e6c783a797e2bc04671cd8b6604dd5588b66218a51105f6e 2320 blinker_1.7.0-1.dsc 9ac8d55ba0373fe9d9d1ab867be4a652baae91c344ce151db9519f6b96bc45bc 29526 blinker_1.7.0.orig.tar.gz 07534eeafdeeecc978e0b7cee0c17345171cc1a76a00550115a17ab8434a5abe 5868 blinker_1.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/blinker"
+  ],
+  "Files": [
+    "c11a57e78a580de5f2db701bbd0c7f3e 2320 blinker_1.7.0-1.dsc 49b169f1a67db1c678f6ef4bb0d1bf05 29526 blinker_1.7.0.orig.tar.gz d221a649709da103a1ae9735149b1544 5868 blinker_1.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pallets-eco/blinker"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "blinker"
+  ],
+  "Package-List": [
+    "python-blinker-doc deb doc optional arch=all python3-blinker deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-pytest-asyncio"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/blinker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/blinker.git"
+  ],
+  "Version": [
+    "1.7.0-1"
+  ]
+}

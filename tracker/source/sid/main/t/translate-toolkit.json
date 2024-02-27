@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "translate-toolkit, python3-translate, translate-toolkit-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python (\u003e\u003e 5.20220923~), pybuild-plugin-pyproject, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "libexttextcat-data, python3-all, python3-aeidon, python3-bs4, python3-chardet, python3-cheroot, python3-diff-match-patch, python3-enchant, python3-iniparse, python3-levenshtein, python3-lxml, python3-mistletoe (\u003e\u003e 1.1.0~), python3-phply, python3-pyparsing (\u003e\u003e 3), python3-pytest, python3-ruamel.yaml, python3-simplejson, python3-syrupy, python3-sphinx, python3-vobject, python3-xapian, rename, subversion"
+  ],
+  "Checksums-Sha256": [
+    "052f544e9c902a06fb9b54ed8be6ebed57c1428a53baaad9be4aa3475a3983f4 3065 translate-toolkit_3.12.2-1.dsc c6dcfd7f9177961b38e1a06e03722aab32a91f58d9efe7638af308f249b73509 1202828 translate-toolkit_3.12.2.orig.tar.gz 220698401a4da1e6e868c490b82b3b0182a3da9342376780b8b6714e469d7047 24296 translate-toolkit_3.12.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/translate-toolkit"
+  ],
+  "Files": [
+    "194c493dd49ccbe5fb97a0fecb711183 3065 translate-toolkit_3.12.2-1.dsc 4f7132be9f05d65d7f349d7f4fd9e36d 1202828 translate-toolkit_3.12.2.orig.tar.gz b30151ef1c8761e597a28a75dc747e34 24296 translate-toolkit_3.12.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://toolkit.translatehouse.org/"
+  ],
+  "Maintainer": [
+    "Debian l10n developers \u003cdebian-l10n-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "translate-toolkit"
+  ],
+  "Package-List": [
+    "python3-translate deb python optional arch=all translate-toolkit deb devel optional arch=all translate-toolkit-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-aeidon, python3-all, python3-bs4, python3-chardet, python3-cheroot, python3-diff-match-patch, python3-enchant, python3-iniparse, python3-levenshtein, python3-lxml, python3-mistletoe, python3-phply, python3-pycountry, python3-pyparsing, python3-pytest, python3-ruamel.yaml, python3-simplejson, python3-syrupy, python3-vobject, python3-xapian, subversion"
+  ],
+  "Uploaders": [
+    "Stuart Prescott \u003cstuart@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/l10n-team/translate-toolkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/l10n-team/translate-toolkit.git"
+  ],
+  "Version": [
+    "3.12.2-1"
+  ]
+}

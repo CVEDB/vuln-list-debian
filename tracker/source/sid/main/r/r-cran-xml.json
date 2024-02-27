@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-xml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, libxml2-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "50e1311bb214b0f5119b6710daa9b51bf2cafd5634d094739d5913f8302647eb 1899 r-cran-xml_3.99-0.16.1-1.dsc a30ae3a3e0d559a2b84b118aa185ef9c42adcf644bf042569f6d192762d2eec4 971985 r-cran-xml_3.99-0.16.1.orig.tar.gz 58225de577df8ce09ee01826da57df588213ef8ccaf5d331236a99c0c41a0a8e 5604 r-cran-xml_3.99-0.16.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-xml"
+  ],
+  "Files": [
+    "2a36c0f65404497d88aadeaddbbbc2ca 1899 r-cran-xml_3.99-0.16.1-1.dsc 82344cf1059c2fd4f766ede4021836b2 971985 r-cran-xml_3.99-0.16.1.orig.tar.gz f65daa6c31132df44077a506c3fd0ffa 5604 r-cran-xml_3.99-0.16.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=XML"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-cran-xml"
+  ],
+  "Package-List": [
+    "r-cran-xml deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-xml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-xml.git"
+  ],
+  "Version": [
+    "3.99-0.16.1-1"
+  ]
+}

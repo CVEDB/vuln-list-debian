@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "lziprecover"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), texinfo"
+  ],
+  "Checksums-Sha256": [
+    "fde9c2082a8b551868bdead2003f5f0a5be77b1b45ae051e72fef47d2588359a 1951 lziprecover_1.24-1.dsc 718535df2b4d4d7fe756d947bce1c3b26afd490b83b052c77612b04a1561b80a 115640 lziprecover_1.24.orig.tar.xz 922287676cf3d706191c38d54ed2018f88f5e075ca17e7794478e51eeabdbfbc 6060 lziprecover_1.24-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lziprecover"
+  ],
+  "Files": [
+    "63a4946fd62bfbacffd8fd59ef90f786 1951 lziprecover_1.24-1.dsc 3579fbe243c4121826c708c06c7f201b 115640 lziprecover_1.24.orig.tar.xz 3773ce55ffeeca0808e50b3164f995d9 6060 lziprecover_1.24-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.nongnu.org/lzip/lziprecover.html"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "lziprecover"
+  ],
+  "Package-List": [
+    "lziprecover deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/lziprecover"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/lziprecover"
+  ],
+  "Version": [
+    "1.24-1"
+  ]
+}

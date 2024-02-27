@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-grafana-gomemcache-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any"
+  ],
+  "Checksums-Sha256": [
+    "4f730595be1cb2f199e442a100a9294f66c6bc8df31f4d3bbba612dfa1aa10c5 2436 golang-github-grafana-gomemcache_0.0~git20231204.7de47a8-1.dsc bc21b9bf73b891e58e742610702ad259f74163de2e283b14ce949663a2991347 18724 golang-github-grafana-gomemcache_0.0~git20231204.7de47a8.orig.tar.gz 536a3728f57b16d2f6c1019e107bfb2cce6b1c4cc681fb190be1d6019dd2e817 2248 golang-github-grafana-gomemcache_0.0~git20231204.7de47a8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-grafana-gomemcache"
+  ],
+  "Files": [
+    "eaae4de85cfa1636d9fcea23b7f8850a 2436 golang-github-grafana-gomemcache_0.0~git20231204.7de47a8-1.dsc 13a3f4a720ed88bdbe206cc14d015be1 18724 golang-github-grafana-gomemcache_0.0~git20231204.7de47a8.orig.tar.gz 2d6ac7313bb42e4990cbf0fe2879730d 2248 golang-github-grafana-gomemcache_0.0~git20231204.7de47a8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/grafana/gomemcache"
+  ],
+  "Homepage": [
+    "https://github.com/grafana/gomemcache"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-grafana-gomemcache"
+  ],
+  "Package-List": [
+    "golang-github-grafana-gomemcache-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-grafana-gomemcache"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-grafana-gomemcache.git"
+  ],
+  "Version": [
+    "0.0~git20231204.7de47a8-1"
+  ]
+}

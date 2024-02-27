@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-edger"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-limma, r-cran-locfit, r-cran-rcpp"
+  ],
+  "Checksums-Sha256": [
+    "b5453e28fa5e6fa463eb128f995aaf4520bc11ba5967c1e3863fc0c2bade89f8 2116 r-bioc-edger_4.0.15+dfsg-1.dsc 3b7b6b44419708b79237d89f97aeaf3b15f01f6b1f0b68f701191bceb226873c 1728056 r-bioc-edger_4.0.15+dfsg.orig.tar.xz 329f4f6841dd48aae4cc87cfb309f07a96795dd3c020fad9a771c9eabcfb7d7a 5664 r-bioc-edger_4.0.15+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-edger"
+  ],
+  "Files": [
+    "4d0f758d5f3eebd4ece9599c9fef8574 2116 r-bioc-edger_4.0.15+dfsg-1.dsc 6a80d4fdb611d198e6c47428e1d9124c 1728056 r-bioc-edger_4.0.15+dfsg.orig.tar.xz f4966f31eb0ce57c44cda47f408152d2 5664 r-bioc-edger_4.0.15+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/edgeR/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-edger"
+  ],
+  "Package-List": [
+    "r-bioc-edger deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-edger"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-edger.git"
+  ],
+  "Version": [
+    "4.0.15+dfsg-1"
+  ]
+}

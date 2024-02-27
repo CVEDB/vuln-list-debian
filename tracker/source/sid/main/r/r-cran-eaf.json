@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-eaf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-modeltools, r-cran-matrixstats, r-cran-rdpack, libgsl-dev, gawk"
+  ],
+  "Checksums-Sha256": [
+    "81e1154eec3d09e2f741de657c9a18c56d640f3d9f1b15c7a2bc3ccfb18e9671 2200 r-cran-eaf_2.5-1.dsc 17691801c43f704ea7290b246e8f44b19e3181ad67320d464ede13329fa13b4f 2262830 r-cran-eaf_2.5.orig.tar.gz d0f6cbdea511eb4c58b22d92c4f9e9d61792ce9c6721ce060c228055c68a6f31 4080 r-cran-eaf_2.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-eaf"
+  ],
+  "Files": [
+    "81e8e5a3b5fcf58dbaece23bb4f5dd02 2200 r-cran-eaf_2.5-1.dsc b5a0c19ffe372c7be4d4677305a71f5e 2262830 r-cran-eaf_2.5.orig.tar.gz b2fce30a93708fe8c81a8b760791c676 4080 r-cran-eaf_2.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=eaf"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-eaf"
+  ],
+  "Package-List": [
+    "r-cran-eaf deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-spelling, r-cran-testthat, r-cran-viridislite, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-eaf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-eaf.git"
+  ],
+  "Version": [
+    "2.5-1"
+  ]
+}

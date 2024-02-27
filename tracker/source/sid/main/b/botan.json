@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "botan, libbotan-2-19, libbotan-2-dev, libbotan-2-doc, python3-botan"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libbz2-dev, liblzma-dev, libsqlite3-dev, libtspi-dev, zlib1g-dev, python3:any, python3-docutils"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "94c73889f9fb37f198d9341a3912e604456e6d8fbec35eda303de7f18814886e 2122 botan_2.19.4+dfsg-1.dsc fe57bb4e789170265a942e48ddf6847b26108339f3c089535f5b00abbc3529fb 6090356 botan_2.19.4+dfsg.orig.tar.xz 6bf1f428aaea766b13846fed86b7998cf8be5844a162a1690c80f2d8b8d62fed 9608 botan_2.19.4+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/botan"
+  ],
+  "Files": [
+    "0c6897f0b0d5723803cd6a8edc035676 2122 botan_2.19.4+dfsg-1.dsc 2d1d82a4d6008915df1ecf4ea7e5f1a7 6090356 botan_2.19.4+dfsg.orig.tar.xz 9afea80b5ada7fdd8fc507757171c4f8 9608 botan_2.19.4+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://botan.randombit.net/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "botan"
+  ],
+  "Package-List": [
+    "botan deb libdevel optional arch=any libbotan-2-19 deb libs optional arch=any libbotan-2-dev deb libdevel optional arch=any libbotan-2-doc deb doc optional arch=all python3-botan deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "2.19.4+dfsg-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ogg-pager-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-byteorder-1+default-dev (\u003e= 1.5.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4606598f88b1e10005bf61835fdee861a137f3f5f30acad29b04c38addafc01b 2216 rust-ogg-pager_0.6.0-1.dsc c949d63b387b25c332f6e39d1762dd4b405008289dd7681f02c258b1294653ca 11239 rust-ogg-pager_0.6.0.orig.tar.gz 8ff3de77c422e7dc7ffb71fabd3e52e928f9b7e53efd07dbc6cfb36ca69d1681 2564 rust-ogg-pager_0.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ogg-pager"
+  ],
+  "Files": [
+    "863baf9bff7366f75c7aa66ed50c00f2 2216 rust-ogg-pager_0.6.0-1.dsc 7685a27b41126d42d11e827f65706b2d 11239 rust-ogg-pager_0.6.0.orig.tar.gz c800b100ae989df08c4e4b50f08db8f8 2564 rust-ogg-pager_0.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ogg-pager"
+  ],
+  "Package-List": [
+    "librust-ogg-pager-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Arnaud Ferraris \u003caferraris@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ogg-pager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ogg-pager]"
+  ],
+  "Version": [
+    "0.6.0-1"
+  ]
+}

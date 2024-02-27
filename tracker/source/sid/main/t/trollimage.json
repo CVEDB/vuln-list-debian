@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-trollimage"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-dask, python3-numpy, python3-pil, python3-pyproj \u003c!nocheck\u003e, python3-pyresample \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-rasterio, python3-setuptools, python3-versioneer, python3-xarray"
+  ],
+  "Checksums-Sha256": [
+    "6d12e1267ba143a51026654ab06ae7a8ac0396c493e22fd8d7db780b09ccdd25 2360 trollimage_1.23.1-1.dsc 852a8b4b4b09e923116b3e649b997c3a1950764b4675f3540921babda73dad8d 1453252 trollimage_1.23.1.orig.tar.gz 04a9aa4f8ea168f72ed2d38f0efe2b863118f2fc7a3a5421ce493d13a0de9e6b 5084 trollimage_1.23.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/trollimage"
+  ],
+  "Files": [
+    "8bdfbc9222ee2efa0beb9306acf0d66f 2360 trollimage_1.23.1-1.dsc 2e89abb913052b33260f73a32af94acc 1453252 trollimage_1.23.1.orig.tar.gz 639f996269e9f62131c3d7b74e528570 5084 trollimage_1.23.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytroll/trollimage"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "trollimage"
+  ],
+  "Package-List": [
+    "python3-trollimage deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/trollimage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/trollimage.git"
+  ],
+  "Version": [
+    "1.23.1-1"
+  ]
+}

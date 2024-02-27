@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-recipe-scrapers"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3, pybuild-plugin-pyproject, python3-bs4, python3-extruct, python3-isodate, python3-requests, python3-responses"
+  ],
+  "Checksums-Sha256": [
+    "efcae566536de6a4e36850299f1eb90359998925e35a4f7e24ad07b87bfadb06 2039 python-recipe-scrapers_14.54.0-1.dsc ed88a270a5102dcd78ae64b6fd7241fad3a3e29718e0cc0b54d20de150cc03f5 20739423 python-recipe-scrapers_14.54.0.orig.tar.gz 47ee4d0a3d5c22372ea0488f06bdd3f67da4dc80eca8fb4de254b3193934ff2c 2692 python-recipe-scrapers_14.54.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-recipe-scrapers"
+  ],
+  "Files": [
+    "06ba3b7f91cada0b5b7eb1413189a964 2039 python-recipe-scrapers_14.54.0-1.dsc 21e9430d065cf2e83d6007be4fecd728 20739423 python-recipe-scrapers_14.54.0.orig.tar.gz 2174d86b86c9004ef70c2214cff872ce 2692 python-recipe-scrapers_14.54.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/hhursev/recipe-scrapers/"
+  ],
+  "Maintainer": [
+    "Christian Marillat \u003cmarillat@debian.org\u003e"
+  ],
+  "Package": [
+    "python-recipe-scrapers"
+  ],
+  "Package-List": [
+    "python3-recipe-scrapers deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "14.54.0-1"
+  ]
+}

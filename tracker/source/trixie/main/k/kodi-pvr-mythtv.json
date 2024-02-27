@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kodi-pvr-mythtv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "dh-sequence-kodiaddon (\u003e= 2:20~), cmake, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "04536b0fd3b3b31f88ebd49e37846d7f780d557c29cb8efa696d39355fc78449 2148 kodi-pvr-mythtv_20.6.0+ds-1.dsc c6883dc00c19386e5db511cf631c2b7992f9028564a17ea637507cee939492dc 627220 kodi-pvr-mythtv_20.6.0+ds.orig.tar.xz dd7c15ab4562197a26181837d97b6aa444ac059e600bf6eaeeb8e626b7b118e0 4808 kodi-pvr-mythtv_20.6.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kodi-pvr-mythtv"
+  ],
+  "Files": [
+    "ab8ee8543847c6b1d7d89b0e2e107c8d 2148 kodi-pvr-mythtv_20.6.0+ds-1.dsc 34b4c25b56fcdda857eb3542bab755a8 627220 kodi-pvr-mythtv_20.6.0+ds.orig.tar.xz 1c55a782a08eb4aa2aeb16a61e5846c5 4808 kodi-pvr-mythtv_20.6.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kodi.tv/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kodi-pvr-mythtv"
+  ],
+  "Package-List": [
+    "kodi-pvr-mythtv deb video optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Vasyl Gello \u003cvasek.gello@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-pvr-mythtv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-pvr-mythtv.git"
+  ],
+  "Version": [
+    "20.6.0+ds-1"
+  ]
+}

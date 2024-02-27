@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-httr2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-cli (\u003e= 3.0.0), r-cran-curl (\u003e= 5.1.0), r-cran-glue, r-cran-lifecycle, r-cran-magrittr, r-cran-openssl, r-cran-r6, r-cran-rappdirs, r-cran-rlang (\u003e= 1.1.0), r-cran-vctrs (\u003e= 0.6.3), r-cran-withr"
+  ],
+  "Checksums-Sha256": [
+    "c8779c536844798d5ead3692de40eec9bb07d51259b4ed28b113101cb57c9061 2462 r-cran-httr2_1.0.0-1.dsc cb852d6f560c329a7dc17aa760f09a0950413513dc8abfc3facb6418b2934a49 212032 r-cran-httr2_1.0.0.orig.tar.gz 342e032058aecf4cd86bb3793e501a5c3a5d4e03117a9910f2467e77cf044f6a 3188 r-cran-httr2_1.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-httr2"
+  ],
+  "Files": [
+    "c77311ffaf3d6b02aba81d4ec2113580 2462 r-cran-httr2_1.0.0-1.dsc f9dede77d366a4e7b1bbec53a4e101de 212032 r-cran-httr2_1.0.0.orig.tar.gz 426d62064e0e0efde1bb0d6d8f999e94 3188 r-cran-httr2_1.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=httr2"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-httr2"
+  ],
+  "Package-List": [
+    "r-cran-httr2 deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-askpass, r-cran-bench, r-cran-clipr, r-cran-covr, r-cran-docopt, r-cran-httpuv, r-cran-jsonlite, r-cran-knitr, r-cran-rmarkdown, r-cran-testthat, r-cran-tibble, r-cran-webfakes, r-cran-xml2"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-httr2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-httr2.git"
+  ],
+  "Version": [
+    "1.0.0-1"
+  ]
+}

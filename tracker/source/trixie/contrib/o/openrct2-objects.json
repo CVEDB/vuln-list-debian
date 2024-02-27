@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "openrct2-objects"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), zip"
+  ],
+  "Checksums-Sha256": [
+    "50e47134a0beb9caa40fc7f810f2c5fb7c4384fbaba2aec1645d6fad3e70fffb 1981 openrct2-objects_1.3.13+dfsg-1.dsc c3ee1654974f1010fc57e5218ea3f66a0c33361aef9f2811663dbbe0dc2d62f6 2403952 openrct2-objects_1.3.13+dfsg.orig.tar.xz 80126c32f6c1d8113c0d0a9dc594394f13c98b79e98a4670bfb1a0eba307337b 9316 openrct2-objects_1.3.13+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/o/openrct2-objects"
+  ],
+  "Files": [
+    "6c4149f6003343d8e67720318af3fbdb 1981 openrct2-objects_1.3.13+dfsg-1.dsc 402c19e2b68f4d2fc1f3e9d0ba752219 2403952 openrct2-objects_1.3.13+dfsg.orig.tar.xz e5c1d86cbf1912f21cdb222cb4e9b30d 9316 openrct2-objects_1.3.13+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://openrct2.io/"
+  ],
+  "Maintainer": [
+    "Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Package": [
+    "openrct2-objects"
+  ],
+  "Package-List": [
+    "openrct2-objects deb contrib/games optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gibmat/openrct2-objects"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gibmat/openrct2-objects.git"
+  ],
+  "Version": [
+    "1.3.13+dfsg-1"
+  ]
+}

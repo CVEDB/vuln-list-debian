@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crates-io-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-anyhow-1+default-dev (\u003e= 1.0.34-~~) \u003c!nocheck\u003e, librust-curl-0.4+default-dev \u003c!nocheck\u003e, librust-percent-encoding-2+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev \u003c!nocheck\u003e, librust-url-2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8a7ec0712732c1425e397efb87e7f946f2d8b0d01462f24f5222f92e6c27d1eb 2485 rust-crates-io_0.36.0-1.dsc 1ab9973744e6d1f35e47df29ad99f9bb6a8270e8feaea79c5a5f1febb4c99f1b 10059 rust-crates-io_0.36.0.orig.tar.gz 204eb66f88afc1ac5938121ea0b9e705ceb93f71402c705e10b79921975366a2 3388 rust-crates-io_0.36.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crates-io"
+  ],
+  "Files": [
+    "0fc33a3afaa5472be93afb65ea700c57 2485 rust-crates-io_0.36.0-1.dsc 507cf21f85b7cbddfab2109edc33c4e1 10059 rust-crates-io_0.36.0.orig.tar.gz 1bd745f60a65161a54b80aca02a4811f 3388 rust-crates-io_0.36.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crates-io"
+  ],
+  "Package-List": [
+    "librust-crates-io-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crates-io"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crates-io]"
+  ],
+  "Version": [
+    "0.36.0-1"
+  ]
+}

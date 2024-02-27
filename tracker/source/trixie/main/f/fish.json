@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fish, fish-common"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), gettext, libncurses-dev, libpcre2-dev, locales-all \u003c!nocheck\u003e, ninja-build, procps \u003c!nocheck\u003e, python3 \u003c!nocheck\u003e, python3-sphinx, python3-pexpect \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "692e8ace5c369133d4f7a74ac3a64dafc30e93613533d2bffbec443e42e7ce27 2250 fish_3.7.0-1.dsc df1b7378b714f0690b285ed9e4e58afe270ac98dbc9ca5839589c1afcca33ab1 2961912 fish_3.7.0.orig.tar.xz 3c32d6ade1ccc0c24a729255a329ee6c550f16ff917746a32f48615b4a85b251 833 fish_3.7.0.orig.tar.xz.asc 0dbbc1ee6864faa7b2b9d37398088aaa957c9ac3ff085d50e9aa7291adf50208 19420 fish_3.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fish"
+  ],
+  "Files": [
+    "fa5fb41a287a3afa0ba0e5586b893db7 2250 fish_3.7.0-1.dsc 22c3fab479b185faf620a3b3f43443c3 2961912 fish_3.7.0.orig.tar.xz 6f83b8e2673a34171d8a5433347f3b36 833 fish_3.7.0.orig.tar.xz.asc 3e0fa190e7c11bfc9ae185d84fd66aaf 19420 fish_3.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://fishshell.com/"
+  ],
+  "Maintainer": [
+    "Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Package": [
+    "fish"
+  ],
+  "Package-List": [
+    "fish deb shells optional arch=any fish-common deb shells optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "shells"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/fish"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/fish.git"
+  ],
+  "Version": [
+    "3.7.0-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "argyll, argyll-ref, argyll-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), jam, libjpeg-dev, libpng-dev, libssl-dev, libtiff-dev, libtool, libusb-1.0-0-dev, libx11-dev, libxinerama-dev, libxrandr-dev, libxss-dev, libxxf86vm-dev, x11proto-scrnsaver-dev, x11proto-xf86vidmode-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "f03e9669008ae814bf6173c2ce31f80f37a52ed086ae74bbf4e51df2eeaf8e74 2192 argyll_3.1.0+repack-1.dsc dc1429beec9f35c73d5aa306d3be4498e1d26c606e0064151c922d7f00661094 6512212 argyll_3.1.0+repack.orig.tar.xz 2ccded81e1410799f8a461d8513cb761c82029f0c976d5a8bfefc85d744d0f45 266608 argyll_3.1.0+repack-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/argyll"
+  ],
+  "Files": [
+    "94585026b7eae5c0b3b3e91d17696711 2192 argyll_3.1.0+repack-1.dsc fdf418b71924e66a03926914e3c969c2 6512212 argyll_3.1.0+repack.orig.tar.xz 0bd2c68679803f039af2a038a88e1b7a 266608 argyll_3.1.0+repack-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.argyllcms.com/"
+  ],
+  "Maintainer": [
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e"
+  ],
+  "Package": [
+    "argyll"
+  ],
+  "Package-List": [
+    "argyll deb graphics optional arch=linux-any argyll-doc deb doc optional arch=all argyll-ref deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/argyll"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/argyll.git"
+  ],
+  "Version": [
+    "3.1.0+repack-1"
+  ]
+}

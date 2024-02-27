@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-flask-ldapconn"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-flask \u003c!nocheck\u003e, python3-ldap3 \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "3aa979f42a8f180f70a5be4253812ea98bd0e43702689d1842a6dd11be787460 2217 flask-ldapconn_0.10.1-1.dsc 7f8f5b28772360079a939e62c8680a7db05fdddcac5fca6b1ccee8a2a6912e16 17962 flask-ldapconn_0.10.1.orig.tar.gz 93f67995fe03bb43bca6fc312df1057da6a0ff0774904cb4f2da45ab7ce82a1b 4700 flask-ldapconn_0.10.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/flask-ldapconn"
+  ],
+  "Files": [
+    "bd3b4a33bdf2af13cd30da2a3f817a83 2217 flask-ldapconn_0.10.1-1.dsc dd8152209480f1afd6a5749294951482 17962 flask-ldapconn_0.10.1.orig.tar.gz 4937402be3f55ebc1c89b03b98c94f76 4700 flask-ldapconn_0.10.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rroemhild/flask-ldapconn"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "flask-ldapconn"
+  ],
+  "Package-List": [
+    "python3-flask-ldapconn deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Dominik George \u003cnatureshadow@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/flask-ldapconn"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/flask-ldapconn.git"
+  ],
+  "Version": [
+    "0.10.1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libfolks26, libfolks-dev, libfolks-doc, folks-common, gir1.2-folks-0.7, libfolks-telepathy26, libfolks-telepathy-dev, libfolks-telepathy-doc, libfolks-eds26, libfolks-eds-dev, libfolks-eds-doc, libfolks-dummy26, libfolks-dummy-dev, libfolks-dummy-doc, folks-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, evolution-data-server (\u003e= 3.38) \u003c!nocheck\u003e, evolution-data-server-dev (\u003e= 3.38), gir1.2-telepathyglib-0.12, libdbus-glib-1-dev, libebook-contacts1.2-dev (\u003e= 3.33.2), libebook1.2-dev (\u003e= 3.33.2), libedataserver1.2-dev (\u003e= 3.33.2), libgee-0.8-dev (\u003e= 0.8.4), libgirepository1.0-dev (\u003e= 1.30), libglib2.0-dev (\u003e= 2.58), libreadline-dev, libtelepathy-glib-dev (\u003e= 0.19.9), libxml2-dev, meson (\u003e= 0.57), python3-dbusmock, valac (\u003e= 0.22)"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools \u003c!nodoc\u003e, valadoc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "441dcf4d41f974205144ceb406ca364b3dd2d49e1f359e804c9e2500deb1e17c 3487 folks_0.15.7-1.dsc 120f219ef63212caa95ae7f6aeb64e29928b0b1a8b9452054304a00d0f347871 502128 folks_0.15.7.orig.tar.xz 743f1022438d79e8080de1f341c7acf8d56c9923d9675dd859cd1e30c63d9fee 12204 folks_0.15.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/folks"
+  ],
+  "Files": [
+    "e647051b044cf7b11b1c9ba5c9ce1bfb 3487 folks_0.15.7-1.dsc cd036d74e37aa6e215308db7f08e0223 502128 folks_0.15.7.orig.tar.xz 1165cbc8451eda8169593f498935e339 12204 folks_0.15.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Folks"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "folks"
+  ],
+  "Package-List": [
+    "folks-common deb libs optional arch=all folks-tools deb utils optional arch=any gir1.2-folks-0.7 deb introspection optional arch=any libfolks-dev deb libdevel optional arch=any libfolks-doc deb doc optional arch=all profile=!nodoc libfolks-dummy-dev deb libdevel optional arch=any libfolks-dummy-doc deb doc optional arch=all profile=!nodoc libfolks-dummy26 deb libs optional arch=any libfolks-eds-dev deb libdevel optional arch=any libfolks-eds-doc deb doc optional arch=all profile=!nodoc libfolks-eds26 deb libs optional arch=any libfolks-telepathy-dev deb libdevel optional arch=any libfolks-telepathy-doc deb doc optional arch=all profile=!nodoc libfolks-telepathy26 deb libs optional arch=any libfolks26 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/folks"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/folks.git"
+  ],
+  "Version": [
+    "0.15.7-1"
+  ]
+}

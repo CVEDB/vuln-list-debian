@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "rescue-check, rescue-mode"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-di"
+  ],
+  "Checksums-Sha256": [
+    "3c502bb876d3d5dc5391b250b65a281c0156df4faad8bf383c6a86291759d2be 1678 rescue_1.94.dsc bb6e4d084be22211a56da7b480831be06f12ca9d1076bd9f2c384cc2139be3dc 145148 rescue_1.94.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rescue"
+  ],
+  "Files": [
+    "2f7cf0e87db58933adeb199e30706201 1678 rescue_1.94.dsc 0070c08418f98baada5bafd66bd4ba22 145148 rescue_1.94.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "rescue"
+  ],
+  "Package-List": [
+    "rescue-check udeb debian-installer optional arch=all rescue-mode udeb debian-installer optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/rescue"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/rescue.git"
+  ],
+  "Version": [
+    "1.94"
+  ]
+}

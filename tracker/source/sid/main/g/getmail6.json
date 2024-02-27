@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "getmail6"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-setuptools, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "05da631547a0620d73848eb81b91858667ae9c8fef30e783eb5966f859c31a97 2042 getmail6_6.18.13-1.dsc 977a8fbf63494b6278c30f225c7bfbc7cbdfdffddbd2f29fcd887dfb6ce0d509 213033 getmail6_6.18.13.orig.tar.gz 57b713941787a4980a45c3c359b138dff6f65ad152d851a69bb66475c7cefafc 3300 getmail6_6.18.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/getmail6"
+  ],
+  "Files": [
+    "c896e853ed59aacaa7c5a486308eef43 2042 getmail6_6.18.13-1.dsc 3e235cff6e484dd826a1dee3feea3dc9 213033 getmail6_6.18.13.orig.tar.gz bd029e6bebb6da5e41376871d5d7fcce 3300 getmail6_6.18.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://getmail6.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "getmail6"
+  ],
+  "Package-List": [
+    "getmail6 deb mail optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "procps"
+  ],
+  "Uploaders": [
+    "Sudip Mukherjee \u003csudipm.mukherjee@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/getmail6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/getmail6.git"
+  ],
+  "Version": [
+    "6.18.13-1"
+  ]
+}

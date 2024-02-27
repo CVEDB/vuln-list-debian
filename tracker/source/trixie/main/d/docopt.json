@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-docopt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3-all, python3-setuptools, dh-python, dh-sequence-python3"
+  ],
+  "Checksums-Sha256": [
+    "4148568e6de393a29da5e5e7c0215d700c5428cbda451e7423cb1ba58867fd3a 2017 docopt_0.6.2-5.dsc 2113eed1e7fbbcd43fb7ee6a977fb02d0b482753586c9dc1a8e3b7d541426e99 26345 docopt_0.6.2.orig.tar.gz 09831c95ea07bdb5f91eb70d2a5e039490f0ca1ee8c0965f8982d850c57da4f6 4516 docopt_0.6.2-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/docopt"
+  ],
+  "Files": [
+    "387a5db58a3d61862b3f1854c6565541 2017 docopt_0.6.2-5.dsc a6c44155426fd0f7def8b2551d02fef6 26345 docopt_0.6.2.orig.tar.gz 533e88fae8f379e4678f6ef294cdf4ae 4516 docopt_0.6.2-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://docopt.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "docopt"
+  ],
+  "Package-List": [
+    "python3-docopt deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest, python3-schema"
+  ],
+  "Uploaders": [
+    "Agustin Henze \u003ctin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/docopt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/docopt.git"
+  ],
+  "Version": [
+    "0.6.2-5"
+  ]
+}

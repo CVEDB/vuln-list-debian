@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "mediawiki, mediawiki-classes"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), dh-buildinfo, apache2-dev"
+  ],
+  "Checksums-Sha256": [
+    "5a11b50f1b1e66d5ac234499a2c34ba0bd581f1b13058de63070d85b3d1c9870 2130 mediawiki_1.31.16-1+deb10u7.dsc 0515145c8e0d8a0a187971e08e1bd6749d7ea2839e8666e217fb91f038d0589b 35639454 mediawiki_1.31.16.orig.tar.gz 2ce725e9bdde623c4b93bb15b0a0786d9601468faa9d8b0d4f19fc63c91bd129 122364 mediawiki_1.31.16-1+deb10u7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/m/mediawiki"
+  ],
+  "Files": [
+    "c5408339266f2263b3d22f019a377bed 2130 mediawiki_1.31.16-1+deb10u7.dsc a8a1eab31431565b5765efe8c451e362 35639454 mediawiki_1.31.16.orig.tar.gz e40673fe08cf57c06391df7fc2d3910c 122364 mediawiki_1.31.16-1+deb10u7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.mediawiki.org/"
+  ],
+  "Maintainer": [
+    "Kunal Mehta \u003clegoktm@debian.org\u003e"
+  ],
+  "Package": [
+    "mediawiki"
+  ],
+  "Package-List": [
+    "mediawiki deb web optional arch=all mediawiki-classes deb web optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.3.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, curl, default-mysql-server, jsonlint, php-cli, php-mysql, php-pgsql, php-sqlite3, postgresql, sudo"
+  ],
+  "Vcs-Browser": [
+    "https://gerrit.wikimedia.org/g/mediawiki/debian"
+  ],
+  "Vcs-Git": [
+    "https://gerrit.wikimedia.org/r/mediawiki/debian.git"
+  ],
+  "Version": [
+    "1:1.31.16-1+deb10u7"
+  ]
+}

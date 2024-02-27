@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libppxlib-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, ocaml-dune, libocaml-compiler-libs-ocaml-dev, libppx-derivers-ocaml-dev, libsexplib0-ocaml-dev, dh-ocaml (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "a489f2c45ab844fe1747f42e54e5159ba495a1e71760addd1d424d9f24b58211 1836 ppxlib_0.32.0-1.dsc 507cc73ccf895f22eeb5257a2243838c18a38a09105fcff55eeef9148555422b 364104 ppxlib_0.32.0.orig.tar.bz2 e65c001c5a11efec344ed5ec1eb31f2d4ebac720225b2b932af4eb68d10d0b68 3160 ppxlib_0.32.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "8becd011221ff4df7ccd11d5778d7b55a6673938 debian archive/debian/0.32.0-1 https://git.dgit.debian.org/ppxlib"
+  ],
+  "Directory": [
+    "pool/main/p/ppxlib"
+  ],
+  "Files": [
+    "cd10094eba68d7e103e174267f1d862e 1836 ppxlib_0.32.0-1.dsc 61c9c052d50ece65670b2c003c867322 364104 ppxlib_0.32.0.orig.tar.bz2 24d5e14b3fa13b4c6abbebb4d9bc9e4d 3160 ppxlib_0.32.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml-ppx/ppxlib"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ppxlib"
+  ],
+  "Package-List": [
+    "libppxlib-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ppxlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ppxlib.git"
+  ],
+  "Version": [
+    "0.32.0-1"
+  ]
+}

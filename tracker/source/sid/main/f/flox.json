@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-flox"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-cachey, python3-cftime, python3-dask, python3-numpy, python3-numpy-groupies (\u003e= 0.9.19), python3-packaging, python3-pandas, python3-pytest \u003c!nocheck\u003e, python3-scipy, python3-setuptools, python3-setuptools-scm, python3-toolz, python3-xarray"
+  ],
+  "Checksums-Sha256": [
+    "5930b185de89271e8464324d263428ec65e994df13d3c78b784fbb6f272d04f6 2320 flox_0.9.2-1.dsc 6cd2572d090437e776f35538be2ba9141435f827b59ad9ffd4daf2bbe4772d75 647540 flox_0.9.2.orig.tar.gz ea760933d4196fbe682f94df5ba0fe86639bf4eaa6647a2fd76bda6b80cac706 3952 flox_0.9.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/flox"
+  ],
+  "Files": [
+    "45f5f20d162ab7f1cacc83523ad3ba1c 2320 flox_0.9.2-1.dsc e32e4ea1944c94c9f3a1b0b97272b056 647540 flox_0.9.2.orig.tar.gz c20b8f4f682d81de22083942c1188931 3952 flox_0.9.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xarray-contrib/flox"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "flox"
+  ],
+  "Package-List": [
+    "python3-flox deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/flox"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/flox.git"
+  ],
+  "Version": [
+    "0.9.2-1"
+  ]
+}

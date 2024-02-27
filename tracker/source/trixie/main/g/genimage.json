@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "genimage"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, libconfuse-dev"
+  ],
+  "Checksums-Sha256": [
+    "a8d6eedc4fb383024057484eb9ffa09fef63ac2c8eb356b2d32213fcfb3a71e2 2008 genimage_17-2.dsc 466a243cd104720f956e5ea305a64322ba2722b239a1520a7481f8ea904c0d13 94853 genimage_17.orig.tar.gz 12cfb5a9767686e9a8c3b832171f9c07af8a54c0928c9beb179b1a79a96c00ef 3828 genimage_17-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/genimage"
+  ],
+  "Files": [
+    "cc187787d831c2ed49fd5a89febdeea1 2008 genimage_17-2.dsc 490a65f182b8fee453bf634cc5d46f01 94853 genimage_17.orig.tar.gz 1e5f7c9d1ca2713dc2dc24501738d875 3828 genimage_17-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pengutronix/genimage"
+  ],
+  "Maintainer": [
+    "Sudip Mukherjee \u003csudipm.mukherjee@gmail.com\u003e"
+  ],
+  "Package": [
+    "genimage"
+  ],
+  "Package-List": [
+    "genimage deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "arm-trusted-firmware-tools, bsdextrautils, cpio, device-tree-compiler, genext2fs, genisoimage, mtools, qemu-utils, u-boot-tools"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sudip/genimage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sudip/genimage.git"
+  ],
+  "Version": [
+    "17-2"
+  ]
+}

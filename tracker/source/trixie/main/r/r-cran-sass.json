@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-sass"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-fs, r-cran-rlang, r-cran-htmltools, r-cran-r6, r-cran-rappdirs"
+  ],
+  "Checksums-Sha256": [
+    "19c7085d65d1840a7081df37a5f1e1dd87da6d5506eb45033d345d6343afee85 2248 r-cran-sass_0.4.8+dfsg-1.dsc 0a0cb64cd7239a576cc3808dcb92909ba82c7378d3327ac967b896a2e6e0a42f 1594588 r-cran-sass_0.4.8+dfsg.orig.tar.xz 6155afcbf6c29998ab081790be75d7f370c3b6d21e84f2eabef9480fb629171e 3924 r-cran-sass_0.4.8+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-sass"
+  ],
+  "Files": [
+    "0e366ced0c458472820d2126020c70ff 2248 r-cran-sass_0.4.8+dfsg-1.dsc 0431d8a7bfa10f3ee0db49d7560c2279 1594588 r-cran-sass_0.4.8+dfsg.orig.tar.xz 5f3bd737687704e3187540bd682a65ee 3924 r-cran-sass_0.4.8+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=sass"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-sass"
+  ],
+  "Package-List": [
+    "r-cran-sass deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-curl, r-cran-knitr, r-cran-rmarkdown, r-cran-shiny, r-cran-testthat, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-sass"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-sass.git"
+  ],
+  "Version": [
+    "0.4.8+dfsg-1"
+  ]
+}

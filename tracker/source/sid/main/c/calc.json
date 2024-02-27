@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "calc, calc-common, calc-dev"
+  ],
+  "Build-Depends": [
+    "libreadline-dev, debhelper (\u003e= 10), gcc (\u003e= 4:4.1.1-7), bsdextrautils, groff-base"
+  ],
+  "Checksums-Sha256": [
+    "cadb57f42b51e75d111a41880e3a0d01a1f03ed1f7685da59f0f8470ca07ae82 1999 calc_2.15.0.4-1.dsc 35ce2940ddf4f5f14b8b1f08eb053d4abcade2d3b3d5842f2f5b468e1ea3d1e9 1031175 calc_2.15.0.4.orig.tar.bz2 ab35c95ca526731358a987cfa7442d602cff5ee656c92d02c58953804f82fc91 10436 calc_2.15.0.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/calc"
+  ],
+  "Files": [
+    "e8bb2bce729cfc8c0b0ed080d532ddd6 1999 calc_2.15.0.4-1.dsc 5492f3ad07346f83bc9c4f2ad0495b33 1031175 calc_2.15.0.4.orig.tar.bz2 5e78044d5ca095cc0f68f164cc1fb931 10436 calc_2.15.0.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.isthe.com/chongo/tech/comp/calc/"
+  ],
+  "Maintainer": [
+    "Martin Buck \u003cmbuck@debian.org\u003e"
+  ],
+  "Package": [
+    "calc"
+  ],
+  "Package-List": [
+    "calc deb math optional arch=any calc-common deb math optional arch=all calc-dev deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/mbuck/calc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/mbuck/calc.git"
+  ],
+  "Version": [
+    "2.15.0.4-1"
+  ]
+}

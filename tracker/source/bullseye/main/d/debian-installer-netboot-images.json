@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debian-installer-11-netboot-amd64, debian-installer-11-netboot-arm64, debian-installer-11-netboot-armel, debian-installer-11-netboot-armhf, debian-installer-11-netboot-i386, debian-installer-11-netboot-mips64el, debian-installer-11-netboot-mipsel, debian-installer-11-netboot-ppc64el"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), wget, debian-archive-keyring, gpgv, dctrl-tools"
+  ],
+  "Checksums-Sha256": [
+    "f857d0a590727a5b6325097e50c75e47a0314de153893707c9a0cfa6d27f0878 2621 debian-installer-netboot-images_20210731+deb11u10.dsc d9dec7feb5b46982d9a6f56c053d9ef1f60c23feb53683066c3c74560098a56b 8096 debian-installer-netboot-images_20210731+deb11u10.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/debian-installer-netboot-images"
+  ],
+  "Files": [
+    "505baa161d2b5c3a1c15f9c8b28d343e 2621 debian-installer-netboot-images_20210731+deb11u10.dsc 867634cb7666a75d83ec0b84710f09d5 8096 debian-installer-netboot-images_20210731+deb11u10.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "debian-installer-netboot-images"
+  ],
+  "Package-List": [
+    "debian-installer-11-netboot-amd64 deb misc optional arch=all debian-installer-11-netboot-arm64 deb misc optional arch=all debian-installer-11-netboot-armel deb misc optional arch=all debian-installer-11-netboot-armhf deb misc optional arch=all debian-installer-11-netboot-i386 deb misc optional arch=all debian-installer-11-netboot-mips64el deb misc optional arch=all debian-installer-11-netboot-mipsel deb misc optional arch=all debian-installer-11-netboot-ppc64el deb misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Didier Raboud \u003codyx@debian.org\u003e, Cyril Brulebois \u003ckibi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/debian-installer-netboot-images"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/debian-installer-netboot-images.git"
+  ],
+  "Version": [
+    "20210731+deb11u10"
+  ]
+}

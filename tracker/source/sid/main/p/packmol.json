@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "packmol"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, gfortran"
+  ],
+  "Checksums-Sha256": [
+    "375b6fe64588cae9d627a445c50fc39bbd4eae62841b50122b92f6a9b77fbdf1 1927 packmol_20.14.3-1.dsc c70d8dff6f983adb854cf816df3d4a389b5cc724e70a2430b54793051eaaa4e9 102530 packmol_20.14.3.orig.tar.gz 51163fa0e9701294d31cf114236cdf9e6027239b59036b4fa17b79ee9448d7a6 2904 packmol_20.14.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/packmol"
+  ],
+  "Files": [
+    "ef234f6fd65bf4cb2c98d7c260e0b430 1927 packmol_20.14.3-1.dsc 6a3128e4d2ccdf299ae9a807128be9d6 102530 packmol_20.14.3.orig.tar.gz 57a3d64f80e0a661711887a45f311627 2904 packmol_20.14.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://m3g.iqm.unicamp.br/packmol/"
+  ],
+  "Maintainer": [
+    "Debichem Team \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "packmol"
+  ],
+  "Package-List": [
+    "packmol deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/packmol"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/packmol.git"
+  ],
+  "Version": [
+    "1:20.14.3-1"
+  ]
+}

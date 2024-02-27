@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "netcat-traditional"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "40d6c1dcb25f3f8c8f2cc3a6b5e0cdbaee5ace0f2c1a6bbad6f1f276d2b8610d 1872 netcat_1.10-48.dsc 64913dc3f0b4a96c3ab04d062d84f28ba6854152c94344e3985458b2aebca3d5 64363 netcat_1.10.orig.tar.bz2 c0026927aedd7a731ebfcfb4852472b46db00a5baf5a344c56691915d82bbc4c 20616 netcat_1.10-48.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/netcat"
+  ],
+  "Files": [
+    "41b3ae434d0f044d8967698fa2af3eb4 1872 netcat_1.10-48.dsc 7dc5c7450e708796395ffd746c197234 64363 netcat_1.10.orig.tar.bz2 e088f24c852a9a7d3b9426d45b0b7e6e 20616 netcat_1.10-48.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.stearns.org/nc/"
+  ],
+  "Maintainer": [
+    "Anibal Monsalve Salazar \u003canibal@debian.org\u003e"
+  ],
+  "Package": [
+    "netcat"
+  ],
+  "Package-List": [
+    "netcat-traditional deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Chris Hofstaedtler \u003czeha@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/netcat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/netcat.git"
+  ],
+  "Version": [
+    "1.10-48"
+  ]
+}

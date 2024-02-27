@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-github-evanw-esbuild-dev, esbuild"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.13~), golang-golang-x-sys-dev (\u003e= 0.0~git20220715.c0bba94), golang-src"
+  ],
+  "Build-Depends-Arch": [
+    "nodejs [!hurd-i386 !powerpc], npm [!hurd-i386 !powerpc]"
+  ],
+  "Checksums-Sha256": [
+    "f6cea108c8e2875c36ffb44e545a9b4b7d253310f2f072d4b14b3bc0f2088609 2474 golang-github-evanw-esbuild_0.20.1-1.dsc 9a64617be3fe4a461da4fb965a44a3db01df8f08db015a0c6804c6c61893391c 1829416 golang-github-evanw-esbuild_0.20.1.orig.tar.gz 1dbea9976ab2bec42a66112653b0378564ee9c875e451d5e783f54946799fbcd 10100 golang-github-evanw-esbuild_0.20.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-evanw-esbuild"
+  ],
+  "Files": [
+    "897044644a7d3b9ab01fcf7051ab0178 2474 golang-github-evanw-esbuild_0.20.1-1.dsc 7426592ab773de3b4711832a2d7d5816 1829416 golang-github-evanw-esbuild_0.20.1.orig.tar.gz 5dea1efc801221defdfa1773423c7f59 10100 golang-github-evanw-esbuild_0.20.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/evanw/esbuild"
+  ],
+  "Homepage": [
+    "https://github.com/evanw/esbuild"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-evanw-esbuild"
+  ],
+  "Package-List": [
+    "esbuild deb javascript optional arch=any golang-github-evanw-esbuild-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild.git"
+  ],
+  "Version": [
+    "0.20.1-1"
+  ]
+}

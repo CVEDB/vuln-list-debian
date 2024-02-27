@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-typeshed"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), git, python3, python3-pip, python3-requests, python3-toml, python3-tomli, python3-packaging"
+  ],
+  "Checksums-Sha256": [
+    "cdbe66f2967b78016285044df7f465c80d1b132c9ed778ecd1a91ca093215722 2578 typeshed_0.0~git20231111.6764465-3.dsc 73f737603cd8a829dbfbf6d1993b0a4d524f4a5dd2a7b2447cb4a6ec182293f3 84684 typeshed_0.0~git20231111.6764465.orig-stub-uploader.tar.xz 4d9c6744b21cc62f7b03c28f8cde4636ab350149c779e3682c3cddcb93ec6ec2 1372208 typeshed_0.0~git20231111.6764465.orig.tar.xz f73dd6b7c2ad77239f4bdd3786fba723c19e0e1a53e8890cc17a044383fa34dc 4300 typeshed_0.0~git20231111.6764465-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/typeshed"
+  ],
+  "Files": [
+    "97872f35d38da1bd756d2acfe91c50f3 2578 typeshed_0.0~git20231111.6764465-3.dsc d3ba230de05c53c6a6368617224b2308 84684 typeshed_0.0~git20231111.6764465.orig-stub-uploader.tar.xz b421c7eb76447f895465be9a7482f5d7 1372208 typeshed_0.0~git20231111.6764465.orig.tar.xz 408fec187c81d8adfa03b2cbb73977f3 4300 typeshed_0.0~git20231111.6764465-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/python/typeshed"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "typeshed"
+  ],
+  "Package-List": [
+    "python3-typeshed deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "mypy, python3-aiofiles, python3-requests"
+  ],
+  "Uploaders": [
+    "Antonio Terceiro \u003cterceiro@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/typeshed"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/typeshed.git"
+  ],
+  "Version": [
+    "0.0~git20231111.6764465-3"
+  ]
+}

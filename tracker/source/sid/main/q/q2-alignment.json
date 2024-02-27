@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2-alignment"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, python3-skbio, python3-pytest-cov, qiime (\u003e= 2024.2), q2-types (\u003e= 2024.2), mafft"
+  ],
+  "Checksums-Sha256": [
+    "a959a2752cf54db1a6bd6fdb73e95a418359a6de8a4ff1cf0dd5f4edf7aa0eba 2229 q2-alignment_2024.2.0-1.dsc 319573c1164c8e2cdd3e08024ff10371c99b197067c17b8d304a894494cf2598 306592 q2-alignment_2024.2.0.orig.tar.xz 0f626a37888612467752c9ccf0dd2653a600b3ab62ab8ef606aa62c8aaaddd8f 6100 q2-alignment_2024.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-alignment"
+  ],
+  "Files": [
+    "baae8517447c5d66e21548b96f5e4e3b 2229 q2-alignment_2024.2.0-1.dsc 81a70b6762805657e42ac99e723fee07 306592 q2-alignment_2024.2.0.orig.tar.xz 70cef5ac4e3b9823b3d50ed1f7b3c840 6100 q2-alignment_2024.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-alignment"
+  ],
+  "Package-List": [
+    "q2-alignment deb science optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e, Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-alignment"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-alignment.git"
+  ],
+  "Version": [
+    "2024.2.0-1"
+  ]
+}

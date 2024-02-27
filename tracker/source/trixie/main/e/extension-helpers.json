@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-extension-helpers"
+  ],
+  "Build-Depends": [
+    "cython3 \u003c!nocheck\u003e, debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all-dev, python3-distutils, python3-pip, python3-pytest, python3-setuptools, python3-setuptools-scm, python3-tomli"
+  ],
+  "Checksums-Sha256": [
+    "84cf58eef7e22a565c10084f507a9f7211e2c562d4a4f29f1c08294468ced00b 2217 extension-helpers_1.1.1-1.dsc f95dd304a523d4ff6680d9504fa1d68a4dd03bf3bfbbe0ade4d927ed9e693f00 27554 extension-helpers_1.1.1.orig.tar.gz ef9d4c06b09c0f0767b1e9f2a482918a821edd2369bdd2d055f71fca3fd051a9 4084 extension-helpers_1.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/extension-helpers"
+  ],
+  "Files": [
+    "f4884f291541aa1e9e28b94eb01e85c6 2217 extension-helpers_1.1.1-1.dsc d8dd2fca21d1b4ca0ac1ca05837ac1dc 27554 extension-helpers_1.1.1.orig.tar.gz acbfe186f6b24c683e3bfccd22878cf6 4084 extension-helpers_1.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pypi.org/project/extension-helpers/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "extension-helpers"
+  ],
+  "Package-List": [
+    "python3-extension-helpers deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/extension-helpers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/extension-helpers.git"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

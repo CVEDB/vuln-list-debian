@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "soju, soju-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-golang, golang-any, golang-github-emersion-go-sasl-dev, golang-github-mattn-go-sqlite3-dev, golang-github-msteinert-pam-dev, golang-github-pires-go-proxyproto-dev, golang-github-sherclockholmes-webpush-go-dev, golang-golang-x-crypto-dev, golang-golang-x-time-dev, golang-gopkg-irc.v4-dev, golang-nhooyr-websocket-dev, golang-pq-dev, golang-prometheus-client-dev, golang-sourcehut-emersion-go-scfg-dev, golang-sourcehut-sircmpwn-go-bare-dev, scdoc"
+  ],
+  "Checksums-Sha256": [
+    "9878ce05d575c76c58f909faae5d854ff36993b0584dd3fcc818c0cba8cb575f 2515 soju_0.7.0-1.dsc b5ff566496fafe2c27f0893ba7d64617705c530707ddea191526b5366b84d3ac 149374 soju_0.7.0.orig.tar.gz 8bdf46607fcab1e73b6966840571022796d0682c9cb926c0c779c11636498872 15060 soju_0.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/soju"
+  ],
+  "Files": [
+    "f09cb2eea7a8220c7f357e69609b4bbb 2515 soju_0.7.0-1.dsc 46b7f54b39b3717c4d929915a5e41bb7 149374 soju_0.7.0.orig.tar.gz 48027a12d1948ca09604d18cf0bbe595 15060 soju_0.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "git.sr.ht/~emersion/soju"
+  ],
+  "Homepage": [
+    "https://soju.im"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "soju"
+  ],
+  "Package-List": [
+    "soju deb net optional arch=any soju-utils deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, openssl, postgresql, python3"
+  ],
+  "Uploaders": [
+    "Taavi Väänänen \u003chi@taavi.wtf\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/soju"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/soju.git"
+  ],
+  "Version": [
+    "0.7.0-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "liblocale-codes-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libfile-find-rule-perl \u003c!nocheck\u003e, libtest-inter-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "e7a13a2187de48d062cbd123659e309d56052aa8898b3444add7a36de3916a73 2477 liblocale-codes-perl_3.77-1.dsc cf20b1b5000aac1352069f0c9912eb22343dedf83b3ab86e2ca37aec9e4d20c0 873367 liblocale-codes-perl_3.77.orig.tar.gz 9996a3cbf4ddf754f4a4b2ab23a5bd0413fc657108c8b4a3b2686f7516d1db3a 2468 liblocale-codes-perl_3.77-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "42276bcca7b51271a38f1996acb553cb8a6600d5 debian archive/debian/3.77-1 https://git.dgit.debian.org/liblocale-codes-perl"
+  ],
+  "Directory": [
+    "pool/main/libl/liblocale-codes-perl"
+  ],
+  "Files": [
+    "54240bc6af63679ba09bc372e1955bb8 2477 liblocale-codes-perl_3.77-1.dsc c6fc5aba8244a2bfe0984c3e8e03ebca 873367 liblocale-codes-perl_3.77.orig.tar.gz 5ca3208fc44ba19687b2bae4f2125dfb 2468 liblocale-codes-perl_3.77-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Locale-Codes"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "liblocale-codes-perl"
+  ],
+  "Package-List": [
+    "liblocale-codes-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/liblocale-codes-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/liblocale-codes-perl.git"
+  ],
+  "Version": [
+    "3.77-1"
+  ]
+}

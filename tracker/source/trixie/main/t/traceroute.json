@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "traceroute"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "69a66407f61eae86bd062fceb69b0cb2a4c19161bfb94c624a8dce75cdfd616d 1754 traceroute_2.1.5-1.dsc 9c6c260d96eaab51e3ce461b0a84fe87123ebc6dd6c9a59fab803f95b35a859e 75453 traceroute_2.1.5.orig.tar.gz 162586f4737b2bc0b81e48a05e30bca3866d9d42b148bfdbb92e85dd19696787 10572 traceroute_2.1.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/traceroute"
+  ],
+  "Files": [
+    "70016aa6f78ea1c19d4a81cd9834bdfb 1754 traceroute_2.1.5-1.dsc 6599a83531ecb31275ff7906349c0970 75453 traceroute_2.1.5.orig.tar.gz 28852d5610fddb42056fdcacd9bce787 10572 traceroute_2.1.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://traceroute.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "traceroute"
+  ],
+  "Package-List": [
+    "traceroute deb net important arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1:2.1.5-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "got, gotd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, libbsd-dev, libmd-dev, libncurses-dev, libevent-dev, uuid-dev, zlib1g-dev, libssl-dev, bison"
+  ],
+  "Checksums-Sha256": [
+    "d07b87aee485e320605f59d7ea00481256f62fdf4ca4a7a6da7024e6c5a75923 1901 got_0.95-1.dsc e689fd7dfefa380166a1a293c153348540862e2019189cedebe8c2c76372820e 1271793 got_0.95.orig.tar.gz 190603458f41e80a6878e5a6faa49d6b6657795742ed7dfc0cc953efaff49845 6436 got_0.95-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/got"
+  ],
+  "Files": [
+    "06de275db151891f0867cd99cf6dbe9e 1901 got_0.95-1.dsc f6c82e099a7e86999252e504e1baf5d7 1271793 got_0.95.orig.tar.gz 63d8fbe2055bf08b23d88e284f1d223c 6436 got_0.95-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gameoftrees.org/index.html"
+  ],
+  "Maintainer": [
+    "Tobias Heider \u003cme@tobhe.de\u003e"
+  ],
+  "Package": [
+    "got"
+  ],
+  "Package-List": [
+    "got deb misc optional arch=any gotd deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/got"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/got.git"
+  ],
+  "Version": [
+    "0.95-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tryton-modules-account-invoice-stock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, jdupes, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "9b125f56c20732ad1c835fcc3fc15731cdbd15bf9ea79a84c45c999c7f5268d1 2718 tryton-modules-account-invoice-stock_6.0.3-1.dsc cddf979855d7617365593622eb3879afc86a74761e44c313fce8d763b1f900c2 26614 tryton-modules-account-invoice-stock_6.0.3.orig.tar.gz 87978c9a06a624babc2e6cfa0c4b68c1333ebd8c3c53f0b8336b9e07d88a3012 506 tryton-modules-account-invoice-stock_6.0.3.orig.tar.gz.asc d6104e6738a267d5f0646379beed1fefad04138eb392f3537d5efa4e421df769 13220 tryton-modules-account-invoice-stock_6.0.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tryton-modules-account-invoice-stock"
+  ],
+  "Files": [
+    "248dadebdfa66eb502668f67d5286a77 2718 tryton-modules-account-invoice-stock_6.0.3-1.dsc ef0bc1221ecc212ee73396508894f4a9 26614 tryton-modules-account-invoice-stock_6.0.3.orig.tar.gz cabb26e768e8a0e5df00abd669622420 506 tryton-modules-account-invoice-stock_6.0.3.orig.tar.gz.asc 0102c9de028aecc685ead68afdf032d6 13220 tryton-modules-account-invoice-stock_6.0.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.tryton.org/"
+  ],
+  "Maintainer": [
+    "Debian Tryton Maintainers \u003cteam+tryton-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tryton-modules-account-invoice-stock"
+  ],
+  "Package-List": [
+    "tryton-modules-account-invoice-stock deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-setuptools, tryton-proteus"
+  ],
+  "Uploaders": [
+    "Mathias Behrle \u003cmathiasb@m9s.biz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-account-invoice-stock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-account-invoice-stock.git"
+  ],
+  "Version": [
+    "6.0.3-1"
+  ]
+}

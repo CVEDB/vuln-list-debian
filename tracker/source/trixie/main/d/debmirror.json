@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debmirror"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libdigest-md5-perl, libdigest-sha-perl, liblockfile-simple-perl, libnet-perl, libwww-perl"
+  ],
+  "Checksums-Sha256": [
+    "eab14e76b3687e27a0cab9215a0faec0ee8e93de70c6f66c1d6fe8f4d8b91b76 1718 debmirror_2.39.dsc 78716dca1f6c8b7300a4f7f8c6ba2d3155191c5f70f61b5f9db3e248892543c0 56240 debmirror_2.39.tar.xz"
+  ],
+  "Dgit": [
+    "b71dc55461f8c0c572ff088c518d52b78796510a debian archive/debian/1%2.39 https://git.dgit.debian.org/debmirror"
+  ],
+  "Directory": [
+    "pool/main/d/debmirror"
+  ],
+  "Files": [
+    "b128705c34764b29ea7f9c58f9a826d3 1718 debmirror_2.39.dsc 22781408353cfb174528f53e34bcc91f 56240 debmirror_2.39.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Package": [
+    "debmirror"
+  ],
+  "Package-List": [
+    "debmirror deb net optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/debmirror"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/debmirror.git"
+  ],
+  "Version": [
+    "1:2.39"
+  ]
+}

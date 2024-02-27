@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-nose2-doc, python3-nose2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, help2man, python3-all, python3-coverage, python3-setuptools (\u003e= 61.1), python3-sphinx, python3-sphinx-rtd-theme, python3-sphinx-issues"
+  ],
+  "Checksums-Sha256": [
+    "0dc154dcc0a023c6dd71c3656d4758f7f176694cc6fa8a103e9086ddc05153f8 2221 nose2_0.14.0-2.dsc 5c28d770a0b9a702862bd6c3755ba2cd2f7994dd518c982e5ce298d7f37466a4 167278 nose2_0.14.0.orig.tar.gz f1cfe3a2cbe60197f238f823869510e42153062a1e6b285565bf9da0b5f3d384 10848 nose2_0.14.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nose2"
+  ],
+  "Files": [
+    "9df633ffc082baa4dad990619f938e86 2221 nose2_0.14.0-2.dsc 6494877649d7620fa6e69f0bac588797 167278 nose2_0.14.0.orig.tar.gz fd0beec2d3a12126f2482e1198e0b46c 10848 nose2_0.14.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/nose-devs/nose2"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "nose2"
+  ],
+  "Package-List": [
+    "python-nose2-doc deb doc optional arch=all python3-nose2 deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Brian May \u003cbam@debian.org\u003e, Pierre-Elliott Bécue \u003cpeb@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/nose2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/nose2.git"
+  ],
+  "Version": [
+    "0.14.0-2"
+  ]
+}

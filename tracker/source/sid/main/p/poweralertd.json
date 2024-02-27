@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "poweralertd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, ninja-build, cmake, pkg-config, libsystemd-dev | libelogind-dev, systemd-dev, scdoc"
+  ],
+  "Checksums-Sha256": [
+    "65217307fadb018a6fc1079a7ed1a480b8a18f43a8dbd7be2a5a7a9d73cfb3b3 1974 poweralertd_0.2.0-2.dsc f70076dad452c592e2fcdeba4fd533c11394c254f42c21522aa7b56f92a0bd69 39662 poweralertd_0.2.0.orig.tar.gz 69cfb0ebcc7c57907bda1298ef27948c7a54621a37c809f6058dc9e38e7d0aed 1816 poweralertd_0.2.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/poweralertd"
+  ],
+  "Files": [
+    "eac391adab066239f05abdc6adb51937 1974 poweralertd_0.2.0-2.dsc 568a28ecf9ca78d07478de46b2be62ea 39662 poweralertd_0.2.0.orig.tar.gz 468fd2d8bebb31758f2618c78502c1d9 1816 poweralertd_0.2.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sr.ht/~kennylevinsen/poweralertd"
+  ],
+  "Maintainer": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Package": [
+    "poweralertd"
+  ],
+  "Package-List": [
+    "poweralertd deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/birger/poweralertd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/birger/poweralertd.git"
+  ],
+  "Version": [
+    "0.2.0-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-sabctools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all-dev, python3-chardet \u003c!nocheck\u003e, python3-portend \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "ab9f231343ad92b773a64382fbee13bda616d676870ac0853e2c1e43fe9f1acd 2137 sabctools_8.1.0-1.dsc b510a0e5a7d24f24cb653bb66d1ae6dca121b493750e2477042fba8e4c8dd087 8963885 sabctools_8.1.0.orig.tar.gz add7c231357f1bb94dc9e4ba6ab94f935af9ba59c30f95ae9bf5cf2d55407d69 4784 sabctools_8.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sabctools"
+  ],
+  "Files": [
+    "4e5684bb503ed28de6f85da59f9fdd68 2137 sabctools_8.1.0-1.dsc 7487ca82205e7e5739c8e69dab8b3b5e 8963885 sabctools_8.1.0.orig.tar.gz 7d52b6766b7afcc36465fee345f6849b 4784 sabctools_8.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sabnzbd/sabctools"
+  ],
+  "Maintainer": [
+    "Jeroen Ploemen \u003cjcfp@debian.org\u003e"
+  ],
+  "Package": [
+    "sabctools"
+  ],
+  "Package-List": [
+    "python3-sabctools deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sabctools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sabctools.git"
+  ],
+  "Version": [
+    "8.1.0-1"
+  ]
+}

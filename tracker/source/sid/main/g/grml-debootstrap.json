@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "grml-debootstrap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc, docbook-xsl, shunit2, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "0e34a09ba732c06d27140d20576508a00a18387ef01c5082a28ce827c9a89886 1808 grml-debootstrap_0.108.dsc 4ec54cfa7f1d67575d3f707269be618b903f32ed49a3415bbf4ebc89136c0ce6 89512 grml-debootstrap_0.108.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/grml-debootstrap"
+  ],
+  "Files": [
+    "068bfda1719d27bb6fe0970f88cfecda 1808 grml-debootstrap_0.108.dsc cb8b25945dc0a30e1ca51779e39debdb 89512 grml-debootstrap_0.108.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://grml.org/grml-debootstrap/"
+  ],
+  "Maintainer": [
+    "Grml Team \u003cteam@grml.org\u003e"
+  ],
+  "Package": [
+    "grml-debootstrap"
+  ],
+  "Package-List": [
+    "grml-debootstrap deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Michael Prokop \u003cmika@debian.org\u003e, Alexander Wirt \u003cformorer@debian.org\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e, Ulrich Dangel \u003cmru@spamt.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/grml/grml-debootstrap"
+  ],
+  "Vcs-Git": [
+    "https://github.com/grml/grml-debootstrap.git"
+  ],
+  "Version": [
+    "0.108"
+  ]
+}

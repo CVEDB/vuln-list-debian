@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-grep-searcher-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bstr-1+std-dev (\u003e= 1.6.2-~~) \u003c!nocheck\u003e, librust-encoding-rs-0.8+default-dev (\u003e= 0.8.33-~~) \u003c!nocheck\u003e, librust-encoding-rs-io-0.1+default-dev (\u003e= 0.1.7-~~) \u003c!nocheck\u003e, librust-grep-matcher-0.1+default-dev (\u003e= 0.1.7-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.20-~~) \u003c!nocheck\u003e, librust-memchr-2+default-dev (\u003e= 2.6.3-~~) \u003c!nocheck\u003e, librust-memmap2-0.9+default-dev \u003c!nocheck\u003e, librust-grep-regex-dev (\u003e= 0.1.9)"
+  ],
+  "Checksums-Sha256": [
+    "5af2b6224a8d888088d61577254a76dfd4352f6f3ca383d437eb07c1e205a9b9 2779 rust-grep-searcher_0.1.13-1.dsc ba536ae4f69bec62d8839584dd3153d3028ef31bb229f04e09fb5a9e5a193c54 45303 rust-grep-searcher_0.1.13.orig.tar.gz e5630914cd544e3f139ec284c968367eb4f67ab86ca3918bc3bc22750b2eea45 3760 rust-grep-searcher_0.1.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-grep-searcher"
+  ],
+  "Files": [
+    "ab14ce591f9b758cc9f4fcf38823594b 2779 rust-grep-searcher_0.1.13-1.dsc 3385f1bc56732a5ff533a48b2164a3c9 45303 rust-grep-searcher_0.1.13.orig.tar.gz e51a55a733fcf544a53c5d1961b691d0 3760 rust-grep-searcher_0.1.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/BurntSushi/ripgrep/tree/master/crates/searcher"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-grep-searcher"
+  ],
+  "Package-List": [
+    "librust-grep-searcher-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-grep-regex-0.1+default-dev, librust-regex-1+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep-searcher"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep-searcher]"
+  ],
+  "Version": [
+    "0.1.13-1"
+  ]
+}

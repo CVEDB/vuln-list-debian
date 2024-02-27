@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clap-num-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-num-traits-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "00c584d4108fe70832a89aaa91e4ac74a15e7a801988ce236d5e87b72ec41889 2246 rust-clap-num_1.1.1-1.dsc 0e063d263364859dc54fb064cedb7c122740cd4733644b14b176c097f51e8ab7 9850 rust-clap-num_1.1.1.orig.tar.gz e9cda5aa9bcadd995e1188876a7b332fec9862c2c7fb33b38cea5207cbca55d0 2512 rust-clap-num_1.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clap-num"
+  ],
+  "Files": [
+    "61ae931b60a010632f3dfb1c89175a13 2246 rust-clap-num_1.1.1-1.dsc 9d61af498a2d2b4c9d1b945c9b753170 9850 rust-clap-num_1.1.1.orig.tar.gz b86bac7ab75e28c336150dc071985a6e 2512 rust-clap-num_1.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clap-num"
+  ],
+  "Package-List": [
+    "librust-clap-num-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-clap-4+default-dev, librust-clap-4+derive-dev"
+  ],
+  "Uploaders": [
+    "Arnaud Ferraris \u003caferraris@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clap-num"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-num]"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

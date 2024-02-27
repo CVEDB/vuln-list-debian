@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libqt5pas1, libqt5pas-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fp-units-rtl, libqt5webkit5-dev, libqt5x11extras5-dev, qt5-qmake, qtbase5-dev, qtchooser"
+  ],
+  "Checksums-Sha256": [
+    "91df8774c01816ddb51bfdd24ce8f0f29968bcbd5bdb07b0bf848cfae86212a9 1575 libqtpas_3.0+dfsg1-1.dsc 7ec8c9fbbb3310f75f5391553e1f180add4574dae4fc078ab393bcda24d68e42 367056 libqtpas_3.0+dfsg1.orig.tar.xz cf2db44ff7f8d5eb6b39a9f252bfa9e671c68137b3762a2f5e38b020686741ec 7016 libqtpas_3.0+dfsg1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libq/libqtpas"
+  ],
+  "Files": [
+    "9cd825743dfd5fd133848f590a40a579 1575 libqtpas_3.0+dfsg1-1.dsc cddf0192169ff8e6f8ea50e2884e6776 367056 libqtpas_3.0+dfsg1.orig.tar.xz aec1a2ce1e4de03569022916fb9ba725 7016 libqtpas_3.0+dfsg1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://users.telenet.be/Jan.Van.hijfte/qtforfpc/fpcqt4.html"
+  ],
+  "Maintainer": [
+    "Pascal Packaging Team \u003cpkg-pascal-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libqtpas"
+  ],
+  "Package-List": [
+    "libqt5pas-dev deb libdevel optional arch=any libqt5pas1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Abou Al Montacir \u003cabou.almontacir@sfr.fr\u003e, Matthias Klumpp \u003cmak@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libqtpas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libqtpas.git"
+  ],
+  "Version": [
+    "3.0+dfsg1-1"
+  ]
+}

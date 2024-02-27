@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libcbf-dev, libcbf1, cbflib-bin, python3-pycbf, cbflib-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, libhdf5-dev, pkg-config, python3-all-dev"
+  ],
+  "Checksums-Sha256": [
+    "1eb341104f985b7e62fa9bbd9de3c4a3079a707472090929f68be6a11d1de6db 2562 cbflib_0.9.7+dfsg1-3.dsc fd58cfcbfce948c889b6448e9b3c12c06f4b3411c1072e966987dd79c16329cd 6012032 cbflib_0.9.7+dfsg1.orig.tar.xz de0055c5bd10a83630691e07db43ddcfb621474db70446d55dcba874165be591 25664 cbflib_0.9.7+dfsg1-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "75eefabfb662a7348167f0887d16abdb1e0edb16 debian archive/debian/0.9.7+dfsg1-3 https://git.dgit.debian.org/cbflib"
+  ],
+  "Directory": [
+    "pool/main/c/cbflib"
+  ],
+  "Files": [
+    "e95a7d266915f420d45e65c126bd90ea 2562 cbflib_0.9.7+dfsg1-3.dsc e570bec5c7d7890aeb57e7cb5d16e102 6012032 cbflib_0.9.7+dfsg1.orig.tar.xz 77aa60ee2791ff65648cc6dce939c537 25664 cbflib_0.9.7+dfsg1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.bernstein-plus-sons.com/software/CBF/"
+  ],
+  "Maintainer": [
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "cbflib"
+  ],
+  "Package-List": [
+    "cbflib-bin deb science optional arch=any cbflib-doc deb doc optional arch=all libcbf-dev deb libdevel optional arch=any libcbf1 deb libs optional arch=any python3-pycbf deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Morten Kjeldgaard \u003cmok0@ubuntu.com\u003e, Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e, Teemu Ikonen \u003ctpikonen@gmail.com\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/cbflib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/cbflib.git"
+  ],
+  "Version": [
+    "0.9.7+dfsg1-3"
+  ]
+}

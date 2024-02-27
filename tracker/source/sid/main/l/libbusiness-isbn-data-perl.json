@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libbusiness-isbn-data-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libbusiness-isbn-perl \u003c!nocheck\u003e, libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "383a21b472365b6dc96337edc2f8a6308718e366a97d0faff54d6d03d620e1c8 2766 libbusiness-isbn-data-perl_20240209.001-1.dsc 85756e192c123871ac724c216fcd11be38a43a8e133c05bad0bdb09a22aac3fc 33496 libbusiness-isbn-data-perl_20240209.001.orig.tar.gz fc5e7924b7c31fa7ec66513d36a7c2c5e1eae113ef91ece59dd2602ca67a2985 8796 libbusiness-isbn-data-perl_20240209.001-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "4c2636e4826a0afb00c7fb4bb280b3bc3b870ce4 debian archive/debian/20240209.001-1 https://git.dgit.debian.org/libbusiness-isbn-data-perl"
+  ],
+  "Directory": [
+    "pool/main/libb/libbusiness-isbn-data-perl"
+  ],
+  "Files": [
+    "a3cdb68f067c6d7d1a69f4d6c8f999bb 2766 libbusiness-isbn-data-perl_20240209.001-1.dsc 9eecef0abe410be4c41a74adafdca230 33496 libbusiness-isbn-data-perl_20240209.001.orig.tar.gz 4f91c4d59c8ec4c50497182ccc08178d 8796 libbusiness-isbn-data-perl_20240209.001-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Business-ISBN-Data"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libbusiness-isbn-data-perl"
+  ],
+  "Package-List": [
+    "libbusiness-isbn-data-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Vincent Danjean \u003cvdanjean@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, Florian Schlichting \u003cfsfs@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libbusiness-isbn-data-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libbusiness-isbn-data-perl.git"
+  ],
+  "Version": [
+    "20240209.001-1"
+  ]
+}

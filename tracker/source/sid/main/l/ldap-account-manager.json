@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ldap-account-manager, ldap-account-manager-lamdaemon"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), debhelper-compat (= 12), po-debconf, cleancss (\u003e= 5.2), uglifyjs (\u003e= 3.12)"
+  ],
+  "Checksums-Sha256": [
+    "e2a6cb3ae2597d1844a0cf7a857e9836fee0c453073217bfa747e63c5afe342e 2032 ldap-account-manager_8.6-1.dsc 94be90ff91a9c32e567387a6bf0655b58a89abbcd5005640c6d69a847b6df9de 27987138 ldap-account-manager_8.6.orig.tar.bz2 1783c24091e015a04e9a09ed68ab32db9c440c18064c99d7380e4a4df20eadb4 36452 ldap-account-manager_8.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/ldap-account-manager"
+  ],
+  "Files": [
+    "02a44ba2b91f7cf0fd21473ff3a1d642 2032 ldap-account-manager_8.6-1.dsc e46f8746ab0f4a18bcc7515d45636a1b 27987138 ldap-account-manager_8.6.orig.tar.bz2 69386e57fd565bae29cef835625aceba 36452 ldap-account-manager_8.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.ldap-account-manager.org/"
+  ],
+  "Maintainer": [
+    "Roland Gruber \u003cpost@rolandgruber.de\u003e"
+  ],
+  "Package": [
+    "ldap-account-manager"
+  ],
+  "Package-List": [
+    "ldap-account-manager deb web optional arch=all ldap-account-manager-lamdaemon deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "wget"
+  ],
+  "Version": [
+    "8.6-1"
+  ]
+}

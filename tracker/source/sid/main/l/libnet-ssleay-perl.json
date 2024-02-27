@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libnet-ssleay-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-perl-openssl, libscalar-list-utils-perl \u003c!nocheck\u003e, libsocket-perl \u003c!nocheck\u003e, libssl-dev, libtest-pod-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, openssl, perl-openssl-defaults, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "c0f7a7e97f6defe57886d6f61c8b7ddd0b017551503b1d50995eb762230f2a0e 2589 libnet-ssleay-perl_1.94-1.dsc 9d7be8a56d1bedda05c425306cc504ba134307e0c09bda4a788c98744ebcd95d 663948 libnet-ssleay-perl_1.94.orig.tar.gz 7dde7994600897809d10b498e8ee0b3aa2d380e096b39e60c9584bc466911a34 12296 libnet-ssleay-perl_1.94-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "d14926a3a844c2967f171fe118d9221e62f000fc debian archive/debian/1.94-1 https://git.dgit.debian.org/libnet-ssleay-perl"
+  ],
+  "Directory": [
+    "pool/main/libn/libnet-ssleay-perl"
+  ],
+  "Files": [
+    "339bd850f0d7da13c19822d8219aac7f 2589 libnet-ssleay-perl_1.94-1.dsc 1b22c764e5a094c6261e37a4b1f148ce 663948 libnet-ssleay-perl_1.94.orig.tar.gz 066b02c25c9204560fe65b907a7da89b 12296 libnet-ssleay-perl_1.94-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Net-SSLeay"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libnet-ssleay-perl"
+  ],
+  "Package-List": [
+    "libnet-ssleay-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libnet-ssleay-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libnet-ssleay-perl.git"
+  ],
+  "Version": [
+    "1.94-1"
+  ]
+}

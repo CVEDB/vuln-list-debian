@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xclip"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libx11-dev, libxmu-dev, psmisc, xauth, xvfb"
+  ],
+  "Checksums-Sha256": [
+    "abd46e66e1bc164473405c54d08906df7008b22e8afa3269821f4a483ff6ecb6 1868 xclip_0.13-3.dsc ca5b8804e3c910a66423a882d79bf3c9450b875ac8528791fb60ec9de667f758 30461 xclip_0.13.orig.tar.gz b76f4be149fcd21d471275b0cdb86eb07b024e6e16966a896fd4a85efd8f3d0b 8896 xclip_0.13-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xclip"
+  ],
+  "Files": [
+    "aad63051db9b2c8d898ec72f166a1b52 1868 xclip_0.13-3.dsc 81e49f56288f299e3389a019f2550ad2 30461 xclip_0.13.orig.tar.gz bb52ad96558c669dc1cdf19ce41fca01 8896 xclip_0.13-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/astrand/xclip"
+  ],
+  "Maintainer": [
+    "Alessandro Ghedini \u003cghedo@debian.org\u003e"
+  ],
+  "Package": [
+    "xclip"
+  ],
+  "Package-List": [
+    "xclip deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/xclip"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/xclip.git"
+  ],
+  "Version": [
+    "0.13-3"
+  ]
+}

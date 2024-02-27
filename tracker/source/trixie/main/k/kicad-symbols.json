@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "kicad-symbols"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "af8c5852612dcd94e5fcaf43736ee7eaace8ba5e6bee78331b707e3eecf371c0 2103 kicad-symbols_7.0.10-1.dsc 35c9ca8cc34e1b5290ce906f80943ae99786bad8c9e5c9eb77bfed4c030bd2e6 2591504 kicad-symbols_7.0.10.orig.tar.xz 883a1f3e31618e6b15902d899052a46bd832b57bba61015e586cc1e4c9bee816 10112 kicad-symbols_7.0.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kicad-symbols"
+  ],
+  "Files": [
+    "4237ac4811c43d2710a1b106bbf1cc0d 2103 kicad-symbols_7.0.10-1.dsc d55d830b64e9103d59d312faefbc0aed 2591504 kicad-symbols_7.0.10.orig.tar.xz f6e0097f3a12cb57fa864ed4460b0a0d 10112 kicad-symbols_7.0.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kicad.github.io/symbols"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "kicad-symbols"
+  ],
+  "Package-List": [
+    "kicad-symbols deb electronics optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e, Jean-Samuel Reynaud \u003cjs.reynaud@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/KiCad/kicad-symbols/-/tree/debian/sid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/KiCad/kicad-symbols.git -b debian/sid"
+  ],
+  "Version": [
+    "7.0.10-1"
+  ]
+}

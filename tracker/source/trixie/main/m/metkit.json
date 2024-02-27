@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmetkit0d, libmetkit-data, libmetkit-dev, libmetkit-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), architecture-is-64-bit, ecbuild (\u003e= 3.7.2-1~), libeckit-dev (\u003e= 1.25.0-1~), libodc-dev, odc, libeccodes-dev, libeccodes-tools, libopenjp2-7-dev"
+  ],
+  "Checksums-Sha256": [
+    "465bf2905f06081a9d18369f79e3d96e6ec4d07309e0a904d208287fad328328 2187 metkit_1.11.6-1.dsc bd13e131778c85c20a6e475f50185d976c7d13188b9e6e88f8cf6a9e1d3d4c5e 419564 metkit_1.11.6.orig.tar.xz f0be90929fe00cfa42993c2ac1788d0ee3a5831fd4db2da9c291eaa6ffdb9ad5 4460 metkit_1.11.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/metkit"
+  ],
+  "Files": [
+    "6af736a256ff1b39d4325815fb0005cf 2187 metkit_1.11.6-1.dsc 630a01fe09afb0bd4b09f43d46d23a47 419564 metkit_1.11.6.orig.tar.xz e478bbc4b9c831c9db56a565ce9ec1f9 4460 metkit_1.11.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ecmwf/metkit"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "metkit"
+  ],
+  "Package-List": [
+    "libmetkit-data deb utils optional arch=all libmetkit-dev deb libdevel optional arch=any libmetkit-utils deb utils optional arch=any libmetkit0d deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/science-team/metkit.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/metkit.git -b debian/latest"
+  ],
+  "Version": [
+    "1.11.6-1"
+  ]
+}

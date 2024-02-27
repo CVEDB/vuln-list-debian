@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "linklint"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), docbook-to-man"
+  ],
+  "Checksums-Sha256": [
+    "aebb9cfcf298870277ebddd6877b95963955319d488489c38056b4cfd288189a 1690 linklint_2.3.5-7.dsc 2a70347e64c76f2fdc9f0d3e7db259f79759477001e0155deb3c79fef253424e 112276 linklint_2.3.5.orig.tar.gz 18a7b63d6d0b6cc565a75001fd3bd331cf696e41663c63e96b445d53774a909f 9740 linklint_2.3.5-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linklint"
+  ],
+  "Files": [
+    "f518c56657a7d8244360004a4e9291b7 1690 linklint_2.3.5-7.dsc 2ade4a55954990c76636fda7d59a0de5 112276 linklint_2.3.5.orig.tar.gz e8d90d1dd29a61f6de9659578385c133 9740 linklint_2.3.5-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "linklint"
+  ],
+  "Package-List": [
+    "linklint deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "3.7.2"
+  ],
+  "Version": [
+    "2.3.5-7"
+  ]
+}

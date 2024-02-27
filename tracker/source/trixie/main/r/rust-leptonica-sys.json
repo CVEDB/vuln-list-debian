@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-leptonica-sys-dev"
+  ],
+  "Build-Depends": [
+    "clang \u003c!nocheck\u003e, debhelper-compat (= 13), dh-cargo (\u003e= 25), libleptonica-dev \u003c!nocheck\u003e, librust-bindgen-0+default-dev (\u003c\u003c 0.67) \u003c!nocheck\u003e, librust-bindgen-0+default-dev (\u003e= 0.64) \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.25) \u003c!nocheck\u003e, libstring-shellquote-perl"
+  ],
+  "Checksums-Sha256": [
+    "c6d63e74b9214f8aca2b9f813c59fbe7dde4d3bf3398f379c4504b0332e162a8 2326 rust-leptonica-sys_0.4.7-1.dsc ae0622e76e95ecdfe25a9ce4b72dbd160c6588303d0ff51bb7e6fea9aa5d75af 14968 rust-leptonica-sys_0.4.7.orig.tar.gz f393e759b432c3527ca192b392f1bd68a47e9079873e031b4309f20a799246d6 15208 rust-leptonica-sys_0.4.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-leptonica-sys"
+  ],
+  "Files": [
+    "f8733dff19ed844863d0fd16426d1931 2326 rust-leptonica-sys_0.4.7-1.dsc ccfe8890c00b8c7a3a3dc89f5e2be951 14968 rust-leptonica-sys_0.4.7.orig.tar.gz fe3439222ca756e63e7f47a768d1ef17 15208 rust-leptonica-sys_0.4.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ccouzens/leptonica-sys"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-leptonica-sys"
+  ],
+  "Package-List": [
+    "librust-leptonica-sys-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-leptonica-sys-0.4+default-dev, librust-leptonica-sys-0.4-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-leptonica-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-leptonica-sys.git"
+  ],
+  "Version": [
+    "0.4.7-1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "local-apt-repository"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "58570d3bc49b100d4b158f5607bc8a4e9e7eb7695121b8cfa15ce391e9a8a994 1490 local-apt-repository_0.8.dsc a321a75de11207ed5a956d2998c5d3fa28939c351308fd486961ec0491b395d9 4732 local-apt-repository_0.8.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/local-apt-repository"
+  ],
+  "Files": [
+    "95093e23dcc9f71f8325a13770413965 1490 local-apt-repository_0.8.dsc c2ebd0c895f28984e82b1208955fa13b 4732 local-apt-repository_0.8.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "local-apt-repository"
+  ],
+  "Package-List": [
+    "local-apt-repository deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.1"
+  ],
+  "Version": [
+    "0.8"
+  ]
+}

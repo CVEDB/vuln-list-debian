@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "vile, vile-filters, xvile, vile-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), flex, libncurses-dev, libperl-dev, libxaw7-dev"
+  ],
+  "Checksums-Sha256": [
+    "e99bfad28266f0f3f83dc7586cf916d1ac60cfe90956f3c399d8492cdc5bcabb 2034 vile_9.8z-1.dsc b3d02bee81aaa8a6e5a6fa31175b7c4fcf23159afa2ef8ca9fe46795a6c56bff 1743148 vile_9.8z.orig.tar.xz 5123c131f4244afcc03a8f82bb6b267c7cddd331e60e209f6095b74de3c4aa23 10012 vile_9.8z-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/vile"
+  ],
+  "Files": [
+    "a08f603362c95af00552727a9c0e9aaa 2034 vile_9.8z-1.dsc 1e7230de67fa9a8d9c03896ef8046065 1743148 vile_9.8z.orig.tar.xz 2ba6a9209f44e7181bad90b9484d3ae0 10012 vile_9.8z-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invisible-island.net/vile/"
+  ],
+  "Maintainer": [
+    "Brendan O'Dea \u003cbod@debian.org\u003e"
+  ],
+  "Package": [
+    "vile"
+  ],
+  "Package-List": [
+    "vile deb editors optional arch=any vile-common deb editors optional arch=all vile-filters deb editors optional arch=any xvile deb editors optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "editors"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Paul van Tilburg \u003cpaulvt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/vile"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/vile.git"
+  ],
+  "Version": [
+    "9.8z-1"
+  ]
+}

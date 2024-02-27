@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-stringdist"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "10f74eccbca20d4afb633d71e29b61be097d5ae087d50e5b6a380b598a85c1e7 2145 r-cran-stringdist_0.9.12-1.dsc e1843452ff4184b8d3bc5168732c0c65d3fce11f0df9fcf92173a22ef92e66c4 862306 r-cran-stringdist_0.9.12.orig.tar.gz 599874615e2c54ff517039cc1c0f1c84e8dab0ac890245ef52183d2584192c12 2732 r-cran-stringdist_0.9.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-stringdist"
+  ],
+  "Files": [
+    "30ce23d3e6bed69eea4d2073d211127a 2145 r-cran-stringdist_0.9.12-1.dsc 0ea7bc8dc57a4e5f713397da310ad1d0 862306 r-cran-stringdist_0.9.12.orig.tar.gz ad5ed9de5e6d73f5c762b99485e4319b 2732 r-cran-stringdist_0.9.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=stringdist"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-stringdist"
+  ],
+  "Package-List": [
+    "r-cran-stringdist deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-tinytest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-stringdist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-stringdist.git"
+  ],
+  "Version": [
+    "0.9.12-1"
+  ]
+}

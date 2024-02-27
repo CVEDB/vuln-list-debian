@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pluggy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "ed788b2f151ae0c2aad547612b2cc2721be1b5ec62304d21981127e3ad20d574 2116 python-pluggy_1.4.0-1.dsc e86e293e08cdb2c916d096c8e08c0206631340ca8532463f686cd900904788b0 61109 python-pluggy_1.4.0.orig.tar.gz 7c776ad0b67d16c87cf338a93212c5b0b5758ea3f9d736d25c56d9f7fcca8a31 3524 python-pluggy_1.4.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "578c0e06bc5663332e1c40930c5837287336f918 debian archive/debian/1.4.0-1 https://git.dgit.debian.org/python-pluggy"
+  ],
+  "Directory": [
+    "pool/main/p/python-pluggy"
+  ],
+  "Files": [
+    "76a0d6f44e820f823dee5abcfad6a2ae 2116 python-pluggy_1.4.0-1.dsc 5394c662b2a31e98d8c120ddeb1aee2f 61109 python-pluggy_1.4.0.orig.tar.gz 893d15c5c08c506f3c70747e3856fb14 3524 python-pluggy_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pluggy.readthedocs.io/en/latest/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pluggy"
+  ],
+  "Package-List": [
+    "python3-pluggy deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pluggy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pluggy.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

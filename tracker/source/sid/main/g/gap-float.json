@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gap-float"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), autoconf-archive, gap (\u003e= 4.11.0), gap-dev (\u003e= 4.11.0), gap-gapdoc, libgmp-dev, libmpfr-dev, libmpc-dev, libmpfi-dev, libfplll-dev, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "8fc9ba9d854e3ee95349a31ae0d6bf1bd05967a46c1e7c0e0998ea2871efb33c 2921 gap-float_1.0.4+ds-1.dsc efc4cac0d1b0dfc0de99a6973aa575b4bad1ce69a98724169d41ef3f2392cf31 52332 gap-float_1.0.4+ds.orig.tar.xz 663db3e8f2c1ac39b0e9d42c2bb151af18d5cc6133c2db4c3032c900a5fd67a3 8032 gap-float_1.0.4+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gap-float"
+  ],
+  "Files": [
+    "e7d5b94838f7adc491eb18763b5adc72 2921 gap-float_1.0.4+ds-1.dsc 3e6d8f30aff95fd2f8d0cc5732693ab0 52332 gap-float_1.0.4+ds.orig.tar.xz e67a3f5b043da6bf1da84cd32d8a8559 8032 gap-float_1.0.4+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gap-system.org/Packages/float.html"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "gap-float"
+  ],
+  "Package-List": [
+    "gap-float deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/gap-float"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/gap-float.git"
+  ],
+  "Version": [
+    "1.0.4+ds-1"
+  ]
+}

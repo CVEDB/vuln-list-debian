@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-multiprocess"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-dill (\u003e= 0.3.8) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eababb3eb68fc9fc9f82865efcae6303ef07910b9f8e371549849d1a5a85c52d 2081 multiprocess_0.70.16-1.dsc 0c139c469046b4fab88a58f78901295839f0f1e9b1f25fb2ffcbefa050219540 1812362 multiprocess_0.70.16.orig.tar.gz 8cc9073f087c1a7b88489dcddbf4e6821e19455d3c186f13fa9ca5d794116099 3216 multiprocess_0.70.16-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/multiprocess"
+  ],
+  "Files": [
+    "de6e2a6b7b9e89134a8aa66f23262c78 2081 multiprocess_0.70.16-1.dsc 75b508d523182a4df491e9b9e5ce2cc9 1812362 multiprocess_0.70.16.orig.tar.gz 5c18bc1ec6350e1f312a2e759fae2cf5 3216 multiprocess_0.70.16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/uqfoundation/multiprocess"
+  ],
+  "Maintainer": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
+  ],
+  "Package": [
+    "multiprocess"
+  ],
+  "Package-List": [
+    "python3-multiprocess deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/multiprocess"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/multiprocess.git"
+  ],
+  "Version": [
+    "0.70.16-1"
+  ]
+}

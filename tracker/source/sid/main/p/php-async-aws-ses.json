@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-async-aws-ses"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-async-aws-core, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "f4945a3ce89701bfdb7912a8d80ec191a1118c91cd8afc0886f1c9a8f173f7f2 1851 php-async-aws-ses_1.7.0-1.dsc 5fa7983171fcf7f3fce58823d1c943beaecde2f35e670795c440739c585498b4 12628 php-async-aws-ses_1.7.0.orig.tar.xz 6ef7be8bc74ed929161dc0c16ae5b2a52e2a723d70e4272321fcf8a1ac04d1de 3064 php-async-aws-ses_1.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-async-aws-ses"
+  ],
+  "Files": [
+    "68394aeea0bed9313b120807a3cd988e 1851 php-async-aws-ses_1.7.0-1.dsc 258846b05e8db1efaac593d5a2450c51 12628 php-async-aws-ses_1.7.0.orig.tar.xz 53ffe618b1178d58830acb21d3d3cc24 3064 php-async-aws-ses_1.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://async-aws.com/clients/ses.html"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-async-aws-ses"
+  ],
+  "Package-List": [
+    "php-async-aws-ses deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-async-aws-ses"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-async-aws-ses.git"
+  ],
+  "Version": [
+    "1.7.0-1"
+  ]
+}

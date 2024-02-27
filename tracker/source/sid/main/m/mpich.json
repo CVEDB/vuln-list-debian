@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmpich-dev, libmpich12, mpich, mpich-doc"
+  ],
+  "Build-Conflicts": [
+    "libamdhip64-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-fortran-mod, gfortran | fortran-compiler, chrpath, hwloc-nox, libhwloc-dev, librdmacm-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any], libslurm-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any], libibverbs-dev (\u003e= 1.1.7) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any], libfabric-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any !powerpc !sh4 !x32], libnuma-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any], libucx-dev [amd64 ppc64el arm64], libpmix-dev, libxt-dev, procps, python3, quilt, txt2man, valgrind [i386 arm64 ppc64el ppc64 amd64 powerpc armhf], x11proto-core-dev"
+  ],
+  "Build-Depends-Indep": [
+    "texlive-latex-extra, texlive-latex-recommended, doxygen-latex"
+  ],
+  "Checksums-Sha256": [
+    "52c4834cc8fe21579629f22693da0cfe0f6dc85de9488260030eae3aad539290 2918 mpich_4.2.0-4.dsc 9543d342f407c9b0f25b21f53a5996b3d357a7559c47c05302353adf0b92b055 23050052 mpich_4.2.0.orig.tar.xz 568e222612b9bf61b01961ebf04d5306cb04d46f8feed41290d9b70c3a1ab4af 339176 mpich_4.2.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mpich"
+  ],
+  "Files": [
+    "ac03f8fe30ab068e74d6efe11d739161 2918 mpich_4.2.0-4.dsc 51feed07b3abacf6ff66016eab4647b2 23050052 mpich_4.2.0.orig.tar.xz 2970927e992f7f99e59cdba7964b1863 339176 mpich_4.2.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.mpich.org/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mpich"
+  ],
+  "Package-List": [
+    "libmpich-dev deb libdevel optional arch=any libmpich12 deb libs optional arch=any mpich deb devel optional arch=any mpich-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, gfortran"
+  ],
+  "Uploaders": [
+    "Torquil Macdonald Sørensen \u003ctorquil@gmail.com\u003e, \"Adam C. Powell, IV\" \u003chazelsct@debian.org\u003e, Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/mpich"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/mpich.git -b debian/latest"
+  ],
+  "Version": [
+    "4.2.0-4"
+  ]
+}

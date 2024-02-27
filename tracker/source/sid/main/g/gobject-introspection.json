@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgirepository-1.0-1, libgirepository1.0-dev, libgirepository-1.0-dev, libgirepository1.0-doc, gobject-introspection, gobject-introspection-bin, gir1.2-glib-2.0, gir1.2-glib-2.0-dev, gir1.2-girepository-2.0, gir1.2-girepository-2.0-dev, gir1.2-freedesktop, gir1.2-freedesktop-dev"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), dh-sequence-python3, flex, gobject-introspection:native \u003ccross\u003e, libcairo2-dev, libelf-dev, libelf-dev:native, libffi-dev (\u003e= 3.4), libglib2.0-dev (\u003e= 2.78.0), libpython3-dev, libtool, meson (\u003e= 0.60.0), pkgconf, python3-debian:native, python3-dev:any, python3-mako:native, python3-markdown:native, python3-setuptools, python3:native, qemu-user \u003ccross\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools, libglib2.0-doc (\u003e= 2.78.0)"
+  ],
+  "Checksums-Sha256": [
+    "77b4a27d640530845379a255bd2e40b033d06913d7e755d1532ed130852a346a 4160 gobject-introspection_1.78.1-15.dsc 44eaab8b720877ce303c5540b657b126f12dc94972d9880b52959f43fb537b30 5327096 gobject-introspection_1.78.1.orig-glib.tar.xz bd7babd99af7258e76819e45ba4a6bc399608fe762d83fde3cac033c50841bb4 1060296 gobject-introspection_1.78.1.orig.tar.xz 4f0ff6eaca965d3a8603c7ffe6a7cb27342741dc7ae6dd5cbc7a1237139e0076 61020 gobject-introspection_1.78.1-15.debian.tar.xz"
+  ],
+  "Dgit": [
+    "dea04d0054aec125bb5b1e4291687d6e28cf081a debian archive/debian/1.78.1-15 https://git.dgit.debian.org/gobject-introspection"
+  ],
+  "Directory": [
+    "pool/main/g/gobject-introspection"
+  ],
+  "Files": [
+    "7fde71f6bc65461c9a2f0e440779f06c 4160 gobject-introspection_1.78.1-15.dsc fbddfac52807161670a11023965f1176 5327096 gobject-introspection_1.78.1.orig-glib.tar.xz da2677e6b9c91b33c036d2233a96cec3 1060296 gobject-introspection_1.78.1.orig.tar.xz 9eeded10a554aae71bff7519788066bf 61020 gobject-introspection_1.78.1-15.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/GObjectIntrospection"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gobject-introspection"
+  ],
+  "Package-List": [
+    "gir1.2-freedesktop deb introspection optional arch=any gir1.2-freedesktop-dev deb libdevel optional arch=any gir1.2-girepository-2.0 deb introspection optional arch=any gir1.2-girepository-2.0-dev deb libdevel optional arch=any gir1.2-glib-2.0 deb introspection optional arch=any gir1.2-glib-2.0-dev deb libdevel optional arch=any gobject-introspection deb devel optional arch=any gobject-introspection-bin deb devel optional arch=any libgirepository-1.0-1 deb libs optional arch=any libgirepository-1.0-dev deb libdevel optional arch=any libgirepository1.0-dev deb libdevel optional arch=any libgirepository1.0-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, file, gir1.2-gtk-3.0, libcairo2-dev, pkgconf"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Matthias Klumpp \u003cmak@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gobject-introspection"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gobject-introspection.git"
+  ],
+  "Version": [
+    "1.78.1-15"
+  ]
+}

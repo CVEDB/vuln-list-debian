@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libdatetime-timezone-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libclass-singleton-perl \u003c!nocheck\u003e, libdatetime-perl \u003c!nocheck\u003e, libmodule-runtime-perl \u003c!nocheck\u003e, libnamespace-autoclean-perl \u003c!nocheck\u003e, libparams-validationcompiler-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libspecio-perl \u003c!nocheck\u003e, libtest-fatal-perl \u003c!nocheck\u003e, libtest-output-perl \u003c!nocheck\u003e, libtest-requires-perl \u003c!nocheck\u003e, libtest-taint-perl \u003c!nocheck\u003e, libtry-tiny-perl \u003c!nocheck\u003e, perl, tzdata \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0878400c6d0364c5083a735cd4c11142944543d45b8b55fd1b24a6961d384aae 2930 libdatetime-timezone-perl_2.62-1+2024a.dsc 6214f9c9c8dfa2000bae912ef2b8ebc5b163a83a0b5b2a82705162dad63466fa 968018 libdatetime-timezone-perl_2.62.orig.tar.gz c20a1c12e39b65121a2ab9b6c34304f68c271dae42c4ed1678a05672d6912f45 11720 libdatetime-timezone-perl_2.62-1+2024a.debian.tar.xz"
+  ],
+  "Dgit": [
+    "6be8b045ffd39874ed9dcf677f88066c8a4e6667 debian archive/debian/1%2.62-1+2024a https://git.dgit.debian.org/libdatetime-timezone-perl"
+  ],
+  "Directory": [
+    "pool/main/libd/libdatetime-timezone-perl"
+  ],
+  "Files": [
+    "c70d8caaf1cc83f4cb133c8f0bd61870 2930 libdatetime-timezone-perl_2.62-1+2024a.dsc e11bb3a07c4f3d156f7dc356816f3962 968018 libdatetime-timezone-perl_2.62.orig.tar.gz ffe277c69c278c5b83ec2f4c88f1af4e 11720 libdatetime-timezone-perl_2.62-1+2024a.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://datetime.perl.org/"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdatetime-timezone-perl"
+  ],
+  "Package-List": [
+    "libdatetime-timezone-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdatetime-timezone-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdatetime-timezone-perl.git"
+  ],
+  "Version": [
+    "1:2.62-1+2024a"
+  ]
+}

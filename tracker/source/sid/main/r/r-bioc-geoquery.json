@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-geoquery"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase, r-cran-readr, r-cran-xml2, r-cran-dplyr, r-cran-data.table, r-cran-tidyr, r-cran-magrittr, r-bioc-limma, r-cran-curl, r-cran-r.utils"
+  ],
+  "Checksums-Sha256": [
+    "b8dd861eb15c9766fb6fe06b15fc32a41a024d7ec53f0391020d47b528772b24 2267 r-bioc-geoquery_2.70.0+dfsg-1.dsc 0189567221f47d7582828a244b7e1fc000ef44e982aa613bb5964a53dee19762 13447648 r-bioc-geoquery_2.70.0+dfsg.orig.tar.xz 0b694ba42280b6ca9179cea7f5bf237ea737c8cef3eafabe78827f0ac6154262 2972 r-bioc-geoquery_2.70.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-geoquery"
+  ],
+  "Files": [
+    "d6f1901f73efa7b9923e6bf52a387b7b 2267 r-bioc-geoquery_2.70.0+dfsg-1.dsc 6157fc6263b2184ef3a570eb0eefec36 13447648 r-bioc-geoquery_2.70.0+dfsg.orig.tar.xz 17c878f21493ba10d47ab30a1c7f5286 2972 r-bioc-geoquery_2.70.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/GEOquery/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-geoquery"
+  ],
+  "Package-List": [
+    "r-bioc-geoquery deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-geoquery"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-geoquery.git"
+  ],
+  "Version": [
+    "2.70.0+dfsg-1"
+  ]
+}

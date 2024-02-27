@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "passt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apparmor"
+  ],
+  "Checksums-Sha256": [
+    "acf6aab837a7cfae81e60874ba5d39e500c25ed27217d9a6c23151ba821ebb66 1939 passt_0.0~git20240216.08344da-1.dsc 0543d2080f18c61bf208057f0a62fea472e409552d23ddeaa693b8d6b5be7128 190524 passt_0.0~git20240216.08344da.orig.tar.xz d485218b5456f2beb71613462d0da2198e9d1895b0b8edb0d16369b89adbb51e 4396 passt_0.0~git20240216.08344da-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/passt"
+  ],
+  "Files": [
+    "3b3c9f8784bb521f178bfdae900aa8b2 1939 passt_0.0~git20240216.08344da-1.dsc f5af2297360bf085a3da0cf3f005225b 190524 passt_0.0~git20240216.08344da.orig.tar.xz 78f9c1121418c77ac22fdc8249a51400 4396 passt_0.0~git20240216.08344da-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://passt.top/"
+  ],
+  "Maintainer": [
+    "Stefano Brivio \u003csbrivio@redhat.com\u003e"
+  ],
+  "Package": [
+    "passt"
+  ],
+  "Package-List": [
+    "passt deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sbrivio/passt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sbrivio/passt.git"
+  ],
+  "Version": [
+    "0.0~git20240216.08344da-1"
+  ]
+}

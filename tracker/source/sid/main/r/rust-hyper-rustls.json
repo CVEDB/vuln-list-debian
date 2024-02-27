@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-hyper-rustls-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), librust-futures-util-0.3-dev \u003c!nocheck\u003e, librust-http-0.2+default-dev \u003c!nocheck\u003e, librust-hyper-0.14+client-dev \u003c!nocheck\u003e, librust-hyper-0.14+default-dev \u003c!nocheck\u003e, librust-hyper-0.14+full-dev \u003c!nocheck\u003e, librust-hyper-0.14+http1-dev \u003c!nocheck\u003e, librust-hyper-0.14+runtime-dev \u003c!nocheck\u003e, librust-hyper-0.14+server-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.4) \u003c!nocheck\u003e, librust-rustls-0.21+logging-dev (\u003e= 0.21.6) \u003c!nocheck\u003e, librust-rustls-0.21+tls12-dev (\u003e= 0.21.6) \u003c!nocheck\u003e, librust-rustls-0.21-dev (\u003e= 0.21.6) \u003c!nocheck\u003e, librust-rustls-native-certs-0.6+default-dev \u003c!nocheck\u003e, librust-rustls-pemfile-1+default-dev (\u003e= 0.21.6) \u003c!nocheck\u003e, librust-tokio-1+default-dev \u003c!nocheck\u003e, librust-tokio-1+io-std-dev \u003c!nocheck\u003e, librust-tokio-1+macros-dev \u003c!nocheck\u003e, librust-tokio-1+net-dev \u003c!nocheck\u003e, librust-tokio-1+rt-multi-thread-dev \u003c!nocheck\u003e, librust-tokio-rustls-0.24+logging-dev \u003c!nocheck\u003e, librust-tokio-rustls-0.24+tls12-dev \u003c!nocheck\u003e, librust-tokio-rustls-0.24-dev \u003c!nocheck\u003e, libstring-shellquote-perl"
+  ],
+  "Checksums-Sha256": [
+    "d49792263670624736959fb5aee20dd793381d8f8ff4091bb4f275f61127a6e1 3626 rust-hyper-rustls_0.24.2-2.dsc e1369e464d638017389fa2d97e925b764e2c8b79d74f52223f7864470acd7d02 24596 rust-hyper-rustls_0.24.2.orig.tar.gz 9901d9b05594e4ab94b938791cfa49a2b3f1ab3181f0b3d05c69f5708308f875 13928 rust-hyper-rustls_0.24.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-hyper-rustls"
+  ],
+  "Files": [
+    "9a22f21bed2e94759707c58d1f5fa5be 3626 rust-hyper-rustls_0.24.2-2.dsc 6811942f5af45e6550d928b32e090599 24596 rust-hyper-rustls_0.24.2.orig.tar.gz 9bb98fcce6eae4fc4f09023372268c28 13928 rust-hyper-rustls_0.24.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rustls/hyper-rustls"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-hyper-rustls"
+  ],
+  "Package-List": [
+    "librust-hyper-rustls-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-hyper-0.14+default-dev, librust-hyper-0.14+full-dev, librust-hyper-rustls-0.24+default-dev, librust-hyper-rustls-0.24+http1-dev, librust-hyper-rustls-0.24+http2-dev, librust-hyper-rustls-0.24+logging-dev, librust-hyper-rustls-0.24+native-tokio-dev, librust-hyper-rustls-0.24+tls12-dev, librust-hyper-rustls-0.24+tokio-runtime-dev, librust-hyper-rustls-0.24-dev, librust-rustls-0.21+tls12-dev, librust-rustls-pemfile-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+io-std-dev, librust-tokio-1+macros-dev, librust-tokio-1+net-dev, librust-tokio-1+rt-multi-thread-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-hyper-rustls"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-hyper-rustls.git"
+  ],
+  "Version": [
+    "0.24.2-2"
+  ]
+}

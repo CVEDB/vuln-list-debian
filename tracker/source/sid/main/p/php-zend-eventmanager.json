@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-zend-eventmanager"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-laminas-stdlib (\u003e= 3.6), php-psr-container, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "b55190ba92ec7ccd19c95b1b0abffe96f58a656f9010d5dbb39b828ee2d7c4df 1976 php-zend-eventmanager_3.13.0-1.dsc 534dac0bad01627255d7aee6e9cb2bce70209c32acd0a2b7efe30ee30ed7207b 67468 php-zend-eventmanager_3.13.0.orig.tar.xz 62458e860f49dfe115952704955556f06df539c8f4d3429a01efa151fc0b2e35 9056 php-zend-eventmanager_3.13.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-zend-eventmanager"
+  ],
+  "Files": [
+    "839d740d59abac7354699b2caf16f58c 1976 php-zend-eventmanager_3.13.0-1.dsc 49384aceb7a2a674222f70e4c27b43b1 67468 php-zend-eventmanager_3.13.0.orig.tar.xz fa33d34598e13e3068dfd9d9b5185b8e 9056 php-zend-eventmanager_3.13.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.laminas.dev/laminas-eventmanager"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-zend-eventmanager"
+  ],
+  "Package-List": [
+    "php-zend-eventmanager deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-laminas-stdlib, php-psr-container, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-zend-eventmanager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-zend-eventmanager.git"
+  ],
+  "Version": [
+    "3.13.0-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "polybar"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), i3-wm, libasound2-dev, libcairo2-dev, libcurl4-openssl-dev, libjsoncpp-dev, libmpdclient-dev, libnl-genl-3-dev, libpulse-dev, libuv1-dev, libxcb-composite0-dev, libxcb-cursor-dev, libxcb-damage0-dev, libxcb-ewmh-dev, libxcb-icccm4-dev, libxcb-image0-dev, libxcb-randr0-dev, libxcb-render0-dev, libxcb-sync-dev, libxcb-util-dev, libxcb-xkb-dev, libxcb-xrm-dev, pkg-config, python3-sphinx, python3-xcbgen, xcb-proto"
+  ],
+  "Checksums-Sha256": [
+    "c94af65d5a385716028fde0ce30fcba377617e141f49a7b9d6db1fecb4206e4d 2274 polybar_3.7.1-1.dsc 5de6ad385ba09dc453a4e5ec7054749a4882b5b21a62c17ae40bf7c90613ff0f 495162 polybar_3.7.1.orig.tar.gz 25d5f219e57b0212b55cefe316fb5cfa12d85a3961327cf667b9ba6daf17d2ad 7708 polybar_3.7.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/polybar"
+  ],
+  "Files": [
+    "eb821db55fae8158b7b388d9b30a02b1 2274 polybar_3.7.1-1.dsc c70dab46f1747b996a868562f113a69c 495162 polybar_3.7.1.orig.tar.gz 0beaa8f2b294cf8d9d40ae2489a17ab4 7708 polybar_3.7.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://polybar.github.io/"
+  ],
+  "Maintainer": [
+    "Samuel Henrique \u003csamueloph@debian.org\u003e"
+  ],
+  "Package": [
+    "polybar"
+  ],
+  "Package-List": [
+    "polybar deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Utkarsh Gupta \u003cutkarsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/polybar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/polybar.git"
+  ],
+  "Version": [
+    "3.7.1-1"
+  ]
+}

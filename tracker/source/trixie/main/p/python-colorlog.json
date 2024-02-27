@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-colorlog"
+  ],
+  "Build-Depends": [
+    "debhelper, debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "c582e134082ab6bdd77fcf95a532a10063594c2c65548589060e907c790b6568 2124 python-colorlog_6.8.0-1.dsc 5af80aa33fb427e895300b4f0f81d47457215d09fb1ba0df5d20cdce4716df5c 24134 python-colorlog_6.8.0.orig.tar.gz 88d112cbe52fc428f16fd9ba47529d2a23b594ea9ea178f36e8e7580cb69ff04 3204 python-colorlog_6.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-colorlog"
+  ],
+  "Files": [
+    "bf67c296e1a776ef01204260123e2244 2124 python-colorlog_6.8.0-1.dsc 161a978d5b275fe413e472323125bbe4 24134 python-colorlog_6.8.0.orig.tar.gz 912b840727c6a4aeb62ea8aec28f29bb 3204 python-colorlog_6.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/borntyping/python-colorlog"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-colorlog"
+  ],
+  "Package-List": [
+    "python3-colorlog deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Philipp Huebner \u003cdebalance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-colorlog"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-colorlog.git"
+  ],
+  "Version": [
+    "6.8.0-1"
+  ]
+}

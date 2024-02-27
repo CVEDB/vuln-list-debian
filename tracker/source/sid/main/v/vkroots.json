@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "vkroots-headers"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, pkg-config, libvulkan-dev, python3-dev"
+  ],
+  "Checksums-Sha256": [
+    "aba413ae3357635ed35d8bf4163eccd05bc2f54ee1922038a74e829acc78ebf6 2092 vkroots_0~202311190157git2ceb105-1.dsc c42aab7ebecc944f955712390de3be99348c87de894910793b18d3bdc5ffcb15 300840 vkroots_0~202311190157git2ceb105.orig.tar.xz a1cb6efc483d64441238a2d84f83bc84cb97123342e3d58172b13a3dd294f221 2896 vkroots_0~202311190157git2ceb105-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/vkroots"
+  ],
+  "Files": [
+    "77e145f716f8255b31cb904fa6e60441 2092 vkroots_0~202311190157git2ceb105-1.dsc 6bcdbd15ee941ffa3abafb65251e7b84 300840 vkroots_0~202311190157git2ceb105.orig.tar.xz ec270fd102b509478f610845596fc954 2896 vkroots_0~202311190157git2ceb105-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Joshua-Ashton/vkroots"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cteam+pkg-games@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "vkroots"
+  ],
+  "Package-List": [
+    "vkroots-headers deb games optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Safir Secerovic \u003csapphire@linux.org.ba\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/vkroots"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/vkroots.git"
+  ],
+  "Version": [
+    "0~202311190157git2ceb105-1"
+  ]
+}

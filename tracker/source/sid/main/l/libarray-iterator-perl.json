@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libarray-iterator-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libtest-exception-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "6a4dc4238a1b40a043bbc9e4f939b32ac3fe109053f2e7dd5a9a52b17c6289c3 2448 libarray-iterator-perl_0.132-1.dsc c9aea382e27f35939b3e101d6fe89010ee62ce5b92e1c2fa17356f2ed7743b70 27276 libarray-iterator-perl_0.132.orig.tar.gz bb41233c0f209c9af24b5a78b8d00c6d929f2666e7690610e2816fe1694f7ca9 2612 libarray-iterator-perl_0.132-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "9a1ecad4e4aee045fd3de203b2cb44880c8b467e debian archive/debian/0.132-1 https://git.dgit.debian.org/libarray-iterator-perl"
+  ],
+  "Directory": [
+    "pool/main/liba/libarray-iterator-perl"
+  ],
+  "Files": [
+    "bed5e08921ef971c96a674584f07838b 2448 libarray-iterator-perl_0.132-1.dsc b34a1ece056282a54813fd1006c164fb 27276 libarray-iterator-perl_0.132.orig.tar.gz c8d15f4560a9574fdfbc2a9ad54c0838 2612 libarray-iterator-perl_0.132-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Array-Iterator"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libarray-iterator-perl"
+  ],
+  "Package-List": [
+    "libarray-iterator-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Dominique Dumont \u003cdod@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libarray-iterator-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libarray-iterator-perl.git"
+  ],
+  "Version": [
+    "0.132-1"
+  ]
+}

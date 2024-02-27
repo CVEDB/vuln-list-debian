@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "socat"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libwrap0-dev, openssl \u003c!nocheck\u003e, net-tools \u003c!nocheck\u003e, iproute2 [linux-any] \u003c!nocheck\u003e, netbase \u003c!nocheck\u003e, procps \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b54583e4e15037234abbbfc410d44913d674b001e9502eeebac4e94d374b9e83 1854 socat_1.8.0.0-4.dsc e1de683dd22ee0e3a6c6bbff269abe18ab0c9d7eb650204f125155b9005faca7 564066 socat_1.8.0.0.orig.tar.bz2 21fafb4f6bc76d8c6564f78c5cb9ec0611349e93d2f70ad73e143aea854e6b75 15472 socat_1.8.0.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/socat"
+  ],
+  "Files": [
+    "ebf5b49c7f11d936c0dbc96c499066d5 1854 socat_1.8.0.0-4.dsc 51f9ecdf5d942d0a3c150ea400eb89ef 564066 socat_1.8.0.0.orig.tar.bz2 4768addcb699cbbd7b8498655e55b618 15472 socat_1.8.0.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.dest-unreach.org/socat/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "socat"
+  ],
+  "Package-List": [
+    "socat deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.8.0.0-4"
+  ]
+}

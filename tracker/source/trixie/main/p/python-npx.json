@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-npx"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, flit (\u003e= 3.2~), python3-setuptools, python3-all:any (\u003e= 3.7~), python3-numpy (\u003e= 1:1.20~)"
+  ],
+  "Checksums-Sha256": [
+    "5fd99203fedcb631e1152e33415edff44edf4d832f794615277eadf9686c3ef2 2157 python-npx_0.1.2-1.dsc b439c45bb95647df7fb020278f4fd59869f615ef6a13d096b49335a3f7537305 10809 python-npx_0.1.2.orig.tar.gz abc5de8bf691f40f5cecec635d7ad7c4d6db100589b0d3355219f99e1e1f911b 2640 python-npx_0.1.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-npx"
+  ],
+  "Files": [
+    "1bfb56b460a830bcad7056cc7f38d215 2157 python-npx_0.1.2-1.dsc 2bb24a9d0ae43cb529e406975d7395cc 10809 python-npx_0.1.2.orig.tar.gz 5dd841b32f8f4c4758d98f68129c8cd5 2640 python-npx_0.1.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/nschloe/npx"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-npx"
+  ],
+  "Package-List": [
+    "python3-npx deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-numpy, python3-pytest"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-npx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-npx.git"
+  ],
+  "Version": [
+    "0.1.2-1"
+  ]
+}

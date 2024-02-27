@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "shotcut, shotcut-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libmlt++-dev, libmlt-dev, libmovit-dev, libmp3lame-dev, libx264-dev, libx265-dev, libqt6opengl6-dev, libjs-three, qml6-module-qtmultimedia, qml-module-qtquick-privatewidgets, qml-qt6, frei0r-plugins-dev, patchelf, qt6-multimedia-dev, qt6-base-dev, qt6-declarative-dev, qt6-tools-dev, qt6-quick3d-dev, qt6-charts-dev"
+  ],
+  "Checksums-Sha256": [
+    "285e3ae7123062fda9adc3ad5853d2877e010fac80880e6883043553031ecd3a 2324 shotcut_24.01.31+ds-1.dsc eaefbdbbc12c0350219295280504c57409e5739f842225a80d6478a057c19aa6 7363224 shotcut_24.01.31+ds.orig.tar.xz b6168c88f77c835750eebee5fb0fef30a43088bad84521de7f8da03fc5d4abee 4740 shotcut_24.01.31+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/shotcut"
+  ],
+  "Files": [
+    "162ff5a2718d78365994a93724d1489c 2324 shotcut_24.01.31+ds-1.dsc 8467d8a4f4e3e723b3c985b20988b3bf 7363224 shotcut_24.01.31+ds.orig.tar.xz eac18035a8f776e5a02d12e3f10e45ea 4740 shotcut_24.01.31+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.shotcut.org/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "shotcut"
+  ],
+  "Package-List": [
+    "shotcut deb video optional arch=any shotcut-data deb video optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/shotcut"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/shotcut.git"
+  ],
+  "Version": [
+    "24.01.31+ds-1"
+  ]
+}

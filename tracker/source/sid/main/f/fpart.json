@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fpart"
+  ],
+  "Build-Depends": [
+    "automake, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "42c5fc1ba43c1f64f9f877677cfbd92a50824089be41f8913756421b913493b8 2056 fpart_1.6.0-1.dsc f6a87f3e0930087c05f341e8246c4b37c5b98c53791e438d38c96942aa4d190f 479159 fpart_1.6.0.orig.tar.gz 6654279a7077177ab303a3a1cf984d75ab905374fd52a7da9dd3bea3a8a517e3 833 fpart_1.6.0.orig.tar.gz.asc 39f730d83f6b5d54f5596c7504c7cd3a4e59f106c82e6f492b177ed8f6f4a773 6096 fpart_1.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fpart"
+  ],
+  "Files": [
+    "933a008dfe9269b3ce277e7a8a3ab499 2056 fpart_1.6.0-1.dsc 9137a910d98f1ad0be8d2d485ed52e60 479159 fpart_1.6.0.orig.tar.gz 05cb99ada3396d7f06ee9f8b4a0bb715 833 fpart_1.6.0.orig.tar.gz.asc 7c80e5f48a32d46ca6dd30fe0c5393c9 6096 fpart_1.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://sourceforge.net/projects/fpart/"
+  ],
+  "Maintainer": [
+    "Ganael LAPLANCHE \u003cganael.laplanche@martymac.org\u003e"
+  ],
+  "Package": [
+    "fpart"
+  ],
+  "Package-List": [
+    "fpart deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/fpart/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/fpart.git"
+  ],
+  "Version": [
+    "1.6.0-1"
+  ]
+}

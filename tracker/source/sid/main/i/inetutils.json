@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "inetutils-syslogd, inetutils-inetd, inetutils-ping, inetutils-traceroute, inetutils-tools, inetutils-ftp, inetutils-ftpd, inetutils-telnet, telnet, inetutils-telnetd, telnetd, inetutils-talk, inetutils-talkd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.10), netbase \u003c!nocheck\u003e, net-tools \u003c!nocheck\u003e, autoconf, automake, bison, libreadline-dev, libncurses-dev, libpam0g-dev, libwrap0-dev, libkrb5-dev"
+  ],
+  "Checksums-Sha256": [
+    "744fe2de9515a66fc758c102e6a091ad284da49c609930d21050fc58b6e34897 3095 inetutils_2.5-3.dsc 87697d60a31e10b5cb86a9f0651e1ec7bee98320d048c0739431aac3d5764fb6 1670424 inetutils_2.5.orig.tar.xz 61ae35c0f4db77a3f9434814462fe734d9b81f3dc4ee9209f69619adbe7370d7 228 inetutils_2.5.orig.tar.xz.asc 9756221e25ab653085c4b1f2862476454d1018f4ba8e63aa43249a40f762ff5e 76664 inetutils_2.5-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/inetutils"
+  ],
+  "Files": [
+    "669495a6dd6fc176790e1a8a1715c6b9 3095 inetutils_2.5-3.dsc 9e5a6dfd2d794dc056a770e8ad4a9263 1670424 inetutils_2.5.orig.tar.xz c4fb0ddee235b6b8615096b399de4700 228 inetutils_2.5.orig.tar.xz.asc dabbe978e0ea17ae267d03e25960b3f9 76664 inetutils_2.5-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/inetutils/"
+  ],
+  "Maintainer": [
+    "Guillem Jover \u003cguillem@debian.org\u003e"
+  ],
+  "Package": [
+    "inetutils"
+  ],
+  "Package-List": [
+    "inetutils-ftp deb net optional arch=any inetutils-ftpd deb net optional arch=any inetutils-inetd deb net optional arch=any inetutils-ping deb net optional arch=any inetutils-syslogd deb net optional arch=any inetutils-talk deb net optional arch=any inetutils-talkd deb net optional arch=any inetutils-telnet deb net standard arch=any inetutils-telnetd deb net optional arch=any inetutils-tools deb net optional arch=any inetutils-traceroute deb net optional arch=any telnet deb oldlibs optional arch=all telnetd deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "autoconf, automake, build-essential, file, gettext, net-tools, netbase"
+  ],
+  "Vcs-Browser": [
+    "https://git.hadrons.org/cgit/debian/pkgs/inetutils.git"
+  ],
+  "Vcs-Git": [
+    "https://git.hadrons.org/git/debian/pkgs/inetutils.git"
+  ],
+  "Version": [
+    "2:2.5-3"
+  ]
+}

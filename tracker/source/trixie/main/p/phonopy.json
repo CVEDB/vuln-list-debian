@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libphpy-dev, libphpy1, python3-phonopy"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-sequence-python3, python3-all-dev, python3-numpy, python3-pytest \u003c!nocheck\u003e, python3-scipy \u003c!nocheck\u003e, python3-setuptools, python3-spglib \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4586c463c8f502bf63f2d635a18725fb4362e8069421cb4c5077bbc035ea3675 2270 phonopy_2.21.2-1.dsc ebc69a30c1b7bd8970bdf796e633ddc571322b1590700cd0b1ecb713fb45024e 6808608 phonopy_2.21.2.orig.tar.gz fddfed6bed1861675a4ca5feec8bfcab2977385a7aeacc7bb261ff6b1032f596 9852 phonopy_2.21.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phonopy"
+  ],
+  "Files": [
+    "e30b1221895f2a7caa3dff09077103f7 2270 phonopy_2.21.2-1.dsc bb47e57a6b1c852c9688fbc8da22cb3f 6808608 phonopy_2.21.2.orig.tar.gz 53817979904c78b7ce074d6045a871a6 9852 phonopy_2.21.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phonopy.github.io/phonopy/"
+  ],
+  "Maintainer": [
+    "Debichem Team \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phonopy"
+  ],
+  "Package-List": [
+    "libphpy-dev deb libdevel optional arch=any libphpy1 deb libs optional arch=any python3-phonopy deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/phonopy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/phonopy.git"
+  ],
+  "Version": [
+    "2.21.2-1"
+  ]
+}

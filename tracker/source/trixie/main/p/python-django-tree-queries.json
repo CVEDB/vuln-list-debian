@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-django-tree-queries-doc, python3-django-tree-queries"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-babel, python3-django, python3-hatchling, python3-pytest, python3-pytest-django, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "e3275dd8a2740dd4051473d239d9d526d627d5b3e543759a0591ec4eee4b4be1 2124 python-django-tree-queries_0.16.1-1.dsc 427daa646b9b6b4bbfd27ab3bb367c1433965a128e9c0870b1bb0822f0df883a 21217 python-django-tree-queries_0.16.1.orig.tar.gz 49cc51b4fdc177f54a778f1c30fb84d16805407d2565f7add095e9e4630998f5 4896 python-django-tree-queries_0.16.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-django-tree-queries"
+  ],
+  "Files": [
+    "acdb6421f1365d201523e49ceb9e0140 2124 python-django-tree-queries_0.16.1-1.dsc b50cd4142587f81a2ac1d359241508b8 21217 python-django-tree-queries_0.16.1.orig.tar.gz 13cff6bd258644f4b0553dcd6c142468 4896 python-django-tree-queries_0.16.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/feincms/django-tree-queries"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-django-tree-queries"
+  ],
+  "Package-List": [
+    "python-django-tree-queries-doc deb doc optional arch=all python3-django-tree-queries deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-django-tree-queries"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-django-tree-queries.git"
+  ],
+  "Version": [
+    "0.16.1-1"
+  ]
+}

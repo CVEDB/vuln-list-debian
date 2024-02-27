@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rocminfo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libhsakmt-dev (\u003e= 5.7.0~), libhsa-runtime-dev (\u003e= 5.7.1~)"
+  ],
+  "Checksums-Sha256": [
+    "9fd3c0ca46a69bdeb0225f51fa0f046845cfd6393a9b08dafb6dc512d6fb21bf 2112 rocminfo_5.7.1-1.dsc 642dc2ec4254b3c30c43064e6690861486db820b25f4906ec78bdb47e68dcd0b 17302 rocminfo_5.7.1.orig.tar.gz 8fbb675c7ac44997efa76d29840c9736fdeac9c717274f86852aeca283e7818d 4952 rocminfo_5.7.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rocminfo"
+  ],
+  "Files": [
+    "5b259c75a51b7bfd74a1b5098ef85d3e 2112 rocminfo_5.7.1-1.dsc 5b91b7b7c9603ef4c7711ab257825f38 17302 rocminfo_5.7.1.orig.tar.gz 0a19b82261943be6be801e4151e388d3 4952 rocminfo_5.7.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ROCm/rocminfo"
+  ],
+  "Maintainer": [
+    "Debian ROCm Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "rocminfo"
+  ],
+  "Package-List": [
+    "rocminfo deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mo Zhou \u003clumin@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Maxime Chambonnet \u003cmaxzor@maxzor.eu\u003e, Étienne Mollier \u003cemollier@debian.org\u003e, Cordell Bloor \u003ccgmb@slerp.xyz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rocm-team/rocminfo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rocm-team/rocminfo.git"
+  ],
+  "Version": [
+    "5.7.1-1"
+  ]
+}

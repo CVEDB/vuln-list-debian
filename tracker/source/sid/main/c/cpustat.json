@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "cpustat"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), libncurses-dev"
+  ],
+  "Checksums-Sha256": [
+    "72c7f2584890e5d005d88d9fe91ae97de2a189d5383379575680ade65727dd40 1774 cpustat_0.02.20-1.dsc 4980517991ba547e988ceccaa2a38358d6cec9cf951f25107e9b0bfe4a377459 49372 cpustat_0.02.20.orig.tar.xz bf396b2454e51f6e2addcf54cd8707e48ec47028d99d4036072b1372796da558 6364 cpustat_0.02.20-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cpustat"
+  ],
+  "Files": [
+    "84fa8fbb71f45b422a42262f4a9d7a01 1774 cpustat_0.02.20-1.dsc 990efb51a201f696008571e3b248f109 49372 cpustat_0.02.20.orig.tar.xz 0c1fbebd532e4cb430d9e1c83f51885b 6364 cpustat_0.02.20-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/cpustat"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "cpustat"
+  ],
+  "Package-List": [
+    "cpustat deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.02.20-1"
+  ]
+}

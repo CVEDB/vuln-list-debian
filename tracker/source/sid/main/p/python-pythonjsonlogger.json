@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pythonjsonlogger"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "377b6f4851015ac9f8175b4b133ad630eccacf05fdbc8a5448877dcd879feab7 2156 python-pythonjsonlogger_2.0.1-4.dsc f26eea7898db40609563bed0a7ca11af12e2a79858632706d835a0f961b7d398 9073 python-pythonjsonlogger_2.0.1.orig.tar.gz ed2fa5800f0746595bb8b97ff18babfe9cbb6e834b01c57dd14091d1454bd584 3096 python-pythonjsonlogger_2.0.1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pythonjsonlogger"
+  ],
+  "Files": [
+    "7efab1c8cc7f6bc0b8d03a0a97ed8a66 2156 python-pythonjsonlogger_2.0.1-4.dsc 731345d96920667e176173a858096c4f 9073 python-pythonjsonlogger_2.0.1.orig.tar.gz eb192814971d05fe69687a36ae651868 3096 python-pythonjsonlogger_2.0.1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/madzak/python-json-logger"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pythonjsonlogger"
+  ],
+  "Package-List": [
+    "python3-pythonjsonlogger deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Ondřej Kobližek \u003ckobla@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pythonjsonlogger"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pythonjsonlogger.git"
+  ],
+  "Version": [
+    "2.0.1-4"
+  ]
+}

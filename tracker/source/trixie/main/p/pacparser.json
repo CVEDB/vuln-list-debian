@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpacparser1, libpacparser-dev, python3-pacparser"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all-dev"
+  ],
+  "Checksums-Sha256": [
+    "ea11c4b6534255d2518b92d4daa7f84d842aaa8066ade0950335a22b5324c9bd 2199 pacparser_1.4.3-1.dsc da6d578e3a8cf5398ce3d5f1166ed95e13933a94cc4831d970b38714a728fe10 905187 pacparser_1.4.3.orig.tar.gz 7754c00d39d142d219b8f09b4d14c105df20a151a7e920d733446319ac4f52b0 5416 pacparser_1.4.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pacparser"
+  ],
+  "Files": [
+    "f71da5f19d3ff38dcb83f1f2e45cfa10 2199 pacparser_1.4.3-1.dsc 5d58552315f80138c860cb95e4ce2a16 905187 pacparser_1.4.3.orig.tar.gz 5c545ea414958d6a6efddaedb531e19e 5416 pacparser_1.4.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/manugarg/pacparser"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pacparser"
+  ],
+  "Package-List": [
+    "libpacparser-dev deb libdevel optional arch=any libpacparser1 deb libs optional arch=any python3-pacparser deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alexandre Detiste \u003calexandre.detiste@gmail.com\u003e, Andrew Pollock \u003capollock@debian.org\u003e, Yogeswaran Umasankar \u003ckd8mbd@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pacparser"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pacparser.git"
+  ],
+  "Version": [
+    "1.4.3-1"
+  ]
+}

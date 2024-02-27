@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "rpmlint"
+  ],
+  "Build-Depends": [
+    "bash-completion, binutils, bzip2, cpio, debhelper-compat (= 13), dh-sequence-python3, iso-codes, pkg-config, pybuild-plugin-pyproject, python3, python3-enchant, python3-magic, python3-pybeam, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-flake8 \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-rpm, python3-setuptools, python3-toml, python3-tomli, python3-tomli-w, python3-xdg, python3-zstandard, rpm, rpm2cpio, zstd"
+  ],
+  "Checksums-Sha256": [
+    "b815309b1b894800b8381dfaf9de652fc9422413613e64239e613f86b82b6f91 2524 rpmlint_2.5.0+ds1-0.1.dsc e00f4940477cd4a3438b7f4812f042607b2b76a2176c189193ebdfd60d0876be 225180 rpmlint_2.5.0+ds1.orig.tar.xz 901d8ba89d72f7f27ccdb7c7b32ae6233259d939a167491f618dd838ad3f71f5 4916 rpmlint_2.5.0+ds1-0.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rpmlint"
+  ],
+  "Files": [
+    "f4a7309d6157880d7a2c080f81d0dc76 2524 rpmlint_2.5.0+ds1-0.1.dsc f6a73f50c3a568931d95ae0cd3f0f82e 225180 rpmlint_2.5.0+ds1.orig.tar.xz e011ead38044c51b84ad192d3c05f562 4916 rpmlint_2.5.0+ds1-0.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rpm-software-management/rpmlint"
+  ],
+  "Maintainer": [
+    "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "rpmlint"
+  ],
+  "Package-List": [
+    "rpmlint deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, flake8, python3-pytest, python3-pytest-cov, python3-pytest-flake8, python3-pytest-xdist, rpm"
+  ],
+  "Uploaders": [
+    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-rpm-team/rpmlint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-rpm-team/rpmlint.git"
+  ],
+  "Version": [
+    "2.5.0+ds1-0.1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xmotd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libxaw7-dev, libxmu-dev, libxpm-dev, libxt-dev, xutils-dev"
+  ],
+  "Checksums-Sha256": [
+    "7a56e9871e849126acf2e6c7887ae1e615d723157b1cf7bb0a726c5430809492 1874 xmotd_1.17.3b-11.dsc 6aba47335770081333e3de6015e7e51bfc532512c2ce5349fbd9caa90f0ad1f9 36838 xmotd_1.17.3b.orig.tar.gz e258590ac1733896809203b0982fe64ab7cc50c5d3d933583842cca2414189e0 13300 xmotd_1.17.3b-11.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xmotd"
+  ],
+  "Files": [
+    "4b4796ebb13bf3d5d2f2ce6e02197616 1874 xmotd_1.17.3b-11.dsc c483943a1a3f1ed97871d1ae3ab50f9c 36838 xmotd_1.17.3b.orig.tar.gz 5715582225d9378a74c2cc63c24709cb 13300 xmotd_1.17.3b-11.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.ee.ryerson.ca/~elf/xmotd/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "xmotd"
+  ],
+  "Package-List": [
+    "xmotd deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/xmotd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/xmotd.git"
+  ],
+  "Version": [
+    "1.17.3b-11"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-gam"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-foreach"
+  ],
+  "Checksums-Sha256": [
+    "f634182f729510103205edd43eeebe76a341c946247ee0e1686e40c8b1b53bce 2096 r-cran-gam_1.22-3-1.dsc 66cd688e3b86b9a4ee8ec565ebc8a19aa45e0a282e6de40ef2b78d6846787194 218492 r-cran-gam_1.22-3.orig.tar.gz 687ed1a8923a6b5b829954cf327886bf190a3564c69b77dd34d8542ecf1a2b73 3696 r-cran-gam_1.22-3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-gam"
+  ],
+  "Files": [
+    "f69d5fb897f61dfa32fa6e6d6ee94773 2096 r-cran-gam_1.22-3-1.dsc e3a5cdfe656f7424098907c431453bc1 218492 r-cran-gam_1.22-3.orig.tar.gz 9e2d83172e58c64b9eb93cd75894276a 3696 r-cran-gam_1.22-3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=gam"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-gam"
+  ],
+  "Package-List": [
+    "r-cran-gam deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-interp, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Chris Lawrence \u003clawrencc@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gam"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gam.git"
+  ],
+  "Version": [
+    "1.22-3-1"
+  ]
+}

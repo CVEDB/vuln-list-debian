@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "localehelper"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), libperl-minimumversion-perl, locales | locales-all, perl (\u003e= 5.10)"
+  ],
+  "Checksums-Sha256": [
+    "c6087c8c2c6f9c16ed9b945ce31b11d19944ac59ee03567faaf82b004fec1053 2124 localehelper_0.1.4-3.1.dsc 1a2ec1f632d3d446bf5b8908130511700e81a194498c4f19528f5b48dc08eea6 8401 localehelper_0.1.4.orig.tar.gz f7f4b6617a114c6157414c34f992f7fd18c44382113ea6bafc52c74767c86286 13712 localehelper_0.1.4-3.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/localehelper"
+  ],
+  "Files": [
+    "e5645ca5844daaa08e590e07678acf8b 2124 localehelper_0.1.4-3.1.dsc ab97f044b110002d845d5bba51fd931d 8401 localehelper_0.1.4.orig.tar.gz 4f83bdeffcdce106e3773da1917a088c 13712 localehelper_0.1.4-3.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://jwilk.net/software/localehelper"
+  ],
+  "Maintainer": [
+    "Jonathan Ulrich Horn \u003cdebian@autoit4you.de\u003e"
+  ],
+  "Package": [
+    "localehelper"
+  ],
+  "Package-List": [
+    "localehelper deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Vcs-Browser": [
+    "https://anonscm.debian.org/cgit/users/jonathanh-guest/localehelper.git"
+  ],
+  "Vcs-Git": [
+    "https://anonscm.debian.org/git/users/jonathanh-guest/localehelper.git"
+  ],
+  "Version": [
+    "0.1.4-3.1"
+  ]
+}

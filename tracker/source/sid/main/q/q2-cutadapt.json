@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "q2-cutadapt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, python3-pytest-cov, python3-pandas, cutadapt, qiime (\u003e= 2024.2), q2-types (\u003e= 2024.2)"
+  ],
+  "Checksums-Sha256": [
+    "32ae12d6e8e12d5b85aead1878524b52d757dbd1a7568d5ec77b873f168bded5 2200 q2-cutadapt_2024.2.0-1.dsc e7c42b848442420792fac92aef8f1623a462957f5b318c0cbd10a7e817cb3b52 7103495 q2-cutadapt_2024.2.0.orig.tar.gz 97ac0e234b5f98abad6af9e93c4cd28d716117102ef60e617b7a5e158d861bf3 6684 q2-cutadapt_2024.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-cutadapt"
+  ],
+  "Files": [
+    "9ada73de497517d2caadbf8539941bc9 2200 q2-cutadapt_2024.2.0-1.dsc 7632520f42f393051927fe368bc1474c 7103495 q2-cutadapt_2024.2.0.orig.tar.gz d4f2dd7217d288a99c5e371fd081d0a4 6684 q2-cutadapt_2024.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-cutadapt"
+  ],
+  "Package-List": [
+    "q2-cutadapt deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-cutadapt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-cutadapt.git"
+  ],
+  "Version": [
+    "2024.2.0-1"
+  ]
+}

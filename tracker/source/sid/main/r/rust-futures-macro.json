@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-futures-macro-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.60-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.8-~~) \u003c!nocheck\u003e, librust-syn-2+full-dev (\u003e= 2.0.8-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e4f416d0cfd05aed7417c9e8533109f5d00bb8f263e83bc863fa72b6e516691e 2480 rust-futures-macro_0.3.30-1.dsc 87750cf4b7a4c0625b1529e4c543c2182106e4dedc60a2a6455e00d212c489ac 11278 rust-futures-macro_0.3.30.orig.tar.gz ee21affd99687257a8a99a1eb2472f8b596c37a5d8f6b9d8868379ae0d466e5d 2964 rust-futures-macro_0.3.30-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-futures-macro"
+  ],
+  "Files": [
+    "2d468b9a0ea1195e80a08f5aebd1aa1c 2480 rust-futures-macro_0.3.30-1.dsc c410caa0c9f52fcf9da29688e3ea2974 11278 rust-futures-macro_0.3.30.orig.tar.gz 869615b9f73d1a3aa602ebd5c503dd88 2964 rust-futures-macro_0.3.30-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rust-lang.github.io/futures-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-futures-macro"
+  ],
+  "Package-List": [
+    "librust-futures-macro-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-macro"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-macro]"
+  ],
+  "Version": [
+    "0.3.30-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pyracerz"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-python3, python3"
+  ],
+  "Checksums-Sha256": [
+    "e4d139c6adec7424c3a82653567acd30027e26e9f857f2ab11c144e7514e6951 2048 pyracerz_0.2+dfsg-2.dsc 75ade0d70d912dcc36ecd66061b19d0c2583d9c93665ae7a055d569b7a23baff 4626268 pyracerz_0.2+dfsg.orig.tar.xz 36a70c57a43cd8ef5899957552c3b4a90691e1a7a1ce26bfeb27cd17799f2835 14944 pyracerz_0.2+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyracerz"
+  ],
+  "Files": [
+    "2e09fb069ac8672fa1c41baf2fab5424 2048 pyracerz_0.2+dfsg-2.dsc 8eb2e3a4f79e96c70e870e8a28147963 4626268 pyracerz_0.2+dfsg.orig.tar.xz f2f487fab6443ce1d1abd49e2f1df454 14944 pyracerz_0.2+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pyracerz.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pyracerz"
+  ],
+  "Package-List": [
+    "pyracerz deb games optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Carlos Galisteo \u003ccgalisteo@k-rolus.net\u003e, Barry deFreese \u003cbdefreese@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/pyracerz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/pyracerz.git"
+  ],
+  "Version": [
+    "0.2+dfsg-2"
+  ]
+}

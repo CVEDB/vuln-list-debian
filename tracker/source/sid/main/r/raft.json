@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libraft0, libraft-dev, libraft-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), pkg-config, libuv1-dev, liblz4-dev, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "80e85b99b98e43a4f1ab315cb62037e3ee323d8a4163537219312f5a246d7d2d 2076 raft_0.22.0-1.dsc 9f69e60101f44b11ab1a44720f5e7b5a811bd1705f6404b9074c4f7c871cd12d 365711 raft_0.22.0.orig.tar.gz f9c00619e03722f2074365a7e8e39534600234da3e77754fe2d9cc8a4f74b3b4 6032 raft_0.22.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/raft"
+  ],
+  "Files": [
+    "76058b6d327a6270eb12f9eac5305158 2076 raft_0.22.0-1.dsc 3d8d8a628fd8aa741945a4b1df0cb273 365711 raft_0.22.0.orig.tar.gz 487b022f323b61efb9de123d303a41fc 6032 raft_0.22.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://raft.readthedocs.io"
+  ],
+  "Maintainer": [
+    "Free Ekanayaka \u003cfreee@debian.org\u003e"
+  ],
+  "Package": [
+    "raft"
+  ],
+  "Package-List": [
+    "libraft-dev deb libdevel optional arch=any libraft-tools deb misc optional arch=any libraft0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e, Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cowsql-team/raft"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cowsql-team/raft.git"
+  ],
+  "Version": [
+    "0.22.0-1"
+  ]
+}

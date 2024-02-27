@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "qsynth"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libfluidsynth-dev, libqt6svg6-dev, libx11-dev, pkg-config, qt6-base-dev, qt6-tools-dev, qt6-tools-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "c3aa2fe458305388d9330d827c63e5716d8f7db370823b3be191f1cfc850d954 2110 qsynth_0.9.13-1.dsc 4af819add4ba0705a13606e8bdc7e1a5029572ed22c2be1d0ea788724ba8d5f9 333132 qsynth_0.9.13.orig.tar.gz b7413b16b0df1dd686bb55775ce6ad50f3931898e22604b7b9e84b61285fab63 6136 qsynth_0.9.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qsynth"
+  ],
+  "Files": [
+    "9411af5a1aa8c0d6670fc60c1227ed13 2110 qsynth_0.9.13-1.dsc e96ba6a92a2afa8c769d585821667da2 333132 qsynth_0.9.13.orig.tar.gz ddaa70d160064093c8323704de5a359f 6136 qsynth_0.9.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qsynth.sourceforge.io"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qsynth"
+  ],
+  "Package-List": [
+    "qsynth deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dennis Braun \u003csnd@debian.org\u003e, Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/qsynth"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/qsynth.git"
+  ],
+  "Version": [
+    "0.9.13-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-gbm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-lattice, r-cran-survival, xvfb, xauth, xfonts-base"
+  ],
+  "Checksums-Sha256": [
+    "afb09c66f5a73a9424a03ed820165141efdbc9c36fd2dedd185dd93e36fda977 2188 r-cran-gbm_2.1.9-1.dsc 9d88fa1d584afa58189bad47406ee9126390cbc869c041cea0247cf26645ade4 454992 r-cran-gbm_2.1.9.orig.tar.gz a0a91ad8ab1940a626031299644d3f18d8eb5042b685b8814fc524801fce10c7 3272 r-cran-gbm_2.1.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-gbm"
+  ],
+  "Files": [
+    "8835ed8df4676df2d993ba87805fb3d7 2188 r-cran-gbm_2.1.9-1.dsc 5c4da29542ad19ad41d0d6685d7c75c9 454992 r-cran-gbm_2.1.9.orig.tar.gz a11354659347f2ba87cb49a748fca27c 3272 r-cran-gbm_2.1.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=gbm"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-gbm"
+  ],
+  "Package-List": [
+    "r-cran-gbm deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-gridextra, r-cran-knitr, r-cran-runit, r-cran-tinytest, r-cran-viridis"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gbm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gbm.git"
+  ],
+  "Version": [
+    "2.1.9-1"
+  ]
+}

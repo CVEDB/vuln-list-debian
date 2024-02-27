@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-impersonate"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "f0cd54348a276000fb2c48d85e30464df45f1e21a0881191ad00144bacb02cdf 2003 django-impersonate_1.9.2-1.dsc 5eae7f1fe25ffd1af7fc7f338cb0c9b2d84bb874a95c3f07b65e2bcd1ee1f8b2 26566 django-impersonate_1.9.2.orig.tar.gz 1c210e7ea26f55fba15a71002c41d666df2a1e158854c42822621088e14aaf15 2720 django-impersonate_1.9.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-impersonate"
+  ],
+  "Files": [
+    "df9a0e5dfe51dcac126c684d3e445c20 2003 django-impersonate_1.9.2-1.dsc 35e07610095a232ae6169c051847b454 26566 django-impersonate_1.9.2.orig.tar.gz fd9b7823ee2f6cfeae50077b6c46b422 2720 django-impersonate_1.9.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://code.netlandish.com/~petersanchez/django-impersonate"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "django-impersonate"
+  ],
+  "Package-List": [
+    "python3-django-impersonate deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/django-impersonate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/django-impersonate.git"
+  ],
+  "Version": [
+    "1.9.2-1"
+  ]
+}

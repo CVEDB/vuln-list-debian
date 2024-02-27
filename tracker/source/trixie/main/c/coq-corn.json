@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-corn"
+  ],
+  "Build-Depends": [
+    "coq, debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-bignums, libcoq-math-classes, libcoq-core-ocaml-dev, libcoq-stdlib"
+  ],
+  "Checksums-Sha256": [
+    "7760dcb41c10908823ef6b3aa72377c285b95127aba5580c1fac2ce71c0aea98 2092 coq-corn_8.18.0-1.dsc ec56d286a730d7102c428501014f3af6158e3c30440870f1a6f15918cb7c4ee7 1320047 coq-corn_8.18.0.orig.tar.gz 167213c0827e87bdaffa3ca09d69b6d95244a8a8b24657c1e2c06b9213d2eb96 4112 coq-corn_8.18.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-corn"
+  ],
+  "Files": [
+    "cd6c02150cb1ec2ec481c224bab49804 2092 coq-corn_8.18.0-1.dsc f41418c9405fa9c3937c7f7611eb2206 1320047 coq-corn_8.18.0.orig.tar.gz ba348ad6828f4d10d9eb290bef55dbf6 4112 coq-corn_8.18.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/coq-community/corn"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-corn"
+  ],
+  "Package-List": [
+    "libcoq-corn deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-corn"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-corn.git"
+  ],
+  "Version": [
+    "8.18.0-1"
+  ]
+}

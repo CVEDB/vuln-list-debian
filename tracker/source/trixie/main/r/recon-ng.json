@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "recon-ng"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "a3867198c878ac926f0385f3d5f97c7379ba885dca3307cc00cf569718a298cf 2034 recon-ng_5.1.2-1.1.dsc 18d05030b994c9b37f624628251d3376d590f3d1eec155f67aca88fa5f3490cc 69567 recon-ng_5.1.2.orig.tar.gz 76aa62d58f7563d473f7fdd7fa81e192caa47b281af41ef1737a4f134adae80b 8780 recon-ng_5.1.2-1.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/recon-ng"
+  ],
+  "Files": [
+    "4858d4a4d70feba5ee19ee30819300f7 2034 recon-ng_5.1.2-1.1.dsc 1e2e7d0f095efa1ceb4af157d0917496 69567 recon-ng_5.1.2.orig.tar.gz 7ea55c22249194fdef4800d38f8e8047 8780 recon-ng_5.1.2-1.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lanmaster53/recon-ng"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "recon-ng"
+  ],
+  "Package-List": [
+    "recon-ng deb utils optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "expect, sqlite3"
+  ],
+  "Uploaders": [
+    "Marcos Fouces \u003cmarcos@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/recon-ng"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/recon-ng.git"
+  ],
+  "Version": [
+    "5.1.2-1.1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-xmltree-dev, librust-xmltree+indexmap-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-xml-rs-0.8+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "14953d38ece339e5839c7564857929ccdf6927ddf8a9bcef45ac9d7f588db2b3 2267 rust-xmltree_0.10.3-2.dsc d7d8a75eaf6557bb84a65ace8609883db44a29951042ada9b393151532e41fcb 9219 rust-xmltree_0.10.3.orig.tar.gz ff3edd0ab9a0bd8615843d8fcc3e3d141052244febe3aab84d08be0a573ecde1 4596 rust-xmltree_0.10.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-xmltree"
+  ],
+  "Files": [
+    "bd7969806491e90b2f849c2d85766c85 2267 rust-xmltree_0.10.3-2.dsc fd125fc23fb57a53624e74b91e8b01c3 9219 rust-xmltree_0.10.3.orig.tar.gz 6a5afd19f73e76062ba0e4cb2c2a8caf 4596 rust-xmltree_0.10.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-xmltree"
+  ],
+  "Package-List": [
+    "librust-xmltree+indexmap-dev deb rust optional arch=any librust-xmltree-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xmltree"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/xmltree]"
+  ],
+  "Version": [
+    "0.10.3-2"
+  ]
+}

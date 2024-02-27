@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libdist-zilla-plugin-git-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libcpan-meta-check-perl \u003c!nocheck\u003e, libcpan-meta-requirements-perl \u003c!nocheck\u003e, libdatetime-perl \u003c!nocheck\u003e, libdist-zilla-perl \u003c!nocheck\u003e, libdist-zilla-plugin-config-git-perl \u003c!nocheck\u003e, libfile-chdir-perl \u003c!nocheck\u003e, libfile-copy-recursive-perl \u003c!nocheck\u003e, libfile-pushd-perl \u003c!nocheck\u003e, libfile-which-perl \u003c!nocheck\u003e, libgit-wrapper-perl, libipc-system-simple-perl \u003c!nocheck\u003e, liblist-moreutils-perl \u003c!nocheck\u003e, liblog-dispatchouli-perl \u003c!nocheck\u003e, libmodule-runtime-perl \u003c!nocheck\u003e, libmoose-perl \u003c!nocheck\u003e, libmoosex-has-sugar-perl \u003c!nocheck\u003e, libnamespace-autoclean-perl \u003c!nocheck\u003e, libpath-tiny-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libstring-formatter-perl \u003c!nocheck\u003e, libtest-fatal-perl \u003c!nocheck\u003e, libtry-tiny-perl \u003c!nocheck\u003e, libtype-tiny-perl \u003c!nocheck\u003e, libtypes-path-tiny-perl \u003c!nocheck\u003e, libversion-next-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "c2587782f32e3d50e4496ee260861b0240b1af13e4b00b797a8b1347df9396fc 3360 libdist-zilla-plugin-git-perl_2.049-1.dsc c01a4f06ea4a5730205e46ef102a82a0d5edd385b29f4caa241e8cda5740aa64 76263 libdist-zilla-plugin-git-perl_2.049.orig.tar.gz 8aaf4fbc6b76aedb08f20d6cafe6df298d2bb2ef1387fd272dfc06d59f40291f 4932 libdist-zilla-plugin-git-perl_2.049-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5a8e1a9819475f035fa926cb518dcad6b9d3dc45 debian archive/debian/2.049-1 https://git.dgit.debian.org/libdist-zilla-plugin-git-perl"
+  ],
+  "Directory": [
+    "pool/main/libd/libdist-zilla-plugin-git-perl"
+  ],
+  "Files": [
+    "d3af0a546375af7b1965c4da90d6950a 3360 libdist-zilla-plugin-git-perl_2.049-1.dsc 29b5206ee65d6c927796f9d781c45795 76263 libdist-zilla-plugin-git-perl_2.049.orig.tar.gz 39332fd1dff9d542715dcb91a186378a 4932 libdist-zilla-plugin-git-perl_2.049-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Dist-Zilla-Plugin-Git"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdist-zilla-plugin-git-perl"
+  ],
+  "Package-List": [
+    "libdist-zilla-plugin-git-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdist-zilla-plugin-git-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdist-zilla-plugin-git-perl.git"
+  ],
+  "Version": [
+    "2.049-1"
+  ]
+}

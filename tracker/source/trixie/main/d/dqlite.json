@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libdqlite0, libdqlite-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, libuv1-dev (\u003e= 1.8.0~), libraft-dev (\u003e= 0.20), libsqlite3-dev (\u003e= 3.22.0~)"
+  ],
+  "Checksums-Sha256": [
+    "0758b9a3be6450ba0a5544da65257912e46e34a128b8887e825755670186c43a 2089 dqlite_1.16.0-5.dsc beb37049b766a2396d81b6128bf386a1f10c5f90b9be64b3fc200902fc59af13 216783 dqlite_1.16.0.orig.tar.gz dcb2395939435d514207f91e1ca0d65001fe652883560eb4976cd4a3d7228b65 5848 dqlite_1.16.0-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dqlite"
+  ],
+  "Files": [
+    "f6a372d82896d969f70843b91634bf1c 2089 dqlite_1.16.0-5.dsc cb250210678bef686f89cbadfb7952e6 216783 dqlite_1.16.0.orig.tar.gz dfe305d4fbc8e32c6c33a63f608cf9ce 5848 dqlite_1.16.0-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/canonical/dqlite"
+  ],
+  "Maintainer": [
+    "Free Ekanayaka \u003cfreee@debian.org\u003e"
+  ],
+  "Package": [
+    "dqlite"
+  ],
+  "Package-List": [
+    "libdqlite-dev deb libdevel optional arch=any libdqlite0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e, Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cowsql-team/dqlite"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cowsql-team/dqlite.git"
+  ],
+  "Version": [
+    "1.16.0-5"
+  ]
+}

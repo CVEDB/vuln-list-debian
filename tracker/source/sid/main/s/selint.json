@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "selint"
+  ],
+  "Build-Depends": [
+    "autoconf-archive, bats \u003c!nocheck\u003e, bison, check (\u003e= 0.11.0) \u003c!nocheck\u003e, debhelper-compat (= 13), flex, help2man \u003c!cross\u003e, libconfuse-dev, pkg-config, uthash-dev, valgrind-if-available \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "04edcb6eb7eb67b333fb5b1e5ac4ba2908ff8111691055af062d2d58a53c9a19 1996 selint_1.5.0-1.dsc 94e86190c9f985025b153a53b024faf8f4ea2165457b3a600d48c5ff3ae35343 136223 selint_1.5.0.orig.tar.gz aa37dbfc7d65cee07ebb8a71e840689de08193e771e8f5a9191a26cf62f8cf5a 3320 selint_1.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/selint"
+  ],
+  "Files": [
+    "57373b0c0feaa5ab16aee919589ebf79 1996 selint_1.5.0-1.dsc ed5b87aa193675ebc75bc781e8cb384e 136223 selint_1.5.0.orig.tar.gz 54921bc3338cb1d7e5081a06bd05b4af 3320 selint_1.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/SELinuxProject/selint"
+  ],
+  "Maintainer": [
+    "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "selint"
+  ],
+  "Package-List": [
+    "selint deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "selinux-policy-src, zstd"
+  ],
+  "Uploaders": [
+    "Christian Göttsche \u003ccgzones@googlemail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/selinux-team/selint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/selinux-team/selint.git"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "urlview"
+  ],
+  "Build-Depends": [
+    "debhelper, debhelper-compat (= 13), libncurses-dev, gettext \u003c!pkg.urlview.noloc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "29c51c75a9445144db68c72db99afaf8ffab7d177d12fa1500742a401ea0ce08 2006 urlview_1c-1.dsc 5434df68de6d3c401574f670525a68fdbd4e2d36b97fa54f56c36a4ea16d0e0d 30054 urlview_1c.orig.tar.gz d0e3f2862918d482b39e65793a5cc480dfaecbf1c53d19084f5d7f5677503f3b 833 urlview_1c.orig.tar.gz.asc 9439a3fa40f77e87ef45e0d9ecebc95bbf3a618c3ac3b2fc7072425d75405a6c 20740 urlview_1c-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/urlview"
+  ],
+  "Files": [
+    "8134e54978a466087a0c81b7d5e16c8e 2006 urlview_1c-1.dsc 8371cd4b72cf675a2d312e3c8166fa97 30054 urlview_1c.orig.tar.gz cf079ba2715753ef96fd6056cc7ab153 833 urlview_1c.orig.tar.gz.asc 2dd4bdbc9037e4593ae3dd69172f5e7c 20740 urlview_1c-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sr.ht/~nabijaczleweli/urlview-ng"
+  ],
+  "Maintainer": [
+    "наб \u003cnabijaczleweli@nabijaczleweli.xyz\u003e"
+  ],
+  "Package": [
+    "urlview"
+  ],
+  "Package-List": [
+    "urlview deb misc optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bsdutils"
+  ],
+  "Vcs-Browser": [
+    "https://git.sr.ht/~nabijaczleweli/urlview.deb"
+  ],
+  "Vcs-Git": [
+    "https://git.sr.ht/~nabijaczleweli/urlview.deb"
+  ],
+  "Version": [
+    "1c-1"
+  ]
+}

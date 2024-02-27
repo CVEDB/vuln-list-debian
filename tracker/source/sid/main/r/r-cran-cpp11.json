@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-cpp11"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "9f9bdc1c20a1f2be949dbb53315564e7342109959f156a6de7110a61d6fe6615 2402 r-cran-cpp11_0.4.7-1.dsc 801d1266824c3972642bce2db2a5fd0528a65ec845c58eb5a886edf082264344 285779 r-cran-cpp11_0.4.7.orig.tar.gz 5817a181685d108e005cf0e5525049d0165d2e1248faca62df3f4e2c55d3afa0 3824 r-cran-cpp11_0.4.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-cpp11"
+  ],
+  "Files": [
+    "a9dae10a4fe5e0e7453264a83a13c900 2402 r-cran-cpp11_0.4.7-1.dsc 3e1399c740f88a8a76cc6c688dcc9337 285779 r-cran-cpp11_0.4.7.orig.tar.gz c4c42a9b70dfd07bfc64a0c9607bb545 3824 r-cran-cpp11_0.4.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=cpp11"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-cpp11"
+  ],
+  "Package-List": [
+    "r-cran-cpp11 deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, r-cran-bench, r-cran-brio, r-cran-callr, r-cran-cli, r-cran-covr, r-cran-decor, r-cran-desc, r-cran-ggplot2, r-cran-glue, r-cran-knitr, r-cran-lobstr, r-cran-mockery, r-cran-progress, r-cran-rcpp, r-cran-rmarkdown, r-cran-scales, r-cran-testthat, r-cran-tibble, r-cran-vctrs, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-cpp11"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-cpp11.git"
+  ],
+  "Version": [
+    "0.4.7-1"
+  ]
+}

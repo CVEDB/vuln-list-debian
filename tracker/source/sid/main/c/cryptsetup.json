@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "cryptsetup, cryptsetup-bin, cryptsetup-ssh, cryptsetup-initramfs, cryptsetup-suspend, libcryptsetup12, libcryptsetup-dev, cryptsetup-udeb, libcryptsetup12-udeb"
+  ],
+  "Build-Depends": [
+    "asciidoctor \u003c!nodoc\u003e, autoconf, automake (\u003e= 1:1.12), autopoint, debhelper-compat (= 13), dh-strip-nondeterminism, docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, gettext, jq \u003c!nocheck\u003e, libargon2-dev, libblkid-dev, libdevmapper-dev, libjson-c-dev, libpopt-dev, libselinux1-dev, libsepol-dev, libssh-dev, libssl-dev, libtool, pkgconf, po-debconf, procps \u003c!nocheck\u003e, uuid-dev, xsltproc \u003c!nodoc\u003e, xxd \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "46c72b607b401f9b97f3f990fc104712a112156b6e5c35e5250939cedb6658f1 3545 cryptsetup_2.7.0-1.dsc f0d490f2eb32d1648d586d56fab1329666d34e69e0db3bd6f0ac16fb3de816a2 11754085 cryptsetup_2.7.0.orig.tar.gz 8b9acd12a4698c3150a85f9df8514d9b092b20a97adf5615023fef544d4363d3 156528 cryptsetup_2.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cryptsetup"
+  ],
+  "Files": [
+    "65f3be3bf4441cc121d626fb96f5c83c 3545 cryptsetup_2.7.0-1.dsc 3f984ff4e595bdfd8b3329a8d35a763d 11754085 cryptsetup_2.7.0.orig.tar.gz a4edcce6ed1bbafdfdb5dcb91a4dcacb 156528 cryptsetup_2.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/cryptsetup/cryptsetup"
+  ],
+  "Maintainer": [
+    "Debian Cryptsetup Team \u003cpkg-cryptsetup-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "cryptsetup"
+  ],
+  "Package-List": [
+    "cryptsetup deb admin optional arch=linux-any cryptsetup-bin deb admin optional arch=linux-any cryptsetup-initramfs deb admin optional arch=all cryptsetup-ssh deb admin optional arch=linux-any cryptsetup-suspend deb admin optional arch=linux-any cryptsetup-udeb udeb debian-installer optional arch=linux-any profile=!noudeb libcryptsetup-dev deb libdevel optional arch=linux-any libcryptsetup12 deb libs optional arch=linux-any libcryptsetup12-udeb udeb debian-installer optional arch=linux-any profile=!noudeb"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bsdextrautils, btrfs-progs, dmsetup, dosfstools, e2fsprogs, expect, fdisk, gcc, genext2fs, initramfs-tools-core, jq, keyutils, kmod, libdevmapper-dev, libjson-perl, linux-image-686-pae, linux-image-amd64, linux-image-arm64, linux-image-armmp-lpae, linux-image-generic, lvm2, mdadm, netcat-openbsd, openssh-client, openssh-server, openssl, procps, qemu-efi-aarch64, qemu-efi-arm, qemu-system, qemu-system-arm, qemu-system-x86, sharutils, sshpass, udev, xxd, zstd"
+  ],
+  "Uploaders": [
+    "Jonas Meurer \u003cjonas@freesources.org\u003e, Guilhem Moulin \u003cguilhem@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cryptsetup-team/cryptsetup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cryptsetup-team/cryptsetup.git -b debian/latest"
+  ],
+  "Version": [
+    "2:2.7.0-1"
+  ]
+}

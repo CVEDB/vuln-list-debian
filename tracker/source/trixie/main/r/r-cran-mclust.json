@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-mclust"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "9a24f6c9fda64fc330fba5669b7181fc460aa731e074917b586550c8deffbfd3 2121 r-cran-mclust_6.0.1-1.dsc 0e92de6fd1bd2a13de2c94eae84fba0d3762099a2505e05b887f1c2a7242537f 2763121 r-cran-mclust_6.0.1.orig.tar.gz 834cf556df615b71d5f895727930a1efb0473d2afea45b90e13f26edcd907e1e 2956 r-cran-mclust_6.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-mclust"
+  ],
+  "Files": [
+    "356738cd31d7c6dcba6540c6c936cdec 2121 r-cran-mclust_6.0.1-1.dsc f26d75021befc4ce52ca46ad3873bd20 2763121 r-cran-mclust_6.0.1.orig.tar.gz 172da176addff9dca90ec12343eeb650 2956 r-cran-mclust_6.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=mclust"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-mclust"
+  ],
+  "Package-List": [
+    "r-cran-mclust deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-knitr, r-cran-mass, r-cran-rmarkdown"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-mclust"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-mclust.git"
+  ],
+  "Version": [
+    "6.0.1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-simple-httpd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "bc27a60058aee65d652a6a5aed5e58cee3701a7a02b0ed59cf558f7567438e8a 2175 emacs-web-server_1.5.1+git20231209.44fd82f-1.dsc de2c43461d0f1f5784bf76c610e9b6f683759e30baf8c7f5d8ddce027b8551c4 13283 emacs-web-server_1.5.1+git20231209.44fd82f.orig.tar.gz 32b5f3018b515e962fa5da502b8ac4980c3c786957606430a4c44b8d47f0c4e7 3148 emacs-web-server_1.5.1+git20231209.44fd82f-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/emacs-web-server"
+  ],
+  "Files": [
+    "16f5c4afa81e9a7ee3345c525cee252c 2175 emacs-web-server_1.5.1+git20231209.44fd82f-1.dsc da3fd2b481f885a73a2e492cec34fc37 13283 emacs-web-server_1.5.1+git20231209.44fd82f.orig.tar.gz 674a7343cf77da0e6897c8d52c162e9a 3148 emacs-web-server_1.5.1+git20231209.44fd82f-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/skeeto/emacs-http-server"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "emacs-web-server"
+  ],
+  "Package-List": [
+    "elpa-simple-httpd deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "Lev Lamberov \u003cdogsleg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/emacs-web-server"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/emacs-web-server.git"
+  ],
+  "Version": [
+    "1.5.1+git20231209.44fd82f-1"
+  ]
+}

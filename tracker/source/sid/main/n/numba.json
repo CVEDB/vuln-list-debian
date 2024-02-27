@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-numba, numba-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, llvmlite-doc \u003c!nodoc\u003e, python3-all-dev, python3-colorama (\u003e= 0.3.9~), python3-llvmlite (\u003e= 0.39~), python3-numpy (\u003c\u003c 1:1.25), python3-pip, sphinx, dh-sequence-sphinxdoc, python3-scipy, python3-sphinx-rtd-theme, python3-setuptools, python3-numpydoc, python3-doc \u003c!nodoc\u003e, python3-versioneer, libtbb-dev (\u003e= 2021.4.0)"
+  ],
+  "Checksums-Sha256": [
+    "57fb19d3bdd10e6a8e8a86538e61e50248ffa643b4f15ab11b5aa93cfa4445e6 2487 numba_0.58.1+dfsg-1.dsc 705f805d394bcbc3d51ecc5c939a96d7cdb9693efe6fa873c252609068b01332 1965880 numba_0.58.1+dfsg.orig.tar.xz 41f36dbfdba2a28cf7fc870c4e186d279cc15c85ac375f0b1b610d12a9819412 51864 numba_0.58.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/numba"
+  ],
+  "Files": [
+    "4f69b7efcf4a17df3865f4c70250deee 2487 numba_0.58.1+dfsg-1.dsc 2f3722e89c3e252e4eebebca0e972c4f 1965880 numba_0.58.1+dfsg.orig.tar.xz b438ca9c86b837b6dc4b1e787f767bfa 51864 numba_0.58.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://numba.pydata.org/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "numba"
+  ],
+  "Package-List": [
+    "numba-doc deb doc optional arch=all python3-numba deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "c-compiler, gcc, gdb, python3-cffi, python3-ipykernel, python3-ipython, python3-pexpect, python3-pip, python3-setuptools"
+  ],
+  "Uploaders": [
+    "Diane Trout \u003cdiane@ghic.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/numba"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/numba.git"
+  ],
+  "Version": [
+    "0.58.1+dfsg-1"
+  ]
+}

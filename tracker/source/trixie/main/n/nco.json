@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "nco"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, flex, antlr, libantlr-dev, gsl-bin, libgsl-dev, netcdf-bin, libnetcdf-dev, libudunits2-dev, libdap-dev, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "e5fa78597d4aecedd87d3fc538a93bf86b71685e5282d40c52164e7423d380b7 2029 nco_5.2.1-1.dsc d3975f9e3ee659ed53690a887be8e950c90fc1faed71f2969896427907557ac3 6507047 nco_5.2.1.orig.tar.gz e7123dccbed7b9e0d2c7c4e055a8785578bc3c53e1c945e3aa614a8a430a21e8 12816 nco_5.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nco"
+  ],
+  "Files": [
+    "2ec0919312c18f95aec6f069854f28ee 2029 nco_5.2.1-1.dsc 7e2c7fad855ae562666252e8d48e5413 6507047 nco_5.2.1.orig.tar.gz 49a362dd135481e91e6dcb425afcaf28 12816 nco_5.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://nco.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "nco"
+  ],
+  "Package-List": [
+    "nco deb science optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/nco"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/nco.git"
+  ],
+  "Version": [
+    "5.2.1-1"
+  ]
+}

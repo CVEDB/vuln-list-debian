@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "wike"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, desktop-file-utils, gettext, meson (\u003e= 0.50), pkg-config, libadwaita-1-dev (\u003e= 1.3), libglib2.0-dev, appstream"
+  ],
+  "Checksums-Sha256": [
+    "49ee1f33992ad2b6681cd1a37522d2a36883c1cdd50df96ee8b0d0ee0b562286 2038 wike_2.1.0-1.dsc 698d164cf5e82f2e1e96601ee4f3954ba74359b144eab20a5e6a6893ad1f6280 1721063 wike_2.1.0.orig.tar.gz 3562dda7266829bb272548e9469c6884af094ac90a25f306f179e14254b8af3b 8984 wike_2.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wike"
+  ],
+  "Files": [
+    "10600ff09259f56ffee7b589fc7f5777 2038 wike_2.1.0-1.dsc da51fe36cb277e64c43ee4f6543d19f0 1721063 wike_2.1.0.orig.tar.gz d5e910ee33aa5667af3631964a0d8661 8984 wike_2.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/hugolabe/Wike"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "wike"
+  ],
+  "Package-List": [
+    "wike deb gnome optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/wike"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/wike.git"
+  ],
+  "Version": [
+    "2.1.0-1"
+  ]
+}

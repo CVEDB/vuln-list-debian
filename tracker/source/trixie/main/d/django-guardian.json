@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-guardian, python-django-guardian-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-django-environ, python3-pytest-django, python3-pytest-runner, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "e05b0fadd73397f4a9143d91fa63bc3bdf47e9c0e69677686102ebab36997f68 2383 django-guardian_2.4.0-3.dsc c58a68ae76922d33e6bdc0e69af1892097838de56e93e78a8361090bcd9f89a0 159008 django-guardian_2.4.0.orig.tar.gz 504eae4b8ed278a94761e8964074d5874dd7011333ba2b5036fa0e4402eea688 31572 django-guardian_2.4.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-guardian"
+  ],
+  "Files": [
+    "f15dd06e6216624630242b7f3298cdc9 2383 django-guardian_2.4.0-3.dsc 6e961a95b2fe10c0f795b3f3d313b20c 159008 django-guardian_2.4.0.orig.tar.gz fcd4f89b7c3587d51ac8548ce1377bfb 31572 django-guardian_2.4.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lukaszb/django-guardian"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-guardian"
+  ],
+  "Package-List": [
+    "python-django-guardian-doc deb doc optional arch=all python3-django-guardian deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Brian May \u003cbam@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-guardian"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-guardian.git"
+  ],
+  "Version": [
+    "2.4.0-3"
+  ]
+}

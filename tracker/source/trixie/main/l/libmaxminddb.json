@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmaxminddb0, libmaxminddb-dev, mmdb-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), perl \u003c!nodoc !nocheck\u003e, libipc-run3-perl \u003c!nocheck\u003e, libtest-output-perl \u003c!nocheck\u003e, lowdown \u003c!nodoc\u003e | pandoc \u003c!nodoc\u003e, libipc-system-simple-perl \u003c!nodoc\u003e, libfile-slurp-perl \u003c!nodoc\u003e, libfile-which-perl \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4d6bfda7a076000a0027b2a15491e59959c5a0d2bc9f8721750ce60003f6a0ba 2322 libmaxminddb_1.9.1-1.dsc cc9c69e84c7f0ba557e165f013815cd3bfd25d62824d06c08c44c158acbd82d4 243507 libmaxminddb_1.9.1.orig.tar.gz 16bdb54584734c8b1ecbf397e058599a745ecb36210cd46ae73174f98f200b6f 12488 libmaxminddb_1.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libm/libmaxminddb"
+  ],
+  "Files": [
+    "273f1050a347a035a84dff47be56aa06 2322 libmaxminddb_1.9.1-1.dsc 8579779ad1a706fffe5caf54e746eba7 243507 libmaxminddb_1.9.1.orig.tar.gz 74a8a5970b9159c84696021dcf060cfb 12488 libmaxminddb_1.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://maxmind.github.io/libmaxminddb/"
+  ],
+  "Maintainer": [
+    "Faidon Liambotis \u003cparavoid@debian.org\u003e"
+  ],
+  "Package": [
+    "libmaxminddb"
+  ],
+  "Package-List": [
+    "libmaxminddb-dev deb libdevel optional arch=any libmaxminddb0 deb libs optional arch=any mmdb-bin deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Sergio Durigan Junior \u003csergiodj@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libmaxminddb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libmaxminddb.git"
+  ],
+  "Version": [
+    "1.9.1-1"
+  ]
+}

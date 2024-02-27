@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "b43-fwcutter, firmware-b43-installer, firmware-b43legacy-installer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debconf, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "ae062428e4a5732d9d5d9118303ce0f1e1b91844d430a9273f0a70c0e4302b31 2102 b43-fwcutter_019-11.dsc d6ea85310df6ae08e7f7e46d8b975e17fc867145ee249307413cfbe15d7121ce 46769 b43-fwcutter_019.orig.tar.bz2 a92e12909b70426f071a93eaed4d6889f3e75518595bc384ede6b389966f4953 20360 b43-fwcutter_019-11.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/b/b43-fwcutter"
+  ],
+  "Files": [
+    "ad7b3d0b594bcf539a3888d1bbca5a81 2102 b43-fwcutter_019-11.dsc 19d1f4226a625756726bdf7ed5dc2a0a 46769 b43-fwcutter_019.orig.tar.bz2 af4f939aaa13bcddca2a66f20be0330f 20360 b43-fwcutter_019-11.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wireless.wiki.kernel.org/en/users/drivers/b43"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "b43-fwcutter"
+  ],
+  "Package-List": [
+    "b43-fwcutter deb contrib/utils optional arch=any firmware-b43-installer deb contrib/kernel optional arch=all firmware-b43legacy-installer deb contrib/kernel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "contrib/utils"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/b43-fwcutter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/b43-fwcutter.git"
+  ],
+  "Version": [
+    "1:019-11"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "hwloc, hwloc-nox, libhwloc-dev, libhwloc15, libhwloc-plugins, libhwloc-common, libhwloc-doc"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, libltdl-dev [!gnu-any-any] \u003c!pkg.hwloc.minimum\u003e, valgrind-if-available \u003c!pkg.hwloc.minimum\u003e, libcairo2-dev \u003c!pkg.hwloc.minimum\u003e, libx11-dev \u003c!pkg.hwloc.minimum\u003e, libxml2-dev \u003c!pkg.hwloc.minimum\u003e, libxml2-utils \u003c!nocheck !pkg.hwloc.minimum\u003e, libncurses-dev \u003c!pkg.hwloc.minimum\u003e, libnuma-dev [linux-any] \u003c!nocheck !pkg.hwloc.minimum\u003e, libxnvctrl-dev \u003c!pkg.hwloc.minimum\u003e, libpciaccess-dev \u003c!pkg.hwloc.minimum\u003e, libudev-dev [linux-any] \u003c!pkg.hwloc.minimum\u003e, pkg-config, ocl-icd-opencl-dev [!hurd-any] \u003c!pkg.hwloc.minimum\u003e | opencl-dev \u003c!pkg.hwloc.minimum\u003e, opencl-headers \u003c!pkg.hwloc.minimum\u003e, autoconf (\u003e= 2.63), dpkg-dev (\u003e= 1.16)"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen-latex \u003c!nodoc\u003e, transfig \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "26e14cfbd4330f2e2013fa5834d5399eb59278cb7921bc7a87bbd38a4dc32e17 3069 hwloc_2.10.0-1.dsc 79d7f0516d2ac462e3718d2df37837a632f52e359657fa0fca6373103a35df13 2633391 hwloc_2.10.0.orig.tar.bz2 e4400d584baf4c0954b488a88d692e078d741e4aef4ec6875acd56b3f6d09eb1 13432 hwloc_2.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/hwloc"
+  ],
+  "Files": [
+    "6778013101a907ccb84d2d2a246482c2 3069 hwloc_2.10.0-1.dsc f11042340ecf333f4f0dffc919f411ad 2633391 hwloc_2.10.0.orig.tar.bz2 290ff89cccbb98c1bf1aec5a15760b9b 13432 hwloc_2.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-mpi.org/projects/hwloc/"
+  ],
+  "Maintainer": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e"
+  ],
+  "Package": [
+    "hwloc"
+  ],
+  "Package-List": [
+    "hwloc deb admin optional arch=any profile=!pkg.hwloc.minimum hwloc-nox deb admin optional arch=any libhwloc-common deb libs optional arch=all libhwloc-dev deb libdevel optional arch=any libhwloc-doc deb doc optional arch=all profile=!nodoc libhwloc-plugins deb libs optional arch=any profile=!pkg.hwloc.minimum libhwloc15 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "debhelper, dh-autoreconf, libltdl-dev, libxml2-dev, libxml2-utils"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/hwloc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/hwloc.git"
+  ],
+  "Version": [
+    "2.10.0-1"
+  ]
+}

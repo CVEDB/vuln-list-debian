@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "plasma-systemmonitor"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5dbusaddons-dev (\u003e= 5.102.0~), libkf5declarative-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5itemmodels-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5newstuff-dev (\u003e= 5.102.0~), libkf5service-dev (\u003e= 5.102.0~), libkf5sysguard-dev (\u003e= 4:5.27.10~), libkf5windowsystem-dev (\u003e= 5.102.0~), pkg-kde-tools, qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "9020bf61dd9ce4c4db38a3a8e42f77ec3afb7c8880c6c34047ef4ce8c69e8f5f 2977 plasma-systemmonitor_5.27.10-1.dsc 64a1705797b42be1ed0be8258b11829b10f8b155e09bb4fbcf4757e2d7eb8a0e 173356 plasma-systemmonitor_5.27.10.orig.tar.xz f528ae325574db703b9074a76e37b6edeab7f9fb6894f49d0693db8a67e22528 833 plasma-systemmonitor_5.27.10.orig.tar.xz.asc 59c777afd89fe6795a5a7684eec911b3d59a9d4c6801cd5e78db4b491299357b 14472 plasma-systemmonitor_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/plasma-systemmonitor"
+  ],
+  "Files": [
+    "880f643cafdc3a78e95ff5372932abc4 2977 plasma-systemmonitor_5.27.10-1.dsc b6648b45d9824b565dda1f100e7d83a6 173356 plasma-systemmonitor_5.27.10.orig.tar.xz 6ec4a76b2a590e382bff3da4f499efa1 833 plasma-systemmonitor_5.27.10.orig.tar.xz.asc 40e3ed1934c5228565603497a6e15997 14472 plasma-systemmonitor_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://apps.kde.org/en/plasma-systemmonitor"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "plasma-systemmonitor"
+  ],
+  "Package-List": [
+    "plasma-systemmonitor deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/plasma-systemmonitor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/plasma-systemmonitor.git"
+  ],
+  "Version": [
+    "5.27.10-1"
+  ]
+}

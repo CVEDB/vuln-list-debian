@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libasio-dev, libasio-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libboost-dev, libboost-date-time-dev, libboost-regex-dev, libboost-test-dev"
+  ],
+  "Checksums-Sha256": [
+    "b925f3d1f0596d3d8d6a2a6c963fdcc72947b683d7ac2d3cc9a40b77240b4c8f 1955 asio_1.28.1-0.2.dsc 3bcf0357e2e19a2ee5adc805e6cc209338a7461c406d3047d282ea1c4b566101 3383257 asio_1.28.1.orig.tar.bz2 9888f6da593e1d14f888cea4f95aa20cd46b39d67ba50d6c139535e349454c91 6104 asio_1.28.1-0.2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/asio"
+  ],
+  "Files": [
+    "822431647d4c6d91f978a6d85d570fc7 1955 asio_1.28.1-0.2.dsc d60da5576d5049e48021fea976524ae9 3383257 asio_1.28.1.orig.tar.bz2 c234efd3c7cc5bb6ef8a03293671650d 6104 asio_1.28.1-0.2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://think-async.com/"
+  ],
+  "Maintainer": [
+    "Markus Wanner \u003cmarkus@bluegap.ch\u003e"
+  ],
+  "Package": [
+    "asio"
+  ],
+  "Package-List": [
+    "libasio-dev deb libdevel optional arch=all libasio-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/markus/libasio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/markus/libasio.git"
+  ],
+  "Version": [
+    "1:1.28.1-0.2"
+  ]
+}

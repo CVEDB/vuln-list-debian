@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "archlinux-keyring"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "b27779f07e03e6c6699b4b395c3c9d1b0a90f8cb0562977c82d0c267a862e8a1 1401 archlinux-keyring_0~20240208-1.dsc 77f44bc85a18a81caea1c3b224b734f712d2faea9aba52fedd3e3269a5eb367d 1252891 archlinux-keyring_0~20240208.orig.tar.gz afbe9e425e844b989db7092d4d64962dbc15638803fde3d1bc6141be431567c3 3092 archlinux-keyring_0~20240208-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/archlinux-keyring"
+  ],
+  "Files": [
+    "2c5981d185b994ca5704af1b579a6957 1401 archlinux-keyring_0~20240208-1.dsc 8f6b61dd1735567edd5b74c3bc618268 1252891 archlinux-keyring_0~20240208.orig.tar.gz e2d9fe467150d03fa9d262513b17984e 3092 archlinux-keyring_0~20240208-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.archlinux.org/archlinux/archlinux-keyring"
+  ],
+  "Maintainer": [
+    "Michel Lind \u003cmichel@michel-slm.name\u003e"
+  ],
+  "Package": [
+    "archlinux-keyring"
+  ],
+  "Package-List": [
+    "archlinux-keyring deb misc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/michel/archlinux-keyring"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/michel/archlinux-keyring.git"
+  ],
+  "Version": [
+    "0~20240208-1"
+  ]
+}

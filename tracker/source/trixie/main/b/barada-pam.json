@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpam-barada"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autotools-dev, libboost-serialization-dev, libpam-dev, libssl-dev, libboost-filesystem-dev"
+  ],
+  "Checksums-Sha256": [
+    "4adb4d6057cbc770c33a2eaac92c9c5615cfa33b98d5c258d4cdcce56b4e10bd 1819 barada-pam_0.5-3.3.dsc e7849ddc063eb875f5c802715014c97444f74a6c55a7383bc523326244deb408 115753 barada-pam_0.5.orig.tar.gz e42210731869009b13790156c3cf278111810944448df74d8a1ac38dbdca0f32 4964 barada-pam_0.5-3.3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/barada-pam"
+  ],
+  "Files": [
+    "8c0046a865bd1ec2c083b9cba0e4f712 1819 barada-pam_0.5-3.3.dsc e3d11636438e3b77db54021ed5503006 115753 barada-pam_0.5.orig.tar.gz 803423f03f1b0f21d3137d506c9d2475 4964 barada-pam_0.5-3.3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://barada.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Andrew Pollock \u003capollock@debian.org\u003e"
+  ],
+  "Package": [
+    "barada-pam"
+  ],
+  "Package-List": [
+    "libpam-barada deb libs extra arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "3.9.2"
+  ],
+  "Version": [
+    "0.5-3.3"
+  ]
+}

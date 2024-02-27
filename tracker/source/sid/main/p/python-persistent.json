@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-persistent, python-persistent-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, python3-all-dev, python3-repoze.sphinx.autointerface, python3-setuptools, python3-sphinx, python3-zope.interface, python3-cffi, python3-manuel"
+  ],
+  "Checksums-Sha256": [
+    "0f74afa60d505cb35f7e3ccc50b70b014f13d0b58d5cf7eb4b5f45340f029d48 2154 python-persistent_4.6.4-2.dsc f83f54355a44cf8ec38c29ce47b378a8c70444e9a745581dbb13d201a24cb546 120032 python-persistent_4.6.4.orig.tar.gz 621f9736fdc675e581079675ef909bc22f7e47aa0a7c74a8947ee33b7a82a12c 5088 python-persistent_4.6.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-persistent"
+  ],
+  "Files": [
+    "b5e3b2c506493e7a7667089752bd65e9 2154 python-persistent_4.6.4-2.dsc 6878fd3a3008fb5b7da7a374155fd6c2 120032 python-persistent_4.6.4.orig.tar.gz 64947976303f5f88162b6cc0f28b2ee4 5088 python-persistent_4.6.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-persistent"
+  ],
+  "Package-List": [
+    "python-persistent-doc deb doc optional arch=all python3-persistent deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-persistent"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-persistent.git"
+  ],
+  "Version": [
+    "4.6.4-2"
+  ]
+}

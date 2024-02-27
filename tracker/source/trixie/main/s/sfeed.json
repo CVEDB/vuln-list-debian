@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "sfeed"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ncurses-dev"
+  ],
+  "Checksums-Sha256": [
+    "8336ba9d67481270e81f4950949eacc51b8b3052cfdfdf2970118d183ad4120c 1777 sfeed_2.0-1.dsc 8e6a7e6e1d7e86034ae27035e37a8f7fc98bc25fe35120bd18ff07e04f18e91d 67584 sfeed_2.0.orig.tar.gz 1bcf005d54dcbb7b9bec5d3a0e8c7ec07dc51b29347951470988c2f2d749225a 3084 sfeed_2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sfeed"
+  ],
+  "Files": [
+    "1f34995a64294c9fd702cb7aa3fc20a7 1777 sfeed_2.0-1.dsc 02f0af9a09782d3b5a66c34d3e7b0a7b 67584 sfeed_2.0.orig.tar.gz 0f5cdce932951457b1e41bb72991016b 3084 sfeed_2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codemadness.org/sfeed.html"
+  ],
+  "Maintainer": [
+    "Hiltjo Posthuma \u003chiltjo@codemadness.org\u003e"
+  ],
+  "Package": [
+    "sfeed"
+  ],
+  "Package-List": [
+    "sfeed deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Vcs-Browser": [
+    "https://codemadness.org/git/sfeed/"
+  ],
+  "Vcs-Git": [
+    "git://git.codemadness.org/sfeed"
+  ],
+  "Version": [
+    "2.0-1"
+  ]
+}

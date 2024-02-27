@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-influxdb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-requests, python3-mock, python3-msgpack, python3-requests-mock, python3-six, python3-nose, python3-pandas"
+  ],
+  "Checksums-Sha256": [
+    "1327eaf96c0fe15e2f8072242e22311de4debfcbb7036165da9cb28ecec9026f 2249 influxdb-python_5.3.1-6.dsc 46f85e7b04ee4b3dee894672be6a295c94709003a7ddea8820deec2ac4d8b27a 67385 influxdb-python_5.3.1.orig.tar.gz 5016fe17609a218d1d613c4169b73e5fcf51ec11396da01fdbfbf607c332ac2c 6036 influxdb-python_5.3.1-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/influxdb-python"
+  ],
+  "Files": [
+    "7d873460444b6f1933b7c8f3244bb088 2249 influxdb-python_5.3.1-6.dsc e5888a7023e9a49d8a372538b625f908 67385 influxdb-python_5.3.1.orig.tar.gz d24b36fec7d708fd9f4c7d72289b2a68 6036 influxdb-python_5.3.1-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/influxdata/influxdb-python"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "influxdb-python"
+  ],
+  "Package-List": [
+    "python3-influxdb deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Alexandre Viau \u003caviau@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/influxdb-python"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/influxdb-python.git"
+  ],
+  "Version": [
+    "5.3.1-6"
+  ]
+}

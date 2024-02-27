@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "webpack"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-nodejs, dh-sequence-nodejs, jest (\u003e= 29) \u003c!nocheck\u003e, node-acorn (\u003e= 8.5.0+ds+~cs24.17.6~), node-envinfo, node-babel7, node-browserslist \u003c!nocheck\u003e, node-chrome-trace-event \u003c!nocheck\u003e, node-colorette, node-commander, node-enhanced-resolve \u003c!nocheck\u003e, node-es-module-lexer, node-eslint-scope \u003c!nocheck\u003e, node-eslint-visitor-keys, node-esrecurse \u003c!nocheck\u003e, node-estraverse \u003c!nocheck\u003e, node-events \u003c!nocheck\u003e, node-findup-sync \u003c!nocheck\u003e, node-graceful-fs \u003c!nocheck\u003e, node-interpret (\u003e= 2.2~) \u003c!nocheck\u003e, node-json-parse-better-errors \u003c!nocheck\u003e, node-libs-browser \u003c!nocheck\u003e, node-loader-runner \u003c!nocheck\u003e, node-mime-types \u003c!nocheck\u003e, node-neo-async \u003c!nocheck\u003e, node-p-limit \u003c!nocheck\u003e, node-rechoir, node-resolve-cwd \u003c!nocheck\u003e, node-rollup-plugin-commonjs, node-rollup-plugin-json, node-rollup-plugin-node-resolve, node-rollup-plugin-terser, node-schema-utils \u003c!nocheck\u003e, node-supports-color \u003c!nocheck\u003e, node-tapable (\u003e= 2.0~), node-typescript, node-watchpack \u003c!nocheck\u003e, node-webassemblyjs (\u003e= 1.9.1+dfsg+~cs11.9.35~) \u003c!nocheck\u003e, node-webpack-merge (\u003e= 5.8.0~), node-webpack-sources (\u003e= 3.2.1~) \u003c!nocheck\u003e, node-yargs \u003c!nocheck\u003e, rollup, terser \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9dddf8df009eb1cab9ce16f2ff7eab9a6735bfbfbc0902b1f8bf58a2c96d269e 4397 node-webpack_5.76.1+dfsg2+~cs10.8.15-3.dsc fc7e7aefe600a040f523e8f17de24dc3ca0e1de097d40e571d8cf89507fc9867 47136 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig-discoveryjs-json-ext.tar.xz 68fc558e426d3ff5f01ab98dd60a8fd612715340fa985325452b382dc7d223a3 177516 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig-terser-webpack-plugin.tar.xz b31d284ac8ed1b5717ac634c94ce7ec449810713944134674589728b2d602bcf 314004 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig-webpack-cli.tar.xz 2cd0969eb9ce42b01d22de8e1f9290f385df2b21c9f40dfbda8194e2922189ff 1591852 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig.tar.xz 08f61a01dec4752f9b351da646aae3bff2dcea34dc65353fa2e355b7a0b4ae30 39196 node-webpack_5.76.1+dfsg2+~cs10.8.15-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-webpack"
+  ],
+  "Files": [
+    "79f61b54733b58c415fc9ee11a562bc2 4397 node-webpack_5.76.1+dfsg2+~cs10.8.15-3.dsc 36078ca45a803910b8b68a0351c56b6b 47136 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig-discoveryjs-json-ext.tar.xz cb776f2c6bfac8cf738bc436960cb574 177516 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig-terser-webpack-plugin.tar.xz 80f5a9d201b8b310c65dff9406f734c3 314004 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig-webpack-cli.tar.xz a357305fc849b130a3d988f3ac124ef1 1591852 node-webpack_5.76.1+dfsg2+~cs10.8.15.orig.tar.xz 7c49a7751f27296869db646c8995d7b3 39196 node-webpack_5.76.1+dfsg2+~cs10.8.15-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/webpack/webpack"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-webpack"
+  ],
+  "Package-List": [
+    "webpack deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-webpack"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-webpack.git"
+  ],
+  "Version": [
+    "5.76.1+dfsg2+~cs10.8.15-3"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "strawberry"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, protobuf-compiler, libglib2.0-dev, libdbus-1-dev, libgnutls28-dev, libprotobuf-dev, libboost-dev, libsqlite3-dev, libasound2-dev, libpulse-dev, libtag1-dev, libicu-dev, qtbase5-private-dev, qtbase5-dev-tools, qttools5-dev, libqt5x11extras5-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libcdio-dev, libgpod-dev, libmtp-dev, libchromaprint-dev, libfftw3-dev, libvlc-dev, libebur128-dev"
+  ],
+  "Checksums-Sha256": [
+    "27d6fe18f54cbcac219863a086fa5e78197c1f60e7248119e76f6336ec7001a1 2308 strawberry_1.0.23-1.dsc 24f63064caf62c72330e9fa0808a1ca938339831d0a4e8385986280601a54f10 11297440 strawberry_1.0.23.orig.tar.xz 88d9c8b67939fdba3a0b9b4f766eefa60012201e7a4bfec07f06fd9245c4d7ed 8600 strawberry_1.0.23-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/strawberry"
+  ],
+  "Files": [
+    "783aa4c3022fe1547b088fe9bc7b2dc5 2308 strawberry_1.0.23-1.dsc 472f2352e143995a2c324f37c2a3b325 11297440 strawberry_1.0.23.orig.tar.xz 4896bccc8bd71d6c66030b9a2124a059 8600 strawberry_1.0.23-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://strawberrymusicplayer.org"
+  ],
+  "Maintainer": [
+    "Peter Blackman \u003cpeter@pblackman.plus.com\u003e"
+  ],
+  "Package": [
+    "strawberry"
+  ],
+  "Package-List": [
+    "strawberry deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/strawberry"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/strawberry.git"
+  ],
+  "Version": [
+    "1.0.23-1"
+  ]
+}

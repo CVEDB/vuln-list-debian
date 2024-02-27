@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-csv-mode"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "5e14c71cc10e708bdf146992584e353c02de2102fa25e6adf9ecbaf075726a48 1951 csv-mode_1.23-1.dsc 5daf2d70f38de49d9ba308168fb2a64d0c7ffe5b2883f38fa3cc1dca9910fda3 20892 csv-mode_1.23.orig.tar.xz 5e78b7d396756edc593a57a214286e188b3169af2afd90d8d7058b85c4743f5a 4808 csv-mode_1.23-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/csv-mode"
+  ],
+  "Files": [
+    "54375e8e13565fc9010adeda30b5cc52 1951 csv-mode_1.23-1.dsc 517b75b73d2e46a2e60958bc05be1912 20892 csv-mode_1.23.orig.tar.xz 9c554150a2c85ea86aa57813670454fb 4808 csv-mode_1.23-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://elpa.gnu.org/packages/csv-mode.html"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "csv-mode"
+  ],
+  "Package-List": [
+    "elpa-csv-mode deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "Nicholas D Steeves \u003csten@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/csv-mode"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/csv-mode.git"
+  ],
+  "Version": [
+    "1.23-1"
+  ]
+}

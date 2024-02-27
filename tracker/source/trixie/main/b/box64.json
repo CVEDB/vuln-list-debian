@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "arm64 ppc64el riscv64"
+  ],
+  "Binary": [
+    "box64, box64-rk3588, box64-rpi4"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-exec, ninja-build, python3:native"
+  ],
+  "Checksums-Sha256": [
+    "db033f9d5618aa11d47606d4fdcdfc54632a6eae997d7afd7a5a363639a81e99 2076 box64_0.2.6+dfsg-3.dsc 969c0fb31ef059c23bdba74e2e75cba6173b0785857bd9be11cb60df4af9b1df 1218652 box64_0.2.6+dfsg.orig.tar.xz 29d56371218cdc5993ecda867341dd1bdebfdf2638f6012d2f1570abbe94a4b4 10148 box64_0.2.6+dfsg-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "33af9ec6b42bd4eb805a8d16c1f245bf4513cfcb debian archive/debian/0.2.6+dfsg-3 https://git.dgit.debian.org/box64"
+  ],
+  "Directory": [
+    "pool/main/b/box64"
+  ],
+  "Files": [
+    "68adee20a95078f64967176264f1232f 2076 box64_0.2.6+dfsg-3.dsc 8dc3656bbff069812d946f8d52db5d7a 1218652 box64_0.2.6+dfsg.orig.tar.xz 73bd0919df4b7f035e4fde80a849a738 10148 box64_0.2.6+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ptitSeb/box64"
+  ],
+  "Maintainer": [
+    "Johannes Schauer Marin Rodrigues \u003cjosch@debian.org\u003e"
+  ],
+  "Package": [
+    "box64"
+  ],
+  "Package-List": [
+    "box64 deb utils optional arch=arm64,ppc64el,riscv64 box64-rk3588 deb utils optional arch=arm64 box64-rpi4 deb utils optional arch=arm64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Version": [
+    "0.2.6+dfsg-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libimager-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libfreetype-dev, libgif-dev, libinline-c-perl \u003c!nocheck\u003e, libjpeg-dev, libpng-dev, libpod-parser-perl \u003c!nocheck\u003e, libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libtiff-dev, perl-xs-dev, perl:native, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "c3df425386511c8959153920c6a6f4261ffcb7c6122b98e66989ebef02e35ca9 2650 libimager-perl_1.023+dfsg-1.dsc d70bb2cb0dfad302d644232d929e042186fb67b8d2d821c1017e58dd61f7da48 929088 libimager-perl_1.023+dfsg.orig.tar.xz cc99dab4b93f7fc3c8d9843204d24ac6f6e7d0924ab45757419973bf38a44b6f 12612 libimager-perl_1.023+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "1b0528c66a72bbaeb2d62c99e58f77a271680c5e debian archive/debian/1.023+dfsg-1 https://git.dgit.debian.org/libimager-perl"
+  ],
+  "Directory": [
+    "pool/main/libi/libimager-perl"
+  ],
+  "Files": [
+    "3468873c135c800a4191d3f9383bfe4e 2650 libimager-perl_1.023+dfsg-1.dsc de2faee313b66fbc7fde3b94f682e52d 929088 libimager-perl_1.023+dfsg.orig.tar.xz a7e9c24d60e605c2fb689099e37d9d85 12612 libimager-perl_1.023+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://imager.perl.org/"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libimager-perl"
+  ],
+  "Package-List": [
+    "libimager-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Dominic Hargreaves \u003cdom@earth.li\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libimager-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libimager-perl.git"
+  ],
+  "Version": [
+    "1.023+dfsg-1"
+  ]
+}

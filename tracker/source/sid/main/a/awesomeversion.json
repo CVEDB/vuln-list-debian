@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-awesomeversion"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core, python3-pytest \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "209811bc03dbe4514353fd8e7c7969bfeb506165a41b45582112bed8a09f46af 2185 awesomeversion_24.2.0-1.dsc 0ce6cf35363e06631fee83dbfd9f2235a44d5d85aa2570f7c4501cf792abf9a7 36275 awesomeversion_24.2.0.orig.tar.gz 422e2ac163f0883bf31a41add260c28f8fabdcfcff5104ce931412d1cafe2789 2588 awesomeversion_24.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/awesomeversion"
+  ],
+  "Files": [
+    "41fb19809b831c86fe9cd48d61763d15 2185 awesomeversion_24.2.0-1.dsc e4b2b192480c83f567397007725972e6 36275 awesomeversion_24.2.0.orig.tar.gz 7d5f6195c2984638853e7cd1a6f75a0f 2588 awesomeversion_24.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ludeeus/awesomeversion"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "awesomeversion"
+  ],
+  "Package-List": [
+    "python3-awesomeversion deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/awesomeversion"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/awesomeversion.git"
+  ],
+  "Version": [
+    "24.2.0-1"
+  ]
+}

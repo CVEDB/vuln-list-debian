@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-genomeinfodbdata"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "5b6f3b19eff53a693f6c8176f96c2a47e2372108ef3d7c0318702b5f6a6761db 2151 r-bioc-genomeinfodbdata_1.2.11-2.dsc 311fe287842e6161f24fc1faaa824a6d5ce88afcbf4c0203f5e309456e667bc2 12284235 r-bioc-genomeinfodbdata_1.2.11.orig.tar.gz fd615c1b7ff76ea062647fe7610e63aaa39b911a985ccb7eb6aafdef1ec3a533 4172 r-bioc-genomeinfodbdata_1.2.11-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-genomeinfodbdata"
+  ],
+  "Files": [
+    "18a3df062578690144cd76c2fa918484 2151 r-bioc-genomeinfodbdata_1.2.11-2.dsc 2a4cbfc2031992fed3c9445f450890a2 12284235 r-bioc-genomeinfodbdata_1.2.11.orig.tar.gz 2a82f27e1165c1b872e1f8716d3e2002 4172 r-bioc-genomeinfodbdata_1.2.11-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/GenomeInfoDbData/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-genomeinfodbdata"
+  ],
+  "Package-List": [
+    "r-bioc-genomeinfodbdata deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Charles Plessy \u003cplessy@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-genomeinfodbdata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-genomeinfodbdata.git"
+  ],
+  "Version": [
+    "1.2.11-2"
+  ]
+}

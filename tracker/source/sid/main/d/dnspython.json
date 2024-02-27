@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-dnspython"
+  ],
+  "Build-Depends": [
+    "ca-certificates, debhelper-compat (= 13), dh-python, netbase, pybuild-plugin-pyproject, python3-aioquic, python3-all, python3-cryptography, python3-h2, python3-hatchling (\u003e= 1.21.0), python3-httpcore, python3-httpx, python3-pytest"
+  ],
+  "Checksums-Sha256": [
+    "595b912a9b7e55a41f041c9b70604713cfe9e6f46b57d2d3be73cde220f06007 2469 dnspython_2.6.1-1.dsc e8f0f9c23a7b7cb99ded64e6c3a6f3e701d78f50c55e002b839dea7225cff7cc 332727 dnspython_2.6.1.orig.tar.gz bf3a49d41ff4949b4ce7f41fe6282a971aae88cee3631d5e34a0385f0a777e79 6676 dnspython_2.6.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dnspython"
+  ],
+  "Files": [
+    "e64a99928d973d3a0707d54fc571250a 2469 dnspython_2.6.1-1.dsc ad29d0392621fb107e0eac4beed79ce5 332727 dnspython_2.6.1.orig.tar.gz ae30f027fd07aa51aefdf4bbd3710fdf 6676 dnspython_2.6.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.dnspython.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dnspython"
+  ],
+  "Package-List": [
+    "python3-dnspython deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, python3-aioquic, python3-all, python3-cryptography, python3-h2, python3-httpcore, python3-httpx, python3-idna, python3-pytest, python3-requests, python3-requests-toolbelt, python3-trio"
+  ],
+  "Uploaders": [
+    "Robert S. Edmonds \u003cedmonds@debian.org\u003e, Scott Kitterman \u003cscott@kitterman.com\u003e, Matthew Grant \u003cmatthewgrant5@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/dnspython"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/dnspython.git"
+  ],
+  "Version": [
+    "2.6.1-1"
+  ]
+}

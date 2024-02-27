@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pmbootstrap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "4872d4d622a9daa2f7497b51c6c1d76d3f3c61192e135f74765a94adc06580d0 2069 pmbootstrap_2.1.0-1.dsc e634c962ee10500f321b8cf309afc2e8023cd0bbee953434768244375f86f72e 22371964 pmbootstrap_2.1.0.orig.tar.gz 9c87e940d3241224f5e184c3276ec6b8a7baa51841439a0af57cf6863b64711e 11032 pmbootstrap_2.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pmbootstrap"
+  ],
+  "Files": [
+    "0baa2d4d449989687fa86fd821a69c5b 2069 pmbootstrap_2.1.0-1.dsc 2d71246c069287d2aa61b0d5ad0bdb5e 22371964 pmbootstrap_2.1.0.orig.tar.gz f86084c824c7c1ab0b80bc61fbae3553 11032 pmbootstrap_2.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.sr.ht/~postmarketos/pmbootstrap"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pmbootstrap"
+  ],
+  "Package-List": [
+    "pmbootstrap deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Ben Westover \u003cme@benthetechguy.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pmbootstrap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pmbootstrap.git"
+  ],
+  "Version": [
+    "2.1.0-1"
+  ]
+}

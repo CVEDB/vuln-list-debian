@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libimage-png-libpng-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libpng-dev, perl-xs-dev, perl:native, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "7b6a1b7428827355df79fe68fdc0c16bd2e81726c80e5d7890602af12a2727cb 2462 libimage-png-libpng-perl_0.58-1.dsc 69819856b4bcc783adb229cd769114b849f961799f337807c13a116cb231842b 1101135 libimage-png-libpng-perl_0.58.orig.tar.gz dd705ccaeb3429fd2df20fd38f941e6e45e0d30477e4f6ed640dd8948e61b50f 2748 libimage-png-libpng-perl_0.58-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "dd732b9ec17a3e8d4af64c9595b01e05355bd351 debian archive/debian/0.58-1 https://git.dgit.debian.org/libimage-png-libpng-perl"
+  ],
+  "Directory": [
+    "pool/main/libi/libimage-png-libpng-perl"
+  ],
+  "Files": [
+    "0cf435ee57e93053041befb8fa90aea7 2462 libimage-png-libpng-perl_0.58-1.dsc f3867b7bd168998a6acbbe5e45bb018d 1101135 libimage-png-libpng-perl_0.58.orig.tar.gz ba32f37e0bec0dbea6a55afa2f69b8a6 2748 libimage-png-libpng-perl_0.58-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Image-PNG-Libpng"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libimage-png-libpng-perl"
+  ],
+  "Package-List": [
+    "libimage-png-libpng-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Jeffrey Ratcliffe \u003cjjr@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libimage-png-libpng-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libimage-png-libpng-perl.git"
+  ],
+  "Version": [
+    "0.58-1"
+  ]
+}

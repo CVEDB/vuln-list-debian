@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pycodestyle, python3-pycodestyle"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "18201a213e6ebbb379ebcba2368b39efaef0891c1b4e182eca01fbc73470a0ed 2412 pycodestyle_2.11.1-1.dsc 17129c10983c6cc80f0451290244e0a3c6c75bce77c82702d68100d1b38ba8f7 79877 pycodestyle_2.11.1.orig.tar.gz d432c5d7aeead9a82058f483682b015555d3842d4e17fa507bd87f068ec483cc 5768 pycodestyle_2.11.1-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Python style guide checker (formerly called pep8) Features a plugin architecture allowing for adding new checks is easily. Parseable output listing line numbers of the error location. Consists of just one Python file, and requires only stdlib."
+  ],
+  "Directory": [
+    "pool/main/p/pycodestyle"
+  ],
+  "Files": [
+    "744ee6afed8f7c2e74d5a2148ffde076 2412 pycodestyle_2.11.1-1.dsc 2aaec3da2b7748c27c77baa8a6b3a9f2 79877 pycodestyle_2.11.1.orig.tar.gz 0f798f2ae8e75600cd328fd19575c01b 5768 pycodestyle_2.11.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/PyCQA/pycodestyle"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pycodestyle"
+  ],
+  "Package-List": [
+    "pycodestyle deb python optional arch=all python3-pycodestyle deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Ondřej Nový \u003conovy@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pycodestyle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pycodestyle.git"
+  ],
+  "Version": [
+    "2.11.1-1"
+  ]
+}

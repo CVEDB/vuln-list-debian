@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-collapse"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp"
+  ],
+  "Checksums-Sha256": [
+    "3296b712cd470c50a11971ddfcc2fed532199e041d7e7376ef2c57fd5d1043a8 2354 r-cran-collapse_2.0.10-1.dsc 21bb1cf55b25eb684606aca43db3062042600c2e537fbe7e1c0bce49fbf05975 1400412 r-cran-collapse_2.0.10.orig.tar.gz aff941726cec2bd8f0508f4f17a83b166ac9c38709cf53afafb916f3d1699505 4680 r-cran-collapse_2.0.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-collapse"
+  ],
+  "Files": [
+    "30091c457d660de41b8ee04da85670b3 2354 r-cran-collapse_2.0.10-1.dsc 921badb522df6ac83f39085cd52ebb78 1400412 r-cran-collapse_2.0.10.orig.tar.gz 69b9cf49fedd961ac1c81b7bac91fec6 4680 r-cran-collapse_2.0.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=collapse"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-collapse"
+  ],
+  "Package-List": [
+    "r-cran-collapse deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-data.table, r-cran-dplyr, r-cran-ggplot2, r-cran-knitr, r-cran-magrittr, r-cran-plm, r-cran-rcpparmadillo, r-cran-rcppeigen, r-cran-rmarkdown, r-cran-scales, r-cran-testthat, r-cran-tibble, r-cran-xts, r-cran-zoo"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-collapse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-collapse.git"
+  ],
+  "Version": [
+    "2.0.10-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcapnp-1.0.1, libcapnp-dev, capnproto"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), docbook-xml, docbook-xsl, libssl-dev, netbase, python3-all, xsltproc, zlib1g-dev, ca-certificates"
+  ],
+  "Checksums-Sha256": [
+    "d762e4669888b6791e473c597004aafa8b32747be34e1cc7635b9fa89e219898 2225 capnproto_1.0.1-3.dsc 0f7f4b8a76a2cdb284fddef20de8306450df6dd031a47a15ac95bc43c3358e09 1802933 capnproto_1.0.1.orig.tar.gz c166e805f4300e2218ef9391645efdadf9bbabf5fc0bd55bd04a3b0e6c08e5a5 16044 capnproto_1.0.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/capnproto"
+  ],
+  "Files": [
+    "41f3d4f6cdef3df511dd3c9e0d6bc102 2225 capnproto_1.0.1-3.dsc caa55b89c87466c558c9ffd7b40b400b 1802933 capnproto_1.0.1.orig.tar.gz 27673f248c920b1607b9e1bebd6181da 16044 capnproto_1.0.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://capnproto.org/"
+  ],
+  "Maintainer": [
+    "Tom Lee \u003cdebian@tomlee.co\u003e"
+  ],
+  "Package": [
+    "capnproto"
+  ],
+  "Package-List": [
+    "capnproto deb devel optional arch=any libcapnp-1.0.1 deb libs optional arch=any libcapnp-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash, cmake, g++, pkg-config, shunit2"
+  ],
+  "Uploaders": [
+    "tony mancill \u003ctmancill@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/thomaslee/capnproto-debian"
+  ],
+  "Vcs-Git": [
+    "https://github.com/thomaslee/capnproto-debian.git -b debian/master"
+  ],
+  "Version": [
+    "1.0.1-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "netplan.io, netplan-generator, python3-netplan, libnetplan0, libnetplan-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, bash-completion, libyaml-dev, libglib2.0-dev, uuid-dev, python3, python3-cffi, python3-coverage \u003c!nocheck\u003e, python3-dbus \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-rich \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e, python3-netifaces \u003c!nocheck\u003e, libcmocka-dev, libpython3-dev, libsystemd-dev, systemd \u003c!nocheck\u003e, systemd-dev, dbus-x11 \u003c!nocheck\u003e, pyflakes3 \u003c!nocheck\u003e, pycodestyle \u003c!nocheck\u003e | pep8 \u003c!nocheck\u003e, pandoc, openvswitch-switch [!armel !armhf !i386 !hppa !m68k !powerpc !sh4 !x32] \u003c!nocheck\u003e, meson"
+  ],
+  "Checksums-Sha256": [
+    "d71fe70bf35a3909af3e1eac3c80e66a0c16963e480a4efb7304e3a3ca2c79e9 2997 netplan.io_0.107.1-3.dsc b6d4a8f0f2eb7d59887007f12e7d23faa7a55002229e91981f6257ffe8a53017 449890 netplan.io_0.107.1.orig.tar.gz a9ff407c43bab967b612f797d327f3baa1fc03383d5990314099a75f2e0b5f5c 18636 netplan.io_0.107.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/netplan.io"
+  ],
+  "Files": [
+    "c46cbe464470d6ba24f1f99d5cee9364 2997 netplan.io_0.107.1-3.dsc e703f3a482d2711ed6d7d33fc2298821 449890 netplan.io_0.107.1.orig.tar.gz f18f07cf1c59bd1c90316279448aeee0 18636 netplan.io_0.107.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://netplan.io/"
+  ],
+  "Maintainer": [
+    "Debian Netplan Maintainers \u003cteam+netplan@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "netplan.io"
+  ],
+  "Package-List": [
+    "libnetplan-dev deb libdevel optional arch=linux-any libnetplan0 deb libs optional arch=linux-any netplan-generator deb net optional arch=linux-any netplan.io deb net optional arch=linux-any python3-netplan deb python optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dnsmasq-base, ethtool, gir1.2-nm-1.0, hostapd, iw, libnm0, network-manager, openvswitch-switch, python3-gi, systemd, systemd-resolved, udev, wireguard-tools, wpasupplicant"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e, Lukas Märdian \u003cslyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/netplan.io"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/netplan.io.git"
+  ],
+  "Version": [
+    "0.107.1-3"
+  ]
+}

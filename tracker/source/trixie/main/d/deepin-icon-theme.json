@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "deepin-icon-theme"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gtk-update-icon-cache, x11-apps"
+  ],
+  "Checksums-Sha256": [
+    "df2c4e60438ab4570eba1579e04d417321e2ca22851b80072a014f5cba764fb4 2200 deepin-icon-theme_2023.11.28-1.dsc 272eb1646049920cbefa67f5c0d89d6095f9b745a803d76014d7fa1f5f0bff74 57388063 deepin-icon-theme_2023.11.28.orig.tar.gz 4928baa261ceda3e4a26701526804dc81c687cedb4ec677694030354b712616d 3956 deepin-icon-theme_2023.11.28-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/deepin-icon-theme"
+  ],
+  "Files": [
+    "ffa0c4670bf720614ee3fb2572a7fe2b 2200 deepin-icon-theme_2023.11.28-1.dsc 6199672af798b0df5f7924a316634c84 57388063 deepin-icon-theme_2023.11.28.orig.tar.gz 977a88187941fb4ed8760c3b4dfe6e10 3956 deepin-icon-theme_2023.11.28-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linuxdeepin/deepin-icon-theme"
+  ],
+  "Maintainer": [
+    "Debian Deepin Packaging Team \u003cpkg-deepin-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "deepin-icon-theme"
+  ],
+  "Package-List": [
+    "deepin-icon-theme deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Yangfl \u003cmmyangfl@gmail.com\u003e, Boyuan Yang \u003cbyang@debian.org\u003e, Yanhao Mo \u003cyanhaocs@gmail.com\u003e, Hu Feng \u003chufeng@uniontech.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-deepin-team/deepin-icon-theme"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-deepin-team/deepin-icon-theme.git"
+  ],
+  "Version": [
+    "2023.11.28-1"
+  ]
+}

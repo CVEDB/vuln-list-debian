@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-rots"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-bioc-biobase"
+  ],
+  "Checksums-Sha256": [
+    "ee83293f5219f8bd9475747296d17cac99703ba5d156ebe13e43970e21fe9ae3 2053 r-bioc-rots_1.30.0-1.dsc e66e3e66db24cbe8c324a68db09d6e00638d44337d88d5761c5a6e80ebe0a5fd 352754 r-bioc-rots_1.30.0.orig.tar.gz 20bfe573043742db21fd2d4d0c9766ee0e8e522e4dbc779485e9acb178070f3b 2444 r-bioc-rots_1.30.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-rots"
+  ],
+  "Files": [
+    "dbc35ce811d4ff5b01807c7e248bb515 2053 r-bioc-rots_1.30.0-1.dsc 02d51e24e501790ad3049c1bb5b3f90b 352754 r-bioc-rots_1.30.0.orig.tar.gz fa0098401976dee128442aced3fb6da4 2444 r-bioc-rots_1.30.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/ROTS/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-rots"
+  ],
+  "Package-List": [
+    "r-bioc-rots deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rots"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rots.git"
+  ],
+  "Version": [
+    "1.30.0-1"
+  ]
+}

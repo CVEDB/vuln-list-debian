@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-iow"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, cython3, libbitarray-dev, python3-all-dev, python3-setuptools, python3-numpy, python3-pandas \u003c!nocheck\u003e, python3-skbio (\u003e= 0.5.8-3~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a97cc0d8a0cbf35f880e06acb1d3be7903eb510b62d550f44acdbf1cda6f48a4 2161 python-iow_1.0.6-4.dsc 908eecab197837324644e9ead6ef3d17dd7d6c651ef1a31b4900bda4c5f3206b 158810 python-iow_1.0.6.orig.tar.gz 086773878b42ac873782d01da6610af911b9131020df5c664da284297f302168 4388 python-iow_1.0.6-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-iow"
+  ],
+  "Files": [
+    "eda0e1ff6b693f0ffa06128e2f16012d 2161 python-iow_1.0.6-4.dsc f4d963ab682a02e7a074535a000f5a93 158810 python-iow_1.0.6.orig.tar.gz 6827a514a868749daa028fb98923c2dd 4388 python-iow_1.0.6-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/biocore/improved-octo-waddle"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-iow"
+  ],
+  "Package-List": [
+    "python3-iow deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/python-iow"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/python-iow.git"
+  ],
+  "Version": [
+    "1.0.6-4"
+  ]
+}

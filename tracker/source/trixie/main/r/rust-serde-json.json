@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-json-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-itoa-1+default-dev \u003c!nocheck\u003e, librust-ryu-1+default-dev \u003c!nocheck\u003e, librust-serde-1+std-dev (\u003e= 1.0.194-~~) \u003c!nocheck\u003e, librust-serde-1-dev (\u003e= 1.0.194-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2b00fa6de26745f3ef517a1361dd0a9a1f7b5293c9dd4df3aa9d4c5ab4bf19d4 2758 rust-serde-json_1.0.111-1.dsc 176e46fa42316f18edd598015a5166857fc835ec732f5215eac6b7bdbf0a84f4 146447 rust-serde-json_1.0.111.orig.tar.gz ce221876420ada29f820fcadd89573cde2e48b936a01a70d435b5cb0d29fe483 4464 rust-serde-json_1.0.111-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde-json"
+  ],
+  "Files": [
+    "982d950a1b9f3f8abeecbf2c18b3164c 2758 rust-serde-json_1.0.111-1.dsc a46d4413032296761522d91b24bd759b 146447 rust-serde-json_1.0.111.orig.tar.gz 9432857657344d429802a6a2692940bc 4464 rust-serde-json_1.0.111-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde-json"
+  ],
+  "Package-List": [
+    "librust-serde-json-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-automod-1+default-dev, librust-indoc-2+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-bytes-0.11+default-dev, librust-serde-derive-1+default-dev, librust-serde-stacker-0.1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-json"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-json]"
+  ],
+  "Version": [
+    "1.0.111-1"
+  ]
+}

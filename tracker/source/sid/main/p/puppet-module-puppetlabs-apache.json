@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "puppet-module-puppetlabs-apache"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "70aad842aa587e03bc02b546d796604054de260e53b270af422cea2230bebafa 1694 puppet-module-puppetlabs-apache_12.0.2-1.dsc 00f9d88d2112d602dbdfa0ec41082f5f2169f431edeb53c444aebc1e100f28f5 384297 puppet-module-puppetlabs-apache_12.0.2.orig.tar.gz 89518bf90c54fedffa771baae5f23aad46f3ab70387d8a20afa1b52dab5b06dc 5272 puppet-module-puppetlabs-apache_12.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puppet-module-puppetlabs-apache"
+  ],
+  "Files": [
+    "e61533b9663dedb6a23faac2182fd740 1694 puppet-module-puppetlabs-apache_12.0.2-1.dsc 18b7259ed7e722b23b44d9348865d6a3 384297 puppet-module-puppetlabs-apache_12.0.2.orig.tar.gz 65d88e0b9716603ee6054421d4e5167a 5272 puppet-module-puppetlabs-apache_12.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://forge.puppet.com/puppetlabs/apache"
+  ],
+  "Maintainer": [
+    "Puppet Package Maintainers \u003cpkg-puppet-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "puppet-module-puppetlabs-apache"
+  ],
+  "Package-List": [
+    "puppet-module-puppetlabs-apache deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "puppet-agent, ruby-serverspec"
+  ],
+  "Uploaders": [
+    "Stig Sandbeck Mathisen \u003cssm@debian.org\u003e, Sebastien Badia \u003csbadia@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-apache"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-apache.git"
+  ],
+  "Version": [
+    "12.0.2-1"
+  ]
+}

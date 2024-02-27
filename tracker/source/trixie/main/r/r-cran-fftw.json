@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-fftw"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, libfftw3-dev"
+  ],
+  "Checksums-Sha256": [
+    "eb519170df7c28b6402bb2a6c5318ee3ba9894a956043d42f1cf14adfb838de2 2028 r-cran-fftw_1.0-8-1.dsc 8c7e011666a0ed76e0554abfa62cf658c055bd6efebe94d16b4462d123d08620 42484 r-cran-fftw_1.0-8.orig.tar.gz 1eb38b2e00b4a8fc086cae4d9c3a13762416013371b5a8acf3d30d55166a7435 2100 r-cran-fftw_1.0-8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-fftw"
+  ],
+  "Files": [
+    "c633e2cfc0b790fee28c99f25f520081 2028 r-cran-fftw_1.0-8-1.dsc 7616d850e0f1256f89031b7f2c5a592c 42484 r-cran-fftw_1.0-8.orig.tar.gz 6fff9e5722ffc7a0acfca8a087ff3ec0 2100 r-cran-fftw_1.0-8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=fftw"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-fftw"
+  ],
+  "Package-List": [
+    "r-cran-fftw deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-fftw"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-fftw.git"
+  ],
+  "Version": [
+    "1.0-8-1"
+  ]
+}

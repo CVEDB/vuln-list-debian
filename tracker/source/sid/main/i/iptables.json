@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "iptables, libxtables12, libxtables-dev, libiptc-dev, libip4tc2, libip4tc-dev, libip6tc2, libip6tc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmnl-dev, libnetfilter-conntrack-dev, libnfnetlink-dev, libnftnl-dev (\u003e= 1.1.6), netbase (\u003e= 6.0), python3:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "fbc8392f670b272e132f41a83a97ac3b821220b01bcf15291dadb7cf848412bd 2656 iptables_1.8.10-3.dsc 5cc255c189356e317d070755ce9371eb63a1b783c34498fb8c30264f3cc59c9c 641168 iptables_1.8.10.orig.tar.xz 6c3baca6828957a48455dbd7247b0902ed61f9a8d1d8dc00aa7550c224a537ab 27392 iptables_1.8.10-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iptables"
+  ],
+  "Files": [
+    "d90e64eab9552fbcc6c6da4ac0cf1171 2656 iptables_1.8.10-3.dsc 5eaa3bb424dd3a13c98c0cb026314029 641168 iptables_1.8.10.orig.tar.xz 30bd2d7fbafaaadb76bb9574f6e5c4b0 27392 iptables_1.8.10-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.netfilter.org/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cteam+pkg-netfilter-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "iptables"
+  ],
+  "Package-List": [
+    "iptables deb net optional arch=linux-any libip4tc-dev deb libdevel optional arch=linux-any libip4tc2 deb libs optional arch=linux-any libip6tc-dev deb libdevel optional arch=linux-any libip6tc2 deb libs optional arch=linux-any libiptc-dev deb libdevel optional arch=linux-any libxtables-dev deb libdevel optional arch=linux-any libxtables12 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e, Alberto Molina Coballes \u003calb.molina@gmail.com\u003e, Jeremy Sowden \u003cjeremy@azazel.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-iptables"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-iptables.git"
+  ],
+  "Version": [
+    "1.8.10-3"
+  ]
+}

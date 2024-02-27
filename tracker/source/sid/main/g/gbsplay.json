@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gbsplay"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gettext, libaudio-dev, libpulse-dev, libasound2-dev, libsdl2-dev, libxcb-icccm4-dev, libcairo2-dev"
+  ],
+  "Checksums-Sha256": [
+    "08b81f70a6095b12770535d59f84c6e96c0b9da730aee4587f90bd94b825039e 2047 gbsplay_0.0.96-1.dsc 15c6795de34f5a78698c40a704c3092f39a1534718cde2698ddff3cb1644ca86 199437 gbsplay_0.0.96.orig.tar.gz c817a118a4dff570cb515ce01c337b73303f75890e45d72dc9368743c3846130 3344 gbsplay_0.0.96-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gbsplay"
+  ],
+  "Files": [
+    "0d2b14914e8edb9595e5906400237158 2047 gbsplay_0.0.96-1.dsc a890d31fb7e06ae7950f2ccadcfa5744 199437 gbsplay_0.0.96.orig.tar.gz 58a73eeedaaba5646214020a91b3a4b4 3344 gbsplay_0.0.96-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mmitch/gbsplay"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "gbsplay"
+  ],
+  "Package-List": [
+    "gbsplay deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e, Christian Garbs \u003cdebian@cgarbs.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/gbsplay"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/gbsplay.git"
+  ],
+  "Version": [
+    "0.0.96-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "radon, python-radon-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all:any, python3-flake8-polyfill, python3-docutils, python3-sphinx, libjs-mathjax"
+  ],
+  "Checksums-Sha256": [
+    "cdec3f8e535bfa346ca331362a401b73abe9b4ab9683467b7d6b86fc60b6b67f 2172 radon_6.0.1+ds1-1.dsc 5d8d3661d28fce3f8b6bed049f6a2c7f670bfb9dbb1d7ea3f477f5bf6f238306 311308 radon_6.0.1+ds1.orig.tar.xz a64ca784d4912a90e7e92dd4fb7ddfedae9629cf3733b19504d02711ba757939 6232 radon_6.0.1+ds1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/radon"
+  ],
+  "Files": [
+    "d08dd078fbd803c53efff325cadb0188 2172 radon_6.0.1+ds1-1.dsc e563bcb5cb77de4edb5c531a0fbdfdff 311308 radon_6.0.1+ds1.orig.tar.xz 6d6d657c15da74d1af30c3a7f4d651f3 6232 radon_6.0.1+ds1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rubik/radon"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "radon"
+  ],
+  "Package-List": [
+    "python-radon-doc deb doc optional arch=all radon deb devel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-pytest-mock"
+  ],
+  "Uploaders": [
+    "Alexandre Detiste \u003ctchet@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/radon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/radon.git"
+  ],
+  "Version": [
+    "6.0.1+ds1-1"
+  ]
+}

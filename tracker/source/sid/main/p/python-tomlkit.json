@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-tomlkit"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, pybuild-plugin-pyproject, python3-all, python3-sphinx, python3-poetry-core, python3-pytest, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "da4f33ba0c5a10f6b94cf249d49ba048518ed8cf3d8d97655613988f0ee378cd 2183 python-tomlkit_0.12.3-1.dsc 75baf5012d06501f07bee5bf8e801b9f343e7aac5a92581f20f80ce632e6b5a4 190967 python-tomlkit_0.12.3.orig.tar.gz b3eca18e2c2eb84cb8d21597cf2e9c56482ce17d65c34850c510f93f7879a7e0 3516 python-tomlkit_0.12.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-tomlkit"
+  ],
+  "Files": [
+    "8a3d1a2f69a5b4468a837027ece53037 2183 python-tomlkit_0.12.3-1.dsc b40ad495dea8a424831ba61b8505643c 190967 python-tomlkit_0.12.3.orig.tar.gz 1afe0a7e53a7eb05c50667baa6e25bc8 3516 python-tomlkit_0.12.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sdispater/tomlkit"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-tomlkit"
+  ],
+  "Package-List": [
+    "python3-tomlkit deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-yaml"
+  ],
+  "Uploaders": [
+    "Scott Kitterman \u003cscott@kitterman.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/tomlkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/tomlkit.git"
+  ],
+  "Version": [
+    "0.12.3-1"
+  ]
+}

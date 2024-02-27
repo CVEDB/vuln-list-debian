@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpowerman0, libpowerman0-dev, powerman"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), dh-exec, flex, libcurl4-openssl-dev, libgenders0-dev, libncurses-dev, libwrap0-dev, pkg-config, systemd-dev [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "91edfadc5ac1d1661cab5f330abfaeaea4f8302c15973b028164ce011d8da0a0 2086 powerman_2.3.27-5.dsc 4464062fccbdd890cc36b5296d0db7b58d57ab496b145b502b1787c6224a2cf5 237849 powerman_2.3.27.orig.tar.gz d848330d929fc98bc2c1590f86001b1c41dda5ee626b6cf912586ccbaf54ca3e 9212 powerman_2.3.27-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/powerman"
+  ],
+  "Files": [
+    "12c7dc40355e68d1552469702b27396a 2086 powerman_2.3.27-5.dsc bafff7c0ce23282ae8ff396a1346d208 237849 powerman_2.3.27.orig.tar.gz 118cd6109b068e288f1d3800033d5371 9212 powerman_2.3.27-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/chaos/powerman"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "powerman"
+  ],
+  "Package-List": [
+    "libpowerman0 deb admin optional arch=any libpowerman0-dev deb libdevel optional arch=any powerman deb admin optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/powerman"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/powerman.git"
+  ],
+  "Version": [
+    "2.3.27-5"
+  ]
+}

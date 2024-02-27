@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debconf, debconf-i18n, debconf-doc, debconf-utils, python3-debconf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-python, po-debconf, po4a"
+  ],
+  "Build-Depends-Indep": [
+    "gettext, libintl-perl, perl, python3"
+  ],
+  "Checksums-Sha256": [
+    "2528e4ed5f0873d5c425953d68bf6164959bd3f7430e53bce2bb99adf0e4a83a 2035 debconf_1.5.86.dsc 7128067f1144046a432784492c58839343768c15b32dc6fafbaa73200d3167d0 573944 debconf_1.5.86.tar.xz"
+  ],
+  "Dgit": [
+    "1037e030c0ae30a3dbf886ae9371e0a301b55015 debian archive/debian/1.5.86 https://git.dgit.debian.org/debconf"
+  ],
+  "Directory": [
+    "pool/main/d/debconf"
+  ],
+  "Files": [
+    "45ad8f453c866c9a1edc38c8d50b797b 2035 debconf_1.5.86.dsc 837aecd8e44a5a998093e37a42f4cc0c 573944 debconf_1.5.86.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debconf Developers \u003cdebconf-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "debconf"
+  ],
+  "Package-List": [
+    "debconf deb admin important arch=all debconf-doc deb doc optional arch=all debconf-i18n deb localization important arch=all debconf-utils deb devel optional arch=all python3-debconf deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.0.0"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-debconf/debconf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-debconf/debconf.git"
+  ],
+  "Version": [
+    "1.5.86"
+  ]
+}

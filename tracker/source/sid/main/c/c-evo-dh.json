@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "c-evo-dh-gtk2, c-evo-dh-stdai, c-evo-dh-data"
+  ],
+  "Build-Depends": [
+    "fpc, lcl, lcl-gtk2, libjpeg-dev, libgtk2.0-dev, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "e82ff114cfca873ecddde59dea7d0f1e8cc0099824dabfd07e13ca67c42ab554 1798 c-evo-dh_1.10-1.dsc a650c8b597ee9ec5578ee0f3d7baf6d007c9160a74c2d611b3df9273db0444c4 5309116 c-evo-dh_1.10.orig.tar.xz d17eb0b4954f250ad49d8ddd098608d0e4d299066daa4f5c87c8d94c1128dd33 566 c-evo-dh_1.10.orig.tar.xz.asc a63ef5af6c3e7165326746e10281480ea82d8fa875918c9db6eaa25f59023d48 15812 c-evo-dh_1.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/c-evo-dh"
+  ],
+  "Files": [
+    "0fd7f2db457b912cde3ae1ef8bfd0fa2 1798 c-evo-dh_1.10-1.dsc 25e0981019b02fef97b62337b770e83b 5309116 c-evo-dh_1.10.orig.tar.xz 7ed11c290205a5a081c21c87f7ae6e8c 566 c-evo-dh_1.10.orig.tar.xz.asc 6e33f757316d3a1c793dd49280dc7af5 15812 c-evo-dh_1.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sourceforge.net/projects/c-evo-eh/"
+  ],
+  "Maintainer": [
+    "Peter Blackman \u003cpeter@pblackman.plus.com\u003e"
+  ],
+  "Package": [
+    "c-evo-dh"
+  ],
+  "Package-List": [
+    "c-evo-dh-data deb games optional arch=all c-evo-dh-gtk2 deb games optional arch=any c-evo-dh-stdai deb games optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Abou Al Montacir \u003cabou.almontacir@sfr.fr\u003e, Debian Games Team \u003cdebian-devel-games@lists.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/PeterB/c-evo-dh"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/PeterB/c-evo-dh.git"
+  ],
+  "Version": [
+    "1.10-1"
+  ]
+}

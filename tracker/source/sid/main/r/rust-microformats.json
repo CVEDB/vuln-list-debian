@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-microformats-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), librust-env-logger-0.10+default-dev, librust-html5ever-0.26+default-dev, librust-lazy-static-1+default-dev, librust-log-0.4+default-dev, librust-regex-1+default-dev (\u003e= 1.5), librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-similar-asserts-1+default-dev, librust-thiserror-1+default-dev, librust-time-0.3+default-dev, librust-time-0.3+macros-dev, librust-time-0.3+serde-human-readable-dev, librust-url-2+default-dev, librust-url-2+serde-dev, libstring-shellquote-perl"
+  ],
+  "Checksums-Sha256": [
+    "598fd8334879fc87f154a5c907afc2df646937926879c0e7d693fadbb4ee4e0c 2662 rust-microformats_0.6.1-2.dsc 4a785db144f815dc22bc4fc28ac19bdb323e37dff09d2d392e1f101f52a8b716 84776 rust-microformats_0.6.1.orig.tar.bz2 18cb04bb68a2e8255eb9adb5e30626fddab25e3fdb79a38dee0b445b8883415d 17532 rust-microformats_0.6.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-microformats"
+  ],
+  "Files": [
+    "8ff09ec0703e04877a07b92b5201602d 2662 rust-microformats_0.6.1-2.dsc 605c09176257c0f7e4953bae4d1ddd8e 84776 rust-microformats_0.6.1.orig.tar.bz2 4f5cb2addc9dcc7cc9dc438b3caf2aa1 17532 rust-microformats_0.6.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rust.microformats.io/"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-microformats"
+  ],
+  "Package-List": [
+    "librust-microformats-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-env-logger-0.10+default-dev, librust-microformats-0.6+default-dev, librust-microformats-0.6-dev, librust-similar-asserts-1+default-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-microformats"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-microformats.git"
+  ],
+  "Version": [
+    "0.6.1-2"
+  ]
+}

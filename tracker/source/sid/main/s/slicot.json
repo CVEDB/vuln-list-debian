@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libslicot0, libslicot-dev, libslicot-pic, libslicot-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "gfortran, libblas-dev, liblapack-dev"
+  ],
+  "Checksums-Sha256": [
+    "b4e51a8e65525baab338e1893992d0c7b224428a5faeb4e26510cf408cb662ff 2268 slicot_5.9~20240205.gita037f7e-1.dsc de69ab996f086b363820c2aac69980162dfa23bf8431460d4976170464f88933 1574184 slicot_5.9~20240205.gita037f7e.orig.tar.xz 4c6bbf48c0d6012bc797dd55efae4ab3257f7ddf1900e7853fa95ab1fbb13544 5740 slicot_5.9~20240205.gita037f7e-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/slicot"
+  ],
+  "Files": [
+    "bde931cfc1b7af6532f0523cc3c2d1c8 2268 slicot_5.9~20240205.gita037f7e-1.dsc dbddf09cbfa2c897fd70c3b3d92b7a65 1574184 slicot_5.9~20240205.gita037f7e.orig.tar.xz 35834f56aba836027a658ae7fdc43d0d 5740 slicot_5.9~20240205.gita037f7e-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.slicot.org"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "slicot"
+  ],
+  "Package-List": [
+    "libslicot-dev deb libdevel optional arch=any libslicot-doc deb doc optional arch=all libslicot-pic deb libdevel optional arch=any libslicot0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/slicot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/slicot.git"
+  ],
+  "Version": [
+    "5.9~20240205.gita037f7e-1"
+  ]
+}

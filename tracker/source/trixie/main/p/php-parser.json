@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-parser"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "444ef853ab284b54f6ffa927511519f6543b2bb48f07da0335544926d31da7d0 1780 php-parser_5.0.1-1.dsc 20dfaa5a58994e501e728ebce39dbe0466ca06f98cb04abd38844b0cd1c9bbea 218088 php-parser_5.0.1.orig.tar.xz 6edc9b1431b63517403e4de4cc421d754ce4aeb5bbf8cb05ef19cb995308346f 12000 php-parser_5.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-parser"
+  ],
+  "Files": [
+    "91c12050280825d9138bf3c738004389 1780 php-parser_5.0.1-1.dsc fc11cfcfbc907f0e2933680fb60586fc 218088 php-parser_5.0.1.orig.tar.xz c1a515bc04585ef056465359c627e4f8 12000 php-parser_5.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/nikic/PHP-Parser"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-parser"
+  ],
+  "Package-List": [
+    "php-parser deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-parser"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-parser.git"
+  ],
+  "Version": [
+    "5.0.1-1"
+  ]
+}

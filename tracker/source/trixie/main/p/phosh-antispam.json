@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "phosh-antispam"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), desktop-file-utils, libgtk-4-dev, libadwaita-1-dev, meson"
+  ],
+  "Checksums-Sha256": [
+    "be5af1a055f0a6d7d9166557e9bbaa25f2eb79ffacccf845000aed2205e420cb 2121 phosh-antispam_3.3.1-1.dsc a1242ea3a0cc49381962894a7969f260b1d7489cd4d5d6dfa5ed7e1ceeaef7ac 176812 phosh-antispam_3.3.1.orig.tar.gz 27024ac5a4affd854ba1877a1be330777d4bc0350242738a7168bf8fb2b80292 8184 phosh-antispam_3.3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phosh-antispam"
+  ],
+  "Files": [
+    "caeea558c2998d83df8d17d7781ccacb 2121 phosh-antispam_3.3.1-1.dsc ef4c19ce6db049a669a65b6e8a895bdf 176812 phosh-antispam_3.3.1.orig.tar.gz 6649f2446a980fc466ebacfa61c12cf1 8184 phosh-antispam_3.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/kop316/phosh-antispam"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "phosh-antispam"
+  ],
+  "Package-List": [
+    "phosh-antispam deb comm optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Evangelos Ribeiro Tzaras \u003cdevrtz-debian@fortysixandtwo.eu\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/phosh-antispam"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/phosh-antispam.git"
+  ],
+  "Version": [
+    "3.3.1-1"
+  ]
+}

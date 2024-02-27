@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-qtconsole, jupyter-qtconsole, python-qtconsole-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-all, python3-ipykernel, python3-ipython (\u003e= 7), python3-ipython-genutils, python3-jupyter-client, python3-jupyter-core, python3-packaging, python3-pygments, python3-qtpy (\u003e= 2.4.0), python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-traitlets, python3-zmq"
+  ],
+  "Checksums-Sha256": [
+    "8d9fe56d9d4a014ba1f5bb1cd20cad5fc1d976920dcf2f1716642e8a1fad5446 2685 python-qtconsole_5.5.1-1.dsc a0e806c6951db9490628e4df80caec9669b65149c7ba40f9bf033c025a5b56bc 438961 python-qtconsole_5.5.1.orig.tar.gz 16aa71a61920226a143768f77efc10190855f17b5ceaab721402be7ceb533b11 7384 python-qtconsole_5.5.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-qtconsole"
+  ],
+  "Files": [
+    "9b01bb39bc54365a8aacaaceeca19bd6 2685 python-qtconsole_5.5.1-1.dsc 8609bd4fde02107fde334594792033f1 438961 python-qtconsole_5.5.1.orig.tar.gz 18d5c622ca172ba6d6bb1b3e35d782b8 7384 python-qtconsole_5.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://jupyter.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-qtconsole"
+  ],
+  "Package-List": [
+    "jupyter-qtconsole deb interpreters optional arch=all python-qtconsole-doc deb doc optional arch=all profile=!nodoc python3-qtconsole deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-flaky, python3-pytest, python3-pytestqt, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e, Julian Gilbey \u003cjdg@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-qtconsole"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-qtconsole.git"
+  ],
+  "Version": [
+    "5.5.1-1"
+  ]
+}

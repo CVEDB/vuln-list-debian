@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-tcgabiolinksgui.data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "8da3021fa173601d992a6b333cb9b9320148eabdb1339e711f1e0f54d93f3015 2269 r-bioc-tcgabiolinksgui.data_1.22.0+dfsg-1.dsc 6870de6f75a60a279275cfec4c01886e3978097da1d7062d7f6f1a02cbbe9a5d 22556956 r-bioc-tcgabiolinksgui.data_1.22.0+dfsg.orig.tar.xz 97ee5b60dfb07bc8d3c7149280f8e5617613b74371eca7512f6f14f5bdb28415 2660 r-bioc-tcgabiolinksgui.data_1.22.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-tcgabiolinksgui.data"
+  ],
+  "Files": [
+    "996de5578a07b176019083a4f15ad440 2269 r-bioc-tcgabiolinksgui.data_1.22.0+dfsg-1.dsc ecffcd2f7197a6bc63429622ffdf4460 22556956 r-bioc-tcgabiolinksgui.data_1.22.0+dfsg.orig.tar.xz e8c14b15afc042678bc9980c9007d4b4 2660 r-bioc-tcgabiolinksgui.data_1.22.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/data/experiment/TCGAbiolinksGUI.data/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-tcgabiolinksgui.data"
+  ],
+  "Package-List": [
+    "r-bioc-tcgabiolinksgui.data deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-tcgabiolinksgui.data"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-tcgabiolinksgui.data.git"
+  ],
+  "Version": [
+    "1.22.0+dfsg-1"
+  ]
+}

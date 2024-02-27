@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pyxnat"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-lxml, python3-httplib2, python3-requests, python3-simplejson, python3-pytest, python3-pandas"
+  ],
+  "Checksums-Sha256": [
+    "8e943bf9ef9f1b7e2580db480626df0f9bba878e3f42daefbb25d39b46cc049f 2324 pyxnat_1.6.2-1.dsc 6da7920192ccf2f211d4c59f88e408130c10683acf651ac692adb877c99812ba 242980 pyxnat_1.6.2.orig.tar.gz 53ae82bb4a28319f707d25b55ec7a5b7782c5159443179aa6aafe7adf14f1590 6164 pyxnat_1.6.2-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "c6953cfd201fa5273b91bd76d5cbb20c45046b96 debian archive/debian/1.6.2-1 https://git.dgit.debian.org/pyxnat"
+  ],
+  "Directory": [
+    "pool/main/p/pyxnat"
+  ],
+  "Files": [
+    "fffd2241f7bf9add9b1edbf7b66c272d 2324 pyxnat_1.6.2-1.dsc cefc463c6134a810e0a9e6b04f6940fd 242980 pyxnat_1.6.2.orig.tar.gz 09e2e218f0fefff4c49d7c4d4d97d050 6164 pyxnat_1.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pyxnat/pyxnat"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pyxnat"
+  ],
+  "Package-List": [
+    "python3-pyxnat deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e, Michael Hanke \u003cmichael.hanke@gmail.com\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/pyxnat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/pyxnat.git"
+  ],
+  "Version": [
+    "1.6.2-1"
+  ]
+}

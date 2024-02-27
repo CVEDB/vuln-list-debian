@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgoogle-perftools-dev, libtcmalloc-minimal4, libgoogle-perftools4, google-perftools"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13, automake1.4"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libunwind-dev [amd64]"
+  ],
+  "Checksums-Sha256": [
+    "a8d00c1f23d22acaa73cc5efb29caa73e8fd241ca4b8a873f71cf86fc27262c4 2210 google-perftools_2.15-1.dsc 3918ff2e21bb3dbb5a801e1daf55fb20421906f7c42fbb482bede7bdc15dfd2e 888271 google-perftools_2.15.orig.tar.gz e42441a9653b3d897514e1e7c1d45033d1bb0f55612240ec8bf3ec7987396d62 7720 google-perftools_2.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/google-perftools"
+  ],
+  "Files": [
+    "600b2aef0674eb3ac2fcb5b90716e97c 2210 google-perftools_2.15-1.dsc 44eb163362ea2449f89276f28b13c5a3 888271 google-perftools_2.15.orig.tar.gz bddc5ec779210e9f827982cf2dbb3742 7720 google-perftools_2.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gperftools/gperftools"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "google-perftools"
+  ],
+  "Package-List": [
+    "google-perftools deb devel optional arch=all libgoogle-perftools-dev deb libdevel optional arch=any libgoogle-perftools4 deb libs optional arch=any libtcmalloc-minimal4 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/google-perftools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/google-perftools.git"
+  ],
+  "Version": [
+    "2.15-1"
+  ]
+}

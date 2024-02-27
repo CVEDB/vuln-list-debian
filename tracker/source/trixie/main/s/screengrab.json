@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "screengrab"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libkf5windowsystem-dev (\u003e= 5.101.0~), libqt5x11extras5-dev (\u003e= 5.15.0~), libqt5xdg-dev (\u003e= 3.12.0~), libx11-xcb-dev, libxcb-xfixes0-dev [!kfreebsd-any], lxqt-build-tools"
+  ],
+  "Checksums-Sha256": [
+    "fb2e12a09bbd1506e4fcb84524cea96df3b34ac1aaa139ccc2193d2e6a3756fc 2433 screengrab_2.7.0-1.dsc df1ec77d4a64cd7af0b54edd46499aaa92210c4fbb82d7a45de4500f011bbd85 341696 screengrab_2.7.0.orig.tar.xz 18524eb3f02c8d6ef1ace87fc1d048d97242fdbcc1f737dd4f3a4ad1206b73bc 862 screengrab_2.7.0.orig.tar.xz.asc 537caa7f8852d78cb23ca8402189f3c13309e8d03302b6f153d2ed8ea570f835 14204 screengrab_2.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/screengrab"
+  ],
+  "Files": [
+    "369f44c6683aa1e6ced54756526952f1 2433 screengrab_2.7.0-1.dsc df840ca6ad74b6388b9c0067c9f31423 341696 screengrab_2.7.0.orig.tar.xz cf10e4100d31cc2199b2939fe9cb9577 862 screengrab_2.7.0.orig.tar.xz.asc 990df2ec44bbe2d989bbf038cf551601 14204 screengrab_2.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxqt/screengrab"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "screengrab"
+  ],
+  "Package-List": [
+    "screengrab deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/screengrab"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/screengrab.git"
+  ],
+  "Version": [
+    "2.7.0-1"
+  ]
+}

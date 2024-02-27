@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-pingr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-processx"
+  ],
+  "Checksums-Sha256": [
+    "4fc9334be5de8b2613c91702c26c65f1f1d71b007fabc4a3319b049aa2430c12 2103 r-cran-pingr_2.0.3-1.dsc 3c29c0be588c3fee267a2c0f60faa08e37682ba001db6c0249b065abc6aed863 17408 r-cran-pingr_2.0.3.orig.tar.gz 09219ea71484fe42e94b02223efaba7be4cade6918d171891cf92aab15737b48 2684 r-cran-pingr_2.0.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-pingr"
+  ],
+  "Files": [
+    "d97e4d1145b96ab35af599073bbd7bee 2103 r-cran-pingr_2.0.3-1.dsc 1fa6ce8bcbbeda3df39c59180a3ad149 17408 r-cran-pingr_2.0.3.orig.tar.gz 655356f6c877329b01386fd4cdb6f381 2684 r-cran-pingr_2.0.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=pingr"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-pingr"
+  ],
+  "Package-List": [
+    "r-cran-pingr deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Eric Brown \u003ceb@ericebrown.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-pingr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-pingr.git"
+  ],
+  "Version": [
+    "2.0.3-1"
+  ]
+}

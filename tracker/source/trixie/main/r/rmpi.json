@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rmpi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev (\u003e= 4.3.2), mpi-default-dev, mpi-default-bin, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "ee89ac417116ff096eacc8014a905218bfdbdfbef521947339b54f0bd891b7aa 1841 rmpi_0.7-2-1.dsc 8591fa9f50de52535a32b36e7ed142c6ca4e03fdfdbef79a1e27a63ed5322eef 106380 rmpi_0.7-2.orig.tar.gz 5e7ef5fa92406a722f84d2a26357298fe10cee18403d9e65ac4030fe028e6809 4084 rmpi_0.7-2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rmpi"
+  ],
+  "Files": [
+    "89032329da6ae1ab81ea424d3c84f973 1841 rmpi_0.7-2-1.dsc ba8538ddb5d4c12863d5b16e3d64f290 106380 rmpi_0.7-2.orig.tar.gz c5f465131ef601329f05588dc93cb3de 4084 rmpi_0.7-2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=Rmpi"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "rmpi"
+  ],
+  "Package-List": [
+    "r-cran-rmpi deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-rmpi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-rmpi.git"
+  ],
+  "Version": [
+    "0.7-2-1"
+  ]
+}

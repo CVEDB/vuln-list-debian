@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libass-dev, libass9"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libfontconfig-dev, libfreetype-dev, libfribidi-dev, libharfbuzz-dev, libunibreak-dev, nasm [any-amd64 any-i386]"
+  ],
+  "Checksums-Sha256": [
+    "ac465f037ee10c8eaaba046abd0daeba22f234c7f38c11da38c8801987f0fb8c 1765 libass_0.17.1-2.dsc d653be97198a0543c69111122173c41a99e0b91426f9e17f06a858982c2fb03d 546658 libass_0.17.1.orig.tar.gz 699d1ba876d7bac95dbac56bac0f00126473e8588759a4ec13cdf52ae03d8483 228 libass_0.17.1.orig.tar.gz.asc 7e964aa9f22a1f10735cdc457646e39bc7d2d87f4df391ef940cdcd7b3db8911 15744 libass_0.17.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libass"
+  ],
+  "Files": [
+    "faae5c67b116bfb6d41ded53c300e960 1765 libass_0.17.1-2.dsc 3a0e357a4334bd48e58d063624b36303 546658 libass_0.17.1.orig.tar.gz c7c7a9faeb5486a1e5550064858afb83 228 libass_0.17.1.orig.tar.gz.asc aa143c592bc5c04518fecd236ecb3220 15744 libass_0.17.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libass/libass"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libass"
+  ],
+  "Package-List": [
+    "libass-dev deb libdevel optional arch=any libass9 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Christophe Mutricy \u003cxtophe@videolan.org\u003e, Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libass"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libass.git"
+  ],
+  "Version": [
+    "1:0.17.1-2"
+  ]
+}

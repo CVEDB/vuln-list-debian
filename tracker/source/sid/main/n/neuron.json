@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "neuron, neuron-dev, python3-neuron"
+  ],
+  "Build-Depends": [
+    "bison, bluebrain-hpc-coding-conventions, catch2, chrpath, cmake, cython3, debhelper-compat (= 13), dh-python, flex, libbackward-cpp-dev, libinterviews-dev, libmeschach-dev, libpython3-dev, librandom123-dev, libreadline-dev, mpi-default-dev, python3-all, python3-setuptools, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "7816c679b28adc6a906f1cdb87ed2037e24020fcef660e908b6c63e42267fdde 1737 neuron_8.2.2-6.dsc 245b325ed7929e34c20011bd345d828fe0456d3cce0846bdd5e9906daaff8b2c 12245976 neuron_8.2.2.orig.tar.gz ed44d9244f0df47662bb0ab9f0ef714f633f8dbed057c1db7e7e6e5d6f35aa51 29396 neuron_8.2.2-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/neuron"
+  ],
+  "Files": [
+    "3fed8c447b3f644987ff9daac861184b 1737 neuron_8.2.2-6.dsc b47bf7cb7717821fe1db7b946fc968a6 12245976 neuron_8.2.2.orig.tar.gz 48bb7e175e4a2dc288afd1367744c44e 29396 neuron_8.2.2-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.neuron.yale.edu/neuron/"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "neuron"
+  ],
+  "Package-List": [
+    "neuron deb science optional arch=any neuron-dev deb science optional arch=any python3-neuron deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Matthias Klumpp \u003cmak@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/neuron"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/neuron.git"
+  ],
+  "Version": [
+    "8.2.2-6"
+  ]
+}

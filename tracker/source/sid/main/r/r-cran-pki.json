@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-pki"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-base64enc, libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "dda681d6810c2d1ed89fd1f9108adfa502d6d83288b95887adf950fa2c551511 2052 r-cran-pki_0.1-12-2.dsc ad837a42866ecbbe5a17eb5912133f4464217cf34e80126bf4b7669ba8792d5a 85544 r-cran-pki_0.1-12.orig.tar.gz cc390e7f75e8abb9ba7332d28988ec788b7e762b00d3e4d22a26d867209ee007 4008 r-cran-pki_0.1-12-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-pki"
+  ],
+  "Files": [
+    "e99d0ff45e0400bba4efe1336ee38fce 2052 r-cran-pki_0.1-12-2.dsc 7d7d1b331cf07bee9ec8c9c97027ff40 85544 r-cran-pki_0.1-12.orig.tar.gz d1312b459660a0be13b14349db398032 4008 r-cran-pki_0.1-12-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=PKI"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-pki"
+  ],
+  "Package-List": [
+    "r-cran-pki deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-pki"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-pki.git"
+  ],
+  "Version": [
+    "0.1-12-2"
+  ]
+}

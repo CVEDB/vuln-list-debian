@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-writexl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, r-cran-rdpack, r-cran-gbutils"
+  ],
+  "Checksums-Sha256": [
+    "2b6bd7308d0d9d69f7d18bbf5398e45e2beb21d0bf3e409361fb290995faa21f 1911 r-cran-writexl_1.5.0-1.dsc e253dc58f00abf51e9b727ae132e8b301e359fb23df0afc40c3ebec3fb096dce 278311 r-cran-writexl_1.5.0.orig.tar.gz 6b52a2bfb177f8fcb5c186b10eddeeec15097e7fd3b9a625c21e189dd3cf4127 3888 r-cran-writexl_1.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-writexl"
+  ],
+  "Files": [
+    "a94ae496d4e6aee28dbb07d2260e846a 1911 r-cran-writexl_1.5.0-1.dsc 17dacf647864aed0b745bdd174601b4c 278311 r-cran-writexl_1.5.0.orig.tar.gz 3895c56a5ba08901dbe7363eae1aba9f 3888 r-cran-writexl_1.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=writexl"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-cran-writexl"
+  ],
+  "Package-List": [
+    "r-cran-writexl deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-writexl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-writexl.git"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

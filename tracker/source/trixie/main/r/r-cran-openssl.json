@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-openssl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-askpass, libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "9cc7aebc562b4377ab429e98cb973abbcd98022465bfdbcbe1862e057e85d24b 2257 r-cran-openssl_2.1.1+dfsg-2.dsc e906a00bfcfa8710ddba6f83b495df131f48207aecb80b223925fe5803d4fa6a 230944 r-cran-openssl_2.1.1+dfsg.orig.tar.xz d6429dadd99e1c4d623f9548dbe196af0eecb84ce68217e0e118fb669c03e0d4 4096 r-cran-openssl_2.1.1+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-openssl"
+  ],
+  "Files": [
+    "1dfa70fffe1789db5734013bf5301f3c 2257 r-cran-openssl_2.1.1+dfsg-2.dsc 6c27cd0be4708bd3db5aed1881b60f3d 230944 r-cran-openssl_2.1.1+dfsg.orig.tar.xz d86561a5440b31546325329305c37b7e 4096 r-cran-openssl_2.1.1+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=openssl"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-openssl"
+  ],
+  "Package-List": [
+    "r-cran-openssl deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-curl, r-cran-digest, r-cran-jsonlite, r-cran-knitr, r-cran-rmarkdown, r-cran-sodium, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-openssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-openssl.git"
+  ],
+  "Version": [
+    "2.1.1+dfsg-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-sqlparse, python-sqlparse-doc, sqlformat"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, pybuild-plugin-pyproject, flit, python3-sphinx, python3-pytest, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "013c7e6fd10ae0d961dcd07b7aa3c7245124ee75c7456122f23eefc29266b8cb 2224 sqlparse_0.4.4-1.dsc acd2ca52392d78e8f4fc70bbbbb4fd5e4c8fd18b95af09a4acf6bdae813dbca6 70146 sqlparse_0.4.4.orig.tar.gz 88f94613d1b765d01d6f8e4d5a2392ac2777a28c3abadd961e2464610a18528c 5360 sqlparse_0.4.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sqlparse"
+  ],
+  "Files": [
+    "8e58146d38b08bdcb5ed41d57b3d8cab 2224 sqlparse_0.4.4-1.dsc 470c18e5c1ab8c35e190c117a041c73a 70146 sqlparse_0.4.4.orig.tar.gz a2fc8e35a8044a998aeca2ddb9aa77aa 5360 sqlparse_0.4.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/andialbrecht/sqlparse"
+  ],
+  "Maintainer": [
+    "Andrii Senkovych \u003candrii@senkovych.com\u003e"
+  ],
+  "Package": [
+    "sqlparse"
+  ],
+  "Package-List": [
+    "python-sqlparse-doc deb doc optional arch=all python3-sqlparse deb python optional arch=all sqlformat deb text optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sqlparse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sqlparse.git"
+  ],
+  "Version": [
+    "0.4.4-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cdo, libcdi0, libcdi-dev"
+  ],
+  "Build-Conflicts": [
+    "libcdi-dev, libcdi0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), architecture-is-64-bit, dh-buildinfo, dh-fortran-mod (\u003e= 0.32), libproj-dev, automake (\u003e= 1.16.1-1~), cfortran, libnetcdf-dev, netcdf-bin, libhdf5-serial-dev, libaec-dev, libfftw3-dev, libudunits2-dev, ruby, libeccodes-dev (\u003e= 2.13.1-2), libtool, libxml2-dev, libmagics++-dev (\u003e= 2.24.7-7), libcurl4-gnutls-dev | libcurl4-openssl-dev | libcurl4-nss-dev"
+  ],
+  "Checksums-Sha256": [
+    "3980291aaa8085b972999e3478c647fc974d52c3075640d3bb0fff26c8844d77 2366 cdo_2.4.0-1.dsc 6b87b5daf00ebbcb801a9d42768f72aacc3b65995425124a4005cad69ce16b57 9836604 cdo_2.4.0.orig.tar.xz 1d78fdc2cfa01c560d456960777b1fc2186403a6933274710936111e486d8aba 12340 cdo_2.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cdo"
+  ],
+  "Files": [
+    "182aabb5b6e78164226143d2af745ed0 2366 cdo_2.4.0-1.dsc f987787f3629b90ae94ccfdeafa0d396 9836604 cdo_2.4.0.orig.tar.xz f5c5de1809a45388f771fc885be95f7b 12340 cdo_2.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://code.mpimet.mpg.de/projects/cdo"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "cdo"
+  ],
+  "Package-List": [
+    "cdo deb utils optional arch=any libcdi-dev deb libdevel optional arch=any libcdi0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-cdo"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/science-team/cdo.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/cdo.git -b debian/latest"
+  ],
+  "Version": [
+    "2.4.0-1"
+  ]
+}

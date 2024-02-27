@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xdiskusage"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fluid, libfltk1.3-dev, libglu1-mesa-dev, libx11-dev, libxinerama-dev"
+  ],
+  "Checksums-Sha256": [
+    "0c0b75271c65c3099cece88461982417c937f92c83272e129cb31ee54a486aa9 1899 xdiskusage_1.60-3.dsc 7b536dc6f1bdc6d9bec7c29b9435c23d9d32bff8a0ebee26b9966b273dc9f67e 54990 xdiskusage_1.60.orig.tar.gz 394074c16beaac28bd2da2d90c5c0358399c04823ecd3fc0d60dbaa9e0b1ec53 6208 xdiskusage_1.60-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xdiskusage"
+  ],
+  "Files": [
+    "3d4d336f4bb4452fefeefb0a1f892bfa 1899 xdiskusage_1.60-3.dsc e5300f288b28a6d5c86461854f3029c2 54990 xdiskusage_1.60.orig.tar.gz fcdbc2445aaef5e912b601fdaf341d8d 6208 xdiskusage_1.60-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://xdiskusage.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Package": [
+    "xdiskusage"
+  ],
+  "Package-List": [
+    "xdiskusage deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/xdiskusage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/xdiskusage.git"
+  ],
+  "Version": [
+    "1.60-3"
+  ]
+}

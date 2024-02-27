@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libfalcosecurity0t64, libfalcosecurity0-dev, falcosecurity-scap-dkms"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libvalijson-dev (\u003e= 0.6), libb64-dev, libc-ares-dev, libcurl4-openssl-dev, libgrpc++-dev, libgrpc-dev, libgtest-dev, libjq-dev, libjsoncpp-dev, libprotobuf-dev, libssl-dev, libtbb-dev, zlib1g-dev, protobuf-compiler, protobuf-compiler-grpc, libluajit-5.1-dev [amd64 arm64 armel armhf i386 mips64el s390x] | liblua5.1-0-dev, libelf-dev, libre2-dev, libcap-dev, uthash-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-dkms"
+  ],
+  "Checksums-Sha256": [
+    "fcb9d66dde89998836b48864563845be7d22a3786693813e4a718f70c040bd96 2578 falcosecurity-libs_0.14.1-5.dsc defdea24bf3b176c63f10900d3716fe4373151965cc09d3fe67a31a3a9af0b13 3866049 falcosecurity-libs_0.14.1.orig.tar.gz 2f22b6f4958c1cd2f79a517a34c66e19a0b4a5fa9818c30cd5bef81f15fd7205 9588 falcosecurity-libs_0.14.1-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/falcosecurity-libs"
+  ],
+  "Files": [
+    "2a1109966dfc9e8b5552fc0edecc2d05 2578 falcosecurity-libs_0.14.1-5.dsc af8984dced50d09cd8fca4ae6a977dd8 3866049 falcosecurity-libs_0.14.1.orig.tar.gz 011b9da1129cd309e3083bada2091fd1 9588 falcosecurity-libs_0.14.1-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/falcosecurity/libs"
+  ],
+  "Maintainer": [
+    "Dima Kogan \u003cdkogan@debian.org\u003e"
+  ],
+  "Package": [
+    "falcosecurity-libs"
+  ],
+  "Package-List": [
+    "falcosecurity-scap-dkms deb kernel optional arch=all libfalcosecurity0-dev deb libdevel optional arch=any libfalcosecurity0t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/falcosecurity-libs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/falcosecurity-libs.git"
+  ],
+  "Version": [
+    "0.14.1-5"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-omniauth-alicloud"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 2.1~), ruby-omniauth-oauth2 (\u003e= 1.8)"
+  ],
+  "Checksums-Sha256": [
+    "3a9e9c1ff3d3b9c87b3bc5185c586a93b076a2f9a9f283795210fed4290e8cda 2189 ruby-omniauth-alicloud_3.0.0-2.dsc 94a627ad27a15311f14538ad9c30ab6ee30c575b1e07370af133465c2a727edd 3887 ruby-omniauth-alicloud_3.0.0.orig.tar.gz 1275b67caebc52e650e74d7e5b8dab6868124bc192d2c962ac48c060a795a552 2944 ruby-omniauth-alicloud_3.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-omniauth-alicloud"
+  ],
+  "Files": [
+    "c4339358933062c4d0fdc45e9a5c6b6a 2189 ruby-omniauth-alicloud_3.0.0-2.dsc a5df87532060fcad959eb70bb96b8831 3887 ruby-omniauth-alicloud_3.0.0.orig.tar.gz 52b5a322e1e453b68a1cb7a7b4a9e654 2944 ruby-omniauth-alicloud_3.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/gitlab-jh/jh-team/omniauth-alicloud"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-omniauth-alicloud"
+  ],
+  "Package-List": [
+    "ruby-omniauth-alicloud deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Vivek K J \u003cvivekkj@protonmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-omniauth-alicloud"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-omniauth-alicloud.git"
+  ],
+  "Version": [
+    "3.0.0-2"
+  ]
+}

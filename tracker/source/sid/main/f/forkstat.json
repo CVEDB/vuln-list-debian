@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "forkstat"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "517ef81bc40379e715e616ab0026d6e0ae84c9b05329901c4c9e1f5442525dee 1771 forkstat_0.03.02-1.dsc 571e7c50703b2eac8d1c5476e5edf24dd2f5c7beff4e3719f090efd376ab950d 149392 forkstat_0.03.02.orig.tar.xz adefe729e137e3a0b13f57a7b96a4e5bac4cca5331c09d9280a529efa8ba3e76 5136 forkstat_0.03.02-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/forkstat"
+  ],
+  "Files": [
+    "839a4e58db6a178736df222ba4aea861 1771 forkstat_0.03.02-1.dsc 508ec2d30f8822c82434ad4f8db8b135 149392 forkstat_0.03.02.orig.tar.xz 8df28ee1f453fd3940548b125aaebf2a 5136 forkstat_0.03.02-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/forkstat"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "forkstat"
+  ],
+  "Package-List": [
+    "forkstat deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.03.02-1"
+  ]
+}

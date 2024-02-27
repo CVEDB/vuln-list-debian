@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ngetty"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "f393904696eb12837684f7d2a8837c25cf8c90edcd0561b4bf2ad0cfff3a593d 1771 ngetty_1.1-12.dsc 15a0649b552aa47eeb80c7cc57ec6f562a89e271b14386838fbdb90244c546b0 36954 ngetty_1.1.orig.tar.gz 6b13111ac11542814b1256ffc7a68167a5355a117792ace40d281281ab781963 8212 ngetty_1.1-12.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/ngetty"
+  ],
+  "Files": [
+    "bcea5620c80b9a8fb119e840b37d0cb7 1771 ngetty_1.1-12.dsc 9248a9a41d3807669e03561102fb9af7 36954 ngetty_1.1.orig.tar.gz 75b24d77c6c86137638ce26ba4cc5de3 8212 ngetty_1.1-12.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "ngetty"
+  ],
+  "Package-List": [
+    "ngetty deb comm optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "comm"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ngetty"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ngetty.git"
+  ],
+  "Version": [
+    "1.1-12"
+  ]
+}

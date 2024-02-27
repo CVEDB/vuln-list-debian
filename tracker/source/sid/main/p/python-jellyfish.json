@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-jellyfish, python-jellyfish-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, mkdocs-material, python3-all-dev, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-pymdownx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "768589c2862a4201ca5eaf86a8bb40f1a918b6d2d463895f2d1e1a19136db959 2327 python-jellyfish_0.10.0-3.dsc 490266aab002c933bcd37a0c877e3e9354f6cc0f008d5322ce28f77490656da8 126123 python-jellyfish_0.10.0.orig.tar.gz a1beac294e0ef21a766cd0ae9b67bbc08373edcaf9758c817c9d8c93cdcdddda 4592 python-jellyfish_0.10.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-jellyfish"
+  ],
+  "Files": [
+    "e8e3def49764787a2a64b4de04f299ca 2327 python-jellyfish_0.10.0-3.dsc d69dbc7ee7b87ef5ebda63b52095603d 126123 python-jellyfish_0.10.0.orig.tar.gz 36009dad02c675ae2da648df65f995d5 4592 python-jellyfish_0.10.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jamesturk/jellyfish"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-jellyfish"
+  ],
+  "Package-List": [
+    "python-jellyfish-doc deb doc optional arch=all python3-jellyfish deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Julian Gilbey \u003cjdg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-jellyfish"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-jellyfish.git"
+  ],
+  "Version": [
+    "0.10.0-3"
+  ]
+}

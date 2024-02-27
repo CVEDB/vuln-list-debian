@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pipewalker"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), imagemagick, libsdl2-dev, libsdl2-image-dev, meson"
+  ],
+  "Checksums-Sha256": [
+    "cd0ecdb7801fcc176b5e26029049081ab270bd2d908aa1a405bcaca35f0d400f 1951 pipewalker_1.0-1.dsc 24232fdf71c7146f1621c461601b60bd6237d801e6403a5695be4d57419e1a21 878256 pipewalker_1.0.orig.tar.gz 0ab6ab5e2801b17a7b7040c1e73e6c887884d1984861b3fd219be5328b83fca2 6992 pipewalker_1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pipewalker"
+  ],
+  "Files": [
+    "f5a66069ee7afc518cbfce981ec3c73e 1951 pipewalker_1.0-1.dsc b16dca774719bcadfe66bd106cda1e0e 878256 pipewalker_1.0.orig.tar.gz 26095936cc49dcaf52f81308f8d52e58 6992 pipewalker_1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pipewalker.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "David da Silva Polverari \u003cpolverari@debian.org\u003e"
+  ],
+  "Package": [
+    "pipewalker"
+  ],
+  "Package-List": [
+    "pipewalker deb games optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "xauth, xvfb"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pipewalker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pipewalker.git"
+  ],
+  "Version": [
+    "1.0-1"
+  ]
+}

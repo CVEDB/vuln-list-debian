@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "ax25-apps"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libncurses-dev, libax25-dev, libtool"
+  ],
+  "Checksums-Sha256": [
+    "eacc918a5c140d7b681bba4b54b2dee2fb9417038c8345067a28288079a98d03 1856 ax25-apps_0.0.8-rc5+git20230513+afc4a5f-1.dsc dc32cf12d05ee516adefefdf81293ed2be6d79f2137155ae6bccdf2fde7029a9 97940 ax25-apps_0.0.8-rc5+git20230513+afc4a5f.orig.tar.xz ead57721479cd662f2d9109e12d5bd9ac6a30fc98c270759bc63129857e03389 13280 ax25-apps_0.0.8-rc5+git20230513+afc4a5f-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/ax25-apps"
+  ],
+  "Files": [
+    "e0a7687ef9dbcdffb507e8ef0b6da554 1856 ax25-apps_0.0.8-rc5+git20230513+afc4a5f-1.dsc e01723a4ba956057e136861098eb13a9 97940 ax25-apps_0.0.8-rc5+git20230513+afc4a5f.orig.tar.xz 40959714d0811906abc9d35a85d469a9 13280 ax25-apps_0.0.8-rc5+git20230513+afc4a5f-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://linux-ax25.in-berlin.de/wiki/Ax25-apps"
+  ],
+  "Maintainer": [
+    "Debian Hamradio Maintainers \u003cdebian-hams@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ax25-apps"
+  ],
+  "Package-List": [
+    "ax25-apps deb hamradio optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "hamradio"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Francois Marier \u003cfrancois@debian.org\u003e, Dave Hibberd \u003chibby@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/ax25-apps"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/ax25-apps.git"
+  ],
+  "Version": [
+    "0.0.8-rc5+git20230513+afc4a5f-1"
+  ]
+}

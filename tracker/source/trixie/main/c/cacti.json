@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "cacti"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-linktree, libjs-jquery-colorpicker, libjs-jquery-jstree, libjs-jquery-ui-theme-south-street, libjs-jquery-ui-theme-ui-darkness, libjs-jquery-ui-theme-smoothness, gettext, pandoc, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "e97c500888ceb1d076734a8e94d7ca37d6ccf6dde6990dff560fb35715d0e38f 2231 cacti_1.2.26+ds1-1.dsc 6913e0dbeb8f63c133e310d86b02351170cebcfb5350b341c5e5b90fda9257dd 24214045 cacti_1.2.26+ds1.orig-docs-source.tar.gz 0e96f66dbb77e8a43896be7627746353400a2cfcca185b89231d821cfb92fb65 10834472 cacti_1.2.26+ds1.orig.tar.gz 0491878922a2bfff4598bcfcf10577d35d0e2da62582c3d468eec7d7bb81bfe5 57492 cacti_1.2.26+ds1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "bd8f58a26cccf84d9761e1ea40ef5d8600448437 debian archive/debian/1.2.26+ds1-1 https://git.dgit.debian.org/cacti"
+  ],
+  "Directory": [
+    "pool/main/c/cacti"
+  ],
+  "Files": [
+    "c95590ff6fca61bd640bf57abda37564 2231 cacti_1.2.26+ds1-1.dsc 5c242ea7e3cc30be24ce1c52829ff067 24214045 cacti_1.2.26+ds1.orig-docs-source.tar.gz c67367112f465dce7a2d0dd2b2dbb953 10834472 cacti_1.2.26+ds1.orig.tar.gz 3acc85905d1d2caf70f34ddbde4d8abb 57492 cacti_1.2.26+ds1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.cacti.net/"
+  ],
+  "Maintainer": [
+    "Cacti Maintainer \u003cpkg-cacti-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cacti"
+  ],
+  "Package-List": [
+    "cacti deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, mariadb-server, mysql-server, wget"
+  ],
+  "Uploaders": [
+    "Paul Gevers \u003celbrus@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/cacti"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/cacti.git"
+  ],
+  "Version": [
+    "1.2.26+ds1-1"
+  ]
+}

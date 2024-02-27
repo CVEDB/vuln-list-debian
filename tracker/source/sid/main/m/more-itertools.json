@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-more-itertools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, flit, pybuild-plugin-pyproject, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "ac534df541c1bfa22d1ec27896db0750c4a06c096f48ff490c11f427d2b64d56 2133 more-itertools_10.2.0-1.dsc 4147a91d953770d60f80027d2b5eac21144d080dddf7768af9ed86213cff0310 109193 more-itertools_10.2.0.orig.tar.gz 5991bfe0d99ba639824bbc9a0deca3d10e7a2ea7e4affe2d3cfb95b63ec5a0f2 3516 more-itertools_10.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/more-itertools"
+  ],
+  "Files": [
+    "586612c072e9f2975311d36227ddaa61 2133 more-itertools_10.2.0-1.dsc f1713a8608a2586b42aa969ac8127cfb 109193 more-itertools_10.2.0.orig.tar.gz 5612619d22b32980112fa529a3e022bc 3516 more-itertools_10.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/more-itertools/more-itertools/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "more-itertools"
+  ],
+  "Package-List": [
+    "python3-more-itertools deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "flit, python3-all"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/more-itertools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/more-itertools.git"
+  ],
+  "Version": [
+    "10.2.0-1"
+  ]
+}

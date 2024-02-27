@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "reportbug, python3-reportbug, reportbug-gtk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, python3"
+  ],
+  "Build-Depends-Indep": [
+    "python3-pytest, python3-pytest-cov, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "f55ebc916d74d9c0f20db49de63618dcf4df40c0eed6f0841ea42188c2249a2f 1888 reportbug_13.0.0.dsc 749a989c1d89012088ee1533f8947bb2df88155df150a5c843944465c6379a7d 214028 reportbug_13.0.0.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/reportbug"
+  ],
+  "Files": [
+    "c280cfcb1457ba4f5541c0d5f9ad23fb 1888 reportbug_13.0.0.dsc a91808d08be9dcd275e9f162f55e20d0 214028 reportbug_13.0.0.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Reportbug Maintainers \u003cdebian-reportbug@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "reportbug"
+  ],
+  "Package-List": [
+    "python3-reportbug deb python standard arch=all reportbug deb utils standard arch=all reportbug-gtk deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e, Nis Martensen \u003cnis.martensen@web.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/reportbug-team/reportbug"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/reportbug-team/reportbug.git"
+  ],
+  "Version": [
+    "13.0.0"
+  ]
+}

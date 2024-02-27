@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rayon-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-either-1-dev \u003c!nocheck\u003e, librust-rayon-core-1+default-dev (\u003e= 1.12.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "453ca5823aab3c64dd39ecb9454105e4c00329dab114221ba3ecabe8dc4c55b5 2316 rust-rayon_1.8.1-1.dsc fa7237101a77a10773db45d62004a272517633fbcc3df19d96455ede1122e051 170448 rust-rayon_1.8.1.orig.tar.gz a5acd4b97b0c3c151f54782183197d5f2ffd9d88317525bb730f23ec1bdce351 3360 rust-rayon_1.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rayon"
+  ],
+  "Files": [
+    "f7bc4e60ffc624b8949ce78c59e209d3 2316 rust-rayon_1.8.1-1.dsc bef9dfe51e35df0f909fb7671cf25317 170448 rust-rayon_1.8.1.orig.tar.gz 3ce0084e5375bd2f7275b4146db60c56 3360 rust-rayon_1.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rayon"
+  ],
+  "Package-List": [
+    "librust-rayon-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rand-0.8+default-dev, librust-rand-xorshift-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rayon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rayon]"
+  ],
+  "Version": [
+    "1.8.1-1"
+  ]
+}

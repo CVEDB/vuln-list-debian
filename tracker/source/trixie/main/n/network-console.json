@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "network-console"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), po-debconf (\u003e= 0.5)"
+  ],
+  "Checksums-Sha256": [
+    "969e6c3108df6ab90b55d082cb92ac96bf920559c5e95a854b4973ca7d3062de 1684 network-console_1.94.dsc c2abeab5722688ebd7af02f2f754bd48fbc0575dd4f77c118c55a1e085e0c117 101544 network-console_1.94.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/network-console"
+  ],
+  "Files": [
+    "317d59cf8721624269c11ab70f70954f 1684 network-console_1.94.dsc b99e71d2f117fbbe0720115b0d5e9494 101544 network-console_1.94.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "network-console"
+  ],
+  "Package-List": [
+    "network-console udeb debian-installer optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "debian-installer"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/network-console"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/network-console.git"
+  ],
+  "Version": [
+    "1.94"
+  ]
+}

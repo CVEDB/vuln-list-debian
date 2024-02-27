@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-k8s-utils-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-davecgh-go-spew-dev, golang-github-spf13-afero-dev, golang-github-stretchr-testify-dev, golang-k8s-klog-dev"
+  ],
+  "Checksums-Sha256": [
+    "e0fce373a499f361eccae16b539930094c35a2f8d352a60e898870328f458451 2412 golang-k8s-utils_0.0~git20240102.e7106e6-1.dsc 463e871f51398706763076deb84d9b9f036d2b99ca8e6711c512c25e35df24f6 95612 golang-k8s-utils_0.0~git20240102.e7106e6.orig.tar.xz 3a643522bfc0107791317be0ec727fc616ceb0eacdced18c1316adc59d78bfde 3568 golang-k8s-utils_0.0~git20240102.e7106e6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-k8s-utils"
+  ],
+  "Files": [
+    "cb4d7bef713fd55a175d37b75541d029 2412 golang-k8s-utils_0.0~git20240102.e7106e6-1.dsc a089d99f00c29d88a3ffbe19372043c5 95612 golang-k8s-utils_0.0~git20240102.e7106e6.orig.tar.xz 4c4659a0daafb31434f420995f79493d 3568 golang-k8s-utils_0.0~git20240102.e7106e6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "k8s.io/utils"
+  ],
+  "Homepage": [
+    "https://github.com/kubernetes/utils"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-k8s-utils"
+  ],
+  "Package-List": [
+    "golang-k8s-utils-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Arthur Diniz \u003carthurbdiniz@gmail.com\u003e, Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-k8s-utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-k8s-utils.git"
+  ],
+  "Version": [
+    "0.0~git20240102.e7106e6-1"
+  ]
+}

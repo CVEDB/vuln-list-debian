@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-astropy-iers-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "de250c3666c9062408ccf098f8abaca1927ae68c2ab4955ebf01d0d9407ed276 2260 astropy-iers-data_0.2024.01.01.00.33.39-1.dsc 3eda23ec8a28cf320756de3811033873a162b58270bcb1451e3ddd1365c7379e 1903262 astropy-iers-data_0.2024.01.01.00.33.39.orig.tar.gz d54d51b49606bcede163bad6e54135b726b326413c7128e59970c2cd51a4c9ce 2800 astropy-iers-data_0.2024.01.01.00.33.39-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/astropy-iers-data"
+  ],
+  "Files": [
+    "b7ffe14c298818a5d82b5b57a2ea658f 2260 astropy-iers-data_0.2024.01.01.00.33.39-1.dsc e1c3c612f29fbf288671c93469c2fcc1 1903262 astropy-iers-data_0.2024.01.01.00.33.39.orig.tar.gz d59c0451ee4c9241d6ded4f89279488d 2800 astropy-iers-data_0.2024.01.01.00.33.39-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/astropy/astropy-iers-data"
+  ],
+  "Maintainer": [
+    "Debian Astro Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "astropy-iers-data"
+  ],
+  "Package-List": [
+    "python3-astropy-iers-data deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/astropy-iers-data"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/astropy-iers-data.git"
+  ],
+  "Version": [
+    "0.2024.01.01.00.33.39-1"
+  ]
+}

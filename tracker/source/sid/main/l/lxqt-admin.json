@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lxqt-admin, lxqt-admin-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libkf5windowsystem-dev, liblxqt1-dev (\u003e= 1.4.0~), libpolkit-qt5-1-dev, libqt5x11extras5-dev, libsystemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "42b6438a051bbb8cb5fc26e768213295135b9afb1b4e66a59284d326608b3aba 2512 lxqt-admin_1.4.0-1.dsc dd1704050d5d6c462a22e3f58128b64ffc943e3767301ed24466f85790446b4c 152052 lxqt-admin_1.4.0.orig.tar.xz c81a14efe9e68834bf2e8d766f6032c1747a081a48162b25b66de49511e23f56 862 lxqt-admin_1.4.0.orig.tar.xz.asc ab2a63ad972c3f68595e99cd5151e2fb4e14539bfca4cf60b7ba5b24e68173ff 7336 lxqt-admin_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lxqt-admin"
+  ],
+  "Files": [
+    "d91b520c6959f230c68d4b61390cfc36 2512 lxqt-admin_1.4.0-1.dsc a76cf4296bf967465d23ee52f1378697 152052 lxqt-admin_1.4.0.orig.tar.xz 32d7af8d61a58ed42f9c3469fe815601 862 lxqt-admin_1.4.0.orig.tar.xz.asc d0ce94cba8010a527ebda64d151d78bb 7336 lxqt-admin_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxqt/lxqt-admin"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lxqt-admin"
+  ],
+  "Package-List": [
+    "lxqt-admin deb x11 optional arch=any lxqt-admin-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e, Aaron Rainbolt \u003carraybolt3@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/lxqt-admin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/lxqt-admin.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

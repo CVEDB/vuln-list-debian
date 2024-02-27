@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "phast"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), liblapack-dev | liblapack.so, libblas-dev | libblas.so, libtmglib-dev, libpcre2-dev, help2man"
+  ],
+  "Checksums-Sha256": [
+    "5f4811f66174db7037597be5b38bf18ad5c11f8c7e58ce22828e3411ae9e21d1 2044 phast_1.6+dfsg-4.dsc 7deae15e8bd8ce8e11b251b42795e0595dd86271360b08d15e6ba107ae66863f 1808800 phast_1.6+dfsg.orig.tar.xz 7f5b1adf0df0a8290be8f07117762b2bea42720e2e9b2752e54f680b187f0678 57936 phast_1.6+dfsg-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phast"
+  ],
+  "Files": [
+    "ccf9e92883c0d70306e03bb3bbbaceb4 2044 phast_1.6+dfsg-4.dsc b625b9d3abbe0fdc31468820121b30e9 1808800 phast_1.6+dfsg.orig.tar.xz 2a268ec20d4b5b60d354fae365dc5c3e 57936 phast_1.6+dfsg-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://compgen.cshl.edu/phast/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phast"
+  ],
+  "Package-List": [
+    "phast deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/phast"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/phast.git"
+  ],
+  "Version": [
+    "1.6+dfsg-4"
+  ]
+}

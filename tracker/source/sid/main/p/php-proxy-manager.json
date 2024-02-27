@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-proxy-manager"
+  ],
+  "Build-Depends": [
+    "composer, debhelper-compat (= 13), dh-sequence-phpcomposer, php-laminas-code, php-symfony-filesystem, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "ca68e40b8d62b7c5eebbf285d60b8d919d32279daa3d58b2e23dc10dac3bc5a9 1958 php-proxy-manager_2.11.1+1.0.16-4.dsc 279c89bf85ad27f1db50c409c99e2156aa76eaba1ec42d5f10f8e371f17633dd 80992 php-proxy-manager_2.11.1+1.0.16.orig.tar.xz 80d0d886583b67fcc5ebc4e3f6fcf6f9c5f08f87225c7014ab8a3fc4e909586f 6224 php-proxy-manager_2.11.1+1.0.16-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-proxy-manager"
+  ],
+  "Files": [
+    "d5cf59f33ec96973f2b99c5cd68cf329 1958 php-proxy-manager_2.11.1+1.0.16-4.dsc 49fc3bd4cd029e85a233819c433e70cf 80992 php-proxy-manager_2.11.1+1.0.16.orig.tar.xz 2ee09e465cf6b2d92eeb13d7de66d45a 6224 php-proxy-manager_2.11.1+1.0.16-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/FriendsOfPHP/proxy-manager-lts"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-proxy-manager"
+  ],
+  "Package-List": [
+    "php-proxy-manager deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "composer, php-symfony-filesystem, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-proxy-manager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-proxy-manager.git"
+  ],
+  "Version": [
+    "2.11.1+1.0.16-4"
+  ]
+}

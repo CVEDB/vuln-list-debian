@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-qpdf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-askpass, r-cran-curl, libqpdf-dev"
+  ],
+  "Checksums-Sha256": [
+    "ec0f3989d18665172924d21ed5ba4e3145eda6174bc70ce4165f7e0c06c632ea 2153 r-cran-qpdf_1.3.2+dfsg-2.dsc 60ce8772d316dbc673478f53dd954913498fafe89e26f31a8f4ed8cf28b21d00 47996 r-cran-qpdf_1.3.2+dfsg.orig.tar.xz bc5eee3c9cee4b93895bbabe8144eb8261d4f5328bf202c4ff23f200084e6cd0 2864 r-cran-qpdf_1.3.2+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-qpdf"
+  ],
+  "Files": [
+    "f56b148b10ca4127a4df313005eb105c 2153 r-cran-qpdf_1.3.2+dfsg-2.dsc 98dfb29fd47b25ce31cf8e893574368c 47996 r-cran-qpdf_1.3.2+dfsg.orig.tar.xz f4f8e05bc9e687a10ae6e33c7986f342 2864 r-cran-qpdf_1.3.2+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=qpdf"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-qpdf"
+  ],
+  "Package-List": [
+    "r-cran-qpdf deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-qpdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-qpdf.git"
+  ],
+  "Version": [
+    "1.3.2+dfsg-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-async-aws-sns"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-async-aws-core, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "45178e6e977d1b117c5e163fbc8eded89ee2135ef335b2d115c8f559e705017d 1825 php-async-aws-sns_1.7.0-1.dsc 94486d61b0f953f59d916bfb4332f20ad1649e0f11ff2a670191cbabede7e668 24320 php-async-aws-sns_1.7.0.orig.tar.xz 04bb3e06529c21e00c66cb02874493944cbf31678aa90bc363e77320cfddc320 3016 php-async-aws-sns_1.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-async-aws-sns"
+  ],
+  "Files": [
+    "347236cb6aa1aa62d792179bed0d2eda 1825 php-async-aws-sns_1.7.0-1.dsc a7c4095440f6a9f1ea95d7da52e65c60 24320 php-async-aws-sns_1.7.0.orig.tar.xz 5d14027b07f593a8d4e0c4e95d98b376 3016 php-async-aws-sns_1.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://async-aws.com/clients/sns.html"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-async-aws-sns"
+  ],
+  "Package-List": [
+    "php-async-aws-sns deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-async-aws-sns"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-async-aws-sns.git"
+  ],
+  "Version": [
+    "1.7.0-1"
+  ]
+}

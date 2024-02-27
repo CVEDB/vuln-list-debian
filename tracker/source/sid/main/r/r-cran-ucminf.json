@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-ucminf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "1ec51f98d551d434840713d5df81dd5b40958f0b989294b9b6c6c12fb790a3ff 2038 r-cran-ucminf_1.2.1-1.dsc ed3ebba3d99a324444bd521d7aeb9f87344f44f170d67f77dab18dd3fbbfcc83 16586 r-cran-ucminf_1.2.1.orig.tar.gz db2cc030f1ba4200367f20abe3e30193cb1a95d3ad7ac12a2e4c8a50931e35c6 2036 r-cran-ucminf_1.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ucminf"
+  ],
+  "Files": [
+    "1e3f5cb05fbd986f4fea93ab351385ac 2038 r-cran-ucminf_1.2.1-1.dsc 44871c91a7be26117ffad1e685a7b719 16586 r-cran-ucminf_1.2.1.orig.tar.gz e6676bca02692bf1ccd08e3a49932820 2036 r-cran-ucminf_1.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ucminf"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ucminf"
+  ],
+  "Package-List": [
+    "r-cran-ucminf deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ucminf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ucminf.git"
+  ],
+  "Version": [
+    "1.2.1-1"
+  ]
+}

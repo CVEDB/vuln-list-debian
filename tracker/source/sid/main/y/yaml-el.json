@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-yaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "11245306956aeeba0207e519dee25f518918d7bfcf720f26bd77b666e9365324 1965 yaml-el_0.5.5-1.dsc 3711119b84c3f66963b638aa644ddb3747fbb5cc102f6885aacaa077f411d55a 38164 yaml-el_0.5.5.orig.tar.xz fbd1e7a702b09c3ad017ae9d69cfb99ed771c42cbe80bcefdfb29cbd80c157d3 2468 yaml-el_0.5.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yaml-el"
+  ],
+  "Files": [
+    "1e25f66401f40fa0e615df9466853f17 1965 yaml-el_0.5.5-1.dsc 4fb2c12d9669f71fbeec581e731a3f67 38164 yaml-el_0.5.5.orig.tar.xz b29447454071995e9bb208946608ee7a 2468 yaml-el_0.5.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zkry/yaml.el"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "yaml-el"
+  ],
+  "Package-List": [
+    "elpa-yaml deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "Nicholas D Steeves \u003csten@debian.org\u003e, Matteo F. Vescovi \u003cmfv@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/yaml-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/yaml-el.git"
+  ],
+  "Version": [
+    "0.5.5-1"
+  ]
+}

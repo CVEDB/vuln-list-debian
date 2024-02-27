@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pineapple-pictures"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, qtbase5-dev, libqt5svg5-dev, qttools5-dev, libexiv2-dev"
+  ],
+  "Checksums-Sha256": [
+    "77b778660808d2a743dd52724de8407e3ef7de2929923d9c748875e6001eb511 2082 pineapple-pictures_0.7.3-1.dsc 39fe3f3db1c266f4779998e62fbfcc3ac4ac4341de87977ff1daa1015fcad54c 250870 pineapple-pictures_0.7.3.orig.tar.gz e51d384c5011dc3a436def92c03e9abd1c37cda0850e2aeef39c5420780e0bfb 6064 pineapple-pictures_0.7.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pineapple-pictures"
+  ],
+  "Files": [
+    "a35c3bfbe27dc2ff9e4bc1a629c29a48 2082 pineapple-pictures_0.7.3-1.dsc adbd2c90647f09d346eb2d6c1dd10b68 250870 pineapple-pictures_0.7.3.orig.tar.gz c9cca34e4934d0e7c359a5b84fe44053 6064 pineapple-pictures_0.7.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/BLumia/pineapple-pictures"
+  ],
+  "Maintainer": [
+    "Sudip Mukherjee \u003csudipm.mukherjee@gmail.com\u003e"
+  ],
+  "Package": [
+    "pineapple-pictures"
+  ],
+  "Package-List": [
+    "pineapple-pictures deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "xauth, xdotool, xvfb"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sudip/pineapple-pictures"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sudip/pineapple-pictures.git"
+  ],
+  "Version": [
+    "0.7.3-1"
+  ]
+}

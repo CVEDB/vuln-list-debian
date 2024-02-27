@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tokio-macros-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.60-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+full-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "93c5fc0aea41f9da884dcd020145156dee3d88042534dfb633c9f1ef59dbcec3 2467 rust-tokio-macros_2.2.0-1.dsc 5b8a1e28f2deaa14e508979454cb3a223b10b938b45af148bc0986de36f1923b 11520 rust-tokio-macros_2.2.0.orig.tar.gz b9842aebf9df277d77bd4fa1fdc23c6e73052ae4df46cecb92dce276ae88f195 2744 rust-tokio-macros_2.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tokio-macros"
+  ],
+  "Files": [
+    "3f55d592bfb5c8214015ddeb485ecf40 2467 rust-tokio-macros_2.2.0-1.dsc bf33e2d27126b29c8a9b1239c688a424 11520 rust-tokio-macros_2.2.0.orig.tar.gz 88297b9df453c25c15e600f2cd0a2651 2744 rust-tokio-macros_2.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tokio-macros"
+  ],
+  "Package-List": [
+    "librust-tokio-macros-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tokio-1+default-dev, librust-tokio-1+full-dev"
+  ],
+  "Uploaders": [
+    "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-macros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-macros]"
+  ],
+  "Version": [
+    "2.2.0-1"
+  ]
+}

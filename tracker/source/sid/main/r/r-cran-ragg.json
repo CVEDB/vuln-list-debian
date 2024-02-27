@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-ragg"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-systemfonts (\u003e= 1.0.3), r-cran-textshaping (\u003e= 0.3.0), libfreetype-dev, libpng-dev, libjpeg-dev, libtiff-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "d2fe101a3f7c55e3fda9f6513a981fdbbeceb746ef50548f1f71cea6e61086e8 2212 r-cran-ragg_1.2.7-1.dsc d77a18662d127881dcb5046033eb809293ad9ad439fa4b217202b8cef4280c9f 425500 r-cran-ragg_1.2.7.orig.tar.gz 15b717bafd3952c95b1626ccea7658298916dd3d5242acdd5b05ed2c5b9d6e83 4100 r-cran-ragg_1.2.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ragg"
+  ],
+  "Files": [
+    "d64a118de16a586360e92871a25cc590 2212 r-cran-ragg_1.2.7-1.dsc b3552306bc07a827415f7c6fd1f9fc23 425500 r-cran-ragg_1.2.7.orig.tar.gz df38f047aa4dfacaea7b05312bbd136b 4100 r-cran-ragg_1.2.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ragg"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ragg"
+  ],
+  "Package-List": [
+    "r-cran-ragg deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ragg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ragg.git"
+  ],
+  "Version": [
+    "1.2.7-1"
+  ]
+}

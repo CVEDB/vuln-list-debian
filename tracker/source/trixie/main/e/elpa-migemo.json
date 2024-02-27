@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-migemo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "cbbd142e4746bf7a8dde5917525ab7a0596d9cca3a58012c34f3b81fc8da4363 1870 elpa-migemo_1.9.2-4.dsc 685f6afa4df6d027e90daa630a9176d77c045576e0294ebe1b6978b08df7f647 59733 elpa-migemo_1.9.2.orig.tar.gz 66d3bf6822e2a6e98a16f40e48c176fba416563eb3c0be8507e380c66758c109 4372 elpa-migemo_1.9.2-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/elpa-migemo"
+  ],
+  "Files": [
+    "23236e2a49d8f797a8839a399a074442 1870 elpa-migemo_1.9.2-4.dsc c6931096b5890ebefb45d755d2559b2f 59733 elpa-migemo_1.9.2.orig.tar.gz 915f275899982b25e038ca7e0ddcda43 4372 elpa-migemo_1.9.2-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/emacs-jp/migemo"
+  ],
+  "Maintainer": [
+    "Youhei SASAKI \u003cuwabami@gfd-dennou.org\u003e"
+  ],
+  "Package": [
+    "elpa-migemo"
+  ],
+  "Package-List": [
+    "elpa-migemo deb editors optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/uwabami/elpa-migemo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/uwabami/elpa-migemo.git"
+  ],
+  "Version": [
+    "1.9.2-4"
+  ]
+}

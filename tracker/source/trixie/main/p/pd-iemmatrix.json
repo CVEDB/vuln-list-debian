@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pd-iemmatrix"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-buildinfo, dh-sequence-pd-lib-builder, libfftw3-dev, libgsl-dev | libgsl0-dev, libsndfile1-dev, pkgconf | pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "5175323d1f947c0cca0305b3460a6658706f6a550e6decf489ecf2f7579df4ec 2372 pd-iemmatrix_0.4.0-1.dsc 84cb3179828df86ecfb1d4805c326c9f33542b26baea59f0792284b9062cf5d5 204270 pd-iemmatrix_0.4.0.orig.tar.bz2 74391fb125950e973a32ade8e43c33920636d272da2585395a76117e6bbd2bf8 7888 pd-iemmatrix_0.4.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "d2ae1600ef7e1d9c4722903440bda4767a047f75 debian archive/debian/0.4.0-1 https://git.dgit.debian.org/pd-iemmatrix"
+  ],
+  "Directory": [
+    "pool/main/p/pd-iemmatrix"
+  ],
+  "Files": [
+    "11f8f9091e395c9d73ec612deef023b9 2372 pd-iemmatrix_0.4.0-1.dsc 75fb0d35a0a7092b22061179e0f7beac 204270 pd-iemmatrix_0.4.0.orig.tar.bz2 f9d376f50e3e9120039790e4576fa076 7888 pd-iemmatrix_0.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.iem.at/pd/iemmatrix"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "pd-iemmatrix"
+  ],
+  "Package-List": [
+    "pd-iemmatrix deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "puredata-core, puredata64-core"
+  ],
+  "Uploaders": [
+    "Roman Haefeli \u003creduzent@gmail.com\u003e, IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/pd/pd-iemmatrix"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/pd/pd-iemmatrix.git"
+  ],
+  "Version": [
+    "0.4.0-1"
+  ]
+}

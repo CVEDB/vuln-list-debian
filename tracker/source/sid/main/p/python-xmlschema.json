@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-xmlschema, python-xmlschema-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, help2man, python3-all, python3-elementpath (\u003e= 2.5.0), python3-jinja2, python3-lxml, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, wget"
+  ],
+  "Checksums-Sha256": [
+    "b21e4684ea1e849302a25cab94e7d7e39d4b3e85655915a8364ed8a2f2b2e8b6 2214 python-xmlschema_1.10.0-7.dsc a76aca3fabe8541a6f69ecddc44d20ccb12ff15f8494dac17724fdb409b8dfc4 386312 python-xmlschema_1.10.0.orig.tar.gz 4f02f33fb49faa3c18a0d81ef479bf60cb2c28f1a8c740121a7459d87cf468e0 8556 python-xmlschema_1.10.0-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-xmlschema"
+  ],
+  "Files": [
+    "9251bff11795f4686507318a8aa0f1fb 2214 python-xmlschema_1.10.0-7.dsc dca263e1d9472096b0964ae51f10a139 386312 python-xmlschema_1.10.0.orig.tar.gz 67dad8e8fc464d611e24d7b109ddbdb3 8556 python-xmlschema_1.10.0-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sissaschool/xmlschema"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-xmlschema"
+  ],
+  "Package-List": [
+    "python-xmlschema-doc deb doc optional arch=all python3-xmlschema deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-elementpath, python3-lxml"
+  ],
+  "Uploaders": [
+    "Christian Kastner \u003cckk@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-xmlschema"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-xmlschema.git"
+  ],
+  "Version": [
+    "1.10.0-7"
+  ]
+}

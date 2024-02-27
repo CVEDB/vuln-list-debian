@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "binutils-bpf"
+  ],
+  "Build-Depends": [
+    "binutils-source (\u003e= 2.42-2~), debhelper (\u003e= 10), bison, flex, gettext, texinfo, dejagnu, python3, file, xz-utils, lsb-release, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "c7ca10fac2a0672b030dc1e79b221d63e63e00411906f4295914ad75a56d1fca 1786 binutils-bpf_16.dsc 4d63128a665759f5db36b4c109cb1299dcc865fc15043c9d11358b9e8e882794 3052 binutils-bpf_16.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/binutils-bpf"
+  ],
+  "Files": [
+    "87706109c71f5c82b7c2d98b7c9f5705 1786 binutils-bpf_16.dsc 65af5e47434ae3eadaee8e3655b36721 3052 binutils-bpf_16.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://sourceware.org/binutils/"
+  ],
+  "Maintainer": [
+    "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "binutils-bpf"
+  ],
+  "Package-List": [
+    "binutils-bpf deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Matthias Klose \u003cdoko@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/toolchain-team/binutils-bpf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/toolchain-team/binutils-bpf.git"
+  ],
+  "Version": [
+    "16"
+  ]
+}

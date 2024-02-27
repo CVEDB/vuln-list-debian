@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clap-complete-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-clap-4+std-dev (\u003e= 4.4.7-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3cf5ec268b851d907ab391b89ca83000e09089fcb02cd35bc40de86b92b4a522 2566 rust-clap-complete_4.4.9-2.dsc df631ae429f6613fcd3a7c1adbdb65f637271e561b03680adaa6573015dfb106 37659 rust-clap-complete_4.4.9.orig.tar.gz 93f3a63ddb8e9b09760907fd00eac558834f10cf828e3f7cc01632440c9f6331 3508 rust-clap-complete_4.4.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clap-complete"
+  ],
+  "Files": [
+    "b4aa829db526176893ee0f5f83b580bd 2566 rust-clap-complete_4.4.9-2.dsc bc88ae08f6b9c6dbf2ee0cd823219871 37659 rust-clap-complete_4.4.9.orig.tar.gz 03d7fe6a9c2e7abbe3dff90d3b45cee9 3508 rust-clap-complete_4.4.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clap-complete"
+  ],
+  "Package-List": [
+    "librust-clap-complete-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-clap-4+derive-dev, librust-clap-4+help-dev, librust-clap-4+std-dev, librust-snapbox-0.4+default-dev, librust-snapbox-0.4+diff-dev, librust-snapbox-0.4+examples-dev, librust-snapbox-0.4+path-dev, librust-trycmd-0.14+color-auto-dev, librust-trycmd-0.14+diff-dev, librust-trycmd-0.14+examples-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clap-complete"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-complete]"
+  ],
+  "Version": [
+    "4.4.9-2"
+  ]
+}

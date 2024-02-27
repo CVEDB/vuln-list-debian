@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "linux-firewire-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson (\u003e= 0.46.0)"
+  ],
+  "Checksums-Sha256": [
+    "eb6a07ec2b6de00c634a7e011067bbb2c352a533259a94ba8b601bd722766f55 1879 linux-firewire-utils_0.5.0-2.dsc 4e34845df69eb5ab8a70914e56903669d4a27877f5089c0fa04aac5f42ef33b7 33496 linux-firewire-utils_0.5.0.orig.tar.xz 582b74f4160ef3c5c00fed15768e35af8e55332b123bcf73771a7f28d985db28 6068 linux-firewire-utils_0.5.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linux-firewire-utils"
+  ],
+  "Files": [
+    "ddedbcad618c7c19da89cdfb1f3d0481 1879 linux-firewire-utils_0.5.0-2.dsc 48ec747839595865e40684a7350ca54c 33496 linux-firewire-utils_0.5.0.orig.tar.xz 9c82d3c608ee110612b5309fb719e0c4 6068 linux-firewire-utils_0.5.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.kernel.org/pub/scm/utils/ieee1394/linux-firewire-utils.git/"
+  ],
+  "Maintainer": [
+    "Takashi Sakamoto \u003co-takashi@sakamocchi.jp\u003e"
+  ],
+  "Package": [
+    "linux-firewire-utils"
+  ],
+  "Package-List": [
+    "linux-firewire-utils deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/linux-firewire-utils/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/linux-firewire-utils.git"
+  ],
+  "Version": [
+    "0.5.0-2"
+  ]
+}

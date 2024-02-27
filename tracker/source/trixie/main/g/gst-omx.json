@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gstreamer1.0-omx-generic, gst-omx-listcomponents, gstreamer1.0-omx-generic-config, gstreamer1.0-omx-bellagio-config"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, docbook-xml, docbook-xsl, libglib2.0-dev (\u003e= 2.44.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.22.4), libgstreamer1.0-dev (\u003e= 1.22.4), meson (\u003e= 0.47), rename, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "e650beff3ace90b55883cc5001d46576830dd634a2539c3191d533e8f5e931e9 2344 gst-omx_1.22.9-1.dsc 9362d6117985d09dcf6e27bdaef377dc08efb7df01d00101d04fb644addac61e 204536 gst-omx_1.22.9.orig.tar.xz ac930a900afb70f250f719a49b2296f05026f678223af43fa6468a68054a6042 8628 gst-omx_1.22.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gst-omx"
+  ],
+  "Files": [
+    "0a7ae8961fd90b42b4fbef57d987335c 2344 gst-omx_1.22.9-1.dsc a49442f645f6f668ff3272df893ce98f 204536 gst-omx_1.22.9.orig.tar.xz 96eba84b9b95a2d1b5d14a8f38857f18 8628 gst-omx_1.22.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org/modules/gst-omx.html"
+  ],
+  "Maintainer": [
+    "Ying-Chun Liu (PaulLiu) \u003cpaulliu@debian.org\u003e"
+  ],
+  "Package": [
+    "gst-omx"
+  ],
+  "Package-List": [
+    "gst-omx-listcomponents deb utils optional arch=any gstreamer1.0-omx-bellagio-config deb misc optional arch=any gstreamer1.0-omx-generic deb libs optional arch=any gstreamer1.0-omx-generic-config deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gstreamer1.0-tools, libomxil-bellagio0-components-base"
+  ],
+  "Version": [
+    "1.22.9-1"
+  ]
+}

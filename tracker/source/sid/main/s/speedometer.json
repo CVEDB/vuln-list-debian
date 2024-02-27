@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "speedometer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-psutil, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "09b6966b5ff4cab7860ff7e22727a8a2a6e7a6a7fbbaa0ec80bf200d371918be 1945 speedometer_2.9-0.1.dsc a85aedb81af6dae9ac59cd6079f3f47fbcad0877910d647c41fa2cba5a88a2b0 23338 speedometer_2.9.orig.tar.gz 3f08df21cce2cfabb211abf10eb5d35582ed4cda7cdc45130dc0acfdfe236b0e 5648 speedometer_2.9-0.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/speedometer"
+  ],
+  "Files": [
+    "a43d5b41d47ee091802bb80e75dc5ea5 1945 speedometer_2.9-0.1.dsc 8ed83643533af4fdd7aa867c8369f201 23338 speedometer_2.9.orig.tar.gz 36ef1e16174bbdb226f91adaa2ab69f5 5648 speedometer_2.9-0.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://excess.org/speedometer"
+  ],
+  "Maintainer": [
+    "Giovani Augusto Ferreira \u003cgiovani@debian.org\u003e"
+  ],
+  "Package": [
+    "speedometer"
+  ],
+  "Package-List": [
+    "speedometer deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/speedometer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/speedometer.git"
+  ],
+  "Version": [
+    "2.9-0.1"
+  ]
+}

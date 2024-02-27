@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gtranslator"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gobject-introspection (\u003e= 0.9.3), gsettings-desktop-schemas-dev, itstool, libadwaita-1-dev (\u003e= 1.2), libgda-5.0-dev, libgdl-3-dev (\u003e= 3.6.0), libgettextpo-dev, libgirepository1.0-dev (\u003e= 0.9.3), libglib2.0-dev (\u003e= 2.71.3), libgtk-4-dev (\u003e= 4.6.0), libgtksourceview-5-dev (\u003e= 5.4.0), libjson-glib-dev, libsoup-3.0-dev, libspelling-1-dev, libxml2-dev (\u003e= 2.4.12), libxml2-utils, meson (\u003e= 0.50.0)"
+  ],
+  "Checksums-Sha256": [
+    "9b542e3f2cb5b646efd0ef6e20511e1e7207c76f26db4945b0819c8f5086551b 2420 gtranslator_45.3-2.dsc 3010204df5c7a5ae027f5a30b1544d6977d417f0e4bb9de297f0ad1a80331873 1524700 gtranslator_45.3.orig.tar.xz 7a24e165cf5534bee7defaa2961f31d701bba400867e06a1f65cba68edebf490 10760 gtranslator_45.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gtranslator"
+  ],
+  "Files": [
+    "fff0be018b400ed6fe7055fa6154a2d7 2420 gtranslator_45.3-2.dsc 6c524ac174a634bda5304e8a886220d1 1524700 gtranslator_45.3.orig.tar.xz 444abab94eb1b5fa04832d6eeb633203 10760 gtranslator_45.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Apps/Gtranslator"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gtranslator"
+  ],
+  "Package-List": [
+    "gtranslator deb gnome optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gtranslator"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gtranslator.git"
+  ],
+  "Version": [
+    "45.3-2"
+  ]
+}

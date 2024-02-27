@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tryton-server, tryton-server-doc, tryton-server-postgresql, tryton-server-uwsgi, tryton-server-nginx, tryton-server-all-in-one"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, po-debconf, python3, python3-bcrypt, python3-dateutil, python3-defusedxml, python3-genshi, python3-lxml, python3-mock, python3-passlib, python3-pil, python3-polib, python3-relatorio, python3-setuptools, python3-sphinx, python3-sql, python3-werkzeug, python3-wrapt"
+  ],
+  "Checksums-Sha256": [
+    "1311aa844d3d4560e8c90ed2a1a281414c15e7a75ffcf1ac2d23dba170628b18 2928 tryton-server_6.0.39-1.dsc 384ce66ac84ea16c2a811c1ec070556453871c433341ef8da9489b0a7568cde7 855325 tryton-server_6.0.39.orig.tar.gz 31fd9c08e4f66e150ad249f6ce73e99e985672ab53996c29612bb886ce51c67b 506 tryton-server_6.0.39.orig.tar.gz.asc e4d5beb616ebbe212eddf9c0b38b45e35dcff0eaac806f977292fed303803ed4 57696 tryton-server_6.0.39-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tryton-server"
+  ],
+  "Files": [
+    "a480a4adf2c36ae36c6bd56d50992ebe 2928 tryton-server_6.0.39-1.dsc b3167f3bf03e4f9beef2f2d3bffb690d 855325 tryton-server_6.0.39.orig.tar.gz 8a0b0f19e62fc74daa66ae34f2e29cee 506 tryton-server_6.0.39.orig.tar.gz.asc 2aff15470cc3d61fa59f6d92ac513f6e 57696 tryton-server_6.0.39-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.tryton.org/"
+  ],
+  "Maintainer": [
+    "Debian Tryton Maintainers \u003cteam+tryton-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tryton-server"
+  ],
+  "Package-List": [
+    "tryton-server deb python optional arch=all tryton-server-all-in-one deb python optional arch=all tryton-server-doc deb doc optional arch=all tryton-server-nginx deb python optional arch=all tryton-server-postgresql deb python optional arch=all tryton-server-uwsgi deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Mathias Behrle \u003cmathiasb@m9s.biz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tryton-team/tryton-server"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tryton-team/tryton-server.git"
+  ],
+  "Version": [
+    "6.0.39-1"
+  ]
+}

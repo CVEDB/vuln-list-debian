@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-png"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "27547409711ea5e7a85029fde4fb40ae50b5aa30dd30b8603e3bf7a936a0eb12 1942 pypng_0.20231004.0-2.dsc ebcb5cb38c746aa01621989aae90f6794234493411fe3b6316cdb8ca20c323ef 101944 pypng_0.20231004.0.orig.tar.xz 77df0a2482bf990528557ba2975c635729c3d06a9d41a84d0ed1590523fa15fb 3668 pypng_0.20231004.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pypng"
+  ],
+  "Files": [
+    "de6281570f516c7e57eba7b7e886be72 1942 pypng_0.20231004.0-2.dsc 6fa948bfb68409676a936289b3e2ae14 101944 pypng_0.20231004.0.orig.tar.xz f407a51b507f240eb63b5d42443f15a6 3668 pypng_0.20231004.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/drj11/pypng"
+  ],
+  "Maintainer": [
+    "Sascha Steinbiss \u003csatta@debian.org\u003e"
+  ],
+  "Package": [
+    "pypng"
+  ],
+  "Package-List": [
+    "python3-png deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pypng"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pypng.git"
+  ],
+  "Version": [
+    "0.20231004.0-2"
+  ]
+}

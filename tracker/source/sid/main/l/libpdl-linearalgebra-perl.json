@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpdl-linearalgebra-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-pdl, libdevel-checklib-perl, libextutils-f77-perl, libopenblas-serial-dev, perl-xs-dev, perl:native, pdl (\u003e= 1:2.078)"
+  ],
+  "Checksums-Sha256": [
+    "f26896a166761a65dfa09e2326264adb7366c1c2a9d87ec99211d84fa75bd629 2292 libpdl-linearalgebra-perl_0.38-1.dsc 569515dac7546397415c2ea2f3c329ebfc2e965d41cfb793f6f2c6a859e92e3a 165399 libpdl-linearalgebra-perl_0.38.orig.tar.gz d27e3e729e3dc4db28d5ef78f0d6910d5b5019bdb047b54aca0a1e8fff270c76 6696 libpdl-linearalgebra-perl_0.38-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpdl-linearalgebra-perl"
+  ],
+  "Files": [
+    "fb457f3699391f397e277a76f653f7fd 2292 libpdl-linearalgebra-perl_0.38-1.dsc 836f71fc832cf002559a03f1774e04ab 165399 libpdl-linearalgebra-perl_0.38.orig.tar.gz 16c51ce926fbc4208de2f88254c3971b 6696 libpdl-linearalgebra-perl_0.38-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/PDL-LinearAlgebra"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libpdl-linearalgebra-perl"
+  ],
+  "Package-List": [
+    "libpdl-linearalgebra-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Dima Kogan \u003cdima@secretsauce.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libpdl-linearalgebra-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libpdl-linearalgebra-perl.git"
+  ],
+  "Version": [
+    "0.38-1"
+  ]
+}

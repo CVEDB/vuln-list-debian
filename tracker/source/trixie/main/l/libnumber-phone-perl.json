@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libnumber-phone-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libdata-compactreadonly-perl \u003c!nocheck\u003e, libdata-dumper-concise-perl \u003c!nocheck\u003e, libdevel-hide-perl \u003c!nocheck\u003e, libfile-sharedir-install-perl, libfile-sharedir-perl \u003c!nocheck\u003e, libparallel-forkmanager-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libtest-differences-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libtest-warnings-perl (\u003e= 0.031) \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "83873290a588445fedb22da3a3edcff90576c4c0ca465270517db4150efa44d2 2803 libnumber-phone-perl_4.0001-1.dsc 4ec7b5b5a39495e0c53e1328c57d8e3f6afe01cd73aaac0327ea05293ade069b 9393562 libnumber-phone-perl_4.0001.orig.tar.gz 1183438b9a98c03c3a24173e0b64e198452ac4794cc83819b59908dc4b283795 4952 libnumber-phone-perl_4.0001-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "17fec4167d9309c6dfc3f85d0e874bdae47bc4fb debian archive/debian/4.0001-1 https://git.dgit.debian.org/libnumber-phone-perl"
+  ],
+  "Directory": [
+    "pool/main/libn/libnumber-phone-perl"
+  ],
+  "Files": [
+    "ae318b5b8bba83f90a968e49b9322fa6 2803 libnumber-phone-perl_4.0001-1.dsc e107458230986c96b575a004ff95fda8 9393562 libnumber-phone-perl_4.0001.orig.tar.gz 67405807b173a7d7ed1e418440f0d099 4952 libnumber-phone-perl_4.0001-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Number-Phone"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libnumber-phone-perl"
+  ],
+  "Package-List": [
+    "libnumber-phone-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Michael Prokop \u003cmika@debian.org\u003e, Nick Morrott \u003cnickm@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libnumber-phone-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libnumber-phone-perl.git"
+  ],
+  "Version": [
+    "4.0001-1"
+  ]
+}

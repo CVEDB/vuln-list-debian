@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libccid"
+  ],
+  "Build-Depends": [
+    "autoconf-archive, debhelper-compat (= 13), flex, libpcsclite-dev (\u003e= 1.8.3~), libusb-1.0-0-dev, pkg-config, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "516d54d6789fa57bf07ba9a3af4da4ce06408a3c4762468dc7d468c2daa4f01d 2143 ccid_1.5.5-1.dsc 194708f75fe369d45dd7c15e8b3e8a7db8b49cfc5557574ca2a2e76ef12ca0ca 708374 ccid_1.5.5.orig.tar.bz2 17fe28911fa4591f4becf50edd8b23d98c8ea5b49a848756ca3ffb4a60acd35a 833 ccid_1.5.5.orig.tar.bz2.asc d1462cb04c0ad9a3b92a331f860e68f4ebbd8be38f68bbf4963d2d96255dd14b 10980 ccid_1.5.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/ccid"
+  ],
+  "Files": [
+    "6730fd9a447e1bc4a2dafaa1a29b1330 2143 ccid_1.5.5-1.dsc da78a5fa37e326988d85f3a0291c784e 708374 ccid_1.5.5.orig.tar.bz2 0ac3b2b5a5ea592354d988ca88dc10d9 833 ccid_1.5.5.orig.tar.bz2.asc 994d7d3a2e3eff20e2e3aacfec163da2 10980 ccid_1.5.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ccid.apdu.fr/"
+  ],
+  "Maintainer": [
+    "Ludovic Rousseau \u003crousseau@debian.org\u003e"
+  ],
+  "Package": [
+    "ccid"
+  ],
+  "Package-List": [
+    "libccid deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ccid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ccid.git"
+  ],
+  "Version": [
+    "1.5.5-1"
+  ]
+}

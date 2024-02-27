@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 alpha hppa ia64 loong64 m68k powerpc ppc64 sh4 sparc64 x32"
+  ],
+  "Binary": [
+    "digimend-dkms"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-dkms, pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "b93aa08e05069dbdee18a0337fbb1efbc7826deec9d31303f95d2bbb15c492d2 2162 digimend-dkms_11-7.dsc a08152a39c9f8a6a40452c6c1ed39a99b7878ab52135b56980c017039c0d7ddc 47175 digimend-dkms_11.orig.tar.gz aa0959c88b4cf572a964bcc357cda26c23f94d949d264f8ac1f4d4e2d1a9903a 4532 digimend-dkms_11-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/digimend-dkms"
+  ],
+  "Files": [
+    "b7e5c31ce4cb822503bb496251bbe889 2162 digimend-dkms_11-7.dsc ac585e28333edd36eb26e585cbf1f45d 47175 digimend-dkms_11.orig.tar.gz 94a91e0b7fa84a0a3b1962760757f85e 4532 digimend-dkms_11-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/DIGImend/digimend-kernel-drivers"
+  ],
+  "Maintainer": [
+    "Kentaro Hayashi \u003ckenhys@xdump.org\u003e"
+  ],
+  "Package": [
+    "digimend-dkms"
+  ],
+  "Package-List": [
+    "digimend-dkms deb kernel optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,riscv64,alpha,hppa,ia64,loong64,m68k,powerpc,ppc64,sh4,sparc64,x32"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/digimend-dkms"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/digimend-dkms.git"
+  ],
+  "Version": [
+    "11-7"
+  ]
+}

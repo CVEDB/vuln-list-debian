@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-jieba-doc, python3-jieba"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "6ae5c7c34696d77192f7830a863a9fada2dc1a4559f78b33050167042cab0e88 2161 python-jieba_0.42.1-4.dsc 607dd88ab9ac78b09d475cf19a3729539beaaecdf42fd5e46f933ffaedaa428e 24420490 python-jieba_0.42.1.orig.tar.gz 9f9177ab2d077cb8b1d6a062bf29ef430d155099947e3611754352a19dd1a76c 3608 python-jieba_0.42.1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-jieba"
+  ],
+  "Files": [
+    "23775861887d7a52463cac743c466f67 2161 python-jieba_0.42.1-4.dsc 774aa388d2f9a4fa50c78c582f037e96 24420490 python-jieba_0.42.1.orig.tar.gz c6966cabb6c37ad63ea00e39fc20aab2 3608 python-jieba_0.42.1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fxsjy/jieba"
+  ],
+  "Maintainer": [
+    "Debian Chinese Team \u003cchinese-developers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-jieba"
+  ],
+  "Package-List": [
+    "python-jieba-doc deb doc optional arch=all python3-jieba deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Yangfl \u003cmmyangfl@gmail.com\u003e, Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/chinese-team/python-jieba"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/chinese-team/python-jieba.git"
+  ],
+  "Version": [
+    "0.42.1-4"
+  ]
+}

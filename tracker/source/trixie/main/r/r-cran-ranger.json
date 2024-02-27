@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-ranger"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-matrix, r-cran-rcppeigen"
+  ],
+  "Checksums-Sha256": [
+    "1313e79682e80957491434751c08d9f7f2a8ad23d4ed969a1e2b55456095657d 2160 r-cran-ranger_0.16.0-1.dsc 0395f93afdb807a7882c1fa8f183a26a871c5168ea0903566951298ef1138589 165925 r-cran-ranger_0.16.0.orig.tar.gz 9dd7dde965002a1a43cae3c1354dd10c8a8902acbb2828b873d897257c59c800 3744 r-cran-ranger_0.16.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ranger"
+  ],
+  "Files": [
+    "096b02498fccb4d7a0db688bf4be5e63 2160 r-cran-ranger_0.16.0-1.dsc 813881b35ed050bcab58c5e92826c0f2 165925 r-cran-ranger_0.16.0.orig.tar.gz 3d4ee278aab1ec9cbefd78a8df484121 3744 r-cran-ranger_0.16.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ranger"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ranger"
+  ],
+  "Package-List": [
+    "r-cran-ranger deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-survival, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ranger"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ranger.git"
+  ],
+  "Version": [
+    "0.16.0-1"
+  ]
+}

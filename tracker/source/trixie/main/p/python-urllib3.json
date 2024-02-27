@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-urllib3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-brotli, python3-coverage, python3-idna, python3-mock, python3-pytest, python3-setuptools, python3-six, python3-tornado"
+  ],
+  "Checksums-Sha256": [
+    "79e4f444c901d1e51bfbbac5c7834324a61518cebe27a240c7846deb9bf75d84 1735 python-urllib3_1.26.18-2.dsc f8ecc1bba5667413457c529ab955bf8c67b45db799d159066261719e328580a0 305687 python-urllib3_1.26.18.orig.tar.gz 302c5ba9bb458b40ce688310b9475042f0746dcc1dfa5bb9a6859ea0f5e358bd 13016 python-urllib3_1.26.18-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-urllib3"
+  ],
+  "Files": [
+    "8c8542f5ff78f8a1b2258a9b4f7a7ead 1735 python-urllib3_1.26.18-2.dsc f986d8e9616d2a43389f678d5dad9893 305687 python-urllib3_1.26.18.orig.tar.gz e2c30a82c2dece4ba5c65996c9261b2b 13016 python-urllib3_1.26.18-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://urllib3.readthedocs.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-urllib3"
+  ],
+  "Package-List": [
+    "python3-urllib3 deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-brotli, python3-coverage, python3-idna, python3-mock, python3-pytest, python3-six, python3-tornado"
+  ],
+  "Uploaders": [
+    "Daniele Tricoli \u003ceriol@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-urllib3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-urllib3.git"
+  ],
+  "Version": [
+    "1.26.18-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-plumber"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-r6, r-cran-stringi, r-cran-jsonlite, r-cran-webutils, r-cran-httpuv, r-cran-crayon, r-cran-promises, r-cran-sodium, r-cran-swagger, r-cran-magrittr, r-cran-mime, r-cran-lifecycle, r-cran-ellipsis, r-cran-rlang, r-cran-knitr, r-cran-markdown"
+  ],
+  "Checksums-Sha256": [
+    "1679621d0e11f43ee04105aba623b017fdae3d88a2dd0d5b0d8a42a259267c4e 2547 r-cran-plumber_1.2.1+ds-2.dsc 743c364648b35e8947ff90144905206252c6027d80d4393dcf15adf51df7ba14 738344 r-cran-plumber_1.2.1+ds.orig.tar.xz 9490ae2d9748fc7968e2db9c17e277d444f94ba917fb9c05b3ae2e4839d53ff1 5100 r-cran-plumber_1.2.1+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-plumber"
+  ],
+  "Files": [
+    "00452b7c037042c859275fc7d4b4db9f 2547 r-cran-plumber_1.2.1+ds-2.dsc ea1bfdda4983ef70411d84f02ffc83d0 738344 r-cran-plumber_1.2.1+ds.orig.tar.xz ea6145ed0323961fa69caddc1cf273a5 5100 r-cran-plumber_1.2.1+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=plumber"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-plumber"
+  ],
+  "Package-List": [
+    "r-cran-plumber deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-base64enc, r-cran-future, r-cran-htmlwidgets, r-cran-later, r-cran-mockery, r-cran-readr, r-cran-rmarkdown, r-cran-rstudioapi, r-cran-sf, r-cran-spelling, r-cran-testthat, r-cran-yaml"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-plumber"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-plumber.git"
+  ],
+  "Version": [
+    "1.2.1+ds-2"
+  ]
+}

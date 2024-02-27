@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "librust-regalloc2-dev, regalloc2-tool"
+  ],
+  "Build-Depends": [
+    "cmark-gfm \u003c!nodoc\u003e, debhelper-compat (= 13), dh-cargo, help2man \u003c!nodoc\u003e, librust-bincode-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-hashbrown-dev (\u003c\u003c 0.15), librust-log-0.4-dev, librust-pretty-env-logger-0.5+default-dev, librust-rustc-hash-1-dev, librust-serde-1+alloc-dev, librust-serde-1+derive-dev, librust-slice-group-by-0.3-dev, librust-smallvec-1+default-dev, librust-smallvec-1+union-dev, libstring-shellquote-perl"
+  ],
+  "Checksums-Sha256": [
+    "88ba7aa1f1b02e7fa885c09dde5d5563f6d8216e5aadd2e5797da7c10daa8461 2666 rust-regalloc2_0.9.3-1.dsc 3273785dfffde4f1fc77d0edd7a7da007705e4eb16699af2a5bf8894793186cd 127400 rust-regalloc2_0.9.3.orig.tar.gz c32f21374661b79507067459b436fd8ace73b2a7c60848253ee1de46c3a8e2ff 16752 rust-regalloc2_0.9.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-regalloc2"
+  ],
+  "Files": [
+    "615171ff2ac098a337ae3d2040919f45 2666 rust-regalloc2_0.9.3-1.dsc 03d620296ce67ce8e86842da90319c66 127400 rust-regalloc2_0.9.3.orig.tar.gz 8cef5139eaac5444efe33d938b5689d1 16752 rust-regalloc2_0.9.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bytecodealliance/regalloc2"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-regalloc2"
+  ],
+  "Package-List": [
+    "librust-regalloc2-dev deb rust optional arch=all regalloc2-tool deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-regalloc2-0.9+checker-dev, librust-regalloc2-0.9+default-dev, librust-regalloc2-0.9+enable-serde-dev, librust-regalloc2-0.9+std-dev, librust-regalloc2-0.9+trace-log-dev, librust-regalloc2-0.9-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-regalloc2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-regalloc2.git"
+  ],
+  "Version": [
+    "0.9.3-1"
+  ]
+}

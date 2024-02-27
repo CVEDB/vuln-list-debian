@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "lfortran, liblfortran-runtime0, liblfortran-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pandoc, libfmt-dev, llvm-16-dev, libjsoncpp-dev, binutils-dev, libiberty-dev, libzstd-dev, libcurl4-gnutls-dev, rapidjson-dev, xeus-dev, xeus-zmq-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "fff95f8a54420d1d63ff9057a46d372fbd79c8ff569a63e0c949ead9cb2b1c13 2211 lfortran_0.30.0-5.dsc 6d470a82c9e267db46c6a63a8058061fc8af51949776657ea3d287d5dbcec532 902072 lfortran_0.30.0.orig.tar.xz 6e1aa9e13561ff18ba9630b4bd81a7ae720bc6e8a3e57c2be14104a9b910a9d7 6164 lfortran_0.30.0-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lfortran"
+  ],
+  "Files": [
+    "cdde796cd43051a936bfeac74f0e75ad 2211 lfortran_0.30.0-5.dsc 2dcbdc9f02d1921f16838edcf61d9a0c 902072 lfortran_0.30.0.orig.tar.xz cff17a30dd43a2f369fcaa45a35688e3 6164 lfortran_0.30.0-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lfortran.org"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "lfortran"
+  ],
+  "Package-List": [
+    "lfortran deb devel optional arch=any liblfortran-dev deb libdevel optional arch=any liblfortran-runtime0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/lfortran.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/lfortran.git"
+  ],
+  "Version": [
+    "0.30.0-5"
+  ]
+}

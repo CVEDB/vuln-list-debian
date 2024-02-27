@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tio"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), libinih-dev, meson, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "ab7ad279e63ccda63b8e5b374bd8deed654b8709f1080da349232d8e89eb3f57 2013 tio_2.7-1.dsc bf8fe434848c2c1b6540af0b42503c986068176ddc1a988cf02e521e7de5daa5 3432332 tio_2.7.orig.tar.xz 0bbf02488c006109f8c3cc45aee5ad81cd424603225b3ba741225421fa583706 833 tio_2.7.orig.tar.xz.asc e6f8fc6891461ccf5f443d354ff06f7096a4568d2a83ccc08f51215f1b096f3a 4804 tio_2.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tio"
+  ],
+  "Files": [
+    "0c3a9964e68aa2fcd0792db2fad948a1 2013 tio_2.7-1.dsc 58f589d1e9382e8cdebce4de03c6a797 3432332 tio_2.7.orig.tar.xz 112174045f909c0826be6f6e1b16ef23 833 tio_2.7.orig.tar.xz.asc b1694174889341d9d8e75579ae909211 4804 tio_2.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tio.github.io/"
+  ],
+  "Maintainer": [
+    "Jakob Haufe \u003csur5r@debian.org\u003e"
+  ],
+  "Package": [
+    "tio"
+  ],
+  "Package-List": [
+    "tio deb comm optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sur5r/tio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sur5r/tio.git"
+  ],
+  "Version": [
+    "2.7-1"
+  ]
+}

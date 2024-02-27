@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ctrlc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-nix-0+fs-dev (\u003e= 0.26-~~) \u003c!nocheck\u003e, librust-nix-0+signal-dev (\u003e= 0.26-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "08791c40fce98d70b10f98a14bba9ec998a09af8d3b4a58c7a5a35c42357d471 2349 rust-ctrlc_3.4.2-1.dsc b467862cc8610ca6fc9a1532d7777cee0804e678ab45410897b9396495994a0b 14171 rust-ctrlc_3.4.2.orig.tar.gz 4fcd767c70a8454d0ddf5b56f87d650343ae144a22a75b9e4ac634910ba8ff99 3668 rust-ctrlc_3.4.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ctrlc"
+  ],
+  "Files": [
+    "c09db80f1a66ccab37b87f4dc4940efb 2349 rust-ctrlc_3.4.2-1.dsc 66fc7e944ae062b033fe42ab4814091f 14171 rust-ctrlc_3.4.2.orig.tar.gz 73df535aaf796abf9a69f922324d87fc 3668 rust-ctrlc_3.4.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Detegr/rust-ctrlc"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ctrlc"
+  ],
+  "Package-List": [
+    "librust-ctrlc-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-signal-hook-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Paride Legovini \u003cparide@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ctrlc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ctrlc]"
+  ],
+  "Version": [
+    "3.4.2-1"
+  ]
+}

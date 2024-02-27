@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "pgmodeler, pgmodeler-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libgl-dev, libpq-dev, libxext-dev, libxml2-dev, pkg-config, qt6-base-dev, qt6-svg-dev | libqt6svg6-dev, qt6-tools-dev"
+  ],
+  "Checksums-Sha256": [
+    "2d02e6656283aee2ae48125f6f986676989bd410baae38d4c638bbdfec028728 2205 pgmodeler_1.1.0~beta1-1.dsc 4e6fc2294035f0ced11c4adf9a3fd6a03649db3bf5cd9d932191d881a168fbcf 4147344 pgmodeler_1.1.0~beta1.orig.tar.gz 0ec9471fa5117b46e444b60950968f51a75b61c86f7e0e7a0be6352aee0dfea9 3604 pgmodeler_1.1.0~beta1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgmodeler"
+  ],
+  "Files": [
+    "19808d4cf648730837284a2fe2870d76 2205 pgmodeler_1.1.0~beta1-1.dsc a1c9ee561d0462649aca418b6b9c6887 4147344 pgmodeler_1.1.0~beta1.orig.tar.gz df5f6328642a59553850d91d43bce016 3604 pgmodeler_1.1.0~beta1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pgmodeler.io/"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pgmodeler"
+  ],
+  "Package-List": [
+    "pgmodeler deb database optional arch=any pgmodeler-common deb database optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Lisandro Damián Nicanor Pérez Meyer \u003clisandro@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pgmodeler"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pgmodeler.git"
+  ],
+  "Version": [
+    "1.1.0~beta1-1"
+  ]
+}

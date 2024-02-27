@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-dill"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, pybuild-plugin-pyproject"
+  ],
+  "Checksums-Sha256": [
+    "51b35f8a523cfbdf373b6ccf29e0ffc39998375a92ec8b81b69cbcab2bbc34e2 1990 dill_0.3.8-1.dsc 3ebe3c479ad625c4553aca177444d89b486b1d84982eeacded644afc0cf797ca 184847 dill_0.3.8.orig.tar.gz cc5d30726e0a7bea46f350602eea67c9444d22476ded83ca347dd8ce366bf101 4892 dill_0.3.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dill"
+  ],
+  "Files": [
+    "07b2f1035e319edb018c078fc3ebacc2 1990 dill_0.3.8-1.dsc 0718c5472a311b15479ac2e1a6702594 184847 dill_0.3.8.orig.tar.gz 187ddbf65a43ffd07a49e5bef4e1a42b 4892 dill_0.3.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/uqfoundation/dill"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dill"
+  ],
+  "Package-List": [
+    "python3-dill deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Josue Ortega \u003cjosue@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/dill"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/dill.git"
+  ],
+  "Version": [
+    "0.3.8-1"
+  ]
+}

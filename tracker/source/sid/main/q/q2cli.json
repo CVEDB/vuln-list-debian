@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2cli"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-pytest \u003c!nocheck\u003e, python3-setuptools, qiime (\u003e= 2024.2), python3-click"
+  ],
+  "Checksums-Sha256": [
+    "d04542a4a3ac16e7b9c154706b329bf60ccde534f29f2d4dd56dea0379fed371 2157 q2cli_2024.2.0-1.dsc 9ed2705c143c6cb400b0703698b35a33bf2561f7e47c84adcbf5e7a9e9fe7fe1 344885 q2cli_2024.2.0.orig.tar.gz a758b35dad691ad2e6b71059635f136615bc75ee356f69fd98b0f29bf29f8452 8172 q2cli_2024.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2cli"
+  ],
+  "Files": [
+    "4b9c9386f311c8882584c87d5993b7c7 2157 q2cli_2024.2.0-1.dsc cce041d1f786a3e79764849eaf63a273 344885 q2cli_2024.2.0.orig.tar.gz 1a51b5971ff0bd110c739ad0a44d5a34 8172 q2cli_2024.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2cli"
+  ],
+  "Package-List": [
+    "q2cli deb science optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "file, python3-sklearn, q2-sample-classifier"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2cli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2cli.git"
+  ],
+  "Version": [
+    "2024.2.0-1"
+  ]
+}

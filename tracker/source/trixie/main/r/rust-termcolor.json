@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-termcolor-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-winapi-util-0.1+default-dev (\u003e= 0.1.3-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a97163bdbcdd9ff32cfe2a2827256a6035c78f18c495014cd040d1be4953d414 2270 rust-termcolor_1.4.0-1.dsc ff1bc3d3f05aff0403e8ac0d92ced918ec05b666a43f83297ccef5bea8a3d449 18765 rust-termcolor_1.4.0.orig.tar.gz 4c39492d01537a64e3e5df4546ef3663d0af8921281c5f7ee1d6598015e38f5b 3176 rust-termcolor_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-termcolor"
+  ],
+  "Files": [
+    "7ac233fc53a1485c5a178410e129f65e 2270 rust-termcolor_1.4.0-1.dsc ef18ac44cda944777e03597466ec4b82 18765 rust-termcolor_1.4.0.orig.tar.gz 051bc958ee3274d292ef65d14be062de 3176 rust-termcolor_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/BurntSushi/termcolor"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-termcolor"
+  ],
+  "Package-List": [
+    "librust-termcolor-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/termcolor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/termcolor]"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

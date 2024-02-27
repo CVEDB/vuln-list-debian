@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcry-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-dune, dh-ocaml (\u003e= 1.2), ocaml, libssl-ocaml-dev (\u003e= 0.5.0)"
+  ],
+  "Checksums-Sha256": [
+    "719cdc1e8ee97b18e904baae16b5d34b690b3071bd51c0bbbbcde76eb20fb0c2 1788 ocaml-cry_1.0.2-2.dsc bbb6f895116246a21d5e1cd1627750c1257c18c63c9c52ec24bc109a73df2047 20551 ocaml-cry_1.0.2.orig.tar.gz 539c8fc00e775a4bf7b576466c4e89bc4a2130e0fb55a56e5118cbf274d55b5d 3080 ocaml-cry_1.0.2-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "60b8616f2f38c54618e49947923cba84a27a2247 debian archive/debian/1.0.2-2 https://git.dgit.debian.org/ocaml-cry"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-cry"
+  ],
+  "Files": [
+    "74b00d483f1ef3e1a3de8f375c93b8d2 1788 ocaml-cry_1.0.2-2.dsc 1d322779e77b2daba9514c8d41be3778 20551 ocaml-cry_1.0.2.orig.tar.gz 7351728d1b382e05e3a29c66ecbb3754 3080 ocaml-cry_1.0.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.liquidsoap.info/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-cry"
+  ],
+  "Package-List": [
+    "libcry-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Kyle Robbertze \u003cpaddatrapper@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-cry"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-cry.git"
+  ],
+  "Version": [
+    "1.0.2-2"
+  ]
+}

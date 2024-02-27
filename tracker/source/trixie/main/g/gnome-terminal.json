@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gnome-terminal, gnome-terminal-data, nautilus-extension-gnome-terminal"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), desktop-file-utils, dh-sequence-gnome, docbook-to-man, docbook-xsl, gnome-shell-common (\u003e= 3.36.1-6~) | gnome-shell, gsettings-desktop-schemas-dev (\u003e= 0.1.0), itstool, libdconf-dev (\u003e= 0.14.0), libglib2.0-dev (\u003e= 2.52.0), libgtk-3-dev (\u003e= 3.22.27), libhandy-1-dev, libnautilus-extension-dev (\u003e= 43~beta.1), libpcre2-dev (\u003e= 10.00), libvte-2.91-dev (\u003e= 0.74.0), libx11-dev, meson (\u003e= 0.61.0), uuid-dev, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "da059a12d22a83f10ac757394191947af6e5b18f6b7aef1bd3652dc20d57293f 2670 gnome-terminal_3.51.90-1.dsc 51e737f01c6d1a54044a92d897fd8decc8c1bc9176bbeb3618793e472bdced43 1701219 gnome-terminal_3.51.90.orig.tar.bz2 b9bbae46940239749ac2a72f78fd44fd45c3c72d2da304e5727cd3e55d229893 28596 gnome-terminal_3.51.90-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-terminal"
+  ],
+  "Files": [
+    "8d17ebc3e9c84ea06feb02ae06979b6a 2670 gnome-terminal_3.51.90-1.dsc 752375bad605f3929ee74ac06a76dc42 1701219 gnome-terminal_3.51.90.orig.tar.bz2 52e132090b53ffff4a903f14c973a580 28596 gnome-terminal_3.51.90-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Apps/Terminal"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-terminal"
+  ],
+  "Package-List": [
+    "gnome-terminal deb gnome optional arch=any gnome-terminal-data deb gnome optional arch=all nautilus-extension-gnome-terminal deb gnome optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-terminal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-terminal.git"
+  ],
+  "Version": [
+    "3.51.90-1"
+  ]
+}

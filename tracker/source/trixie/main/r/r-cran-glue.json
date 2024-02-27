@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-glue"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "f97069537291d0b359d54b4e8dd3c48355b48a0a2f1ae4ea88529b30752c0ed5 2228 r-cran-glue_1.7.0-1.dsc 1af51b51f52c1aeb3bfe9349f55896dd78b5542ffdd5654e432e4d646e4a86dc 105420 r-cran-glue_1.7.0.orig.tar.gz 7f63d884add9d840ef137ae267b6247e138081480a0ad89b6ffdc248b3e5a128 3144 r-cran-glue_1.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-glue"
+  ],
+  "Files": [
+    "6b38fb504562385c6c2a31e2d1dd3098 2228 r-cran-glue_1.7.0-1.dsc e4e7b07da0c02b008d9a9759b2acbc99 105420 r-cran-glue_1.7.0.orig.tar.gz 938e8628f9f43f5e0c153cc9864c874e 3144 r-cran-glue_1.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=glue"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-glue"
+  ],
+  "Package-List": [
+    "r-cran-glue deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-crayon, r-cran-dbi, r-cran-dplyr, r-cran-knitr, r-cran-magrittr, r-cran-rlang, r-cran-rmarkdown, r-cran-rsqlite, r-cran-testthat, r-cran-vctrs, r-cran-waldo, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-glue"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-glue.git"
+  ],
+  "Version": [
+    "1.7.0-1"
+  ]
+}

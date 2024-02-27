@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libuvc-dev, libuvc0, libuvc-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libjpeg-dev, libusb-1.0-0-dev, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-doxygen, doxygen"
+  ],
+  "Checksums-Sha256": [
+    "28d6e4345469903a43e4b8e0e2840135714c2187c900d6fc262037bc759d8fde 2273 libuvc_0.0.7-1.dsc 7c6ba79723ad5d0ccdfbe6cadcfbd03f9f75b701d7ba96631eb1fd929a86ee72 104376 libuvc_0.0.7.orig.tar.gz 8cc0198b6b35b55ab6bec93d1b63bd4bedf637fe1d456ff4bf5ba7571e0ebf7f 5032 libuvc_0.0.7-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "73b89ab8d475fe030271ea346349dc04371b62da debian archive/debian/0.0.7-1 https://git.dgit.debian.org/libuvc"
+  ],
+  "Directory": [
+    "pool/main/libu/libuvc"
+  ],
+  "Files": [
+    "3c3fbd933c78d075efdea484f3212e24 2273 libuvc_0.0.7-1.dsc 19f3255652d447cc9a34737bc5a4c9ab 104376 libuvc_0.0.7.orig.tar.gz b377ed440be4366294cea231b4890acf 5032 libuvc_0.0.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ktossell/libuvc"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libuvc"
+  ],
+  "Package-List": [
+    "libuvc-dev deb libdevel optional arch=any libuvc-doc deb doc optional arch=all libuvc0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libuvc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libuvc.git"
+  ],
+  "Version": [
+    "0.0.7-1"
+  ]
+}

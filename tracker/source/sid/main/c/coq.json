@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "coq, coqide, libcoq-stdlib, libcoq-core-ocaml, libcoq-core-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-coq, dh-exec, dh-ocaml, dh-python, ocaml-dune, ocaml, ocaml-native-compilers, ocaml-findlib (\u003e= 1.8.0), libfindlib-ocaml-dev, liblablgtk3-ocaml-dev, liblablgtksourceview3-ocaml-dev (\u003e= 3.0~beta8), libnum-ocaml-dev, libounit-ocaml-dev, libzarith-ocaml-dev, python3, rsync, tex-common"
+  ],
+  "Checksums-Sha256": [
+    "7b722e9161a79651a1d126a69b60aa4893ad63273230b78ce2c5fbb3addaab7a 2570 coq_8.18.0+dfsg-1.dsc ae1e6c8905d0766b436c3ecff35e836b8d6c56507106d470c175f834b9de89bd 4868368 coq_8.18.0+dfsg.orig.tar.xz f3a5e4db041b560ee15014fde8f7a836880e9c4cf201e02722a92d4f3947e86b 33160 coq_8.18.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq"
+  ],
+  "Files": [
+    "d8d73b23589b852b8586936d75a311d7 2570 coq_8.18.0+dfsg-1.dsc a217a12abf9ca7b00e72e99200c6cc31 4868368 coq_8.18.0+dfsg.orig.tar.xz c6af82172058bee3456b7cf144f60275 33160 coq_8.18.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://coq.inria.fr/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq"
+  ],
+  "Package-List": [
+    "coq deb math optional arch=any coqide deb math optional arch=any libcoq-core-ocaml deb ocaml optional arch=any libcoq-core-ocaml-dev deb ocaml optional arch=any libcoq-stdlib deb math optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Benjamin Barenblat \u003cbbaren@debian.org\u003e, Julien Puydt \u003cjpuydt@debian.org\u003e, Ralf Treinen \u003ctreinen@debian.org\u003e, Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq.git"
+  ],
+  "Version": [
+    "8.18.0+dfsg-1"
+  ]
+}

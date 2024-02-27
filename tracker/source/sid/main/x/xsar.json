@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-xsar"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, python3-affine, python3-aiohttp, python3-all, python3-cartopy, python3-dask, python3-dill, python3-distributed, python3-fiona, python3-fsspec, python3-geopandas, python3-lxml, python3-matplotlib, python3-numpy, python3-packaging, python3-psutil, python3-pyproj, python3-rasterio, python3-scipy, python3-setuptools, python3-setuptools-scm, python3-shapely, python3-tz, python3-xarray, python3-xarray-datatree, python3-xarray-safe-rcm, python3-xarray-safe-s1, python3-xradarsat2, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "68bef3ce314e6fb2d04bc87416ee65f388bd1cea6b24752a1f7b07c95e456c47 3466 xsar_2024.02.1-1.dsc a6649a90e0247dd4933f30d36e003206a6230b8d2970b3d9de722fa9a27452ae 1376491 xsar_2024.02.1.orig.tar.gz 38e476dd822e2a4de590ff07d52fb3a8518cc8a8d8e34e10b1489ffb713726a8 3900 xsar_2024.02.1-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Python xarray reader to use Level-1 GRD Synthetic Aperture Radar products XSAR is a distributed Level 1 Synthetic Aperture Radar (SAR) file reader designed to write efficient distributed processing algorithms with xarray and dask. . It currently handles Level-1 Sentinel-1 and Radarsat-2 data in SAFE format, as found on scihub or PEPS. . XSAR rely on `xarray.open_rasterio`, rasterio and GDAL to read digital_number from SAFE product to return an `xarray.Dataset` object with dask chunks. LUTs are decoded from XML files and applied to digital_number, following official ESA thermal de-noising document and ESA Sentinel-1 Product Specification. . End user can directly use for example sigma0 variable, or the de-noised sigma0 computed from digital_number and by applying relevant LUTs. . Since XSAR rely on dask, it have a small memory footprint: variables are read from file and computed only if needed."
+  ],
+  "Directory": [
+    "pool/main/x/xsar"
+  ],
+  "Files": [
+    "368165bfca784743707c7a43b03e4570 3466 xsar_2024.02.1-1.dsc d5e55d7864821ed99c34eebc36f9d48a 1376491 xsar_2024.02.1.orig.tar.gz 4b87517001fafaa3f0996c1bb8ce442e 3900 xsar_2024.02.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/umr-lops/xsar"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "xsar"
+  ],
+  "Package-List": [
+    "python3-xsar deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/xsar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/xsar.git"
+  ],
+  "Version": [
+    "2024.02.1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-dupradar"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-rsubread, r-cran-kernsmooth"
+  ],
+  "Checksums-Sha256": [
+    "3ca0f58dd08a64af531f9982aa08264a5aa36790bf179ab1119c6e2f55d8c248 2132 r-bioc-dupradar_1.32.0+ds-1.dsc abb0a9a75ffe605cd2f9b0e92e4453feba44d0ace11116effb9e7736e3cc1528 1957300 r-bioc-dupradar_1.32.0+ds.orig.tar.xz 0715126d487d595c8e6605a8bd4a15085a5cac528b7ae63d1235979e6fb3f74b 2740 r-bioc-dupradar_1.32.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-dupradar"
+  ],
+  "Files": [
+    "9ca4da1f3236ffe139431a4d08fefc61 2132 r-bioc-dupradar_1.32.0+ds-1.dsc 433573d85a364b60cd477508a0e7132b 1957300 r-bioc-dupradar_1.32.0+ds.orig.tar.xz 27126c365b201b6e31cabdf0b8fcd354 2740 r-bioc-dupradar_1.32.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/dupRadar/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-dupradar"
+  ],
+  "Package-List": [
+    "r-bioc-dupradar deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-dupradar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-dupradar.git"
+  ],
+  "Version": [
+    "1.32.0+ds-1"
+  ]
+}

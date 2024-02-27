@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsysfs-dev, libsysfs2, sysfsutils, libsysfs2-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.10), dpkg-dev (\u003e= 1.22.0)"
+  ],
+  "Checksums-Sha256": [
+    "952eae506aaff31c4d3aa7ed7ace40f4580d9d87cac444b2e443df61dc2fa853 2111 sysfsutils_2.1.1-6.dsc f7f669d27c997d3eb3f3e014b4c0aa1aa4d07ce4d6f9e41fa835240f2bf38810 78823 sysfsutils_2.1.1.orig.tar.gz 79214bf1ff04f713f98ab631e119ceaf89bd44a785300e1428dceae944467adf 11332 sysfsutils_2.1.1-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sysfsutils"
+  ],
+  "Files": [
+    "650378ee55266d2634c10d72205aded5 2111 sysfsutils_2.1.1-6.dsc 537c110be7244905997262854505c30f 78823 sysfsutils_2.1.1.orig.tar.gz d6a0649eb442abe572608bb323207f7a 11332 sysfsutils_2.1.1-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linux-ras/sysfsutils"
+  ],
+  "Maintainer": [
+    "Guillem Jover \u003cguillem@debian.org\u003e"
+  ],
+  "Package": [
+    "sysfsutils"
+  ],
+  "Package-List": [
+    "libsysfs-dev deb libdevel optional arch=any libsysfs2 deb libs optional arch=any libsysfs2-udeb udeb debian-installer optional arch=any profile=!noudeb sysfsutils deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.hadrons.org/cgit/debian/pkgs/sysfsutils.git"
+  ],
+  "Vcs-Git": [
+    "https://git.hadrons.org/git/debian/pkgs/sysfsutils.git"
+  ],
+  "Version": [
+    "2.1.1-6"
+  ]
+}

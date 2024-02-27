@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libapache2-mod-python, libapache2-mod-python-doc"
+  ],
+  "Build-Depends": [
+    "apache2-dev (\u003e\u003e 2.4~), debhelper-compat (= 12), dh-apache2, dh-python, python3-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b7e78dac84cc297bc4c451d3269ff7ca45a236cf614cde4e43a0e653d65896bb 2346 libapache2-mod-python_3.5.0.1-2.dsc b81ca9bd7675530abb6651e76821889ab1c3941352c8331712c649e1488a5506 313340 libapache2-mod-python_3.5.0.1.orig.tar.gz 45f6d422ebbb7c97b54aea663c83e93aa0746774876b031b8165c838113792b7 13888 libapache2-mod-python_3.5.0.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libapache2-mod-python"
+  ],
+  "Files": [
+    "b3e9f5a7fdd1e59ca78decd759e5e9ca 2346 libapache2-mod-python_3.5.0.1-2.dsc 14d161f585a03a7261d6e73f9649a204 313340 libapache2-mod-python_3.5.0.1.orig.tar.gz 1e4043dc320eb658631ea0d3f1543a47 13888 libapache2-mod-python_3.5.0.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.modpython.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libapache2-mod-python"
+  ],
+  "Package-List": [
+    "libapache2-mod-python deb httpd optional arch=any libapache2-mod-python-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "httpd"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, curl"
+  ],
+  "Uploaders": [
+    "Robert S. Edmonds \u003cedmonds@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/libapache2-mod-python"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/libapache2-mod-python.git"
+  ],
+  "Version": [
+    "3.5.0.1-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-biocgenerics"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "31821c32b9be5e146e5b7f5073fa2a9e4627bbdd5499fbf1c69c4108a9296b69 2117 r-bioc-biocgenerics_0.48.1-2.dsc 13e126709da888420f320353d6ea52da12a8cbd086f2e29b9cc3039a6411652b 49546 r-bioc-biocgenerics_0.48.1.orig.tar.gz d717e138e436bd8721cc8b94b1542da7ea7c6400fcad0cf956450fb1339e60c9 6756 r-bioc-biocgenerics_0.48.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-biocgenerics"
+  ],
+  "Files": [
+    "bade672790fc87bb1d6d3979b5552609 2117 r-bioc-biocgenerics_0.48.1-2.dsc 77629e64c2a9a0324eb11bb59b53b126 49546 r-bioc-biocgenerics_0.48.1.orig.tar.gz 08b17f0b613a1363f89e25000a6db91d 6756 r-bioc-biocgenerics_0.48.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/BiocGenerics/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-biocgenerics"
+  ],
+  "Package-List": [
+    "r-bioc-biocgenerics deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocgenerics"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocgenerics.git"
+  ],
+  "Version": [
+    "0.48.1-2"
+  ]
+}

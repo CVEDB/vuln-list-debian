@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-tz"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest, python3-setuptools, tzdata"
+  ],
+  "Checksums-Sha256": [
+    "903c5d6b3c84dd0b3e887dd7d15e49c55649c8adc64b953c27ad1aedef3d0d62 2214 python-tz_2024.1-1.dsc 7e69247668eabae06a973f9ab8c99a1dc5a934ce9078f4dc7226ba536252c337 134944 python-tz_2024.1.orig.tar.xz f5227ed6c96d41d9d74d71167935fb1bb4d9b0ee29c5b360c24ac936121bdbea 13712 python-tz_2024.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-tz"
+  ],
+  "Files": [
+    "6e9f90751e33514c243007080d93f726 2214 python-tz_2024.1-1.dsc beddb554a24514c605e9917c8626c309 134944 python-tz_2024.1.orig.tar.xz 4b3f8e9b232151a5c0fa85047a854b19 13712 python-tz_2024.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pythonhosted.org/pytz/"
+  ],
+  "Maintainer": [
+    "Debian  Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-tz"
+  ],
+  "Package-List": [
+    "python3-tz deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3, tzdata-legacy"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e, Debian/Ubuntu Zope Team \u003cpkg-zope-developers@lists.alioth.debian.org\u003e, Fabio Tranchitella \u003ckobold@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-tz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-tz.git -b debian/latest"
+  ],
+  "Version": [
+    "2024.1-1"
+  ]
+}

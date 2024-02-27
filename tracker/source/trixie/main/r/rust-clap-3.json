@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clap-3-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.1) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev (\u003e= 1.2-~~) \u003c!nocheck\u003e, librust-clap-lex-0.6+default-dev \u003c!nocheck\u003e, librust-indexmap+default-dev (\u003e= 1.0-~~) \u003c!nocheck\u003e, librust-indexmap+std-dev (\u003e= 1.0-~~) \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.12.0-~~) \u003c!nocheck\u003e, librust-strsim-0.10+default-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.1.1-~~) \u003c!nocheck\u003e, librust-textwrap-dev (\u003c\u003c 0.17-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9a99ca5063c9ea1707b6d64e301ba3e5cdcd8f950cbdf12fc83c41f57e3e7c3c 2796 rust-clap-3_3.2.25-4.dsc 4ea181bf566f71cb9a5d17a59e1871af638180a18fb0035c92ae62b705207123 219403 rust-clap-3_3.2.25.orig.tar.gz 027b58970127ec7bbedf5424fb01db90b2301f2e48417f8eae3309d15f40e2e6 9112 rust-clap-3_3.2.25-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clap-3"
+  ],
+  "Files": [
+    "6302c7d18fed8ca25ab38e054bb834be 2796 rust-clap-3_3.2.25-4.dsc f74bde8201e1c944db1108f1014dfb8e 219403 rust-clap-3_3.2.25.orig.tar.gz c216ec293547a837668572515fcc1d42 9112 rust-clap-3_3.2.25-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clap-3"
+  ],
+  "Package-List": [
+    "librust-clap-3-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-humantime-2+default-dev, librust-regex-1+default-dev, librust-rustversion-1+default-dev, librust-shlex-1+default-dev, librust-static-assertions-1+default-dev, librust-trybuild-1+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clap-3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-3]"
+  ],
+  "Version": [
+    "3.2.25-4"
+  ]
+}

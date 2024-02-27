@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pip, python3-pip-whl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, python3, python3-docutils \u003c!nodoc\u003e, python3-setuptools (\u003e= 44.0.0)"
+  ],
+  "Checksums-Sha256": [
+    "d7cfd8229ac80a4f7208dd4442e8009298d1a6c80e7ef5f759007ca89bda5393 1679 python-pip_24.0+dfsg-1.dsc a9ee9fb7a02829dd154b35ec02f48a71d9d12465b95c0172d69d59a2c60d5710 1298912 python-pip_24.0+dfsg.orig.tar.xz cdd432a302190ae826caf8cab59ad2491f35d170a644a7f677381b20085814f8 21480 python-pip_24.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pip"
+  ],
+  "Files": [
+    "d3d7359b41c4a4ab370fcad111020e8e 1679 python-pip_24.0+dfsg-1.dsc 1793860d6df9b46c4365cf52b51c028e 1298912 python-pip_24.0+dfsg.orig.tar.xz e317cafbbcd4c3f4a93636b31f4a5f15 21480 python-pip_24.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pip.pypa.io/en/stable/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pip"
+  ],
+  "Package-List": [
+    "python3-pip deb python optional arch=all python3-pip-whl deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-venv"
+  ],
+  "Uploaders": [
+    "Carl Chenet \u003cchaica@debian.org\u003e, Scott Kitterman \u003cscott@kitterman.com\u003e, Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pip"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pip.git"
+  ],
+  "Version": [
+    "24.0+dfsg-1"
+  ]
+}

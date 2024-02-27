@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "firmware-linux-free"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "dcee1228938b4b5a8e3ea76c041a3514a3dd58d3e532238a1545f2b2998e234b 2137 firmware-free_20200122-4.dsc f513f929a2ac9cc294ca9483f6cb4b5d79bed27e246a0001be8f611b4dda4f44 187416 firmware-free_20200122.orig.tar.xz 41920eec77949cdaa5189d91556e1a7a4491063d4cd44aca268966aae3080c30 45184 firmware-free_20200122-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/firmware-free"
+  ],
+  "Files": [
+    "51fe850b09b11d58382032ba63499884 2137 firmware-free_20200122-4.dsc 9a8ef1b688bf7d28ea53cdf9749c1bd2 187416 firmware-free_20200122.orig.tar.xz 84da76cf1f0cce221fedd0506785c2b1 45184 firmware-free_20200122-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "firmware-free"
+  ],
+  "Package-List": [
+    "firmware-linux-free deb kernel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "kernel"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/firmware-free"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/firmware-free.git"
+  ],
+  "Version": [
+    "20200122-4"
+  ]
+}

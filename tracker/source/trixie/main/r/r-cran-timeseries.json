@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-timeseries"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), r-cran-timedate (\u003e= 2150.95), dh-r, xvfb, xauth, xfonts-base"
+  ],
+  "Checksums-Sha256": [
+    "a661efdef89b389457a58a5ac11a1396bbebea412576a11b2f995a7b6fa97255 1996 r-cran-timeseries_4032.109-1.dsc 5e0c47584e0b01ea4011ed5ced217d95f8bb872611f6b029b0797d95eebd731f 1459977 r-cran-timeseries_4032.109.orig.tar.gz fcf4c2b44fe4ef87b779d5daaea532ead4302a44447c9a6c17df0d9523b5087c 3376 r-cran-timeseries_4032.109-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-timeseries"
+  ],
+  "Files": [
+    "c7f981e9be07d7b4d6f2d7ebcb55c671 1996 r-cran-timeseries_4032.109-1.dsc 645a2cd9432cacae6a7656b2a7c89662 1459977 r-cran-timeseries_4032.109.orig.tar.gz 62d035d15f57756cff6916872ca81e7a 3376 r-cran-timeseries_4032.109-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=timeSeries"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-cran-timeseries"
+  ],
+  "Package-List": [
+    "r-cran-timeseries deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-timeseries"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-timeseries.git"
+  ],
+  "Version": [
+    "4032.109-1"
+  ]
+}

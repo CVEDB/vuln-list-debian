@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-binwalk, binwalk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-coverage, python3-nose, python3-setuptools, python3-zombie-imp"
+  ],
+  "Checksums-Sha256": [
+    "49b11ebbf0f5044e4ea6d3fc206a6c6d1b32adb09e63b72a86f2aa99bf1f581e 2186 binwalk_2.3.4+dfsg1-4.dsc 97e7fdc85355fcde26d555e3abf839d843f93d5a841bbca2a52fc74cf57f700f 301920 binwalk_2.3.4+dfsg1.orig.tar.xz c72261bb95e33bfc0ba5b1294a748172f06ed0f567db8d34a10d9b1cfdbaaa7a 9112 binwalk_2.3.4+dfsg1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/binwalk"
+  ],
+  "Files": [
+    "ca65d5a73a5722dd9e2506dc44865cfe 2186 binwalk_2.3.4+dfsg1-4.dsc de34db2fab91581e536e7ad1a3a54519 301920 binwalk_2.3.4+dfsg1.orig.tar.xz bc2a892c1c91ee31fd007b608cc92c28 9112 binwalk_2.3.4+dfsg1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ReFirmLabs/binwalk"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "binwalk"
+  ],
+  "Package-List": [
+    "binwalk deb devel optional arch=all python3-binwalk deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-nose, wget"
+  ],
+  "Uploaders": [
+    "Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/binwalk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/binwalk.git"
+  ],
+  "Version": [
+    "2.3.4+dfsg1-4"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "skeema"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-alecthomas-participle-dev (\u003e= 0.7.1), golang-github-fsouza-go-dockerclient-dev, golang-github-jmoiron-sqlx-dev, golang-github-mitchellh-go-wordwrap-dev, golang-github-nozzle-throttler-dev, golang-github-skeema-mybase-dev, golang-github-vividcortex-mysqlerr-dev, golang-golang-x-sync-dev, golang-golang-x-term-dev, golang-logrus-dev"
+  ],
+  "Checksums-Sha256": [
+    "a68ac0f835ace87cc9f7339919e1b6035af153bc6b31f38a2e4afb2ce304fff0 2385 skeema_1.11.1+ds-1.dsc 4b433317f54f9f650839274fbe57db9d9fdee7bab8a39bf7b800f63a1345e01b 264084 skeema_1.11.1+ds.orig.tar.xz 8fb1eea7182912fb7770055152385eb56580aec585a0b57fe024168080e178ec 5276 skeema_1.11.1+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/skeema"
+  ],
+  "Files": [
+    "c57071d2c34c77279009f5e7864b7761 2385 skeema_1.11.1+ds-1.dsc ce5c4c8b1abfda8cfa36fd143486b9ab 264084 skeema_1.11.1+ds.orig.tar.xz 5958529213236f01d6d96fa9150f57ac 5276 skeema_1.11.1+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/skeema/skeema"
+  ],
+  "Homepage": [
+    "https://github.com/skeema/skeema"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "skeema"
+  ],
+  "Package-List": [
+    "skeema deb golang optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/skeema"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/skeema.git"
+  ],
+  "Version": [
+    "1.11.1+ds-1"
+  ]
+}

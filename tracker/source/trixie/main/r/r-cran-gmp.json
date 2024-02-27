@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-gmp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, libgmp-dev"
+  ],
+  "Checksums-Sha256": [
+    "ee80bf07b74769839ee3e8d2adcc17d11e410405e75aa22ac72bab302c2708e4 2084 r-cran-gmp_0.7-4-1.dsc a7d6b40f77d2619c11db5170b8f47336f7c5fa1db7eed0ac9d8a432e41053919 167439 r-cran-gmp_0.7-4.orig.tar.gz 077eacc7ebbbede0babc47546ac5d008809c94406e9cfd4ddbbbaf18317344db 2420 r-cran-gmp_0.7-4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-gmp"
+  ],
+  "Files": [
+    "00f2500947c8488870afae67f089f4c2 2084 r-cran-gmp_0.7-4-1.dsc 9d8e130ae524e48d0f62d7db0ac379ed 167439 r-cran-gmp_0.7-4.orig.tar.gz 311a57d8d3dd3b6d96008390ba924b7a 2420 r-cran-gmp_0.7-4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=gmp"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-gmp"
+  ],
+  "Package-List": [
+    "r-cran-gmp deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-mass, r-cran-rmpfr"
+  ],
+  "Uploaders": [
+    "Rodrigo Carvalho \u003crodrigorsdc@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gmp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gmp.git"
+  ],
+  "Version": [
+    "0.7-4-1"
+  ]
+}

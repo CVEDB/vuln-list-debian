@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gnome-shell-extensions-extra"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gettext, libglib2.0-bin, python3-docutils, unzip, zip"
+  ],
+  "Checksums-Sha256": [
+    "78f18617db2df6ce4dcd3568910c8b891353626a81261c4dc945d1e9303b2498 2162 gnome-shell-extensions-extra_20231210-1.dsc bc949c5f5ed758f04b1f91e9eb24ffd834565948836e50db18e13cc13cad6c3b 4053296 gnome-shell-extensions-extra_20231210.orig.tar.xz 90f23041ce3320e9255ccaee961ac42ff6807fb9ee5aee77b0d6f118fd5cc04c 4844 gnome-shell-extensions-extra_20231210-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-shell-extensions-extra"
+  ],
+  "Files": [
+    "5bf811c6d9b00cc9039c33195be3fd18 2162 gnome-shell-extensions-extra_20231210-1.dsc 58105d27183a60e3e403b18e6b137581 4053296 gnome-shell-extensions-extra_20231210.orig.tar.xz 11e929e2747ee050a3132f638ab1e491 4844 gnome-shell-extensions-extra_20231210-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e,"
+  ],
+  "Package": [
+    "gnome-shell-extensions-extra"
+  ],
+  "Package-List": [
+    "gnome-shell-extensions-extra deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/gnome-shell-extensions-extra"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/gnome-shell-extensions-extra"
+  ],
+  "Version": [
+    "20231210-1"
+  ]
+}

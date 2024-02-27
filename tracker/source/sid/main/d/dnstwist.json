@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dnstwist"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "ca04fd1aabde7cc2ba5892e4dd6207e041c518ad726b86d5adedf33f87b9f410 2329 dnstwist_0~20240116-1.dsc feeba2f48f2ba27cda342d6b5c8e76ae895009f86ffa813d97746de59a30d8f1 408360 dnstwist_0~20240116.orig.tar.xz 840dbf3787a5137263cba7a5de340d0d42e1e5fcc502ece32a57a708fd4baa04 6888 dnstwist_0~20240116-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dnstwist"
+  ],
+  "Files": [
+    "ddc89d6fe72e201b99aea10783add88b 2329 dnstwist_0~20240116-1.dsc c43d68acb98cb0e8ed299a31ba0df597 408360 dnstwist_0~20240116.orig.tar.xz bc519fe9f3a70878d4c334e021bd682e 6888 dnstwist_0~20240116-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/elceef/dnstwist"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dnstwist"
+  ],
+  "Package-List": [
+    "dnstwist deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, chromium-driver, jq, python3-demjson, python3-dnspython, python3-geoip, python3-idna, python3-pil, python3-selenium, python3-tld, python3-tlsh"
+  ],
+  "Uploaders": [
+    "Peter Wienemann \u003cfossdev@posteo.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/dnstwist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/dnstwist.git"
+  ],
+  "Version": [
+    "0~20240116-1"
+  ]
+}

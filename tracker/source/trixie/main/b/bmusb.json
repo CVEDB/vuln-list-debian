@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libbmusb-dev, libbmusb6"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libusb-1.0-0-dev, pkg-config, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "663fe9bcdf7e0a7c2c655e5685a80269e07e4a357389583505cbe33a1fcda49a 1754 bmusb_0.7.7-3.dsc cbcc13de349e6ded4a87d0284bbf61066ac848d59931efb4eeaa23053a20199c 32322 bmusb_0.7.7.orig.tar.gz 7b70194c82849b844425df58522db50eed81e014ac0347018968952239743dee 3424 bmusb_0.7.7-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bmusb"
+  ],
+  "Files": [
+    "6c544fc58c08d0beae4b6d3215b81bc1 1754 bmusb_0.7.7-3.dsc 26f3b1d55f9d4fdb575ed0ad09af6d71 32322 bmusb_0.7.7.orig.tar.gz 92451e1060afc995d4a9e30a384033bb 3424 bmusb_0.7.7-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Steinar H. Gunderson \u003csesse@debian.org\u003e"
+  ],
+  "Package": [
+    "bmusb"
+  ],
+  "Package-List": [
+    "libbmusb-dev deb libdevel optional arch=any libbmusb6 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Version": [
+    "0.7.7-3"
+  ]
+}

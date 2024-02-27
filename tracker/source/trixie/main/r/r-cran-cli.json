@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-cli"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "6a29e8eff2863838b0fecb6f8e78d0a4d4f09b721c5158b52d21cdafe9e7c3c8 2333 r-cran-cli_3.6.2-1.dsc 4c0749e3711b2b6ae90fd992784303bc8d98039599cac1deb397239a7018e151 569771 r-cran-cli_3.6.2.orig.tar.gz b5655e1da84cf7abf2a6169cbb7b119742d29ff12558b807e3cb968d33726e40 3496 r-cran-cli_3.6.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-cli"
+  ],
+  "Files": [
+    "1301ec3e64298814f0b50e8c7dae0d0f 2333 r-cran-cli_3.6.2-1.dsc 36e2b58e8de26def5fcf17b6dd71dad7 569771 r-cran-cli_3.6.2.orig.tar.gz 4ac17d7aa279eb457ca884d9ec031761 3496 r-cran-cli_3.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=cli"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-cli"
+  ],
+  "Package-List": [
+    "r-cran-cli deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-callr, r-cran-covr, r-cran-crayon, r-cran-digest, r-cran-glue, r-cran-htmltools, r-cran-htmlwidgets, r-cran-knitr, r-cran-mockery, r-cran-processx, r-cran-ps, r-cran-rlang, r-cran-rmarkdown, r-cran-rprojroot, r-cran-rstudioapi, r-cran-testthat, r-cran-tibble, r-cran-whoami, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-cli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-cli.git"
+  ],
+  "Version": [
+    "3.6.2-1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "nullmailer"
+  ],
+  "Build-Depends": [
+    "daemontools, debhelper (\u003e= 10.8), libgnutls28-dev | libgnutls-dev, po-debconf, ucspi-tcp-ipv6"
+  ],
+  "Checksums-Sha256": [
+    "5db38c1644a9a8f20bff4b22eb244a68214140be0496ddca45af6b4a164cef41 2001 nullmailer_2.2+10~g7ed88a0-2.dsc 9fbbd536be098530aaa7b2ffc34d7d4d2937a555b538ed4fd783a30db3195708 76092 nullmailer_2.2+10~g7ed88a0.orig.tar.xz 508b8141f981cfd04b1f4d977e8ff07008ef0743587253b56c4de07db79556eb 29192 nullmailer_2.2+10~g7ed88a0-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a08f43cf53b4e86000396f7972112a82041fbf3f debian archive/debian/1%2.2+10_g7ed88a0-2 https://git.dgit.debian.org/nullmailer"
+  ],
+  "Directory": [
+    "pool/main/n/nullmailer"
+  ],
+  "Files": [
+    "673934975180e63fe1e820a3db280a0c 2001 nullmailer_2.2+10~g7ed88a0-2.dsc c68c51978b38aaf4f6995f81e06f9525 76092 nullmailer_2.2+10~g7ed88a0.orig.tar.xz 275d8197b223c1685026258cf3cca32f 29192 nullmailer_2.2+10~g7ed88a0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://untroubled.org/nullmailer/"
+  ],
+  "Maintainer": [
+    "David Bremner \u003cbremner@debian.org\u003e"
+  ],
+  "Package": [
+    "nullmailer"
+  ],
+  "Package-List": [
+    "nullmailer deb mail optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.1.2"
+  ],
+  "Version": [
+    "1:2.2+10~g7ed88a0-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "openlp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, qtbase5-dev-tools, python3 (\u003e= 3.6), python3-alembic, python3-appdirs, python3-bs4, python3-chardet, python3-dbus, python3-distro, python3-fitz, python3-flask, python3-flask-cors, python3-icu, python3-lxml, python3-mako, python3-pymediainfo (\u003e= 2.2), python3-pyodbc, python3-pysword, python3-pytest, python3-pytest-runner, python3-pytestqt, python3-pyqt5 (\u003e= 5.12), python3-pyqt5.qtmultimedia, python3-pyqt5.qtopengl, python3-pyqt5.qtsvg, python3-pyqt5.qtwebengine, python3-qdarkstyle, python3-qrcode, python3-qtawesome, python3-requests, python3-setuptools, python3-sqlalchemy (\u003e= 0.5), python3-uno, python3-vlc, python3-waitress, python3-webob, python3-websockets, python3-zeroconf, qttools5-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "c66ac9002b9e4b0b8ec45d4feadf7ea0b49abe3a8d54e04bdc34d149a065f8c5 2507 openlp_3.1.0~rc4-1.dsc 68bc47cab0e429232fb2da2e67b44408319d41b188607e9fd7a735327e85c430 20836796 openlp_3.1.0~rc4.orig.tar.xz a71dd4077e877d812e3fc1fd28ff700721ee882bffec3fe6b1c7486e71efe927 5936 openlp_3.1.0~rc4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openlp"
+  ],
+  "Files": [
+    "c76d674a839e2b0b3004c23172562aa8 2507 openlp_3.1.0~rc4-1.dsc 65f4fd40de9d47a71b5ee827dd8791de 20836796 openlp_3.1.0~rc4.orig.tar.xz df9bc9105ce05920f95627b82efa9cb3 5936 openlp_3.1.0~rc4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://openlp.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "openlp"
+  ],
+  "Package-List": [
+    "openlp deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Raoul Snyman \u003craoul@snyman.info\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/openlp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/openlp.git"
+  ],
+  "Version": [
+    "3.1.0~rc4-1"
+  ]
+}

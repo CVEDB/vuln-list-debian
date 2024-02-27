@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gix-chunk-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev (\u003e= 1.0.34-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "683d299baaf194a017b34340403ec427b14ef4bb4dadf4e7db59f63ae8a55060 2230 rust-gix-chunk_0.4.5-1.dsc d411ecd9b558b0c20b3252b7e409eec48eabc41d18324954fe526bac6e2db55f 9407 rust-gix-chunk_0.4.5.orig.tar.gz 369ffc56e54998b104ca33f95ec057c4f29ff67322d23d21a801f4012ef1ceb6 2776 rust-gix-chunk_0.4.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gix-chunk"
+  ],
+  "Files": [
+    "15ddaad2b838ea749f738b4c09aa8e7d 2230 rust-gix-chunk_0.4.5-1.dsc 4995018e6b30c5c455f08720846f4254 9407 rust-gix-chunk_0.4.5.orig.tar.gz 7239ea2ad1a6e83dc0c9b6df74b0fa97 2776 rust-gix-chunk_0.4.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gix-chunk"
+  ],
+  "Package-List": [
+    "librust-gix-chunk-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gix-chunk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-chunk]"
+  ],
+  "Version": [
+    "0.4.5-1"
+  ]
+}

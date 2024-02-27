@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpcl-dev, libpcl-apps1.13, libpcl-common1.13, libpcl-features1.13, libpcl-filters1.13, libpcl-io1.13, libpcl-kdtree1.13, libpcl-keypoints1.13, libpcl-ml1.13, libpcl-octree1.13, libpcl-outofcore1.13, libpcl-people1.13, libpcl-recognition1.13, libpcl-registration1.13, libpcl-sample-consensus1.13, libpcl-search1.13, libpcl-segmentation1.13, libpcl-stereo1.13, libpcl-surface1.13, libpcl-tracking1.13, libpcl-visualization1.13, pcl-tools, libpcl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, clang [mipsel armel armhf], python3-sphinx, libboost-system-dev, libboost-filesystem-dev, libboost-thread-dev, libboost-date-time-dev, libboost-iostreams-dev, libeigen3-dev, libflann-dev, libvtk9-dev, libqhull-dev, libopenni-dev [!s390x !alpha !hppa !hurd-i386 !ia64 !kfreebsd-any !m68k !riscv64 !sh4 !sparc64], libopenni2-dev [!hurd-i386 !hppa !kfreebsd-any], libqt5opengl5-dev, libusb-1.0-0-dev, libglut-dev, libxmu-dev, libxi-dev, libpcap-dev, libvtk9-qt-dev, libglew-dev, libgtest-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, doxygen-latex"
+  ],
+  "Checksums-Sha256": [
+    "116eb33b8bcf50eb441b660ced376c1375fe960513104118e8bd59966f1ea372 4337 pcl_1.13.0+dfsg-4.dsc 2718d0d434f6bff252c8984092542b9f1cf186e2fd08fab766b28c849d204330 58997576 pcl_1.13.0+dfsg.orig.tar.xz a9725f192921bf45fc09ad4dd519d3e7419584c7bb2a7ffb8c5e645dc2f83948 32284 pcl_1.13.0+dfsg-4.debian.tar.xz"
+  ],
+  "Description": [
+    "Point Cloud Library The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing. . The PCL framework contains numerous state-of-the art algorithms including filtering, feature estimation, surface reconstruction, registration, model fitting and segmentation."
+  ],
+  "Directory": [
+    "pool/main/p/pcl"
+  ],
+  "Files": [
+    "6134f3ff3c292e5308f4f97c1366dda3 4337 pcl_1.13.0+dfsg-4.dsc 7e7f4b53e2aa320f26b67e058308afb0 58997576 pcl_1.13.0+dfsg.orig.tar.xz 54cda8473182952ba326ed2c2e0a0797 32284 pcl_1.13.0+dfsg-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pointclouds.org/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pcl"
+  ],
+  "Package-List": [
+    "libpcl-apps1.13 deb libs optional arch=any libpcl-common1.13 deb libs optional arch=any libpcl-dev deb libdevel optional arch=any libpcl-doc deb doc optional arch=all libpcl-features1.13 deb libs optional arch=any libpcl-filters1.13 deb libs optional arch=any libpcl-io1.13 deb libs optional arch=any libpcl-kdtree1.13 deb libs optional arch=any libpcl-keypoints1.13 deb libs optional arch=any libpcl-ml1.13 deb libs optional arch=any libpcl-octree1.13 deb libs optional arch=any libpcl-outofcore1.13 deb libs optional arch=any libpcl-people1.13 deb libs optional arch=any libpcl-recognition1.13 deb libs optional arch=any libpcl-registration1.13 deb libs optional arch=any libpcl-sample-consensus1.13 deb libs optional arch=any libpcl-search1.13 deb libs optional arch=any libpcl-segmentation1.13 deb libs optional arch=any libpcl-stereo1.13 deb libs optional arch=any libpcl-surface1.13 deb libs optional arch=any libpcl-tracking1.13 deb libs optional arch=any libpcl-visualization1.13 deb libs optional arch=any pcl-tools deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e, Leopold Palomo-Avellaneda \u003cleo@alaxarxa.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/pcl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/pcl.git"
+  ],
+  "Version": [
+    "1.13.0+dfsg-4"
+  ]
+}

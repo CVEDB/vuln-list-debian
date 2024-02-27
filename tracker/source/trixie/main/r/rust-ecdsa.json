@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ecdsa-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-digest-0.10+oid-dev (\u003e= 0.10.7-~~) \u003c!nocheck\u003e, librust-elliptic-curve-0.13+digest-dev (\u003e= 0.13.5-~~) \u003c!nocheck\u003e, librust-elliptic-curve-0.13+sec1-dev (\u003e= 0.13.5-~~) \u003c!nocheck\u003e, librust-signature-2+digest-dev (\u003e= 2.1-~~) \u003c!nocheck\u003e, librust-signature-2+rand-core-dev (\u003e= 2.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "bfb4998da8136bcc60715530ca4a2a0fd052d465bba7e9df1a6f72e3e017e649 2536 rust-ecdsa_0.16.8-1.dsc a4b1e0c257a9e9f25f90ff76d7a68360ed497ee519c8e428d1825ef0000799d4 31238 rust-ecdsa_0.16.8.orig.tar.gz 7173a734c76ccb05759bb16799e7f8258a094ffdc71b12d28e39da451c1dbb17 3572 rust-ecdsa_0.16.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ecdsa"
+  ],
+  "Files": [
+    "50fac3288a685c97b72fd09c11bd5d16 2536 rust-ecdsa_0.16.8-1.dsc fe07b73ef5cd7680b91b301839cba087 31238 rust-ecdsa_0.16.8.orig.tar.gz 463859ae73aafcfa0415dfc6c3839114 3572 rust-ecdsa_0.16.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ecdsa"
+  ],
+  "Package-List": [
+    "librust-ecdsa-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-elliptic-curve-0.13+dev-dev, librust-hex-literal-0.4+default-dev, librust-sha2-0.10-dev"
+  ],
+  "Uploaders": [
+    "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ecdsa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ecdsa]"
+  ],
+  "Version": [
+    "0.16.8-1"
+  ]
+}

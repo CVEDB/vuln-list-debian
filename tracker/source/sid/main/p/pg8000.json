@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pg8000, python-pg8000-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-dateutil, python3-scramp, python3-setuptools (\u003e= 68.1)"
+  ],
+  "Checksums-Sha256": [
+    "f2e01b7906db69add9d5ba56c2170fa8b41713c0bd7e53ff9692a172a777e624 2341 pg8000_1.30.3-2.dsc 4e7c75747a43a49c15623f92583bb6e1d023eae6eaf2c2e1e6de4d7fb7fa404f 134020 pg8000_1.30.3.orig.tar.gz a495ac167f8bc0d23ce3ebb269412800a6ce94bf225e847dbcda5b6945240df6 5624 pg8000_1.30.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pg8000"
+  ],
+  "Files": [
+    "47690780e8ef4a35a707105ec14d0161 2341 pg8000_1.30.3-2.dsc 734a16887d4eaaab64b4e8f435cd9db5 134020 pg8000_1.30.3.orig.tar.gz 8fb061e5e39c3d5ba3cb8e760a6ad5b8 5624 pg8000_1.30.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tlocke/pg8000"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pg8000"
+  ],
+  "Package-List": [
+    "python-pg8000-doc deb oldlibs optional arch=all python3-pg8000 deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql, python3-all, python3-pytest, python3-pytest-benchmark, python3-pytest-mock, python3-tz"
+  ],
+  "Uploaders": [
+    "Dominik George \u003cnik@naturalnet.de\u003e, Rahul Amaram \u003camaramrahul@users.sourceforge.net\u003e, Alexander Sulfrian \u003casulfrian@zedat.fu-berlin.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pg8000"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pg8000.git"
+  ],
+  "Version": [
+    "1.30.3-2"
+  ]
+}

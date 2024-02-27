@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "aspell, aspell-doc, libaspell15, libaspell-dev, libpspell-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libncurses-dev, texinfo, autopoint, w3m"
+  ],
+  "Checksums-Sha256": [
+    "ae8805135d359ba0a968183040e8254b8383457a5daacb755be999a713eed3dd 2341 aspell_0.60.8.1-1.dsc d6da12b34d42d457fa604e435ad484a74b2effcd120ff40acd6bb3fb2887d21b 3567205 aspell_0.60.8.1.orig.tar.gz fb284b44f1853adf456aaf271afa3fe0a23459b587e2fdb17fc9fe08bfff83a0 181 aspell_0.60.8.1.orig.tar.gz.asc 8a7afe32a8999a812f533b502d52add2c463a2a8b27341f4b7c79d19d2a6b014 25500 aspell_0.60.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aspell"
+  ],
+  "Files": [
+    "32b8c633a790217906cf98c6faac1e4f 2341 aspell_0.60.8.1-1.dsc 187bd142f522ada555c7aa6b9cbf56e6 3567205 aspell_0.60.8.1.orig.tar.gz 63a29e4aa0c2faeb3e64ff3e1207f26e 181 aspell_0.60.8.1.orig.tar.gz.asc 7803d4ee1b78bb981a4694bf738b039a 25500 aspell_0.60.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://aspell.net/"
+  ],
+  "Maintainer": [
+    "Agustin Martin Domingo \u003cagmartin@debian.org\u003e"
+  ],
+  "Package": [
+    "aspell"
+  ],
+  "Package-List": [
+    "aspell deb text optional arch=any aspell-doc deb doc optional arch=all libaspell-dev deb libdevel optional arch=any libaspell15 deb libs optional arch=any libpspell-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "text"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/aspell"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/aspell.git"
+  ],
+  "Version": [
+    "0.60.8.1-1"
+  ]
+}

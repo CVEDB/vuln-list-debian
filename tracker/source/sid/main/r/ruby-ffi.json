@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ruby-ffi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 1), libffi-dev, rake, ruby-rspec"
+  ],
+  "Checksums-Sha256": [
+    "73a9f2a401ebfb1da0ae85f03d7f18df0420e25ab8d6948ec101fee6737301d2 2145 ruby-ffi_1.16.3+dfsg-1.dsc e862e90e593a568212b068116d8f99a5b4474fb727498c37a7f3dad7107ce353 136268 ruby-ffi_1.16.3+dfsg.orig.tar.xz 88d4ada45d6578528548761167b7422ec7387ce79c75d76a5db0b49c9ed0ace0 7612 ruby-ffi_1.16.3+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-ffi"
+  ],
+  "Files": [
+    "d664d0d81859d0423d9663f1db525d29 2145 ruby-ffi_1.16.3+dfsg-1.dsc d63d8a018690fd261e63c03737c3a20e 136268 ruby-ffi_1.16.3+dfsg.orig.tar.xz 6311c132a2404be9a93184f5aab73d54 7612 ruby-ffi_1.16.3+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ffi/ffi/wiki"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-ffi"
+  ],
+  "Package-List": [
+    "ruby-ffi deb ruby optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "ruby"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gem2deb-test-runner, ruby-all-dev, ruby-rspec"
+  ],
+  "Uploaders": [
+    "Utkarsh Gupta \u003cutkarsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-ffi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-ffi.git"
+  ],
+  "Version": [
+    "1.16.3+dfsg-1"
+  ]
+}

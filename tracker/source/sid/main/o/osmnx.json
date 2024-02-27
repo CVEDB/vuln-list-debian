@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-osmnx, python-osmnx-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-coverage, python3-geopandas (\u003e= 0.12), python3-networkx (\u003e= 2.8), python3-numpy (\u003e= 1.23), python3-pandas (\u003e= 1.5), python3-requests (\u003e= 2.28), python3-shapely (\u003e= 2.0), python3-matplotlib (\u003e= 3.5), python3-sklearn, python3-scipy, python3-folium, python3-pytest, python3-hatchling, flit, black, isort, pydocstyle"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, furo, latexmk, texlive-plain-generic, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, tex-gyre"
+  ],
+  "Checksums-Sha256": [
+    "96e30c5cc2d6c222a84e528ac944e67729d29cf1309d0f718f490361c97b24ac 3430 osmnx_1.9.1+ds-1.dsc db612293ca5f836a7728c080320e2314cd05f6dd1a9bebb28dbfbe07a15c0fcb 108876 osmnx_1.9.1+ds.orig.tar.xz bdf9519434e5336e6b73bafc68a7e325c21ecf1f2ac93753ec2c798502f46d4b 10636 osmnx_1.9.1+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/osmnx"
+  ],
+  "Files": [
+    "94c43fd7be8216336feb8045e605f607 3430 osmnx_1.9.1+ds-1.dsc 7dc186aa8c8b8e2faee3a8c242146839 108876 osmnx_1.9.1+ds.orig.tar.xz 32f59405a552775e1e389f0a22d6387d 10636 osmnx_1.9.1+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gboeing/osmnx"
+  ],
+  "Maintainer": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+  ],
+  "Package": [
+    "osmnx"
+  ],
+  "Package-List": [
+    "python-osmnx-doc deb doc optional arch=all python3-osmnx deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-coverage, python3-folium, python3-gdal, python3-matplotlib, python3-pytest, python3-rasterio, python3-scipy, python3-sklearn"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/osmnx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/osmnx.git"
+  ],
+  "Version": [
+    "1.9.1+ds-1"
+  ]
+}

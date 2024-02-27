@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "i386 amd64 arm64 armhf"
+  ],
+  "Binary": [
+    "xmrig"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libstdc++6, libfmt-dev, libhwloc-dev, libssl-dev, libuv1-dev, opencl-c-headers, rapidjson-dev, help2man"
+  ],
+  "Checksums-Sha256": [
+    "690d5a0b0d28af6d39331e9bbe2a2d6736e50a85c9a5ae8c874a1cf4ea33ed1f 2088 xmrig_6.21.0+dfsg-1.dsc e5f866f8a812a8ec10610493b50a65a9d1c2a1ba785f20a46e6823ea06e0ed5a 1021700 xmrig_6.21.0+dfsg.orig.tar.xz 102bd9b9da9572fc4b77991828608b68a5c4bdb4a1bfe2e8467fcc61cc1038ed 7260 xmrig_6.21.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xmrig"
+  ],
+  "Files": [
+    "64d09c86a1df27f629ecc4088e8928bb 2088 xmrig_6.21.0+dfsg-1.dsc 0f3fc69564af5da0acb83673eb21313f 1021700 xmrig_6.21.0+dfsg.orig.tar.xz b74b6bf7841972d2cc2b3a571b5aa95c 7260 xmrig_6.21.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://xmrig.com/"
+  ],
+  "Maintainer": [
+    "Debian Cryptocoin Team \u003cteam+cryptocoin@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "xmrig"
+  ],
+  "Package-List": [
+    "xmrig deb utils optional arch=i386,amd64,arm64,armhf"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ben Westover \u003cme@benthetechguy.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cryptocoin-team/xmrig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cryptocoin-team/xmrig.git"
+  ],
+  "Version": [
+    "6.21.0+dfsg-1"
+  ]
+}

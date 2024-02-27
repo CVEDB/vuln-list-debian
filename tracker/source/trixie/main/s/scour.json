@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-scour, scour"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "perl"
+  ],
+  "Checksums-Sha256": [
+    "e9abf86f6277ae9d64a0de59c835bfecff3e196499d47b948c844aab5f406dd1 2059 scour_0.38.2-4.1.dsc 26166de53d9da3eccc52570bf8c2853e60efefd9e90e26fdfc7124fe0bd873af 99910 scour_0.38.2.orig.tar.gz f7c4b2e276a991f91d1cdfd36714f500b55e890107ccef01fefdf3b9100cf64f 10868 scour_0.38.2-4.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/scour"
+  ],
+  "Files": [
+    "cd5c87a0424947cfcf1141ab1dddfaeb 2059 scour_0.38.2-4.1.dsc ae30f52602802f8c7df3a32e1f72b325 99910 scour_0.38.2.orig.tar.gz a2849576867f7e6107f0254a4dc3b135 10868 scour_0.38.2-4.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/codedread/scour"
+  ],
+  "Maintainer": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e"
+  ],
+  "Package": [
+    "scour"
+  ],
+  "Package-List": [
+    "python3-scour deb python optional arch=all scour deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gir1.2-rsvg-2.0, librsvg2-bin, python3-gi-cairo"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/scour"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/scour.git"
+  ],
+  "Version": [
+    "0.38.2-4.1"
+  ]
+}

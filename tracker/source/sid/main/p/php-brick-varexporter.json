@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-brick-varexporter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "1d81e406009e3ecf287f9d333df08c1ccef245da8d1a5ac0a8430e4d3d4496ce 1847 php-brick-varexporter_0.4.0-2.dsc 5feeb8b5735f052e131c42aa6dbe22fc9d5e6d73d76ba41c811e999230357f44 21420 php-brick-varexporter_0.4.0.orig.tar.xz 746c05e0d1d58fccfab6ad123f8d683572b56fdf2ee2135b8acdd992801324db 4200 php-brick-varexporter_0.4.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-brick-varexporter"
+  ],
+  "Files": [
+    "7cf7994ad1d07c7b3a44806e369d9eea 1847 php-brick-varexporter_0.4.0-2.dsc 1c1551610ea141628241551505827366 21420 php-brick-varexporter_0.4.0.orig.tar.xz 262a0495e21fa161f94f28a346c7a8be 4200 php-brick-varexporter_0.4.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/brick/varexporter"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-brick-varexporter"
+  ],
+  "Package-List": [
+    "php-brick-varexporter deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-brick-varexporter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-brick-varexporter.git"
+  ],
+  "Version": [
+    "0.4.0-2"
+  ]
+}

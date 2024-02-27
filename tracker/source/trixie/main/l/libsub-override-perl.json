@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libsub-override-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libtest-fatal-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "3e20ff6d16105d5c2eabf67c482e8f2098eac3a52119d8dcb3b165442fea1028 2449 libsub-override-perl_0.10-1.dsc 6d8dcc73545ad54707872f33e1bae4ae7ffc5bf90ce23c1001a9b3686157ab47 7218 libsub-override-perl_0.10.orig.tar.gz 9de5084e2a8ace631217a950d0681e9435752e80df843f8f934ed2a5557617f5 2908 libsub-override-perl_0.10-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "fb645848aead7d974b720d46e9a8a8c344866616 debian archive/debian/0.10-1 https://git.dgit.debian.org/libsub-override-perl"
+  ],
+  "Directory": [
+    "pool/main/libs/libsub-override-perl"
+  ],
+  "Files": [
+    "a6822461c122d5a5d6a4baffc6f57a0a 2449 libsub-override-perl_0.10-1.dsc 0e7f13ee7f66506ae15f08c4dacb6b62 7218 libsub-override-perl_0.10.orig.tar.gz 1636162fbc605cd837d0b96c669263d4 2908 libsub-override-perl_0.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Sub-Override"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsub-override-perl"
+  ],
+  "Package-List": [
+    "libsub-override-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Ansgar Burchardt \u003cansgar@debian.org\u003e, Florian Schlichting \u003cfsfs@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libsub-override-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libsub-override-perl.git"
+  ],
+  "Version": [
+    "0.10-1"
+  ]
+}

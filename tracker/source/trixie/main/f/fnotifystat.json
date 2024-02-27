@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "fnotifystat"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), libncurses-dev"
+  ],
+  "Checksums-Sha256": [
+    "78b6a3f3cdab2153b1705068b14e366646c69d19eb6b7857a12d22a5f16ce20d 1814 fnotifystat_0.02.11-1.dsc 65608a57cebb7685b75e16a96ae536bf6c3bfe431fab77a6dae3c645f460f2cf 22088 fnotifystat_0.02.11.orig.tar.xz 555db76c83bc684b60a13156d82728171adca15a5f3c06e57dba0dadde6ba3e3 3844 fnotifystat_0.02.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fnotifystat"
+  ],
+  "Files": [
+    "c30f1f9d57f2eafbcb86619212feefa4 1814 fnotifystat_0.02.11-1.dsc a6d470a04dd170f5000d2d7f5c7e3999 22088 fnotifystat_0.02.11.orig.tar.xz 0d37d77fe4ef7c53f59e4f0741cd7a32 3844 fnotifystat_0.02.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/fnotifystat"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "fnotifystat"
+  ],
+  "Package-List": [
+    "fnotifystat deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.02.11-1"
+  ]
+}

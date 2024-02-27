@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pydoctor"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all"
+  ],
+  "Build-Depends-Indep": [
+    "pybuild-plugin-pyproject, python3-appdirs \u003c!nocheck\u003e, python3-astor \u003c!nocheck\u003e, python3-bs4 \u003c!nocheck\u003e, python3-configargparse \u003c!nocheck\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-lunr \u003c!nocheck\u003e, python3-poetry, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-twisted \u003c!nocheck\u003e, sphinx \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a52cd8bb2ff2e120b2d3d500de88fe28f25506c9c2b0885f2865b9fb1b09ddc8 2510 pydoctor_23.9.1-1.dsc a50955a3eba2a769c5ce731b3a2e8aa0e89c6c665063a7195faa0eb0c375d29b 913733 pydoctor_23.9.1.orig.tar.gz d3c302b1fe4cee553fe77096a25c74ef1b2046582ce0233d1a3de027064e0b2b 67072 pydoctor_23.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pydoctor"
+  ],
+  "Files": [
+    "01a6abadf2caaef102586f5972d597db 2510 pydoctor_23.9.1-1.dsc cf3b026c6c419aace7e8f6e8eb3a6106 913733 pydoctor_23.9.1.orig.tar.gz 046d14aa2f7a70a11dde7500b3b00f11 67072 pydoctor_23.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/twisted/pydoctor"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pydoctor"
+  ],
+  "Package-List": [
+    "pydoctor deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-bs4, python3-configargparse, python3-filelock, python3-hypothesis, python3-lunr, python3-pytest, sphinx"
+  ],
+  "Uploaders": [
+    "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pydoctor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pydoctor.git"
+  ],
+  "Version": [
+    "23.9.1-1"
+  ]
+}

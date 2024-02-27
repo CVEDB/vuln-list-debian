@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-fpylll, python-fpylll-doc"
+  ],
+  "Build-Depends": [
+    "cython3 (\u003e= 3.0.0), debhelper-compat (= 13), dh-python, libfplll-dev (\u003e= 5.4.3), libgmp-dev, libmpfr-dev, libpari-dev, pkg-config, python3-all-dev, python3-cysignals-bare | python3-cysignals, python3-flake8, python3-numpy, python3-pytest, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-docutils"
+  ],
+  "Checksums-Sha256": [
+    "383b6cf62f988162f60363692e7779275dc8a69fe7b3882d17ef895dbeab6aa0 2457 fpylll_0.6.1-1.dsc 4be1af135bd08b3711554d3f86c47bf001b9f1fc9b6f41be899cd0ffed4f0434 131085 fpylll_0.6.1.orig.tar.gz 2306cd13d556ce4d09adeb31f5407f7295d31d0f4438a9b6367f1998e852c44f 5216 fpylll_0.6.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fpylll"
+  ],
+  "Files": [
+    "240443c997830b094f3a0e6a2e672f40 2457 fpylll_0.6.1-1.dsc 51d43c437b09cfcb2d230bdbbdb5a132 131085 fpylll_0.6.1.orig.tar.gz f30837e323a848df36b429e2ec574f27 5216 fpylll_0.6.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fplll/fpylll"
+  ],
+  "Maintainer": [
+    "Debian Python Modules Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "fpylll"
+  ],
+  "Package-List": [
+    "python-fpylll-doc deb doc optional arch=all python3-fpylll deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-cysignals-bare, python3-cysignals-pari, python3-pytest"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e, Ximin Luo \u003cinfinity0@debian.org\u003e, Julien Puydt \u003cjpuydt@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/fpylll"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/fpylll.git"
+  ],
+  "Version": [
+    "0.6.1-1"
+  ]
+}

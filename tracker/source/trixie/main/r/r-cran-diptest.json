@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-diptest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "35efa655750deec89b4095f9484ed7724a3a7b49ec6f503954de339b6e0fcae9 2077 r-cran-diptest_0.77-0-1.dsc c3c835155e6bddce730623c4e9b4eeed00624c26d493076e79db203a55f8ca32 158168 r-cran-diptest_0.77-0.orig.tar.gz 53a39970401532b8cbd138994c923731a43170df66c961d6ffeeb16cd0fc33a3 2860 r-cran-diptest_0.77-0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-diptest"
+  ],
+  "Files": [
+    "a19ef55088999487f544155cd823e120 2077 r-cran-diptest_0.77-0-1.dsc f7229b4ba1ca5ad70d996ce984329d73 158168 r-cran-diptest_0.77-0.orig.tar.gz 655981fc7ec40d6b3fbd0e014f1a35d0 2860 r-cran-diptest_0.77-0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=diptest"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-diptest"
+  ],
+  "Package-List": [
+    "r-cran-diptest deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-diptest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-diptest.git"
+  ],
+  "Version": [
+    "0.77-0-1"
+  ]
+}

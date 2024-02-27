@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-fansi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "726d8eccfe752754c6157346cff178460cdc76185506d8232b3c082e39819aa2 2110 r-cran-fansi_1.0.5-1.dsc c616ce357fbfd43253c366da578549a38066459058c22fb99c82fc05992e23f6 482380 r-cran-fansi_1.0.5.orig.tar.gz 291194cd1eadfa07262eb1fc382eaf01f9bd0ddc1c09bd3d47cdbcbbca081cb1 3068 r-cran-fansi_1.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-fansi"
+  ],
+  "Files": [
+    "90818ba9ab41ae23c8d2a371f97b6fd1 2110 r-cran-fansi_1.0.5-1.dsc d1a4e4d70abf0bc079c2a20763b765bf 482380 r-cran-fansi_1.0.5.orig.tar.gz 69a865197ae29f9f868b30051151bc97 3068 r-cran-fansi_1.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=fansi"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-fansi"
+  ],
+  "Package-List": [
+    "r-cran-fansi deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-knitr, r-cran-rmarkdown, r-cran-unitizer"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-fansi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-fansi.git"
+  ],
+  "Version": [
+    "1.0.5-1"
+  ]
+}

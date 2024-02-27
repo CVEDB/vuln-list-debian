@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fake-hwclock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "fb537624ba9c3cec3ef45d352ae149a29e4997bf8e75788040abd688edf2ef52 1572 fake-hwclock_0.13.dsc 63c37d4befe388cfc65b30660403fff638692fc05fbf76d497340b4158747b11 11752 fake-hwclock_0.13.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fake-hwclock"
+  ],
+  "Files": [
+    "c6e4a3097a1a5c1773308c84c7885226 1572 fake-hwclock_0.13.dsc b177d049ae8c29501ca010cf7ae1072f 11752 fake-hwclock_0.13.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Steve McIntyre \u003c93sam@debian.org\u003e"
+  ],
+  "Package": [
+    "fake-hwclock"
+  ],
+  "Package-List": [
+    "fake-hwclock deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.einval.com/cgi-bin/gitweb.cgi?p=fake-hwclock.git"
+  ],
+  "Vcs-Git": [
+    "https://git.einval.com/git/fake-hwclock.git"
+  ],
+  "Version": [
+    "0.13"
+  ]
+}

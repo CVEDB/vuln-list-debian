@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "munin, munin-node, munin-plugins-core, munin-plugins-extra, munin-plugins-java, munin-common, munin-async, munin-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmodule-build-perl, po-debconf"
+  ],
+  "Build-Depends-Indep": [
+    "default-jdk, html2text, htmldoc, libfile-slurp-perl, libhtml-template-perl, libio-stringy-perl, liblist-moreutils-perl, liblog-log4perl-perl, libnet-server-perl, libnet-snmp-perl, libnet-ssleay-perl, librrds-perl, libtest-deep-perl, libtest-differences-perl, libtest-exception-perl, libtest-longstring-perl, libtest-mockmodule-perl, libtest-mockobject-perl, perl"
+  ],
+  "Checksums-Sha256": [
+    "15d76d31048067c696a4cc2895082ee6bbf56d1d895e764cb3e4b27ed525be1e 3139 munin_2.0.75-1.dsc 2f7aedd9fe64699a08c01006fe7907a624a50576cffd1d2b1ca00232aa2d1f5e 2252948 munin_2.0.75.orig.tar.gz e8dc348d12ba39b23513a019c0928715c7c81e65e754e35a57e3d11d45e3dd5b 833 munin_2.0.75.orig.tar.gz.asc b77d4eea572b9adc42af121b3c42cc4b0e90ba9ff62a8e07bfd24741b08d9742 66724 munin_2.0.75-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/munin"
+  ],
+  "Files": [
+    "fa9145e580975c843427c5f75e112abe 3139 munin_2.0.75-1.dsc 8f7d1ba9405f4f33f95b33ecb3e36aff 2252948 munin_2.0.75.orig.tar.gz 706cac51d47b336f3862805a2ecee91b 833 munin_2.0.75.orig.tar.gz.asc 335ff545ee317255959df8d2ddbe9de8 66724 munin_2.0.75-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://munin-monitoring.org"
+  ],
+  "Maintainer": [
+    "Munin Debian Maintainers \u003cteam+munin@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "munin"
+  ],
+  "Package-List": [
+    "munin deb net optional arch=all munin-async deb net optional arch=all munin-common deb net optional arch=all munin-doc deb doc optional arch=all munin-node deb net optional arch=all munin-plugins-core deb net optional arch=all munin-plugins-extra deb net optional arch=all munin-plugins-java deb net optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, cron, curl, daemontools, file, libcgi-fast-perl, netcat-openbsd, psmisc, sharness, systemd-sysv, sysvinit-core"
+  ],
+  "Uploaders": [
+    "Holger Levsen \u003cholger@debian.org\u003e, Stig Sandbeck Mathisen \u003cssm@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/munin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/munin.git -b debian"
+  ],
+  "Version": [
+    "2.0.75-1"
+  ]
+}

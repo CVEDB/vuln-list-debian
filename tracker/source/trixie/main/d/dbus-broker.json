@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "dbus-broker"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-package-notes, libapparmor-dev (\u003e= 3.0), libaudit-dev (\u003e= 2.7), libcap-ng-dev (\u003e= 0.6), libdbus-1-dev (\u003e= 1.10), libexpat1-dev (\u003e= 2.2), libselinux1-dev (\u003e= 2.5), libsystemd-dev (\u003e= 230), linux-libc-dev (\u003e= 4.14), meson (\u003e= 0.44), pkgconf, python3-docutils (\u003e= 0.13) \u003c!nodoc\u003e, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "cc02382d999604845ff3f8a62a2484e84ad11c781d177400cec7d86e79a06f3e 2583 dbus-broker_35-2.dsc d50daa31ff33f48693194596ea2aeb1a925183b59cdc82a550774e5c43982252 263388 dbus-broker_35.orig.tar.xz 00d52c28ce46ad4d53a1c131f3c2755f5494d141405ce234241d50f457418c4f 833 dbus-broker_35.orig.tar.xz.asc 73189422ad1a3bc03f3d42d8236650b22d6bf4dc0b4f3a39f4746f2ac435e3a4 13496 dbus-broker_35-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dbus-broker"
+  ],
+  "Files": [
+    "81489a8b3f786d0ee6d1c2e56ac70e42 2583 dbus-broker_35-2.dsc 7598df58394caad29b702069e05e8d79 263388 dbus-broker_35.orig.tar.xz df04196ee657b721d11736bcc50a64b6 833 dbus-broker_35.orig.tar.xz.asc 817a0b9f17b78140dc7a26768d1be921 13496 dbus-broker_35-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bus1/dbus-broker/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dbus-broker"
+  ],
+  "Package-List": [
+    "dbus-broker deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential"
+  ],
+  "Uploaders": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/dbus-broker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/dbus-broker.git"
+  ],
+  "Version": [
+    "35-2"
+  ]
+}

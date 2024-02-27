@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "atropos"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, cython3-legacy, python3-all-dev, python3-setuptools, python3-setuptools-scm, python3-wheel, python3-loguru, python3-xphyle, python3-pytest \u003c!nocheck\u003e, python3-jinja2 \u003c!nocheck\u003e, python3-pysam \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8d02bd3f16930bb35918e7887fbc61723d6527260bfe5da9695799fa64341775 2266 atropos_1.1.32+dfsg-1.dsc efb5aef489afa25b1e3990d0320d1fedb32d84147c52bcf67cd9759170da0eed 3116652 atropos_1.1.32+dfsg.orig.tar.xz 7d93fe9b863a31cfce5c8a5cc631cbf29901df6f1560f0f46440fe5d545e3f59 6496 atropos_1.1.32+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/atropos"
+  ],
+  "Files": [
+    "fa25d6422437eb87530610d8f06cb983 2266 atropos_1.1.32+dfsg-1.dsc feac304ad9679649959f69ace8899da1 3116652 atropos_1.1.32+dfsg.orig.tar.xz ba1ef0e9d2bce3266ede39fbab1b29ed 6496 atropos_1.1.32+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jdidion/atropos"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "atropos"
+  ],
+  "Package-List": [
+    "atropos deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/atropos"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/atropos.git"
+  ],
+  "Version": [
+    "1.1.32+dfsg-1"
+  ]
+}

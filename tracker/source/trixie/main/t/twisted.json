@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-twisted, twisted-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, patch, pybuild-plugin-pyproject, pydoctor (\u003e= 22.7), python3-all, python3-attr (\u003e= 19.2.0), python3-automat (\u003e= 0.8.0), python3-constantly, python3-doc, python3-hamcrest, python3-hatch-fancy-pypi-readme, python3-hatchling, python3-hyperlink, python3-incremental (\u003e= 21.3.0), python3-sphinx-rtd-theme, python3-zope.interface (\u003e= 4.4.2)"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "68e1301153a4d5facf54da5ed71b2ed7787be9f9a70584ea90d88d2c9af4a1ad 1934 twisted_23.10.0-2.dsc a496434ee909a7224f32677b3c7b5cce3fc9aad45b5faf143fba437102f9017f 2642628 twisted_23.10.0.orig.tar.xz 728071bfddc9a72ab7dcd752d2a21aa834f299974bc1d0fb84df78d0f793323a 36564 twisted_23.10.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/twisted"
+  ],
+  "Files": [
+    "2a939b6b7450516429f791226b099b14 1934 twisted_23.10.0-2.dsc e2d6a0be17277c5ef03fd19c216d2c5e 2642628 twisted_23.10.0.orig.tar.xz 2eb15157912b6cb9bf3e4a6c6ea666dc 36564 twisted_23.10.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://twistedmatrix.com/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "twisted"
+  ],
+  "Package-List": [
+    "python3-twisted deb python optional arch=all twisted-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "locales-all, python3-all, python3-hamcrest, python3-hypothesis"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/twisted"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/twisted.git"
+  ],
+  "Version": [
+    "23.10.0-2"
+  ]
+}

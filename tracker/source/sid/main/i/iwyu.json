@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "iwyu"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, clang-17, libclang-17-dev, llvm-17-dev, help2man, libncurses5-dev, zlib1g-dev, chrpath"
+  ],
+  "Checksums-Sha256": [
+    "148e98d0306f8d91f3bb852e8fb1f102845e9a717f7604e292bb68e0a1ed7c69 1955 iwyu_8.21-1.dsc a472fe8587376d041585c72e5643200f8929899f787725f0ba9e5b3d3820d401 776263 iwyu_8.21.orig.tar.gz c8ed54a21be75c63edb1a1bd09be0a968bde41a072cb4a3794dc6d2843bde622 6388 iwyu_8.21-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iwyu"
+  ],
+  "Files": [
+    "5c6925bb8b9eba3d2a1f536029d77f8f 1955 iwyu_8.21-1.dsc 0fd9924b31314929feec8c1f887d58a2 776263 iwyu_8.21.orig.tar.gz e398cdb45dc4be860289535d0207a2e3 6388 iwyu_8.21-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://include-what-you-use.org/"
+  ],
+  "Maintainer": [
+    "LLVM Packaging Team \u003cpkg-llvm-team@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "iwyu"
+  ],
+  "Package-List": [
+    "iwyu deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-llvm-team/iwyu"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-llvm-team/iwyu.git"
+  ],
+  "Version": [
+    "8.21-1"
+  ]
+}

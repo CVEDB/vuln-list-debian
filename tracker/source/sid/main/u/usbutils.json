@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "usbutils, usbutils-py"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libusb-1.0-0-dev, libudev-dev, pkg-config, python3, dh-python"
+  ],
+  "Checksums-Sha256": [
+    "6615963c52d9aa4a87b4a0b3694e6343433e3f58ed8ee856139f6b911b48b252 1840 usbutils_017-3.dsc a6a25ffdcf9103e38d7a44732aca17073f4e602b92e4ae55625231a82702e05b 168820 usbutils_017.orig.tar.xz 21116a79b63ff58ed186fc400e38758031b53a904d09e78cbca0f30e4b007db4 10516 usbutils_017-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/usbutils"
+  ],
+  "Files": [
+    "f89e0c0afe052fc9e6a114e8da809462 1840 usbutils_017-3.dsc 8ff21441faf2e8128e4810b3d6e49059 168820 usbutils_017.orig.tar.xz 8f700c849f7e6ccb42bd961140522f64 10516 usbutils_017-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gregkh/usbutils"
+  ],
+  "Maintainer": [
+    "Aurelien Jarno \u003caurel32@debian.org\u003e"
+  ],
+  "Package": [
+    "usbutils"
+  ],
+  "Package-List": [
+    "usbutils deb utils optional arch=linux-any usbutils-py deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1:017-3"
+  ]
+}

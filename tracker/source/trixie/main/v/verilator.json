@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "verilator"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), dh-sequence-sphinxdoc, flex, latexmk, libfl-dev, libsystemc-dev [amd64 arm64 i386 kfreebsd-any], help2man, python3, python3-sphinx, python3-sphinx-rtd-theme, tex-gyre, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "d04cf6f86f3471831e9ec7cf5512285fde91995ea38bf796fc8f83f43ae4c8f1 2198 verilator_5.020-1.dsc 3efb3a7c50c0bc0ea3989bf9219785b718cf9d056c643a9cef45570fbe46dafb 3827346 verilator_5.020.orig.tar.gz e31f96dcff0bf32c90fd5f5d31e779be6a1a51c159e97f0d0443ae922537eaa1 12360 verilator_5.020-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/verilator"
+  ],
+  "Files": [
+    "198c7b42197a078128881f6bd9ecef3a 2198 verilator_5.020-1.dsc 5669552b539f0749d9c7f13a3ad88d36 3827346 verilator_5.020.orig.tar.gz 08d59d398e183429b8a012907f46ca1f 12360 verilator_5.020-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.veripool.org/wiki/verilator"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "verilator"
+  ],
+  "Package-List": [
+    "verilator deb electronics optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "electronics"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "أحمد المحمودي (Ahmed El-Mahmoudy) \u003caelmahmoudy@users.sourceforge.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/verilator"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/verilator.git"
+  ],
+  "Version": [
+    "5.020-1"
+  ]
+}

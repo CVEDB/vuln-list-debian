@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xlunzip"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "d7d2f25e0928d1a0b6e4d14b69f1e5354ab972ad679fa35c584e35ebf1cd609f 1884 xlunzip_0.8-1.dsc 707a72ff01aaa8c537312f5c9e30fca0e1b19d43961a22945cdd0af44047f2de 52704 xlunzip_0.8.orig.tar.xz 470fa938fe73e8f9a19abb80081fa1471adecb9a2799ece95dbd0d13a10cec2a 4552 xlunzip_0.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xlunzip"
+  ],
+  "Files": [
+    "599694bdd3bd99253bc6dc71e4220a60 1884 xlunzip_0.8-1.dsc df1e00acfcd7875e9a8959d61fb266b1 52704 xlunzip_0.8.orig.tar.xz 64218b54decd088a9d3524cabdcd744d 4552 xlunzip_0.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.nongnu.org/lzip/xlunzip.html"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "xlunzip"
+  ],
+  "Package-List": [
+    "xlunzip deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/xlunzip"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/xlunzip"
+  ],
+  "Version": [
+    "0.8-1"
+  ]
+}

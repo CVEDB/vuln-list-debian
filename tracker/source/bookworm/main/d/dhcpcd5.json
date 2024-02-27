@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dhcpcd-base, dhcpcd, dhcpcd5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libudev-dev [linux-any], pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "fa04009f6f14ae45120e748b8d56f2952b561c48eefdeb0ef5e1818958160ac1 2103 dhcpcd5_9.4.1-24~deb12u3.dsc 819357634efed1ea5cf44ec01b24d3d3f8852fec8b4249925dcc5667c54e376c 257092 dhcpcd5_9.4.1.orig.tar.xz 08fa413bf46d3588b9f31bfc2b49bbf08eec847d9a9936ab7d16931776749f19 23688 dhcpcd5_9.4.1-24~deb12u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dhcpcd5"
+  ],
+  "Files": [
+    "d9a70f62a94b272947a2b2efa054a716 2103 dhcpcd5_9.4.1-24~deb12u3.dsc 2b2f46648bc96979f96127f0e0e07d9b 257092 dhcpcd5_9.4.1.orig.tar.xz 06e357fe7bf6e5d3a4a01af682580c3a 23688 dhcpcd5_9.4.1-24~deb12u3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://roy.marples.name/projects/dhcpcd"
+  ],
+  "Maintainer": [
+    "Martin-Éric Racine \u003cmartin-eric.racine@iki.fi\u003e"
+  ],
+  "Package": [
+    "dhcpcd5"
+  ],
+  "Package-List": [
+    "dhcpcd deb net optional arch=all dhcpcd-base deb net optional arch=any dhcpcd5 deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "chrony, dnsmasq, ethtool, iproute2, openntpd, usrmerge"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dhcpcd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dhcpcd.git"
+  ],
+  "Version": [
+    "9.4.1-24~deb12u3"
+  ]
+}

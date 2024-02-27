@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "phpunit-global-state"
+  ],
+  "Build-Depends": [
+    "ant, debhelper-compat (= 13), dh-sequence-phpcomposer, phpab, phpunit, pkg-php-tools"
+  ],
+  "Checksums-Sha256": [
+    "9a89fbc316d40d9d49b456723eac6701a4bfe8f596edb5a5a3e6a728e27179c8 1929 phpunit-global-state_5.0.6-1.dsc 2f43552ec7395fdef69b70439450dd1ee7591dc26f7d014d95c5113e7c2ab10d 3398616 phpunit-global-state_5.0.6.orig.tar.xz cfe2760f4cf96160816094cfd9d518d4682a9d266fab89f2ea7f071550954a8a 52228 phpunit-global-state_5.0.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phpunit-global-state"
+  ],
+  "Files": [
+    "5adcb89e2bfdad968cd5642f0c922b7a 1929 phpunit-global-state_5.0.6-1.dsc 4914bfd63dc80c9c62dccf537e89653a 3398616 phpunit-global-state_5.0.6.orig.tar.xz 396b5dfe0d86a5f278ae23d0bd11e2a3 52228 phpunit-global-state_5.0.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sebastianbergmann/global-state"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phpunit-global-state"
+  ],
+  "Package-List": [
+    "phpunit-global-state deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpunit-global-state"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpunit-global-state.git -b debian/5"
+  ],
+  "Version": [
+    "5.0.6-1"
+  ]
+}

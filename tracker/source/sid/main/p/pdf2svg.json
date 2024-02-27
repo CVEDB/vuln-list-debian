@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pdf2svg"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autotools-dev, libpoppler-glib-dev, libcairo2-dev"
+  ],
+  "Checksums-Sha256": [
+    "e807ee009c923441d807dafce733b5df393656aa25ee604add87c7d98f86fe02 1885 pdf2svg_0.2.3-5.dsc 4fb186070b3e7d33a51821e3307dce57300a062570d028feccd4e628d50dea8a 89461 pdf2svg_0.2.3.orig.tar.gz 73550d82be5b4e238ffc60983313664f5d4ced8fad517a1b8f8e5bcee60afb1c 4360 pdf2svg_0.2.3-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdf2svg"
+  ],
+  "Files": [
+    "2e2b3f36566bd2b07470640af77777d0 1885 pdf2svg_0.2.3-5.dsc d398b3b1c1979f554596238a44f12123 89461 pdf2svg_0.2.3.orig.tar.gz 2a34a2543c1fb9fad2917617ab7cda9f 4360 pdf2svg_0.2.3-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.cityinthesky.co.uk/opensource/pdf2svg/"
+  ],
+  "Maintainer": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Package": [
+    "pdf2svg"
+  ],
+  "Package-List": [
+    "pdf2svg deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pdf2svg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pdf2svg.git"
+  ],
+  "Version": [
+    "0.2.3-5"
+  ]
+}

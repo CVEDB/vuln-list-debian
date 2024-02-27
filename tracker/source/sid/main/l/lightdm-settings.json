@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lightdm-settings"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "3d944d0368aa64a7a428f285238f02a970549032677b01b982ab6869341ba022 2074 lightdm-settings_2.0.1-1.dsc a44b62c18e64b7b9bbcc98e623c13b0ac94898974645e47d7afd272e98e0ae17 138023 lightdm-settings_2.0.1.orig.tar.gz 87a6dcbc667865e877a2222612aea8f488fa7fb44b225470e9531a9b1b145109 3016 lightdm-settings_2.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lightdm-settings"
+  ],
+  "Files": [
+    "597720ae7a2696b09d9b73508b16d438 2074 lightdm-settings_2.0.1-1.dsc 3f4d1e663417961847106ed65ff3f9cc 138023 lightdm-settings_2.0.1.orig.tar.gz 5fac6414fabe8b105e1618c6ef64e8ec 3016 lightdm-settings_2.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linuxmint/lightdm-settings"
+  ],
+  "Maintainer": [
+    "Simon Quigley \u003ctsimonq2@debian.org\u003e"
+  ],
+  "Package": [
+    "lightdm-settings"
+  ],
+  "Package-List": [
+    "lightdm-settings deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Martin Wimpress \u003ccode@flexion.org\u003e, David Mohammed \u003cfossfreedom@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/lightdm-settings"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/lightdm-settings.git"
+  ],
+  "Version": [
+    "2.0.1-1"
+  ]
+}

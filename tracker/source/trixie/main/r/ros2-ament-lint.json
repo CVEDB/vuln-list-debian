@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ament-lint, ament-cmake-clang-format, ament-cmake-clang-tidy, ament-cmake-copyright, ament-cmake-cppcheck, ament-cmake-cpplint, ament-cmake-flake8, ament-cmake-lint-cmake, ament-cmake-mypy, ament-cmake-pep257, ament-cmake-pycodestyle, ament-cmake-pyflakes, ament-cmake-uncrustify, ament-cmake-xmllint, python3-ament-lint, python3-ament-clang-format, python3-ament-clang-tidy, python3-ament-copyright, python3-ament-cppcheck, python3-ament-cpplint, python3-ament-flake8, python3-ament-lint-cmake, python3-ament-mypy, python3-ament-pep257, python3-ament-pycodestyle, python3-ament-pyflakes, python3-ament-uncrustify, python3-ament-xmllint"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ament-cmake, cmake, dh-ros, dh-sequence-python3, python3-all, python3-flake8 \u003c!nocheck\u003e, python3-pycodestyle \u003c!nocheck\u003e, python3-pydocstyle \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "2d4cfe999b294bd27c8c8e92aab9eeefbcfd11201e564753c7316237c1feebe7 4234 ros2-ament-lint_0.16.3-1.dsc ecd32ab3b1bdc770a719d1450265a0c1c4567486bc61e1707cf25bc640ed3f18 292993 ros2-ament-lint_0.16.3.orig.tar.gz 7c8ddd0902615e9acb36202db7b9377e27833c7f8c919926a6aff01d6a7f45a0 7720 ros2-ament-lint_0.16.3-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "6569e0c2f80edc33c29de5f21a3fb2e0fa471c37 debian archive/debian/0.16.3-1 https://git.dgit.debian.org/ros2-ament-lint"
+  ],
+  "Directory": [
+    "pool/main/r/ros2-ament-lint"
+  ],
+  "Files": [
+    "3fa7c8bc3f29aba7fdc4e4460ab282f2 4234 ros2-ament-lint_0.16.3-1.dsc f8d0dcb49a1b685fd393b0cbe31e1498 292993 ros2-ament-lint_0.16.3.orig.tar.gz 947b2626f41d28a0e644396cc517baaa 7720 ros2-ament-lint_0.16.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ament/ament_lint"
+  ],
+  "Maintainer": [
+    "Debian Robotics Team \u003cteam+robotics@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ros2-ament-lint"
+  ],
+  "Package-List": [
+    "ament-cmake-clang-format deb devel optional arch=all ament-cmake-clang-tidy deb devel optional arch=all ament-cmake-copyright deb devel optional arch=all ament-cmake-cppcheck deb devel optional arch=all ament-cmake-cpplint deb devel optional arch=all ament-cmake-flake8 deb devel optional arch=all ament-cmake-lint-cmake deb devel optional arch=all ament-cmake-mypy deb devel optional arch=all ament-cmake-pep257 deb devel optional arch=all ament-cmake-pycodestyle deb devel optional arch=all ament-cmake-pyflakes deb devel optional arch=all ament-cmake-uncrustify deb devel optional arch=all ament-cmake-xmllint deb devel optional arch=all ament-lint deb devel optional arch=all python3-ament-clang-format deb python optional arch=all python3-ament-clang-tidy deb python optional arch=all python3-ament-copyright deb python optional arch=all python3-ament-cppcheck deb python optional arch=all python3-ament-cpplint deb python optional arch=all python3-ament-flake8 deb python optional arch=all python3-ament-lint deb python optional arch=all python3-ament-lint-cmake deb python optional arch=all python3-ament-mypy deb python optional arch=all python3-ament-pep257 deb python optional arch=all python3-ament-pycodestyle deb python optional arch=all python3-ament-pyflakes deb python optional arch=all python3-ament-uncrustify deb python optional arch=all python3-ament-xmllint deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e, Jochen Sprickerhof \u003cjspricke@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/robotics-team/ros2-ament-lint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/robotics-team/ros2-ament-lint.git"
+  ],
+  "Version": [
+    "0.16.3-1"
+  ]
+}

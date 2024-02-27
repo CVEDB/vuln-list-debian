@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpappsomspp0, libpappsomspp-dev, libpappsomspp-widget0, libpappsomspp-widget-dev, libpappsomspp-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, cmake, d-shlibs, libxkbfile-dev, qt6-base-dev, libqt6core5compat6-dev, libqt6svg6-dev, qt6-documentation-tools, libpwizlite-dev (\u003e= 3.0.5), libqcustomplot-dev (\u003e= 2.1.0), libodsstream-dev (\u003e= 0.9.7), libsqlite3-dev, libzstd-dev, liblzf-dev, zlib1g-dev, libquazip1-qt6-dev, libboost-dev, libboost-iostreams-dev, libboost-thread-dev, libboost-system-dev, libboost-filesystem-dev, libboost-chrono-dev, libboost-container-dev, doxygen, catch2"
+  ],
+  "Checksums-Sha256": [
+    "8beb713296fb7e88999ac15bcdbce83c3fa4e662f6f4b6c113dc48f41cd47f2b 2717 libpappsomspp_0.9.24-1.dsc ee206102456225247a6e70a40e6cecf12e1bb724f8568dd7f2029e67b2618886 3973231 libpappsomspp_0.9.24.orig.tar.gz 21e659401838b82c2f9998499dd2dc5afa72f7167d197e4a672a321b0bdd2863 12876 libpappsomspp_0.9.24-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpappsomspp"
+  ],
+  "Files": [
+    "14e66313f820d9966726b96d5ac52f60 2717 libpappsomspp_0.9.24-1.dsc 9b389dff5a60b9c0ae851316efce77b1 3973231 libpappsomspp_0.9.24.orig.tar.gz a866f2624eaa1ec2c409915d0b6095da 12876 libpappsomspp_0.9.24-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pappso.inrae.fr/bioinfo"
+  ],
+  "Maintainer": [
+    "The Debichem Group \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libpappsomspp"
+  ],
+  "Package-List": [
+    "libpappsomspp-dev deb libdevel optional arch=any libpappsomspp-doc deb doc optional arch=all libpappsomspp-widget-dev deb libdevel optional arch=any libpappsomspp-widget0 deb libs optional arch=any libpappsomspp0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Filippo Rusconi \u003clopippo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/libpappsomspp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/libpappsomspp.git"
+  ],
+  "Version": [
+    "0.9.24-1"
+  ]
+}

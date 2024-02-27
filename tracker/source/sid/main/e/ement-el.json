@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-ement"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa, elpa-plz, elpa-taxy-magit-section, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "f252ba4094069602067b9704578618f48dd252e8528544e9a1ad5b359aa1d85a 2167 ement-el_0.14-1.dsc b739db47dd67738e01fe099f3c315f1901907a47e3fcef9b4d44216b93d247a4 1047492 ement-el_0.14.orig.tar.xz 67a4345e93639f765b42598bd0dd7b5efd9aa997ea836e225761e2b438271a03 2556 ement-el_0.14-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "601f5b21777c490bfdb6632853882f511cb264c2 debian archive/debian/0.14-1 https://git.dgit.debian.org/ement-el"
+  ],
+  "Directory": [
+    "pool/main/e/ement-el"
+  ],
+  "Files": [
+    "4b484a80dda6232d8bf5ab3b8ce458e0 2167 ement-el_0.14-1.dsc 69a96cb154dfbf33658df7a0e9c93afc 1047492 ement-el_0.14.orig.tar.xz 59a69c5b767b17a1bde2da3c159623f8 2556 ement-el_0.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/alphapapa/ement.el"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ement-el"
+  ],
+  "Package-List": [
+    "elpa-ement deb editors optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "Sean Whitton \u003cspwhitton@spwhitton.name\u003e, Arto Jantunen \u003cviiru@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/ement-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/ement-el.git"
+  ],
+  "Version": [
+    "0.14-1"
+  ]
+}

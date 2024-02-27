@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-gappa"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-coq, gappa, libcoq-flocq, libcoq-core-ocaml-dev, libcoq-stdlib, ocaml-findlib"
+  ],
+  "Checksums-Sha256": [
+    "91389525e78177c15ba00e36d14cf7148dd28eea858eeaac8e87717028d916a4 2073 coq-gappa_1.5.4-1.dsc 544fd75350ecf65fee3a00fede463f3d047f0000995a0f0ecb61c1532d98cd5f 73571 coq-gappa_1.5.4.orig.tar.bz2 bcdb899eb3a8b80d6155fbb41b69f09671a3e3d7071876c705af6f4aa93e48c3 2196 coq-gappa_1.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-gappa"
+  ],
+  "Files": [
+    "880a1585cff2a2ffb80575b077f5189d 2073 coq-gappa_1.5.4-1.dsc a4dd81d9c28e0382d09a3417b4c93d08 73571 coq-gappa_1.5.4.orig.tar.bz2 e9b1cee569989f47a55e52118bb6f422 2196 coq-gappa_1.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gappa.gitlabpages.inria.fr"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-gappa"
+  ],
+  "Package-List": [
+    "libcoq-gappa deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-gappa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-gappa.git"
+  ],
+  "Version": [
+    "1.5.4-1"
+  ]
+}

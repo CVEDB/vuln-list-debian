@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libkpmcore12, libkpmcore-dev"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.92.0~), gettext, libblkid-dev (\u003e= 2.33.2), libkf5coreaddons-dev (\u003e= 5.92.0~), libkf5i18n-dev (\u003e= 5.92.0~), libkf5widgetsaddons-dev (\u003e= 5.92.0~), libpolkit-qt5-1-dev, pkg-config, pkg-kde-tools, qtbase5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "6b9c57773d6f1b2187a5758adb5db07ab2f6e7fdc8d93b57efaf5011b4d0ef9e 2510 kpmcore_23.08.3-1.dsc 28ab84b9a3b22c877f5f5c26616d8ad342c3f05ec2b0b6647d3edf5cdf6a6393 623488 kpmcore_23.08.3.orig.tar.xz 4f9d83ca72ab7fb9edb55b7a3afc31b9c049d1acff815c7ca727310d10cec03b 833 kpmcore_23.08.3.orig.tar.xz.asc c0af297c6b915642f06d53a22c02e7ec45bfabd168defef39f9470fb0dc38338 25088 kpmcore_23.08.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kpmcore"
+  ],
+  "Files": [
+    "6f9be75aa5fc81584dd055f9b79449fc 2510 kpmcore_23.08.3-1.dsc e8d376e49fcf2d1d0ef14f0ab1fdb8a4 623488 kpmcore_23.08.3.orig.tar.xz 5c9512060c192ae6dd1874f94639cfd1 833 kpmcore_23.08.3.orig.tar.xz.asc 78561596599fda05ae38f8280e7d56f4 25088 kpmcore_23.08.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/system/kpmcore"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kpmcore"
+  ],
+  "Package-List": [
+    "libkpmcore-dev deb libdevel optional arch=any libkpmcore12 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kpmcore"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kpmcore.git"
+  ],
+  "Version": [
+    "23.08.3-1"
+  ]
+}

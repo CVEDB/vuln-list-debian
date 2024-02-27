@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-linux-raw-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e825bcfefc4b3dd664f559a6274e8b77b43824d53b2bd3d856cb2fae16d909aa 2294 rust-linux-raw-sys_0.4.12-1.dsc c4cd1a83af159aa67994778be9070f0ae1bd732942279cabb14f86f986a21456 1465800 rust-linux-raw-sys_0.4.12.orig.tar.gz 7a8ac8098dfeb92d7177cadea214ac0f7fad2e8f8b24968452c59df0b086139c 4224 rust-linux-raw-sys_0.4.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-linux-raw-sys"
+  ],
+  "Files": [
+    "f01d1bcbb108867b31b992ca72bfa9e9 2294 rust-linux-raw-sys_0.4.12-1.dsc 1d1b2033b4272a22654e55447ae7f404 1465800 rust-linux-raw-sys_0.4.12.orig.tar.gz 8529f0a53fb1e1ad6125809ea36ba06e 4224 rust-linux-raw-sys_0.4.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-linux-raw-sys"
+  ],
+  "Package-List": [
+    "librust-linux-raw-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-libc-0.2+default-dev, librust-static-assertions-1+default-dev"
+  ],
+  "Uploaders": [
+    "John Goerzen \u003cjgoerzen@complete.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/linux-raw-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/linux-raw-sys]"
+  ],
+  "Version": [
+    "0.4.12-1"
+  ]
+}

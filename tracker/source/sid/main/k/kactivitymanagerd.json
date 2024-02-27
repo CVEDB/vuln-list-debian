@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kactivitymanagerd"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, libboost-dev (\u003e= 1.58~), libkf5config-dev (\u003e= 5.102.0~), libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5crash-dev (\u003e= 5.102.0~), libkf5dbusaddons-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libkf5xmlgui-dev (\u003e= 5.102.0~), pkg-kde-tools (\u003e= 0.15.18~), qtbase5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "acb0794544b4df932dfb84c0402cfa045712d5c2921513a87023df24dc4e1627 2908 kactivitymanagerd_5.27.10-1.dsc 8ee262fb6c4987fb3e66b5adec4d60d10c98adb40ed7da3372b8b342d70e5dd9 127296 kactivitymanagerd_5.27.10.orig.tar.xz 66f2090616edef7aacb85cb052110b046df6bd30ae4b206e4ac44348d6367c29 833 kactivitymanagerd_5.27.10.orig.tar.xz.asc f58181603d159365ee9036b94dd28acbc3edcdfa4ff3b6c64d77ba58c90e3464 14796 kactivitymanagerd_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kactivitymanagerd"
+  ],
+  "Files": [
+    "76ed4b0e6b7a215f6d304d0baf7ec74b 2908 kactivitymanagerd_5.27.10-1.dsc 5bbb5c7a2985f8d7b8816a35d517d333 127296 kactivitymanagerd_5.27.10.orig.tar.xz e6ea4d0daf00804afd852484b2a3ec57 833 kactivitymanagerd_5.27.10.orig.tar.xz.asc 6617b968012b92555861ad5d64a2bbeb 14796 kactivitymanagerd_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kactivitymanagerd"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kactivitymanagerd"
+  ],
+  "Package-List": [
+    "kactivitymanagerd deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kactivitymanagerd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kactivitymanagerd.git"
+  ],
+  "Version": [
+    "5.27.10-1"
+  ]
+}

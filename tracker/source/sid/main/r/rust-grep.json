@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-grep-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-grep-cli-0.1+default-dev (\u003e= 0.1.10-~~) \u003c!nocheck\u003e, librust-grep-matcher-0.1+default-dev (\u003e= 0.1.7-~~) \u003c!nocheck\u003e, librust-grep-printer-0.2+default-dev (\u003e= 0.2.1-~~) \u003c!nocheck\u003e, librust-grep-regex-0.1+default-dev (\u003e= 0.1.12-~~) \u003c!nocheck\u003e, librust-grep-searcher-0.1+default-dev (\u003e= 0.1.13-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "aa0b0d6e36fdd5f13531be5c39b6e13dbcca85d926e4bc569adcda832b53f98d 2549 rust-grep_0.3.1-1.dsc 6e2b024ec1e686cb64d78beb852030b0e632af93817f1ed25be0173af0e94939 6715 rust-grep_0.3.1.orig.tar.gz be803ea6554197cef15ac3fd5349f9390b03cf032c67169c7796e7ec385e4d8d 3652 rust-grep_0.3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-grep"
+  ],
+  "Files": [
+    "cc00a0cd77663c3340f6850836737bb9 2549 rust-grep_0.3.1-1.dsc 595340d3cb4d5e18bfce9f5f8afc6cf0 6715 rust-grep_0.3.1.orig.tar.gz 1a70c6ad3be2d7ae7d3e07c7fc745690 3652 rust-grep_0.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/BurntSushi/ripgrep/tree/master/crates/grep"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-grep"
+  ],
+  "Package-List": [
+    "librust-grep-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-termcolor-1+default-dev, librust-walkdir-2+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep]"
+  ],
+  "Version": [
+    "0.3.1-1"
+  ]
+}

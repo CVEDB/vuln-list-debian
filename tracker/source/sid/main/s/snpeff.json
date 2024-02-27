@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libsnpeff-java, snpeff, libsnpeff-java-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), javahelper, default-jdk, default-jdk-doc, maven-debian-helper, libmaven-assembly-plugin-java, libtrove3-java, libhtsjdk-java, libbiojava6-java, junit5, libcommons-codec-java, libcommons-io-java, libcommons-cli-java, libcommons-math3-java, libfreemarker-java, libjaxb-api-java, libmaven-javadoc-plugin-java, libbiojava6-java-doc, libtrove3-java-doc, libcharts4j-java, libapfloat-java, libdistlib-java"
+  ],
+  "Checksums-Sha256": [
+    "755817d871ac7395a6b1214645838fc37a9230d5427cc7e97cd7e4e52e8fb1b7 2594 snpeff_5.2.b+dfsg-1.dsc b3cecb0e8404fc0b0997388c4c4718f99b4270e79d8c0003146872ef96433209 133666756 snpeff_5.2.b+dfsg.orig.tar.xz d05b9d03b1ee5623ec24d9b38fe9f8052091881d0943900390b68e6f828051be 14260 snpeff_5.2.b+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/snpeff"
+  ],
+  "Files": [
+    "e9c45ee1b72bfeef586599fd96ca620a 2594 snpeff_5.2.b+dfsg-1.dsc c289508445dc23089f5a1cea241edda4 133666756 snpeff_5.2.b+dfsg.orig.tar.xz 3ceebe8f515e99aa2040ef81d69f7835 14260 snpeff_5.2.b+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pcingola.github.io/SnpEff/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "snpeff"
+  ],
+  "Package-List": [
+    "libsnpeff-java deb java optional arch=all libsnpeff-java-doc deb doc optional arch=all snpeff deb java optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "default-jdk-headless, junit5, quilt"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Pierre Gruet \u003cpgt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/snpeff"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/snpeff.git"
+  ],
+  "Version": [
+    "5.2.b+dfsg-1"
+  ]
+}

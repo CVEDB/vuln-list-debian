@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-sidekiq"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 2.1~), libjs-d3, libjs-jquery, libjs-jquery-timeago, libjs-rickshaw, libjs-bootstrap, libjs-chart.js (\u003e= 3.9.1+~cs3.1.2~), procps, redis-server, ruby-actionmailer (\u003e= 2:6.0.2), ruby-activerecord (\u003e= 2:6.0.2), ruby-celluloid, ruby-concurrent, ruby-connection-pool (\u003e= 2.2.5~), ruby-coveralls, ruby-railties (\u003e= 2:6.0.2), ruby-redis, ruby-redis-namespace (\u003c\u003c 2.0), ruby-rack-protection, ruby-sinatra, ruby-tilt"
+  ],
+  "Checksums-Sha256": [
+    "da3803f01d3e3f71dc826039d44815d3aaf59ddc728e9b449de925931ac837a5 2435 ruby-sidekiq_6.5.12+dfsg-1.dsc 19820f720515521b10163fd14f06fe4878ed6e1fd1f5d4ee47dc0e699f757d2e 178923 ruby-sidekiq_6.5.12+dfsg.orig.tar.gz 7a8cfcc50390c40d44f56a6861219b509dfa0b92c764b116a5b19d9a19f06c0a 5012 ruby-sidekiq_6.5.12+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-sidekiq"
+  ],
+  "Files": [
+    "a252943c8ab38423c2320849a57da7ee 2435 ruby-sidekiq_6.5.12+dfsg-1.dsc aaece4dfb298feba3624a080e558a598 178923 ruby-sidekiq_6.5.12+dfsg.orig.tar.gz c3d2a803c5a7d281027490cf03e3814a 5012 ruby-sidekiq_6.5.12+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://sidekiq.org"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-sidekiq"
+  ],
+  "Package-List": [
+    "ruby-sidekiq deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-sidekiq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-sidekiq.git"
+  ],
+  "Version": [
+    "6.5.12+dfsg-1"
+  ]
+}

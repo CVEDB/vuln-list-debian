@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcryptx-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libjson-perl \u003c!nocheck\u003e, libmath-bigint-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "ae9678ad0e1605868aff09e4ccb6d4c2ca9c698d777108c4598447c2cde20280 2377 libcryptx-perl_0.080-2.dsc b457b792194a6c9c13f06fe0a0b5ea158965c3282f385ca93e1f00a2b33e7e89 1651772 libcryptx-perl_0.080.orig.tar.gz ff055857e88ef0de9828f07e7406856bf6f17a6a0f0de448e9aed32d109a07ee 6020 libcryptx-perl_0.080-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "047d7f7bad4d4846099025ccd5101799ffee34c0 debian archive/debian/0.080-2 https://git.dgit.debian.org/libcryptx-perl"
+  ],
+  "Directory": [
+    "pool/main/libc/libcryptx-perl"
+  ],
+  "Files": [
+    "12a6433e1153b618271d40210fea4e0e 2377 libcryptx-perl_0.080-2.dsc dc93943a9fbb604b076291a311d66dcb 1651772 libcryptx-perl_0.080.orig.tar.gz 143db1a7edd7faa9ed5d1e6df2076528 6020 libcryptx-perl_0.080-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/CryptX"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcryptx-perl"
+  ],
+  "Package-List": [
+    "libcryptx-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Lucas Kanashiro \u003ckanashiro@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcryptx-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcryptx-perl.git"
+  ],
+  "Version": [
+    "0.080-2"
+  ]
+}

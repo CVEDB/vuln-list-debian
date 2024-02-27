@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "partman-auto-crypto"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-di, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "d2b5113bf07c52fa739e7134577b0b42416fa5591c828ff2239173954b3366f2 1699 partman-auto-crypto_36.dsc 017348dee6021050c4054129bee0f58ea5507a4839ae833bebc08e3fac45cb14 24468 partman-auto-crypto_36.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/partman-auto-crypto"
+  ],
+  "Files": [
+    "99cf35cfd4478f9e224927ceee5fda2a 1699 partman-auto-crypto_36.dsc 7593faa1be47193e3dbcd00ce265a1a3 24468 partman-auto-crypto_36.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "partman-auto-crypto"
+  ],
+  "Package-List": [
+    "partman-auto-crypto udeb debian-installer optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "debian-installer"
+  ],
+  "Uploaders": [
+    "Max Vozeler \u003cxam@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/partman-auto-crypto"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/partman-auto-crypto.git"
+  ],
+  "Version": [
+    "36"
+  ]
+}

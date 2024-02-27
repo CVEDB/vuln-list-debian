@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "iperf3, libiperf0, libiperf-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libsctp-dev [linux-any], po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "9dee79c63154a839a4ba0f7b1d8cb853db347bf787f1edb287b025b7b7f37719 1870 iperf3_3.16-1.dsc cc740c6bbea104398cc3e466befc515a25896ec85e44a662d5f4a767b9cf713e 664751 iperf3_3.16.orig.tar.gz 4eec53846c49ae1285327ffd25c9d0ff529742e145354af109b0881204882d4c 13668 iperf3_3.16-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iperf3"
+  ],
+  "Files": [
+    "05036099c0fc14959a2a2dd772a45c1a 1870 iperf3_3.16-1.dsc cbcdeae143cbd82a1f41a80ed01ede6c 664751 iperf3_3.16.orig.tar.gz 3c56921dbddae6c175f60fc784de66e2 13668 iperf3_3.16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://software.es.net/iperf/"
+  ],
+  "Maintainer": [
+    "Roberto Lumbreras \u003crover@debian.org\u003e"
+  ],
+  "Package": [
+    "iperf3"
+  ],
+  "Package-List": [
+    "iperf3 deb net optional arch=any libiperf-dev deb libdevel optional arch=any libiperf0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "3.16-1"
+  ]
+}

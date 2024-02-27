@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "xtables-addons-common, xtables-addons-dkms, xtables-addons-source"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-dkms, libxtables-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "d3fed71922abdb8841611f31c397d80e6bccd64c04ec899ac22fbaac776fd11b 2272 xtables-addons_3.25-1.dsc 8c9f4c6a8e92eb7cfbf03f4ebcb1e1e793256c2efd0226d83312bfb0ffe14b84 336460 xtables-addons_3.25.orig.tar.xz 42a2e1e5db8d6214d33ed87190fbdbedfa20865cf17a3a63b7533b0bf27e6b60 13808 xtables-addons_3.25-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xtables-addons"
+  ],
+  "Files": [
+    "08b621fc6a9687b4a49c785dccb1989c 2272 xtables-addons_3.25-1.dsc c6372ccd8be68255d4e5036ac7cd2f2f 336460 xtables-addons_3.25.orig.tar.xz 0ca923424824fa50facf3a5f449f8530 13808 xtables-addons_3.25-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://inai.de/projects/xtables-addons/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cteam+pkg-netfilter-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "xtables-addons"
+  ],
+  "Package-List": [
+    "xtables-addons-common deb net optional arch=any xtables-addons-dkms deb kernel optional arch=all xtables-addons-source deb net optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Uploaders": [
+    "Jeremy Sowden \u003cjeremy@azazel.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-xtables-addons"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-xtables-addons.git"
+  ],
+  "Version": [
+    "3.25-1"
+  ]
+}

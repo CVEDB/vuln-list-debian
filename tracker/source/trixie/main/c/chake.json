@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "chake"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 1.6), rake, ronn, ruby, ruby-rspec, ruby-simplecov"
+  ],
+  "Checksums-Sha256": [
+    "b9c2a88c9e70721b4b9b28eb451a3c84919776d564ee098bc11fdbb51f446f0c 2013 chake_0.91-1.dsc 166281a6e696fc90b450994a497255082f1c04aedd445ca3a5601175025f5b2a 29690 chake_0.91.orig.tar.gz 0aafa524847d1720a4077bca0dcd357f5ac714e9619d9897a54c65e8f391aec4 4232 chake_0.91-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/chake"
+  ],
+  "Files": [
+    "8bd770c5490b32bf178f82338e8368a1 2013 chake_0.91-1.dsc f6fdab0ae7573cc6172456e04b30bd6e 29690 chake_0.91.orig.tar.gz f0ab431369af64e1b2f9b69dd90592d0 4232 chake_0.91-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/terceiro/chake"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "chake"
+  ],
+  "Package-List": [
+    "chake deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-ruby"
+  ],
+  "Testsuite-Triggers": [
+    "itamae, sudo"
+  ],
+  "Uploaders": [
+    "Antonio Terceiro \u003cterceiro@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/chake"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/chake.git"
+  ],
+  "Version": [
+    "0.91-1"
+  ]
+}

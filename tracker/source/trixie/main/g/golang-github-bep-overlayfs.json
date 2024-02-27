@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-bep-overlayfs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-frankban-quicktest-dev (\u003e= 1.14.2), golang-github-spf13-afero-dev (\u003e= 1.9.0), golang-golang-x-tools-dev (\u003e= 1:0.1.0)"
+  ],
+  "Checksums-Sha256": [
+    "4e9fd8676f63bb6d6d40820eb101a55a68a5589ca3a2f3bcc22fc8dfc81b57db 2393 golang-github-bep-overlayfs_0.9.1-1.dsc 3152eacbd84f9a028608aead3e7f5b50fd0c773b8e5d233f5e71504d84496b68 23578 golang-github-bep-overlayfs_0.9.1.orig.tar.gz 93aeab449c222c42e8f46ed524e37a29d297e414b9367fff50576c09f13f6176 2392 golang-github-bep-overlayfs_0.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-bep-overlayfs"
+  ],
+  "Files": [
+    "15fd6c8d868761805ac8270af54b58e2 2393 golang-github-bep-overlayfs_0.9.1-1.dsc 1f4f87f7b1a9630802f7f17c2d1d1116 23578 golang-github-bep-overlayfs_0.9.1.orig.tar.gz 9a16776bc4a92046e40ba5bef4d21ec9 2392 golang-github-bep-overlayfs_0.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/bep/overlayfs"
+  ],
+  "Homepage": [
+    "https://github.com/bep/overlayfs"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-bep-overlayfs"
+  ],
+  "Package-List": [
+    "golang-github-bep-overlayfs-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-bep-overlayfs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-bep-overlayfs.git"
+  ],
+  "Version": [
+    "0.9.1-1"
+  ]
+}

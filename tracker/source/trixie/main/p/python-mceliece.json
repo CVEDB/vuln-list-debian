@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mceliece"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmceliece1, pybuild-plugin-pyproject, python3-all, python3-pytest, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "5c39f2940e37761f86a55260e7f3b54fde3c78792e97296eed45ba0349e5f643 2217 python-mceliece_0~20230612.2-1.dsc 6457ed08e0071256e00c5615752bade1d8a017a283859b973d2b0d9ae6c3ebb4 6279 python-mceliece_0~20230612.2.orig.tar.gz 64b94e4758254ea5fd22af1823823fbeda60b94e49e7551fdfb60c007c243ea4 1624 python-mceliece_0~20230612.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-mceliece"
+  ],
+  "Files": [
+    "2fdc911da677f92d8517b224e1995239 2217 python-mceliece_0~20230612.2-1.dsc 45bff72c042d004834fc73822bc671a3 6279 python-mceliece_0~20230612.2.orig.tar.gz cc54de103aae943448154310d8e6d2c8 1624 python-mceliece_0~20230612.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/janmojzis/python-mceliece"
+  ],
+  "Maintainer": [
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e"
+  ],
+  "Package": [
+    "python-mceliece"
+  ],
+  "Package-List": [
+    "python3-mceliece deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/janmojzis/python-mceliece"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/janmojzis/python-mceliece.git"
+  ],
+  "Version": [
+    "0~20230612.2-1"
+  ]
+}

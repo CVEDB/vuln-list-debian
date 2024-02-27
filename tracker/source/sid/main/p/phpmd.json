@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "phpmd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, pdepend, php-composer-xdebug-handler, php-mikey179-vfsstream, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "a9668813e4ca400f7f369e3f1e9045565c969d2938e21844e23f1d526f1ea310 1795 phpmd_2.15.0-1.dsc f1d4ff566db75d6ffd553759e2801f3540027e529c19f08bd39d61ca88f187a0 238716 phpmd_2.15.0.orig.tar.xz 29dc6ea223e3f23fa7a17b88bcb9084455cf747ec599871ad56d7ae637c069fe 13660 phpmd_2.15.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phpmd"
+  ],
+  "Files": [
+    "8c6f15be5d32a86521356a97fd15b519 1795 phpmd_2.15.0-1.dsc 55f7d5aa26ee210b4dd1301d646b990d 238716 phpmd_2.15.0.orig.tar.xz 5b9c7fa3307d883ea1ea43af9003b64a 13660 phpmd_2.15.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phpmd.org"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phpmd"
+  ],
+  "Package-List": [
+    "phpmd deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-mikey179-vfsstream, phpunit"
+  ],
+  "Uploaders": [
+    "Prach Pongpanich \u003cprachpub@gmail.com\u003e, David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpmd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpmd.git -b debian/latest"
+  ],
+  "Version": [
+    "2.15.0-1"
+  ]
+}

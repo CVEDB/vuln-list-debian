@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-wtf-peewee"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-peewee \u003c!nocheck\u003e, python3-setuptools, python3-wtforms \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6667e8b4fdcd93d668e9edf61b55ae4afee82711e081af6dbd0fb1880c225803 2236 wtf-peewee_3.0.5+dfsg-1.dsc 3ce68c884873a75e5e48f48f5629538b773e69adbe0a18b8dd6b2c7a32661570 11714 wtf-peewee_3.0.5+dfsg.orig.tar.gz 61e98d8a5bf7d53e1e9859cbb66584f2dc1ff4570ed097f988b74e3efb6b1c66 3404 wtf-peewee_3.0.5+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wtf-peewee"
+  ],
+  "Files": [
+    "2a75db27b3655b440bf41ee6101b10da 2236 wtf-peewee_3.0.5+dfsg-1.dsc 1b0e39970a2014701debb312dc921b2a 11714 wtf-peewee_3.0.5+dfsg.orig.tar.gz e7790af44506add07ec850f75315d624 3404 wtf-peewee_3.0.5+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/coleifer/wtf-peewee/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "wtf-peewee"
+  ],
+  "Package-List": [
+    "python3-wtf-peewee deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/wtf-peewee"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/wtf-peewee.git"
+  ],
+  "Version": [
+    "3.0.5+dfsg-1"
+  ]
+}

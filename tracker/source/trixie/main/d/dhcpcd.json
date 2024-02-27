@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dhcpcd-base, dhcpcd, dhcpcd5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libudev-dev [linux-any], pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "1d399208ca6a7d67a0a491017f34df8e3ab8ca7190aa77ec7932ba312d567bf8 2307 dhcpcd_10.0.6-1.dsc 779d3ae514e8f24d7449503e1f0a20f5137c773bd04ca98c62386bf81e99f482 269392 dhcpcd_10.0.6.orig.tar.xz b46b79a0b77981079b26c359fe50b27167e4855106cf2256a6d725091e59da27 488 dhcpcd_10.0.6.orig.tar.xz.asc a2301b23b60d8002674b8c91f03e190c238e9d7cd71167a08d54998428099214 16568 dhcpcd_10.0.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dhcpcd"
+  ],
+  "Files": [
+    "99ec7a1595ab7f13a89ff82b86df2b0f 2307 dhcpcd_10.0.6-1.dsc ef8356d711b17701928ead7206d15234 269392 dhcpcd_10.0.6.orig.tar.xz 8785e110ababfaa86c487f7b73333a18 488 dhcpcd_10.0.6.orig.tar.xz.asc 40c44b4774858df51b9b116050ba23fe 16568 dhcpcd_10.0.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://roy.marples.name/projects/dhcpcd"
+  ],
+  "Maintainer": [
+    "Martin-Éric Racine \u003cmartin-eric.racine@iki.fi\u003e"
+  ],
+  "Package": [
+    "dhcpcd"
+  ],
+  "Package-List": [
+    "dhcpcd deb net optional arch=all dhcpcd-base deb net optional arch=any dhcpcd5 deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dnsmasq, ethtool, iproute2, usrmerge"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dhcpcd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dhcpcd.git"
+  ],
+  "Version": [
+    "1:10.0.6-1"
+  ]
+}

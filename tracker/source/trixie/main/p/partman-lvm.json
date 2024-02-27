@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "partman-lvm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-di, po-debconf (\u003e= 0.5.0)"
+  ],
+  "Checksums-Sha256": [
+    "7972c69cb050784456a05ff0d291aa1288c88da4a00a8737d36fdad41f871d4c 1688 partman-lvm_149.dsc ba18d42a4eea384cdcb62a47bb2b291e397c3835e7fb12331da9305af3e06426 260152 partman-lvm_149.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/partman-lvm"
+  ],
+  "Files": [
+    "2d34c2f100e6c12ab80ef8dad8d52188 1688 partman-lvm_149.dsc c5d01931cda25eb5f5eb89632b63f681 260152 partman-lvm_149.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "partman-lvm"
+  ],
+  "Package-List": [
+    "partman-lvm udeb debian-installer optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "debian-installer"
+  ],
+  "Uploaders": [
+    "Max Vozeler \u003cxam@debian.org\u003e, Steve McIntyre \u003c93sam@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/partman-lvm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/partman-lvm.git"
+  ],
+  "Version": [
+    "149"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "latexmk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5cfc9115a7ea101dfed969118ee14154dced04f379f71536c436e9a26e9ea9e2 2087 latexmk_4.83-1.dsc 40b1618e003d73079d6c7dac00831119ca215b2e70455d6ea7e7cc4aecb51517 435168 latexmk_4.83.orig.tar.xz 253f49fd68e4ca042da4f7ca766eb00c0bca491c75be58282d8661d433ad548d 6760 latexmk_4.83-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/latexmk"
+  ],
+  "Files": [
+    "5efb1dd16967a41e881c2e089d9f4d39 2087 latexmk_4.83-1.dsc 2d89424c9cbd9ab1328d2a88d6df672b 435168 latexmk_4.83.orig.tar.xz 534c63b5ee6475f248cf87fd2459e1ca 6760 latexmk_4.83-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.cantab.net/users/johncollins/latexmk/index.html"
+  ],
+  "Maintainer": [
+    "Debian TeX Task Force \u003cdebian-tex-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "latexmk"
+  ],
+  "Package-List": [
+    "latexmk deb tex optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "tex"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Hilmar Preusse \u003chille42@web.de\u003e, Norbert Preining \u003cnorbert@preining.info\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-tex/latexmk"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-tex/latexmk.git"
+  ],
+  "Version": [
+    "1:4.83-1"
+  ]
+}

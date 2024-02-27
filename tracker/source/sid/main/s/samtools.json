@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "samtools, samtools-test"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bash-completion, libio-pty-perl \u003c!nocheck\u003e, libncurses-dev, libhts-dev (\u003e= 1.17~), zlib1g-dev, automake, autoconf-archive, pkgconf, tabix, liblzma-dev, libbz2-dev"
+  ],
+  "Checksums-Sha256": [
+    "c92986db9327b70a6d56cb63fb52b647bb6ce0eca921fc1a2b8d55bf026130f9 2295 samtools_1.19.2-1.dsc 93b4ee042003d536a2f822a17dd5e65439f724214d5d2b5becc8a9f190ef2efd 5666279 samtools_1.19.2.orig.tar.gz ab11a07d6e8e80fadb62672ec5974867a0328f31d5b6faa7c2d8e5b7de9936a1 21752 samtools_1.19.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/samtools"
+  ],
+  "Files": [
+    "558527f5a958525e2b484f7c83f2b584 2295 samtools_1.19.2-1.dsc dc7d1649a27689287499876dc05785c4 5666279 samtools_1.19.2.orig.tar.gz 3eea35b7ce97c48454c4f5b378ab722a 21752 samtools_1.19.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.htslib.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "samtools"
+  ],
+  "Package-List": [
+    "samtools deb science optional arch=any samtools-test deb science optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "tabix"
+  ],
+  "Uploaders": [
+    "Charles Plessy \u003cplessy@debian.org\u003e, Andreas Tille \u003ctille@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/samtools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/samtools.git"
+  ],
+  "Version": [
+    "1.19.2-1"
+  ]
+}

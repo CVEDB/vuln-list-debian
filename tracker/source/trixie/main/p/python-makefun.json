@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-makefun"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-nox \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-runner \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "7449b97e111df480a8f45448cbdf6495990d29c21705e7d5f85330f08d7bda59 2146 python-makefun_1.15.2-1.dsc e086a2336f9b1bc993152416a55200cb993d61f751ed9d5e47d73f131de7c6a8 73818 python-makefun_1.15.2.orig.tar.gz 33ad57a72ab7f75422ab63626b092eb50775d64ee52c5e5847a6d083fea5a85a 2616 python-makefun_1.15.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-makefun"
+  ],
+  "Files": [
+    "a8fc5bc3eb17c480594875c8ded3d55f 2146 python-makefun_1.15.2-1.dsc 862fa34f3b74615417ce924598917db5 73818 python-makefun_1.15.2.orig.tar.gz 0d595fa92e3c347326e864c3488a4d44 2616 python-makefun_1.15.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://smarie.github.io/python-makefun/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-makefun"
+  ],
+  "Package-List": [
+    "python3-makefun deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/makefun"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/makefun.git"
+  ],
+  "Version": [
+    "1.15.2-1"
+  ]
+}

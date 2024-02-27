@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "sluice"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "ee67b924cf92cb2f6bfd02e7b90f7d3943742f5f1de1a08606ab5572267df37e 1736 sluice_0.03.00-1.dsc dee4993b441041f3d59c1dcdb42a8cbacc34c89a720f92855216f19e64da9a8a 22368 sluice_0.03.00.orig.tar.xz 5831faa4c68c0e05fc23d8a857d0231b9ac1a755a5d629bb3fff2dcc3408f0c0 4640 sluice_0.03.00-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sluice"
+  ],
+  "Files": [
+    "f3714700ac06a2948c93dc0ff18a584a 1736 sluice_0.03.00-1.dsc 6d94a5817d9b5b94c0abb643f6925d11 22368 sluice_0.03.00.orig.tar.xz 669dbe8c27057e6a3128acc9e4dc1cc4 4640 sluice_0.03.00-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/sluice"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "sluice"
+  ],
+  "Package-List": [
+    "sluice deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.03.00-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "blaeu"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-cymruwhois, python3-dnspython, python3-openssl, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "7bee4cc6c12d00f4beeba746dcbf8d4cb980db213afe63f3d1aa9b985aaed209 1898 blaeu_1.1.10-1.dsc 18efa69709b294285398c726b56c30059d50025fc46acb28ac8a5a01ad603831 22288 blaeu_1.1.10.orig.tar.gz 33c83c728d9e81d7a104883406b9d08badb728c86f50122a3bf8bc9f4c261566 4392 blaeu_1.1.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/blaeu"
+  ],
+  "Files": [
+    "562c03238e71e71ba164d81ff5f71d93 1898 blaeu_1.1.10-1.dsc 23948873d915dc71e05c57c08f3ffee1 22288 blaeu_1.1.10.orig.tar.gz 74fc2a66089aa393b2dd34e028e10bba 4392 blaeu_1.1.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://framagit.org/bortzmeyer/blaeu"
+  ],
+  "Maintainer": [
+    "Sebastien Badia \u003csbadia@debian.org\u003e"
+  ],
+  "Package": [
+    "blaeu"
+  ],
+  "Package-List": [
+    "blaeu deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/blaeu"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/blaeu.git"
+  ],
+  "Version": [
+    "1.1.10-1"
+  ]
+}

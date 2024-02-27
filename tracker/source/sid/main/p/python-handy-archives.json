@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-handy-archives"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, flit, python3-coincidence, pybuild-plugin-pyproject, python3-all, python3-coverage, python3-domdf-python-tools, python3-importlib-metadata, python3-pytest, python3-pytest-cov, python3-pytest-datadir, python3-pytest-regressions, python3-pytest-timeout, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "0f2f61b519100f4907a54896f8e8a79cf5f7cf875240ecccd5a7579ce392851b 2423 python-handy-archives_0.2.0-2.dsc 953f262107acbc262cf666bac81d2b224cfc2233a96f55dbd1a14f7cac27d15d 1705821 python-handy-archives_0.2.0.orig.tar.gz b1781dc4185458fb2accef127d792cb8a6d1892f1643ac1a0e4e97713803f7eb 4164 python-handy-archives_0.2.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-handy-archives"
+  ],
+  "Files": [
+    "00ce1aaf12b05cc639625008f2511f70 2423 python-handy-archives_0.2.0-2.dsc 8ad9b563e75d99d09e0ef1f2befa8b2f 1705821 python-handy-archives_0.2.0.orig.tar.gz f78d344fe0ecc519607444c84a9dcae5 4164 python-handy-archives_0.2.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/domdfcoding/handy-archives"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-handy-archives"
+  ],
+  "Package-List": [
+    "python3-handy-archives deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-handy-archives"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-handy-archives.git"
+  ],
+  "Version": [
+    "0.2.0-2"
+  ]
+}

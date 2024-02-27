@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crosstermion-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2ebac79bbd38497a849c8bb16baa5ec80df570992f49049552ce30873ba03ffc 2201 rust-crosstermion_0.11.0-3.dsc 152ef46d620d4614070109e076ffc6ab032f682a380ac2efce412100c5ee7749 9453 rust-crosstermion_0.11.0.orig.tar.gz 1c0d473a142fdb949f944720176fc26fdcac00e791f831b7d5b6a8b16f1953a5 3740 rust-crosstermion_0.11.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crosstermion"
+  ],
+  "Files": [
+    "04e63f234e1409a0f2ee0aaf4f69607e 2201 rust-crosstermion_0.11.0-3.dsc 4dcfecb1bb001ce66ac18586378db081 9453 rust-crosstermion_0.11.0.orig.tar.gz 0651b55939db9a33d878b0177129f2e2 3740 rust-crosstermion_0.11.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crosstermion"
+  ],
+  "Package-List": [
+    "librust-crosstermion-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crosstermion"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crosstermion]"
+  ],
+  "Version": [
+    "0.11.0-3"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "texstudio, texstudio-doc, texstudio-l10n"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), furo (\u003e= 2023.07.26), libhunspell-dev (\u003e= 1.5.1), libpoppler-cpp-dev, libpoppler-qt5-dev, libqt5svg5-dev, libquazip1-qt5-dev, libqtermwidget5-1-dev, pkgconf, python3-myst-parser, python3-sphinx, python3-sphinx-design, python3-sphinx-inline-tabs, python3-sphinxext-opengraph, qtdeclarative5-dev, qtmultimedia5-dev, qtscript5-dev, qttools5-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "ba5e560d92caf2a63c1f8e8af47e718c8af7316a2c1f01b32363f92107f11557 2260 texstudio_4.7.2+ds-2.dsc 3950f70226e6bd1b2e4f2748dca5575b7d4a878c5fd07fa4ad94798f45d7772e 20321456 texstudio_4.7.2+ds.orig.tar.xz 311b465cb8d224bc5b3d2ad05fdeb97eec4ec2f48b71db7be32cac73fae5387e 24784 texstudio_4.7.2+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/texstudio"
+  ],
+  "Files": [
+    "d723283bddfa67e454dd41b09d988122 2260 texstudio_4.7.2+ds-2.dsc e884da03d8d307d89d7d1eb683f60c76 20321456 texstudio_4.7.2+ds.orig.tar.xz 1265561a62f740d429c93b698a42d662 24784 texstudio_4.7.2+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://texstudio.org/"
+  ],
+  "Maintainer": [
+    "Tom Jampen \u003ctom@cryptography.ch\u003e"
+  ],
+  "Package": [
+    "texstudio"
+  ],
+  "Package-List": [
+    "texstudio deb editors optional arch=any texstudio-doc deb doc optional arch=all texstudio-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "editors"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "4.7.2+ds-2"
+  ]
+}

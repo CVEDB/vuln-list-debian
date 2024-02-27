@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-tonistiigi-fsutil-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, gogoprotobuf, golang-any, golang-github-containerd-continuity-dev, golang-github-docker-docker-dev \u003c!nocheck\u003e, golang-github-moby-patternmatcher-dev, golang-github-opencontainers-go-digest-dev, golang-github-pkg-errors-dev, golang-github-stretchr-testify-dev \u003c!nocheck\u003e, golang-github-gogo-protobuf-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev"
+  ],
+  "Checksums-Sha256": [
+    "fc010e4a25fe47c3d49d38aa6b6ac4e275fea5efbcc86f5facc904b65756dc48 2143 golang-github-tonistiigi-fsutil_0.0~git20230630.36ef4d8-1.dsc c2ed3b3ff911b8beccd7c0e1a9e6c2193574d75ee73439883937a76dafb7afba 89678 golang-github-tonistiigi-fsutil_0.0~git20230630.36ef4d8.orig.tar.gz eab82d97659eee18e14f38020e57162074a3586aa4dda1ac5126cf818a999a8c 2636 golang-github-tonistiigi-fsutil_0.0~git20230630.36ef4d8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-tonistiigi-fsutil"
+  ],
+  "Files": [
+    "4ca125810f6938727a8a2772a5da2b0d 2143 golang-github-tonistiigi-fsutil_0.0~git20230630.36ef4d8-1.dsc 6e44898f204e66eaafcc7df509f4555f 89678 golang-github-tonistiigi-fsutil_0.0~git20230630.36ef4d8.orig.tar.gz 728455b723c6ac795fed92e52754b6fd 2636 golang-github-tonistiigi-fsutil_0.0~git20230630.36ef4d8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/tonistiigi/fsutil"
+  ],
+  "Homepage": [
+    "https://github.com/tonistiigi/fsutil"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-tonistiigi-fsutil"
+  ],
+  "Package-List": [
+    "golang-github-tonistiigi-fsutil-dev deb devel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Tong Sun \u003csuntong001@users.sourceforge.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-tonistiigi-fsutil"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-tonistiigi-fsutil.git"
+  ],
+  "Version": [
+    "0.0~git20230630.36ef4d8-1"
+  ]
+}

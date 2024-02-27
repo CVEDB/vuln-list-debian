@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libutf8.h-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "f599844b57481a94c93136717f7a94a3400b2525cd5bf96b7884ec59c663ca2b 1987 utf8.h_0.0~git20231220.535001e-1.dsc 3bdf424fea698b2839ba5c6939ae3394312c202af4df60715a3c770a680e2dd4 26904 utf8.h_0.0~git20231220.535001e.orig.tar.xz 7adf696eefd00fc7366543a60cc388e546bd3bb0c36441b0f62bdb03c36c5a88 2488 utf8.h_0.0~git20231220.535001e-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/utf8.h"
+  ],
+  "Files": [
+    "91fca93af644c1c80070f8e2752b77f7 1987 utf8.h_0.0~git20231220.535001e-1.dsc 29a9ed7f9d6804cf2b9105ce7c7fb869 26904 utf8.h_0.0~git20231220.535001e.orig.tar.xz 4bfd0d168aa9b586f720f21c1bbfa75f 2488 utf8.h_0.0~git20231220.535001e-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sheredom/utf8.h"
+  ],
+  "Maintainer": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Package": [
+    "utf8.h"
+  ],
+  "Package-List": [
+    "libutf8.h-dev deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/utf8.h"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/utf8.h.git"
+  ],
+  "Version": [
+    "0.0~git20231220.535001e-1"
+  ]
+}

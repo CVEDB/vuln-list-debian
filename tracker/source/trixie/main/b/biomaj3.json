@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-biomaj3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-bcrypt, python3-mock, python3-pytest, python3-pymongo, python3-redis, python3-setuptools, python3-yapsy, python3-biomaj3-core, python3-biomaj3-zipkin, python3-biomaj3-download, python3-biomaj3-user, python3-biomaj3-process"
+  ],
+  "Checksums-Sha256": [
+    "c099a4b616020dcd075fb0289f2538f2b7886da22642a66956aa54fb8b8cedc7 2250 biomaj3_3.1.23-2.dsc 4c9e3c32c4fdf015e88644c4bed15716666434cf6382d3510dcfc4540ee6c058 69328 biomaj3_3.1.23.orig.tar.xz 6af402371b1a6f716d38a1ab7d5a61beac4bca7ef2731122663f423db57a3215 17904 biomaj3_3.1.23-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/biomaj3"
+  ],
+  "Files": [
+    "1b1292fb580e036fe4abdd5b32c30cd9 2250 biomaj3_3.1.23-2.dsc 4f51d67a645b099c158c3952caf50a9c 69328 biomaj3_3.1.23.orig.tar.xz 2298e8a72af3b18879c581587dbde92a 17904 biomaj3_3.1.23-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/genouest/biomaj"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "biomaj3"
+  ],
+  "Package-List": [
+    "python3-biomaj3 deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Olivier Sallou \u003cosallou@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/biomaj3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/biomaj3.git"
+  ],
+  "Version": [
+    "3.1.23-2"
+  ]
+}

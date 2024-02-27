@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "kde-cli-tools, kde-cli-tools-data"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, libkf5activities-dev (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5doctools-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5iconthemes-dev (\u003e= 5.102.0~), libkf5kcmutils-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5parts-dev (\u003e= 5.102.0~), libkf5service-dev (\u003e= 5.102.0~), libkf5su-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libqt5svg5-dev (\u003e= 5.15.2~), libqt5x11extras5-dev (\u003e= 5.15.2~), libxcb1-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.18~), plasma-workspace-dev (\u003e= 4:5.27.10~), qtbase5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "293ad979b9cc6a1829b52a34d570c72e43c9a092437c3aa54039962a7b6c1d87 3122 kde-cli-tools_5.27.10-1.dsc 7baa6d899cf0e14194f935cd2f2526123c40261f6fbd86dc17cf75bbc6a04d3f 667316 kde-cli-tools_5.27.10.orig.tar.xz 3e9618afff211013f47d23c18b42fd198f678697962c8ab56588a1eb6e656c8c 833 kde-cli-tools_5.27.10.orig.tar.xz.asc a6d32d0315bb3ea6457626e8e48d786b5c016b328a8ba8d14f2ab321215cb502 18300 kde-cli-tools_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kde-cli-tools"
+  ],
+  "Files": [
+    "43ef9427922bfd0e4c26b5e2808a139c 3122 kde-cli-tools_5.27.10-1.dsc 30797f3809675e61542518f9b15be2c3 667316 kde-cli-tools_5.27.10.orig.tar.xz 1a5fc71dca01f8a0235a31571c25d9ad 833 kde-cli-tools_5.27.10.orig.tar.xz.asc 02fb12a3fcb9370443e7b6dd4234f2e6 18300 kde-cli-tools_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kde-cli-tools"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kde-cli-tools"
+  ],
+  "Package-List": [
+    "kde-cli-tools deb utils optional arch=any kde-cli-tools-data deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kde-cli-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kde-cli-tools.git"
+  ],
+  "Version": [
+    "4:5.27.10-1"
+  ]
+}

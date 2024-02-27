@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "imediff"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "773fac298c8eb9d23055488837a96ed3c599c03a6ef2b087509cde730b9c8cf9 2022 imediff_2.8-1.dsc 0df156e5706ddb4bb2d3ba981a15ef8e38354672434a85603eabfe63ef36c265 51580 imediff_2.8.orig.tar.xz ab056911ab8d22239b441bb75a2f878ebf4ae17b22a9041a71c648f2d16044bd 6928 imediff_2.8-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "067b9af92a179931c5bc20d15a11f385e327c970 debian archive/debian/2.8-1 https://git.dgit.debian.org/imediff"
+  ],
+  "Directory": [
+    "pool/main/i/imediff"
+  ],
+  "Files": [
+    "c737c927fb30d0bee6cf9b43f2c9af3e 2022 imediff_2.8-1.dsc 783808194db433c42290abe9c3493c03 51580 imediff_2.8.orig.tar.xz 026a492f98906a01b9022b90c6b5dd06 6928 imediff_2.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/osamuaoki/imediff"
+  ],
+  "Maintainer": [
+    "Osamu Aoki \u003cosamu@debian.org\u003e"
+  ],
+  "Package": [
+    "imediff"
+  ],
+  "Package-List": [
+    "imediff deb text optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/osamuaoki/imediff"
+  ],
+  "Vcs-Git": [
+    "https://github.com/osamuaoki/imediff.git -b main"
+  ],
+  "Version": [
+    "2.8-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnitrokey-dev, libnitrokey3, libnitrokey-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pkg-config, pkg-kde-tools, libhidapi-dev, libusb-1.0-0-dev, udev"
+  ],
+  "Checksums-Sha256": [
+    "09851c10473e2671331ff9c298a7bdce66bea1bf657c2e2ea879ff71c5fbc587 2063 libnitrokey_3.7-1.1.dsc 2b432ccc6b9c924feb32e8adf0c115d83a2f8017df8e5d4cc238cc4d77d77fec 103837 libnitrokey_3.7.orig.tar.gz aa82b8f1bc432dc3498241ef7f2a596b5e31d65ce10fc939b14dea68ddb024ad 4828 libnitrokey_3.7-1.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnitrokey"
+  ],
+  "Files": [
+    "4f2247d98fda4aab49890e4242694d55 2063 libnitrokey_3.7-1.1.dsc e9245ada6687da59d78b85abc0f11fa3 103837 libnitrokey_3.7.orig.tar.gz 81af9cd296029faccd8fdec6c6694281 4828 libnitrokey_3.7-1.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Nitrokey/libnitrokey"
+  ],
+  "Maintainer": [
+    "Patryk Cisek \u003cpatryk@debian.org\u003e"
+  ],
+  "Package": [
+    "libnitrokey"
+  ],
+  "Package-List": [
+    "libnitrokey-common deb libs optional arch=all libnitrokey-dev deb libdevel optional arch=any libnitrokey3 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/patryk/libnitrokey"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/patryk/libnitrokey.git"
+  ],
+  "Version": [
+    "3.7-1.1"
+  ]
+}

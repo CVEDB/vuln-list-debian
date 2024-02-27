@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "patool"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, bash-completion, python3-all (\u003e= 3.5), python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "2490db8a5a828d72dc5a01dd54bd756ef72c459bdfc65b141615b5dcee8bc43f 1923 patool_2.0.0-2.dsc a38475a4bd305668f5dd47923c35d42f1b32aefc463e7cc10fe175ef59a5b379 1994497 patool_2.0.0.orig.tar.gz 7ebd3ef12d3c8095ad23fca65ceff0ad0dc7102e66d651ad9f8c4e17c4555b6a 3932 patool_2.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/patool"
+  ],
+  "Files": [
+    "754db4dcb205b9d7e38bd6ab619bc0d8 1923 patool_2.0.0-2.dsc c574f97eedd37da6f8c41ff72a0b663e 1994497 patool_2.0.0.orig.tar.gz 8233b437847e067b47bbb564e3c3de6b 3932 patool_2.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wummel.github.io/patool/"
+  ],
+  "Maintainer": [
+    "Abhijith PA \u003cabhijith@debian.org\u003e"
+  ],
+  "Package": [
+    "patool"
+  ],
+  "Package-List": [
+    "patool deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/patool"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/patool.git"
+  ],
+  "Version": [
+    "2.0.0-2"
+  ]
+}

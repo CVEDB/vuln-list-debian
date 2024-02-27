@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "liblscp-dev, liblscp-doc, liblscp6"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), doxygen"
+  ],
+  "Checksums-Sha256": [
+    "9890a0b103976057a4eb2729a6fc57fb5a91c376cec68668e42e4afbbdcd8c6c 2199 liblscp_0.9.12-1.dsc 796f3c56334a6b647738da73edec68cf10334a32088b31e80de67a33c1ef2bfc 96370 liblscp_0.9.12.orig.tar.gz 09ab8dc685d34c45a3ae97cba56b72630773fa1ed224a77d29f14dbcf2af2cd4 5376 liblscp_0.9.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libl/liblscp"
+  ],
+  "Files": [
+    "fd90b8bacec75f1e99554a84e762b14c 2199 liblscp_0.9.12-1.dsc 6a7da885d378103c9d885ea07e55816e 96370 liblscp_0.9.12.orig.tar.gz e62c738635be4867c5446dbde23be51c 5376 liblscp_0.9.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.linuxsampler.org"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "liblscp"
+  ],
+  "Package-List": [
+    "liblscp-dev deb libdevel optional arch=any liblscp-doc deb doc optional arch=all liblscp6 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Paul Brossier \u003cpiem@debian.org\u003e, Free Ekanayaka \u003cfreee@debian.org\u003e, Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003csnd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/liblscp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/liblscp.git"
+  ],
+  "Version": [
+    "0.9.12-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "strongswan, libstrongswan, libstrongswan-standard-plugins, libstrongswan-extra-plugins, libcharon-extauth-plugins, libcharon-extra-plugins, strongswan-starter, strongswan-libcharon, strongswan-charon, strongswan-nm, charon-cmd, strongswan-pki, strongswan-swanctl, charon-systemd"
+  ],
+  "Build-Depends": [
+    "bison, bzip2, debhelper-compat (= 12), dh-apparmor, dpkg-dev (\u003e= 1.16.2), flex, gperf, libiptc-dev [linux-any], libcap-dev [linux-any], libcurl4-openssl-dev | libcurl3-dev | libcurl2-dev, libgcrypt20-dev | libgcrypt11-dev, libgmp3-dev, libkrb5-dev, libldap2-dev, libnm-dev [linux-any], libpam0g-dev, libsqlite3-dev, libssl-dev (\u003e= 0.9.8), libsystemd-dev [linux-any], libtool, libtss2-dev, libxml2-dev, pkg-config, po-debconf, systemd-dev [linux-any], tzdata"
+  ],
+  "Checksums-Sha256": [
+    "ceb7e186868bf28a0f344d3eb9d730097d04571e66aeef2044abdb69757922c6 3192 strongswan_5.9.13-2.dsc 56e30effb578fd9426d8457e3b76c8c3728cd8a5589594b55649b2719308ba55 4825644 strongswan_5.9.13.orig.tar.bz2 f97bc52347c74abe336001e4ef49d6cdd89ca307c3e86166895681e8ec82423e 659 strongswan_5.9.13.orig.tar.bz2.asc b1c252179c21293e32fadcbc3e966e139aa2b8f2040a66784759bdc0925ef42d 117516 strongswan_5.9.13-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/strongswan"
+  ],
+  "Files": [
+    "37981dc6fe15f4de9ec7336cd28dac4e 3192 strongswan_5.9.13-2.dsc 9ada6be0c89846fb7ded1787a17cfbb2 4825644 strongswan_5.9.13.orig.tar.bz2 c017aec03282f4806c12a5a0d00e4c96 659 strongswan_5.9.13.orig.tar.bz2.asc 6a3013d8d7162e5f11f98f9596023481 117516 strongswan_5.9.13-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.strongswan.org"
+  ],
+  "Maintainer": [
+    "strongSwan Maintainers \u003cpkg-swan-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "strongswan"
+  ],
+  "Package-List": [
+    "charon-cmd deb net optional arch=any charon-systemd deb net optional arch=linux-any libcharon-extauth-plugins deb net optional arch=any libcharon-extra-plugins deb net optional arch=any libstrongswan deb net optional arch=any libstrongswan-extra-plugins deb net optional arch=any libstrongswan-standard-plugins deb net optional arch=any strongswan deb net optional arch=all strongswan-charon deb net optional arch=any strongswan-libcharon deb net optional arch=any strongswan-nm deb net optional arch=linux-any strongswan-pki deb net optional arch=any strongswan-starter deb net optional arch=any strongswan-swanctl deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/strongswan"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/strongswan.git"
+  ],
+  "Version": [
+    "5.9.13-2"
+  ]
+}

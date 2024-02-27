@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gvm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "e6c221eca282623e6f3687e651da1dfd7ffa12b35f295e8538d436861edd8d8e 1646 gvm_23.11.1.dsc c2e85b7c2211950a6e26cb46349e7c04005ef9ddf9c74d8f9a8732d5da7c62c9 11416 gvm_23.11.1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gvm"
+  ],
+  "Files": [
+    "cbe3f590ec782ee0c0a78006571a8db5 1646 gvm_23.11.1.dsc 157990dca11aa8a1b7d4fcdf56407a52 11416 gvm_23.11.1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.greenbone.net/"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "gvm"
+  ],
+  "Package-List": [
+    "gvm deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sophie Brun \u003csophie@offensive-security.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/gvm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/gvm.git"
+  ],
+  "Version": [
+    "23.11.1"
+  ]
+}

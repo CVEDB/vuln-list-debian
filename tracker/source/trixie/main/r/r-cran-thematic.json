@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-thematic"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-farver, r-cran-ggplot2, r-cran-rappdirs, r-cran-rlang, r-cran-rstudioapi, r-cran-scales"
+  ],
+  "Checksums-Sha256": [
+    "38d47ffbd6c2cf66eaa2ce577655536f64e47ac728e9f91dd91212ee52dfa4b8 2447 r-cran-thematic_0.1.4-1.dsc 6ec3cc59711a431618115296a5157fb5ca7b446fce71a17bf19e7149cd74e482 2755162 r-cran-thematic_0.1.4.orig.tar.gz 413128a582bdfcdb9ebced2b560de7599db420915868c25f34140a95d3d04e36 3104 r-cran-thematic_0.1.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-thematic"
+  ],
+  "Files": [
+    "9d740229509bc0ba16c63763505c7db7 2447 r-cran-thematic_0.1.4-1.dsc e9a1874aed86ecc54b4f84b0c4f96e6a 2755162 r-cran-thematic_0.1.4.orig.tar.gz 6a7836c459e96154ad9d361bf1320fab 3104 r-cran-thematic_0.1.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=thematic"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-thematic"
+  ],
+  "Package-List": [
+    "r-cran-thematic deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bslib, r-cran-cairo, r-cran-curl, r-cran-gganimate, r-cran-htmltools, r-cran-jsonlite, r-cran-knitr, r-cran-lattice, r-cran-ragg, r-cran-rmarkdown, r-cran-shiny, r-cran-svglite, r-cran-systemfonts, r-cran-testthat, r-cran-vdiffr, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-thematic"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-thematic.git"
+  ],
+  "Version": [
+    "0.1.4-1"
+  ]
+}

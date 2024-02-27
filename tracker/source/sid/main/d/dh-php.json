@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-php"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), php-all-dev (\u003e= 80~)"
+  ],
+  "Checksums-Sha256": [
+    "3de3db11a6fb09844103321991d2f839818c6b878bd78cbb75fc6e1b92974a6b 1700 dh-php_5.4.dsc f83d4f8bf73e1b53f0640c9edd44abed6619a1e06290f0ece218175dd0652bc9 11668 dh-php_5.4.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dh-php"
+  ],
+  "Files": [
+    "c415ec954d6cd1ff4959481c5fac02b6 1700 dh-php_5.4.dsc 2e6f3e4cc4aadfb9b4777cdbfa2c9bb8 11668 dh-php_5.4.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian PHP Maintainers \u003cteam+pkg-php@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dh-php"
+  ],
+  "Package-List": [
+    "dh-php deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/dh-php"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/dh-php.git"
+  ],
+  "Version": [
+    "5.4"
+  ]
+}

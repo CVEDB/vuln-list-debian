@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-terminado, python-terminado-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-hatchling, python3-myst-parser, python3-ptyprocess, python3-pydata-sphinx-theme \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-tornado"
+  ],
+  "Checksums-Sha256": [
+    "316a857e7b13a7cab0793607a87471d8c44d42fc1d33a8c8baa4542cadefc451 2382 terminado_0.18.0-1.dsc 4d873b38c0a5aa332bbe4dcb11d8fcb6c10d51b3c0f9fc5235679c54902d5451 31946 terminado_0.18.0.orig.tar.gz 8aea9c2c024fc5c4b96531f1d370e0ec8fd5a205cf9dd4c5e9e7faf7c7055d07 3904 terminado_0.18.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/terminado"
+  ],
+  "Files": [
+    "cc3e28cee332a149ba353e992306e7cc 2382 terminado_0.18.0-1.dsc ab86ef0391cf7c2668c62847545b8b66 31946 terminado_0.18.0.orig.tar.gz b38ea15014e154c8a48c71500ff97913 3904 terminado_0.18.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jupyter/terminado"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "terminado"
+  ],
+  "Package-List": [
+    "python-terminado-doc deb doc optional arch=all profile=!nodoc python3-terminado deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/terminado"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/terminado.git"
+  ],
+  "Version": [
+    "0.18.0-1"
+  ]
+}

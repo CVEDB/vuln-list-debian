@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "httpie"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-setuptools, python3-pygments, python3-requests (\u003e= 2.5.2), python3-pkg-resources, python3-charset-normalizer, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "01194bc17936a1900f4589a47140d0eb4fe0c9e5430541601a3142a47c0977c0 2081 httpie_3.2.2-1.dsc 01b4407202fac3cc68c73a8ff1f4a81a759d9575fabfad855772c29365fe18e6 1279161 httpie_3.2.2.orig.tar.gz ed00c4055ceae7b3d5026123db444e69a16f17fb6571a476524861ed83a7e6d7 7168 httpie_3.2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/httpie"
+  ],
+  "Files": [
+    "d9c94dedd08f2050e9fa15cf77f0af3b 2081 httpie_3.2.2-1.dsc fd08e0001da0781a2f7038ea38ac8d08 1279161 httpie_3.2.2.orig.tar.gz 1e6390e1f5c1114aead9e6bcada469bd 7168 httpie_3.2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://httpie.io"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "httpie"
+  ],
+  "Package-List": [
+    "httpie deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Bartosz Fenski \u003cfenio@debian.org\u003e, Arthur Diniz \u003carthurbdiniz@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/httpie"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/httpie.git"
+  ],
+  "Version": [
+    "3.2.2-1"
+  ]
+}

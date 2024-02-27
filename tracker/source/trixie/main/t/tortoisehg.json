@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tortoisehg, tortoisehg-caja, tortoisehg-nautilus"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, mercurial (\u003e= 5.0~), python3"
+  ],
+  "Build-Depends-Indep": [
+    "docbook-xml, docbook-xsl, pyqt5-dev-tools, python3-pyqt5, python3-sphinx, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "8b7335226b65c9faf60cf18099dccd5f6b392aefd32c854897555b496c4c7f5c 2225 tortoisehg_6.5.1-2.dsc 43a175a676eb9678d00699ecb43579b9a3d7186510aaac35fc5f88c847cd1f81 8932743 tortoisehg_6.5.1.orig.tar.gz 24c55b112b14fdc307f4c6dd40a411e12251fa128f784702b5819d9968ee5c61 19472 tortoisehg_6.5.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tortoisehg"
+  ],
+  "Files": [
+    "a265d61e6deb49fc8b2cc0935e2f9900 2225 tortoisehg_6.5.1-2.dsc fa675329b00b17b2c1359fe137cf1428 8932743 tortoisehg_6.5.1.orig.tar.gz 10985cef57957728a097b917eb567d28 19472 tortoisehg_6.5.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tortoisehg.bitbucket.io"
+  ],
+  "Maintainer": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Package": [
+    "tortoisehg"
+  ],
+  "Package-List": [
+    "tortoisehg deb vcs optional arch=all tortoisehg-caja deb vcs optional arch=all tortoisehg-nautilus deb vcs optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/tortoisehg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/tortoisehg.git"
+  ],
+  "Version": [
+    "6.5.1-2"
+  ]
+}

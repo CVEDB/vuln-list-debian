@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libgzstream0, libgzstream-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), d-shlibs, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "0fc85155422d603fcd6af99b415d74872c89cb4bc02edf917d6ed22d3166ab75 2169 libgzstream_1.5+git20171107.9a20658-2.dsc f7f946fe609dca0a2d983219aef6ec3775cef85186c6fb224a5ada022a063a71 15880 libgzstream_1.5+git20171107.9a20658.orig.tar.xz a254698f02fb136b9cee3a961af6973d9b569eba5f06e77367d0c16f1cf3880b 4248 libgzstream_1.5+git20171107.9a20658-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libg/libgzstream"
+  ],
+  "Files": [
+    "8a8418a268f0af6c5a152e4daaa575c9 2169 libgzstream_1.5+git20171107.9a20658-2.dsc f60cbe4fa972c8b6c47342bc12c99b80 15880 libgzstream_1.5+git20171107.9a20658.orig.tar.xz 3c866ab6e3ed41f225da1f9a3e00cb00 4248 libgzstream_1.5+git20171107.9a20658-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.cs.unc.edu/Research/compgeom/gzstream/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgzstream"
+  ],
+  "Package-List": [
+    "libgzstream-dev deb libdevel optional arch=any libgzstream0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/libgzstream"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/libgzstream.git"
+  ],
+  "Version": [
+    "1.5+git20171107.9a20658-2"
+  ]
+}

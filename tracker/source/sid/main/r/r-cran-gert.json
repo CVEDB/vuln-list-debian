@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-gert"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-askpass, r-cran-credentials, r-cran-openssl (\u003e= 2.0.3), r-cran-rstudioapi, r-cran-sys, r-cran-zip, libgit2-dev, r-cran-knitr, r-cran-markdown"
+  ],
+  "Checksums-Sha256": [
+    "c573731030ee2896fd4da0660321d231503b9b80aa2fc72e5d8676fab8628e15 2303 r-cran-gert_2.0.1+dfsg-1.dsc 9fec6b18e35bc89f69c9affaf131bc38fa059383457078c412766664c9ad3e61 103408 r-cran-gert_2.0.1+dfsg.orig.tar.xz 219ec8ed3d5b5727336cc811db79beb5f6828f0fecdf3cc6404f29af5019b1b6 3588 r-cran-gert_2.0.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-gert"
+  ],
+  "Files": [
+    "b1477dd9579adaea5b9ffc2f79b64804 2303 r-cran-gert_2.0.1+dfsg-1.dsc d22f657e8231e2ae9bedd07f2114dd9f 103408 r-cran-gert_2.0.1+dfsg.orig.tar.xz 96f54a9439cc2cb09d891e015ecd8eb5 3588 r-cran-gert_2.0.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=gert"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-gert"
+  ],
+  "Package-List": [
+    "r-cran-gert deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, r-cran-rmarkdown, r-cran-spelling, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gert"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gert.git"
+  ],
+  "Version": [
+    "2.0.1+dfsg-1"
+  ]
+}

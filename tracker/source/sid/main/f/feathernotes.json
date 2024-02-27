@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "feathernotes, feathernotes-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libhunspell-dev, libqt5svg5-dev, libqt5x11extras5-dev, libx11-dev, libxext-dev, pkg-config, qtbase5-dev, qttools5-dev, qttools5-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "a966b11deb1dc7ff9518f6cc4cc88082dff75d1454f460d58e9206b7a03173a9 2513 feathernotes_1.1.1-1.dsc 50f20c24b15af56e988ddd6b011cf3fb871643274da166155c307c4130e2feab 329040 feathernotes_1.1.1.orig.tar.xz e69814d0f89ae3786885667680deaa4178051fe4885eafb598ec09c452416afd 862 feathernotes_1.1.1.orig.tar.xz.asc 86a3931470de9e76d6a39959bb52b67924362bdf9a2b71f116e9cad184214888 8944 feathernotes_1.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/feathernotes"
+  ],
+  "Files": [
+    "f51fbab9b77f033d8374344747e8ebf6 2513 feathernotes_1.1.1-1.dsc 280c12c69d318ee0feb53b41e68984e9 329040 feathernotes_1.1.1.orig.tar.xz cb766e4a29baa5fe882838b88034e5ea 862 feathernotes_1.1.1.orig.tar.xz.asc 1e4a11dff1ba6afecc9706e1235a86fa 8944 feathernotes_1.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tsujan/feathernotes"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "feathernotes"
+  ],
+  "Package-List": [
+    "feathernotes deb editors optional arch=any feathernotes-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/feathernotes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/feathernotes.git"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

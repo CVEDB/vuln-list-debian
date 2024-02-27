@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libedlib1, libedlib-dev, edlib-aligner, python3-edlib"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, dh-sequence-python3, d-shlibs, rename, cython3, python3-all-dev, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "9f631e243c18cb897bd37f4fed6b1f5bc17360c6e9f4423007dd41d15a0ea60a 2206 libedlib_1.2.7-5.dsc 8767bc1b04a1a67282d57662e5702c4908996e96b1753b5520921ff189974621 4318998 libedlib_1.2.7.orig.tar.gz 7ce82ee4878d2dd0dea5023e1df8111f154de47be8c43a6ba6178d62db3ee13a 7468 libedlib_1.2.7-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libe/libedlib"
+  ],
+  "Files": [
+    "a543a81577b27779ddc0cb815481715b 2206 libedlib_1.2.7-5.dsc 77917d44bfd08216f2dd4480578688c2 4318998 libedlib_1.2.7.orig.tar.gz b41bfa29744c85cf6102b6e9e434f633 7468 libedlib_1.2.7-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Martinsos/edlib"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libedlib"
+  ],
+  "Package-List": [
+    "edlib-aligner deb science optional arch=any libedlib-dev deb libdevel optional arch=any libedlib1 deb libs optional arch=any python3-edlib deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/libedlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/libedlib.git"
+  ],
+  "Version": [
+    "1.2.7-5"
+  ]
+}

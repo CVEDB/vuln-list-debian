@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "drm-info"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libdrm-dev, libpci-dev, libjson-c-dev, meson, pkg-config, python3-distutils, scdoc"
+  ],
+  "Checksums-Sha256": [
+    "a027e668d1d3d1c28bf7f92f9cf75a2428069ff2aefea319405a350494f8cada 2145 drm-info_2.6.0-1.dsc d35da4921b67b2f64273e7dae38de0170c3182a93d0d913b55b01cf19fb11698 16715 drm-info_2.6.0.orig.tar.bz2 290f262cb95d49833a0f22fddb9c76e5403b1a3c65292587b3a2d6a625f997a7 2936 drm-info_2.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/drm-info"
+  ],
+  "Files": [
+    "df8b7f6019ae61ac91c39a4fdd91f417 2145 drm-info_2.6.0-1.dsc 24f794d20e39c37c1b9aad93bf7929a9 16715 drm-info_2.6.0.orig.tar.bz2 8d4905ca10f40dcfb4b65f6fdf56d4c5 2936 drm-info_2.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/emersion/drm_info"
+  ],
+  "Maintainer": [
+    "Sway and related packages team \u003cteam+swaywm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "drm-info"
+  ],
+  "Package-List": [
+    "drm-info deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Evangelos Ribeiro Tzaras \u003cdevrtz-debian@fortysixandtwo.eu\u003e, Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/swaywm-team/drm-info"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/swaywm-team/drm-info.git"
+  ],
+  "Version": [
+    "2.6.0-1"
+  ]
+}

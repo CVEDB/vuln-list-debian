@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-leidenalg"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-setuptools, python3-setuptools-scm, libigraph-dev, liblibleidenalg-dev, python3-pytest \u003c!nocheck\u003e, python3-ddt \u003c!nocheck\u003e, python3-igraph (\u003e= 0.10) \u003c!nocheck\u003e, python3-wheel \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "dd408734a1f08d6359b424a0304bc47b5d65bfa2ffc9b34c78fd54ee3f0fb706 2576 python-leidenalg_0.10.2-1.dsc 4b7b4a2acd1f9be5ee702b40ba113a4c4a59d6f76690c47db5d9b7b451d4bec0 449783 python-leidenalg_0.10.2.orig.tar.gz 4dbabea67014040b57c7f101b21a8dcdd02c14173f1e63bdcf60863a1235a7dd 3772 python-leidenalg_0.10.2-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "20623b02b385c51a0d115fbc5ef3ca033ae93651 debian archive/debian/0.10.2-1 https://git.dgit.debian.org/python-leidenalg"
+  ],
+  "Directory": [
+    "pool/main/p/python-leidenalg"
+  ],
+  "Files": [
+    "41118d191e3a4305308dd20a5d53b3d8 2576 python-leidenalg_0.10.2-1.dsc 035aaad8bd46f8e7224270957f204d06 449783 python-leidenalg_0.10.2.orig.tar.gz 336e6490ab9209d4ac43a21b722dfa80 3772 python-leidenalg_0.10.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/vtraag/leidenalg"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-leidenalg"
+  ],
+  "Package-List": [
+    "python3-leidenalg deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-ddt, python3-pytest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/python-leidenalg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/python-leidenalg.git"
+  ],
+  "Version": [
+    "0.10.2-1"
+  ]
+}

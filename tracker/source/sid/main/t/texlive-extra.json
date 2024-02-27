@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "texlive-bibtex-extra, texlive-extra-utils, texlive-font-utils, texlive-formats-extra, texlive-plain-generic, texlive-latex-extra, texlive-fonts-extra, texlive-music, texlive-games, texlive-pstricks, texlive-publishers, texlive-humanities, texlive-science, texlive-fonts-extra-links, texlive-fonts-extra-doc, texlive-humanities-doc, texlive-latex-extra-doc, texlive-science-doc, texlive-pstricks-doc, texlive-publishers-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-strip-nondeterminism"
+  ],
+  "Build-Depends-Indep": [
+    "sharutils, tex-common (\u003e= 6.14), findutils (\u003e= 4.2.0), default-jdk, ant, libpdfbox-java, libcommons-logging-java"
+  ],
+  "Checksums-Sha256": [
+    "687964e06ba0354099964a4cb44a625a8801380fb32125d66bbc07541f40067e 3995 texlive-extra_2023.20240207-1.dsc 13b930cd335fb7aefe3b04a3cf6b722589b6df653498ca8816000b4092351647 19060 texlive-extra_2023.20240207.orig-tex4ht.tar.xz 99f86bb076ecf3b394ce684256da239bbb215f7272ee641cf3967d62ca6fbc72 2523352816 texlive-extra_2023.20240207.orig.tar.xz 063ed1308c8b8ebdf7b90b847fe31bf602e928010cc296ab557e8ecc8fbed7ce 193960 texlive-extra_2023.20240207-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/texlive-extra"
+  ],
+  "Files": [
+    "21168c5042fb1fabb7c2391681e003ba 3995 texlive-extra_2023.20240207-1.dsc 06a2d42a824bbde3db999ffeb98b0ed1 19060 texlive-extra_2023.20240207.orig-tex4ht.tar.xz 9b8162ffc97802f138246e0c580f9b72 2523352816 texlive-extra_2023.20240207.orig.tar.xz 333e52d5384d38e968efbe252c94c0d8 193960 texlive-extra_2023.20240207-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.tug.org/texlive/"
+  ],
+  "Maintainer": [
+    "Debian TeX Task Force \u003cdebian-tex-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "texlive-extra"
+  ],
+  "Package-List": [
+    "texlive-bibtex-extra deb tex optional arch=all texlive-extra-utils deb tex optional arch=all texlive-font-utils deb tex optional arch=all texlive-fonts-extra deb fonts optional arch=all texlive-fonts-extra-doc deb doc optional arch=all texlive-fonts-extra-links deb tex optional arch=all texlive-formats-extra deb tex optional arch=all texlive-games deb tex optional arch=all texlive-humanities deb tex optional arch=all texlive-humanities-doc deb doc optional arch=all texlive-latex-extra deb tex optional arch=all texlive-latex-extra-doc deb doc optional arch=all texlive-music deb tex optional arch=all texlive-plain-generic deb tex optional arch=all texlive-pstricks deb tex optional arch=all texlive-pstricks-doc deb doc optional arch=all texlive-publishers deb tex optional arch=all texlive-publishers-doc deb doc optional arch=all texlive-science deb tex optional arch=all texlive-science-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "tex"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Norbert Preining \u003cnorbert@preining.info\u003e, Hilmar Preusse \u003chille42@web.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-tex/texlive-nonbin/tree/master/texlive-extra"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-tex/texlive-nonbin.git [texlive-extra]"
+  ],
+  "Version": [
+    "2023.20240207-1"
+  ]
+}

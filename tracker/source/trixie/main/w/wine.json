@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all i386 armel armhf amd64 arm64"
+  ],
+  "Binary": [
+    "wine, wine32, wine64, wine32-preloader, wine64-preloader, wine32-tools, wine64-tools, libwine, libwine-dev, wine-binfmt, fonts-wine"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gcc-mingw-w64-i686 [i386], gcc-mingw-w64-x86-64 [amd64], libz-mingw-w64-dev, lzma, flex, bison, quilt, unzip, gettext, icoutils, sharutils, pkg-config, dctrl-tools, imagemagick, librsvg2-bin, fontforge-nox, khronos-api (\u003e= 4.6), unicode-data (\u003e= 15), unicode-data (\u003c\u003c 16), unicode-idna (\u003e= 15), unicode-idna (\u003c\u003c 16), libgl-dev, libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxfixes-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libglu1-mesa-dev, libxcomposite-dev, libxkbregistry-dev, libxml-libxml-perl, libssl-dev, libv4l-dev, libsdl2-dev, libkrb5-dev, libudev-dev, libpulse-dev, libldap2-dev, unixodbc-dev, libcups2-dev, libcapi20-dev, libvulkan-dev (\u003e= 1.2.189.0), libopenal-dev, libdbus-1-dev, freeglut3-dev, libunwind-dev, libpcap0.8-dev, libasound2-dev, libgphoto2-dev, libosmesa6-dev, libncurses-dev, libwayland-dev, libfreetype-dev, libgnutls28-dev, libpcsclite-dev, libusb-1.0-0-dev, libgettextpo-dev, libfontconfig-dev, ocl-icd-opencl-dev, libgstreamer-plugins-base1.0-dev"
+  ],
+  "Checksums-Sha256": [
+    "ded867c59b361d7c56397e40415d56c5e297995dcf51971415e2b0fb1970705e 4418 wine_9.0~repack-4.dsc b956a23e00a5083f46c5c5ce0fbb3428460548a55ec1414cc20c6c21c7c8d0a7 26988196 wine_9.0~repack.orig.tar.xz aeca4b78be3e8e6d36799172d45f99fe5f22f76c9527857bfafad0c57c3dd53d 58748424 wine_9.0~repack-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wine"
+  ],
+  "Files": [
+    "8a41b6fb1763cc551ac2ed806fbbc557 4418 wine_9.0~repack-4.dsc 5113f37d591b564c2ea9582393c30c5c 26988196 wine_9.0~repack.orig.tar.xz cd980b43f6134a1f62da81251614537b 58748424 wine_9.0~repack-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.winehq.org"
+  ],
+  "Maintainer": [
+    "Debian Wine Party \u003cdebian-wine@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "wine"
+  ],
+  "Package-List": [
+    "fonts-wine deb fonts optional arch=all libwine deb libs optional arch=amd64,i386,armel,armhf,arm64 libwine-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64 wine deb otherosfs optional arch=all wine-binfmt deb otherosfs optional arch=all wine32 deb otherosfs optional arch=i386,armel,armhf wine32-preloader deb otherosfs optional arch=i386,armel,armhf wine32-tools deb libdevel optional arch=i386,armel,armhf wine64 deb otherosfs optional arch=amd64,arm64 wine64-preloader deb otherosfs optional arch=amd64,arm64 wine64-tools deb libdevel optional arch=amd64,arm64"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "otherosfs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Michael Gilbert \u003cmgilbert@debian.org\u003e, Stephen Kitt \u003cskitt@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/wine-team/wine"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/wine-team/wine.git -b debian13-wine09"
+  ],
+  "Version": [
+    "9.0~repack-4"
+  ]
+}

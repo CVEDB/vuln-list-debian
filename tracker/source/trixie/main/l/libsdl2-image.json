@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsdl2-image-2.0-0, libsdl2-image-dev, libsdl2-image-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libsdl2-dev, libjpeg-dev, libpng-dev, libtiff-dev, libwebp-dev, pkg-config, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "f591e42b617253d84ae400b2fbaa7991658e5967fec75167310b0eacf234f71e 2600 libsdl2-image_2.8.2+dfsg-1.dsc 8f9058eda5d74235d98a96be0cdf64576063fb2eafa59eae1fdb1ed44ed4d171 322918 libsdl2-image_2.8.2+dfsg.orig.tar.gz eec9e521703a16892d56322736bec711fde7a47ebf655f2f663002f18b683bea 11228 libsdl2-image_2.8.2+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a6f17d135943369f9e51d12aec5276b6510f5c3a debian archive/debian/2.8.2+dfsg-1 https://git.dgit.debian.org/libsdl2-image"
+  ],
+  "Directory": [
+    "pool/main/libs/libsdl2-image"
+  ],
+  "Files": [
+    "e1b3f4c3e44d1ea86ffc1e51822371bb 2600 libsdl2-image_2.8.2+dfsg-1.dsc 452e49b150abed8a988f727cc3c9e928 322918 libsdl2-image_2.8.2+dfsg.orig.tar.gz 42665c8da07c2fe78ae073ea2a68638e 11228 libsdl2-image_2.8.2+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.libsdl.org/projects/SDL_image/"
+  ],
+  "Maintainer": [
+    "Debian SDL packages maintainers \u003cpkg-sdl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsdl2-image"
+  ],
+  "Package-List": [
+    "libsdl2-image-2.0-0 deb libs optional arch=any libsdl2-image-dev deb libdevel optional arch=any libsdl2-image-tests deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, debconf, file, gnome-desktop-testing, ninja-build, pkg-config, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Felix Geyer \u003cfgeyer@debian.org\u003e, Manuel A. Fernandez Montecelo \u003cmafm@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sdl-team/libsdl2-image"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sdl-team/libsdl2-image.git"
+  ],
+  "Version": [
+    "2.8.2+dfsg-1"
+  ]
+}

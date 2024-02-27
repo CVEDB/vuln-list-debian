@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libtie-cycle-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "9e5e832cc9c7ea77bdbbdd9baaf9a54c3654ab69b006634115399184d46a9c31 2417 libtie-cycle-perl_1.228-1.dsc 875651be1c657d85bcac056a76be22888395412c8e5af3d84d4c37b8fbb5b448 11687 libtie-cycle-perl_1.228.orig.tar.gz 619eb9b50eb513e08f1322e88411832bfabbe27615685377f7adfa429783c046 5620 libtie-cycle-perl_1.228-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "da7f5ce23f26c13b467a7daf44018103bb0c69a3 debian archive/debian/1.228-1 https://git.dgit.debian.org/libtie-cycle-perl"
+  ],
+  "Directory": [
+    "pool/main/libt/libtie-cycle-perl"
+  ],
+  "Files": [
+    "643c5ee71b2568b768a9bf0ee4598163 2417 libtie-cycle-perl_1.228-1.dsc 2c99b09532d80599f4b041f3ecae7af8 11687 libtie-cycle-perl_1.228.orig.tar.gz 75dca1ed1ca386c7ef027a0cc5ff8a3a 5620 libtie-cycle-perl_1.228-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Tie-Cycle"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libtie-cycle-perl"
+  ],
+  "Package-List": [
+    "libtie-cycle-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libtie-cycle-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libtie-cycle-perl.git"
+  ],
+  "Version": [
+    "1.228-1"
+  ]
+}

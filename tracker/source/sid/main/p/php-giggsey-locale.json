@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-giggsey-locale"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-symfony-console \u003c!nocheck\u003e, php-symfony-filesystem \u003c!nocheck\u003e, phpab, phpunit \u003c!nocheck\u003e, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "83ba9f55d8ed5e4a7f97ddcbdd8433f1c22305fa0bc4e362c28e6f8094d8c4c2 2347 php-giggsey-locale_2.5-1.dsc 31f5abbd9ff4b29cc7b2d36a500e9918457e59d8ce26b92bf9edc785da440867 248560 php-giggsey-locale_2.5.orig.tar.xz daf010067e9949a00a0030dd74e99d114c0ae679e7668c0407f2b6cb4056710c 4568 php-giggsey-locale_2.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-giggsey-locale"
+  ],
+  "Files": [
+    "338493942fbbb3ad2f25647ecc020eec 2347 php-giggsey-locale_2.5-1.dsc 4b060bdaf087c03e8ea8953b358afd5f 248560 php-giggsey-locale_2.5.orig.tar.xz dd1547dd4dea99a76e6c6e7c779b154b 4568 php-giggsey-locale_2.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/giggsey/Locale/releases"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-giggsey-locale"
+  ],
+  "Package-List": [
+    "php-giggsey-locale deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-symfony-console, php-symfony-filesystem, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e, James Valleroy \u003cjvalleroy@mailbox.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-giggsey-locale"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-giggsey-locale.git"
+  ],
+  "Version": [
+    "2.5-1"
+  ]
+}

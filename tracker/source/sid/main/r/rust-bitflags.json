@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bitflags-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "24b462029b31c9e8f7fa53a9bbdbaed1c5aa525c89f7f90c0102586dd5f466ad 2634 rust-bitflags_2.4.2-1.dsc ed570934406eb16438a4e976b1b4500774099c13b8cb96eec99f620f05090ddf 42602 rust-bitflags_2.4.2.orig.tar.gz bf57b9fa94a933bf3fe12a7c3a22610874d98e7737a8b81e21954b292e38331f 3692 rust-bitflags_2.4.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bitflags"
+  ],
+  "Files": [
+    "f1f569cebc10bdf31e287f2a20ca8b35 2634 rust-bitflags_2.4.2-1.dsc fcc84166b0f45067743bd0820f1d92e5 42602 rust-bitflags_2.4.2.orig.tar.gz 14181c9b115318f8ee9b20cd189ba411 3692 rust-bitflags_2.4.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bitflags/bitflags"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bitflags"
+  ],
+  "Package-List": [
+    "librust-bitflags-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-arbitrary-1+default-dev, librust-arbitrary-1+derive-dev, librust-bytemuck-1+default-dev, librust-bytemuck-1+derive-dev, librust-rustversion-1+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, librust-serde-test-1+default-dev, librust-trybuild-1+default-dev, librust-zerocopy-0.6+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bitflags"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bitflags]"
+  ],
+  "Version": [
+    "2.4.2-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python-statsmodels-doc, python3-statsmodels, python3-statsmodels-lib"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), sphinx-common, dh-python (\u003e= 3.20180313~), cython3-legacy (\u003e= 0.29.32~), python3-all-dev, python3-colorama \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-cvxopt \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-dateutil \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-jinja2 \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-joblib \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-matplotlib, python3-numpy, python3-pandas, python3-patsy (\u003e= 0.5.1) \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-forked \u003c!nocheck\u003e, python3-scipy, python3-setuptools, python3-setuptools-scm (\u003e= 7~), python3-tk \u003c!nocheck\u003e \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-jupyter-client \u003c!nodoc\u003e, python3-nbconvert \u003c!nodoc\u003e, python3-nbsphinx \u003c!nodoc\u003e, python3-notebook \u003c!nodoc\u003e, python3-numpydoc \u003c!nodoc\u003e, python3-seaborn \u003c!nodoc\u003e, python3-simplegeneric \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-yaml \u003c!nodoc\u003e, jdupes \u003c!nodoc\u003e, python-scipy-doc \u003c!nodoc\u003e, python-pandas-doc \u003c!nodoc\u003e, python3-doc \u003c!nodoc\u003e, r-base-core \u003c!nodoc\u003e, python3-rpy2 \u003c!nodoc\u003e, r-cran-cardata \u003c!nodoc\u003e, r-cran-geepack \u003c!nodoc\u003e, r-cran-guerry \u003c!nodoc\u003e, r-cran-lme4 \u003c!nodoc\u003e, r-cran-mass \u003c!nodoc\u003e, r-cran-robustbase \u003c!nodoc\u003e, r-cran-vcd \u003c!nodoc\u003e, pandoc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f54695fcb8f380d8d55fbea81e5f00f11d09beb8d126b850b613d39963260373 3643 statsmodels_0.14.1+dfsg-2.dsc d0391ea1267fd617297a77c554e06e5a481d80fe750912d9b8ac50609bdaaab4 12135644 statsmodels_0.14.1+dfsg.orig.tar.xz 48bbc79f97d00aad2203ad67ea4702116a653012c3f6cbcfbcaad17ac940f303 35484 statsmodels_0.14.1+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/statsmodels"
+  ],
+  "Files": [
+    "42c82f516244910de1c0551f6c105ca8 3643 statsmodels_0.14.1+dfsg-2.dsc 260c1a4ea08bb6bfbd376c96d8a561f5 12135644 statsmodels_0.14.1+dfsg.orig.tar.xz 47b3604f3e5504b995e567d23b38c84b 35484 statsmodels_0.14.1+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.statsmodels.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "statsmodels"
+  ],
+  "Package-List": [
+    "python-statsmodels-doc deb doc optional arch=all python3-statsmodels deb python optional arch=all python3-statsmodels-lib deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-colorama, python3-cvxopt, python3-dateutil, python3-jinja2, python3-joblib, python3-matplotlib, python3-pytest, python3-tk"
+  ],
+  "Uploaders": [
+    "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e, Michael Hanke \u003cmichael.hanke@gmail.com\u003e, Diane Trout \u003cdiane@ghic.org\u003e, Rebecca N. Palmer \u003crebecca_palmer@zoho.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/statsmodels"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/statsmodels.git"
+  ],
+  "Version": [
+    "0.14.1+dfsg-2"
+  ]
+}

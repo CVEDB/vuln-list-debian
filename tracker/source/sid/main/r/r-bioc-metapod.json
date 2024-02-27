@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-metapod"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp"
+  ],
+  "Checksums-Sha256": [
+    "6a47e5287c173b183f06a2b0bf67b8242e2d2215054b9cf900f917c9f2e888fa 2105 r-bioc-metapod_1.10.1+dfsg-1.dsc f395056b34b2f45e7313035d7dc495aa38e559161174d8ad7d07c8a1be2e3b78 26416 r-bioc-metapod_1.10.1+dfsg.orig.tar.xz adc9f783fb8087e4b73f65aed0e0d19f560bd259f009d607ad2428f6558b7b04 3168 r-bioc-metapod_1.10.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-metapod"
+  ],
+  "Files": [
+    "6263d0eea37fb264a334ce4d60432194 2105 r-bioc-metapod_1.10.1+dfsg-1.dsc 1c093b95409edf3a38bd448901858f3e 26416 r-bioc-metapod_1.10.1+dfsg.orig.tar.xz 8477d1e0f4b1b1449aa7f37dbe165ab1 3168 r-bioc-metapod_1.10.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/metapod/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-metapod"
+  ],
+  "Package-List": [
+    "r-bioc-metapod deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-metapod"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-metapod.git"
+  ],
+  "Version": [
+    "1.10.1+dfsg-1"
+  ]
+}

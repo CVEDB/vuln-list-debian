@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-swiglpk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all-dev, python3-setuptools, swig, libglpk-dev, glpk-utils, python3-nose \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "31c6bb19da9cb2b942dee450fc6803d965e3300dad501d527202e7438f5afaf9 2110 swiglpk_5.0.10-1.dsc e6f1055f4c2569cbee6234c6ddb48855cc0a1d79ee26fd587c1767d670470153 48310 swiglpk_5.0.10.orig.tar.gz e76035ba01741252232041e293f212bb9218e45b468c21d26ed8482815595adc 2456 swiglpk_5.0.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/swiglpk"
+  ],
+  "Files": [
+    "b9d90e4801879e55c79406b60e4570f7 2110 swiglpk_5.0.10-1.dsc 32aee1ca1bee8d501d3c9cdd4e6cae00 48310 swiglpk_5.0.10.orig.tar.gz 697215657f6bb7efda7900fe05f05650 2456 swiglpk_5.0.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/biosustain/swiglpk"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "swiglpk"
+  ],
+  "Package-List": [
+    "python3-swiglpk deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Afif Elghraoui \u003cafif@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/swiglpk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/swiglpk.git"
+  ],
+  "Version": [
+    "5.0.10-1"
+  ]
+}

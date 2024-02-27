@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mediainfo, mediainfo-gui"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), libmediainfo-dev (\u003e= 0.7.61), libzen-dev (\u003e= 0.4.25), libwxgtk3.2-dev, zlib1g-dev, pkgconf, rename"
+  ],
+  "Checksums-Sha256": [
+    "e9fd2bd71c1d92a0664ac5ec50d7c2a16aa7cb6d8c6545f7fa63cec6ce140a1e 2117 mediainfo_24.01.1-1.dsc 32ea646d5c86c63d54418d10b2736260ab43e4b727f81e8dd5ecf5e9b5e3fd34 2016148 mediainfo_24.01.1.orig.tar.xz 5e8b3daa221a40c78399a11fbeeda8709368464ddc13111455bea487d1e3ddbb 13292 mediainfo_24.01.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mediainfo"
+  ],
+  "Files": [
+    "8e04f81b9baa39ce5a7c0a1f84a787ef 2117 mediainfo_24.01.1-1.dsc 6a08d96fddbcc97bc866a8f774c7a8a1 2016148 mediainfo_24.01.1.orig.tar.xz fa5d5c948dfe63cfc4a3c22f8ce3cba5 13292 mediainfo_24.01.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mediaarea.net/MediaInfo"
+  ],
+  "Maintainer": [
+    "Chow Loong Jin \u003chyperair@debian.org\u003e"
+  ],
+  "Package": [
+    "mediainfo"
+  ],
+  "Package-List": [
+    "mediainfo deb utils optional arch=any mediainfo-gui deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "matchbox-window-manager, wmctrl, xauth, xvfb"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/mediainfo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/mediainfo.git"
+  ],
+  "Version": [
+    "24.01.1-1"
+  ]
+}

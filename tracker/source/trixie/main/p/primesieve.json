@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "primesieve, libprimesieve11, libprimesieve-dev, libprimesieve-dev-common, primesieve-bin, primesieve-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, asciidoc-base, xmlto"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, doxygen-latex, graphviz, rdfind, symlinks"
+  ],
+  "Checksums-Sha256": [
+    "4c41dba7026e110653763006b40df378725aad341590fcf8ae360f5b8bbc696c 3157 primesieve_11.2+ds-2.dsc 9722cbf2c6f92301d7b94cd0c9d0e95a722b3fe82b0b1c145bc68d6d996fadd3 99928 primesieve_11.2+ds.orig.tar.xz 1417e15c7ec6fafa28174c6f0d16a16fda4106bd16493f906041eaedb166bf2d 7716 primesieve_11.2+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/primesieve"
+  ],
+  "Files": [
+    "976db1b06021b3fa74a1a6187b624af5 3157 primesieve_11.2+ds-2.dsc f6aad5931158f786246ec5fbb81b6a3e 99928 primesieve_11.2+ds.orig.tar.xz dc2f9a9064e9127b145f636ebf29ef8e 7716 primesieve_11.2+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kimwalisch/primesieve"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "primesieve"
+  ],
+  "Package-List": [
+    "libprimesieve-dev deb libdevel optional arch=any libprimesieve-dev-common deb libdevel optional arch=all libprimesieve11 deb libs optional arch=any primesieve deb math optional arch=all primesieve-bin deb math optional arch=any primesieve-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/primesieve"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/primesieve.git"
+  ],
+  "Version": [
+    "11.2+ds-2"
+  ]
+}

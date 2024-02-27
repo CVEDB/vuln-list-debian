@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-crossrefapi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all:any, python3-requests \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "bb57d658ce43eeaa88f7fbb3ef6e223c5facda2c891e53cf22c1f4f3af96bff2 2212 python-crossrefapi_1.5.2-1.dsc 7632c9b6bb9b896a7c4cb71784f47a32cc9934d8a2d248f012e00260ee523562 22708 python-crossrefapi_1.5.2.orig.tar.gz 4f7f6e00a3e595d984aea2c288177bd8301a75c8b7eb93e4ee39425ff13de999 2884 python-crossrefapi_1.5.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-crossrefapi"
+  ],
+  "Files": [
+    "1c314a0b1acfc3087cf709ace897c4b8 2212 python-crossrefapi_1.5.2-1.dsc 606646d1e51acdee69b71dcdafee2292 22708 python-crossrefapi_1.5.2.orig.tar.gz df4aed55b24091696a311027af97bf49 2884 python-crossrefapi_1.5.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fabiobatalha/crossrefapi"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-crossrefapi"
+  ],
+  "Package-List": [
+    "python3-crossrefapi deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-crossrefapi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-crossrefapi.git"
+  ],
+  "Version": [
+    "1.5.2-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libtinyxml2-dev, libtinyxml2-10"
+  ],
+  "Build-Conflicts": [
+    "libssl1.0.0 (= 1.0.2-1)"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "7da1a49790271cef279265365475ea814adc75276663abc09c3b30409c968d9f 1997 tinyxml2_10.0.0+dfsg-2.dsc 622de09bb7063841fb763e186240b5a95a0ed1d32b4543b6e6be3148f336fbf4 335700 tinyxml2_10.0.0+dfsg.orig.tar.xz aaa138a9d77a92c5f428f71fd25c16c24d6d8c4d65a3512b97e8c667417140d3 8944 tinyxml2_10.0.0+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tinyxml2"
+  ],
+  "Files": [
+    "21a2254c1404515dfe2cdcd1e47eb168 1997 tinyxml2_10.0.0+dfsg-2.dsc 3425ba06186f53da9e3b0f3aa4f5058c 335700 tinyxml2_10.0.0+dfsg.orig.tar.xz afa1bff6ed1b81d3d67f3c3f43ccbde9 8944 tinyxml2_10.0.0+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.grinninglizard.com/tinyxml2/"
+  ],
+  "Maintainer": [
+    "Chow Loong Jin \u003chyperair@debian.org\u003e"
+  ],
+  "Package": [
+    "tinyxml2"
+  ],
+  "Package-List": [
+    "libtinyxml2-10 deb libs optional arch=any libtinyxml2-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/tinyxml2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/tinyxml2.git"
+  ],
+  "Version": [
+    "10.0.0+dfsg-2"
+  ]
+}

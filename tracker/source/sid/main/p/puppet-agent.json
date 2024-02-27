@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "puppet-agent, puppet"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), facter (\u003e= 4.3.0), po-debconf, rake, ronn, ruby-concurrent, ruby-deep-merge, ruby-semantic-puppet, ruby-sorted-set, yard"
+  ],
+  "Checksums-Sha256": [
+    "3d09f4d81a77d8a3998b50b6eff5d98ffeb2c48337caaa933847e29788e3cc1b 2190 puppet-agent_8.4.0-1.dsc c0cd18f1fd5f6cb8add4b818461912f15b4f57e584f0050cff161d934e867ffe 386189 puppet-agent_8.4.0.orig-modules.tar.gz 6e528cbcf499fd03f01a362a5a6a7d7e908def2b169d6794e6cf8b2dd1193f8d 2882328 puppet-agent_8.4.0.orig.tar.gz 7f56b2a37a73ae5aeee51019cd626edbe0e35275703a00b1458107868b642c7d 833 puppet-agent_8.4.0.orig.tar.gz.asc f55511fc34d94644e63613359b3a12e2fb5163680f4eb1c61a2b2ce229c78217 24912 puppet-agent_8.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puppet-agent"
+  ],
+  "Files": [
+    "eda3f201934db3d3bd8b3d648e3dce0e 2190 puppet-agent_8.4.0-1.dsc c560ddd2941634913eb5f3c267c6d34e 386189 puppet-agent_8.4.0.orig-modules.tar.gz e086e8479832c98db000d75e5fc9d9fe 2882328 puppet-agent_8.4.0.orig.tar.gz 88da491b150a1f3dd6415e3d87888dfa 833 puppet-agent_8.4.0.orig.tar.gz.asc 40de54fb1e21d088718ec364434989f3 24912 puppet-agent_8.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/puppetlabs/puppet"
+  ],
+  "Maintainer": [
+    "Puppet Package Maintainers \u003cpkg-puppet-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "puppet-agent"
+  ],
+  "Package-List": [
+    "puppet deb oldlibs optional arch=all puppet-agent deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cron, gem2deb, ruby-all-dev, ruby-rubygems, ruby-serverspec, systemd-sysv"
+  ],
+  "Uploaders": [
+    "Jérôme Charaoui \u003cjerome@riseup.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/puppet-team/puppet-agent"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/puppet-team/puppet-agent.git"
+  ],
+  "Version": [
+    "8.4.0-1"
+  ]
+}

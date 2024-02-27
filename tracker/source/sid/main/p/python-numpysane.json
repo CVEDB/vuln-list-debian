@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-numpysane"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-numpy, libpython3-dev"
+  ],
+  "Checksums-Sha256": [
+    "d6b1ebca1f297cd644810cabd49f65ff9d61215be7d63afbd022c6abe6e9b106 2092 python-numpysane_0.40-3.dsc 52d8077ace27fa94b94a8a840b56e374e0ee0938539b0cb0e2c2557a0e139781 98913 python-numpysane_0.40.orig.tar.gz ec71b718643b993f03e6a260d786247e939b79db4840fca31a5af0958febfaca 3348 python-numpysane_0.40-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-numpysane"
+  ],
+  "Files": [
+    "71d388565460ff00a3623bbe8de02496 2092 python-numpysane_0.40-3.dsc d9527aff7182a0299fe36a64a86c17a5 98913 python-numpysane_0.40.orig.tar.gz 4be18a98fa8a0ccf4c04dae72116570e 3348 python-numpysane_0.40-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dkogan/numpysane"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-numpysane"
+  ],
+  "Package-List": [
+    "python3-numpysane deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Dima Kogan \u003cdkogan@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-numpysane"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-numpysane.git"
+  ],
+  "Version": [
+    "0.40-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcompress-raw-bzip2-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libbz2-dev, libtest-pod-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "34e8f09ce21eed817efb512da531c79c59ab85b765c1e97b2e8a1d49a1950f7d 2545 libcompress-raw-bzip2-perl_2.209-1.dsc 8188a54ce962a7c32e6e9998e9202bbf8cbd4257576109355aae73d02180dd66 217778 libcompress-raw-bzip2-perl_2.209.orig.tar.gz b97a6657bc73a581d61e2ed253906972dec4428393d091e35ddcecaf8f79a03e 5128 libcompress-raw-bzip2-perl_2.209-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "4d05c06bd780ed26ea97cd7b012ae738f1810500 debian archive/debian/2.209-1 https://git.dgit.debian.org/libcompress-raw-bzip2-perl"
+  ],
+  "Directory": [
+    "pool/main/libc/libcompress-raw-bzip2-perl"
+  ],
+  "Files": [
+    "112cf8ac51d1957f9b86566b08814019 2545 libcompress-raw-bzip2-perl_2.209-1.dsc 3c93ed202d850621c537a501b5112e7b 217778 libcompress-raw-bzip2-perl_2.209.orig.tar.gz 256f1ffd430c821af987f1856abad051 5128 libcompress-raw-bzip2-perl_2.209-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Compress-Raw-Bzip2"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcompress-raw-bzip2-perl"
+  ],
+  "Package-List": [
+    "libcompress-raw-bzip2-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcompress-raw-bzip2-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcompress-raw-bzip2-perl.git"
+  ],
+  "Version": [
+    "2.209-1"
+  ]
+}

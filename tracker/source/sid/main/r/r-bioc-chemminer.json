@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-chemminer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rjson, r-cran-rcurl, r-cran-dbi, r-cran-digest, r-bioc-biocgenerics, r-cran-rcpp, r-cran-ggplot2, r-cran-gridextra, r-cran-png, r-cran-base64enc, r-cran-dt, r-cran-rsvg, r-cran-jsonlite, r-cran-stringi, r-cran-bh"
+  ],
+  "Checksums-Sha256": [
+    "4331d8fbf84170c57f9c087f28eeb1b6f419f815d3a3f72a43eab08282832c37 2336 r-bioc-chemminer_3.54.0+dfsg-1.dsc d1432095b2a8f1d283cf4ad87a4076cbfa631b7a793cda5aafbacdf1b4667a37 702136 r-bioc-chemminer_3.54.0+dfsg.orig.tar.xz 9263d117d89342ab7bf3e83d9e463413b771ae84d30648e532337c878de1d24c 6064 r-bioc-chemminer_3.54.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-chemminer"
+  ],
+  "Files": [
+    "a16cbddebc4f67cece38a763d0f12c64 2336 r-bioc-chemminer_3.54.0+dfsg-1.dsc 9df45b7b08c070da2356c9457d1ce1bb 702136 r-bioc-chemminer_3.54.0+dfsg.orig.tar.xz 9751ef5a478a151a7b3d89244543448b 6064 r-bioc-chemminer_3.54.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/ChemmineR/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-chemminer"
+  ],
+  "Package-List": [
+    "r-bioc-chemminer deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-chemminer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-chemminer.git"
+  ],
+  "Version": [
+    "3.54.0+dfsg-1"
+  ]
+}

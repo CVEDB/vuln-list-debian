@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-hsmmsinglecell"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "2ab576cf15bfa97f2fea5d15e1447d70c03335135db58b7f36cebe4406740ca1 2183 r-bioc-hsmmsinglecell_1.22.0-1.dsc 1160af600b7bf7ec054be481350e4e12f6836062b2d0063e670a0fbfa596c6d9 16875725 r-bioc-hsmmsinglecell_1.22.0.orig.tar.gz cc4ab75a4f48055b4ec92e5a0c6443c0c511d7fb6e9a4597a4aa9a804338103d 5396 r-bioc-hsmmsinglecell_1.22.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-hsmmsinglecell"
+  ],
+  "Files": [
+    "eac6bcb249a05a9ce94312d5fd6d2468 2183 r-bioc-hsmmsinglecell_1.22.0-1.dsc dae440cd20110d25cd699a9a792ac4b8 16875725 r-bioc-hsmmsinglecell_1.22.0.orig.tar.gz 9c4212533e04e5ce1b3bb2459e3c833e 5396 r-bioc-hsmmsinglecell_1.22.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/release/data/experiment/html/HSMMSingleCell.html"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-hsmmsinglecell"
+  ],
+  "Package-List": [
+    "r-bioc-hsmmsinglecell deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-hsmmsinglecell"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-hsmmsinglecell.git"
+  ],
+  "Version": [
+    "1.22.0-1"
+  ]
+}

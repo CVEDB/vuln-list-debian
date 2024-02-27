@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-http-message-factory"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-psr-http-message, phpab"
+  ],
+  "Checksums-Sha256": [
+    "268be2a33bb5c5e19ce661349274f7dd8c59689570a225d90424f22761b1464e 1839 php-http-message-factory_1.1.0-2.dsc 61dd2735519a496baf575a8d0497a3b093fc96a8e40a685c61b4e431c5b10e0a 3362 php-http-message-factory_1.1.0.orig.tar.gz 0891785ff56c945b62b2bc3f7fc72d203eabe82687afe3425b4b278a13e14e12 6568 php-http-message-factory_1.1.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-http-message-factory"
+  ],
+  "Files": [
+    "329464be18a84fad89fc74ee48d9cac7 1839 php-http-message-factory_1.1.0-2.dsc 73d96b5e59daa07243182a39c465d9ef 3362 php-http-message-factory_1.1.0.orig.tar.gz 49841c2b95af7bbe5e5cc949e8b35846 6568 php-http-message-factory_1.1.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://php-http.readthedocs.org/en/latest/message-factory/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-http-message-factory"
+  ],
+  "Package-List": [
+    "php-http-message-factory deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-http-message-factory"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-http-message-factory.git"
+  ],
+  "Version": [
+    "1.1.0-2"
+  ]
+}

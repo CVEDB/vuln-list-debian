@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 ppc64el arm64 riscv64 loong64"
+  ],
+  "Binary": [
+    "qemu-web-desktop"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-apache2, dh-sysuser, pandoc"
+  ],
+  "Checksums-Sha256": [
+    "1f3ddf7998fb69095b58de50436e2b1c9fd5845e1c50314a761561b96d80ad0b 2293 qemu-web-desktop_24.01.19+ds1-3.dsc 8d83a152c93e12400643f809a1027285e68b3aac98ed5d046438313cf4317071 2013968 qemu-web-desktop_24.01.19+ds1.orig.tar.xz b1b0c2bb708fe55587652430db528153f1136ef65cc6be3caffa6e08f8527226 14664 qemu-web-desktop_24.01.19+ds1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qemu-web-desktop"
+  ],
+  "Files": [
+    "33fb634484b63ca25eca567c012e2a50 2293 qemu-web-desktop_24.01.19+ds1-3.dsc 5fae7c8499f27610941f1f78c1bda457 2013968 qemu-web-desktop_24.01.19+ds1.orig.tar.xz 58dbdefde7608015267859adfb307d18 14664 qemu-web-desktop_24.01.19+ds1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/soleil-data-treatment/soleil-software-projects/remote-desktop"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "qemu-web-desktop"
+  ],
+  "Package-List": [
+    "qemu-web-desktop deb science optional arch=amd64,ppc64el,arm64,riscv64,loong64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.2"
+  ],
+  "Uploaders": [
+    "Roland Mas \u003clolando@debian.org\u003e, Emmanuel Farhi \u003cemmanuel.farhi@synchrotron-soleil.fr\u003e, Frédéric-Emmanuel Picca \u003cpicca@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/qemu-web-desktop"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/qemu-web-desktop.git"
+  ],
+  "Version": [
+    "24.01.19+ds1-3"
+  ]
+}

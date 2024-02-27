@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cmake, cmake-data, cmake-curses-gui, cmake-qt-gui, cmake-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake \u003ccross\u003e, freebsd-glue [kfreebsd-any], libarchive-dev (\u003e= 3.3.3) \u003c!pkg.cmake.bootstrap\u003e, libcppdap-dev \u003c!pkg.cmake.bootstrap\u003e, libcurl4-openssl-dev \u003c!pkg.cmake.bootstrap\u003e | libcurl-ssl-dev \u003c!pkg.cmake.bootstrap\u003e, libexpat1-dev \u003c!pkg.cmake.bootstrap\u003e, libjsoncpp-dev \u003c!pkg.cmake.bootstrap\u003e, libncurses-dev \u003c!pkg.cmake.bootstrap !pkg.cmake.nogui\u003e, librhash-dev \u003c!pkg.cmake.bootstrap\u003e, libssl-dev \u003cpkg.cmake.bootstrap\u003e, libuv1-dev (\u003e= 1.10) \u003c!pkg.cmake.bootstrap\u003e, procps [!hurd-any], python3-sphinx:native, python3-sphinxcontrib.qthelp:native, qtbase5-dev \u003c!pkg.cmake.bootstrap !pkg.cmake.nogui\u003e, zlib1g-dev \u003c!pkg.cmake.bootstrap\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc"
+  ],
+  "Checksums-Sha256": [
+    "11d5940c242950e08757cc69788495bbdb2599aa690b391df55a18ed5f033d10 4035 cmake_3.28.3-1.dsc 72b7570e5c8593de6ac4ab433b73eab18c5fb328880460c86ce32608141ad5c1 11067653 cmake_3.28.3.orig.tar.gz 0b4b78751d04fc8c32b8666b6cbfc71d22e4b9d86db40762dab0da0a09518e0b 33396 cmake_3.28.3-1.debian.tar.xz"
+  ],
+  "Description": [
+    "cross-platform, open-source make system CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice. CMake is quite sophisticated: it is possible to support complex environments requiring system configuration, pre-processor generation, code generation, and template instantiation."
+  ],
+  "Dgit": [
+    "5dbb16fb220ca92d463417d7ea47e4fed5f06368 debian archive/debian/3.28.3-1 https://git.dgit.debian.org/cmake"
+  ],
+  "Directory": [
+    "pool/main/c/cmake"
+  ],
+  "Files": [
+    "2aef1aad455fbbaac8638efe9e482440 4035 cmake_3.28.3-1.dsc 6b16c82b81e1fd80b63bee9696846b21 11067653 cmake_3.28.3.orig.tar.gz 92f2a1250eb7511763bbf4dcf37f94ba 33396 cmake_3.28.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cmake.org/"
+  ],
+  "Maintainer": [
+    "Debian CMake Team \u003cpkg-cmake-team@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cmake"
+  ],
+  "Package-List": [
+    "cmake deb devel optional arch=any cmake-curses-gui deb devel optional arch=any profile=!pkg.cmake.bootstrap,!pkg.cmake.nogui cmake-data deb devel optional arch=all cmake-doc deb doc optional arch=all profile=!pkg.cmake.bootstrap cmake-qt-gui deb devel optional arch=any profile=!pkg.cmake.bootstrap,!pkg.cmake.nogui"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, bison, cvs, default-jdk, doxygen, flex, gettext, git, hspell, icoutils, imagemagick, libarchive-dev, libarmadillo-dev, libasound2-dev, libboost-dev, libbz2-dev, libcups2-dev, libcurl4-openssl-dev, libexpat1-dev, libfreetype6-dev, libgif-dev, libgnutls28-dev, libgtk2.0-dev, liblzma-dev, libmagick++-dev, libmagickcore-dev, libmagickwand-dev, libopenscenegraph-dev, libphysfs-dev, libprotobuf-dev, libtiff5-dev, libxml2-dev, libxslt1-dev, mercurial, ninja-build, perl, pkg-config, protobuf-compiler, python3-dev, ruby-dev, subversion, swig, zlib1g-dev"
+  ],
+  "Uploaders": [
+    "Lisandro Damián Nicanor Pérez Meyer \u003clisandro@debian.org\u003e, Felix Geyer \u003cfgeyer@debian.org\u003e, Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cmake-team/cmake"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cmake-team/cmake.git"
+  ],
+  "Version": [
+    "3.28.3-1"
+  ]
+}

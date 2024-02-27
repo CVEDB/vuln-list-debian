@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "cockpit-podman"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "b118dbdd9422e7fc14c86bcef336bef5b0125b286475aae1b7ee6d2705231914 1992 cockpit-podman_84-1.dsc 348fbc93a01b8fd90c0834755327512d7b0053a3e0b33308682ff10bc36b7e81 1308356 cockpit-podman_84.orig.tar.xz 8056e53f53ee2fcf4d9440add7bedf03fa3f0c7e0556d716eb04928ca2fbfe0d 4548 cockpit-podman_84-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cockpit-podman"
+  ],
+  "Files": [
+    "b5fa5365c38910a975d558cbd36d755f 1992 cockpit-podman_84-1.dsc 35a94faabea7288a9cd48beef08eeda7 1308356 cockpit-podman_84.orig.tar.xz 2837bc4f52aae39511a1fa38bcf6022e 4548 cockpit-podman_84-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/cockpit-project/cockpit-podman"
+  ],
+  "Maintainer": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e"
+  ],
+  "Package": [
+    "cockpit-podman"
+  ],
+  "Package-List": [
+    "cockpit-podman deb admin optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cockpit-ws, curl"
+  ],
+  "Uploaders": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/cockpit-podman"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/cockpit-podman.git"
+  ],
+  "Version": [
+    "84-1"
+  ]
+}

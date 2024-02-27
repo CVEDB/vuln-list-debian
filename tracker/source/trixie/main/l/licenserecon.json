@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "licenserecon"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fp-compiler, fp-units-fcl"
+  ],
+  "Checksums-Sha256": [
+    "7467557540ecf2335e83ca2259daa847cabb98379e5932d7cf62c221c8005962 1728 licenserecon_1.7.dsc da15b65601015831278a061a69e26c9c78fa23c71a4fdc0938fc4becace5d83e 9296 licenserecon_1.7.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/licenserecon"
+  ],
+  "Files": [
+    "0985d5f72e0b4525d2cad483e5e2e37a 1728 licenserecon_1.7.dsc d05c48e4de4457dd807f486073a11972 9296 licenserecon_1.7.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/debian/licenserecon"
+  ],
+  "Maintainer": [
+    "Peter Blackman \u003cpeter@pblackman.plus.com\u003e"
+  ],
+  "Package": [
+    "licenserecon"
+  ],
+  "Package-List": [
+    "licenserecon deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/licenserecon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/licenserecon.git"
+  ],
+  "Version": [
+    "1.7"
+  ]
+}

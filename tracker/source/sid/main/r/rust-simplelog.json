@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-simplelog-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-log-0.4+std-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.1-~~) \u003c!nocheck\u003e, librust-time-0.3+default-dev (\u003e= 0.3.7-~~) \u003c!nocheck\u003e, librust-time-0.3+formatting-dev (\u003e= 0.3.7-~~) \u003c!nocheck\u003e, librust-time-0.3+local-offset-dev (\u003e= 0.3.7-~~) \u003c!nocheck\u003e, librust-time-0.3+macros-dev (\u003e= 0.3.7-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "79b5b699a45f6ddcd906cc4388fd6688c34de4b6d15deef2bbd0fd328610321d 2556 rust-simplelog_0.12.1-1.dsc acee08041c5de3d5048c8b3f6f13fafb3026b24ba43c6a695a0c76179b844369 21052 rust-simplelog_0.12.1.orig.tar.gz 2a99523b599f2430d36a165a331515a21741e83cfbdf93a086b954502272a6ef 4664 rust-simplelog_0.12.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-simplelog"
+  ],
+  "Files": [
+    "136bcbc84e2962e406724f74115ff4d4 2556 rust-simplelog_0.12.1-1.dsc 4b93d7993d9eb3ee107467fb1aed3262 21052 rust-simplelog_0.12.1.orig.tar.gz 2a4ba1667ea6b5e4f6b8728e445e11c9 4664 rust-simplelog_0.12.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-simplelog"
+  ],
+  "Package-List": [
+    "librust-simplelog-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/simplelog"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/simplelog]"
+  ],
+  "Version": [
+    "0.12.1-1"
+  ]
+}

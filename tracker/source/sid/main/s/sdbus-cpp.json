@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libsdbus-c++-bin, libsdbus-c++-dev, libsdbus-c++-doc, libsdbus-c++1"
+  ],
+  "Build-Depends": [
+    "cmake, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), libexpat1-dev, libgmock-dev (\u003e= 1.10.0~) \u003c!nocheck\u003e, libsystemd-dev, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0d4d6c989a72483723cef14d824e035edb278ece863e60445edef647069b03fe 1623 sdbus-cpp_1.4.0-2.dsc ca7405c7f0f9ae3023dcfa37bc68974c4b8a1c9ea2909b970e0aedc3e8657ee6 224529 sdbus-cpp_1.4.0.orig.tar.gz c2468ba2d5edc30e3668560a184b78bd2205ac3163ad88092bd5358028bfe883 6088 sdbus-cpp_1.4.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sdbus-cpp"
+  ],
+  "Files": [
+    "a2ad1e4b8528d5dbfb8f90ea4b350170 1623 sdbus-cpp_1.4.0-2.dsc b46baf0d14f6db1d278ddc8cee9a0c37 224529 sdbus-cpp_1.4.0.orig.tar.gz a02a6e13b47ba28a01a18f4b7f7e56fa 6088 sdbus-cpp_1.4.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Kistler-Group/sdbus-cpp"
+  ],
+  "Maintainer": [
+    "Shengjing Zhu \u003czhsj@debian.org\u003e"
+  ],
+  "Package": [
+    "sdbus-cpp"
+  ],
+  "Package-List": [
+    "libsdbus-c++-bin deb utils optional arch=linux-any libsdbus-c++-dev deb libdevel optional arch=linux-any libsdbus-c++-doc deb doc optional arch=all profile=!nodoc libsdbus-c++1 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/zhsj/sdbus-cpp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/zhsj/sdbus-cpp.git"
+  ],
+  "Version": [
+    "1.4.0-2"
+  ]
+}

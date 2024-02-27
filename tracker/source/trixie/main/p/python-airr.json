@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-airr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-pandas, python3-yaml, python3-yamlordereddictloader"
+  ],
+  "Checksums-Sha256": [
+    "6c59e55e29e75ac51279acb8b8df7fe2895fd8c52c2bd0cf58a5409c7649f5f0 2151 python-airr_1.5.0-1.dsc a7804eb73904f68079262fea454413737bdc0b7acc0cb9cb1e467c195730882b 63397 python-airr_1.5.0.orig.tar.gz f9b7eacb6d7f263f83def854a1a74dc83ba7616d5a03e87d4eb38d4ee8ffcc49 7880 python-airr_1.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-airr"
+  ],
+  "Files": [
+    "14b7e038b120bda65040ab4c8bcaf434 2151 python-airr_1.5.0-1.dsc e355b9c896770801d282a110d95d3daf 63397 python-airr_1.5.0.orig.tar.gz a5f99ab904a69f777973171d827d2393 7880 python-airr_1.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.airr-community.org/en/latest/packages/airr-python/overview.html"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-airr"
+  ],
+  "Package-List": [
+    "python3-airr deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/airr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/airr.git"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

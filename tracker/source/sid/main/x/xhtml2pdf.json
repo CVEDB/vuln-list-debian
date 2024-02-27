@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-xhtml2pdf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), xsltproc, docbook-xsl"
+  ],
+  "Build-Depends-Indep": [
+    "dh-python, python3-all, python3-setuptools, python3-cherrypy3, python3-html5lib, python3-pil, python3-pypdf, python3-reportlab (\u003e= 4.1.0-1), python3-bidi, python3-arabic-reshaper, pybuild-plugin-pyproject, python3-asn1crypto, python3-pyhanko-certvalidator, python3-svglib"
+  ],
+  "Checksums-Sha256": [
+    "603975c6c22925cda93dd5d1b8dba072714d96248cc099ff03046980f276e1a1 2228 xhtml2pdf_0.2.15+dfsg-1.dsc 8d0bff6a6696719b4aae4b8683fb1ef874b2f118d4fa59fc0bdba5442e0ad0ae 1494692 xhtml2pdf_0.2.15+dfsg.orig.tar.xz 292c7ad254890a0dbaef7e43c736ceea3571406490e92e2872cf98663ea5074e 8988 xhtml2pdf_0.2.15+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xhtml2pdf"
+  ],
+  "Files": [
+    "6914fc2c064cea1419cbc1636e4cc549 2228 xhtml2pdf_0.2.15+dfsg-1.dsc d5c756f559d0f9a219a278e0e1f9b5e8 1494692 xhtml2pdf_0.2.15+dfsg.orig.tar.xz 52da5308668648d3c3dae88b930da360 8988 xhtml2pdf_0.2.15+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xhtml2pdf/xhtml2pdf"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "xhtml2pdf"
+  ],
+  "Package-List": [
+    "python3-xhtml2pdf deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-asn1crypto, python3-pytest"
+  ],
+  "Uploaders": [
+    "Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/xhtml2pdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/xhtml2pdf.git"
+  ],
+  "Version": [
+    "0.2.15+dfsg-1"
+  ]
+}

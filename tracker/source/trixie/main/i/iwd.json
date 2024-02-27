@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "iwd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libdbus-1-dev, libell-dev (\u003e= 0.61), libreadline-dev, openssl \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "a094c0850552bc33bde2f2f1cca94be816cb8afd4894519d85b40b7393029155 1953 iwd_2.14-1.dsc 830184db5d3885ac68701cd8bb1c04d0bd8c8d3ab1c82b893b5e2bdf23329f28 1082236 iwd_2.14.orig.tar.xz ec6fab1825a98dd640a7a43172304c3a8dd227031514ae259dc9872ba28adfca 17552 iwd_2.14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iwd"
+  ],
+  "Files": [
+    "d5c075a81cd2814b8de24dedb390d7c7 1953 iwd_2.14-1.dsc 109885371da7c26932b45887f4ea7cd0 1082236 iwd_2.14.orig.tar.xz 5ac6d1ce1217aa39027adfaead00cf06 17552 iwd_2.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://iwd.wiki.kernel.org/"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "iwd"
+  ],
+  "Package-List": [
+    "iwd deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/iwd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/iwd.git"
+  ],
+  "Version": [
+    "2.14-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-tximport"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "10426aa3b3ae880630716259ca3315a696493eb287cc99702ac1d1fd77cbf80a 2104 r-bioc-tximport_1.30.0+dfsg-1.dsc 70cb6d468ba32e7c28ac7c445777eff90c2a74ba9ca8b0f4e99da4ce544bb37d 29912 r-bioc-tximport_1.30.0+dfsg.orig.tar.xz d7372984dbedf4ab65b6357b0cc4df1b5dd7a24062b1bf19581ee891236f4393 3756 r-bioc-tximport_1.30.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-tximport"
+  ],
+  "Files": [
+    "08a1043861626545ca6f368a4749abc2 2104 r-bioc-tximport_1.30.0+dfsg-1.dsc 6db69024e5103747172d63e709471c08 29912 r-bioc-tximport_1.30.0+dfsg.orig.tar.xz c747769618b6684f052dee4b4d94e438 3756 r-bioc-tximport_1.30.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/tximport/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-tximport"
+  ],
+  "Package-List": [
+    "r-bioc-tximport deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-tximport"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-tximport.git"
+  ],
+  "Version": [
+    "1.30.0+dfsg-1"
+  ]
+}

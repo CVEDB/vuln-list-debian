@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xfce4-whiskermenu-plugin"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), gettext, libexo-2-dev, libgarcon-1-0-dev, libgtk-3-dev, libgtk-layer-shell-dev, libxfce4panel-2.0-dev, libxfce4ui-2-dev, libxfce4util-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "4e312bd10093407f97044ec782e17f0709036670db64b5e9593cb541edc18a7f 2276 xfce4-whiskermenu-plugin_2.8.3-1.dsc e776c287658f98d0739447279522fe78766088438242cf2365a49c8973fc9cd0 188399 xfce4-whiskermenu-plugin_2.8.3.orig.tar.bz2 8aed510815066b06fda1d8678742b4d0c9d4471d9f5f99b1bb37c1d9269ef735 4052 xfce4-whiskermenu-plugin_2.8.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xfce4-whiskermenu-plugin"
+  ],
+  "Files": [
+    "9dff4a18e700ed55a1f279c4aebf1cd9 2276 xfce4-whiskermenu-plugin_2.8.3-1.dsc fe60c0c93f72d1533f6fc972d3a80c99 188399 xfce4-whiskermenu-plugin_2.8.3.orig.tar.bz2 80f55b411a0ca2272bfeb9c306272d9d 4052 xfce4-whiskermenu-plugin_2.8.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin"
+  ],
+  "Maintainer": [
+    "Debian Xfce Maintainers \u003cdebian-xfce@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "xfce4-whiskermenu-plugin"
+  ],
+  "Package-List": [
+    "xfce4-whiskermenu-plugin deb xfce optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xfce-team/goodies/xfce4-whiskermenu-plugin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xfce-team/goodies/xfce4-whiskermenu-plugin.git"
+  ],
+  "Version": [
+    "2.8.3-1"
+  ]
+}

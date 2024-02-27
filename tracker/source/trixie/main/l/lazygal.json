@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lazygal"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pandoc"
+  ],
+  "Build-Depends-Indep": [
+    "python3, dh-python, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "5e82140130958acf47d12a79d3b59d56412afe7008a4eae5a838c6de81e4c4b5 2116 lazygal_0.10.9-1.dsc 219b81be748f8b920f3e70a5a52bebf18842f3c5df9ed56764bb4c2f117aa738 817938 lazygal_0.10.9.orig.tar.bz2 d7b77729db387d8551837416bb8c36cf044b4f1a4d8abd015206a8a6ed99e184 5104 lazygal_0.10.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lazygal"
+  ],
+  "Files": [
+    "5ade7424b525a69ca11f28e92dd20aec 2116 lazygal_0.10.9-1.dsc 80f5eb2925d8dcbc83037ee71b4bc361 817938 lazygal_0.10.9.orig.tar.bz2 c49140bd72acdfab1515fdb071c16a43 5104 lazygal_0.10.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sml.zincube.net/~niol/repositories.git/lazygal/about/"
+  ],
+  "Maintainer": [
+    "Michal Čihař \u003cnijel@debian.org\u003e"
+  ],
+  "Package": [
+    "lazygal"
+  ],
+  "Package-List": [
+    "lazygal deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ffmpeg, python3-setuptools"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e, Alexandre Rossi \u003cniol@zincube.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/lazygal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/lazygal.git"
+  ],
+  "Version": [
+    "0.10.9-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-qcengine"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-python, python3-all, python3-cpuinfo, python3-msgpack, python3-numpy, python3-setuptools, python3-psutil, python3-pydantic (\u003e= 1.8.2), python3-pytest, python3-pytest-cov, python3-qcelemental (\u003e= 0.23.0)"
+  ],
+  "Checksums-Sha256": [
+    "cb384aa1d2f8c0565d066739809bd69a802f8a14c3aa496a58c4b510f5dcb59f 2198 qcengine_0.29.0-1.dsc 4bda130aa8cab07870cf01aa53764b1082421dcb9f9f879fa30e8eee59a0444c 266664 qcengine_0.29.0.orig.tar.xz d5b47ec583ccfc969ef394a4a6d6f36a9312cd196b9c003ca310e9bcb82cadeb 2612 qcengine_0.29.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qcengine"
+  ],
+  "Files": [
+    "9a9055af916b7833a5684d096b4a9907 2198 qcengine_0.29.0-1.dsc 3d9d9b4bf751cf4b629cc92eb0defc79 266664 qcengine_0.29.0.orig.tar.xz fb0b8afc49c4d905909c36ccc27209ec 2612 qcengine_0.29.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/MolSSI/QCEngine"
+  ],
+  "Maintainer": [
+    "Debichem Team \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "qcengine"
+  ],
+  "Package-List": [
+    "python3-qcengine deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-pytest"
+  ],
+  "Uploaders": [
+    "Michael Banck \u003cmbanck@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/qcengine"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/qcengine.git"
+  ],
+  "Version": [
+    "0.29.0-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libquantlib0v5, libquantlib0-dev, quantlib-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf, automake, texinfo, libboost-dev, libboost-test-dev, libboost-timer-dev, libboost-system-dev, g++ (\u003e= 4:5.2)"
+  ],
+  "Checksums-Sha256": [
+    "e985e93e0f91a3616dc96f1a4db7187f36edf9f5fedf0b9ac68888e4e6ee691a 2029 quantlib_1.33-1.dsc f973831d951b815a30392113c7cab7b66e6e2ea05dd12e3cb7c3b7ca3b20b081 8183560 quantlib_1.33.orig.tar.gz 847a3381d308173d2a98705e76f133ceeb922ac64422907fc6ca5c7ee09925bf 15564 quantlib_1.33-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/quantlib"
+  ],
+  "Files": [
+    "412c3f99b4f46b86aeb6ec8a265a0dfa 2029 quantlib_1.33-1.dsc c75e1d78567cf0f5523b08596cbe7910 8183560 quantlib_1.33.orig.tar.gz 50e216966a3548b2d937c6bd2b860bb2 15564 quantlib_1.33-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.quantlib.org"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "quantlib"
+  ],
+  "Package-List": [
+    "libquantlib0-dev deb libdevel optional arch=any libquantlib0v5 deb libs optional arch=any quantlib-examples deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/quantlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/quantlib.git"
+  ],
+  "Version": [
+    "1.33-1"
+  ]
+}

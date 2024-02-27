@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "swayimg"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bash-completion, libavif-dev, libcairo2-dev, libexif-dev, libgif-dev, libheif-dev, libjxl-dev, libjpeg-dev, libjson-c-dev, libopenexr-dev, librsvg2-dev, libtiff-dev, libwayland-dev, libwebp-dev, libxkbcommon-dev, meson (\u003e= 0.59), ninja-build, pkg-config, wayland-protocols, zsh"
+  ],
+  "Checksums-Sha256": [
+    "66bdbac37b9db222f36e5f66f70da6e6fc93e5d42d4eb779af98b8113c2e4b93 2188 swayimg_2.1-1.dsc d82fb8e75cdabf470677797444ec19b00c83e0e06d80be774727194404624e7e 407561 swayimg_2.1.orig.tar.gz 2b7c089aaece127302a764568b0e34ad5d04f05f05325f96308c9f975c0be505 2572 swayimg_2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/swayimg"
+  ],
+  "Files": [
+    "0bcda3e6c93fe788d74863bbdde9c8c0 2188 swayimg_2.1-1.dsc 763363a4e9f587271702b03d462a2928 407561 swayimg_2.1.orig.tar.gz 2c40f88c93640588d4485cbf77b85175 2572 swayimg_2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/artemsen/swayimg"
+  ],
+  "Maintainer": [
+    "Sway and related packages team \u003cteam+swaywm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "swayimg"
+  ],
+  "Package-List": [
+    "swayimg deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/swaywm-team/swayimg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/swaywm-team/swayimg.git"
+  ],
+  "Version": [
+    "2.1-1"
+  ]
+}

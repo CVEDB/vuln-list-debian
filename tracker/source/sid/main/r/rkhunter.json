@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "rkhunter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "16d260f5b648aaa9168f9e55ae6c27742ab4f471b33b46106420b13fb9de7ef7 2069 rkhunter_1.4.6-12.dsc 9c0f310583ff0dd8168010acd45c7d2e3a37e176300ac642269bce3d759ebda0 303187 rkhunter_1.4.6.orig.tar.gz 693cf5ff86337d8a2b9a76d95fe6c149e6e1ebef873d7e0fd27962dc46d3feca 29548 rkhunter_1.4.6-12.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rkhunter"
+  ],
+  "Files": [
+    "6f87bddc4f2d0adc92c5ad6bb0aa520e 2069 rkhunter_1.4.6-12.dsc 54762d04ec7faa0736cc151271b02c06 303187 rkhunter_1.4.6.orig.tar.gz 43f49bebd1f212c0510f9c051d3e13a0 29548 rkhunter_1.4.6-12.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rkhunter.sourceforge.net"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "rkhunter"
+  ],
+  "Package-List": [
+    "rkhunter deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Francois Marier \u003cfrancois@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/rkhunter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/rkhunter.git"
+  ],
+  "Version": [
+    "1.4.6-12"
+  ]
+}

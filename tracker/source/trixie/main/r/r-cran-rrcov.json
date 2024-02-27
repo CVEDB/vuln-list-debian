@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rrcov"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-robustbase, r-cran-mvtnorm, r-cran-lattice, r-cran-pcapp"
+  ],
+  "Checksums-Sha256": [
+    "3a7370c34b03e89922dc71ed2ea4401422ab9f96cc3a6bd151765aa4f025f84c 2146 r-cran-rrcov_1.7-5-1.dsc dfc595077fb65eb12653d994c757e0998c09a186575d5b61000bb5452fd0b033 1563323 r-cran-rrcov_1.7-5.orig.tar.gz cb732a1496ae01eb278316e147f5f1ec4ecd12a29dd15b1574202107ff024284 3124 r-cran-rrcov_1.7-5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rrcov"
+  ],
+  "Files": [
+    "fd1ebadd58cf922aaaa3c2763c4bdd79 2146 r-cran-rrcov_1.7-5-1.dsc 8cadc312f7a778a807e7c29716c14d65 1563323 r-cran-rrcov_1.7-5.orig.tar.gz bfcdb90c488d23f273ccd3b2a8000bb4 3124 r-cran-rrcov_1.7-5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=rrcov"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-rrcov"
+  ],
+  "Package-List": [
+    "r-cran-rrcov deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-mass"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rrcov"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rrcov.git"
+  ],
+  "Version": [
+    "1.7-5-1"
+  ]
+}

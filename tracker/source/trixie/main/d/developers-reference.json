@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "developers-reference, developers-reference-de, developers-reference-fr, developers-reference-ja, developers-reference-ru, developers-reference-it"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "latexmk, python3-distro-info, python3-sphinx, python3-stemmer, tex-gyre, texinfo, texlive-fonts-recommended, texlive-lang-cyrillic, texlive-lang-french, texlive-lang-german, texlive-lang-italian, texlive-lang-japanese, texlive-latex-extra, texlive-latex-recommended"
+  ],
+  "Checksums-Sha256": [
+    "790b1d54ac21d118023a3d722c553e6c4b9728d3b7b4596fdb462c4cff264bd2 2497 developers-reference_13.4.dsc c16dc76edb5ec3e4ce1c325de2692c67a06fa04a956b336f59df36b398ce8a4b 574852 developers-reference_13.4.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/developers-reference"
+  ],
+  "Files": [
+    "a66c64468c4fc1fd2a8fe8519799e2bf 2497 developers-reference_13.4.dsc 48a1a8df0290248a1158399757acb22c 574852 developers-reference_13.4.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.debian.org/doc/devel-manuals#devref"
+  ],
+  "Maintainer": [
+    "Developers Reference Maintainers \u003cdebian-policy@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "developers-reference"
+  ],
+  "Package-List": [
+    "developers-reference deb doc optional arch=all developers-reference-de deb doc optional arch=all developers-reference-fr deb doc optional arch=all developers-reference-it deb doc optional arch=all developers-reference-ja deb doc optional arch=all developers-reference-ru deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "doc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libxml2-utils"
+  ],
+  "Uploaders": [
+    "Hideki Yamane \u003chenrich@debian.org\u003e, Holger Levsen \u003cholger@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/developers-reference"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/developers-reference.git"
+  ],
+  "Version": [
+    "13.4"
+  ]
+}

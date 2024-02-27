@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-zope.location"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 9), dh-python, python3-all, python3-setuptools, python3-zope.proxy, python3-zope.schema"
+  ],
+  "Checksums-Sha256": [
+    "72dd36796073a0b5557fe217992a3e51fc82290015472cbcda9fd76ac9dffe3e 1905 zope.location_5.0-1.dsc 016fea934b97dad2b08a64ea7f2fbc3de55dbb074c461f66d871c70bf3aaaea5 29020 zope.location_5.0.orig.tar.gz a43fa1a329f76556b765208f354eff1b0237cad92110b12ce34bfc221f684c74 3676 zope.location_5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zope.location"
+  ],
+  "Files": [
+    "0a7d88fe273e239bcb3747501695f784 1905 zope.location_5.0-1.dsc 3ebc71530b2c36bef87d57210b15de67 29020 zope.location_5.0.orig.tar.gz def4b01383f9ff7e3ed2221672861c46 3676 zope.location_5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pypi.python.org/pypi/zope.location"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "zope.location"
+  ],
+  "Package-List": [
+    "python3-zope.location deb zope extra arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Version": [
+    "5.0-1"
+  ]
+}

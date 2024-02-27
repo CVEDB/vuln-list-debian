@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pdfkit"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-distutils, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "eecd97529cb8ced7fa48b73f2164c771d2e1c61af1aad62fb6d60bbf374b4f30 1891 pdfkit_1.0.0-3.dsc 992f821e1e18fc8a0e701ecae24b51a2d598296a180caee0a24c0af181da02a9 13288 pdfkit_1.0.0.orig.tar.gz facfd9e372cad4a158b938e250360291688e922070b50f26f70cd7ade4fe83d3 2876 pdfkit_1.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdfkit"
+  ],
+  "Files": [
+    "39333a0e877842a04396cba5cd4a5fc1 1891 pdfkit_1.0.0-3.dsc 9736fcd7bcd9c2e20faf108f8ea67a8e 13288 pdfkit_1.0.0.orig.tar.gz c13a4dcee97cd587b4607cb462f544c1 2876 pdfkit_1.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/JazzCore/python-pdfkit"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "pdfkit"
+  ],
+  "Package-List": [
+    "python3-pdfkit deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pdfkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pdfkit.git"
+  ],
+  "Version": [
+    "1.0.0-3"
+  ]
+}

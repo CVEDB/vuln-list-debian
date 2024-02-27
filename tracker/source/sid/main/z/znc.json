@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "znc, znc-dev, znc-perl, znc-python, znc-tcl, znc-push, znc-backlog"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, cmake, google-mock, googletest, pkg-config, swig, libboost-all-dev, libcurl4-openssl-dev, libssl-dev, libperl-dev, libicu-dev, libsasl2-dev, zlib1g-dev, tcl-dev, python3-dev"
+  ],
+  "Checksums-Sha256": [
+    "ab371e3e96b832b7975aeea67eabee609638c24fbb308aa2ea8491368354a486 2422 znc_1.8.2-4.dsc ff238aae3f2ae0e44e683c4aee17dc8e4fdd261ca9379d83b48a7d422488de0d 2101215 znc_1.8.2.orig.tar.gz 518b9214a3a39dec35028e497fc4aa30b2ec55a4737edf4b1c443db3b292fe4a 833 znc_1.8.2.orig.tar.gz.asc 0fa415cbd0a75fc07b2ed22b1a18604ed049dc648e80c5df6fa1c09f2d2b65ed 511652 znc_1.8.2-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/znc"
+  ],
+  "Files": [
+    "6ac5e04d92ac05f556631a6bdd3742c7 2422 znc_1.8.2-4.dsc 747259b0f56010713f46991fc469b571 2101215 znc_1.8.2.orig.tar.gz 4a8ba81bd17d7bf4d9dfae878d4eeb53 833 znc_1.8.2.orig.tar.gz.asc d9de3d092bed8411f7d222e4c997c1e1 511652 znc_1.8.2-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.znc.in/"
+  ],
+  "Maintainer": [
+    "Patrick Matthäi \u003cpmatthaei@debian.org\u003e"
+  ],
+  "Package": [
+    "znc"
+  ],
+  "Package-List": [
+    "znc deb net optional arch=any znc-backlog deb net optional arch=any znc-dev deb net optional arch=any znc-perl deb net optional arch=any znc-push deb net optional arch=any znc-python deb net optional arch=any znc-tcl deb interpreters optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mattia Rizzolo \u003cmattia@debian.org\u003e"
+  ],
+  "Version": [
+    "1.8.2-4"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-lpsymphony"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, coinor-libsymphony-dev"
+  ],
+  "Checksums-Sha256": [
+    "e7a9456e936daaeec4117cd010e8f3b65060a2569274a6a46af05564916f294d 2151 r-bioc-lpsymphony_1.30.0+dfsg-1.dsc bcc6cacd4992140b20834d634daa82c47752ad8ea31c58f3fad4d22d456de412 266760 r-bioc-lpsymphony_1.30.0+dfsg.orig.tar.xz 0e46fa70c6d05b9a45eaf83c64744fee5a8c89f82839c068ceda930656e76e63 6500 r-bioc-lpsymphony_1.30.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-lpsymphony"
+  ],
+  "Files": [
+    "2a0383adf2811881cbecbbac72ebb410 2151 r-bioc-lpsymphony_1.30.0+dfsg-1.dsc cd47fe00cadf542eddd7469c6b73561d 266760 r-bioc-lpsymphony_1.30.0+dfsg.orig.tar.xz 4bffe9b4c60cbfe90cb0c3607bb5aa39 6500 r-bioc-lpsymphony_1.30.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/lpsymphony/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-lpsymphony"
+  ],
+  "Package-List": [
+    "r-bioc-lpsymphony deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-lpsymphony"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-lpsymphony.git"
+  ],
+  "Version": [
+    "1.30.0+dfsg-1"
+  ]
+}

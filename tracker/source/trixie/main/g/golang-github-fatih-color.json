@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-fatih-color-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-mattn-go-colorable-dev (\u003e= 0.1.13), golang-github-mattn-go-isatty-dev (\u003e= 0.0.20), golang-golang-x-sys-dev (\u003e= 0.14.0)"
+  ],
+  "Checksums-Sha256": [
+    "4d8a76cf7a746728ee6898f415626806397c4b155de7c1630f23f9e355c483be 2522 golang-github-fatih-color_1.16.0-1.dsc 0823ac3e80d523cc9f6062000621f722bd858bad411c3ff7b2cd012e6aaf1b90 12115 golang-github-fatih-color_1.16.0.orig.tar.gz d44452e7b85b474b1cfd97d9416747d44cdfcc37ac4448ff34c1ad7f14591398 3164 golang-github-fatih-color_1.16.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-fatih-color"
+  ],
+  "Files": [
+    "ecfeffe4aed5a11395419fdc5a66d30b 2522 golang-github-fatih-color_1.16.0-1.dsc 3f3abb1b34a6f54dc26255395d425271 12115 golang-github-fatih-color_1.16.0.orig.tar.gz f31c7173f41c8fb008de6c43c47ce932 3164 golang-github-fatih-color_1.16.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/fatih/color"
+  ],
+  "Homepage": [
+    "https://github.com/fatih/color"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-fatih-color"
+  ],
+  "Package-List": [
+    "golang-github-fatih-color-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Andrew Starr-Bochicchio \u003casb@debian.org\u003e, Peter Colberg \u003cpeter@colberg.org\u003e, Diego M. Rodriguez \u003cdiego.plan9@gmail.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-fatih-color"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-fatih-color.git"
+  ],
+  "Version": [
+    "1.16.0-1"
+  ]
+}

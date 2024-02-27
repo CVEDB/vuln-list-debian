@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "micropython-mpremote"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-hatch-requirements-txt, python3-hatch-vcs"
+  ],
+  "Checksums-Sha256": [
+    "fac7bc2ef7c7fafc08dafdaf8d16be099abf559d79fa637e19204c595866a245 2231 micropython-mpremote_1.22.0-1.dsc dbde10972819c1e0491d883adb8cbd17288246739adabddbf4a172e61ae00220 24042 micropython-mpremote_1.22.0.orig.tar.gz e0259889c9893eacf69774bf1dbc810fc44dbb0773ce440069497ce6db29def2 5780 micropython-mpremote_1.22.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/micropython-mpremote"
+  ],
+  "Files": [
+    "190b5b4e33560bb04aaf9bc4f8a36bd8 2231 micropython-mpremote_1.22.0-1.dsc d636eac55ec91864fac910bc86805c8e 24042 micropython-mpremote_1.22.0.orig.tar.gz efaefdca9c1e4bd5b508573d2b173777 5780 micropython-mpremote_1.22.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/micropython/micropython"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "micropython-mpremote"
+  ],
+  "Package-List": [
+    "micropython-mpremote deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dave Jones \u003cdave@waveform.org.uk\u003e, Jochen Sprickerhof \u003cjspricke@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/micropython-mpremote"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/micropython-mpremote.git"
+  ],
+  "Version": [
+    "1.22.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tryton-modules-stock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, jdupes, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "d08e437dc585df0b74c0832455d2184405e08532b38c247f20991b814187548e 2507 tryton-modules-stock_6.0.23-1.dsc d66c983375ea8c155351a58c3fe60056d9d3714d061091c218cfec9db9473752 390000 tryton-modules-stock_6.0.23.orig.tar.gz 1b7dcc6ac6eafea4c7a3cad52dd2e9e74b80a12024809642122975b35750f657 506 tryton-modules-stock_6.0.23.orig.tar.gz.asc 709484906f92b1cfc2b9d536e0940070bb921c088ef9ff5159eba66d642871c0 15664 tryton-modules-stock_6.0.23-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tryton-modules-stock"
+  ],
+  "Files": [
+    "f42f35cd68c8eed8763aec1526c91060 2507 tryton-modules-stock_6.0.23-1.dsc 21a0eca1e984a856e36d582658aa2b37 390000 tryton-modules-stock_6.0.23.orig.tar.gz e1cd83027d44f096908a8d65594d807e 506 tryton-modules-stock_6.0.23.orig.tar.gz.asc 90aac691fa9e53a7106a2731e1db2021 15664 tryton-modules-stock_6.0.23-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.tryton.org/"
+  ],
+  "Maintainer": [
+    "Debian Tryton Maintainers \u003cteam+tryton-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tryton-modules-stock"
+  ],
+  "Package-List": [
+    "tryton-modules-stock deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-setuptools, tryton-proteus"
+  ],
+  "Uploaders": [
+    "Mathias Behrle \u003cmathiasb@m9s.biz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-stock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-stock.git"
+  ],
+  "Version": [
+    "6.0.23-1"
+  ]
+}

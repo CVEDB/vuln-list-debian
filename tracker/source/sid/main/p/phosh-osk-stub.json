@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "phosh-osk-stub, phosh-osk-stub-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), json-glib-tools, libsystemd-dev, libfeedback-dev, gi-docgen \u003c!nodoc\u003e, gobject-introspection \u003c!nodoc\u003e, libgnome-desktop-3-dev, libgirepository1.0-dev \u003c!nodoc\u003e, libgovarnam-dev [!mips64el], libgtk-3-dev, libhandy-1-dev (\u003e= 1.1.90), libhunspell-dev, libjson-glib-dev, libpresage-dev, libwayland-dev, libxml2-utils, meson, python3-docutils \u003c!nodoc\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a13f08fe5b87f4cce41cfbb7f1ffb6835580ac6b5abc8eb6d8c83acee25dc050 2420 phosh-osk-stub_0.36.0-2.dsc 0da209804359e11d1dda56a292db88bc3eb55a2570fb16eae41b28c4640cc9c3 357690 phosh-osk-stub_0.36.0.orig.tar.gz 278c1bbbc214d16f83ce224def0ca7edf520c767a2d987120999c06bd3aa42c4 4540 phosh-osk-stub_0.36.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phosh-osk-stub"
+  ],
+  "Files": [
+    "4fe0f36c82e3df9559ea0ea32acbaaba 2420 phosh-osk-stub_0.36.0-2.dsc ae0eb4732120bf5ee7b2695cdba356d6 357690 phosh-osk-stub_0.36.0.orig.tar.gz 137f451dd5816ed0850ae769d44cf757 4540 phosh-osk-stub_0.36.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/guidog/phosh-osk-stub/"
+  ],
+  "Maintainer": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e"
+  ],
+  "Package": [
+    "phosh-osk-stub"
+  ],
+  "Package-List": [
+    "phosh-osk-stub deb x11 optional arch=any phosh-osk-stub-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/phosh-osk-stub"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/phosh-osk-stub.git"
+  ],
+  "Version": [
+    "0.36.0-2"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libupse2, libupse-dev, upse123"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 8~), autotools-dev, libao-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "b93e61b9a820626e17b2f70b57fd14a0e22b53730f5ce448253a4eb046e0346d 1807 upse_1.0.0-3.dsc c2c2eb80d8b3c2adeb799202fa9320832c1d4be8e24874c112279f35abc3851b 182427 upse_1.0.0.orig.tar.gz 39cba8dc892cf6fa665a32d55cb9507a0b5aadbba2e31053c5d82dff0b266808 4276 upse_1.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/upse"
+  ],
+  "Files": [
+    "04b267dc182c1508b4a20c032c16e102 1807 upse_1.0.0-3.dsc 0b52591f97f041692b19301f6ba61cae 182427 upse_1.0.0.orig.tar.gz 77793090c9a29569271100acf204e5f8 4276 upse_1.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://nenolod.net/upse"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "upse"
+  ],
+  "Package-List": [
+    "libupse-dev deb libdevel extra arch=any libupse2 deb libs extra arch=any upse123 deb sound extra arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.0.0-3"
+  ]
+}

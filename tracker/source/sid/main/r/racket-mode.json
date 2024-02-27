@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-racket-mode"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-elpa (\u003e= 2.0), elpa-pos-tip \u003c!nocheck\u003e, elpa-s \u003c!nocheck\u003e, elpa-faceup \u003c!nocheck\u003e, elpa-paredit \u003c!nocheck\u003e, racket \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7489efb671db53cb3bc96d1334688a26a186f4272be95af49df0347688e1c571 2293 racket-mode_20240129git0-1.dsc 526befbbdac5083793518d8efef250aeadbb8a19aa10c0fad3396ab106440975 285624 racket-mode_20240129git0.orig.tar.xz 6d08ce95af8f3034e5976b8a6031430c0aea0ce51c084ab125505a4dcc28c521 3184 racket-mode_20240129git0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "e77e3a35e54cfc8232b257c159376dd83206bfe0 debian archive/debian/20240129git0-1 https://git.dgit.debian.org/racket-mode"
+  ],
+  "Directory": [
+    "pool/main/r/racket-mode"
+  ],
+  "Files": [
+    "ed38b35507a1f9ed94847052de37fd02 2293 racket-mode_20240129git0-1.dsc 46cdc0dc7e98e510eb541ec0b5be7276 285624 racket-mode_20240129git0.orig.tar.xz 6a303450b67656f9e528d5052f8c7280 3184 racket-mode_20240129git0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/greghendershott/racket-mode"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "racket-mode"
+  ],
+  "Package-List": [
+    "elpa-racket-mode deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "David Bremner \u003cbremner@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/racket-mode.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/racket-mode.git"
+  ],
+  "Version": [
+    "20240129git0-1"
+  ]
+}

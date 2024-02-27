@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ekeyd, ekeyd-egd-linux"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), lua5.1, liblua5.1-dev | liblua5.1-0-dev, pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "3920216a968efff871187a210ff3785cfd7c2ad94a0713b45e4bd1dd61691aed 1835 ekeyd_1.1.5-6.3.dsc 4aa8abe4bd8bb4517be3f751a75ae270ac2855ba4ba465099a3f29a2c8602ec4 101366 ekeyd_1.1.5.orig.tar.gz bc681be2d76223b66deb262a0df4b258f4e010ab4c40882ced0304012d1ca422 8788 ekeyd_1.1.5-6.3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/ekeyd"
+  ],
+  "Files": [
+    "304f55da857477fac4033a1479df76fc 1835 ekeyd_1.1.5-6.3.dsc 020b67ed8fae4324099269e2106ac96e 101366 ekeyd_1.1.5.orig.tar.gz 7cc79736adf36953a6d7000606414819 8788 ekeyd_1.1.5-6.3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Simtec Electronics \u003csupport@simtec.co.uk\u003e"
+  ],
+  "Package": [
+    "ekeyd"
+  ],
+  "Package-List": [
+    "ekeyd deb utils optional arch=any ekeyd-egd-linux deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "3.9.3"
+  ],
+  "Uploaders": [
+    "Vincent Sanders \u003cvince@debian.org\u003e"
+  ],
+  "Version": [
+    "1.1.5-6.3"
+  ]
+}

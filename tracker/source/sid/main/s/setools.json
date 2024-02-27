@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "setools, setools-gui, python3-setools, python3-setoolsgui"
+  ],
+  "Build-Depends": [
+    "checkpolicy (\u003e= 3.5), cython3 (\u003e= 0.29.14), debhelper-compat (= 13), dh-python, libqt5sql5-sqlite, libselinux1-dev (\u003e= 3.5), libsepol-dev (\u003e= 3.5), python3-all-dev, python3-networkx, python3-setuptools, qttools5-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "0beafc464cd5240695ee038caec465cf12f99b651d6e29614076714fd9935848 2013 setools_4.4.4-1.dsc 92afeea2f2433cbb981ff47f6ce4e2485d9202b530842f7f5d95f905b2ddaea4 408371 setools_4.4.4.orig.tar.gz dafdb37e76d8f1fbfa04bbaba192eb9b07538a3311048b961d4fd5515a4cc6a0 14400 setools_4.4.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/setools"
+  ],
+  "Files": [
+    "31cb3d152f73d4152c5ccbeadf1422e1 2013 setools_4.4.4-1.dsc 6c2a512ca5bba9bd0720a8e5d18e891e 408371 setools_4.4.4.orig.tar.gz 4bf966d94355e626528d5d9dff3ecfd5 14400 setools_4.4.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/SELinuxProject/setools/wiki"
+  ],
+  "Maintainer": [
+    "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "setools"
+  ],
+  "Package-List": [
+    "python3-setools deb python optional arch=linux-any python3-setoolsgui deb python optional arch=linux-any setools deb admin optional arch=linux-any setools-gui deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/selinux-team/setools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/selinux-team/setools.git"
+  ],
+  "Version": [
+    "4.4.4-1"
+  ]
+}

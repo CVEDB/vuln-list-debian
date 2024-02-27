@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-rope"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, pybuild-plugin-pyproject, python3-pdm-pep517, python3-pytoolconfig (\u003e= 1.2.2), python3-pytest \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-appdirs \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6a03ec9b1e008365cf94542ec2ec8494a70362e98d0091533c4eaaa1632c8213 2210 rope_1.12.0-1.dsc 93a1bb991fbf0426e8d415102d1c092ccc42e826ce9a42c4d61ce53d7786d9d9 288737 rope_1.12.0.orig.tar.gz a10d57f564bd2c290533b755e766fb10859134733e210bfd64cdf2bf9806d32f 4884 rope_1.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rope"
+  ],
+  "Files": [
+    "7b3fcc26ae19b2ae130a41b1e7394b57 2210 rope_1.12.0-1.dsc bff8909cb6fa61f9ed2e8bbf667e01bd 288737 rope_1.12.0.orig.tar.gz b024b44288bf18ee7a693c50805e89ec 4884 rope_1.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/python-rope/rope"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "rope"
+  ],
+  "Package-List": [
+    "python3-rope deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e, Pablo Mestre Drake \u003cpmdcuba@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/rope"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/rope.git"
+  ],
+  "Version": [
+    "1.12.0-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fonts-spleen"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fontforge-nox, bdf2sfd"
+  ],
+  "Checksums-Sha256": [
+    "998640cea23307cda252250f14b7857817d92f481d388614bfbc98893e6efa86 1965 fonts-spleen_2.0.2-1.dsc f930eb02894aa06eb50aeaaa10b00420254d72320fa28c3a40f157a8c2943755 474925 fonts-spleen_2.0.2.orig.tar.gz c5d4f866207c0b1f1fe9fd830af0b5d864b696998494615f9307694f3321824d 30364 fonts-spleen_2.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fonts-spleen"
+  ],
+  "Files": [
+    "e4076059d273c8f3814eca8a06a6a1aa 1965 fonts-spleen_2.0.2-1.dsc b4efb02f8ac5566dd89756a834d7498d 474925 fonts-spleen_2.0.2.orig.tar.gz 7cc383dac78a70ad7ea807be593a58bb 30364 fonts-spleen_2.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fcambus/spleen"
+  ],
+  "Maintainer": [
+    "Debian Fonts Task Force \u003cdebian-fonts@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fonts-spleen"
+  ],
+  "Package-List": [
+    "fonts-spleen deb fonts optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/fonts-team/fonts-spleen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/fonts-team/fonts-spleen.git"
+  ],
+  "Version": [
+    "2.0.2-1"
+  ]
+}

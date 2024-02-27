@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "haxe"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), dh-ocaml, ocaml-nox, ocaml-findlib, ocaml-dune (\u003e= 3), camlp5, libxml-light-ocaml-dev, libsedlex-ocaml-dev (\u003e= 2.0), libextlib-ocaml-dev, libptmap-ocaml-dev, libsha-ocaml-dev, libluv-ocaml-dev (\u003e= 0.5.12), libuv1-dev, libmbedtls-dev, neko (\u003e= 2.3.0), zlib1g-dev, libpcre2-dev, bash-completion"
+  ],
+  "Checksums-Sha256": [
+    "53b33e91cdffb38dac744bf47f3b12a4c0789ff4125685d1bd4ec5466168828c 2093 haxe_4.3.3-1.dsc 6c0884592931cff321d30f3b6bc4c9867f591be6e1c9932472783e073d90cee2 8471012 haxe_4.3.3.orig.tar.gz bd7bdf7632d1a2c8771348d2c12767dcfcf8539e4f9240f8febda2044d4b2390 14508 haxe_4.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haxe"
+  ],
+  "Files": [
+    "ce1dff82129839f4c258f49e4e89c2ca 2093 haxe_4.3.3-1.dsc c74c4ada911f77287a385ec435d5187e 8471012 haxe_4.3.3.orig.tar.gz 2033ab1eea33e5e56d9e60cad0257330 14508 haxe_4.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://haxe.org"
+  ],
+  "Maintainer": [
+    "Andy Li \u003candy@onthewings.net\u003e"
+  ],
+  "Package": [
+    "haxe"
+  ],
+  "Package-List": [
+    "haxe deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/HaxeFoundation/haxe-debian"
+  ],
+  "Vcs-Git": [
+    "https://github.com/HaxeFoundation/haxe-debian.git"
+  ],
+  "Version": [
+    "1:4.3.3-1"
+  ]
+}

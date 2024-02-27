@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-guzzlehttp-promises"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "4194a43463330ef39b5476c47f4ee3bd4ae920b7673473fc5920e663c0f224db 1891 php-guzzlehttp-promises_1.5.3-2.dsc 432142cb895c0391d83e06f2809000f8fac43ba83cd456a7ffafd04b74e2eda7 28464 php-guzzlehttp-promises_1.5.3.orig.tar.xz 717a7b90fc91891eb6f40e18068fb683c4539c19825833568a18aa7140cd495f 4468 php-guzzlehttp-promises_1.5.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-guzzlehttp-promises"
+  ],
+  "Files": [
+    "688d33e6a6f04a0f446d17bd585f397c 1891 php-guzzlehttp-promises_1.5.3-2.dsc 1678aa6a08b8f34df188abdda981c01d 28464 php-guzzlehttp-promises_1.5.3.orig.tar.xz 269ba648f1b5c63436acbb5ffdd098d4 4468 php-guzzlehttp-promises_1.5.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/guzzle/promises"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-guzzlehttp-promises"
+  ],
+  "Package-List": [
+    "php-guzzlehttp-promises deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "patch, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-guzzlehttp-promises"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-guzzlehttp-promises.git -b debian/trixie"
+  ],
+  "Version": [
+    "1.5.3-2"
+  ]
+}

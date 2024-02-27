@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-deseq2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-s4vectors, r-bioc-iranges, r-bioc-genomicranges, r-bioc-summarizedexperiment, r-bioc-biocgenerics, r-bioc-biobase, r-bioc-biocparallel, r-cran-matrixstats, r-cran-locfit, r-cran-ggplot2 (\u003e= 3.4.0), r-cran-rcpp, r-bioc-matrixgenerics, r-cran-rcpparmadillo"
+  ],
+  "Checksums-Sha256": [
+    "87859129e94dcdd84f475c595edfb602051187101d7c321d7f07d14da961f6ad 2388 r-bioc-deseq2_1.42.0+dfsg-1.dsc b31354e7f663ab4740cde45b3bc6f56e706f7ce957525c660f423f7fe0939e03 593600 r-bioc-deseq2_1.42.0+dfsg.orig.tar.xz abc6c5e086b76592084b0ad086b02c0efb22552d6ba05720722fa3fbcf323f4a 4936 r-bioc-deseq2_1.42.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-deseq2"
+  ],
+  "Files": [
+    "a9f7852fa918010f1b0387fe88e8ae93 2388 r-bioc-deseq2_1.42.0+dfsg-1.dsc bfa136f9cb00d3fd9a25f6b0c3eb2be8 593600 r-bioc-deseq2_1.42.0+dfsg.orig.tar.xz 67c3515ff15d467047c61fb3f9619b66 4936 r-bioc-deseq2_1.42.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/DESeq2/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-deseq2"
+  ],
+  "Package-List": [
+    "r-bioc-deseq2 deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003cmichael.crusoe@gmail.com\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-deseq2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-deseq2.git"
+  ],
+  "Version": [
+    "1.42.0+dfsg-1"
+  ]
+}

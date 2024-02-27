@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libbpf-dev, libbpf1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libelf-dev, zlib1g-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "f72f02e574f8912b8b2218e3a7d864b8e42dc9461d27704b05bf60d2885187fa 1884 libbpf_1.3.0-2.dsc 11db86acd627e468bc48b7258c1130aba41a12c4d364f78e184fd2f5a913d861 999282 libbpf_1.3.0.orig.tar.gz 22b58b9d273f53a2183a3c33f6319926ba571356d0f5ea5bf8495e58cef18859 7080 libbpf_1.3.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libb/libbpf"
+  ],
+  "Files": [
+    "74c38b8bff79794b3b0c682cff457b82 1884 libbpf_1.3.0-2.dsc 82be793d45ed4bd623e5a7711308f08f 999282 libbpf_1.3.0.orig.tar.gz 0a63ecb2ab53c83b1080df2b1148132f 7080 libbpf_1.3.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Sudip Mukherjee \u003csudipm.mukherjee@gmail.com\u003e"
+  ],
+  "Package": [
+    "libbpf"
+  ],
+  "Package-List": [
+    "libbpf-dev deb libdevel optional arch=linux-any libbpf1 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/sudipm-mukherjee/libbpf"
+  ],
+  "Vcs-Git": [
+    "https://github.com/sudipm-mukherjee/libbpf.git"
+  ],
+  "Version": [
+    "1.3.0-2"
+  ]
+}

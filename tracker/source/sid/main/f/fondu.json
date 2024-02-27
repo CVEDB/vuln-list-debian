@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fondu"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "b8315a7ca1a4199e2ecb35be75b55e8da465337aceef5748c8dcceae2ebc5fbe 1750 fondu_0.0.20060102-6.dsc 22bb535d670ebc1766b602d804bebe7e84f907c219734e6a955fcbd414ce5794 131516 fondu_0.0.20060102.orig.tar.gz df7c78e6a30c422141fc397700efd107e471edc9c2181f5ffaa11d1ce78ce7e5 9632 fondu_0.0.20060102-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fondu"
+  ],
+  "Files": [
+    "48edb71318f7852a02872db47616b484 1750 fondu_0.0.20060102-6.dsc e20861beacddc1ab392bef7813641bf8 131516 fondu_0.0.20060102.orig.tar.gz 7da4d76bed9604141c2fa583bfc2bc10 9632 fondu_0.0.20060102-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.sourceforge.net/projects/fondu"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "fondu"
+  ],
+  "Package-List": [
+    "fondu deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.0.20060102-6"
+  ]
+}

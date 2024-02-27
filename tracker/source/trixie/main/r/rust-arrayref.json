@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-arrayref-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4212c6f0343b75d4fce67d081a74bcdd0cf7ee298f5f8738043bb9f958b7b717 2132 rust-arrayref_0.3.7-1.dsc 6b4930d2cb77ce62f89ee5d5289b4ac049559b1c45539271f5ed4fdc7db34545 9620 rust-arrayref_0.3.7.orig.tar.gz 66ae5d38ab6bdd2b070d5a121b14de7bbcf7b4617ebe273263ebecf4e0aaa985 2680 rust-arrayref_0.3.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-arrayref"
+  ],
+  "Files": [
+    "8c8e2a9c17bbadce56a7e7d82d68693f 2132 rust-arrayref_0.3.7-1.dsc ff41a5b5c2364747a7ff11f6bdeee406 9620 rust-arrayref_0.3.7.orig.tar.gz c29335ea86a1539f1de14836fb650523 2680 rust-arrayref_0.3.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-arrayref"
+  ],
+  "Package-List": [
+    "librust-arrayref-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-quickcheck-0.6+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/arrayref"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/arrayref]"
+  ],
+  "Version": [
+    "0.3.7-1"
+  ]
+}

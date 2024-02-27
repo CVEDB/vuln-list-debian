@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "entr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libbsd-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "0f51f3a12c6c331d78e2d18897420e96c5803cc2441d8902f328114ee1f4cbfb 1902 entr_5.5-1.dsc 128c0ce2efea5ae6bd3fd33c3cd31e161eb0c02609d8717ad37e95b41656e526 21225 entr_5.5.orig.tar.gz 7409f3a74333d39198d7bc4f26a8888ecf8a739784d1be1e3a767c59bc09c702 10020 entr_5.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/entr"
+  ],
+  "Files": [
+    "639515cc345a1c776e8042800ac69ef1 1902 entr_5.5-1.dsc c2ad02c4d8ee2341db0e6236fd86f7f3 21225 entr_5.5.orig.tar.gz 080b1cfb661fe3a4edba4edf566348bc 10020 entr_5.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://eradman.com/entrproject/"
+  ],
+  "Maintainer": [
+    "Yuri D'Elia \u003cwavexx@thregr.org\u003e"
+  ],
+  "Package": [
+    "entr"
+  ],
+  "Package-List": [
+    "entr deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "file, git, procps, tmux, vim"
+  ],
+  "Uploaders": [
+    "Otto Kekäläinen \u003cotto@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/entr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/entr.git"
+  ],
+  "Version": [
+    "5.5-1"
+  ]
+}

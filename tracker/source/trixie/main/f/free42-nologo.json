@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "free42-nologo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libgtk-3-dev, libintelrdfpmath-dev, libasound2-dev"
+  ],
+  "Checksums-Sha256": [
+    "30ccf93cd62716ddc18b7b7093f7f72ebb9c5523de8ce4453566f51d6ada6156 1995 free42-nologo_3.1.4+ds-1.dsc 295ca3b5b89f23d35e99f863ef87a393984c2f1009d7584a17ce4a0d52990a3b 451796 free42-nologo_3.1.4+ds.orig.tar.xz ceb986f940a97f86d45508398727d8bb404726bfa5218edb03bda4f96efe9dbc 5712 free42-nologo_3.1.4+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/free42-nologo"
+  ],
+  "Files": [
+    "652ffb7d533184adda1ea98c9d1bc6ed 1995 free42-nologo_3.1.4+ds-1.dsc ebf68458bae22f445a08736be590749d 451796 free42-nologo_3.1.4+ds.orig.tar.xz 7c84dea2b06e60835adfe3bc8129a3f7 5712 free42-nologo_3.1.4+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://thomasokken.com/free42/"
+  ],
+  "Maintainer": [
+    "Christian Stalp \u003cchris@chrishell.de\u003e"
+  ],
+  "Package": [
+    "free42-nologo"
+  ],
+  "Package-List": [
+    "free42-nologo deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/free42-nologo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/free42-nologo.git"
+  ],
+  "Version": [
+    "3.1.4+ds-1"
+  ]
+}

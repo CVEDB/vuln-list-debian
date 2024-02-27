@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-bignums"
+  ],
+  "Build-Depends": [
+    "coq, debhelper-compat (= 13), dh-coq (\u003e= 0.3), dh-ocaml, libcoq-core-ocaml-dev, libcoq-stdlib"
+  ],
+  "Checksums-Sha256": [
+    "98b132275771153eeff767e6570a55f717f9db78463fe23603d8dae06db2a44c 2146 coq-bignums_9.0.0+coq8.18-1.dsc 63f4bcb57ebc7ac8d2b6e6ec5938f556b029529bbc03340d872f3c728fa175e3 116811 coq-bignums_9.0.0+coq8.18.orig.tar.gz 3344a72cf542b381d6b49ee9bdddedd54341a1653e68ff13d0229192e74a8560 2044 coq-bignums_9.0.0+coq8.18-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-bignums"
+  ],
+  "Files": [
+    "03c1b24705775f1bc69a4dc79c9c3bb1 2146 coq-bignums_9.0.0+coq8.18-1.dsc b89c4155bacceaa8ef4f7dddb787c182 116811 coq-bignums_9.0.0+coq8.18.orig.tar.gz 82eee7fc382fa9e735d72e2c1c180bad 2044 coq-bignums_9.0.0+coq8.18-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/coq-community/bignums"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-bignums"
+  ],
+  "Package-List": [
+    "libcoq-bignums deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-bignums"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-bignums.git"
+  ],
+  "Version": [
+    "9.0.0+coq8.18-1"
+  ]
+}

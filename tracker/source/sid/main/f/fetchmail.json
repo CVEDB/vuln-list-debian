@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fetchmail"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, flex, libssl-dev (\u003e= 3.1.4), bison, libkrb5-dev, libgssglue-dev"
+  ],
+  "Checksums-Sha256": [
+    "521fd1202b09889787417abc3fe63072b02f00c04a8b21f55dea7a8232a50342 2170 fetchmail_6.4.38-1.dsc a6cb4ea863ac61d242ffb2db564a39123761578d3e40d71ce7b6f2905be609d9 1220892 fetchmail_6.4.38.orig.tar.xz c7281255a2533dd6d9d441750eeb662c007103360bd35616c84f32dbc64a749c 833 fetchmail_6.4.38.orig.tar.xz.asc 7f7ddeb1ae328cf2f30d93f4e76dc8f79118d61ad50cef36e7903c876840087d 55416 fetchmail_6.4.38-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fetchmail"
+  ],
+  "Files": [
+    "de11f479bc6ba29763838038484b0e45 2170 fetchmail_6.4.38-1.dsc 0b833211c628f18607b82ae9add97c40 1220892 fetchmail_6.4.38.orig.tar.xz db8be3b9fb57c3aa42c2bb7f1b973863 833 fetchmail_6.4.38.orig.tar.xz.asc b71d47b622f6caa2fc1143816b2b70b0 55416 fetchmail_6.4.38-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.fetchmail.info"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "fetchmail"
+  ],
+  "Package-List": [
+    "fetchmail deb mail optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gcc, libssl-dev, python3, sudo, systemd-sysv"
+  ],
+  "Version": [
+    "6.4.38-1"
+  ]
+}

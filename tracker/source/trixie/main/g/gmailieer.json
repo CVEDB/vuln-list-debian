@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lieer, gmailieer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), help2man, dh-python, python3-all:any, python3-pytest, python3-googleapi, python3-notmuch2 (\u003e= 0.36), python3-google-auth-oauthlib, python3-setuptools, python3-tqdm"
+  ],
+  "Checksums-Sha256": [
+    "917d75db2072678dc203c5bd156e09e12d165074fe6861597a738d59f06070a2 2134 gmailieer_1.6-2.dsc e5922b53436baf5228505d456e8f59257375855f161ab3775771cde1bd99fcf6 82056 gmailieer_1.6.orig.tar.xz 594fa277d438855e38d84f323b23dd1fbf1d6ae7ff39e7c73507ac124ea13e7a 8308 gmailieer_1.6-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gmailieer"
+  ],
+  "Files": [
+    "118a8f7c197ae9c8c85f2dd594ef5373 2134 gmailieer_1.6-2.dsc a2ccfaa482b7407dc56dc98e4d0a8947 82056 gmailieer_1.6.orig.tar.xz c6b7ed3013d11d6190facd62a2833993 8308 gmailieer_1.6-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gauteh/lieer"
+  ],
+  "Maintainer": [
+    "lieer maintainers \u003cgmailieer@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "gmailieer"
+  ],
+  "Package-List": [
+    "gmailieer deb mail optional arch=all lieer deb mail optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julian Andres Klode \u003cjak@debian.org\u003e, Barak A. Pearlmutter \u003cbap@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/lieer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/lieer.git"
+  ],
+  "Version": [
+    "1.6-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-bookdown"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-htmltools, r-cran-knitr (\u003e= 1.38), r-cran-rmarkdown (\u003e= 2.14), r-cran-jquerylib, r-cran-xfun (\u003e= 0.39), r-cran-tinytex, r-cran-yaml"
+  ],
+  "Checksums-Sha256": [
+    "c03908189bed2343baf0d966c2149d9395a84b1c59d5eb9c3c966771ea7a186e 2508 r-cran-bookdown_0.37+dfsg-1.dsc 67386de1b5263b6d93b49bf331902c617a26c71313a9bf4c09c6c362866d036b 1192540 r-cran-bookdown_0.37+dfsg.orig.tar.xz 3b2e76cc0b553cff018b9785e25598182ff9b9e1d8a560f19be572a68776c63d 74412 r-cran-bookdown_0.37+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-bookdown"
+  ],
+  "Files": [
+    "31fb18e7c8a83d87a09363c4064ce2b1 2508 r-cran-bookdown_0.37+dfsg-1.dsc cc135fa7488738f037de9bb4ec8a6e8e 1192540 r-cran-bookdown_0.37+dfsg.orig.tar.xz f8f98b4a581b868a99ceec036d564f49 74412 r-cran-bookdown_0.37+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=bookdown"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-bookdown"
+  ],
+  "Package-List": [
+    "r-cran-bookdown deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bslib, r-cran-downlit, r-cran-htmlwidgets, r-cran-jsonlite, r-cran-miniui, r-cran-rsconnect, r-cran-rstudioapi, r-cran-shiny, r-cran-testit, r-cran-testthat, r-cran-tibble, r-cran-tufte, r-cran-webshot, r-cran-withr, r-cran-xml2"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-bookdown"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-bookdown.git"
+  ],
+  "Version": [
+    "0.37+dfsg-1"
+  ]
+}

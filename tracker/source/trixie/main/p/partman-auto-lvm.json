@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "partman-auto-lvm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-di, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "6b475bd8fc9249f3692c562286bb1a8e805a213934d4e0a992b2a28cfd00b581 1699 partman-auto-lvm_94.dsc 0a9cdd06fff0583bcb599f56080973b88468eaf3a64ba54f9cf2de296b611d62 126496 partman-auto-lvm_94.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/partman-auto-lvm"
+  ],
+  "Files": [
+    "bf4455866f1dadc723e0e52c13b2b7c8 1699 partman-auto-lvm_94.dsc 17c8318f965e9614f1eb0c72c526a27e 126496 partman-auto-lvm_94.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "partman-auto-lvm"
+  ],
+  "Package-List": [
+    "partman-auto-lvm udeb debian-installer optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "debian-installer"
+  ],
+  "Uploaders": [
+    "Dmitrijs Ledkovs \u003cdmitrijs.ledkovs@canonical.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/partman-auto-lvm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/partman-auto-lvm.git"
+  ],
+  "Version": [
+    "94"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "miniupnpc, libminiupnpc17, libminiupnpc-dev, python3-miniupnpc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libpython3-dev, python3-dev:any, python3-setuptools, net-tools"
+  ],
+  "Checksums-Sha256": [
+    "1804d6ed539ff60e533672884c70fefa4700846882cf19aa6fbfdb0cb124c662 2396 miniupnpc_2.2.6-1.dsc 37fcd91953508c3e62d6964bb8ffbc5d47f3e13481fa54e6214fcc68704c66f1 103949 miniupnpc_2.2.6.orig.tar.gz d814b245b1722eec5e152a2a26ac15eb32ade0ab908b69757ea8dd31433bb143 801 miniupnpc_2.2.6.orig.tar.gz.asc e2b304ef59d1e68a3a1c24b85c403d8c85185eab5afc87121bb64d53dab0fc59 10528 miniupnpc_2.2.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/miniupnpc"
+  ],
+  "Files": [
+    "fdb7a9a3d04d6345a4b8974e207aecbd 2396 miniupnpc_2.2.6-1.dsc 55cdad7603ecbee37ef2408441ceb0f1 103949 miniupnpc_2.2.6.orig.tar.gz 4137fa5c88effce636499deee056d9f2 801 miniupnpc_2.2.6.orig.tar.gz.asc b8f009833a570f38d6e6f65a5fce2780 10528 miniupnpc_2.2.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://miniupnp.free.fr/"
+  ],
+  "Maintainer": [
+    "Thomas Goirand \u003czigo@debian.org\u003e"
+  ],
+  "Package": [
+    "miniupnpc"
+  ],
+  "Package-List": [
+    "libminiupnpc-dev deb libdevel optional arch=any libminiupnpc17 deb libs optional arch=any miniupnpc deb net optional arch=any python3-miniupnpc deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Yangfl \u003cmmyangfl@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/miniupnp-team/miniupnpc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/miniupnp-team/miniupnpc.git"
+  ],
+  "Version": [
+    "2.2.6-1"
+  ]
+}

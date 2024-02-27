@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-fusepy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, libfuse2"
+  ],
+  "Checksums-Sha256": [
+    "2374973a066fff55dbc651daccf7ea76d297a6ecfa2faacf1278aad05900dd69 1978 python-fusepy_3.0.1-4.dsc 72ff783ec2f43de3ab394e3f7457605bf04c8cf288a2f4068b4cde141d4ee6bd 11519 python-fusepy_3.0.1.orig.tar.gz d9ebe264d39be4a61b7eb8d190d8a66147b45fcacc7f615786e4cdff6befe365 2468 python-fusepy_3.0.1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-fusepy"
+  ],
+  "Files": [
+    "6e0d0efed8439cbee7871f254c7508d3 1978 python-fusepy_3.0.1-4.dsc d383a3c6742755039ba51b6f3f919d5f 11519 python-fusepy_3.0.1.orig.tar.gz 774ef5481102dfe52d1d1ac533b43371 2468 python-fusepy_3.0.1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fusepy/fusepy"
+  ],
+  "Maintainer": [
+    "Sascha Steinbiss \u003csatta@debian.org\u003e"
+  ],
+  "Package": [
+    "python-fusepy"
+  ],
+  "Package-List": [
+    "python3-fusepy deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/python-fusepy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/python-fusepy.git"
+  ],
+  "Version": [
+    "3.0.1-4"
+  ]
+}

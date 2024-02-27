@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "stella"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libpng-dev, libsdl2-dev, libsqlite3-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "21df508243b5b3024fcdf7700295c78e1801a18e79fc3e0515d16302c3b69152 1969 stella_6.7.1+dfsg-1.dsc 33c686d4cbd09b053f39f1cfd5a5a67c5235c4de483e14fbe89e8f9abee147e0 4337392 stella_6.7.1+dfsg.orig.tar.xz 0b5efccfcbc2f97311278d1f34a607ffe2aff8cffc69b164080f6dae2b077272 22048 stella_6.7.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/stella"
+  ],
+  "Files": [
+    "004139456afbf84b0a6c986516dc7259 1969 stella_6.7.1+dfsg-1.dsc b6f6d744edf98b61a7855c9581577423 4337392 stella_6.7.1+dfsg.orig.tar.xz 4212aa8fe0f22b16427a9ba79de25f31 22048 stella_6.7.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://stella-emu.github.io"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "stella"
+  ],
+  "Package-List": [
+    "stella deb otherosfs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "otherosfs"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/stella"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/stella.git"
+  ],
+  "Version": [
+    "6.7.1+dfsg-1"
+  ]
+}

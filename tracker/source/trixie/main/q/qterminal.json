@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "qterminal, qterminal-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libkf5windowsystem-dev, libqt5svg5-dev, libqt5x11extras5-dev, libqtermwidget5-1-dev (\u003e= 1.4.0~), libutf8proc-dev, libx11-dev, lxqt-build-tools (\u003e= 0.13.0~)"
+  ],
+  "Checksums-Sha256": [
+    "33b2eb20f106d9efc7f3f716ca67bc55077296c34b68c5ab9923f59d8ee520c8 2470 qterminal_1.4.0-1.dsc 8313326ac3ef728924271cd60a8f79e17e5e755a6bfa4e4419a4b7a53528659f 219500 qterminal_1.4.0.orig.tar.xz 98b5fcc1c9ce918b7357ed41ded3a4a4e0b82220fee9f003ae6ace059b33fabe 862 qterminal_1.4.0.orig.tar.xz.asc 58da0c0e3c29a2465461a1bb08202bfce34b6634d68ffa5b57ed1fa3f18a6e3f 14084 qterminal_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qterminal"
+  ],
+  "Files": [
+    "64db26d164fe57022acc004678ca165e 2470 qterminal_1.4.0-1.dsc 8d8f85dc99fc074c27eed09630951e09 219500 qterminal_1.4.0.orig.tar.xz 7b380fc0cf21cdcee356759f2d84d0df 862 qterminal_1.4.0.orig.tar.xz.asc 6907226c3009617722143ec01e5e7668 14084 qterminal_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxqt/qterminal"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "qterminal"
+  ],
+  "Package-List": [
+    "qterminal deb x11 optional arch=any qterminal-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/qterminal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/qterminal.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

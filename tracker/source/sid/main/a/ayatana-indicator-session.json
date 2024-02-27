@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ayatana-indicator-session"
+  ],
+  "Build-Depends": [
+    "cmake, cmake-extras, dbus, debhelper-compat (= 13), intltool, libayatana-common-dev (\u003e= 0.9.5), libglib2.0-dev, libgtest-dev \u003c!nocheck\u003e, librda-dev, systemd-dev [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "4c39b0223706b4d41211e6c97aa5d4cef4145157bfdfa9191a782168c9ba648e 2745 ayatana-indicator-session_24.2.0-1.dsc 69ab20efa0ff758ba83f22151c30ac2c235c864d48f109f86fccafddd78b17b9 337669 ayatana-indicator-session_24.2.0.orig.tar.gz 2dad83187c8d6444d7c7d55f85cf08d507a3cec6eb7f77524aa9282cbc816dd1 833 ayatana-indicator-session_24.2.0.orig.tar.gz.asc 128ab6e5b45ae1b2dcc47d62237dbce7e409768372bb2a921dd10a6b5dad7774 15136 ayatana-indicator-session_24.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/ayatana-indicator-session"
+  ],
+  "Files": [
+    "da19404c5e01afceb3e15107a3f116f0 2745 ayatana-indicator-session_24.2.0-1.dsc a8b14faa7c9d438843390aa11acb0ec3 337669 ayatana-indicator-session_24.2.0.orig.tar.gz 0556933b6cef6523a9d3c8587f62de20 833 ayatana-indicator-session_24.2.0.orig.tar.gz.asc b40c3c877e17fca879527d4d2302f436 15136 ayatana-indicator-session_24.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AyatanaIndicators/ayatana-indicator-session"
+  ],
+  "Maintainer": [
+    "Ayatana Packagers \u003cpkg-ayatana-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ayatana-indicator-session"
+  ],
+  "Package-List": [
+    "ayatana-indicator-session deb misc optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "accountsservice"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-edu-ayatana-team/ayatana-indicator-session"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-ayatana-team/ayatana-indicator-session.git"
+  ],
+  "Version": [
+    "24.2.0-1"
+  ]
+}

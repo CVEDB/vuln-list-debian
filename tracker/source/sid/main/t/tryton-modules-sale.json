@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tryton-modules-sale"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, jdupes, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "382ae0013fc5c353821e1dbb480ca979ee60b774eeef47501bd7a6fd793ebf4e 2493 tryton-modules-sale_6.0.14-1.dsc 3241a102141ee00920165bfb3caa764ba17dce4035c44cca42b3dcd26f3901bd 170118 tryton-modules-sale_6.0.14.orig.tar.gz 5a1f9551ad7084ae663bdcdacfa4b7f618bf8a7f895f299547e79436dbfbbe71 506 tryton-modules-sale_6.0.14.orig.tar.gz.asc 85922400d8051202a00d3d1893992c60ea546a385d72f8c709d1deeca2d43147 15276 tryton-modules-sale_6.0.14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tryton-modules-sale"
+  ],
+  "Files": [
+    "d190f7fc3e8c1bf5154819550dd0fae1 2493 tryton-modules-sale_6.0.14-1.dsc 0a2ee211ff8fa80ca8472f60d6c1f3ad 170118 tryton-modules-sale_6.0.14.orig.tar.gz eb4e1a32e3e64f0bec73643763323599 506 tryton-modules-sale_6.0.14.orig.tar.gz.asc eed62b82965422ccd02544b0a194f41d 15276 tryton-modules-sale_6.0.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.tryton.org/"
+  ],
+  "Maintainer": [
+    "Debian Tryton Maintainers \u003cteam+tryton-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tryton-modules-sale"
+  ],
+  "Package-List": [
+    "tryton-modules-sale deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-setuptools, tryton-proteus"
+  ],
+  "Uploaders": [
+    "Mathias Behrle \u003cmathiasb@m9s.biz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-sale"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tryton-team/tryton-modules-sale.git"
+  ],
+  "Version": [
+    "6.0.14-1"
+  ]
+}

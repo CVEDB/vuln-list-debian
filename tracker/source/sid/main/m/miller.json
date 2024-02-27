@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "miller"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-facette-natsort-dev, golang-github-goccmack-gocc-dev, golang-github-johnkerl-lumin-dev, golang-github-kballard-go-shellquote-dev, golang-github-klauspost-compress-dev, golang-github-lestrrat-go-strftime-dev, golang-github-mattn-go-isatty-dev, golang-github-pkg-profile-dev, golang-golang-x-term-dev, golang-golang-x-text-dev, tzdata"
+  ],
+  "Checksums-Sha256": [
+    "a802c36beb0ebfae427881524f7af7daeaf3f321df99d4c4b970271aa8a3ae82 2245 miller_6.11.0-1.dsc 222e4fa49dbd553a19c130dc6d3853fb457409a422550dbbbaf1f6d45717eb0b 2945005 miller_6.11.0.orig.tar.gz ac85302a341a0e1745cbb47a3700f190e473638b080a655fa08075aa7a0f5ada 4732 miller_6.11.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/miller"
+  ],
+  "Files": [
+    "6fcf93394b3150d5e6f3d716a28d9e4c 2245 miller_6.11.0-1.dsc f13dfc9ac8f16ab34aba11ada235ac71 2945005 miller_6.11.0.orig.tar.gz 445ef1315892adcbd6a8dfb30f3c492c 4732 miller_6.11.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/johnkerl/miller"
+  ],
+  "Homepage": [
+    "https://github.com/johnkerl/miller"
+  ],
+  "Maintainer": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Package": [
+    "miller"
+  ],
+  "Package-List": [
+    "miller deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/miller"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/miller.git"
+  ],
+  "Version": [
+    "6.11.0-1"
+  ]
+}

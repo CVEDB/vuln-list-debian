@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-affyio"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-zlibbioc"
+  ],
+  "Checksums-Sha256": [
+    "15c83956c9fd6ca31db36101622009b01650a79bf60e660092015c4028df3191 2065 r-bioc-affyio_1.72.0-1.dsc e98fc0f5acba44885b9b7962d2b3d85e8972e8675ab7d9adf7653133d2d95007 110380 r-bioc-affyio_1.72.0.orig.tar.gz 675267579b7672772ac919aee29d5c8477b460152871996a79b2e5ae2c732b0c 2780 r-bioc-affyio_1.72.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-affyio"
+  ],
+  "Files": [
+    "8a59bf0117dd481f83ebe6e9d2dce082 2065 r-bioc-affyio_1.72.0-1.dsc 9bd1e4acedbf756386f96d4c1ebb21f3 110380 r-bioc-affyio_1.72.0.orig.tar.gz fffe7c4fda84c41623c22e9f0014427a 2780 r-bioc-affyio_1.72.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/affyio/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-affyio"
+  ],
+  "Package-List": [
+    "r-bioc-affyio deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-affyio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-affyio.git"
+  ],
+  "Version": [
+    "1.72.0-1"
+  ]
+}

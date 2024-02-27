@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpng16-16, libpng-dev, libpng-tools, libpng16-16-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), zlib1g-dev, mawk"
+  ],
+  "Checksums-Sha256": [
+    "a5e76ea544620bd5a052e8fbba32ea48ef9c2df8513fa4f77578cf9ffd20b18d 2241 libpng1.6_1.6.42-1.dsc fe89de292e223829859d21990d9c4d6b7e30e295a268f6a53a022611aa98bd67 1542966 libpng1.6_1.6.42.orig.tar.gz 40503aba31d34c524d410ca8e5ab51752c6f27020a072b1572e0a519aff30821 31232 libpng1.6_1.6.42-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpng1.6"
+  ],
+  "Files": [
+    "8b34d6565fca4ee2bb612ae775f9d29a 2241 libpng1.6_1.6.42-1.dsc d332873321553696dcedb292688981ca 1542966 libpng1.6_1.6.42.orig.tar.gz 05ffbffe4df557c95483e9566457769d 31232 libpng1.6_1.6.42-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://libpng.org/pub/png/libpng.html"
+  ],
+  "Maintainer": [
+    "Maintainers of libpng1.6 packages \u003clibpng1.6@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "libpng1.6"
+  ],
+  "Package-List": [
+    "libpng-dev deb libdevel optional arch=any libpng-tools deb libdevel optional arch=any libpng16-16 deb libs optional arch=any libpng16-16-udeb udeb debian-installer optional arch=any profile=!noudeb"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e, Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e, Tobias Frost \u003ctobi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libpng1.6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libpng1.6.git"
+  ],
+  "Version": [
+    "1.6.42-1"
+  ]
+}

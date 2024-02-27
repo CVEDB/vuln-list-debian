@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "guile-3.0, guile-3.0-dev, guile-3.0-doc, guile-3.0-libs"
+  ],
+  "Build-Depends": [
+    "libtool, debhelper-compat (= 10), autoconf, automake, gperf, guile-3.0:native \u003ccross\u003e, libncurses-dev, libreadline-dev, libltdl-dev, libgmp-dev, texinfo, flex, libunistring-dev, libgc-dev, libffi-dev, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "914f520d4e5e3b84da06a87a77184b6400439801b294dfbd5da6435a136e16dc 2120 guile-3.0_3.0.9-1.dsc 65d403f0af1da9eb18d8fe4b1c87f51b63708af73efc81aa058c07fe98980ee2 4236264 guile-3.0_3.0.9.orig.tar.xz b7fa87f69d26787faa9add3fdcfd8b08cd3b6016f01e07529ef914f3fd49f66e 34724 guile-3.0_3.0.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/guile-3.0"
+  ],
+  "Files": [
+    "29f3b18a71b0029d45ee146218dc9c19 2120 guile-3.0_3.0.9-1.dsc a304cb8a72aa054a0e291a79922ae7c4 4236264 guile-3.0_3.0.9.orig.tar.xz a1d1e5885399021d4962806860ea90de 34724 guile-3.0_3.0.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.gnu.org/software/guile/"
+  ],
+  "Maintainer": [
+    "Rob Browning \u003crlb@defaultvalue.org\u003e"
+  ],
+  "Package": [
+    "guile-3.0"
+  ],
+  "Package-List": [
+    "guile-3.0 deb lisp optional arch=any guile-3.0-dev deb lisp optional arch=any guile-3.0-doc deb doc optional arch=all guile-3.0-libs deb lisp optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "3.7.2"
+  ],
+  "Version": [
+    "3.0.9-1"
+  ]
+}

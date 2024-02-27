@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "usb.ids"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "c8bc71ca42e0bbe776cc364dde178c47357c34ff8ce47bf5e1b0be1d8662590e 1777 usb.ids_2024.01.20-0+deb11u1.dsc 5985bff3a4cd95ee333ca0f9f5033ee41dc037286b92d7f4129db597c7be998c 204380 usb.ids_2024.01.20.orig.tar.xz 3763258aed2de1d1dc40c5b82fdc658cbd5f5620405849fab091c44f7c54b40c 3188 usb.ids_2024.01.20-0+deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/usb.ids"
+  ],
+  "Files": [
+    "24d978f23a2c45d28d7e2f576a27e1dc 1777 usb.ids_2024.01.20-0+deb11u1.dsc 30d183274c5c6e326fe9b34e465d66b1 204380 usb.ids_2024.01.20.orig.tar.xz f17ef0670043f7218f640b9257f55c99 3188 usb.ids_2024.01.20-0+deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.linux-usb.org/usb-ids.html"
+  ],
+  "Maintainer": [
+    "Aurelien Jarno \u003caurel32@debian.org\u003e"
+  ],
+  "Package": [
+    "usb.ids"
+  ],
+  "Package-List": [
+    "usb.ids deb admin optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "2024.01.20-0+deb11u1"
+  ]
+}

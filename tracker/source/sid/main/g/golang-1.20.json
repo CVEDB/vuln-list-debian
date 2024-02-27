@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+  ],
+  "Binary": [
+    "golang-1.20-go, golang-1.20-src, golang-1.20-doc, golang-1.20"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), golang-any (\u003e= 2:1.17~) | golang-go (\u003e= 2:1.17~) | gccgo (\u003e= 4:12~), netbase"
+  ],
+  "Checksums-Sha256": [
+    "0b8e981f2175b1ea9c46239513b0e3ec0ce28d1802f9aa01fd50045b683fed55 2563 golang-1.20_1.20.14-2.dsc 1aef321a0e3e38b7e91d2d7eb64040666cabdcc77d383de3c9522d0d69b67f4e 26202564 golang-1.20_1.20.14.orig.tar.gz ed0e834ebb55a992074ee7ead47a0a58335b40dca826763e510fdd401d1cd1a1 833 golang-1.20_1.20.14.orig.tar.gz.asc 8a00ccd742f667c3264dc0c912ef26ef4c61a8418e36915ec9c77f20360a0d0a 38220 golang-1.20_1.20.14-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-1.20"
+  ],
+  "Files": [
+    "3a237608a2b5d7212ac96b7056d4e11b 2563 golang-1.20_1.20.14-2.dsc 71103194b2ca39cc9cb943df9aa6154c 26202564 golang-1.20_1.20.14.orig.tar.gz b2f834961ec3066ac16bcbc08ccedb94 833 golang-1.20_1.20.14.orig.tar.gz.asc c780957a4e9b69ae1fa3aa6ee62a4c8b 38220 golang-1.20_1.20.14-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://go.dev/"
+  ],
+  "Maintainer": [
+    "Debian Go Compiler Team \u003cteam+go-compiler@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-1.20"
+  ],
+  "Package-List": [
+    "golang-1.20 deb golang optional arch=all golang-1.20-doc deb doc optional arch=all golang-1.20-go deb golang optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.20-src deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e, Tianon Gravi \u003ctianon@debian.org\u003e, Michael Hudson-Doyle \u003cmwhudson@debian.org\u003e, Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.20"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.20"
+  ],
+  "Version": [
+    "1.20.14-2"
+  ]
+}

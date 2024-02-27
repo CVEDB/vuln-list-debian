@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fortunes-it, fortunes-it-brianza, fortunes-it-off, fortunes-scn, fortunes-scn-off"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "fortune-mod, recode"
+  ],
+  "Checksums-Sha256": [
+    "d3830ce9a81226f592fc3658cc70faee0eb227132266d04b1d237b919df1e768 2063 fortunes-it_2.2-3.dsc a875f8d3752c9cec7310a57ab165e5df2a94dcd3387b3af55990a3a1fb7d6325 745995 fortunes-it_2.2.orig.tar.gz 8b2e8ff8c245ad3409491905ea75c09cb5ed2306c92c6e4d569bf4835fb5810d 16732 fortunes-it_2.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fortunes-it"
+  ],
+  "Files": [
+    "dd855ea0dfc04d15dda210b1ccc9c6fe 2063 fortunes-it_2.2-3.dsc f2a985238a488205a164e5f64992e466 745995 fortunes-it_2.2.orig.tar.gz 3fba23dc58a4817b4e57248d76ea250f 16732 fortunes-it_2.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/fortunes-it/fortunes-it"
+  ],
+  "Maintainer": [
+    "Salvo 'LtWorf' Tomaselli \u003cltworf@debian.org\u003e"
+  ],
+  "Package": [
+    "fortunes-it"
+  ],
+  "Package-List": [
+    "fortunes-it deb games optional arch=all fortunes-it-brianza deb games optional arch=all fortunes-it-off deb games optional arch=all fortunes-scn deb games optional arch=all fortunes-scn-off deb games optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "2.2-3"
+  ]
+}

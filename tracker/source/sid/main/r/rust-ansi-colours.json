@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ansi-colours-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-rgb-0.8+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f1452fa00d9a0e8b93c42aa9fa7c4f77c0a6a6350b96b00969764ecd2df9278e 2311 rust-ansi-colours_1.2.2-1.dsc 3e0e43da05da0c0b64717215932fca700aa1b15d24b83e85f9a5ca4c6d80fc19 19508 rust-ansi-colours_1.2.2.orig.tar.gz 9f07db80530b9f9b5c8fd85eb5f34b11c30a851a9a0a9f8142d50a71a2b3846a 3500 rust-ansi-colours_1.2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ansi-colours"
+  ],
+  "Files": [
+    "71b20e2a493bec683f19a2668451f475 2311 rust-ansi-colours_1.2.2-1.dsc 1824723e76360f1df1bf8cc3900a441b 19508 rust-ansi-colours_1.2.2.orig.tar.gz d867ca8dd343f77b5347c72288defd8c 3500 rust-ansi-colours_1.2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ansi-colours"
+  ],
+  "Package-List": [
+    "librust-ansi-colours-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5-dev, librust-lab-0+default-dev, librust-rgb-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "Paride Legovini \u003cparide@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ansi-colours"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ansi-colours]"
+  ],
+  "Version": [
+    "1.2.2-1"
+  ]
+}

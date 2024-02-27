@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgpod-dev, libgpod4, libgpod-common, libgpod-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, intltool, pkgconf, libglib2.0-dev, libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev, libxml2-dev, libsgutils2-dev, libsqlite3-dev, libplist-dev, libusb-1.0-0-dev, libimobiledevice-dev, zlib1g-dev, swig, systemd-dev, chrpath, gtk-doc-tools, docbook-xml, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "58e27136579c522f55ba08a98e92b00e6af76a034b96ab9ead602caf083a30be 2271 libgpod_0.8.3-19.dsc 638a7959d04e95f1e62abad02bd33702e4e8dfef98485ac7d9d50395c37e955d 801903 libgpod_0.8.3.orig.tar.bz2 1fb54a6866526f7d2205e06c03e1895e303cc9b8a0c0ea4522389caac4f373ce 16900 libgpod_0.8.3-19.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libg/libgpod"
+  ],
+  "Files": [
+    "3d04e98ac699c8165953a633cf89a393 2271 libgpod_0.8.3-19.dsc f8a0b7a34e768e33a708e8dd172bd6f8 801903 libgpod_0.8.3.orig.tar.bz2 75155c809a68754132178dcf7bc22750 16900 libgpod_0.8.3-19.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.gtkpod.org/wiki/Libgpod"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "libgpod"
+  ],
+  "Package-List": [
+    "libgpod-common deb libs optional arch=any libgpod-dev deb libdevel optional arch=any libgpod-doc deb doc optional arch=all libgpod4 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libgpod"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libgpod.git"
+  ],
+  "Version": [
+    "0.8.3-19"
+  ]
+}

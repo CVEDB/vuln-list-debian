@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "font-downloader"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, desktop-file-utils, meson (\u003e= 0.50.0), libhandy-1-dev (\u003e= 0.90.0)"
+  ],
+  "Checksums-Sha256": [
+    "4c7535250c7bca6844672f944249f097b123decbe410f014fcf544abe1d207ec 2172 gnome-font-downloader_10.0.0-3.dsc 8db7b15fe9db6c55b0706b59ad7b72c8e007c06b27f70312b34b788f135d2a45 3280234 gnome-font-downloader_10.0.0.orig.tar.gz 1a552ee0a3d934fb4ec947b72f137f7174e25152ce2a96c71df42f1f40f1dd92 3388 gnome-font-downloader_10.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-font-downloader"
+  ],
+  "Files": [
+    "6b24b55dc67aec591a548d3dc7af8f16 2172 gnome-font-downloader_10.0.0-3.dsc 9de6f60df805e2d662dbad3b1c163a2b 3280234 gnome-font-downloader_10.0.0.orig.tar.gz f8692fe68996996352215d5f68817daa 3388 gnome-font-downloader_10.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/GustavoPeredo/Font-Downloader"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-font-downloader"
+  ],
+  "Package-List": [
+    "font-downloader deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-font-downloader"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-font-downloader.git"
+  ],
+  "Version": [
+    "10.0.0-3"
+  ]
+}

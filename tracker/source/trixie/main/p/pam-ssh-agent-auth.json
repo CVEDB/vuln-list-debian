@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpam-ssh-agent-auth"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 9), autotools-dev, libssl-dev, libpam0g-dev"
+  ],
+  "Checksums-Sha256": [
+    "9c37e322a526b808e941cf03623b25824eac09ccd08025b5167891111f880382 1863 pam-ssh-agent-auth_0.10.3-5.dsc 3c53d358d6eaed1b211239df017c27c6f9970995d14102ae67bae16d4f47a763 1066393 pam-ssh-agent-auth_0.10.3.orig.tar.bz2 2d854ecacf6d8cdd6ff2e0a01d9fa5f9fa0febc3e946fb5c5ff59900e4c01dbb 14348 pam-ssh-agent-auth_0.10.3-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pam-ssh-agent-auth"
+  ],
+  "Files": [
+    "a941b0e92acd66518ebe96c9b9c36b36 1863 pam-ssh-agent-auth_0.10.3-5.dsc 8dbe90ab3625e545036333e6f51ccf1d 1066393 pam-ssh-agent-auth_0.10.3.orig.tar.bz2 ce4fa1480520aa8e17b2a5a82cec5a97 14348 pam-ssh-agent-auth_0.10.3-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pamsshagentauth.sf.net/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "pam-ssh-agent-auth"
+  ],
+  "Package-List": [
+    "libpam-ssh-agent-auth deb admin optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "3.9.5"
+  ],
+  "Version": [
+    "0.10.3-5"
+  ]
+}

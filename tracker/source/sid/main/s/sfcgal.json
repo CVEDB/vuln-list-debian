@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsfcgal1, libsfcgal-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, cmake, libcgal-dev (\u003e= 5.3), libboost-all-dev, libmpfr-dev, libgmp-dev, pkg-kde-tools, chrpath"
+  ],
+  "Checksums-Sha256": [
+    "f28f86651bba4a9dc29972f7a87011f1e87071f29604fe37c09751ea956d31b7 2129 sfcgal_1.5.1-1.dsc 79f3296f956d1a51885e1fe9d9d16bc305b0556323867856ce4e8e5d3184301c 2322830 sfcgal_1.5.1.orig.tar.bz2 1fd14506947b4c8f794a2d49ba305344107817c72817d0ce6c944c8ca9467f77 158432 sfcgal_1.5.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sfcgal"
+  ],
+  "Files": [
+    "7e6e5cdf6e12c68bfc7b9432424d4281 2129 sfcgal_1.5.1-1.dsc 51e565385a241af098fb992425d8c331 2322830 sfcgal_1.5.1.orig.tar.bz2 74b5c1ef1623e18dfb760a5959bb341e 158432 sfcgal_1.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.sfcgal.org/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "sfcgal"
+  ],
+  "Package-List": [
+    "libsfcgal-dev deb libdevel optional arch=any libsfcgal1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sven Geggus \u003csven-debian@geggus.net\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/sfcgal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/sfcgal.git"
+  ],
+  "Version": [
+    "1.5.1-1"
+  ]
+}

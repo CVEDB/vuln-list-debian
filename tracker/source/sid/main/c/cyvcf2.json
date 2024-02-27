@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-cyvcf2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, zlib1g-dev, cython3-legacy, python3-setuptools, python3-all-dev, python3-numpy, python3-coloredlogs, python3-click, python3-pytest, libssl-dev, libcurl4-gnutls-dev | libcurl4-openssl-dev, libhts-dev, libbz2-dev, help2man \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "19dd3e0decafd1499434e142dc6aa988490b5da1d65ca047f271b85ffd1d4c25 2426 cyvcf2_0.30.28-1.dsc 5b54b618e7b80e6b7e8cafd869f110c81b477f1899b2471473832674b942c7cd 420359 cyvcf2_0.30.28.orig.tar.gz fdbc1a80bd86971863cf4e6db32a3df5bbc7bce486514656da46d3ecacf10a2e 6612 cyvcf2_0.30.28-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "8fd5728b5f01e48cb0e6cabcddec43e1ccc15a2e debian archive/debian/0.30.28-1 https://git.dgit.debian.org/cyvcf2"
+  ],
+  "Directory": [
+    "pool/main/c/cyvcf2"
+  ],
+  "Files": [
+    "ec08d860a69e0dbc67a59c5ffd3790c7 2426 cyvcf2_0.30.28-1.dsc c64b42c0f0b858eba53bc1391c144e68 420359 cyvcf2_0.30.28.orig.tar.gz ccc7b4f9b83b11236d98f7fcd0307fd9 6612 cyvcf2_0.30.28-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/brentp/cyvcf2"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cyvcf2"
+  ],
+  "Package-List": [
+    "python3-cyvcf2 deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e, Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/cyvcf2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/cyvcf2.git"
+  ],
+  "Version": [
+    "0.30.28-1"
+  ]
+}

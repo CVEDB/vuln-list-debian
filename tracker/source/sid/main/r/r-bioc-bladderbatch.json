@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-bladderbatch"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase"
+  ],
+  "Checksums-Sha256": [
+    "d10e3d7e0d424a50dfed16adbfe572bd5b25a799470a5718757a95ebedf2137e 2155 r-bioc-bladderbatch_1.40.0-1.dsc 74e7a300c2d2835f0dc82d70f9e90af55e7a5d248e7364a80b9e6bdd57dbafa5 9644039 r-bioc-bladderbatch_1.40.0.orig.tar.gz ffa24b68e054e2f7d215eeddc87d85fd6b436992f7b9c885a95f3eb9ef1e55c4 4936 r-bioc-bladderbatch_1.40.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-bladderbatch"
+  ],
+  "Files": [
+    "8d8e8e3f52f95e1b2d7b35d167c4a808 2155 r-bioc-bladderbatch_1.40.0-1.dsc d59d10a87e8d62c6ba10f7e9c0160a44 9644039 r-bioc-bladderbatch_1.40.0.orig.tar.gz 62a593b7fe873eb184803bdff1dcd88d 4936 r-bioc-bladderbatch_1.40.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/data/experiment/bladderbatch/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-bladderbatch"
+  ],
+  "Package-List": [
+    "r-bioc-bladderbatch deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-bladderbatch"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-bladderbatch.git"
+  ],
+  "Version": [
+    "1.40.0-1"
+  ]
+}

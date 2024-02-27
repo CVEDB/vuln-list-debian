@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-cloudpickle"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, flit, pybuild-plugin-pyproject, python3-all, python3-psutil \u003c!nocheck\u003e, python3-py, python3-pytest, python3-pytest-cov, python3-setuptools, python3-typing-extensions \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7d431c8c75a7b7e4908da84781ad1e49eee144f44a50c5a7db9cfaecef81fbd5 2301 cloudpickle_3.0.0-2.dsc 49cc8581ce305630b1e179bc083069b21b45db4731e5e3f2ea6fc40b131e1c55 59519 cloudpickle_3.0.0.orig.tar.gz 69e546b9195529c3a081fa06ecc26365966c1a09bd8f60add03f4adcf4b36516 4496 cloudpickle_3.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cloudpickle"
+  ],
+  "Files": [
+    "bc997551e63a060930ed146360e63d2b 2301 cloudpickle_3.0.0-2.dsc 933d7b20d6db215217dbd8c520d84870 59519 cloudpickle_3.0.0.orig.tar.gz a1d1834af4dbe0f7e9be389f6d96f140 4496 cloudpickle_3.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/cloudpipe/cloudpickle"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "cloudpickle"
+  ],
+  "Package-List": [
+    "python3-cloudpickle deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-psutil, python3-py, python3-pytest, python3-typing-extensions"
+  ],
+  "Uploaders": [
+    "Diane Trout \u003cdiane@ghic.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/cloudpickle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/cloudpickle.git"
+  ],
+  "Version": [
+    "3.0.0-2"
+  ]
+}

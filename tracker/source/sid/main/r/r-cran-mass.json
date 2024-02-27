@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-mass"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r"
+  ],
+  "Checksums-Sha256": [
+    "81e8b7f2fbccedf0b6017245a81e41dcb05ca03f6e259956ee0239030fdd2491 1879 r-cran-mass_7.3-60.0.1-1.dsc 74df93593029b803d78902c95eddcaa2e7e9ed186ab0be40b56f3f8bfd13adbd 561605 r-cran-mass_7.3-60.0.1.orig.tar.gz 5b23896d80190419d91ff58408a971b40878b2ec550dc7e7a46292c2ff93e957 6580 r-cran-mass_7.3-60.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-mass"
+  ],
+  "Files": [
+    "32cbb2cbfb6d0b257961a6183f9943af 1879 r-cran-mass_7.3-60.0.1-1.dsc a6cf0337e79798901d57410c704abc82 561605 r-cran-mass_7.3-60.0.1.orig.tar.gz 5d42ff82086e06f14f5b8d5373783b2c 6580 r-cran-mass_7.3-60.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=MASS"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-cran-mass"
+  ],
+  "Package-List": [
+    "r-cran-mass deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-mass"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-mass.git"
+  ],
+  "Version": [
+    "7.3-60.0.1-1"
+  ]
+}

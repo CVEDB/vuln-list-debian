@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsolv1, libsolv-doc, libsolv-dev, libsolvext1, libsolvext-dev, libsolv-tools, python3-solv, libsolv-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dpkg-dev (\u003e= 1.16.1.1), cmake, libexpat1-dev, zlib1g-dev, librpm-dev (\u003e= 4), liblzma-dev, libbz2-dev, libzstd-dev, python3-dev, swig"
+  ],
+  "Checksums-Sha256": [
+    "5a1d6265de11258b75bbc8b762185c403b8129fc7d53ae4cb503b31d61520285 2516 libsolv_0.7.28-1.dsc bd2406f498fea6086ae0eacbf8b188c98b380e59af2267170e6a7b7d715cb207 752701 libsolv_0.7.28.orig.tar.gz f7dae49c01f8b1122467ca880805fe2888569ce614508a0f1744cb1a950b4bd9 18000 libsolv_0.7.28-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libsolv"
+  ],
+  "Files": [
+    "84434b5f7290be99687b81e2e718bcaf 2516 libsolv_0.7.28-1.dsc c06aeec19aba5111238a35b2223eb0fd 752701 libsolv_0.7.28.orig.tar.gz 75dec823991e05df2688efb8b481456b 18000 libsolv_0.7.28-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openSUSE/libsolv"
+  ],
+  "Maintainer": [
+    "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libsolv"
+  ],
+  "Package-List": [
+    "libsolv-dev deb libdevel optional arch=any libsolv-doc deb doc optional arch=all libsolv-perl deb perl optional arch=any libsolv-tools deb admin optional arch=any libsolv1 deb libs optional arch=any libsolvext-dev deb libdevel optional arch=any libsolvext1 deb libs optional arch=any python3-solv deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e, Mike Gabriel \u003csunweaver@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-rpm-team/libsolv/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-rpm-team/libsolv.git"
+  ],
+  "Version": [
+    "0.7.28-1"
+  ]
+}

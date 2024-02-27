@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libnginx-mod-http-js, libnginx-mod-stream-js, njs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nginx, help2man, libedit-dev, libnginx-mod-stream, nginx-dev (\u003e= 1.24.0-2)"
+  ],
+  "Checksums-Sha256": [
+    "e76efe12dce1c2e9d7ff4a20e7c18b7bb32fa2365821b4e659c54c66c5e294f3 2291 libnginx-mod-js_0.8.2-1.dsc 6f17387db8df90b6e3382d280455962ff85fa2b1a32d91c2ce1fd1af5a854d72 733916 libnginx-mod-js_0.8.2.orig.tar.gz be15b129110f917c8c48c82fa7082ac9e95434e4371fee6afc28a7d4a3c863fd 6060 libnginx-mod-js_0.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnginx-mod-js"
+  ],
+  "Files": [
+    "04fc7752cd732b0f1479b913aaa61e60 2291 libnginx-mod-js_0.8.2-1.dsc b0b1ce84754d8def079ea1b8b5d130d0 733916 libnginx-mod-js_0.8.2.orig.tar.gz f40fbc33ee896525e3d5455887e4acb5 6060 libnginx-mod-js_0.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nginx.org/en/docs/njs/"
+  ],
+  "Maintainer": [
+    "Debian Nginx Maintainers \u003cpkg-nginx-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libnginx-mod-js"
+  ],
+  "Package-List": [
+    "libnginx-mod-http-js deb httpd optional arch=any libnginx-mod-stream-js deb httpd optional arch=any njs deb httpd optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "curl, nginx, nginx-core"
+  ],
+  "Uploaders": [
+    "Jérémy Lal \u003ckapouer@melix.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-js"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-js.git"
+  ],
+  "Version": [
+    "0.8.2-1"
+  ]
+}

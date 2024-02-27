@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libmime-types-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libmojolicious-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "8d23b39c55124b0d161e8e4dafbd85f12495ccc3abf35729f65df4ecab5e6005 2499 libmime-types-perl_2.26-1.dsc bc738483cb4cdb47d61e85fe9304fa929aa9ab927e3171ec2ba2ab1cd7cefdff 66972 libmime-types-perl_2.26.orig.tar.gz b85b4dc77ccabe8bf51e207bb3dd1263cd97c773ced59bce5f6ab800ebdeeb88 5052 libmime-types-perl_2.26-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "809b52f1885dc6607ebb8c10a970cdc774768b50 debian archive/debian/2.26-1 https://git.dgit.debian.org/libmime-types-perl"
+  ],
+  "Directory": [
+    "pool/main/libm/libmime-types-perl"
+  ],
+  "Files": [
+    "edd5c462deabd7569fe7a4aeade466bd 2499 libmime-types-perl_2.26-1.dsc 2ce35a6cf77fe1a256bbede0adc17070 66972 libmime-types-perl_2.26.orig.tar.gz 910d6aa0810de691a8f7d7bd88252e27 5052 libmime-types-perl_2.26-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/MIME-Types"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmime-types-perl"
+  ],
+  "Package-List": [
+    "libmime-types-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmime-types-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmime-types-perl.git"
+  ],
+  "Version": [
+    "2.26-1"
+  ]
+}

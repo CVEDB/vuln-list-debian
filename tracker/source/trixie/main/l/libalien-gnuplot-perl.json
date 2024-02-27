@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libalien-gnuplot-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gnuplot-qt | gnuplot-x11 | gnuplot-nox, libalien-build-perl, libfile-which-perl, libhttp-tiny-perl, libio-socket-ssl-perl, libmozilla-ca-perl, libnet-ssleay-perl, libtest-exception-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, liburi-perl, libversion-perl, perl"
+  ],
+  "Checksums-Sha256": [
+    "db80be5eb69642fe546f7cd909946ee357613e05caba96dc932f9e55b8ab65f9 2637 libalien-gnuplot-perl_1.042-1.dsc 2671fb92ac9ccd9dcb285761bd49741909543a7d1f3105e4d8546ba63c5a21ca 9832 libalien-gnuplot-perl_1.042.orig.tar.gz 37d606fd137709725d36f48c7fde4bf4cd5a5dbff45301e508d70522c92d847d 2612 libalien-gnuplot-perl_1.042-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "1afb7338a64a3621869b6c2717d627d880fce883 debian archive/debian/1.042-1 https://git.dgit.debian.org/libalien-gnuplot-perl"
+  ],
+  "Directory": [
+    "pool/main/liba/libalien-gnuplot-perl"
+  ],
+  "Files": [
+    "7437e4baff2205b2f7ca14803e395504 2637 libalien-gnuplot-perl_1.042-1.dsc 755a300c02995299aded4fc86ff0313b 9832 libalien-gnuplot-perl_1.042.orig.tar.gz c02fee2b7b1692bb2df06f39c2041c96 2612 libalien-gnuplot-perl_1.042-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Alien-Gnuplot"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libalien-gnuplot-perl"
+  ],
+  "Package-List": [
+    "libalien-gnuplot-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Dima Kogan \u003cdima@secretsauce.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libalien-gnuplot-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libalien-gnuplot-perl.git"
+  ],
+  "Version": [
+    "1.042-1"
+  ]
+}

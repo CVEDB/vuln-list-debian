@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-propka-doc, python3-propka"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-sphinxdoc, help2man, python3-all, python3-numpy \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "d8f3d0b7710ad9a2a3c63c56ccaf591c2b5015062bec5c9580a997b1480d4629 2171 propka_3.5.1-1.dsc 3137c08e2c64f982a64e5a94740a76d4c4766bd0971c670c268ac6c227330f66 376186 propka_3.5.1.orig.tar.gz 99f6be177adaef47712458056e61376daa56ab296902a48a94c338bdab8c1620 4988 propka_3.5.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/propka"
+  ],
+  "Files": [
+    "8302e8f7927c4d1b277c8904082a301a 2171 propka_3.5.1-1.dsc 9aec20948f291f267164a15c45b159f3 376186 propka_3.5.1.orig.tar.gz 12c8542dad9e3f6b2ad41086ca325c11 4988 propka_3.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://propka.org"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "propka"
+  ],
+  "Package-List": [
+    "python-propka-doc deb doc optional arch=all python3-propka deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/propka"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/propka.git"
+  ],
+  "Version": [
+    "3.5.1-1"
+  ]
+}

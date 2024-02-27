@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-getkin-kin-openapi-dev"
+  ],
+  "Build-Depends": [
+    "ca-certificates, debhelper (\u003e= 13.4), debhelper-compat (= 13), dh-golang (\u003e= 1.58~), dh-sequence-golang, golang-any (\u003e= 2:1.20~), golang-github-invopop-yaml-dev (\u003e= 0.2.0), golang-github-go-openapi-jsonpointer-dev (\u003e= 1:0.20.2), golang-github-gorilla-mux-dev (\u003e= 1.8.1), golang-github-mohae-deepcopy-dev (\u003e= 0.0~git20170929.c48cc78), golang-github-perimeterx-marshmallow-dev (\u003e= 1.1.5), golang-github-stretchr-testify-dev (\u003e= 1.8.4), golang-gopkg-yaml.v3-dev (\u003e= 3.0.1)"
+  ],
+  "Checksums-Sha256": [
+    "6778b681a61efe31dbecb5930a5d313b1c0b8b75685714903c439eef46197efe 2779 golang-github-getkin-kin-openapi_0.123.0-1.dsc 8a76f3696f3734ab2c3a0e8a20c3e7b3b17dbacfd6f67cdc21b11c23684e12ef 475842 golang-github-getkin-kin-openapi_0.123.0.orig.tar.gz 9649558d638c3e6bbac1ef4202522ffa26528b9582a89185f342704cb2a2b005 5160 golang-github-getkin-kin-openapi_0.123.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-getkin-kin-openapi"
+  ],
+  "Files": [
+    "927b4e498b5a061143d5c25cfdd5560d 2779 golang-github-getkin-kin-openapi_0.123.0-1.dsc f783636151f8b6cb2e6e901eec81de70 475842 golang-github-getkin-kin-openapi_0.123.0.orig.tar.gz 93e0ce4c132444a844d08af691a25660 5160 golang-github-getkin-kin-openapi_0.123.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/getkin/kin-openapi"
+  ],
+  "Homepage": [
+    "https://github.com/getkin/kin-openapi"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-getkin-kin-openapi"
+  ],
+  "Package-List": [
+    "golang-github-getkin-kin-openapi-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Alexandre Viau \u003caviau@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-getkin-kin-openapi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-getkin-kin-openapi.git"
+  ],
+  "Version": [
+    "0.123.0-1"
+  ]
+}

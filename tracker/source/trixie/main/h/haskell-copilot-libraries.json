@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-copilot-libraries-dev, libghc-copilot-libraries-prof, libghc-copilot-libraries-doc"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), cdbs, ghc, ghc-prof, libghc-copilot-language-dev (\u003e= 3.18.1), libghc-copilot-language-dev (\u003c\u003c 3.19), libghc-copilot-language-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-copilot-interpreter-dev, libghc-copilot-interpreter-prof, libghc-copilot-theorem-dev, libghc-copilot-theorem-prof, libghc-test-framework-dev, libghc-test-framework-prof, libghc-test-framework-quickcheck2-dev, libghc-test-framework-quickcheck2-prof, z3"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-copilot-language-doc"
+  ],
+  "Checksums-Sha256": [
+    "e6dd011e498d3407a3af0d8b9c44789dcb59b261db320ea7132782beba30f5b6 2910 haskell-copilot-libraries_3.18.1-2.dsc 435fb4160e1fe4f5217a340b3c9998b0cb6885e3a9c02266ae42f35e61671bc1 19797 haskell-copilot-libraries_3.18.1.orig.tar.gz 5f33f7851aa27b74fdf76a628539af92175263454e887b190bace5a8bb4250d7 2556 haskell-copilot-libraries_3.18.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-copilot-libraries"
+  ],
+  "Files": [
+    "4edfffc40d1058d965f53a2dad972673 2910 haskell-copilot-libraries_3.18.1-2.dsc adefa068a72ea3bb91bd7ab13bc6010a 19797 haskell-copilot-libraries_3.18.1.orig.tar.gz 8513f96605629b3d8c0ca6291b53c242 2556 haskell-copilot-libraries_3.18.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://copilot-language.github.io"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-copilot-libraries"
+  ],
+  "Package-List": [
+    "libghc-copilot-libraries-dev deb haskell optional arch=any libghc-copilot-libraries-doc deb doc optional arch=all libghc-copilot-libraries-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-copilot-libraries"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-copilot-libraries]"
+  ],
+  "Version": [
+    "3.18.1-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gix-trace-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2a71668e6dffaea478c39d0f09c98c24ddf8b2604eefca32f29746dbd0df05aa 2171 rust-gix-trace_0.1.7-1.dsc 02b202d766a7fefc596e2cc6a89cda8ad8ad733aed82da635ac120691112a9b1 9647 rust-gix-trace_0.1.7.orig.tar.gz a973dcfdff08f3f0b0279728d90b231678bb80163bf996cf887c28fceed9ebd4 2924 rust-gix-trace_0.1.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gix-trace"
+  ],
+  "Files": [
+    "311ab39be9a7142b6a2c42cc811946a8 2171 rust-gix-trace_0.1.7-1.dsc 332e9728335f278317f95293a56df6ff 9647 rust-gix-trace_0.1.7.orig.tar.gz bbc66dd090ba6de20ed7e88d66360c03 2924 rust-gix-trace_0.1.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gix-trace"
+  ],
+  "Package-List": [
+    "librust-gix-trace-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gix-trace"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-trace]"
+  ],
+  "Version": [
+    "0.1.7-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libcloudproviders0, gir1.2-cloudproviders-0.3.0, libcloudproviders-dev, libcloudproviders-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev, meson, valac"
+  ],
+  "Checksums-Sha256": [
+    "49751b614c08f4ed9f206804d28fb7cd56e506865476dff719dee47d93b757d7 2419 libcloudproviders_0.3.5-1.dsc b987456eddaf715ba9d623aa2bc501ab1b697dffeb11aaa783a637275df186da 23652 libcloudproviders_0.3.5.orig.tar.xz fb344d62c53579927b61e857b31c07593f3a569138a7ff892777f4e0d723f977 3684 libcloudproviders_0.3.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libcloudproviders"
+  ],
+  "Files": [
+    "0c134530a86db78ae961b2615dae548b 2419 libcloudproviders_0.3.5-1.dsc bdb46d0e8222df79eeff4043cd9933b2 23652 libcloudproviders_0.3.5.orig.tar.xz 809f9a52c42652152f073f5fb22fe71b 3684 libcloudproviders_0.3.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/World/libcloudproviders"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcloudproviders"
+  ],
+  "Package-List": [
+    "gir1.2-cloudproviders-0.3.0 deb introspection optional arch=any libcloudproviders-dev deb libdevel optional arch=any libcloudproviders-doc deb doc optional arch=all profile=!nodoc libcloudproviders0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libcloudproviders"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libcloudproviders.git"
+  ],
+  "Version": [
+    "0.3.5-1"
+  ]
+}

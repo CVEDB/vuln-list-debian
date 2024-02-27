@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-folium"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-branca, python3-jinja2, python3-six, python3-numpy, python3-requests, python3-sphinx, python3-nbsphinx, python3-ipython-genutils, python3-pydata-sphinx-theme, python3-xyzservices"
+  ],
+  "Checksums-Sha256": [
+    "6b06239017351bfb95fb594c7c39a9e31228e2f57a0f98651b36ab45b062a434 2220 folium_0.15.1+dfsg1-1.dsc 07b3d164f1d7e9c8c10f7972c34eb84dd9da8bd47d5a1a91638969539d02fa6f 104764 folium_0.15.1+dfsg1.orig.tar.xz 050d1b6de12678769f20b7bc854e4fb82a327a70e98c45d5de78cb801751226c 5724 folium_0.15.1+dfsg1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/folium"
+  ],
+  "Files": [
+    "df8262c5d9433ed5c72731a7a2035d19 2220 folium_0.15.1+dfsg1-1.dsc ca2404f6b686e4cfd338a202575deecd 104764 folium_0.15.1+dfsg1.orig.tar.xz e44fd4f2dce2ca88ad422aacd9307ee7 5724 folium_0.15.1+dfsg1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://python-visualization.github.io/folium/"
+  ],
+  "Maintainer": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Package": [
+    "folium"
+  ],
+  "Package-List": [
+    "python3-folium deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-numpy, python3-pandas"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/georgesk/folium"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/georgesk/folium.git"
+  ],
+  "Version": [
+    "0.15.1+dfsg1-1"
+  ]
+}

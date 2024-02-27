@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gnome-system-monitor"
+  ],
+  "Build-Depends": [
+    "appstream-util \u003c!nocheck\u003e, debhelper-compat (= 13), desktop-file-utils \u003c!nocheck\u003e, dh-sequence-gnome, docbook-to-man, gsettings-desktop-schemas-dev, itstool, libadwaita-1-dev (\u003e= 1.4.0), libglib2.0-dev, libgtk-4-dev (\u003e= 4.12.0), libgtkmm-4.0-dev, libgtop2-dev (\u003e= 2.41.2), librsvg2-dev, libsystemd-dev [linux-any], libxml2-dev, meson (\u003e= 0.57.0), pkgconf, polkitd"
+  ],
+  "Checksums-Sha256": [
+    "349838a9d380a339824c5d2609cd51f73997cf67bebe75a7bf4ff9efe7b55d99 2509 gnome-system-monitor_46~beta-1.dsc 18ec52709ee08cfbcf09727db05b7d2b951a99342a212f891db27ecbdf2debb3 1037452 gnome-system-monitor_46~beta.orig.tar.xz 470cdee68e3a6ea5705e3f4519ebca303efea73f23ce6b8e17a3102a7a412497 17256 gnome-system-monitor_46~beta-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-system-monitor"
+  ],
+  "Files": [
+    "fba7180761ccaa77618ea25483a3197f 2509 gnome-system-monitor_46~beta-1.dsc 3c7c5b329ef22623a6e04e6cc75ff236 1037452 gnome-system-monitor_46~beta.orig.tar.xz 5a82da97316beab638f084323923b9f1 17256 gnome-system-monitor_46~beta-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Apps/SystemMonitor"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-system-monitor"
+  ],
+  "Package-List": [
+    "gnome-system-monitor deb gnome optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-system-monitor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-system-monitor.git"
+  ],
+  "Version": [
+    "46~beta-1"
+  ]
+}

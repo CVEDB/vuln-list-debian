@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-16-pgvector"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "a9de9bcef7c761a520de3683f892e8eea8399ab9cd5c728e079bcabb4a3d697d 2027 pgvector_0.6.0-1.dsc b0cf4ba1ab016335ac8fb1cada0d2106235889a194fffeece217c5bda90b2f19 80110 pgvector_0.6.0.orig.tar.gz 7c89cfa8cd3ec354833e80a6ae24fd827ed291ceb95761faf6487cf11bfe6fe8 3068 pgvector_0.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgvector"
+  ],
+  "Files": [
+    "7f55eb20cb87cf515e54ea2a65d59e17 2027 pgvector_0.6.0-1.dsc dc24939b843cb3137d228c4c7c3b46f0 80110 pgvector_0.6.0.orig.tar.gz efb992e873eccd78336f8d6448c157a6 3068 pgvector_0.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pgvector/pgvector"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pgvector"
+  ],
+  "Package-List": [
+    "postgresql-16-pgvector deb database optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Uploaders": [
+    "Bradford D. Boyle \u003cbradford.d.boyle@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pgvector"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pgvector.git"
+  ],
+  "Version": [
+    "0.6.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lilypond, lilypond-data, lilypond-fonts, lilypond-doc, lilypond-doc-pdf, lilypond-doc-html, lilypond-doc-html-ca, lilypond-doc-html-cs, lilypond-doc-html-de, lilypond-doc-html-es, lilypond-doc-html-fr, lilypond-doc-html-hu, lilypond-doc-html-it, lilypond-doc-html-ja, lilypond-doc-html-nl, lilypond-doc-html-pt, lilypond-doc-html-zh, lilypond-doc-pdf-ca, lilypond-doc-pdf-de, lilypond-doc-pdf-es, lilypond-doc-pdf-fr, lilypond-doc-pdf-hu, lilypond-doc-pdf-it, lilypond-doc-pdf-nl, lilypond-doc-pdf-pt"
+  ],
+  "Build-Depends": [
+    "bison, dblatex, debhelper-compat (= 13), dh-python, extractpdfmark, flex, fontconfig, fontforge, fonts-freefont-otf, fonts-ipafont-mincho, fonts-linuxlibertine, fonts-texgyre, fonts-urw-base35, gettext, ghostscript, groff, gsfonts, guile-2.2-dev, help2man, imagemagick [kfreebsd-any], imagemagick-6.q16 [!kfreebsd-any], libfl-dev, libfontconfig-dev, libfreetype-dev, libglib2.0-dev, libpango1.0-dev, m4, netpbm, pkg-config, python3, rsync, texi2html, texinfo, texlive-font-utils, texlive-fonts-recommended, texlive-lang-cyrillic, texlive-latex-base, texlive-latex-recommended, texlive-metapost, texlive-plain-generic, zip"
+  ],
+  "Checksums-Sha256": [
+    "bd64b0d995a84ba6624375876aab9a733d0c9ab46cdf6c5a200945dbc17f155f 4400 lilypond_2.24.3-1.dsc df005f76ef7af5a4cd74a10f8e7115278b7fa79f14018937b65c109498ec44be 19441299 lilypond_2.24.3.orig.tar.gz 30d87d1e9c06949e82d619fa8631006c5b22a8d59b0796e5a5250db7cc4a56af 48416 lilypond_2.24.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lilypond"
+  ],
+  "Files": [
+    "e40529eeedd62afc4cba4cc3736c4a37 4400 lilypond_2.24.3-1.dsc 4e968f826586b7a5ac24f54f6007166a 19441299 lilypond_2.24.3.orig.tar.gz c33d471161a33ed60b73cc042e4a709d 48416 lilypond_2.24.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lilypond.org/"
+  ],
+  "Maintainer": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Package": [
+    "lilypond"
+  ],
+  "Package-List": [
+    "lilypond deb tex optional arch=any lilypond-data deb tex optional arch=all lilypond-doc deb doc optional arch=all lilypond-doc-html deb doc optional arch=all lilypond-doc-html-ca deb doc optional arch=all lilypond-doc-html-cs deb doc optional arch=all lilypond-doc-html-de deb doc optional arch=all lilypond-doc-html-es deb doc optional arch=all lilypond-doc-html-fr deb doc optional arch=all lilypond-doc-html-hu deb doc optional arch=all lilypond-doc-html-it deb doc optional arch=all lilypond-doc-html-ja deb doc optional arch=all lilypond-doc-html-nl deb doc optional arch=all lilypond-doc-html-pt deb doc optional arch=all lilypond-doc-html-zh deb doc optional arch=all lilypond-doc-pdf deb doc optional arch=all lilypond-doc-pdf-ca deb doc optional arch=all lilypond-doc-pdf-de deb doc optional arch=all lilypond-doc-pdf-es deb doc optional arch=all lilypond-doc-pdf-fr deb doc optional arch=all lilypond-doc-pdf-hu deb doc optional arch=all lilypond-doc-pdf-it deb doc optional arch=all lilypond-doc-pdf-nl deb doc optional arch=all lilypond-doc-pdf-pt deb doc optional arch=all lilypond-fonts deb tex optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "tex"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "autoconf, build-essential, dblatex, extractpdfmark, fonts-linuxlibertine, guile-2.2-dev, imagemagick-6.q16, libfontconfig-dev, libglib2.0-dev, libpango1.0-dev, python3, rsync, texi2html, texinfo, texlive-latex-base, zip"
+  ],
+  "Uploaders": [
+    "Don Armstrong \u003cdon@debian.org\u003e, Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/lilypond"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/lilypond.git"
+  ],
+  "Version": [
+    "2.24.3-1"
+  ]
+}

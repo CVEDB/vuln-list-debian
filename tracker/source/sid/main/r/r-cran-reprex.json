@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-reprex"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-callr (\u003e= 3.6.0), r-cran-cli (\u003e= 3.2.0), r-cran-clipr, r-cran-fs, r-cran-glue, r-cran-knitr, r-cran-lifecycle, r-cran-rlang (\u003e= 1.0.0), r-cran-rmarkdown, r-cran-rstudioapi, r-cran-withr"
+  ],
+  "Checksums-Sha256": [
+    "c0e87e6200dc9dd9a46d1d4642bc45f9a8555a97c9c15412a20ab607b9f25de4 2384 r-cran-reprex_2.1.0-1.dsc 0a0dfe5976e5ddb908d5a7582b11cbddee342e99d8dbd64b08ff64c1e705a951 1088629 r-cran-reprex_2.1.0.orig.tar.gz f0b6b95f5c5d644ebf3dd12ca33e645c5769f9e7d934e8200c014715796470b6 3032 r-cran-reprex_2.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-reprex"
+  ],
+  "Files": [
+    "8f371726218d6864e58b49a4995c35c0 2384 r-cran-reprex_2.1.0-1.dsc f9c998d2dc355b00fbde58c04d97d220 1088629 r-cran-reprex_2.1.0.orig.tar.gz 6463dde02c0e41d00dfd18eeb37bde86 3032 r-cran-reprex_2.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=reprex"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-reprex"
+  ],
+  "Package-List": [
+    "r-cran-reprex deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-miniui, r-cran-rprojroot, r-cran-sessioninfo, r-cran-shiny, r-cran-spelling, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-reprex"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-reprex.git"
+  ],
+  "Version": [
+    "2.1.0-1"
+  ]
+}

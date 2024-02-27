@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libhwloc-contrib-plugins"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, libltdl-dev [!gnu-any-any] \u003c!pkg.hwloc.minimum\u003e, valgrind-if-available \u003c!pkg.hwloc.minimum\u003e, libcairo2-dev \u003c!pkg.hwloc.minimum\u003e, libx11-dev \u003c!pkg.hwloc.minimum\u003e, libxml2-dev \u003c!pkg.hwloc.minimum\u003e, libxml2-utils \u003c!nocheck !pkg.hwloc.minimum\u003e, libncurses-dev \u003c!pkg.hwloc.minimum\u003e, libnuma-dev [linux-any] \u003c!nocheck !pkg.hwloc.minimum\u003e, libxnvctrl-dev \u003c!pkg.hwloc.minimum\u003e, nvidia-cuda-dev \u003c!pkg.hwloc.minimum\u003e, libpciaccess-dev \u003c!pkg.hwloc.minimum\u003e, libudev-dev [linux-any] \u003c!pkg.hwloc.minimum\u003e, pkg-config, ocl-icd-opencl-dev [!hurd-any] \u003c!pkg.hwloc.minimum\u003e | opencl-dev \u003c!pkg.hwloc.minimum\u003e, opencl-headers \u003c!pkg.hwloc.minimum\u003e, autoconf (\u003e= 2.63), dpkg-dev (\u003e= 1.16)"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen-latex \u003c!nodoc\u003e, transfig \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c043cccf28be2048fca24a3274f398d7f22d0c76acfdfe23d070f77070b2915c 2741 hwloc-contrib_2.10.0-1.dsc 79d7f0516d2ac462e3718d2df37837a632f52e359657fa0fca6373103a35df13 2633391 hwloc-contrib_2.10.0.orig.tar.bz2 7bea3b7079142e6acd13ca94587305d15a2d46ad9b7b34a32d89c710c693686f 13120 hwloc-contrib_2.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/h/hwloc-contrib"
+  ],
+  "Files": [
+    "8fd732f0b7de1418ae3b37fd892ca683 2741 hwloc-contrib_2.10.0-1.dsc f11042340ecf333f4f0dffc919f411ad 2633391 hwloc-contrib_2.10.0.orig.tar.bz2 1ad27623771d597e84a018d081c4f48d 13120 hwloc-contrib_2.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-mpi.org/projects/hwloc/"
+  ],
+  "Maintainer": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e"
+  ],
+  "Package": [
+    "hwloc-contrib"
+  ],
+  "Package-List": [
+    "libhwloc-contrib-plugins deb contrib/libs optional arch=any profile=!pkg.hwloc.minimum"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/hwloc/-/tree/contrib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/hwloc.git -b contrib"
+  ],
+  "Version": [
+    "2.10.0-1"
+  ]
+}

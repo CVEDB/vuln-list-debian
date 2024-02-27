@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-rhdf5lib"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, libhdf5-dev"
+  ],
+  "Checksums-Sha256": [
+    "63bc977a193646f0c8540b5b33e78170203aa12fed94adbc9013c1371f01f966 2120 r-bioc-rhdf5lib_1.24.2+dfsg-1.dsc 95d3d674f6575eb2a6e51d683e98f8c7f86d4b4136c4b27234eb097b66af55ba 112792 r-bioc-rhdf5lib_1.24.2+dfsg.orig.tar.xz d8ba1172c5c3f865caf018832946eea640e4ebaef3dd498d9dd72faab7200e07 7540 r-bioc-rhdf5lib_1.24.2+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-rhdf5lib"
+  ],
+  "Files": [
+    "2d07e6af5ceb8187eeb25b0d77e5e986 2120 r-bioc-rhdf5lib_1.24.2+dfsg-1.dsc 55a735fe78ef5d78152cabcc46edf54b 112792 r-bioc-rhdf5lib_1.24.2+dfsg.orig.tar.xz 7e8a4bc15de6348e098453d56f03ab58 7540 r-bioc-rhdf5lib_1.24.2+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/Rhdf5lib/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-rhdf5lib"
+  ],
+  "Package-List": [
+    "r-bioc-rhdf5lib deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rhdf5lib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rhdf5lib.git"
+  ],
+  "Version": [
+    "1.24.2+dfsg-1"
+  ]
+}

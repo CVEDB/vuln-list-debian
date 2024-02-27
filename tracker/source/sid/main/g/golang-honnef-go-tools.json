@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-honnef-go-tools-dev, go-staticcheck"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any (\u003e= 2:1.19~), golang-github-burntsushi-toml-dev (\u003e= 1.2.1), golang-golang-x-exp-dev (\u003e= 0.0~git20221208.732eee0), golang-golang-x-sys-dev (\u003e= 0.11.0), golang-golang-x-tools-dev (\u003e= 1:0.12.0+git20230825.2191a27)"
+  ],
+  "Checksums-Sha256": [
+    "c59d94caa35a5ae6b30bd97433c8c7a0e594a56a3fe4fb1f9871241b4482c918 2183 golang-honnef-go-tools_2023.1.7-1.dsc 4e9ca88ca734f1ec6c58bc1c2ffc90c30149d030791331c84f06d175d081ec64 730559 golang-honnef-go-tools_2023.1.7.orig.tar.gz 0c161f5807b59f3ea2081c4d61b60df8a389089257029d7b3ed951d2ad0d0c2f 5228 golang-honnef-go-tools_2023.1.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-honnef-go-tools"
+  ],
+  "Files": [
+    "046d6dddda4753b51bd45614fed0f222 2183 golang-honnef-go-tools_2023.1.7-1.dsc e64b2797f48e10f3d35ae6d00ea31a49 730559 golang-honnef-go-tools_2023.1.7.orig.tar.gz 874fabc8129ce9770768b3000a6c16b5 5228 golang-honnef-go-tools_2023.1.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "honnef.co/go/tools"
+  ],
+  "Homepage": [
+    "https://github.com/dominikh/go-tools"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-honnef-go-tools"
+  ],
+  "Package-List": [
+    "go-staticcheck deb golang optional arch=any golang-honnef-go-tools-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e, Shengjing Zhu \u003czhsj@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-honnef-go-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-honnef-go-tools.git"
+  ],
+  "Version": [
+    "2023.1.7-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-maxminddb, python-maxminddb-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all-dev, python3-setuptools, python3-setuptools-scm, python3-wheel, python3-pytest \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, libmaxminddb-dev"
+  ],
+  "Checksums-Sha256": [
+    "c7796384dfda9cc27d3ecc805a09ac28029354cb4aa8904596dca0fd0dde6e51 2401 python-maxminddb_2.5.2-1.dsc 0e78aad059144bb6477f4fa0418f01efc2428a54b61e1d6650ed9aa0e53e6af5 537010 python-maxminddb_2.5.2.orig.tar.gz f15d36327e5c9b2fafc6e85dbc629895c3313ec69227a678a8222f244a24ecc4 10704 python-maxminddb_2.5.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-maxminddb"
+  ],
+  "Files": [
+    "4a5206c340fb71681899d9e53c174054 2401 python-maxminddb_2.5.2-1.dsc f5ac92ac64e5ca873aa77c03238c3adf 537010 python-maxminddb_2.5.2.orig.tar.gz f03c90a4cd7c67793860e317ffce095f 10704 python-maxminddb_2.5.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/maxmind/MaxMind-DB-Reader-python"
+  ],
+  "Maintainer": [
+    "Faidon Liambotis \u003cparavoid@debian.org\u003e"
+  ],
+  "Package": [
+    "python-maxminddb"
+  ],
+  "Package-List": [
+    "python-maxminddb-doc deb doc optional arch=all python3-maxminddb deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Ondřej Nový \u003conovy@debian.org\u003e, Sergio Durigan Junior \u003csergiodj@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/python-maxminddb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/python-maxminddb.git"
+  ],
+  "Version": [
+    "2.5.2-1"
+  ]
+}

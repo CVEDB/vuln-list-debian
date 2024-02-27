@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "avr-libc"
+  ],
+  "Build-Depends": [
+    "gcc-avr (\u003e= 7.3.0+Atmel3.7.0), binutils-avr (\u003e= 2.26.20160125+Atmel3.7.0), debhelper-compat (= 13), doxygen-latex, doxygen, transfig, ghostscript, netpbm, x11-common, autoconf, automake, unzip"
+  ],
+  "Checksums-Sha256": [
+    "e544719edaf2fca8fdc5dd4fc733c783a06c00051e9aa0050cd7d1d95999b401 1979 avr-libc_2.0.0+Atmel3.7.0-1.dsc d99ac04b6fee7c5cf2180e234f789018e0733036c42f91831efa3372cf186dea 3120944 avr-libc_2.0.0+Atmel3.7.0.orig.tar.xz de2ad71826635f781b93b7cf171291a1b262c46366882eb3ca2b00e9a06a3977 337560 avr-libc_2.0.0+Atmel3.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/avr-libc"
+  ],
+  "Files": [
+    "273b0d9b66b5508e79cbdaed087256cc 1979 avr-libc_2.0.0+Atmel3.7.0-1.dsc c13a41e4bf3992f7de60619d7b6fd64b 3120944 avr-libc_2.0.0+Atmel3.7.0.orig.tar.xz 6d94316539a5cc37c1e927bd70fbcecb 337560 avr-libc_2.0.0+Atmel3.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers"
+  ],
+  "Maintainer": [
+    "Steve Meliza \u003cswm@swm1.com\u003e"
+  ],
+  "Package": [
+    "avr-libc"
+  ],
+  "Package-List": [
+    "avr-libc deb otherosfs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "otherosfs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/avr-libc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/avr-libc.git"
+  ],
+  "Version": [
+    "1:2.0.0+Atmel3.7.0-1"
+  ]
+}

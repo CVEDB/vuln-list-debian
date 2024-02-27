@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libbluetooth3, libbluetooth-dev, bluetooth, bluez, bluez-cups, bluez-obexd, bluez-hcidump, bluez-test-tools, bluez-test-scripts"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), flex, bison, libdbus-glib-1-dev, libglib2.0-dev, libcap-ng-dev, libdw-dev, libudev-dev, libreadline-dev, libical-dev, libasound2-dev, udev, check, systemd"
+  ],
+  "Checksums-Sha256": [
+    "68a7f6e54b18689af050123556af6b8504ee8b84362c29f3cfff78448cfb5e4c 2588 bluez_5.50-1.2~deb10u4.dsc 289aa3b5ab92ab4ca1b58d034e72b082e7c91b78634f48df6293554eda4d04ec 1498252 bluez_5.50.orig.tar.xz ec171fa2da6b976aeb74f81601e8627c0a2d55e8278bde623859f5d9f73145b7 46128 bluez_5.50-1.2~deb10u4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/b/bluez"
+  ],
+  "Files": [
+    "ff46094e328456d9f7d64a54e7370d50 2588 bluez_5.50-1.2~deb10u4.dsc bbedd1beaa03610cf9f10bd2cede9ec0 1498252 bluez_5.50.orig.tar.xz 8cffede09cbebdd2fe2634b126428a21 46128 bluez_5.50-1.2~deb10u4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.bluez.org"
+  ],
+  "Maintainer": [
+    "Debian Bluetooth Maintainers \u003cteam+pkg-bluetooth@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "bluez"
+  ],
+  "Package-List": [
+    "bluetooth deb admin optional arch=all bluez deb admin optional arch=linux-any bluez-cups deb admin optional arch=linux-any bluez-hcidump deb admin optional arch=linux-any bluez-obexd deb admin optional arch=linux-any bluez-test-scripts deb admin optional arch=all bluez-test-tools deb admin optional arch=linux-any libbluetooth-dev deb libdevel optional arch=linux-any libbluetooth3 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Uploaders": [
+    "Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bluetooth-team/bluez"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bluetooth-team/bluez.git"
+  ],
+  "Version": [
+    "5.50-1.2~deb10u4"
+  ]
+}

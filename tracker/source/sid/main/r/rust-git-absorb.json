@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-git-absorb-dev, git-absorb"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native, rustc:native, libstd-rust-dev, librust-anyhow-1+default-dev, librust-clap-2+default-dev (\u003e= 2.33-~~), librust-git2-0.18-dev, librust-memchr-2+default-dev (\u003e= 2.3-~~), librust-slog-2+default-dev (\u003e= 2.5-~~), librust-slog-async-2+default-dev (\u003e= 2.5-~~), librust-slog-term-2+default-dev (\u003e= 2.6-~~)"
+  ],
+  "Checksums-Sha256": [
+    "fdd4286c754f419acd1f1d5b0f6a5ac7490d3465206f26f6edc4146f6ed12d64 2540 rust-git-absorb_0.6.11-1.dsc 69bc68a1eec4c1308ff8a429fa44e3881ce487324c81715a10292882510b8f06 22008 rust-git-absorb_0.6.11.orig.tar.gz adfe2cbc201c3a5f43398ecd437f218f216c593203e5abbd83b3fe5aed366a55 6100 rust-git-absorb_0.6.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-git-absorb"
+  ],
+  "Files": [
+    "ab580ee4a1e820d1c61064e2b55ee57c 2540 rust-git-absorb_0.6.11-1.dsc 64edf2ea0f52a08c7d2484d0d7f6fc07 22008 rust-git-absorb_0.6.11.orig.tar.gz a497f7dbce7b5cd8d52f3b0e78e3db06 6100 rust-git-absorb_0.6.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tummychow/git-absorb"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-git-absorb"
+  ],
+  "Package-List": [
+    "git-absorb deb vcs optional arch=any librust-git-absorb-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/git-absorb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/git-absorb]"
+  ],
+  "Version": [
+    "0.6.11-1"
+  ]
+}

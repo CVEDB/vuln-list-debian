@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "faust, faust-common, libfaust2, libfaust-static"
+  ],
+  "Build-Depends": [
+    "bison, cmake, debhelper-compat (= 13), flex, help2man \u003c!cross\u003e, libedit-dev, libmicrohttpd-dev, libncurses-dev, libsndfile-dev, libssl-dev, libtool, llvm-dev, pkg-config, ruby:any, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "e66592e8f1d1cc58c1de6b6fcb3a3a9a490f7eb142ef15c77548cc04148375b8 2422 faust_2.70.3+ds-1.dsc 7a0930d60f4052b2c5754069008b816a33fad88d7bb513c789ec4d4ac01076e7 43045344 faust_2.70.3+ds.orig.tar.xz ed65c88e2c95c11a327092b1deaea9dc59059cc8eff6375f11b622ce6be48f0f 104524 faust_2.70.3+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a98584074a29ea9503f570121f1ae695b0f30ad0 debian archive/debian/2.70.3+ds-1 https://git.dgit.debian.org/faust"
+  ],
+  "Directory": [
+    "pool/main/f/faust"
+  ],
+  "Files": [
+    "f74fd89c3b27b976ddaad59b83e09c99 2422 faust_2.70.3+ds-1.dsc cb9b134ac8848800a244ceee3b40dd46 43045344 faust_2.70.3+ds.orig.tar.xz f44880de8cdb30802280c207f54e5c17 104524 faust_2.70.3+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://faust.grame.fr/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "faust"
+  ],
+  "Package-List": [
+    "faust deb sound optional arch=any faust-common deb sound optional arch=all libfaust-static deb libs optional arch=any libfaust2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/faust"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/faust.git"
+  ],
+  "Version": [
+    "2.70.3+ds-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libdatetime-format-rfc3339-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libdatetime-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "7064cb1effb1f450bd7cdd3209364457f8a40b3c7cfb71c46a3d2a050208c130 2561 libdatetime-format-rfc3339-perl_1.8.0-1.dsc f7dc8ce6f78c72ef2176d9fabf8777ae71714a884f4993be8ba2c3fa06b3469d 10600 libdatetime-format-rfc3339-perl_1.8.0.orig.tar.gz 6ffe96ab9c16106eebb558c7f742b16e6053818053780823c278a52fff57666d 2636 libdatetime-format-rfc3339-perl_1.8.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "b3916a5bf1b1bcaa0c851d3b36fad767da43fd19 debian archive/debian/1.8.0-1 https://git.dgit.debian.org/libdatetime-format-rfc3339-perl"
+  ],
+  "Directory": [
+    "pool/main/libd/libdatetime-format-rfc3339-perl"
+  ],
+  "Files": [
+    "05bb51bcf88278cee77b483b23915b05 2561 libdatetime-format-rfc3339-perl_1.8.0-1.dsc ae36ec6d53057a79bb06d676ba8119a0 10600 libdatetime-format-rfc3339-perl_1.8.0.orig.tar.gz 40bfbc7b006056c2828abaa87d4d9d9b 2636 libdatetime-format-rfc3339-perl_1.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/DateTime-Format-RFC3339"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdatetime-format-rfc3339-perl"
+  ],
+  "Package-List": [
+    "libdatetime-format-rfc3339-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdatetime-format-rfc3339-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdatetime-format-rfc3339-perl.git"
+  ],
+  "Version": [
+    "1.8.0-1"
+  ]
+}

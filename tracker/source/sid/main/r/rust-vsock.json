@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-vsock-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.79-~~) \u003c!nocheck\u003e, librust-nix-0.26+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e0c09ef0f2302dbe01ee7d74570d89eeafa27d42b0db7ff0ff0d1e7d7e3e987d 2309 rust-vsock_0.2.4-4.dsc c932be691560e8f3f7b2be5a47df1b8f45387e1d1df40d45b2e62284b9e9150e 10145 rust-vsock_0.2.4.orig.tar.gz b66d03074e9c46342728bc114ebc45cc998efa40c81a2a264e935b595e509ef4 3032 rust-vsock_0.2.4-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-vsock"
+  ],
+  "Files": [
+    "006fe6f691b647c1075225bb26f36008 2309 rust-vsock_0.2.4-4.dsc 90682ec1cc3e45016f4feccd6bf15390 10145 rust-vsock_0.2.4.orig.tar.gz 57edbe9279a2e234a1e279288e0135b7 3032 rust-vsock_0.2.4-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-vsock/vsock-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-vsock"
+  ],
+  "Package-List": [
+    "librust-vsock-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rand-0.8+default-dev, librust-sha2+default-dev"
+  ],
+  "Uploaders": [
+    "Shengjing Zhu \u003czhsj@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vsock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vsock]"
+  ],
+  "Version": [
+    "0.2.4-4"
+  ]
+}

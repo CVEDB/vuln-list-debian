@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libbobcat6, libbobcat-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), icmake (\u003e= 10.06.00), libmilter-dev, libreadline-dev, libssl-dev, libx11-dev, yodl (\u003e= 4.02.02)"
+  ],
+  "Checksums-Sha256": [
+    "e622b3aa962f8574fb95ea25c77e54eee0f7404fe8f780c7854c45b90b4a51d4 2099 bobcat_6.04.00-1.dsc 95f7e092a020c25323ad6b93d8dc4fe1271bc3b16cbc9de24a47e8751f3483b1 1277947 bobcat_6.04.00.orig.tar.gz 2b709f5de90332125c174af29512fbbbcf45948b00723595e6813fa4893224fd 16240 bobcat_6.04.00-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bobcat"
+  ],
+  "Files": [
+    "45e8da486cb1d2a1e4e8b496c257e303 2099 bobcat_6.04.00-1.dsc 8ad7b38280dcc21ed39cafe134d7aca3 1277947 bobcat_6.04.00.orig.tar.gz ce045ddfdc24582984f38d62c7e4e8ae 16240 bobcat_6.04.00-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://fbb-git.gitlab.io/bobcat/"
+  ],
+  "Maintainer": [
+    "Frank B. Brokken \u003cf.b.brokken@rug.nl\u003e"
+  ],
+  "Package": [
+    "bobcat"
+  ],
+  "Package-List": [
+    "libbobcat-dev deb libdevel optional arch=any libbobcat6 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "George Danchev \u003cdanchev@spnet.net\u003e, tony mancill \u003ctmancill@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/bobcat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/bobcat.git"
+  ],
+  "Version": [
+    "6.04.00-1"
+  ]
+}

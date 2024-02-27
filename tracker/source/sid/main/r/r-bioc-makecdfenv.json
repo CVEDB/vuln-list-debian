@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-makecdfenv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-affyio, r-bioc-biobase, r-bioc-affy, r-bioc-zlibbioc"
+  ],
+  "Checksums-Sha256": [
+    "1664038f29b3a58d979f36bf2004f07f033057779bf5a358081a8d6ed9575f65 2163 r-bioc-makecdfenv_1.78.0-1.dsc 34f484ba6631c92f3e9c0ec51b17345daf2a1f38054d62b9f02182340067ef55 3280024 r-bioc-makecdfenv_1.78.0.orig.tar.gz db5913287faaf6cff64417c3778249195810f629ca8aee4457fc69eecc58d56f 12732 r-bioc-makecdfenv_1.78.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-makecdfenv"
+  ],
+  "Files": [
+    "9672726e20203f4693d8917dcaa91ddc 2163 r-bioc-makecdfenv_1.78.0-1.dsc b5c8877fd5b09fbb4d3656490fa7eb64 3280024 r-bioc-makecdfenv_1.78.0.orig.tar.gz 0ddcd0a56ceecc1df320c1c910489bbf 12732 r-bioc-makecdfenv_1.78.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/makecdfenv/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-makecdfenv"
+  ],
+  "Package-List": [
+    "r-bioc-makecdfenv deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-makecdfenv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-makecdfenv.git"
+  ],
+  "Version": [
+    "1.78.0-1"
+  ]
+}

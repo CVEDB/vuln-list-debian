@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "kmod, libkmod2, libkmod-dev, kmod-udeb, libkmod2-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf, automake, libtool, pkgconf, liblzma-dev (\u003e= 5.4.5-0.2), libssl-dev, libzstd-dev, zstd \u003c!nocheck\u003e, gtk-doc-tools, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "c6fd440e3468dd2bb4bd1fac862f43b787ab8b431cddcbf93df9c76e167dd125 1565 kmod_31+20240202-2.dsc 0b8521d929cc62b7594886c8ed24109a22b96e732fdcc6f0afa486bd62c487bc 253852 kmod_31+20240202.orig.tar.xz fe6cf5b55af39c7ed4126d915ba03175432a666cb93d888d8e7c70ee4a2da113 9064 kmod_31+20240202-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kmod"
+  ],
+  "Files": [
+    "a72339341cf7376f163e6a7d84be75fe 1565 kmod_31+20240202-2.dsc cbfd94db609bf63658a839019d65c793 253852 kmod_31+20240202.orig.tar.xz 0aa99e20c28a16fe9a4ba88224d5b6d0 9064 kmod_31+20240202-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Marco d'Itri \u003cmd@linux.it\u003e"
+  ],
+  "Package": [
+    "kmod"
+  ],
+  "Package-List": [
+    "kmod deb admin important arch=linux-any kmod-udeb udeb debian-installer important arch=linux-any libkmod-dev deb libdevel optional arch=linux-any libkmod2 deb libs optional arch=linux-any libkmod2-udeb udeb debian-installer important arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/md/kmod"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/md/kmod.git"
+  ],
+  "Version": [
+    "31+20240202-2"
+  ]
+}

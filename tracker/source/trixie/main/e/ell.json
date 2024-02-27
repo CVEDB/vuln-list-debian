@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libell0, libell-dev"
+  ],
+  "Build-Depends": [
+    "dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), libglib2.0-dev, procps \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2ca39cf83be26c66da3cb62d6dd069ad29aeed4b419ed6eabfd1966b515aac0f 2011 ell_0.62-2.dsc f1efae12085610049714dc509c6fab3478925801609ad4232ce873b7daf1e03d 567188 ell_0.62.orig.tar.xz 81f50283e2a6fb694fd63ef1f252eb0705033d406542c9d378c73c71f9388eff 11988 ell_0.62-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/ell"
+  ],
+  "Files": [
+    "e82aa0caf73d98ce65110d18d4238584 2011 ell_0.62-2.dsc 720eac90e32a6008ec5408f7930a0415 567188 ell_0.62.orig.tar.xz 4300fa43b159a6cdcdf4e6b9605d6e27 11988 ell_0.62-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://01.org/ell"
+  ],
+  "Maintainer": [
+    "Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e"
+  ],
+  "Package": [
+    "ell"
+  ],
+  "Package-List": [
+    "libell-dev deb libdevel optional arch=linux-any libell0 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libglib2.0-dev"
+  ],
+  "Uploaders": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ell"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ell.git"
+  ],
+  "Version": [
+    "0.62-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "postfix, postfix-ldap, postfix-lmdb, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-sqlite, postfix-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), po-debconf (\u003e= 0.5.0), groff-base, patch, pkg-config, lsb-release, libdb-dev (\u003e= 4.6.19), libldap-dev, liblmdb-dev, libpcre2-dev, default-libmysqlclient-dev, libssl-dev (\u003e= 1.0.2), libsasl2-dev, libpq-dev, libcdb-dev, dpkg-dev (\u003e= 1.16.1~), libsqlite3-dev, html2text, txt2man, libicu-dev, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "dc7f85e64d278c286cf78e9b04175ce85c0318741ca4154385db3572f6ea1302 2989 postfix_3.8.5-1.dsc f3e827a2b2e410359ad25d31341970434ab07e36139f9a2ef93981b0ec564c85 4871284 postfix_3.8.5.orig.tar.gz 04049fd1d0a354a062dae5d16ec64ee245781abf71105299649ca70a29575223 220 postfix_3.8.5.orig.tar.gz.asc 4d3be36cb7830b424d961d3b0b6964155f8273bce09d78ad45609a260820e697 199180 postfix_3.8.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/postfix"
+  ],
+  "Files": [
+    "2c5089878d2e662258031e8a37d2b6bc 2989 postfix_3.8.5-1.dsc ae12d4dfc965a74a691a22ace14e7207 4871284 postfix_3.8.5.orig.tar.gz 00f75be37e77e79695b3036837f7df62 220 postfix_3.8.5.orig.tar.gz.asc 0cf0630d5d8693ef7709d3aeb42d9e78 199180 postfix_3.8.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.postfix.org"
+  ],
+  "Maintainer": [
+    "LaMont Jones \u003clamont@debian.org\u003e"
+  ],
+  "Package": [
+    "postfix"
+  ],
+  "Package-List": [
+    "postfix deb mail optional arch=any postfix-cdb deb mail optional arch=any postfix-doc deb doc optional arch=all postfix-ldap deb mail optional arch=any postfix-lmdb deb mail optional arch=any postfix-mysql deb mail optional arch=any postfix-pcre deb mail optional arch=any postfix-pgsql deb mail optional arch=any postfix-sqlite deb mail optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libsasl2-modules, lsb-release, procmail, python3, python3-pexpect, sasl2-bin"
+  ],
+  "Uploaders": [
+    "Scott Kitterman \u003cscott@kitterman.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postfix-team/postfix-dev"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postfix-team/postfix-dev.git"
+  ],
+  "Version": [
+    "3.8.5-1"
+  ]
+}

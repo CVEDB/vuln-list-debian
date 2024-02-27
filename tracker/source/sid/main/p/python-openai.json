@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-openai"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-anyio, python3-distro, python3-hatchling, python3-httpx, python3-pydantic, python3-sniffio, python3-tqdm, python3-typing-extensions"
+  ],
+  "Checksums-Sha256": [
+    "e3e52b78125e85835e35a6b1434fb39318038f9ba328fa5e4d959feb4275c848 2212 python-openai_1.12.0-1.dsc 0489d66f1bb37abd4472342446e47086e81561e4047eb50254cf3275b6995ffd 180776 python-openai_1.12.0.orig.tar.gz e3f0adb8933fc51ec234449ac5d3e0c3d500ad0a025cb436a7d2b8f31a9a6334 1812 python-openai_1.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-openai"
+  ],
+  "Files": [
+    "6c43501eaeb2fca881c60ea2cd33c832 2212 python-openai_1.12.0-1.dsc 889da65901199cac39a68e21b88c1ca8 180776 python-openai_1.12.0.orig.tar.gz 13c1fb1cf8409d3cd2fe0fd60e7c5a10 1812 python-openai_1.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openai/openai-python"
+  ],
+  "Maintainer": [
+    "Debian Deep Learning Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "python-openai"
+  ],
+  "Package-List": [
+    "python3-openai deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/deeplearning-team/python-openai"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/deeplearning-team/python-openai.git"
+  ],
+  "Version": [
+    "1.12.0-1"
+  ]
+}

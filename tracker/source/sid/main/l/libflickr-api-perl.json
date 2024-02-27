@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libflickr-api-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libhttp-message-perl \u003c!nocheck\u003e, libnet-oauth-perl \u003c!nocheck\u003e, libtest-script-perl \u003c!nocheck\u003e, liburi-perl \u003c!nocheck\u003e, libwww-perl \u003c!nocheck\u003e, libxml-libxml-simple-perl \u003c!nocheck\u003e, libxml-parser-lite-tree-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "96e35067331f7246b4e53e72eb596ad035e3ae34b1f6a1ef7ee76e979e15f04b 2647 libflickr-api-perl_1.28-4.dsc 464b447b714ceb890ef52f0799c82c4f2906e0047fffb2e5c7d1338e08e199a5 46615 libflickr-api-perl_1.28.orig.tar.gz 9205cc1e241b99dde507d4420e45fc107a672b6ac1f3b3ab1e07297acb85101a 10032 libflickr-api-perl_1.28-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "b9f779866e0f0de1bfeb100ea7bd6be39611a961 debian archive/debian/1.28-4 https://git.dgit.debian.org/libflickr-api-perl"
+  ],
+  "Directory": [
+    "pool/main/libf/libflickr-api-perl"
+  ],
+  "Files": [
+    "0002495ab2205f17e442ce1bf298675d 2647 libflickr-api-perl_1.28-4.dsc 09f44555942d7c94410e20af60b9462d 46615 libflickr-api-perl_1.28.orig.tar.gz 8fec54527b61b5c6c8b62c8d560036fa 10032 libflickr-api-perl_1.28-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Flickr-API"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libflickr-api-perl"
+  ],
+  "Package-List": [
+    "libflickr-api-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e, Alex Muntada \u003calexm@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libflickr-api-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libflickr-api-perl.git"
+  ],
+  "Version": [
+    "1.28-4"
+  ]
+}

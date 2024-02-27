@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2-emperor"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-emperor \u003c!nocheck\u003e, qiime (\u003e= 2023.9) \u003c!nocheck\u003e, q2templates (\u003e= 2023.9) \u003c!nocheck\u003e, q2-types (\u003e= 2023.9) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a3129921a0f1c44d5fd46b2b20a516b99a01775f39b13100540e8352e87c5b8d 2301 q2-emperor_2023.9.0-1.dsc ec2357d719f5b896ee13fc634789e9684e60254a0bc3e65f6a88c98edfabc3ac 244358 q2-emperor_2023.9.0.orig.tar.gz 401ca879b521a4ad16274d8cc8797ae1da36772c07d70eebd5ff3212c9f03a64 8328 q2-emperor_2023.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-emperor"
+  ],
+  "Files": [
+    "d871d63aa490b1d09d2556b96658e706 2301 q2-emperor_2023.9.0-1.dsc e7767351b95efddc4e0d5b975f571361 244358 q2-emperor_2023.9.0.orig.tar.gz 29a9bfb07f2c097eba318db05b8c6048 8328 q2-emperor_2023.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-emperor"
+  ],
+  "Package-List": [
+    "q2-emperor deb science optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-emperor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-emperor.git"
+  ],
+  "Version": [
+    "2023.9.0-1"
+  ]
+}

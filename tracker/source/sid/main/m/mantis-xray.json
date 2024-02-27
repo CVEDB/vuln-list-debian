@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "mantis-xray"
+  ],
+  "Build-Depends": [
+    "dh-python, python3-setuptools, python3-all, debhelper-compat (= 13), python3-numpy, python3-scipy, python3-h5py, python3-pil, python3-netcdf4"
+  ],
+  "Checksums-Sha256": [
+    "95fee6773094443be8e12d3fb41b821f2c98119a41734729723ce2ea97b7f0a5 2143 mantis-xray_3.1.15-1.dsc 9d98e471ab1e382d6173b7646bfe67100a23aa558c77ecefdd5c1d965de3f96c 1541278 mantis-xray_3.1.15.orig.tar.gz dc35a6cc54427767530373132219625bd7a32867572b5aae7fdb51011a1db577 2588 mantis-xray_3.1.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mantis-xray"
+  ],
+  "Files": [
+    "6452c1aa033911c9bd9c0bc68d6e519f 2143 mantis-xray_3.1.15-1.dsc 090634134f27cf1fd5c237c81f13214a 1541278 mantis-xray_3.1.15.orig.tar.gz 46f4476cecf04ba928c5b4dbca06f856 2588 mantis-xray_3.1.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://spectromicroscopy.com/"
+  ],
+  "Maintainer": [
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "mantis-xray"
+  ],
+  "Package-List": [
+    "mantis-xray deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e, Roland Mas \u003clolando@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/mantis-xray"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/mantis-xray.git"
+  ],
+  "Version": [
+    "3.1.15-1"
+  ]
+}

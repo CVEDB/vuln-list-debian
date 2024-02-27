@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fonts-lxgw-wenkai, fonts-lxgw-wenkai-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fontmake (\u003e= 2.4.1), python3"
+  ],
+  "Checksums-Sha256": [
+    "7ff857b4f245cf98ea60a6fddb2182fa78b868e9641262636833cf5eb3da1cb6 2153 fonts-lxgw-wenkai_1.315+repack-1.dsc 120cc497e6fdb138ac700f08e3e94dd05212242537faf8a29a58a1bb06e45797 302023900 fonts-lxgw-wenkai_1.315+repack.orig.tar.xz 645f1db77ed7aed156fb534845a616dc857c69597d779e04cc759c1844eaa4b8 4280 fonts-lxgw-wenkai_1.315+repack-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fonts-lxgw-wenkai"
+  ],
+  "Files": [
+    "d3c0859412f68dcb77243c5ca6084e7e 2153 fonts-lxgw-wenkai_1.315+repack-1.dsc 66c61c2d4724c6b450f8af633f39017c 302023900 fonts-lxgw-wenkai_1.315+repack.orig.tar.xz 337334b7e4123e89f366c4d8c4c73889 4280 fonts-lxgw-wenkai_1.315+repack-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxgw/LxgwWenKai"
+  ],
+  "Maintainer": [
+    "Debian Fonts Team \u003cdebian-fonts@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fonts-lxgw-wenkai"
+  ],
+  "Package-List": [
+    "fonts-lxgw-wenkai deb fonts optional arch=all fonts-lxgw-wenkai-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "xiao sheng wen \u003catzlinux@sina.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/fonts-team/fonts-lxgw-wenkai"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/fonts-team/fonts-lxgw-wenkai.git"
+  ],
+  "Version": [
+    "1.315+repack-1"
+  ]
+}

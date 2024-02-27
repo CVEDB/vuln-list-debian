@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "lomiri-terminal-app"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), pkg-config, dh-python, python3-all, gettext, libpam0g-dev, qtbase5-dev, qtdeclarative5-dev, xvfb, qml-module-qtquick2, qml-module-qttest, qml-module-lomiri-components, qml-module-termwidget, qml-module-gsettings1.0"
+  ],
+  "Checksums-Sha256": [
+    "6b00745dc44e3d611f4e99fc2eef06af193a163687bab1735cbd0c1bec44397b 2344 lomiri-terminal-app_2.0.2-2.dsc 52fc0e785952b3556289bdd13c844fa688c2664e41f64cae573ea7366a868ae0 176761 lomiri-terminal-app_2.0.2.orig.tar.gz 95e4264a8b69dbf680406d78266a2b4532438b7b4813eec123a79c5cb16dd18f 5572 lomiri-terminal-app_2.0.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lomiri-terminal-app"
+  ],
+  "Files": [
+    "8c5879b968b166b2395f1bbe7efffd1b 2344 lomiri-terminal-app_2.0.2-2.dsc 8e0388ae1c27509a450f2112921f5995 176761 lomiri-terminal-app_2.0.2.orig.tar.gz f8099a2c68b01b46a0284723dd0237d5 5572 lomiri-terminal-app_2.0.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/ubports/development/apps/lomiri-terminal-app"
+  ],
+  "Maintainer": [
+    "Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lomiri-terminal-app"
+  ],
+  "Package-List": [
+    "lomiri-terminal-app deb misc optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Marius Gripsgard \u003cmariogrip@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ubports-team/lomiri-terminal-app"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ubports-team/lomiri-terminal-app.git"
+  ],
+  "Version": [
+    "2.0.2-2"
+  ]
+}

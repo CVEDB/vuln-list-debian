@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-terra"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, libgdal-dev"
+  ],
+  "Checksums-Sha256": [
+    "b07d022c2ec04404ef939b7dc35dc8a35eaf46671df7f029871edbcc6bb4f190 2183 r-cran-terra_1.7-65-1.dsc d4cd9f69ba47fea641b566b39e62585a62d0190966a9a9010e341a8aaa2a3a55 829865 r-cran-terra_1.7-65.orig.tar.gz be32c9e098011a0ec817eb14cf4b73bd2aabfbb4bfc11bb3da54e55e58609fdc 2944 r-cran-terra_1.7-65-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-terra"
+  ],
+  "Files": [
+    "0777b84d18a1c794baf27517d6434c3b 2183 r-cran-terra_1.7-65-1.dsc f00cf0bd72f12e57a5a22e70b4b47a1c 829865 r-cran-terra_1.7-65.orig.tar.gz adab02afd09b9de38b975abe31824bdf 2944 r-cran-terra_1.7-65-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=terra"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-terra"
+  ],
+  "Package-List": [
+    "r-cran-terra deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-deldir, r-cran-htmlwidgets, r-cran-ncdf4, r-cran-sf, r-cran-tinytest, r-cran-xml"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-terra"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-terra.git"
+  ],
+  "Version": [
+    "1.7-65-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "deluge, deluge-common, deluge-console, deluge-gtk, deluge-web, deluged"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dh-python, intltool, pybuild-plugin-pyproject, python3, python3-setuptools, python3-wheel, unzip"
+  ],
+  "Checksums-Sha256": [
+    "cadbc28d6afe315e6d7671e74a436417cc3c37b489c7f500e53a1a71620624c4 2355 deluge_2.1.2~dev0+20240121-1.dsc bcde859fa14c2cb8465e594a47f73b97362e425eea012d73b9a5bd6497ff1c61 2354788 deluge_2.1.2~dev0+20240121.orig.tar.xz 89ffe1c721d1977f242cf986789ca131135e4b6769fda9a71d591901fbebbc62 24988 deluge_2.1.2~dev0+20240121-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/deluge"
+  ],
+  "Files": [
+    "50f8b492c16956bc27a88ea27e5c277b 2355 deluge_2.1.2~dev0+20240121-1.dsc 96aa90a9a77362e963de6541bd880dce 2354788 deluge_2.1.2~dev0+20240121.orig.tar.xz 42db610f560ecc7f8e448b5f3fc4b587 24988 deluge_2.1.2~dev0+20240121-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://deluge-torrent.org"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "deluge"
+  ],
+  "Package-List": [
+    "deluge deb net optional arch=all deluge-common deb net optional arch=all deluge-console deb net optional arch=all deluge-gtk deb net optional arch=all deluge-web deb net optional arch=all deluged deb net optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/deluge"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/deluge"
+  ],
+  "Version": [
+    "2.1.2~dev0+20240121-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-ggeffects"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-insight (\u003e= 0.19.8)"
+  ],
+  "Checksums-Sha256": [
+    "35fb6bd10b323a1394bcead9cf12ebfdbe7888e55ab8eed0eca15dc3156337fe 2968 r-cran-ggeffects_1.4.0+dfsg-1.dsc 4066d837a18e5621e1128dfd2e5478cd4ae18c4e5f08f48c451328f7be974ca3 255804 r-cran-ggeffects_1.4.0+dfsg.orig.tar.xz 75d303af4511aaa3e5d06637125aa41505b17f0db2e58fdd810a6a470a1565f7 3628 r-cran-ggeffects_1.4.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ggeffects"
+  ],
+  "Files": [
+    "86f0663aa012316b6a60ece43e4569af 2968 r-cran-ggeffects_1.4.0+dfsg-1.dsc 31b434059506dc584656983e8a3d5a9a 255804 r-cran-ggeffects_1.4.0+dfsg.orig.tar.xz b7bc716aa59a76205202ff7fa082d344 3628 r-cran-ggeffects_1.4.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ggeffects"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ggeffects"
+  ],
+  "Package-List": [
+    "r-cran-ggeffects deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-aer, r-cran-bayestestr, r-cran-brglm2, r-cran-brms, r-cran-broom, r-cran-car, r-cran-cardata, r-cran-clubsandwich, r-cran-datawizard, r-cran-effects, r-cran-emmeans, r-cran-gam, r-cran-gamm4, r-cran-gee, r-cran-geepack, r-cran-ggplot2, r-cran-ggrepel, r-cran-glmmtmb, r-cran-gridextra, r-cran-haven, r-cran-httr, r-cran-jsonlite, r-cran-knitr, r-cran-lme4, r-cran-magrittr, r-cran-marginaleffects, r-cran-mass, r-cran-matrix, r-cran-mgcv, r-cran-mice, r-cran-nlme, r-cran-nnet, r-cran-ordinal, r-cran-parameters, r-cran-patchwork, r-cran-pscl, r-cran-quantreg, r-cran-rmarkdown, r-cran-rms, r-cran-robustbase, r-cran-rstanarm, r-cran-rstantools, r-cran-sandwich, r-cran-sjlabelled, r-cran-sjstats, r-cran-survey, r-cran-survival, r-cran-testthat, r-cran-tibble, r-cran-vgam, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ggeffects"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ggeffects.git"
+  ],
+  "Version": [
+    "1.4.0+dfsg-1"
+  ]
+}

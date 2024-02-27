@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "lunzip"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "e815840a7ef4d92b45eba3183788799c7e4063ed0bf7a19bb70a95c667c68628 1879 lunzip_1.14-1.dsc f7918792d83043ae3d490a0718bb703faf4d41d24942248c7036b464ca3ea59c 54736 lunzip_1.14.orig.tar.xz 89e058650170004fd46c80e35083160b166d8abff48035d7120fd28edc81e184 6020 lunzip_1.14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lunzip"
+  ],
+  "Files": [
+    "ebabd10ac95c323ee6cf002498b30480 1879 lunzip_1.14-1.dsc 9b17dab5cf00b083c98a1cdc7aab92f5 54736 lunzip_1.14.orig.tar.xz 16cfeb586fe9c997202fba7452246f45 6020 lunzip_1.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.nongnu.org/lzip/lunzip.html"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "lunzip"
+  ],
+  "Package-List": [
+    "lunzip deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/lunzip"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/lunzip"
+  ],
+  "Version": [
+    "1.14-1"
+  ]
+}

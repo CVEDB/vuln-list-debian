@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debhelper, libdebhelper-perl"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.18.0~), libtest-pod-perl \u003cpkg.debhelper.ci\u003e, man-db \u003cpkg.debhelper.ci\u003e, perl:any, po4a \u003c!pkg.debhelper.nonls\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e7d6aec0a8e39cc073a741d70f325ea58af3aeded878bf71a3d96f880a8dda3d 1470 debhelper_13.14.1.dsc 1dcd1e6237f3be2229b83c20403604964393ebee9d246a26f0a32c32ca799411 596924 debhelper_13.14.1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/debhelper"
+  ],
+  "Files": [
+    "5637c3e285ff55aab0918144f6595b4c 1470 debhelper_13.14.1.dsc ff2c5786cddc4e8aca4390dc73fde22f 596924 debhelper_13.14.1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debhelper Maintainers \u003cdebhelper@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "debhelper"
+  ],
+  "Package-List": [
+    "debhelper deb devel optional arch=all libdebhelper-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Niels Thykier \u003cniels@thykier.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/debhelper"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/debhelper.git"
+  ],
+  "Version": [
+    "13.14.1"
+  ]
+}

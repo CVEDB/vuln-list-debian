@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-goto-chg"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "1192b58e94b1f406fe598dc414d00519da7464223e0521f6af13de1df6b9a2d9 1922 goto-chg-el_1.7.5-2.dsc 4d1740209a31014ecd5b75dfac9225f682289e8459a49b567923c284f7bf9179 17713 goto-chg-el_1.7.5.orig.tar.gz c8e692745bc5352e3fe0c2d8773f0953e96d771dd80298ac713250ec17aa6a5f 3884 goto-chg-el_1.7.5-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/goto-chg-el"
+  ],
+  "Files": [
+    "30fe5e63c1e306a842e2adc421c32bd1 1922 goto-chg-el_1.7.5-2.dsc f0dbf948f66b54e8b624645226cd2ba3 17713 goto-chg-el_1.7.5.orig.tar.gz 2472e0913283e762ceb15528f828c27d 3884 goto-chg-el_1.7.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/emacs-evil/goto-chg"
+  ],
+  "Maintainer": [
+    "Marcos Talau \u003ctalau@debian.org\u003e"
+  ],
+  "Package": [
+    "goto-chg-el"
+  ],
+  "Package-List": [
+    "elpa-goto-chg deb editors optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "emacs-nox"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/goto-chg-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/goto-chg-el.git"
+  ],
+  "Version": [
+    "1.7.5-2"
+  ]
+}

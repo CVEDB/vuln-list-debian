@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "pyqt6-dev, pyqt6-dev-tools, pyqt6-examples, python3-dbus.mainloop.pyqt6, python3-pyqt6, python3-pyqt6.qtbluetooth, python3-pyqt6.qtdesigner, python3-pyqt6.qthelp, python3-pyqt6.qtmultimedia, python3-pyqt6.qtnfc, python3-pyqt6.qtpdf, python3-pyqt6.qtpositioning, python3-pyqt6.qtqml, python3-pyqt6.qtquick, python3-pyqt6.qtquick3d, python3-pyqt6.qtremoteobjects, python3-pyqt6.qtsensors, python3-pyqt6.qtserialport, python3-pyqt6.qtsvg, python3-pyqt6.qttexttospeech, python3-pyqt6.qtwebchannel, python3-pyqt6.qtwebsockets"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libqt6opengl6-dev, python-dbus-dev, python3-all-dev, python3-dbus, python3-pyqtbuild (\u003e= 1.15), python3-sipbuild (\u003e= 6.5), qt6-base-dev (\u003e= 6.2.4+dfsg-3~), qt6-connectivity-dev [linux-any], qt6-declarative-dev, qt6-multimedia-dev, qt6-pdf-dev [amd64 arm64 armhf i386], qt6-positioning-dev, qt6-quick3d-dev, qt6-remoteobjects-dev, qt6-sensors-dev, qt6-serialport-dev, qt6-shadertools-dev, qt6-speech-dev, qt6-svg-dev, qt6-tools-dev, qt6-webchannel-dev, qt6-websockets-dev, sip-tools (\u003e= 6.5)"
+  ],
+  "Checksums-Sha256": [
+    "0b19bde533b8a933b45d8533d0091f552b5cca6abca2417ceec3ae501891e137 4168 pyqt6_6.6.1-2.dsc 9f158aa29d205142c56f0f35d07784b8df0be28378d20a97bcda8bd64ffd0379 1043203 pyqt6_6.6.1.orig.tar.gz 961a33af7da971cbfb51e382781a5f4caa60a7d7c895f7d558573e31541489e2 7816 pyqt6_6.6.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyqt6"
+  ],
+  "Files": [
+    "9b44036f80518ad097a91a2ac0e21b1a 4168 pyqt6_6.6.1-2.dsc 4b93fcefb54df7fef21dd8be7a5ef79f 1043203 pyqt6_6.6.1.orig.tar.gz a248775f604857322b9d7f69f9ff5f99 7816 pyqt6_6.6.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://riverbankcomputing.com/software/pyqt/intro"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pyqt6"
+  ],
+  "Package-List": [
+    "pyqt6-dev deb python optional arch=all pyqt6-dev-tools deb python optional arch=all pyqt6-examples deb python optional arch=all python3-dbus.mainloop.pyqt6 deb python optional arch=any python3-pyqt6 deb python optional arch=any python3-pyqt6.qtbluetooth deb python optional arch=linux-any python3-pyqt6.qtdesigner deb python optional arch=any python3-pyqt6.qthelp deb python optional arch=any python3-pyqt6.qtmultimedia deb python optional arch=any python3-pyqt6.qtnfc deb python optional arch=linux-any python3-pyqt6.qtpdf deb python optional arch=amd64,arm64,armhf,i386 python3-pyqt6.qtpositioning deb python optional arch=any python3-pyqt6.qtqml deb python optional arch=any python3-pyqt6.qtquick deb python optional arch=any python3-pyqt6.qtquick3d deb python optional arch=any python3-pyqt6.qtremoteobjects deb python optional arch=any python3-pyqt6.qtsensors deb python optional arch=any python3-pyqt6.qtserialport deb python optional arch=any python3-pyqt6.qtsvg deb python optional arch=any python3-pyqt6.qttexttospeech deb python optional arch=any python3-pyqt6.qtwebchannel deb python optional arch=any python3-pyqt6.qtwebsockets deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all-dbg"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pyqt6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pyqt6.git"
+  ],
+  "Version": [
+    "6.6.1-2"
+  ]
+}

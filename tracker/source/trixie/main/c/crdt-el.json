@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-crdt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "721abaa3e77fb760faa169ca5d99e91d6a55e43c3b165c0bed1aafdefc534fae 1903 crdt-el_0.3.5-2.dsc 25ede456a852c62d90b31a70fea70863b2ff8a06a3cfa0dba52498f5f6d62c16 46530 crdt-el_0.3.5.orig.tar.bz2 9cc5ace0eeec1e892ee4bc736fbb8e9e09f349eaa042c4348444298120185826 2320 crdt-el_0.3.5-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/crdt-el"
+  ],
+  "Files": [
+    "7ab8e931844ba331487a04cabbca693b 1903 crdt-el_0.3.5-2.dsc 8ad9a8f6aba0112f83bb206e74f6e764 46530 crdt-el_0.3.5.orig.tar.bz2 35949f195444eed595dc8c3e43c9f6bc 2320 crdt-el_0.3.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://code.librehq.com/qhong/crdt-el/"
+  ],
+  "Maintainer": [
+    "Debian Emacs addons team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "crdt-el"
+  ],
+  "Package-List": [
+    "elpa-crdt deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/crdt-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/crdt-el.git"
+  ],
+  "Version": [
+    "0.3.5-2"
+  ]
+}

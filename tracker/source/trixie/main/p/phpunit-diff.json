@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "phpunit-diff"
+  ],
+  "Build-Depends": [
+    "ant, debhelper-compat (= 13), dh-sequence-phpcomposer, git, php-symfony-process, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "b28c37d5f37b148392096c19601dc8fed6abbe5a3557e8cc2852e749c6d95ff6 1870 phpunit-diff_4.0.5-1.dsc a627955c53aa0ff01d982e917a3a83edd91a52e1a22f19c9802cd7d0c2a76662 3047468 phpunit-diff_4.0.5.orig.tar.xz 6a00b3e35bcab0f9eff8a1200bcb34e6d8b7d706912abfe5fb11927739694062 52352 phpunit-diff_4.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phpunit-diff"
+  ],
+  "Files": [
+    "38684b010cf8a5f8f5276b4514fc40c5 1870 phpunit-diff_4.0.5-1.dsc 81071d63344509f024e7f984d657c44a 3047468 phpunit-diff_4.0.5.orig.tar.xz c7bae2bb5849f9cabdb531f6caabab4a 52352 phpunit-diff_4.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sebastianbergmann/diff"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phpunit-diff"
+  ],
+  "Package-List": [
+    "phpunit-diff deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "git, php-symfony-process, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpunit-diff"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpunit-diff.git -b debian/4"
+  ],
+  "Version": [
+    "4.0.5-1"
+  ]
+}

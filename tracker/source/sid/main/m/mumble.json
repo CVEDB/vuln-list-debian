@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mumble, mumble-server"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), cmake, libasound2-dev, libavahi-compat-libdnssd-dev, libboost-dev (\u003e= 1.42), libcap-dev [linux-any], libgl-dev, libjack-jackd2-dev, libogg-dev, libopus-dev, libpoco-dev, libprotobuf-dev, libprotoc-dev, libpulse-dev, libqt5svg5-dev, libqt5opengl5-dev, libsndfile1-dev, libspeechd-dev, libspeex-dev, libspeexdsp-dev, libssl-dev, libxi-dev, libzeroc-ice-dev, pkg-config, po-debconf, protobuf-compiler, qtbase5-dev, qttools5-dev, qttools5-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "a579d9f2b932a8a52e06993fadc91bdeab8e020aa58ad98a661d82efc2c596dc 2731 mumble_1.5.517-1.dsc 8efd06a0f47ebfe27735f7575ba0becfb21d0f400a5082202dbbd998ab8351de 12091432 mumble_1.5.517.orig.tar.gz fb8ffb5c7e6aea8dfc1672daa629c7536c7b10a60b37a6f52f30b8860097b351 228 mumble_1.5.517.orig.tar.gz.asc ffea16ab4e83a22126992bd3c8fc2a57c377e98702cc5109f8eae161e5d08746 46136 mumble_1.5.517-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mumble"
+  ],
+  "Files": [
+    "b3644880760ad676865928546e459f04 2731 mumble_1.5.517-1.dsc 23ebbda45eeaca3048536cd0629056b9 12091432 mumble_1.5.517.orig.tar.gz 11af0016c314cf0561670cc1a7d10dc5 228 mumble_1.5.517.orig.tar.gz.asc a9f90e6c6d716c62dbd2e06c5f3f5e55 46136 mumble_1.5.517-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.mumble.info"
+  ],
+  "Maintainer": [
+    "Debian VoIP Team \u003cpkg-voip-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mumble"
+  ],
+  "Package-List": [
+    "mumble deb sound optional arch=any mumble-server deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "xvfb"
+  ],
+  "Uploaders": [
+    "Christopher Knadle \u003cChris.Knadle@coredump.us\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-voip-team/mumble"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-voip-team/mumble.git"
+  ],
+  "Version": [
+    "1.5.517-1"
+  ]
+}

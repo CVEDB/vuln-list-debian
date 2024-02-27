@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libxi6, libxi6-udeb, libxi-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), quilt, x11proto-dev (\u003e= 2021.5), libx11-dev, libxext-dev, libxfixes-dev, xmlto, asciidoc, pkgconf, xutils-dev, xorg-sgml-doctools, xsltproc, w3m"
+  ],
+  "Checksums-Sha256": [
+    "66c739cbe8e7ffbf664604d898fda5676640d8f561156d7b112447b46b099917 2286 libxi_1.8.1-1.dsc 3b5f47c223e4b63d7f7fe758886b8bf665b20a7edb6962c423892fd150e326ea 610202 libxi_1.8.1.orig.tar.gz b5c9eeb7e50cd128d749aa74da9ad4114276b88cc9dd0c0463272d4d5e2ee92d 195 libxi_1.8.1.orig.tar.gz.asc db93ddc4e07100d5b8c7f0c4a1b4a04e53e3d0768aaf3859a332e05be6693f01 25809 libxi_1.8.1-1.diff.gz"
+  ],
+  "Directory": [
+    "pool/main/libx/libxi"
+  ],
+  "Files": [
+    "8956f7be263be181e7bc38096b6e93df 2286 libxi_1.8.1-1.dsc 5e4cfb1c564b5a1398a5badda4cb46e4 610202 libxi_1.8.1.orig.tar.gz fb4acaa8b82c0f43736b5edb4bbc3973 195 libxi_1.8.1.orig.tar.gz.asc b4d9c2572d2128f76f46f469a6294c6e 25809 libxi_1.8.1-1.diff.gz"
+  ],
+  "Format": [
+    "1.0"
+  ],
+  "Homepage": [
+    "https://www.x.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libxi"
+  ],
+  "Package-List": [
+    "libxi-dev deb libdevel optional arch=any libxi6 deb libs optional arch=any libxi6-udeb udeb debian-installer optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/lib/libxi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/lib/libxi.git"
+  ],
+  "Version": [
+    "2:1.8.1-1"
+  ]
+}

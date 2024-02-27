@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-prompt-toolkit"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-asyncssh \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-wcwidth"
+  ],
+  "Checksums-Sha256": [
+    "4602aadf0c163a0e68c8c5e3c9c7d240a9f551383c9d0dbab06fae1b1abf5e99 2324 prompt-toolkit_3.0.43-1.dsc b7c4c9d6becbb89460658bda3afa4ef1c1276ea96da8abdf0d4e6d323aacfe46 2679212 prompt-toolkit_3.0.43.orig.tar.xz 4984ae1e8f380e342348e05dd94efa02802bb45ea4dde5dbac76a5add239dfe4 4528 prompt-toolkit_3.0.43-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/prompt-toolkit"
+  ],
+  "Files": [
+    "b07484d74b309bffaa8c96f0cd011f23 2324 prompt-toolkit_3.0.43-1.dsc 2a0dc4f572019d76d4b91fe5c4f18f0e 2679212 prompt-toolkit_3.0.43.orig.tar.xz 5adbd8fd7152423d1af5d21ed8175720 4528 prompt-toolkit_3.0.43-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/prompt-toolkit/python-prompt-toolkit"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "prompt-toolkit"
+  ],
+  "Package-List": [
+    "python3-prompt-toolkit deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Lennart Weller \u003clhw@ring0.de\u003e, Gordon Ball \u003cgordon@chronitis.net\u003e, Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/prompt-toolkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/prompt-toolkit.git"
+  ],
+  "Version": [
+    "3.0.43-1"
+  ]
+}

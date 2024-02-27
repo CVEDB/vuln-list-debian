@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "texlive-base, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-pictures, texlive-luatex, texlive-metapost, texlive-xetex, texlive, texlive-full, texlive-fonts-recommended-doc, texlive-latex-base-doc, texlive-latex-recommended-doc, texlive-metapost-doc, texlive-pictures-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-strip-nondeterminism"
+  ],
+  "Build-Depends-Indep": [
+    "sharutils, tex-common (\u003e= 6.14), findutils (\u003e= 4.2.0)"
+  ],
+  "Checksums-Sha256": [
+    "6dad7f17b46c72263d8c2ef75de8bc04b52d2f0a441b62e012b1a95e23de4a7f 3261 texlive-base_2023.20240207-1.dsc e23b01fb9b8577b970c1f40fcf79cd4fadacb25236f9d8afd1531244bd7978a4 526438124 texlive-base_2023.20240207.orig.tar.xz 37f8e9e4c0314af9b20bfc2674d0af56a6af1d6ac05e9f14a394492fc727178b 315512 texlive-base_2023.20240207-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/texlive-base"
+  ],
+  "Files": [
+    "189d7f31a6f74e11dd7a2ceed82bd13a 3261 texlive-base_2023.20240207-1.dsc 416c488dec3d8e2c9e4f6ecc0dbf9b6c 526438124 texlive-base_2023.20240207.orig.tar.xz 1445f9ec00fd7720822dc6763bcbf0ab 315512 texlive-base_2023.20240207-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.tug.org/texlive/"
+  ],
+  "Maintainer": [
+    "Debian TeX Task Force \u003cdebian-tex-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "texlive-base"
+  ],
+  "Package-List": [
+    "texlive deb tex optional arch=all texlive-base deb tex optional arch=all texlive-fonts-recommended deb fonts optional arch=all texlive-fonts-recommended-doc deb doc optional arch=all texlive-full deb tex optional arch=all texlive-latex-base deb tex optional arch=all texlive-latex-base-doc deb doc optional arch=all texlive-latex-recommended deb tex optional arch=all texlive-latex-recommended-doc deb doc optional arch=all texlive-luatex deb tex optional arch=all texlive-metapost deb tex optional arch=all texlive-metapost-doc deb doc optional arch=all texlive-pictures deb tex optional arch=all texlive-pictures-doc deb doc optional arch=all texlive-xetex deb tex optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "tex"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Norbert Preining \u003cnorbert@preining.info\u003e, Hilmar Preusse \u003chille42@web.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-tex/texlive-nonbin/tree/master/texlive-base"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-tex/texlive-nonbin.git [texlive-base]"
+  ],
+  "Version": [
+    "2023.20240207-1"
+  ]
+}

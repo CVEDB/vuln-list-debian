@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-connectrpc-connect-dev, protoc-gen-connect-go"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-go-cmp-dev, golang-google-protobuf-dev, golang-golang-x-net-dev"
+  ],
+  "Checksums-Sha256": [
+    "a81466a605c91c49b5c58ac22496309d7af2d500dfafc75f6b500428c893e33b 1781 golang-connectrpc-connect_1.13.0-1.dsc 0d501f79a8e3c5190b74a95bb927073d6ddd97e35dee009c52b14be5bfd648f9 141826 golang-connectrpc-connect_1.13.0.orig.tar.gz b678ae826923e350e2c6c66afed3dc0a57f170a741fd7d3eecfcf3540cf4435c 2612 golang-connectrpc-connect_1.13.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-connectrpc-connect"
+  ],
+  "Files": [
+    "90a674f4d01915566bf1a5d7075b5adf 1781 golang-connectrpc-connect_1.13.0-1.dsc fb2274f982482592b6e4b77326558239 141826 golang-connectrpc-connect_1.13.0.orig.tar.gz 20ee03a3d582701360f12b805ae78c16 2612 golang-connectrpc-connect_1.13.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "connectrpc.com/connect"
+  ],
+  "Homepage": [
+    "https://github.com/connectrpc/connect-go"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-connectrpc-connect"
+  ],
+  "Package-List": [
+    "golang-connectrpc-connect-dev deb golang optional arch=all protoc-gen-connect-go deb golang optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Maytham Alsudany \u003cmaytha8thedev@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-connectrpc-connect"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-connectrpc-connect.git"
+  ],
+  "Version": [
+    "1.13.0-1"
+  ]
+}

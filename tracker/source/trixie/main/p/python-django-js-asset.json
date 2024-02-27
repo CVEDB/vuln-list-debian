@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-js-asset"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-django \u003c!nocheck\u003e, python3-hatchling"
+  ],
+  "Checksums-Sha256": [
+    "57504ba9d079254f5d49741488d937ea190c4cbba7fb0ca29c6174aeada58fb8 2307 python-django-js-asset_2.2-1.dsc 68f18b0cc2ac9d6547e5acf21827b928d82dc20dac0067482c0b2652593a0827 7890 python-django-js-asset_2.2.orig.tar.gz 0d4f4e5e21e9dd9a1af728c0a29d24201a3f771451f63887d0dad26e747e1921 3448 python-django-js-asset_2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-django-js-asset"
+  ],
+  "Files": [
+    "4bc764e07ae57c7005714937de3485c9 2307 python-django-js-asset_2.2-1.dsc d51e819bf6edb1261cafdedef4133970 7890 python-django-js-asset_2.2.orig.tar.gz c34757c396d14ce395594e7a42e4a402 3448 python-django-js-asset_2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/matthiask/django-js-asset/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-django-js-asset"
+  ],
+  "Package-List": [
+    "python3-django-js-asset deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Antonio Terceiro \u003cterceiro@debian.org\u003e, Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-django-js-asset"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-django-js-asset.git"
+  ],
+  "Version": [
+    "2.2-1"
+  ]
+}

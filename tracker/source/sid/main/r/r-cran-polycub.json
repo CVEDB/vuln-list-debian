@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-polycub"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-sp"
+  ],
+  "Checksums-Sha256": [
+    "b38180308614036a8fdb8961c582a85c467458d44f6d4e1d00f3707f33ee2024 2243 r-cran-polycub_0.9.0-1.dsc a9c385465cb00246007c62dc2662a3ceb962bc3cee69987702b24bd72458ac65 141521 r-cran-polycub_0.9.0.orig.tar.gz 6706c63b4821dd867fc528f02d6fd73c61f714b12dd5466a46c878c7dfaf16da 3484 r-cran-polycub_0.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-polycub"
+  ],
+  "Files": [
+    "5fe4021937a9b8c8035563c9916f41dd 2243 r-cran-polycub_0.9.0-1.dsc 021c9edb91c1572cdbf1ba2a55605d29 141521 r-cran-polycub_0.9.0.orig.tar.gz c7abe3d01049b3d576f13c4b6af80636 3484 r-cran-polycub_0.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=polyCub"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-polycub"
+  ],
+  "Package-List": [
+    "r-cran-polycub deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, r-cran-cubature, r-cran-knitr, r-cran-lattice, r-cran-mvtnorm, r-cran-rmarkdown, r-cran-sf, r-cran-spatstat.geom, r-cran-statmod"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-polycub"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-polycub.git"
+  ],
+  "Version": [
+    "0.9.0-1"
+  ]
+}

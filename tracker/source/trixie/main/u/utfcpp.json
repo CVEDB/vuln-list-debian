@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libutfcpp-dev, libutfcpp-doc"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.14), debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "806f171133ee206cba7bbae0a38592f8d6e099bcfdcba88230db7ee4513b0b44 1967 utfcpp_3.2.5+really3.2.4-1.dsc fde21a4c519eed25f095a1cd8490167409cc70d7b5e9c38756142e588ccb7c7e 28822 utfcpp_3.2.5+really3.2.4.orig.tar.gz 2d690bb4cbe80adae0d2da75785c1b76b38b01271866ef9c74a6a81dabbcadc4 6276 utfcpp_3.2.5+really3.2.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/utfcpp"
+  ],
+  "Files": [
+    "dafef46d5991442d5cd5c6f6586f7a70 1967 utfcpp_3.2.5+really3.2.4-1.dsc ffe95c47cd5b5ace31807a2370fdab4a 28822 utfcpp_3.2.5+really3.2.4.orig.tar.gz 71729ad68ccfcc9faf226aaa34df514c 6276 utfcpp_3.2.5+really3.2.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/nemtrif/utfcpp"
+  ],
+  "Maintainer": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Package": [
+    "utfcpp"
+  ],
+  "Package-List": [
+    "libutfcpp-dev deb libdevel optional arch=all libutfcpp-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/utfcpp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/utfcpp.git"
+  ],
+  "Version": [
+    "3.2.5+really3.2.4-1"
+  ]
+}

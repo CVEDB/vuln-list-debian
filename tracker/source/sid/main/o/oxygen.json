@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kde-style-oxygen-qt5, kwin-decoration-oxygen, liboxygenstyle5-5, liboxygenstyleconfig5-5, plasma-theme-oxygen"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.102.0~), gettext, libkdecorations2-dev (\u003e= 4:5.27.10~), libkf5completion-dev (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5configwidgets-dev, libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5guiaddons-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5kcmutils-dev, libkf5service-dev (\u003e= 5.102.0~), libkf5style-dev (\u003e= 5.102.0~), libkf5wayland-dev, libkf5widgetsaddons-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libqt5x11extras5-dev, libx11-dev, libxcb1-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.18~), qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "42b8f098fb9df2ee711a8aa6846e2c7bd949665021ab03e5c7cab2aef6dca390 3179 oxygen_5.27.10-1.dsc 5b16f6e3e5ee11bb959fc0e1fd233bbb0231b54ea8eff5e14fd78003ba2d090b 2786068 oxygen_5.27.10.orig.tar.xz ed6d3b7eee79f9e286dbf44a05eda6a8ff41e155c3b9454f65e5ec81e41a6fee 833 oxygen_5.27.10.orig.tar.xz.asc 1aa2db745cad1dfb58089e9a41bdeae9e9c9d2de34b895b6dfa2c33e29da17ed 18128 oxygen_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/oxygen"
+  ],
+  "Files": [
+    "595c382395b749e8bebc59ab94db473d 3179 oxygen_5.27.10-1.dsc 171949dd2dfc3b2325c959389694860a 2786068 oxygen_5.27.10.orig.tar.xz a1150935772794e11770fe3f3c1246de 833 oxygen_5.27.10.orig.tar.xz.asc 5e51274d9e9bc2e1352a6d0ce540b3ce 18128 oxygen_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/oxygen"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "oxygen"
+  ],
+  "Package-List": [
+    "kde-style-oxygen-qt5 deb kde optional arch=any kwin-decoration-oxygen deb kde optional arch=any liboxygenstyle5-5 deb libs optional arch=any liboxygenstyleconfig5-5 deb libs optional arch=any plasma-theme-oxygen deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/oxygen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/oxygen.git"
+  ],
+  "Version": [
+    "4:5.27.10-1"
+  ]
+}

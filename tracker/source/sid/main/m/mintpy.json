@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mintpy, mintpy, python-mintpy-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-mkdocs, dh-sequence-numpy3, dh-sequence-python3, mkdocs \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-argcomplete, python3-cartopy, python3-cvxopt, python3-dask, python3-distributed, python3-gdal, python3-h5py, python3-joblib, python3-lxml, python3-matplotlib, python3-numpy, python3-pyaps3, python3-pyfftw, python3-pykml, python3-pyproj, python3-pyresample, python3-pysolid, python3-rich, python3-scipy, python3-setuptools, python3-shapely, python3-skimage, python3-utm"
+  ],
+  "Checksums-Sha256": [
+    "77346f1fd5c145d80c84ac9536ab5a56450973cd56701c304d1409218aec9eca 3201 mintpy_1.5.3-2.dsc 67cfdb3cc371f4b61a1373fdd85cb0135b7180f4955a44f6145919f2ab440064 1056114 mintpy_1.5.3.orig.tar.gz 079bbbc3f2c805360e0daeea7fc4bc8aec84b2a3429aca5d5c30d3f5b3357f8b 17844 mintpy_1.5.3-2.debian.tar.xz"
+  ],
+  "Description": [
+    "Miami INsar Time-series software in PYthon The Miami INsar Time-series software in PYthon (MintPy as /mInt paI/) is an open-source package for Interferometric Synthetic Aperture Radar (InSAR) time series analysis. It reads the stack of interferograms (coregistered and unwrapped) in ISCE, ARIA, FRInGE, HyP3, GMTSAR, SNAP, GAMMA or ROI_PAC format, and produces three dimensional (2D in space and 1D in time) ground surface displacement in line-of-sight direction. It includes a routine time series analysis (`smallbaselineApp.py`) and some independent toolbox."
+  ],
+  "Directory": [
+    "pool/main/m/mintpy"
+  ],
+  "Files": [
+    "8eb5f8b9b3cf18ed2facc151981325fe 3201 mintpy_1.5.3-2.dsc 2aa959b46742543e836c4da303ba2406 1056114 mintpy_1.5.3.orig.tar.gz 11100a172f7e83c4b489864c93982f8c 17844 mintpy_1.5.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/insarlab/MintPy"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mintpy"
+  ],
+  "Package-List": [
+    "mintpy deb utils optional arch=all python-mintpy-doc deb doc optional arch=all python3-mintpy deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/mintpy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/mintpy.git"
+  ],
+  "Version": [
+    "1.5.3-2"
+  ]
+}

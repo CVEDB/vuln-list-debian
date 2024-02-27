@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.service-doc, python3-oslo.service"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "procps, python3-babel, python3-coverage, python3-debtcollector, python3-eventlet, python3-fixtures, python3-greenlet, python3-hacking, python3-openstackdocstheme, python3-oslo.concurrency, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslosphinx, python3-oslotest, python3-paste, python3-pastedeploy, python3-requests, python3-routes, python3-stestr, python3-subunit, python3-webob, python3-yappi, subunit"
+  ],
+  "Checksums-Sha256": [
+    "21035fc03e7d580508e6e9b4b21eec5333ec4d1e17cf3fd21157901099367b7f 2776 python-oslo.service_3.2.0-3.dsc c2ec22772c2a5e4dcffe70a56506935f99d994414795287e674ac70a0708641b 58752 python-oslo.service_3.2.0.orig.tar.xz 0d128167da39d9d54aa5aaeb5399eb07f852526c7772cbdb8e99dc49b145dd58 4636 python-oslo.service_3.2.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.service"
+  ],
+  "Files": [
+    "e28f32ef06088ac56902dd63ee4b1af5 2776 python-oslo.service_3.2.0-3.dsc d8ce1a5a6e8fed2d9892b55a7f778671 58752 python-oslo.service_3.2.0.orig.tar.xz 7520669680f4a23d742bc2ae0ad3a732 4636 python-oslo.service_3.2.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/oslo.service"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.service"
+  ],
+  "Package-List": [
+    "python-oslo.service-doc deb doc optional arch=all python3-oslo.service deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.service"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.service.git"
+  ],
+  "Version": [
+    "3.2.0-3"
+  ]
+}

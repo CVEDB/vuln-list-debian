@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "earlyoom"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), golang-any, pandoc, pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "907dba937afb7af27961e53ce12cf98ae24099dc6e072441fcbad225e6a6a30c 1965 earlyoom_1.7-2.dsc ebda1279a813d9b0f7860ce5029ccf5ea9f8868be070f2eaf40f90f2e64b6414 52210 earlyoom_1.7.orig.tar.gz 48436a25b00f3087fcae23f680ea7cf74b0bbc65b479372830249e6d2979e36d 4220 earlyoom_1.7-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/earlyoom"
+  ],
+  "Files": [
+    "d16e8da7ad25fbe7f4661e7599fd95e6 1965 earlyoom_1.7-2.dsc 9c567930c60b2ccdc536951b005d413d 52210 earlyoom_1.7.orig.tar.gz b88fe4714979f26d9cfa6e5354f06cfb 4220 earlyoom_1.7-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rfjakob/earlyoom"
+  ],
+  "Maintainer": [
+    "Yangfl \u003cmmyangfl@gmail.com\u003e"
+  ],
+  "Package": [
+    "earlyoom"
+  ],
+  "Package-List": [
+    "earlyoom deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/yangfl-guest/earlyoom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/yangfl-guest/earlyoom.git"
+  ],
+  "Version": [
+    "1.7-2"
+  ]
+}

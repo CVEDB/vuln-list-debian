@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "astap-cli"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), lazarus, fpc, fp-compiler, lcl, lcl-utils, lcl-nogui"
+  ],
+  "Checksums-Sha256": [
+    "1391d7882cf4f61f974c529d2d742b0edabd20af2b2c29189bf9d6173b2cf0c7 2194 astap-cli_2024.01.17-1.dsc 3f0faf12ca2ccae55685aca78f30035faa5e2d8cb48b6afa72cc0fa956db9f52 1671555 astap-cli_2024.01.17.orig.tar.gz ff16cec3aef20ec4b34c26d34f5d96a9512b609c2d1bd064a262ba91ce355b08 2796 astap-cli_2024.01.17-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/astap-cli"
+  ],
+  "Files": [
+    "20cc9449520218c24331e8c822b1998e 2194 astap-cli_2024.01.17-1.dsc 9112d1eb3617210245777823e4acf74b 1671555 astap-cli_2024.01.17.orig.tar.gz 61a383ebbf95d2543f1452859e800dea 2796 astap-cli_2024.01.17-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.hnsky.org/astap.htm"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "astap-cli"
+  ],
+  "Package-List": [
+    "astap-cli deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/astap-cli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/astap-cli.git"
+  ],
+  "Version": [
+    "2024.01.17-1"
+  ]
+}

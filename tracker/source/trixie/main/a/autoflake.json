@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "autoflake"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-argparse-manpage, python3-hatchling, python3-poetry-core, python3-pyflakes \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-toml \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d8f101354525758805d3ab1c295b16936655d24c93d93912538f1a2eff760d46 2213 autoflake_2.2.1-2.dsc 7fc9e239ca035c10a66200866cb413db43b6bf7f344c6635e33fe8784e7c48d1 30384 autoflake_2.2.1.orig.tar.gz a38b5a51b8ee0230cee8d8c7705a24d4c2b172aeefbf4f35af8cc75468a27324 4016 autoflake_2.2.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/autoflake"
+  ],
+  "Files": [
+    "1325779bd4fd056e87629fc88f0ae524 2213 autoflake_2.2.1-2.dsc 4cf513ffd8c3bebb63fa5d6e419a546f 30384 autoflake_2.2.1.orig.tar.gz 667249c55537ffcd1c40cb6bccf4e6c9 4016 autoflake_2.2.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/PyCQA/autoflake"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "autoflake"
+  ],
+  "Package-List": [
+    "autoflake deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-toml"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/autoflake"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/autoflake.git"
+  ],
+  "Version": [
+    "2.2.1-2"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pre-commit"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "496f0e0384b614d536f6dbf88a627f2959e3118e53f3461baa3e21a80a6892f5 1971 pre-commit_3.6.2-1.dsc 1fd8b181c8d014da90f2041944b69793236d9796464f808fb8ba564ccd8ca171 236032 pre-commit_3.6.2.orig.tar.xz 6f70ed8ab5b6de9e92c77b91ffc2690c2ed07958051dcdfbfe9613d20d1251bb 2944 pre-commit_3.6.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pre-commit"
+  ],
+  "Files": [
+    "982ddd76d26d186b4223c0d9513dcfdd 1971 pre-commit_3.6.2-1.dsc af4f408efeacddb57a9a34ecd0271567 236032 pre-commit_3.6.2.orig.tar.xz 749635fef3943f34b404c9edb8e68326 2944 pre-commit_3.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pre-commit.com"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "pre-commit"
+  ],
+  "Package-List": [
+    "pre-commit deb utils optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/pre-commit"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/pre-commit"
+  ],
+  "Version": [
+    "3.6.2-1"
+  ]
+}

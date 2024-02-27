@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-globus-sdk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-setuptools, python3-all, python3-requests, python3-cryptography, python3-jwt, python3-pytest \u003c!nocheck\u003e, python3-flaky \u003c!nocheck\u003e, python3-responses \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "63b3688a0f445cdfa6b0669d42397bab4cdcdd9d16b0c424410dade641375dd8 2440 python-globus-sdk_3.37.0-1.dsc b311a8c8d32dce9987f376dffff4e79a3d85d2967579145b48fce35bfdf73158 286564 python-globus-sdk_3.37.0.orig.tar.xz d85b8786b234ff12abf2bc94d291d99453902922ecbee33d59aac8387d0d3e18 2128 python-globus-sdk_3.37.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "15e6ff7b1b5cc7be294023520d10bc19ea575399 debian archive/debian/3.37.0-1 https://git.dgit.debian.org/python-globus-sdk"
+  ],
+  "Directory": [
+    "pool/main/p/python-globus-sdk"
+  ],
+  "Files": [
+    "d18ea07c39e735cecadc18528116af66 2440 python-globus-sdk_3.37.0-1.dsc 93814ae66216f72b99c8ba33ce855a75 286564 python-globus-sdk_3.37.0.orig.tar.xz a55cd826171dfff0f7e6ef1d97c78a85 2128 python-globus-sdk_3.37.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/globus/globus-sdk-python"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-globus-sdk"
+  ],
+  "Package-List": [
+    "python3-globus-sdk deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-globus-sdk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-globus-sdk.git"
+  ],
+  "Version": [
+    "3.37.0-1"
+  ]
+}

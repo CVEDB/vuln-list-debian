@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "puppet-module-aboe-chrony"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "1ab9cd04d6163528246f86e543629f9540b9babf4294a39fbe7276ce9c15f0a6 2173 puppet-module-aboe-chrony_3.0.0-2.dsc 775787e6e7ecae90632f221e6f52c9c90378309aa6f32e8d08b86469fb455e8c 28040 puppet-module-aboe-chrony_3.0.0.orig.tar.xz 659d6743b23ff3100b872f130a67eb68233d073ebfb461bb697fbe820f7365fb 2252 puppet-module-aboe-chrony_3.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puppet-module-aboe-chrony"
+  ],
+  "Files": [
+    "d28ba75e2079827e29e5f914a545c2c4 2173 puppet-module-aboe-chrony_3.0.0-2.dsc 2a86460595b000a4a351fe1d5fd24f4c 28040 puppet-module-aboe-chrony_3.0.0.orig.tar.xz 625674aac154dca7e6013958b483faa3 2252 puppet-module-aboe-chrony_3.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/aboe76/puppet-chrony"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "puppet-module-aboe-chrony"
+  ],
+  "Package-List": [
+    "puppet-module-aboe-chrony deb admin optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/puppet/puppet-module-aboe-chrony"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/puppet/puppet-module-aboe-chrony.git"
+  ],
+  "Version": [
+    "3.0.0-2"
+  ]
+}

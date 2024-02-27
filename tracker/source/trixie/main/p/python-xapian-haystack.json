@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-xapian-haystack"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "87fc7a94e19a3121eb73bd34be6d77cb795fe31eae5db087eafcce80310d24fb 1854 python-xapian-haystack_3.1.0-1.dsc 4dc881a815f1c50449e63255f1f1aff12b2cdf588edbaa5137a3828c01955825 41589 python-xapian-haystack_3.1.0.orig.tar.gz c621b6cd8fe3180d960af53599e9c19218491fc26dbeaa0d82aa106bb1420d5a 3128 python-xapian-haystack_3.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-xapian-haystack"
+  ],
+  "Files": [
+    "2573826d8da69174ddcf568ca9fe89ab 1854 python-xapian-haystack_3.1.0-1.dsc 1773670e92a767476fc9fe30ea63d2e9 41589 python-xapian-haystack_3.1.0.orig.tar.gz 40dfa5387e32e7d901ad0cddf3b8d3c9 3128 python-xapian-haystack_3.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/notanumber/xapian-haystack/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-xapian-haystack"
+  ],
+  "Package-List": [
+    "python3-xapian-haystack deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-xapian-haystack"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-xapian-haystack.git"
+  ],
+  "Version": [
+    "3.1.0-1"
+  ]
+}

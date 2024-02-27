@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lomiri-calculator-app"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), gettext, python3, python3-distutils, qtbase5-dev, qtdeclarative5-dev, npm"
+  ],
+  "Checksums-Sha256": [
+    "15cd8a79b4292c6d0a10b3dc3e8be2ff704f08fa44d87c0c4ac1e3f47fafcab5 2225 lomiri-calculator-app_4.0.2-1.dsc 536451e2c34d81a6c93af762ff211b2a0cbe8be2699e6c4b90ad84cd6b606fb1 566469 lomiri-calculator-app_4.0.2.orig.tar.gz 8d9f687a16963850801642d7c15da06e1cb6017451124383faa055cfbc8575eb 4488 lomiri-calculator-app_4.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lomiri-calculator-app"
+  ],
+  "Files": [
+    "90275c1aeb4d68cd27d9e11dfccdf733 2225 lomiri-calculator-app_4.0.2-1.dsc aa67612c167932abeeeaadddde262ec8 566469 lomiri-calculator-app_4.0.2.orig.tar.gz 07196e14c68e689ea21086fc9780daeb 4488 lomiri-calculator-app_4.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/ubports/development/apps/lomiri-calculator-app"
+  ],
+  "Maintainer": [
+    "Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lomiri-calculator-app"
+  ],
+  "Package-List": [
+    "lomiri-calculator-app deb misc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Marius Gripsgard \u003cmarius@ubports.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ubports-team/lomiri-calculator-app"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ubports-team/lomiri-calculator-app.git"
+  ],
+  "Version": [
+    "4.0.2-1"
+  ]
+}

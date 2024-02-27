@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "xmake, xmake-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "pkg-config, lua-cjson, libxxhash-dev, liblua5.4-dev, libluajit-5.1-dev, liblz4-dev, libsv-dev, libtbox-dev"
+  ],
+  "Checksums-Sha256": [
+    "66e1f1550ba711342d2055b5b522121ce2375959cafd87cd5f7f2468bafaef37 2039 xmake_2.8.6+ds-3.dsc 98e93d57a5976b1111b8da6488f5ad8bd366dc57903d28595eceab3e79272dd6 763484 xmake_2.8.6+ds.orig.tar.xz 605d2dab6ad889e3a2fe1e92738f908843fc18c2cc3b0ba1b8e91cf66d3424a8 6088 xmake_2.8.6+ds-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xmake"
+  ],
+  "Files": [
+    "50626ff4a279ee6939b9b4c56772fce4 2039 xmake_2.8.6+ds-3.dsc 6efd669b87a9bd1225121b1d045fbead 763484 xmake_2.8.6+ds.orig.tar.xz f72dce690615405deb25cc761474df14 6088 xmake_2.8.6+ds-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://xmake.io"
+  ],
+  "Maintainer": [
+    "Lance Lin \u003clq27267@gmail.com\u003e"
+  ],
+  "Package": [
+    "xmake"
+  ],
+  "Package-List": [
+    "xmake deb devel optional arch=any xmake-data deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "doxygen, g++, gcc"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xmake-team/xmake"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xmake-team/xmake.git"
+  ],
+  "Version": [
+    "2.8.6+ds-3"
+  ]
+}

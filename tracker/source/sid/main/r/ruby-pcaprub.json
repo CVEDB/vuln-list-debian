@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ruby-pcaprub"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb, libpcap-dev"
+  ],
+  "Checksums-Sha256": [
+    "25e661769e3040932c1e39ba7cf899d63c1421f2c0203506e6f3b28166d1c9e9 2150 ruby-pcaprub_0.12.4-2.dsc c5196b986f022c86e6f4e271c32ae87cc6b17866416bbd04997625063f9a7696 33035 ruby-pcaprub_0.12.4.orig.tar.gz 0d134ccbedec3a261a048a526762eedba6ebc0b656cb7304f224ca9e298547b8 3368 ruby-pcaprub_0.12.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-pcaprub"
+  ],
+  "Files": [
+    "837dab1fa1e7df3939baadf6650cfe6b 2150 ruby-pcaprub_0.12.4-2.dsc 242498fa11b086baa9d52a696f655f01 33035 ruby-pcaprub_0.12.4.orig.tar.gz dd69bdf0cb2dab23d9bf76c40b64c621 3368 ruby-pcaprub_0.12.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pcaprub/pcaprub"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-pcaprub"
+  ],
+  "Package-List": [
+    "ruby-pcaprub deb ruby optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gem2deb-test-runner, rake, ruby-coveralls, ruby-minitest, ruby-shoulda-context"
+  ],
+  "Uploaders": [
+    "Jérémy Bobbio \u003clunar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-pcaprub"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-pcaprub.git"
+  ],
+  "Version": [
+    "0.12.4-2"
+  ]
+}

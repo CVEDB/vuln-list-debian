@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-spf13-fsync-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.16~), golang-github-spf13-afero-dev (\u003e= 1.9.2)"
+  ],
+  "Checksums-Sha256": [
+    "90ec603b568d84cb1848bd60986df8f577de3e87dac822c87aaf46e4ee0e868d 2284 golang-github-spf13-fsync_0.10.0-1.dsc f681f050f3c1fe12aea14f959b1ecd3db77dade83914be068c95a0631549f75a 20154 golang-github-spf13-fsync_0.10.0.orig.tar.gz 9a3aba115c29c18bc68340ecd0983f8f19a56a3eceee05b650e711f8a296283f 3812 golang-github-spf13-fsync_0.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-spf13-fsync"
+  ],
+  "Files": [
+    "30034d259871dad0bcfcee718420c073 2284 golang-github-spf13-fsync_0.10.0-1.dsc 5f357bd56bb2d569ec31c1abd0e54bff 20154 golang-github-spf13-fsync_0.10.0.orig.tar.gz 250a33804d77f945e5e057dbaba04c4d 3812 golang-github-spf13-fsync_0.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/spf13/fsync"
+  ],
+  "Homepage": [
+    "https://github.com/spf13/fsync"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-spf13-fsync"
+  ],
+  "Package-List": [
+    "golang-github-spf13-fsync-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-spf13-fsync"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-spf13-fsync.git"
+  ],
+  "Version": [
+    "0.10.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "play.it-vv221"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "ae8756c79d55d7344eae1437d93157762b680addead560ab6ca30f025ab58722 2141 play.it-vv221_2024-01-27-1.dsc aad7193c81408b66be934e3732ef6d69b8fe1952571cb463c3bae5d722bb78f8 168462 play.it-vv221_2024-01-27.orig.tar.gz 37317376537406ad3ba96baf7e8895b15fce801d7ebc66b950283a84dcfc7889 3368 play.it-vv221_2024-01-27-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "b4851b10f14d828ad73e12e67bbc5ac4e3ba7f35 debian archive/debian/2024-01-27-1 https://git.dgit.debian.org/play.it-vv221"
+  ],
+  "Directory": [
+    "pool/contrib/p/play.it-vv221"
+  ],
+  "Files": [
+    "cd5d1338d34988650d4699c969b866e1 2141 play.it-vv221_2024-01-27-1.dsc 53e416c41cb46c445e02ece69491b0e6 168462 play.it-vv221_2024-01-27.orig.tar.gz ca023cce0d66164dc14769dcffcb5ae1 3368 play.it-vv221_2024-01-27-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://forge.dotslashplay.it/vv221/games"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "play.it-vv221"
+  ],
+  "Package-List": [
+    "play.it-vv221 deb contrib/games optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Antoine Le Gonidec \u003cdebian@dotslashplay.it\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/play.it-vv221"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/play.it-vv221.git"
+  ],
+  "Version": [
+    "2024-01-27-1"
+  ]
+}

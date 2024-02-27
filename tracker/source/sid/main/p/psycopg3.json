@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-psycopg, python3-psycopg-pool, python-psycopg-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, dh-python, libpq-dev, postgresql, cmake, python3-all:any, python3-setuptools, pybuild-plugin-pyproject, python3-typing-extensions, python3-pytest \u003c!nocheck\u003e, python3-dnspython \u003c!nocheck\u003e, python3-shapely \u003c!nocheck\u003e, python3-tenacity \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-doc \u003c!nodoc\u003e, python-psycopg2-doc \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-autodoc-typehints \u003c!nodoc\u003e, furo \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0d17bab72735770f7543b6ff34042b252d11cf57aef7be130d8a75f4a83ca880 2532 psycopg3_3.1.17-2.dsc f17f2fad7e4dc32433d0c77a9e143e537c820f66b4132cdc9f210742e07ba4e3 363804 psycopg3_3.1.17.orig.tar.xz c3e30c33fd9a2a5c49220404c2f38542bf3c072aa96165c334af5ba1543dde34 8928 psycopg3_3.1.17-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/psycopg3"
+  ],
+  "Files": [
+    "57573b8bb3503f234ea4441241d14332 2532 psycopg3_3.1.17-2.dsc fc305090eb424a62f4bcdd847513f65e 363804 psycopg3_3.1.17.orig.tar.xz 123665d5914595c33f9b809e2dabdca6 8928 psycopg3_3.1.17-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.psycopg.org/psycopg3/"
+  ],
+  "Maintainer": [
+    "Tomasz Rybak \u003cserpent@debian.org\u003e"
+  ],
+  "Package": [
+    "psycopg3"
+  ],
+  "Package-List": [
+    "python-psycopg-doc deb doc optional arch=all profile=!nodoc python3-psycopg deb python optional arch=all python3-psycopg-pool deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/psycopg3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/psycopg3.git"
+  ],
+  "Version": [
+    "3.1.17-2"
+  ]
+}

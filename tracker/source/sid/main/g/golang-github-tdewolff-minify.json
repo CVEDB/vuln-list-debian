@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-github-tdewolff-minify-dev, minify"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-djherbis-atime-dev (\u003e= 1.1.0), golang-github-fsnotify-fsnotify-dev (\u003e= 1.7.0), golang-github-matryer-try-dev, golang-github-tdewolff-argp-dev (\u003e= 0.0~git20240126.acdb2fb), golang-github-tdewolff-parse-dev (\u003e= 2.7.12), golang-github-tdewolff-test-dev (\u003e= 1.0.10+git20240106.7de5f7d)"
+  ],
+  "Checksums-Sha256": [
+    "97b5e0fe89acd981c4e18236e785e51e7da453ba9822922a6a0f9961900b039f 2653 golang-github-tdewolff-minify_2.20.17-1.dsc 907acc9111c9a8896bc91167e6b5c62024428cc4819ae8d4f6a6758ea18e3f7c 7044927 golang-github-tdewolff-minify_2.20.17.orig.tar.gz b3e140076a44fbe9999afd4d68d954883e935b23ed1312dbee41df3afbddf22e 5132 golang-github-tdewolff-minify_2.20.17-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-tdewolff-minify"
+  ],
+  "Files": [
+    "26900f2b6d82a9c7e5714603964f4a19 2653 golang-github-tdewolff-minify_2.20.17-1.dsc b61d21ff12626d04b63fda1261f43cdc 7044927 golang-github-tdewolff-minify_2.20.17.orig.tar.gz 2f05a40cbf04246d448013804e58f3bd 5132 golang-github-tdewolff-minify_2.20.17-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/tdewolff/minify"
+  ],
+  "Homepage": [
+    "https://github.com/tdewolff/minify"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-tdewolff-minify"
+  ],
+  "Package-List": [
+    "golang-github-tdewolff-minify-dev deb golang optional arch=all minify deb golang optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-tdewolff-minify"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-tdewolff-minify.git"
+  ],
+  "Version": [
+    "2.20.17-1"
+  ]
+}

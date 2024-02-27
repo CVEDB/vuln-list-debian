@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpanel-1-1, libpanel-dev, libpanel-common, libpanel-doc, gir1.2-panel-1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, libadwaita-1-dev (\u003e= 1.2), libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.75), libgtk-4-dev (\u003e= 4.8), meson (\u003e= 0.60), valac"
+  ],
+  "Checksums-Sha256": [
+    "56a3377131661b37d75319777c88db3ceaeca819322bc8c8cbdd7b0044a634d5 2343 libpanel_1.5.0-1.dsc 13ef30e791295bb998c87a73bc9d194578c2f2c23d14a489c78697fbeefe90be 161784 libpanel_1.5.0.orig.tar.xz 8b71c0ba5b3267f7f1445b9dec3e7f7ef22a9fc0c5c3d94553aa09356ca99cf0 5024 libpanel_1.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpanel"
+  ],
+  "Files": [
+    "2f3865e5cf92db8f669b8fb3d1c91fc6 2343 libpanel_1.5.0-1.dsc 431b77926b6f033c0e10cb34b14e0c08 161784 libpanel_1.5.0.orig.tar.xz ac5436b8635fb76ab73eb1c117e370ca 5024 libpanel_1.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/libpanel"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libpanel"
+  ],
+  "Package-List": [
+    "gir1.2-panel-1 deb introspection optional arch=any libpanel-1-1 deb libs optional arch=any libpanel-common deb libs optional arch=all libpanel-dev deb libdevel optional arch=any libpanel-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libpanel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libpanel.git"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

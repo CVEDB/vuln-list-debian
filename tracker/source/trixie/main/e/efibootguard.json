@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "efibootguard, libebgenv-dev, libebgenv0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf-archive, check, gnu-efi, help2man \u003c!nodoc\u003e, libpci-dev, pkg-config, python3-shtab, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "a97e60993f81f7130b25aeda937892ecfa8baf6f6e7f98fa12bd3e0e96ca4afd 1941 efibootguard_0.16-2.dsc b197b02dd8fcf2fd6fe6e73f787cc1b7f9660e99644830303a9ac3bbdcff937c 80492 efibootguard_0.16.orig.tar.xz 84e515c66191a014208cf9ec0a5ea7518bd8258deaf50765294bba6d506b5a00 6020 efibootguard_0.16-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/efibootguard"
+  ],
+  "Files": [
+    "ffdc2eed718a25246c1bdaaed84218e6 1941 efibootguard_0.16-2.dsc c55df32975b20ef3ddc02a5f514c451d 80492 efibootguard_0.16.orig.tar.xz 21d8d40342871f5a2343b52acc13db59 6020 efibootguard_0.16-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/siemens/efibootguard"
+  ],
+  "Maintainer": [
+    "Quirin Gylstorff \u003cquirin.gylstorff@siemens.com\u003e"
+  ],
+  "Package": [
+    "efibootguard"
+  ],
+  "Package-List": [
+    "efibootguard deb admin optional arch=any libebgenv-dev deb libdevel optional arch=any libebgenv0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/efibootguard"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/efibootguard.git"
+  ],
+  "Version": [
+    "0.16-2"
+  ]
+}

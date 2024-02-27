@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "latex2html"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dvipng, poppler-utils, ghostscript, netpbm, patch, perl, perl-doc, tex-common, texlive-binaries, texlive-latex-extra, texlive-latex-recommended"
+  ],
+  "Checksums-Sha256": [
+    "0ef5b67b282c274de7b34f78091c9735f7be6593cbc5bbec76a6105088756053 2252 latex2html_2024-debian1-2.dsc c6c695069440fd58d2cdf8f91b9adfddad43858e0f1b98380c3f80f4206f78a2 730012 latex2html_2024-debian1.orig.tar.xz 8f86f7b8b5de9234035bc8c2a192e7c6c6820b000b9a6296251b10369df5adb3 16476 latex2html_2024-debian1-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "8127d08f50744d889993124f97f1727d974c1a3e debian archive/debian/2024-debian1-2 https://git.dgit.debian.org/latex2html"
+  ],
+  "Directory": [
+    "pool/main/l/latex2html"
+  ],
+  "Files": [
+    "973027ab155fced3e8e9b669b032ad04 2252 latex2html_2024-debian1-2.dsc 45497caf6be607f3f47f3b00f4e6539c 730012 latex2html_2024-debian1.orig.tar.xz 9525cdf6d9c112cb3dd9d5af52712644 16476 latex2html_2024-debian1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.latex2html.org/"
+  ],
+  "Maintainer": [
+    "Carsten Leonhardt \u003cleo@debian.org\u003e"
+  ],
+  "Package": [
+    "latex2html"
+  ],
+  "Package-List": [
+    "latex2html deb tex optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "tex"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "linkchecker"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/latex2html"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/latex2html.git"
+  ],
+  "Version": [
+    "2024-debian1-2"
+  ]
+}

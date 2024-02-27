@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-tinytex"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-xfun (\u003e= 0.29)"
+  ],
+  "Checksums-Sha256": [
+    "671b79a0fa5a7d8c0c44c48114856768d02e816cf659a92c308fc686f12a04d9 2132 r-cran-tinytex_0.49-1.dsc 941169ec65445d172658d0fb6ea8d839736f3f1b5f6ce20637d7d8e299663145 34205 r-cran-tinytex_0.49.orig.tar.gz 37e61c0d72d4c00aee34dce8d715d454fafc3fb7cd763dcfd9b1bad285d523ef 3416 r-cran-tinytex_0.49-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-tinytex"
+  ],
+  "Files": [
+    "414112f5d520adbb618029cda0945111 2132 r-cran-tinytex_0.49-1.dsc 0e44e8589e71a5257ddac72c5113e440 34205 r-cran-tinytex_0.49.orig.tar.gz 1e49169133cb8b4f7b992486d0941ef0 3416 r-cran-tinytex_0.49-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=tinytex"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-tinytex"
+  ],
+  "Package-List": [
+    "r-cran-tinytex deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-rstudioapi, r-cran-testit"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-tinytex"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-tinytex.git"
+  ],
+  "Version": [
+    "0.49-1"
+  ]
+}

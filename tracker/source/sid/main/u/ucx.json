@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 arm64 ppc64el riscv64 ppc64"
+  ],
+  "Binary": [
+    "ucx-utils, libucx-dev, libucx0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libibverbs-dev (\u003e= 1.1.7) [amd64 arm64 ppc64el riscv64 ppc64 s390x], libnuma-dev [amd64 arm64 ppc64el riscv64 ppc64 s390x], librdmacm-dev, libfuse3-dev, doxygen, texlive-latex-base"
+  ],
+  "Checksums-Sha256": [
+    "030e0584cb0e40d135e4d15dfc60d77f0b1e27d4e98b94901bf109fa448f6893 2337 ucx_1.16.0+ds-1.dsc 7db10747215d1224addddc82b51d084d47413e109a12fefd21262880bd91e91c 2189056 ucx_1.16.0+ds.orig.tar.xz f263936667c405d612dc386d1b306b5b289df7d519412f942398010bbe5575f6 6592 ucx_1.16.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/ucx"
+  ],
+  "Files": [
+    "7a9d79888fd2a385d472feebefa2babe 2337 ucx_1.16.0+ds-1.dsc 817011bcc9023640d8707658238cae0c 2189056 ucx_1.16.0+ds.orig.tar.xz 6d17e205e959de42feb4c50f06cab0ce 6592 ucx_1.16.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openucx.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ucx"
+  ],
+  "Package-List": [
+    "libucx-dev deb libdevel optional arch=amd64,arm64,ppc64el,riscv64,ppc64 libucx0 deb libs optional arch=amd64,arm64,ppc64el,riscv64,ppc64 ucx-utils deb science optional arch=amd64,arm64,ppc64el,riscv64,ppc64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/science-team/ucx.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org:/science-team/ucx.git -b debian/latest"
+  ],
+  "Version": [
+    "1.16.0+ds-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-netaddr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, ieee-data, localehelper, python3-all, python3-pytest, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "9ca48fdf4b663ebc01e3504d00b679b2f17ac1a23f7f249856d5ca958b21b5b3 2170 python-netaddr_0.10.1-1.dsc 45a70ae2b16fd73df24abc117b1e9662324c5c3631c154034f971f2b2512bbbf 1493916 python-netaddr_0.10.1.orig.tar.xz b2d0c1bb6e5c32347b9b8757db9f35bce5b7fab49dce28dae54ea341636ebc00 6104 python-netaddr_0.10.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-netaddr"
+  ],
+  "Files": [
+    "70dacf99edc8aa46e31b75c638dadb41 2170 python-netaddr_0.10.1-1.dsc e0d866800794c0197c7c6e5bdd1d19e4 1493916 python-netaddr_0.10.1.orig.tar.xz 64d79cf78e18787045c8a318e42436e7 6104 python-netaddr_0.10.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/drkjam/netaddr/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Package": [
+    "python-netaddr"
+  ],
+  "Package-List": [
+    "python3-netaddr deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.1.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Vincent Bernat \u003cbernat@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-netaddr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-netaddr.git"
+  ],
+  "Version": [
+    "0.10.1-1"
+  ]
+}

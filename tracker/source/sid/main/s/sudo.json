@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sudo, sudo-ldap, libnss-sudo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-installnss, libpam0g-dev, libldap2-dev, libsasl2-dev, libapparmor-dev, libselinux1-dev [linux-any], autoconf, bison, flex, libaudit-dev [linux-any], zlib1g-dev, po-debconf, pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "3fad99ab71f0666551be3c8889b58ad16af0ceeff411330540eaa48dc1954eca 2624 sudo_1.9.15p5-3.dsc 558d10b9a1991fb3b9fa7fa7b07ec4405b7aefb5b3cb0b0871dbc81e3a88e558 5306611 sudo_1.9.15p5.orig.tar.gz ca030b4dc43915f0802311384e6cdeae030a765ad51ca116d9d022893eb8e35e 833 sudo_1.9.15p5.orig.tar.gz.asc 0592dc3fb0af36758591cdb00139961da7e204069f23893ff4fabf7704469629 46928 sudo_1.9.15p5-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sudo"
+  ],
+  "Files": [
+    "dd1f6347f28cdd6695a976508f367ee9 2624 sudo_1.9.15p5-3.dsc 4166279cb188ecb6641c7a2ba5f68270 5306611 sudo_1.9.15p5.orig.tar.gz be93aa27f4b0fd050fd8896abb90c6af 833 sudo_1.9.15p5.orig.tar.gz.asc cbe38ab0cdeede2b3f4158494756e160 46928 sudo_1.9.15p5-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.sudo.ws/"
+  ],
+  "Maintainer": [
+    "Sudo Maintainers \u003csudo@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "sudo"
+  ],
+  "Package-List": [
+    "libnss-sudo deb admin optional arch=all sudo deb admin optional arch=any sudo-ldap deb admin optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adduser, cron, ldap-utils, slapd, sssd-common, sssd-ldap"
+  ],
+  "Uploaders": [
+    "Marc Haber \u003cmh+debian-packages@zugschlus.de\u003e, Hanno Wagner \u003cwagner@debian.org\u003e, Hilko Bengen \u003cbengen@debian.org\u003e, Bastian Blank \u003cwaldi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sudo-team/sudo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sudo-team/sudo.git"
+  ],
+  "Version": [
+    "1.9.15p5-3"
+  ]
+}

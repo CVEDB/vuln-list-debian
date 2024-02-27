@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-text-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~)"
+  ],
+  "Checksums-Sha256": [
+    "7d0460ca465c25a44b56be9ed135510ec65f7f2980864db1d281ecbeb5d171ef 2219 golang-golang-x-text_0.14.0-1.dsc c80295e75bda599d17ccf74038139b0957b9915fae4e60d8b46f89454ef171a0 8974094 golang-golang-x-text_0.14.0.orig.tar.gz 41ca85f89603c3a9767fbc6c6f9e4a17504938996fe70d2b0b8a18df855b6a68 5808 golang-golang-x-text_0.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-text"
+  ],
+  "Files": [
+    "3d553e6876e81bac1d09ee38e4072251 2219 golang-golang-x-text_0.14.0-1.dsc 9f64144d4b1647ce4597abf657028a8d 8974094 golang-golang-x-text_0.14.0.orig.tar.gz 81f5e36d1d57bdce7967b38032472276 5808 golang-golang-x-text_0.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/text"
+  ],
+  "Homepage": [
+    "https://golang.org/x/text"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-text"
+  ],
+  "Package-List": [
+    "golang-golang-x-text-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martina Ferrari \u003ctina@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-text"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-text.git"
+  ],
+  "Version": [
+    "0.14.0-1"
+  ]
+}

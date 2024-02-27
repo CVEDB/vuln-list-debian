@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-protonmail-gopenpgp-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-pkg-errors-dev, golang-github-protonmail-go-crypto-dev (\u003e= 0.0~git20230619.3fbb1f1~), golang-github-protonmail-go-mime-dev, golang-github-stretchr-testify-dev, golang-golang-x-crypto-dev"
+  ],
+  "Checksums-Sha256": [
+    "ecc8c1fc88c702f04c113d5cb42dfe31c1490e440d8a313963e1de3ec79207b2 2533 golang-github-protonmail-gopenpgp_2.7.5-1.dsc c9e9f6d152f46610306811144285048e734718ff04147d3eceeb2588e31e478c 165196 golang-github-protonmail-gopenpgp_2.7.5.orig.tar.gz 8e63d82208f90dd4cdb425cb73441d87fa170b978ccb3ac7ab3be4fb9ee03b08 2588 golang-github-protonmail-gopenpgp_2.7.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-protonmail-gopenpgp"
+  ],
+  "Files": [
+    "b54c8fe255510965e5f06b34e1638447 2533 golang-github-protonmail-gopenpgp_2.7.5-1.dsc de949ecba9611996b8b1bce236f3ffab 165196 golang-github-protonmail-gopenpgp_2.7.5.orig.tar.gz 63ad9821e1472f16afc4c09f0ffba846 2588 golang-github-protonmail-gopenpgp_2.7.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/ProtonMail/gopenpgp"
+  ],
+  "Homepage": [
+    "https://github.com/ProtonMail/gopenpgp"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-protonmail-gopenpgp"
+  ],
+  "Package-List": [
+    "golang-github-protonmail-gopenpgp-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martin Dosch \u003cmartin@mdosch.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-protonmail-gopenpgp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-protonmail-gopenpgp.git"
+  ],
+  "Version": [
+    "2.7.5-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fcitx5-rime"
+  ],
+  "Build-Depends": [
+    "appstream, cmake, debhelper-compat (= 13), extra-cmake-modules, fcitx5-modules-dev (\u003e= 5.1.2), gettext, libfcitx5core-dev (\u003e= 5.1.2), librime-data, librime-dev (\u003e= 1.10), pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "2f9dd87293e27dbb8e50930d43df696c7053ccb7d6071ee025f821beeb10c33b 2364 fcitx5-rime_5.1.4-2.dsc b5b08859e9c7e5bac951522c98e8b0fc4fee217016c0ad726a780856591e380b 49508 fcitx5-rime_5.1.4.orig.tar.xz 47353e57d449c4e77e051240fe070bc934ab3c5eac29935d8cf6fb5bd46c964b 488 fcitx5-rime_5.1.4.orig.tar.xz.asc 41f58d2fa17cc9c875c3b4b3ac1a1b63ab791230df211a83254b47097098e4fb 4368 fcitx5-rime_5.1.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fcitx5-rime"
+  ],
+  "Files": [
+    "89eff85b7076e25ee8283d298b8a986e 2364 fcitx5-rime_5.1.4-2.dsc 0ee86cdc0b20dac64556b08f1541d4db 49508 fcitx5-rime_5.1.4.orig.tar.xz 32656e71e96c2cf3d967f633482b3809 488 fcitx5-rime_5.1.4.orig.tar.xz.asc aecc7218f14b6febe6f9681f99e6cd6c 4368 fcitx5-rime_5.1.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fcitx/fcitx5-rime"
+  ],
+  "Maintainer": [
+    "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fcitx5-rime"
+  ],
+  "Package-List": [
+    "fcitx5-rime deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/input-method-team/fcitx5-rime"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/input-method-team/fcitx5-rime.git"
+  ],
+  "Version": [
+    "5.1.4-2"
+  ]
+}

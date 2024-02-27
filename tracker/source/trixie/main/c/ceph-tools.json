@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ceph-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "00cae0c7560793973950cf009bd67ffca37bce0889ae14c0afa23197d798f9fa 1823 ceph-tools_0.0.28.dsc d06eb3d4af49de908cb23fe0d96f0792e600f917803556447978bd5715df9f82 16592 ceph-tools_0.0.28.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/ceph-tools"
+  ],
+  "Files": [
+    "618f15a201077a13346dd6f60672e0a0 1823 ceph-tools_0.0.28.dsc 2c08ce02ef1d793724d41ac9353aab23 16592 ceph-tools_0.0.28.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/openstack-team/third-party/ceph-tools"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ceph-tools"
+  ],
+  "Package-List": [
+    "ceph-tools deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Philippe Seraphin \u003cphilippe.seraphin@infomaniak.com\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/third-party/ceph-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/third-party/ceph-tools.git"
+  ],
+  "Version": [
+    "0.0.28"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-configargparse"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest, python3-setuptools, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "21c6da1a104266b03fe3a251a49c8b57b99cdc702b3b8e87efa462e78477c1c3 2254 python-configargparse_1.7-1.dsc e7067471884de5478c58a511e529f0f9bd1c66bfef1dea90935438d6c23306d1 43817 python-configargparse_1.7.orig.tar.gz acb22c904cdcd2c82f83bb8308a17eb9180f1d84cb34de571ca4afeae2604e76 2708 python-configargparse_1.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-configargparse"
+  ],
+  "Files": [
+    "c3ae6db2b9c4103e4d6e6529df016112 2254 python-configargparse_1.7-1.dsc ecc19145e5461a02b84963e76b21ae76 43817 python-configargparse_1.7.orig.tar.gz 099587779100bc3ac56218707eefc68d 2708 python-configargparse_1.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zorro3/ConfigArgParse"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-configargparse"
+  ],
+  "Package-List": [
+    "python3-configargparse deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Debian Let's Encrypt Team \u003cteam+letsencrypt@tracker.debian.org\u003e, Harlan Lieberman-Berg \u003chlieberman@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/configargparse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/configargparse.git"
+  ],
+  "Version": [
+    "1.7-1"
+  ]
+}

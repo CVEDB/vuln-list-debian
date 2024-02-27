@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cantata"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libcddb2-dev, libcdio-paranoia-dev, libdbus-1-dev, libebur128-dev, libmpg123-dev, libmtp-dev, libmusicbrainz5-dev, libqt5svg5-dev, libspeex-dev, libspeexdsp-dev, libtag1-dev, libudev-dev [linux-any], pkg-config, pkg-kde-tools, qtbase5-dev, qtmultimedia5-dev, qttools5-dev, qttools5-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "c1875e8b609af0daf48243917f7f3cde9cdbb7af1f2cdd36f4bac5b27f4b3142 2336 cantata_2.5.0.ds1-2.dsc 1af18308621bc2803e622118e98bfc8e6a7298e684ab206cb1230444b5bb4546 2609452 cantata_2.5.0.ds1.orig.tar.xz 05d468013e007cca047f0d792955929686945feac9c6c1688dc08250dc2b2c03 10348 cantata_2.5.0.ds1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cantata"
+  ],
+  "Files": [
+    "2227b4ac7d5c3f27cad24d4db2c0b90f 2336 cantata_2.5.0.ds1-2.dsc 7c1ee7b506e9f7a60890d64f2945b9a9 2609452 cantata_2.5.0.ds1.orig.tar.xz 79b6fd7a47239d3b4dc5f4362dead780 10348 cantata_2.5.0.ds1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/CDrummond/cantata"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "cantata"
+  ],
+  "Package-List": [
+    "cantata deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stuart Prescott \u003cstuart@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/cantata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/cantata.git"
+  ],
+  "Version": [
+    "2.5.0.ds1-2"
+  ]
+}

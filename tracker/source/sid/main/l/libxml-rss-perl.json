@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libxml-rss-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmodule-build-perl"
+  ],
+  "Build-Depends-Indep": [
+    "libdatetime-format-mail-perl \u003c!nocheck\u003e, libdatetime-format-w3cdtf-perl \u003c!nocheck\u003e, libtest-differences-perl \u003c!nocheck\u003e, libtest-manifest-perl \u003c!nocheck\u003e, libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, libxml-parser-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "8007336bd047b48a46dd795d9c98a5f4011fcb5e0974065e43b8e744b9a36c0e 2703 libxml-rss-perl_1.63-1.dsc bc010a4afdf6d5bade39774dc338eb982b95319db3eadd1b3d79b41ec1c9dce1 131481 libxml-rss-perl_1.63.orig.tar.gz 3149ea5e470321ff3ebdecec19de82661180be679bde075c83ea41834c9da700 6264 libxml-rss-perl_1.63-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "43ac57c33bcef5f3ad546f452987fc3884d289fd debian archive/debian/1.63-1 https://git.dgit.debian.org/libxml-rss-perl"
+  ],
+  "Directory": [
+    "pool/main/libx/libxml-rss-perl"
+  ],
+  "Files": [
+    "ebf8c1d44b69bf701242905c96fd14a6 2703 libxml-rss-perl_1.63-1.dsc 1efed624e1127ce990620a2cb34b2518 131481 libxml-rss-perl_1.63.orig.tar.gz 8beb2e9c533a8c5fbd89348b8196f77c 6264 libxml-rss-perl_1.63-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/XML-RSS"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libxml-rss-perl"
+  ],
+  "Package-List": [
+    "libxml-rss-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Vincent Danjean \u003cvdanjean@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libxml-rss-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libxml-rss-perl.git"
+  ],
+  "Version": [
+    "1.63-1"
+  ]
+}

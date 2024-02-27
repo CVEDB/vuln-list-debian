@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-fimport"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, r-cran-timeseries, xvfb, xauth, xfonts-base"
+  ],
+  "Checksums-Sha256": [
+    "b1836ea2c56b5987f1a27a63bc9b1221f79e319f41633461f6f65b62eb7bc5ee 1890 fimport_4032.87-1.dsc 5de3aa8a5965c580bec51b7548391ba382da541ea9d276044a13a1ad77fc8eed 197814 fimport_4032.87.orig.tar.gz e6e2f8d98e77710c0b9d149f724e12607ce59b8439494bd5857330e488394f47 3376 fimport_4032.87-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fimport"
+  ],
+  "Files": [
+    "a94886e2d28c3ef1e180aa84786bdafd 1890 fimport_4032.87-1.dsc c2db3b61ba9536d358169150841a27fe 197814 fimport_4032.87.orig.tar.gz 68de0eab85fcdb178b8ced168ee41250 3376 fimport_4032.87-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=fImport"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "fimport"
+  ],
+  "Package-List": [
+    "r-cran-fimport deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-fimport"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-fimport.git"
+  ],
+  "Version": [
+    "4032.87-1"
+  ]
+}

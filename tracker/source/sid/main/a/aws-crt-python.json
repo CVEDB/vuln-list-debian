@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-awscrt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-setuptools, python3-all-dev, cmake, ninja-build, libssl-dev, libpython3-dev, python3-pip, python3-wheel"
+  ],
+  "Checksums-Sha256": [
+    "942e0057febd7ee971f3d14beff602edcbba9a166429bb1ba570204fab108304 2203 aws-crt-python_0.20.4+dfsg-1.dsc dc7399d5f1261d0cd400c44a3cd3a440a7f7c61c3ea7e1c37648b27ff95c61e9 9028885 aws-crt-python_0.20.4+dfsg.orig.tar.gz f609b52e9cd4846f7558031dad4cdf9eaedabfac2b16aae5e9c146234bcba52d 5824 aws-crt-python_0.20.4+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aws-crt-python"
+  ],
+  "Files": [
+    "01ee40281fec208a710925e04a473650 2203 aws-crt-python_0.20.4+dfsg-1.dsc b4f30dbcabd25f67e01135da985e3d24 9028885 aws-crt-python_0.20.4+dfsg.orig.tar.gz 2ed4bc3a370e24ede313fdb1d53486c9 5824 aws-crt-python_0.20.4+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/awslabs/aws-crt-python"
+  ],
+  "Maintainer": [
+    "Debian Cloud Team \u003cdebian-cloud@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "aws-crt-python"
+  ],
+  "Package-List": [
+    "python3-awscrt deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Ross Vandegrift \u003crvandegrift@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cloud-team/aws-crt-python"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cloud-team/aws-crt-python.git"
+  ],
+  "Version": [
+    "0.20.4+dfsg-1"
+  ]
+}

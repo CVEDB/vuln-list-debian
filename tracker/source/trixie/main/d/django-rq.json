@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-rq"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all"
+  ],
+  "Build-Depends-Indep": [
+    "python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "ce4e1dca20a2a8324bfaebae92652847312584911eaf2eec21a1b7fcfc621a5d 2098 django-rq_2.10.1-1.dsc b6943db3fa407c4bd7bdd5881217bd0495c0c8aa6ac715514b8462fda3630727 126212 django-rq_2.10.1.orig.tar.gz efe19722e3dc1641b3ea303dda5697b145ee7d3056d6e856792e7f498243debd 3564 django-rq_2.10.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-rq"
+  ],
+  "Files": [
+    "6260d703110a0eeab96a4ccf35d765b0 2098 django-rq_2.10.1-1.dsc 04e910df201be2f880727fc987d2b961 126212 django-rq_2.10.1.orig.tar.gz 28fc6a1ed1d3ba8d9f06c66efdcba02d 3564 django-rq_2.10.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rq/django-rq"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-rq"
+  ],
+  "Package-List": [
+    "python3-django-rq deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-rq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-rq.git"
+  ],
+  "Version": [
+    "2.10.1-1"
+  ]
+}

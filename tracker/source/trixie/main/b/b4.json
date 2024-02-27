@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "b4"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-requests, python3-setuptools, git-filter-repo"
+  ],
+  "Checksums-Sha256": [
+    "73d1ce42dade8ad1d146ee4315356b2c9bcae564e936e7a73da19ea9548352d8 1986 b4_0.13.0-1.dsc d0fecc72087819bd53aac86faf0017742e7c209fe0576d7a4c7af1cbfcc19fe8 350596 b4_0.13.0.orig.tar.gz 2dbac6325477133155effa88d41a90dae362d8837f05dbfd0236d0a36fd610c1 16996 b4_0.13.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/b4"
+  ],
+  "Files": [
+    "edeff6f8de333a90ca39177634963445 1986 b4_0.13.0-1.dsc d84680864f8957d8065f7ea9ae7b1dde 350596 b4_0.13.0.orig.tar.gz 6fe8728ed05ab490031fa14892fba437 16996 b4_0.13.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.kernel.org/pub/scm/utils/b4/b4.git"
+  ],
+  "Maintainer": [
+    "Héctor Orón Martínez \u003czumbi@debian.org\u003e"
+  ],
+  "Package": [
+    "b4"
+  ],
+  "Package-List": [
+    "b4 deb text optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ricardo Ribalda Delgado \u003cricardo@ribalda.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/b4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/b4.git"
+  ],
+  "Version": [
+    "0.13.0-1"
+  ]
+}

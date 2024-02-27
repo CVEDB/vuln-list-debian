@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fcitx5-sayura"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), extra-cmake-modules, gettext, libfcitx5core-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "3ef04cec3e3a2c672095e2285c0caff5c93715247d73edcadb5b7f70fdfe75c0 2304 fcitx5-sayura_5.1.1-1.dsc c4cc6d44359a91f5d676ab7c0fc922c67a29a090e4d57ea970c5da40c60d8f64 21532 fcitx5-sayura_5.1.1.orig.tar.xz 4081a721f2dba5dde49a52b7f3d974fb0985fcadb42da8667eafc39e6b25487c 488 fcitx5-sayura_5.1.1.orig.tar.xz.asc 5cc6b53a262f5bbc53482e43bf065b5ce4e1b7f0f32ba81a846e22cf771eea5e 3816 fcitx5-sayura_5.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fcitx5-sayura"
+  ],
+  "Files": [
+    "e5c75d2aca5970133f215cb401f1260d 2304 fcitx5-sayura_5.1.1-1.dsc 88295cd235aee60bdbeea9c2d539c0d5 21532 fcitx5-sayura_5.1.1.orig.tar.xz dea74c3b246e0abee84ce0fcacffbf06 488 fcitx5-sayura_5.1.1.orig.tar.xz.asc 70ab81357fd0b892bd73e8fe6ae3a97d 3816 fcitx5-sayura_5.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fcitx/fcitx5-sayura"
+  ],
+  "Maintainer": [
+    "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fcitx5-sayura"
+  ],
+  "Package-List": [
+    "fcitx5-sayura deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/input-method-team/fcitx5-sayura"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/input-method-team/fcitx5-sayura.git"
+  ],
+  "Version": [
+    "5.1.1-1"
+  ]
+}

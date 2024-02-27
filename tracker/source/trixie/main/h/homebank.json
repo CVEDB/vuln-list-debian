@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "homebank, homebank-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), intltool, libgtk-3-dev, libofx-dev, libsoup-3.0-dev, libxml-parser-perl, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "e2b58c176240b816487951688f887188b9582feb1503ab93b73c3d9e852b754a 2010 homebank_5.7.3-1.dsc 69df172a599acd66629bf98b3669ec152cb93a78bbcafdc7431617dd25f35dc5 3663021 homebank_5.7.3.orig.tar.gz 1b01a6f2dd98396fe0db06a92447f2bf7f7f5d61a24ab64267db1c1b03a65705 8688 homebank_5.7.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/homebank"
+  ],
+  "Files": [
+    "d9baa6ecd2d68ecc258049aeb1459bce 2010 homebank_5.7.3-1.dsc 03e9fed95e67052b4b0b6ec8f60ab85c 3663021 homebank_5.7.3.orig.tar.gz 441c4da74a6ec64e03831c083fb8b170 8688 homebank_5.7.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gethomebank.org/"
+  ],
+  "Maintainer": [
+    "Francesco Namuri \u003cfranam@debian.org\u003e"
+  ],
+  "Package": [
+    "homebank"
+  ],
+  "Package-List": [
+    "homebank deb gnome optional arch=any homebank-data deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/homebank"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/homebank.git"
+  ],
+  "Version": [
+    "5.7.3-1"
+  ]
+}

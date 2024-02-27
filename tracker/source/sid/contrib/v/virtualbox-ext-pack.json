@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "virtualbox-ext-pack"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), ca-certificates, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "54d635024312052922b4e7de43d2dba5ee9d04ede24cc7eca5bfe42cfc626791 2123 virtualbox-ext-pack_7.0.14-1.dsc 115687a87de70ae5c6673c4d63ea2fc1fa529cb69daf0ac2c33d4d827ed45633 192 virtualbox-ext-pack_7.0.14.orig.tar.xz 2b8205008c2f0eea44f8451be39c90d039a8ab056fb82750fd631c28149149c7 15764 virtualbox-ext-pack_7.0.14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/v/virtualbox-ext-pack"
+  ],
+  "Files": [
+    "69123f9523b2162f581164c062d50707 2123 virtualbox-ext-pack_7.0.14-1.dsc bdc82f030218243970f59541b9dbdb07 192 virtualbox-ext-pack_7.0.14.orig.tar.xz 662f2a704ca562925ead220eee7cf527 15764 virtualbox-ext-pack_7.0.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.virtualbox.org"
+  ],
+  "Maintainer": [
+    "Debian Virtualbox Team \u003cteam+debian-virtualbox@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "virtualbox-ext-pack"
+  ],
+  "Package-List": [
+    "virtualbox-ext-pack deb contrib/misc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e, Unit 193 \u003cunit193@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-virtualbox-team/virtualbox-ext-pack.git"
+  ],
+  "Version": [
+    "7.0.14-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-htseq"
+  ],
+  "Build-Depends": [
+    "2to3, debhelper-compat (= 13), dh-sequence-python3, python3-debian, python3-setuptools, python3-all-dev, python3-numpy, python3-matplotlib, python3-pysam, swig, cython3"
+  ],
+  "Checksums-Sha256": [
+    "a01555796c831d57cf1fa7ec5ae5e7c218ea33a25c374365322691ac941ae59d 2164 htseq_2.0.5-1.dsc 2519675246dd1639115a76c9aacf19ab5bc5bed2f3598bf89cd97be5c0d066b3 36799405 htseq_2.0.5.orig.tar.gz 83464f266276b1ce8578ae22e2978db5b20198058f164ce2a592bb1b114b8cc9 11204 htseq_2.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/htseq"
+  ],
+  "Files": [
+    "005594414578669523a1078893bbfca9 2164 htseq_2.0.5-1.dsc ce61940ea41f8d6aa90ae37e1b7a78ae 36799405 htseq_2.0.5.orig.tar.gz 4f17c6e1867cf33dd9e88d2f6d50024a 11204 htseq_2.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www-huber.embl.de/users/anders/HTSeq/doc/overview.html"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "htseq"
+  ],
+  "Package-List": [
+    "python3-htseq deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Diane Trout \u003cdiane@ghic.org\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/htseq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/htseq.git"
+  ],
+  "Version": [
+    "2.0.5-1"
+  ]
+}

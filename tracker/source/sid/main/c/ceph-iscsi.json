@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ceph-iscsi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pkgconf, python3-setuptools, python3-all, python3-configshell-fb, python3-cryptography, python3-distutils, python3-flask, python3-mock, python3-netifaces, python3-openssl, python3-pytest, python3-rados, python3-rbd, python3-requests, python3-rtslib-fb, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "02041016e104a9318030536e5cfa9fdaf3fd230d4fd08c3be73b2d8806b996be 2115 ceph-iscsi_3.6-2.dsc 6f02d5784ffb9cd747b59ed69d76702a1dd6ddbcab90826f7059db0f4d0a78ca 132579 ceph-iscsi_3.6.orig.tar.gz 0eb30cdfb213f5d3e9778e56ff083d7d2975574c15e9d189642a349e03a78b5a 3556 ceph-iscsi_3.6-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/ceph-iscsi"
+  ],
+  "Files": [
+    "2f4801f4fd3e6d60af8648db6ad366ef 2115 ceph-iscsi_3.6-2.dsc 56bed25d88f929674a23a914800ed290 132579 ceph-iscsi_3.6.orig.tar.gz 8933a6a872411d244675cfecb6589b5d 3556 ceph-iscsi_3.6-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ceph/ceph-iscsi"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "ceph-iscsi"
+  ],
+  "Package-List": [
+    "ceph-iscsi deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ceph-iscsi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ceph-iscsi.git"
+  ],
+  "Version": [
+    "3.6-2"
+  ]
+}

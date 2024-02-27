@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libvanessa-socket-dev, libvanessa-socket-pipe, libvanessa-socket2"
+  ],
+  "Build-Depends": [
+    "libvanessa-logger-dev (\u003e= 0.0.8), libpopt-dev, debhelper (\u003e= 7.0.0), dh-autoreconf, libltdl-dev"
+  ],
+  "Checksums-Sha256": [
+    "aef79e81155bfd0b8540d42e94c2f86848a0952d3d959e84d55b12b3a88dd45c 1863 vanessa-socket_0.0.13-1.1.dsc 5fe119e27faa0bb035823e4eea991d556bbb82753a019aaa492dc3c027bb37a3 249912 vanessa-socket_0.0.13.orig.tar.xz f1eb77f2f3404983c05849656f3a6f99f9706b3195e8b7fd6e2b07b66a2310ad 9732 vanessa-socket_0.0.13-1.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/vanessa-socket"
+  ],
+  "Files": [
+    "44251bebd5801312527d16272735b66c 1863 vanessa-socket_0.0.13-1.1.dsc e47e441d3f69bb3660429dcd6c34c507 249912 vanessa-socket_0.0.13.orig.tar.xz 6c4093bed4f166270c48ca6ceffdea21 9732 vanessa-socket_0.0.13-1.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://horms.net/projects/vanessa/"
+  ],
+  "Maintainer": [
+    "Simon Horman \u003chorms@debian.org\u003e"
+  ],
+  "Package": [
+    "vanessa-socket"
+  ],
+  "Package-List": [
+    "libvanessa-socket-dev deb libdevel optional arch=any libvanessa-socket-pipe deb devel optional arch=any libvanessa-socket2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "3.9.6"
+  ],
+  "Version": [
+    "0.0.13-1.1"
+  ]
+}

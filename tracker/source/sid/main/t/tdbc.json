@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tcl8.6-tdbc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), tcl8.6-dev"
+  ],
+  "Checksums-Sha256": [
+    "32535c84dfd274bbe73831891ecccef68691396d520ac2858d01c4b8d2bd3079 1691 tdbc_1.1.6-1.dsc f8b10bdaa0260bacca206d6168da3588bb27eca771c5c185ec2fdb914106d3ac 188648 tdbc_1.1.6.orig.tar.gz 524f8a92f4bdf757b133a21685d6cf956580728761311f096e0914bb6eeec47f 4696 tdbc_1.1.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tdbc"
+  ],
+  "Files": [
+    "e8c48c972d940fdaa93ecd2d3ccd383f 1691 tdbc_1.1.6-1.dsc dce177db4e9cf7b1177c3f99de7bed2a 188648 tdbc_1.1.6.orig.tar.gz 8862f132c09edbcfb945ffbcc3984b24 4696 tdbc_1.1.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://tdbc.tcl.tk/"
+  ],
+  "Maintainer": [
+    "Massimo Manghi \u003cmxmanghi@apache.org\u003e"
+  ],
+  "Package": [
+    "tdbc"
+  ],
+  "Package-List": [
+    "tcl8.6-tdbc deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.1.6-1"
+  ]
+}

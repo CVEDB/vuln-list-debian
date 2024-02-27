@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "quantlib-python"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3, python3-all-dev, libquantlib0-dev (\u003e= 1.33), gcc (\u003e= 4:5.2), g++ (\u003e= 4:5.2), libboost-dev, libboost-test-dev, dh-python, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "02bcbc16902c020537800e91ee9b75ad1667ad3cfa4dabebbfa5d9044134e15a 1976 quantlib-swig_1.33-1.dsc d5248ed4f50be9f1ac0bab7dd876010725a8230e94e6a7b1305623d9ee574e47 5345866 quantlib-swig_1.33.orig.tar.gz 0381aab6407122b2ee3082684b0ccccab22a177f3acd8e6fdbbffffcc63c4205 10908 quantlib-swig_1.33-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/quantlib-swig"
+  ],
+  "Files": [
+    "b6a22406e04ab269bd53842f5c92adba 1976 quantlib-swig_1.33-1.dsc 1a81ba21ce18a6f5da61d9cf444d217c 5345866 quantlib-swig_1.33.orig.tar.gz 61fc2a2f711b8855a2ed136922f62c69 10908 quantlib-swig_1.33-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.quantlib.org"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "quantlib-swig"
+  ],
+  "Package-List": [
+    "quantlib-python deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/quantlib-swig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/quantlib-swig.git"
+  ],
+  "Version": [
+    "1.33-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-cookie-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-time-0.3+formatting-dev \u003c!nocheck\u003e, librust-time-0.3+macros-dev \u003c!nocheck\u003e, librust-time-0.3+parsing-dev \u003c!nocheck\u003e, librust-time-0.3+std-dev \u003c!nocheck\u003e, librust-version-check-0.9+default-dev (\u003e= 0.9.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2a7daa667ab57b724ebf13d69eae7d1ad5f68419126519fe76e463604efa678d 2339 rust-cookie_0.18.0-1.dsc 3cd91cf61412820176e137621345ee43b3f4423e589e7ae4e50d601d93e35ef8 42638 rust-cookie_0.18.0.orig.tar.gz f8ea095d99eb5011318534a971f35eff1fb2ad232462a24bb54c1fd12e1f5819 3760 rust-cookie_0.18.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-cookie"
+  ],
+  "Files": [
+    "f03a4a4ae02a0ff3a4042855d5db8614 2339 rust-cookie_0.18.0-1.dsc d57ef3dc016259a29394b468efc84d69 42638 rust-cookie_0.18.0.orig.tar.gz ea9bb503fad0443804ccabeeb6def198 3760 rust-cookie_0.18.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-cookie"
+  ],
+  "Package-List": [
+    "librust-cookie-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cookie"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cookie]"
+  ],
+  "Version": [
+    "0.18.0-1"
+  ]
+}

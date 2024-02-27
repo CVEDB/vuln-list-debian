@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-copilot-dev, libghc-copilot-prof, libghc-copilot-doc"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), cdbs, ghc, ghc-prof, libghc-copilot-c99-dev (\u003e= 3.18.1), libghc-copilot-c99-dev (\u003c\u003c 3.19), libghc-copilot-c99-prof, libghc-copilot-core-dev (\u003e= 3.18.1), libghc-copilot-core-dev (\u003c\u003c 3.19), libghc-copilot-core-prof, libghc-copilot-language-dev (\u003e= 3.18.1), libghc-copilot-language-dev (\u003c\u003c 3.19), libghc-copilot-language-prof, libghc-copilot-libraries-dev (\u003e= 3.18.1), libghc-copilot-libraries-dev (\u003c\u003c 3.19), libghc-copilot-libraries-prof, libghc-copilot-prettyprinter-dev (\u003e= 3.18.1), libghc-copilot-prettyprinter-dev (\u003c\u003c 3.19), libghc-copilot-prettyprinter-prof, libghc-copilot-theorem-dev (\u003e= 3.18.1), libghc-copilot-theorem-dev (\u003c\u003c 3.19), libghc-copilot-theorem-prof, libghc-optparse-applicative-dev (\u003e= 0.14), libghc-optparse-applicative-dev (\u003c\u003c 0.19), libghc-optparse-applicative-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-copilot-c99-doc, libghc-copilot-core-doc, libghc-copilot-language-doc, libghc-copilot-libraries-doc, libghc-copilot-prettyprinter-doc, libghc-copilot-theorem-doc, libghc-optparse-applicative-doc"
+  ],
+  "Checksums-Sha256": [
+    "2993b87292b01ed31a1949f3c7ac613b667c18f49d409a4bed0f6d4eaf4b2648 3283 haskell-copilot_3.18.1-1.dsc 89d47938e53cb6cc050ec78d12439681d534252672b0d9d67b61708ed4edaecc 13766 haskell-copilot_3.18.1.orig.tar.gz ff8ba0e465d6d0922476af3b4421b99a7f87198c5757825c376eb461e710e409 2676 haskell-copilot_3.18.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-copilot"
+  ],
+  "Files": [
+    "a9180ae778611d60f8aadf540ac28007 3283 haskell-copilot_3.18.1-1.dsc f447fe86494aaf1af9046e80809b385b 13766 haskell-copilot_3.18.1.orig.tar.gz f486101a475eee59d8fee4f45181ce33 2676 haskell-copilot_3.18.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://copilot-language.github.io"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-copilot"
+  ],
+  "Package-List": [
+    "libghc-copilot-dev deb haskell optional arch=any libghc-copilot-doc deb doc optional arch=all libghc-copilot-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-copilot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-copilot]"
+  ],
+  "Version": [
+    "3.18.1-1"
+  ]
+}

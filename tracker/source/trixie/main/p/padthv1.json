@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "padthv1, padthv1-lv2, padthv1-common"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), ladspa-sdk, libasound2-dev, libfftw3-dev, libjack-dev | libjack-jackd2-dev, liblo-dev, libqt6svg6-dev, libsndfile1-dev, libx11-dev, lv2-dev, qt6-base-dev, qt6-tools-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "bff4af3ce29aa2a99cf044b826ab260823155078348a6bc40b8a42c3d6c30aa7 2293 padthv1_0.9.34-1.dsc 833eac208862d215c30ffffaf00c7b6ebd08b537e080ab3a9a816b23bd65765f 241435 padthv1_0.9.34.orig.tar.gz b036cb1a09083dc8f28e3b2718c3f4b0fe8440e771d5388ab25ead3f8e66f621 6076 padthv1_0.9.34-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/padthv1"
+  ],
+  "Files": [
+    "472b2f5577fc318fd8458961956a22bc 2293 padthv1_0.9.34-1.dsc a81f8b4342a5c3a1e7da54e3b06187c0 241435 padthv1_0.9.34.orig.tar.gz 63f542af85dec775cf80104197ab8ff8 6076 padthv1_0.9.34-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://padthv1.sourceforge.io/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "padthv1"
+  ],
+  "Package-List": [
+    "padthv1 deb sound optional arch=any padthv1-common deb sound optional arch=all padthv1-lv2 deb sound optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Dennis Braun \u003csnd@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/padthv1"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/padthv1.git"
+  ],
+  "Version": [
+    "0.9.34-1"
+  ]
+}

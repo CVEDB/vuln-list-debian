@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-macho-unwind-info-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev (\u003e= 1.0.30-~~) \u003c!nocheck\u003e, librust-zerocopy-0.7+default-dev (\u003e= 0.7.32-~~) \u003c!nocheck\u003e, librust-zerocopy-derive-0.7+default-dev (\u003e= 0.7.32-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ac9bb0983801ef8d351e2ce01aaccb07241c7a571bf12264c9b3d151839a99fe 2465 rust-macho-unwind-info_0.3.0-2.dsc 29014be9ddec1a1e9bfbb926493d2df811adc2e257a5a36072136eb84c19c14f 20071 rust-macho-unwind-info_0.3.0.orig.tar.gz dd68a679bc45e732ded6601fd8a6690c57906f9c75e45092b0f83b7dd7675a50 4160 rust-macho-unwind-info_0.3.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-macho-unwind-info"
+  ],
+  "Files": [
+    "20ed61c7e6427b9ff2cb03be286e3382 2465 rust-macho-unwind-info_0.3.0-2.dsc 7b3faf66958418d8f3259ccba5705cac 20071 rust-macho-unwind-info_0.3.0.orig.tar.gz 64a208e8cc7f8680983cccc47e62d1d7 4160 rust-macho-unwind-info_0.3.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-macho-unwind-info"
+  ],
+  "Package-List": [
+    "librust-macho-unwind-info-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-object-0.32+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/macho-unwind-info"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/macho-unwind-info]"
+  ],
+  "Version": [
+    "0.3.0-2"
+  ]
+}

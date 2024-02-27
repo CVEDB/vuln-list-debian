@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-pfamanalyzer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-readr, r-cran-stringr, r-cran-dplyr, r-cran-tibble, r-cran-magrittr"
+  ],
+  "Checksums-Sha256": [
+    "09a9dc064113320957db0eb9b001839d7a2d6455fd429011af594c2dcfa3afae 2217 r-bioc-pfamanalyzer_1.2.0+dfsg-1.dsc ea0ee09b5da6fa8fee92142f49aabe362686f512c1793542d3db956248d5d652 65412 r-bioc-pfamanalyzer_1.2.0+dfsg.orig.tar.xz c3d0082070df8533208a7ed7746e36644dc731d45ccfeecd79d278852534f388 3224 r-bioc-pfamanalyzer_1.2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-pfamanalyzer"
+  ],
+  "Files": [
+    "ddebf487e2a970156a9b75485c1c3fde 2217 r-bioc-pfamanalyzer_1.2.0+dfsg-1.dsc 67d27bb189af80ad8250d513242c3fd4 65412 r-bioc-pfamanalyzer_1.2.0+dfsg.orig.tar.xz bacb06193381bb359d63048427c59462 3224 r-bioc-pfamanalyzer_1.2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/pfamAnalyzeR/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-pfamanalyzer"
+  ],
+  "Package-List": [
+    "r-bioc-pfamanalyzer deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-pfamanalyzer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-pfamanalyzer.git"
+  ],
+  "Version": [
+    "1.2.0+dfsg-1"
+  ]
+}

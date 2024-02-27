@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "primecount, libprimecount7, libprimecount-dev, libprimecount-dev-common, primecount-bin, primecount-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libprimesieve-dev (\u003e= 8.0), asciidoc-base, xmlto"
+  ],
+  "Build-Depends-Indep": [
+    "pandoc"
+  ],
+  "Checksums-Sha256": [
+    "2fa3168ed981629e00275312711803a7a4ac4e125b165d8beb8ad85aa38662c7 3145 primecount_7.10+ds-1.dsc 4483ffe2abf23442ee26c8327af2cd70eab3913c26efc478d0089d33013b9ea3 128540 primecount_7.10+ds.orig.tar.xz 6bde3a7e5a6b96042505e938ecd1cb5cd90dff88f13f6214bfcc6b8273643842 13336 primecount_7.10+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/primecount"
+  ],
+  "Files": [
+    "a71afad685d312f047c14c9a70c619f5 3145 primecount_7.10+ds-1.dsc bfc122ca2fbb2c9288d3f1cc3fd5651f 128540 primecount_7.10+ds.orig.tar.xz f956e099b4dda54263aeec349fc86b27 13336 primecount_7.10+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kimwalisch/primecount"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "primecount"
+  ],
+  "Package-List": [
+    "libprimecount-dev deb libdevel optional arch=any libprimecount-dev-common deb libdevel optional arch=all libprimecount7 deb libs optional arch=any primecount deb math optional arch=all primecount-bin deb math optional arch=any primecount-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/primecount"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/primecount.git"
+  ],
+  "Version": [
+    "7.10+ds-1"
+  ]
+}

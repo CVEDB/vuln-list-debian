@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libpf4j-java"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk-headless, javahelper, maven-debian-helper, libmaven-javadoc-plugin-java, libmaven-source-plugin-java, libsemver-java, libslf4j-java, libtemplating-maven-plugin-java, junit5 \u003c!nocheck\u003e, libguava-java \u003c!nocheck\u003e, libhamcrest-java \u003c!nocheck\u003e, liblog4j2-java \u003c!nocheck\u003e, libmockito-java \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "706850b0be05932b810ba22b22f10b1ab962e015c05d1420324f1f0e61312026 2351 libpf4j-java_3.10.0+dfsg-1.dsc 78f36b9c84e9157f784062ce57a673f7a2edcc605ebb1ad94d52d52208ebe6fa 94632 libpf4j-java_3.10.0+dfsg.orig.tar.xz dfcf1985f8c50b1bb6b455b704163d8b9e389f98b30539089bf413beec9f94e1 8168 libpf4j-java_3.10.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpf4j-java"
+  ],
+  "Files": [
+    "bf856ac48ed5ba8ba4545c0502ded91b 2351 libpf4j-java_3.10.0+dfsg-1.dsc e49ed63e32568c182e6ff9dc8ac73caa 94632 libpf4j-java_3.10.0+dfsg.orig.tar.xz 29e8199700ad16c3d8904d62bf343db3 8168 libpf4j-java_3.10.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pf4j.org/"
+  ],
+  "Maintainer": [
+    "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libpf4j-java"
+  ],
+  "Package-List": [
+    "libpf4j-java deb java optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "default-jdk-headless, zip"
+  ],
+  "Uploaders": [
+    "Pierre Gruet \u003cpgt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/java-team/libpf4j-java"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/libpf4j-java.git"
+  ],
+  "Version": [
+    "3.10.0+dfsg-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "alembic, python3-alembic"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-changelog, python3-setuptools, python3-sphinx, python3-sphinx-copybutton, python3-sphinx-paramlinks, python3-typing-extensions"
+  ],
+  "Build-Depends-Indep": [
+    "python3-dateutil, python3-editor, python3-mako, python3-pytest, python3-sqlalchemy"
+  ],
+  "Checksums-Sha256": [
+    "c92c0d462fd82d8e93eefe65e951b56e318c68b5b4dc4eed0670ce59784a1172 2347 alembic_1.13.1-3.dsc da08bb274aa70a4e161a88b1cf1334fbf63c0833a01a8e4f7a770627dac907cd 589046 alembic_1.13.1.orig.tar.gz 4c649dbd830ec91eb44f33037b0211b7e0a00629b2f384e59c96629ec289c1de 7964 alembic_1.13.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/alembic"
+  ],
+  "Files": [
+    "dce12bed1151e43c133e410769009b1b 2347 alembic_1.13.1-3.dsc 534f02ca3850b1d9b8aeeaa17f16cd06 589046 alembic_1.13.1.orig.tar.gz fe03d246010cdfc97d386a0fbab20e22 7964 alembic_1.13.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sqlalchemy/alembic"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "alembic"
+  ],
+  "Package-List": [
+    "alembic deb python optional arch=all python3-alembic deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/alembic"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/alembic.git"
+  ],
+  "Version": [
+    "1.13.1-3"
+  ]
+}

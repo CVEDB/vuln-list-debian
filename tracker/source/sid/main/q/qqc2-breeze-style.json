@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libqqc2breezestyle-dev, qml-module-org-kde-qqc2breezestyle"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.91.0~), kirigami2-dev (\u003e= 5.91.0~), libkf5config-dev (\u003e= 5.91.0~), libkf5configwidgets-dev (\u003e= 5.91.0~), libkf5coreaddons-dev (\u003e= 5.91.0~), libkf5guiaddons-dev (\u003e= 5.91.0~), libkf5i18n-dev (\u003e= 5.91.0~), libkf5iconthemes-dev (\u003e= 5.91.0~), libqt5x11extras5-dev (\u003e= 5.15.0~), pkg-config, pkg-kde-tools (\u003e= 0.15.16), qtbase5-dev (\u003e= 5.15.0~), qtdeclarative5-dev (\u003e= 5.15.0~), qtquickcontrols2-5-dev (\u003e= 5.15.0~)"
+  ],
+  "Checksums-Sha256": [
+    "a8974bf8e37d9341e421d0b266d4d7f0bbec84c68071a2045338b8620aa050a6 3028 qqc2-breeze-style_5.27.10-1.dsc 3d8a6fbe18f7ac56ff0c0706e9219df29d49ff398173522bd53f1d8baa7b8b3b 66016 qqc2-breeze-style_5.27.10.orig.tar.xz 60a349392aec249cdfcb4bb9041d20e476bfba58644ebf3f6d25b759cc5f291f 833 qqc2-breeze-style_5.27.10.orig.tar.xz.asc 1afc7dc9f0de075a016388f0865b948406e7219ba5c8043ebf09991a1ad9d2dc 13640 qqc2-breeze-style_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qqc2-breeze-style"
+  ],
+  "Files": [
+    "e89b0f3bb5bd7456ec4b8dbfacffacbc 3028 qqc2-breeze-style_5.27.10-1.dsc 8e46e5afde739a6361b1838f71eb182d 66016 qqc2-breeze-style_5.27.10.orig.tar.xz 005e0d9f721d99d7b5889f7bdec33f7e 833 qqc2-breeze-style_5.27.10.orig.tar.xz.asc 4dd8fb8497470127a142b335cd73dbbf 13640 qqc2-breeze-style_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/qqc2-breeze-style"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qqc2-breeze-style"
+  ],
+  "Package-List": [
+    "libqqc2breezestyle-dev deb libdevel optional arch=any qml-module-org-kde-qqc2breezestyle deb kde optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/qqc2-breeze-style"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/qqc2-breeze-style.git"
+  ],
+  "Version": [
+    "5.27.10-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "puppet-module-puppetlabs-firewall"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "a844c2ce381e5463b4edf6d49180b235b4fc3c63eca2c87984c608f6f468796b 1694 puppet-module-puppetlabs-firewall_8.0.0-3.dsc dc61881c0950496040772980f4ab4eb17a4c082947ea383ec8b51ae263b075e2 90059 puppet-module-puppetlabs-firewall_8.0.0.orig.tar.gz af62749598a0e6c396d01d7286d691c72652f947eb5a551e3a62a96be41749eb 5808 puppet-module-puppetlabs-firewall_8.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puppet-module-puppetlabs-firewall"
+  ],
+  "Files": [
+    "2bdbb1302fee5a9e97d4328f86e2f521 1694 puppet-module-puppetlabs-firewall_8.0.0-3.dsc fe8f576ed44cb80e5a12c1eb015a6af9 90059 puppet-module-puppetlabs-firewall_8.0.0.orig.tar.gz 0e27944d82c1b4483615551ba7bb3962 5808 puppet-module-puppetlabs-firewall_8.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://forge.puppet.com/puppetlabs/firewall"
+  ],
+  "Maintainer": [
+    "Puppet Package Maintainers \u003cpkg-puppet-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "puppet-module-puppetlabs-firewall"
+  ],
+  "Package-List": [
+    "puppet-module-puppetlabs-firewall deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ruby-serverspec"
+  ],
+  "Uploaders": [
+    "Stig Sandbeck Mathisen \u003cssm@debian.org\u003e, Sebastien Badia \u003csbadia@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-firewall"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-firewall.git"
+  ],
+  "Version": [
+    "8.0.0-3"
+  ]
+}

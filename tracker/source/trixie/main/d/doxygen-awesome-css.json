@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "doxygen-awesome-css"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5b5ffdab023a7a7e085f86901cc9ebb60dac0e3dd970d69a871fd299523a09d4 1359 doxygen-awesome-css_2.3.1-1.dsc a3e000030078fcc32e1cfa73a97e12a70de8b4f97e4e4576d548c923f53f1f9b 5959272 doxygen-awesome-css_2.3.1.orig.tar.gz 73e441d0903bb35144a06c50a35dde853af7c5fc0104a5fe671a7291db624aed 2476 doxygen-awesome-css_2.3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/doxygen-awesome-css"
+  ],
+  "Files": [
+    "5f22be09b5e0a988a73f9aa3fe1e9634 1359 doxygen-awesome-css_2.3.1-1.dsc 703b5c1acc8e944dc8735420d17b1cb3 5959272 doxygen-awesome-css_2.3.1.orig.tar.gz 6c0a39032ee2339c6c6eccd7f809ba9a 2476 doxygen-awesome-css_2.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://jothepro.github.io/doxygen-awesome-css/"
+  ],
+  "Maintainer": [
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
+  ],
+  "Package": [
+    "doxygen-awesome-css"
+  ],
+  "Package-List": [
+    "doxygen-awesome-css deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/doxygen-awesome-css"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/doxygen-awesome-css.git"
+  ],
+  "Version": [
+    "2.3.1-1"
+  ]
+}

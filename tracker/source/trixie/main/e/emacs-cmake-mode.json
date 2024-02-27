@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-cmake-mode"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa (\u003e= 2.0.6~)"
+  ],
+  "Checksums-Sha256": [
+    "eb5e63ff2d2ed4b4e03bb09f279afe67835b61d8a614f8393eec37c0f294a381 1998 emacs-cmake-mode_3.28.0+ds-1.dsc b2d2001ea3a18e55a276f81b26cea7562f4debf3608b7673a9d96e0259f7f2a0 41284 emacs-cmake-mode_3.28.0+ds.orig.tar.xz 6eb68750232a15a6317d8a8b69343f0a21fc1ebba53437eefc629d7e1ecaa21e 2836 emacs-cmake-mode_3.28.0+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "4ae72977bd8c75599333989290fe29d473b9bc02 debian archive/debian/3.28.0+ds-1 https://git.dgit.debian.org/emacs-cmake-mode"
+  ],
+  "Directory": [
+    "pool/main/e/emacs-cmake-mode"
+  ],
+  "Files": [
+    "53ed4aabeba1d75773bd9c67e1d52fe8 1998 emacs-cmake-mode_3.28.0+ds-1.dsc 5422766441d2991c7d8659c9fbeefc87 41284 emacs-cmake-mode_3.28.0+ds.orig.tar.xz d5b13d4e41253eb95e6edf1ec3643862 2836 emacs-cmake-mode_3.28.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cmake.org"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "emacs-cmake-mode"
+  ],
+  "Package-List": [
+    "elpa-cmake-mode deb editors optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/emacs-cmake-mode"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/emacs-cmake-mode.git"
+  ],
+  "Version": [
+    "3.28.0+ds-1"
+  ]
+}

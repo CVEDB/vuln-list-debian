@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-scrypt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, libssl-dev, libpython3-all-dev, python3-all-dev:any, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "8b0d4d6c5681724dd9f2fa88eca7281834203dd867c45f92770c7c0c40a977d9 2070 python-scrypt_0.8.21-1.dsc 62ba2725fe2f301265ae3491efa1b7eb71e8e979042c1dde153130faeeed840c 67220 python-scrypt_0.8.21.orig.tar.gz 3cbf042a883da5a1abe981b3c06e2494cc2bd349aca167f2e44a9199628d1689 8780 python-scrypt_0.8.21-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-scrypt"
+  ],
+  "Files": [
+    "f986b3621bfb3c71c057c32e47dd529d 2070 python-scrypt_0.8.21-1.dsc cc50afc6815f4e494840091046152262 67220 python-scrypt_0.8.21.orig.tar.gz c8591d1cc16b68d1eabe080289531bff 8780 python-scrypt_0.8.21-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/holgern/py-scrypt"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-scrypt"
+  ],
+  "Package-List": [
+    "python3-scrypt deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-scrypt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-scrypt.git"
+  ],
+  "Version": [
+    "0.8.21-1"
+  ]
+}

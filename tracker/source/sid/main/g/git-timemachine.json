@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-git-timemachine"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "93b72f84f49768150482ac32c125dbf2ac379bf660f493a2a4482b0d2979cf25 1994 git-timemachine_4.13-1.dsc b13aeb4581acf5e7c58d889758b0246f6769975f0799eeba682c9ad2db7e58c3 385112 git-timemachine_4.13.orig.tar.xz c0560abcefcdf3c1b1e8d3bafeb1258718af8dd3c854742bbfa3494d39592f13 2416 git-timemachine_4.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/git-timemachine"
+  ],
+  "Files": [
+    "58a04ae2a64d947b279188ba65bc4a3f 1994 git-timemachine_4.13-1.dsc a670411245e8862b6f240b99814740b3 385112 git-timemachine_4.13.orig.tar.xz 4f8661bbd20d87c0cd5f3a05c098c82a 2416 git-timemachine_4.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/pidu/git-timemachine"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "git-timemachine"
+  ],
+  "Package-List": [
+    "elpa-git-timemachine deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Lev Lamberov \u003cdogsleg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/git-timemachine"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/git-timemachine.git"
+  ],
+  "Version": [
+    "4.13-1"
+  ]
+}

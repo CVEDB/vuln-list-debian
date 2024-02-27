@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-sphinx-prompt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-docutils \u003c!nocheck\u003e, python3-pygments \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-poetry, python3-poetry-core, python3-sphinx (\u003e= 7.0.0) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4361145928a1e65f8f3335cbbfbfd7af3148835ec26e44f6fde9ca330652abcb 2335 sphinx-prompt_1.8.0-3.dsc 6b98ed161637a04d26764347b8726bd4062ebbeeed79171ca875b0f2848d5cf2 37942 sphinx-prompt_1.8.0.orig.tar.gz 31cac9bfdda20aae44daa07acaa22dbcd1dc00dc9cb005ff1c028d2412c03d81 4300 sphinx-prompt_1.8.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sphinx-prompt"
+  ],
+  "Files": [
+    "88d88d5047b7f1b66d035482377e835b 2335 sphinx-prompt_1.8.0-3.dsc 45423401857702ea69605eb4709bce7f 37942 sphinx-prompt_1.8.0.orig.tar.gz e4332845e920b70de6155e775271199c 4300 sphinx-prompt_1.8.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sbrunner/sphinx-prompt"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sphinx-prompt"
+  ],
+  "Package-List": [
+    "python3-sphinx-prompt deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-docutils, python3-pygments, python3-pytest, python3-sphinx"
+  ],
+  "Uploaders": [
+    "Christian Kastner \u003cckk@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sphinx-prompt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sphinx-prompt.git"
+  ],
+  "Version": [
+    "1.8.0-3"
+  ]
+}

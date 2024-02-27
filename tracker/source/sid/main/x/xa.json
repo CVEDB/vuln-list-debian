@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xa65"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "f6f2e52a8e533044de7157dd66b96a1860577ba71923faf26d047c94b479c2f2 1700 xa_2.4.0-0.1.dsc 9e587a0ca8ff791009880bfa331f6ed36935e08ef9c123822ca175285f8c030c 197862 xa_2.4.0.orig.tar.gz 8fe4e21aad9242a75aa9c3b6778655cb9100be7980db1b129ff0b440907edb95 2648 xa_2.4.0-0.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xa"
+  ],
+  "Files": [
+    "df3180933bbf4449253f0bb055e5977a 1700 xa_2.4.0-0.1.dsc f88c71dee7bfba5aa9877d7d6333b33e 197862 xa_2.4.0.orig.tar.gz c07716ad5cbb41e74db86a4929f172ae 2648 xa_2.4.0-0.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.floodgap.com/retrotech/xa/"
+  ],
+  "Maintainer": [
+    "David Weinehall \u003ctao@debian.org\u003e"
+  ],
+  "Package": [
+    "xa"
+  ],
+  "Package-List": [
+    "xa65 deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.1.1"
+  ],
+  "Version": [
+    "2.4.0-0.1"
+  ]
+}

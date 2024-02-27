@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-webview"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, pybuild-plugin-pyproject"
+  ],
+  "Checksums-Sha256": [
+    "b930d74ad2de7a182cbd6c5f655290769d951439f7a7321b1652ee737334aaa7 2154 python-pywebview_4.4.1+dfsg-1.dsc 8fa108ea12de12a2b6cc8cac20b952871e8960d74e7336ac97be2209fa98bcc1 26917528 python-pywebview_4.4.1+dfsg.orig.tar.xz 74e9cec33cb2ba37050c0eaea8252d38bc7fdd5c58fed1aacc282d8e164d8469 4648 python-pywebview_4.4.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pywebview"
+  ],
+  "Files": [
+    "c45e95484b431b411b48e6ee0fda5c2a 2154 python-pywebview_4.4.1+dfsg-1.dsc 495143160996601646e24b1a9cfa83bf 26917528 python-pywebview_4.4.1+dfsg.orig.tar.xz ad8f5769541f244127de1e6888a12943 4648 python-pywebview_4.4.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/r0x0r/pywebview"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pywebview"
+  ],
+  "Package-List": [
+    "python3-webview deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pywebview"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pywebview.git"
+  ],
+  "Version": [
+    "4.4.1+dfsg-1"
+  ]
+}

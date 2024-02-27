@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-spatstat.geom"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-spatstat.data (\u003e= 3.0), r-cran-spatstat.utils (\u003e= 3.0-2), r-cran-deldir (\u003e= 1.0-2), r-cran-polyclip"
+  ],
+  "Checksums-Sha256": [
+    "fc8bbdd5ec2f4050b888de817639fd75e44a1884ea770089b46cea6048a2ca09 2394 r-cran-spatstat.geom_3.2-8-1.dsc 4bd6f401fbb3a7d9a0cdccb6cdeb9b0d8a2d114e4c75a224aff2be62c0990923 776008 r-cran-spatstat.geom_3.2-8.orig.tar.gz 472475bbbaed9d8cd78b57c4490747d6af945c0eb06ac6594e54d77813ae6f41 2876 r-cran-spatstat.geom_3.2-8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-spatstat.geom"
+  ],
+  "Files": [
+    "de3ff951860539c149a0243ed5a57242 2394 r-cran-spatstat.geom_3.2-8-1.dsc 57661986aa3f36325025540d6a5bce61 776008 r-cran-spatstat.geom_3.2-8.orig.tar.gz 9eb3ec1816d2502cfe33a1130be3906e 2876 r-cran-spatstat.geom_3.2-8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=spatstat.geom"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-spatstat.geom"
+  ],
+  "Package-List": [
+    "r-cran-spatstat.geom deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-spatial, r-cran-spatstat, r-cran-spatstat.explore, r-cran-spatstat.linnet, r-cran-spatstat.model, r-cran-spatstat.random"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-spatstat.geom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-spatstat.geom.git"
+  ],
+  "Version": [
+    "3.2-8-1"
+  ]
+}

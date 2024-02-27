@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "unicode-cldr-core"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10)"
+  ],
+  "Checksums-Sha256": [
+    "1ad205832ea46769ff92f9c91837a979e67cb673f95e62efb6830093d6821c16 1617 unicode-cldr-core_44-0.1.dsc a818d8b8fae7fda4625f91f25a66bfc7535bdddcdf968ca4bd0294bbb8649c03 19235552 unicode-cldr-core_44.orig.tar.xz 0cebbf96833b74f047a253c9e993cbd7ae9746e330a726c6d0f3b2ee8c49ce72 3048 unicode-cldr-core_44-0.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/unicode-cldr-core"
+  ],
+  "Files": [
+    "c7b079b88ddab8e0ef0b854835a95dd9 1617 unicode-cldr-core_44-0.1.dsc 899dcbb7992c2dae575cd869e397e945 19235552 unicode-cldr-core_44.orig.tar.xz 1ee24d8d82aa5c427864a8836fe401ca 3048 unicode-cldr-core_44-0.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://cldr.unicode.org/"
+  ],
+  "Maintainer": [
+    "Osamu Aoki \u003cosamu@debian.org\u003e"
+  ],
+  "Package": [
+    "unicode-cldr-core"
+  ],
+  "Package-List": [
+    "unicode-cldr-core deb misc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.2"
+  ],
+  "Version": [
+    "44-0.1"
+  ]
+}

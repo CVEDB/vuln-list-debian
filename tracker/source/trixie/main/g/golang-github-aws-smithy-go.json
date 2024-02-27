@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-aws-smithy-go-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.19~), golang-github-google-go-cmp-dev (\u003e= 0.5.8)"
+  ],
+  "Checksums-Sha256": [
+    "2dc3f46b52a4612cf03387dcf7593f6d54687f99719d40030787ed969e1bec20 2351 golang-github-aws-smithy-go_1.19.0-1.dsc 56e0c5005dd0fc2c9db98faa843ea5e666ea0d6b37eeac734784e6ec91f70f56 372586 golang-github-aws-smithy-go_1.19.0.orig.tar.gz 7217f0841a881dda8ea161c5f0321221ee6bc434e5f87be3766670613ac55f4d 2988 golang-github-aws-smithy-go_1.19.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-aws-smithy-go"
+  ],
+  "Files": [
+    "75890b93af159a494730b0303bbfedb5 2351 golang-github-aws-smithy-go_1.19.0-1.dsc ba64a6ca86199726132b8b81418e3ba9 372586 golang-github-aws-smithy-go_1.19.0.orig.tar.gz 24e250cff27fab7c1cc2fbb7d4993ee6 2988 golang-github-aws-smithy-go_1.19.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/aws/smithy-go"
+  ],
+  "Homepage": [
+    "https://github.com/aws/smithy-go"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-aws-smithy-go"
+  ],
+  "Package-List": [
+    "golang-github-aws-smithy-go-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-aws-smithy-go"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-aws-smithy-go.git"
+  ],
+  "Version": [
+    "1.19.0-1"
+  ]
+}

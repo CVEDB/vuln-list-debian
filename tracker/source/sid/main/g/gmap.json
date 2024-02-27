@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el riscv64"
+  ],
+  "Binary": [
+    "gmap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), help2man, libbz2-dev, zlib1g-dev, debhelper, libsimde-dev"
+  ],
+  "Checksums-Sha256": [
+    "5e356cd7fc314d486ee1b68cf32008dfcdd55c50835f7267adbf7ab1ccdfd63f 2290 gmap_2024-02-22+ds-1.dsc 5e700517f07b3447a0c38c60417fe8abbc8e2797da478db7d1e20cbd793858a8 2459216 gmap_2024-02-22+ds.orig.tar.xz dbb31386294d63152db9204090cdf64343b6472effceda7f16b00a71e2500e8a 13172 gmap_2024-02-22+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gmap"
+  ],
+  "Files": [
+    "a169a937011b9d22a00c549af0362e3d 2290 gmap_2024-02-22+ds-1.dsc 2faffbff71a1065d632ff5edb0a53574 2459216 gmap_2024-02-22+ds.orig.tar.xz d0a97e7fc96a4fd7378007468ed842e1 13172 gmap_2024-02-22+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://research-pub.gene.com/gmap"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gmap"
+  ],
+  "Package-List": [
+    "gmap deb science optional arch=amd64,arm64,armel,armhf,i386,loong64,mips64el,mipsel,ppc64el,riscv64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Shaun Jackman \u003csjackman@debian.org\u003e, Andreas Tille \u003ctille@debian.org\u003e, Alexandre Mestiashvili \u003cmestia@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/gmap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/gmap.git"
+  ],
+  "Version": [
+    "2024-02-22+ds-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "crun"
+  ],
+  "Build-Depends": [
+    "automake, debhelper-compat (= 13), go-md2man, golang-github-opencontainers-image-spec-dev, golang-github-opencontainers-specs-dev (\u003e= 1.1.0), gperf, libcap-dev, libseccomp-dev, libsystemd-dev, libwasmedge-dev [amd64 arm64], libyajl-dev, pkgconf, python3"
+  ],
+  "Checksums-Sha256": [
+    "c6aa9743f29cdb846e789be627b98095c591454fb962f90baf88fc11f98c252d 2411 crun_1.14.1-1.dsc c416560f158c4a4a27d239f21a3809e5fd52fbf2106b0c5319343973508d1cec 750260 crun_1.14.1.orig.tar.xz 3c48b2ef8a984770c008558bfb5dd26618aa0f18eb5166242d1de31392b6fbf0 488 crun_1.14.1.orig.tar.xz.asc add69c561f67e10fb8034e9b0d26f9ac19671ee5ca409ab58b88af7814e1d95b 18520 crun_1.14.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/crun"
+  ],
+  "Files": [
+    "724372baac5bc3e70b3b905077c66424 2411 crun_1.14.1-1.dsc 629fd370517d2a38f30acf024411a6d8 750260 crun_1.14.1.orig.tar.xz da2fc2afabbe0d9b06e9997dc4d2e795 488 crun_1.14.1.orig.tar.xz.asc ca7e932b62a1ecfa28298dcf6645946d 18520 crun_1.14.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/containers/crun"
+  ],
+  "Maintainer": [
+    "Faidon Liambotis \u003cparavoid@debian.org\u003e"
+  ],
+  "Package": [
+    "crun"
+  ],
+  "Package-List": [
+    "crun deb admin optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python-is-python3"
+  ],
+  "Uploaders": [
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/crun"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/crun.git"
+  ],
+  "Version": [
+    "1.14.1-1"
+  ]
+}

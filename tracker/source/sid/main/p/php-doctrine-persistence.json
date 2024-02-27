@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-doctrine-persistence"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-doctrine-common, php-doctrine-event-manager, php-psr-cache, php-symfony-cache, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "721600b3683f5a4b8dcf1b913988bae91633b587ab73255c9daa3807d2b88b22 2045 php-doctrine-persistence_3.2.0-2.dsc a821a1c51f56080a381b3a2b236996528af87a2edfb76ebbd889081a3ec22224 34484 php-doctrine-persistence_3.2.0.orig.tar.xz 73669bff314c77b2e0a7fb8e5f95b9c67849a8a09f857e7cbf13820502f648eb 12312 php-doctrine-persistence_3.2.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-doctrine-persistence"
+  ],
+  "Files": [
+    "caf83798b241a8b1562cbaba394bd31a 2045 php-doctrine-persistence_3.2.0-2.dsc 420ed60f00f2162c36f2aec2114744ff 34484 php-doctrine-persistence_3.2.0.orig.tar.xz 4d5bf450180d17e28534519ce4c906a8 12312 php-doctrine-persistence_3.2.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.doctrine-project.org/projects/persistence.html"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-doctrine-persistence"
+  ],
+  "Package-List": [
+    "php-doctrine-persistence deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-doctrine-common, php-symfony-cache, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-doctrine-persistence"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-doctrine-persistence.git -b debian/latest"
+  ],
+  "Version": [
+    "3.2.0-2"
+  ]
+}

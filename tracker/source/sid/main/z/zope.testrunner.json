@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-zope.testrunner"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-six, python3-zope.exceptions, python3-zope.interface, python3-zope.testing \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c091047713a6f30cfe7fd051b473f333fec952b36cd0da5a7ee0fd44bfd922e3 2315 zope.testrunner_6.3.1-1.dsc f1bcc1ab8bd7f333d6bfa2d60a8ca77e5d1713b23defdc12d7b0327a3a56ba07 154730 zope.testrunner_6.3.1.orig.tar.gz bcf5e48325b274cb2391fc9aa5a2131df5a3c2f17c84635a7e89c629f9e7a927 7032 zope.testrunner_6.3.1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "7ff3d256aa33e62086a05d29f763729c5e9a5098 debian archive/debian/6.3.1-1 https://git.dgit.debian.org/zope.testrunner"
+  ],
+  "Directory": [
+    "pool/main/z/zope.testrunner"
+  ],
+  "Files": [
+    "618ea97b5eb8893fcdd797e51f49aa2e 2315 zope.testrunner_6.3.1-1.dsc bc8c69453907c7055ad24d8d6a7e73f8 154730 zope.testrunner_6.3.1.orig.tar.gz 80f5a996974e035ff09b654368e5ae5c 7032 zope.testrunner_6.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zopefoundation/zope.testrunner"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "zope.testrunner"
+  ],
+  "Package-List": [
+    "python3-zope.testrunner deb zope optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "zope"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/zope.testrunner"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/zope.testrunner.git"
+  ],
+  "Version": [
+    "6.3.1-1"
+  ]
+}

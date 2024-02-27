@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-tosca-parser-doc, python3-tosca-parser"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-cliff, python3-coverage, python3-dateutil, python3-fixtures, python3-hacking, python3-openstackdocstheme, python3-oslotest, python3-pbr, python3-requests, python3-stestr, python3-stevedore, python3-testscenarios, python3-testtools, python3-yaml, subunit"
+  ],
+  "Checksums-Sha256": [
+    "781878a45c0d1fde65e73370a6a43d457a4e0733e6dd72e336d42949786e2a91 2558 python-tosca-parser_2.10.0-1.dsc 5591b770d4b284e1d9a10da78d9361654d351411e293b81ab5f1e6e89e5d5723 167596 python-tosca-parser_2.10.0.orig.tar.xz 3f5bd69316f12947cc47594defd15c9fd1e92a9162d0cdc75ff8e5036a53997e 10496 python-tosca-parser_2.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-tosca-parser"
+  ],
+  "Files": [
+    "0139edf3c1d53cdb0c24cfec9a96b790 2558 python-tosca-parser_2.10.0-1.dsc 464a66f9488123d2e7bed33940bfc35d 167596 python-tosca-parser_2.10.0.orig.tar.xz 708f24951945d59b264849f0a808f125 10496 python-tosca-parser_2.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/tosca-parser"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-tosca-parser"
+  ],
+  "Package-List": [
+    "python-tosca-parser-doc deb doc optional arch=all python3-tosca-parser deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Mickael Asseline \u003cmickael@papamica.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/libs/python-tosca-parser"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/libs/python-tosca-parser.git"
+  ],
+  "Version": [
+    "2.10.0-1"
+  ]
+}

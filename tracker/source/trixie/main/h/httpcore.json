@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-httpcore"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, mitmproxy \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-all, python3-anyio \u003c!nocheck\u003e, python3-hatch-fancy-pypi-readme, python3-hatchling, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-httpbin \u003c!nocheck\u003e, python3-sniffio \u003c!nocheck\u003e, python3-socksio \u003c!nocheck\u003e, python3-trio \u003c!nocheck\u003e, python3-trustme \u003c!nocheck\u003e, python3-uvicorn \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "44824be39a034b3299204a147f8b32e902b718a6634c380965b9b24ee8832fb1 1800 httpcore_1.0.2-1.dsc a4354cd7291b667110f2146875c0db38cf3151c33a83b81be74c30994ce246d6 95549 httpcore_1.0.2.orig.tar.gz cb79a57d3776406f74f5a978cf050048f03f2527b71ef5bbe0cea280a872164f 4200 httpcore_1.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/httpcore"
+  ],
+  "Files": [
+    "310a10522fab6938ed852273302ea497 1800 httpcore_1.0.2-1.dsc cfd403172a1dfb1a420a6e248acb1ae1 95549 httpcore_1.0.2.orig.tar.gz fdcb48ee7388639bd9cb353af805289f 4200 httpcore_1.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/encode/httpcore"
+  ],
+  "Maintainer": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
+  ],
+  "Package": [
+    "httpcore"
+  ],
+  "Package-List": [
+    "python3-httpcore deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/httpcore"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/httpcore.git"
+  ],
+  "Version": [
+    "1.0.2-1"
+  ]
+}

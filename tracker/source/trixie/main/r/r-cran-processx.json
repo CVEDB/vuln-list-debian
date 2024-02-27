@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-processx"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ps, r-cran-r6"
+  ],
+  "Checksums-Sha256": [
+    "dc669f7476285cc7c9cc43eb01cc7e010610064d34f0db1fbc2e7e144dbe59e9 2251 r-cran-processx_3.8.3-1.dsc 1ad8c51482b89702fbbb6621b1a179c1ae67b78388b8fd9c841bbc8cf035d831 163682 r-cran-processx_3.8.3.orig.tar.gz 89f3d5bdf488171e6e1717c0f297512bd2fcda7d4165eaaa771278a82af7ca17 3456 r-cran-processx_3.8.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-processx"
+  ],
+  "Files": [
+    "b7832103c8ff6c6f598d1c49acaa208e 2251 r-cran-processx_3.8.3-1.dsc ad4eef6b9a21f570f8686c0157712ddf 163682 r-cran-processx_3.8.3.orig.tar.gz 261381f803dfb4b625a3e83fea614223 3456 r-cran-processx_3.8.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=processx"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-processx"
+  ],
+  "Package-List": [
+    "r-cran-processx deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-callr, r-cran-cli, r-cran-codetools, r-cran-covr, r-cran-curl, r-cran-rlang, r-cran-testthat, r-cran-webfakes, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-processx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-processx.git"
+  ],
+  "Version": [
+    "3.8.3-1"
+  ]
+}

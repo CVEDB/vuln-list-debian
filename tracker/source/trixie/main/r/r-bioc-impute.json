@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-impute"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "dcd2f373bbd77d3b0818882e76455bd5acaaf563555c64631a65009de16f4482 2048 r-bioc-impute_1.76.0-1.dsc f412bbf66f664297379b6f71eac6e018798af860f26c90450eca369b52b7f560 641568 r-bioc-impute_1.76.0.orig.tar.gz 568517098db2cc08c8637319b1b8240d0f42be1b86292087cf7bb7000cfffec6 2628 r-bioc-impute_1.76.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-impute"
+  ],
+  "Files": [
+    "1efa79375059090ed18402afb7db90ca 2048 r-bioc-impute_1.76.0-1.dsc 8e974dcc31c3507ebcc8984b2d7943f9 641568 r-bioc-impute_1.76.0.orig.tar.gz 0083873780068e6def594910953fa347 2628 r-bioc-impute_1.76.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/impute/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-impute"
+  ],
+  "Package-List": [
+    "r-bioc-impute deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-impute"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-impute.git"
+  ],
+  "Version": [
+    "1.76.0-1"
+  ]
+}

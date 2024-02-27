@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lynis"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bash-completion"
+  ],
+  "Checksums-Sha256": [
+    "977664aaedf4709bfbb5fe5dc2047598c95bd5d762aead62ad4e1dcecacbbeab 2115 lynis_3.0.9-1.dsc f394df7d20391fb76e975ae88f3eba1da05ac9c4945e2c7f709326e185e17025 339171 lynis_3.0.9.orig.tar.gz 7ea94c59e13bebe4861d66e469116ab44a5f5a53f04a3f7ecc3fce1842da79a7 819 lynis_3.0.9.orig.tar.gz.asc 1d970f4effec8599b4a3205d1432f206dda125870551b209456613b3ed576e05 16160 lynis_3.0.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lynis"
+  ],
+  "Files": [
+    "d57ad463e9253555a87bacaba4fec091 2115 lynis_3.0.9-1.dsc 10c92d41648d2fc4f497f62301f90a6f 339171 lynis_3.0.9.orig.tar.gz 60b5859af4ba769d4e04690b63d78ea6 819 lynis_3.0.9.orig.tar.gz.asc 3d09de5a4d741c03e68091f7193447c2 16160 lynis_3.0.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cisofy.com/lynis/"
+  ],
+  "Maintainer": [
+    "Marc Dequènes (Duck) \u003cDuck@DuckCorp.org\u003e"
+  ],
+  "Package": [
+    "lynis"
+  ],
+  "Package-List": [
+    "lynis deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Francisco Manuel Garcia Claramonte \u003cfrancisco@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/lynis"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/lynis.git"
+  ],
+  "Version": [
+    "3.0.9-1"
+  ]
+}

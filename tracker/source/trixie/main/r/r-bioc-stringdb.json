@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-stringdb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-png, r-cran-sqldf, r-cran-plyr, r-cran-igraph, r-cran-rcurl, r-cran-rcolorbrewer, r-cran-gplots, r-cran-hash, r-cran-plotrix"
+  ],
+  "Checksums-Sha256": [
+    "06e76abf9f95f41bdfc04fb15fe084b1678aaae036b678799dda50e739bfb432 2212 r-bioc-stringdb_2.14.0-1.dsc a428af46ffe31e67cd5b34236fe2b6d281974ac88946c9105c7f61d0f538d6b9 8196346 r-bioc-stringdb_2.14.0.orig.tar.gz e09be6f4734a7110abf616b004ca23cf32618abd91735ff5da053b0edb9d8ab2 3020 r-bioc-stringdb_2.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-stringdb"
+  ],
+  "Files": [
+    "495869d4208191d29ba031ccf6621cfd 2212 r-bioc-stringdb_2.14.0-1.dsc 6dc5819519574f0656e4b811e4618db7 8196346 r-bioc-stringdb_2.14.0.orig.tar.gz e756d8facc8231a2fba8581b131fb7a4 3020 r-bioc-stringdb_2.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/STRINGdb/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-stringdb"
+  ],
+  "Package-List": [
+    "r-bioc-stringdb deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-stringdb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-stringdb.git"
+  ],
+  "Version": [
+    "2.14.0-1"
+  ]
+}

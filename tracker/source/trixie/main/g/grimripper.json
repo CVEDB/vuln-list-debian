@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "grimripper"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcddb2-dev, libgtk-3-dev, meson"
+  ],
+  "Checksums-Sha256": [
+    "192a42f9281f7b753c7cef445cfafb3d3fe80a5db1266bd51fb8169b42241753 1989 grimripper_3.0.2-3.dsc 7d016a90f7800557ac0513d64c6135db498f18efafe3dc4d40cfc6e37a6c8bb1 535887 grimripper_3.0.2.orig.tar.bz2 20bace7ed216856bb8560ee939f6c556fd1b435b80cd782939ddcea9ec8fca80 3828 grimripper_3.0.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/grimripper"
+  ],
+  "Files": [
+    "ad1cc75a44a059b7ef977b8f50c19a19 1989 grimripper_3.0.2-3.dsc 73cb24b6842c5d7cec16405d0c5265e6 535887 grimripper_3.0.2.orig.tar.bz2 d8886a9d079dad43593a46bb690dcb1d 3828 grimripper_3.0.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/Salamandar/GrimRipper"
+  ],
+  "Maintainer": [
+    "Peter Blackman \u003cpeter@pblackman.plus.com\u003e"
+  ],
+  "Package": [
+    "grimripper"
+  ],
+  "Package-List": [
+    "grimripper deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Andreas Rönnquist \u003cgusnan@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/PeterB/grimripper"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/PeterB/grimripper.git"
+  ],
+  "Version": [
+    "3.0.2-3"
+  ]
+}

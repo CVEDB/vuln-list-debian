@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libfwupd2, fwupd, fwupd-tests, fwupd-doc, libfwupd-dev, gir1.2-fwupd-2.0"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper (\u003e= 12), dh-strip-nondeterminism, fontconfig, fonts-noto, fwupd-unsigned-dev [amd64 arm64 armhf i386], gettext (\u003e= 0.19.8.1), gir1.2-pango-1.0, gnu-efi [amd64 arm64 armhf i386], gnutls-bin, gnutls-dev, gobject-introspection, libarchive-dev, libcairo-dev, libcairo-gobject2, libcbor-dev, libcurl4-gnutls-dev, libdrm-dev, libflashrom-dev [!ia64], libfreetype-dev, libftdi1-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.45.8), libgudev-1.0-dev, libgusb-dev (\u003e= 0.3.5), libjaylink-dev [!ia64], libjcat-dev, libjson-glib-dev (\u003e= 1.1.1), liblzma-dev, libmbim-glib-dev, libmm-glib-dev, libpci-dev, libpolkit-gobject-1-dev, libprotobuf-c-dev, libqmi-glib-dev, libqrtr-glib-dev, libsqlite3-dev, libsystemd-dev, systemd-dev | systemd, libtool-bin, libtss2-dev, libxmlb-dev (\u003e= 0.1.13), libzstd-dev, locales, meson, mingw-w64-tools [amd64 arm64 armhf i386], pkg-config, protobuf-c-compiler, python3-gi-cairo, python3-jinja2, python3-packaging, python3-pefile, python3-requests, python3-toml, python3-typogrify, shared-mime-info, udev, umockdev, valac, valgrind-if-available"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "74ef614c800a1b478cff3fe05e849625b02cb5127f907d7ea82040838d6bcccb 3472 fwupd_1.9.13-1.dsc fe6dba601fdafbcd35e9b23b63a982f8d122b4c93193670bad7943e788140c89 5700070 fwupd_1.9.13.orig.tar.gz 2a1c7f0d306d7c0cbbcc3f165d5a3c49d23d304c26d9e663c72cd3c197b0f614 26192 fwupd_1.9.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fwupd"
+  ],
+  "Files": [
+    "ef2cb9909c6c22a42a259cf68c208f78 3472 fwupd_1.9.13-1.dsc 0429a7d5e0b46e0145df5ab2a9e71c3c 5700070 fwupd_1.9.13.orig.tar.gz fe7d92b7c594c62cb7112cc08b19280e 26192 fwupd_1.9.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fwupd/fwupd"
+  ],
+  "Maintainer": [
+    "Debian EFI \u003cdebian-efi@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fwupd"
+  ],
+  "Package-List": [
+    "fwupd deb admin optional arch=linux-any fwupd-doc deb doc optional arch=all profile=!nodoc fwupd-tests deb admin optional arch=linux-any gir1.2-fwupd-2.0 deb introspection optional arch=linux-any libfwupd-dev deb libdevel optional arch=linux-any libfwupd2 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Steve McIntyre \u003c93sam@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e, Mario Limonciello \u003csuperm1@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/efi-team/fwupd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/efi-team/fwupd.git"
+  ],
+  "Version": [
+    "1.9.13-1"
+  ]
+}

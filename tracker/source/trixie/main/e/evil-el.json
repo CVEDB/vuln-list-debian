@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-evil"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-elpa, python3-sphinx, texinfo, emacs-nox (\u003e= 1:28.2+1-9) | emacs (\u003e= 1:28.2+1-9)"
+  ],
+  "Checksums-Sha256": [
+    "2471e2d2704f30d7028de33d094e1180d344ff49a8d6d6a6ab0c42be7c526228 1957 evil-el_1.14.2-2.dsc dd4cf260924a02dbe58f06a90f4a1cdc63fcb0827626b8a16087283610ed0317 264496 evil-el_1.14.2.orig.tar.xz 4fd0d38a2366c8ea09b2fc464113e35cbea3723a5c9eaf5229b78d016397cd43 4868 evil-el_1.14.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/evil-el"
+  ],
+  "Files": [
+    "0a9dda11f3b2fb3950129ebc99093f39 1957 evil-el_1.14.2-2.dsc 81ded3b4b9feabc6769c42d466a2807d 264496 evil-el_1.14.2.orig.tar.xz 2934c170d6a3ef109134eb4a29ac12ae 4868 evil-el_1.14.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/emacs-evil/evil"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "evil-el"
+  ],
+  "Package-List": [
+    "elpa-evil deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/evil-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/evil-el.git"
+  ],
+  "Version": [
+    "1.14.2-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-unimath"
+  ],
+  "Build-Depends": [
+    "coq (\u003e= 8.17), debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-core-ocaml-dev, libcoq-stdlib"
+  ],
+  "Checksums-Sha256": [
+    "3c87083284e448de7723bbc20fa28387b6a2d4b4de6a24092558ee8c7547ccde 2109 coq-unimath_20231010-1.dsc c722471ead589f971a561cfc2f836d8e7139710797b15350edc867f9c037853b 2893033 coq-unimath_20231010.orig.tar.gz dd3a0d8e22a121761e8967c2bdaa92553bc2fda8ee8d6d54f1a2f7d0d147bc9f 2088 coq-unimath_20231010-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-unimath"
+  ],
+  "Files": [
+    "5cbc38eac51bc1089875ec1076b64952 2109 coq-unimath_20231010-1.dsc fa01c7733174c7ac4c161b610dd7f858 2893033 coq-unimath_20231010.orig.tar.gz 64e61e068b79c4004760ab27931969ab 2088 coq-unimath_20231010-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/UniMath/UniMath"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-unimath"
+  ],
+  "Package-List": [
+    "libcoq-unimath deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-unimath"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-unimath.git"
+  ],
+  "Version": [
+    "20231010-1"
+  ]
+}

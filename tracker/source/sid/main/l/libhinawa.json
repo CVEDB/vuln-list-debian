@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libhinawa4, gir1.2-hinawa-4.0, libhinawa-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, meson (\u003e= 0.60.0), libglib2.0-dev (\u003e= 2.44.0), gobject-introspection-bin, libgirepository1.0-dev (\u003e= 1.32.1), python3-gi, gi-docgen (\u003e= 2023.1)"
+  ],
+  "Checksums-Sha256": [
+    "177982d5ea5b51658c1768af6e19ac3b0edf3f594ace902cde1b1706ce4707bc 2179 libhinawa_4.0.1-2.dsc a0e0efdece6a2de40c192fb93287dfe3677aed952004323b884ee07092285629 88496 libhinawa_4.0.1.orig.tar.xz 394d9b9f65f9e9e0e6152d62793459807fb179fcfc0cc6e5d5dffa22481f554b 9404 libhinawa_4.0.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libh/libhinawa"
+  ],
+  "Files": [
+    "dfe35c1c98d0e6c459537bd1b205466b 2179 libhinawa_4.0.1-2.dsc 4554cd5c5406429b8b97e37237e5caa4 88496 libhinawa_4.0.1.orig.tar.xz 91becb1948172b251ddf711014a27bd2 9404 libhinawa_4.0.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.kernel.org/pub/scm/libs/ieee1394/libhinawa.git/"
+  ],
+  "Maintainer": [
+    "Kentaro Hayashi \u003ckenhys@xdump.org\u003e"
+  ],
+  "Package": [
+    "libhinawa"
+  ],
+  "Package-List": [
+    "gir1.2-hinawa-4.0 deb introspection optional arch=linux-any libhinawa-dev deb libdevel optional arch=linux-any libhinawa4 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libhinawa/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libhinawa.git"
+  ],
+  "Version": [
+    "4.0.1-2"
+  ]
+}

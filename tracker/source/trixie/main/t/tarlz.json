@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tarlz"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), liblz-dev, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "b0bfd19519ad3d2b8363bda7b8e207cc55c5eb584010a963ac37deea00e6b597 1890 tarlz_0.25-1.dsc b9b912e697ff8cc7d174e048c0d7acdff8ea4181a9e681e981415e80555e340e 116780 tarlz_0.25.orig.tar.xz 63bfb80346bef1ea3e73dc428f8a7a8329d78fc0d9387b16c8ac4a4d76cc4cb5 4876 tarlz_0.25-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tarlz"
+  ],
+  "Files": [
+    "a9d153adf4afc5f416be5ed01eb79288 1890 tarlz_0.25-1.dsc 76317ccfe672ce59672a61ac92553c2f 116780 tarlz_0.25.orig.tar.xz 79f72e535023fdcc18cbc586edc16eca 4876 tarlz_0.25-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.nongnu.org/lzip/tarlz.html"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "tarlz"
+  ],
+  "Package-List": [
+    "tarlz deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/tarlz"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/tarlz"
+  ],
+  "Version": [
+    "0.25-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2-quality-filter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, python3-pytest, qiime (\u003e= 2024.2), q2templates (\u003e= 2024.2), q2-types (\u003e= 2024.2)"
+  ],
+  "Checksums-Sha256": [
+    "592078b0ca6fba11c055c64eb86b90cecfca9d24d5f92e6fc95843284e9a355b 2298 q2-quality-filter_2024.2.0-1.dsc 14797b127b1bdfd3a378309e5525b3de6688563eae8c7bd1970313a87c55b07c 257474 q2-quality-filter_2024.2.0.orig.tar.gz 9c495cc9b62252ef3857f013fc30b8e79f04d2f715606688e4b7003403568779 6480 q2-quality-filter_2024.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-quality-filter"
+  ],
+  "Files": [
+    "0acca281bf6751efdb17a62af374ce1c 2298 q2-quality-filter_2024.2.0-1.dsc 865ea7e34af752052eccfd9178c634f8 257474 q2-quality-filter_2024.2.0.orig.tar.gz 37deac51f04fa0ad6b441c97ea6e5a92 6480 q2-quality-filter_2024.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-quality-filter"
+  ],
+  "Package-List": [
+    "q2-quality-filter deb science optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-quality-filter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-quality-filter.git"
+  ],
+  "Version": [
+    "2024.2.0-1"
+  ]
+}

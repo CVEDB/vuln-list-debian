@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tmuxp, python3-tmuxp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, pybuild-plugin-pyproject, python3-all, python3-poetry-core, python3-click, python3-flake8, python3-isort, python3-libtmux (\u003e= 0.30.0-1~), python3-setuptools, tmux, vulture"
+  ],
+  "Checksums-Sha256": [
+    "f74e2678c514a53e0b1a3682f62c42200f8c968aa39a99ef7cee8a7a96cc6605 1853 tmuxp_1.38.0-1.dsc e3c355e3c994fc0ce57fbd41afa8a0fb704c15ea8bddd918043b73df1a8a79ba 765492 tmuxp_1.38.0.orig.tar.xz eba3a2e7524a0920bdc14d0092378cb031672213d5a713be7a1bb6408e9c56c7 4128 tmuxp_1.38.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tmuxp"
+  ],
+  "Files": [
+    "cf3af6fd259458f23f5d2ab4ee413bae 1853 tmuxp_1.38.0-1.dsc fe5995f0f98c512e2c183a397564fd30 765492 tmuxp_1.38.0.orig.tar.xz 06a01fde8b2d2816b8397535b236e02f 4128 tmuxp_1.38.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tony/tmuxp/"
+  ],
+  "Maintainer": [
+    "Sebastien Delafond \u003cseb@debian.org\u003e"
+  ],
+  "Package": [
+    "tmuxp"
+  ],
+  "Package-List": [
+    "python3-tmuxp deb utils optional arch=all tmuxp deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-hypothesis, python3-pytest, python3-pytest-mock, python3-pytest-rerunfailures, python3-setuptools"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/tmuxp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/tmuxp.git"
+  ],
+  "Version": [
+    "1.38.0-1"
+  ]
+}

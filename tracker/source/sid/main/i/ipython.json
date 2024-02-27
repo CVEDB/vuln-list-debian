@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-ipython-doc, python3-ipython, ipython3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, black, python3-all, python3-backcall, python3-decorator, python3-jedi (\u003e= 0.16), python3-matplotlib-inline, python3-numpydoc, python3-pexpect, python3-pickleshare, python3-prompt-toolkit (\u003e= 2), python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-stack-data, python3-traitlets, python3-typing-extensions \u003c!nodoc\u003e, python-traitlets-doc \u003c!nodoc\u003e, python-jupyter-client-doc \u003c!nodoc\u003e, python-jupyter-core-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9aba6b1e70ff11cfd1547c5a321a2032365d6814e08aaff3313c902b34de1c98 2246 ipython_8.20.0-1.dsc 261a1df6d7b0b5a0e7dcc33965198ed9a022f5c7253e48d07eb2511b23c4cd23 6032209 ipython_8.20.0.orig.tar.gz 88c3f0dd3f9c3e7d0199a64ae2f616b5ef1b9d82557cccab10910d874ed05e51 8952 ipython_8.20.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/ipython"
+  ],
+  "Files": [
+    "7b4704ed213717a164c8bd41f360d144 2246 ipython_8.20.0-1.dsc c321bd8de89d2e9db4a0a5ec42c57012 6032209 ipython_8.20.0.orig.tar.gz abc9cc4c2afde3a8cafe236eedede02f 8952 ipython_8.20.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ipython/ipython"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ipython"
+  ],
+  "Package-List": [
+    "ipython3 deb interpreters optional arch=all python-ipython-doc deb doc optional arch=all python3-ipython deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "git, python3-all, python3-ipykernel, python3-matplotlib, python3-nbformat, python3-pandas, python3-pickleshare, python3-pytest, python3-pytest-asyncio, python3-testpath, python3-trio"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e, Gordon Ball \u003cgordon@chronitis.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/ipython"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/ipython.git"
+  ],
+  "Version": [
+    "8.20.0-1"
+  ]
+}

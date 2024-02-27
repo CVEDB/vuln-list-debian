@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "arping"
+  ],
+  "Build-Depends": [
+    "check, debhelper-compat (= 13), libnet1-dev, libpcap-dev, libseccomp-dev"
+  ],
+  "Checksums-Sha256": [
+    "e462d2ae5bcfc4356b656a61c09f91007b988b43635352e9909fe5fa9dd0bd6c 2048 arping_2.24-1.dsc 9351a066c1e8508860540c9bc922d1709cbe0c81023b25613c374ef313ff158a 146508 arping_2.24.orig.tar.xz cc320aa8087564550182c08abad25fa9283522aaf3b7a2f9b92b07e27817deed 9200 arping_2.24-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/arping"
+  ],
+  "Files": [
+    "6f76d41393b9dfa7f3623aeb34ef669c 2048 arping_2.24-1.dsc d2c10f6fd8a558c0ecf04f9d9b304945 146508 arping_2.24.orig.tar.xz 3530aa9309bb96a7cdfd2e37687b64f7 9200 arping_2.24-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.habets.pp.se/synscan/programs.php?prog=arping"
+  ],
+  "Maintainer": [
+    "Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Package": [
+    "arping"
+  ],
+  "Package-List": [
+    "arping deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/arping"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/arping.git"
+  ],
+  "Version": [
+    "2.24-1"
+  ]
+}

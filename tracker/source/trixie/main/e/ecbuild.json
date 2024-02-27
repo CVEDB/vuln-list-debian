@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ecbuild"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-buildinfo, cmake"
+  ],
+  "Checksums-Sha256": [
+    "297d40b7ec817ac35b7a8734f9b96f698a49ed7a4abb5ddb89a4cdbce5c64c56 1903 ecbuild_3.8.2-1.dsc b6c7b7935b15a9c7b0f8400b7d864f2057dee6f8b8e74a46390bf2b794480b6f 214104 ecbuild_3.8.2.orig.tar.xz 1f73b5442e8fecbe8b6fd627fac7b94126502be953e9afc17469d065a10d0d8d 6568 ecbuild_3.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/ecbuild"
+  ],
+  "Files": [
+    "f85dcea9dab0b23d59ffd261f24f9802 1903 ecbuild_3.8.2-1.dsc 01a86a0b22e11f5a950a6626ac5fbe72 214104 ecbuild_3.8.2.orig.tar.xz 61d8151e91a6dc319a9f7ff25804a6d8 6568 ecbuild_3.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://confluence.ecmwf.int/spaces/viewspace.action?key=ecbuild"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "ecbuild"
+  ],
+  "Package-List": [
+    "ecbuild deb libs optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/science-team/ecbuild.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/ecbuild.git -b debian/latest"
+  ],
+  "Version": [
+    "3.8.2-1"
+  ]
+}

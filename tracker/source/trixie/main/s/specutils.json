@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-specutils"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, python3-all-dev, python3-asdf (\u003e= 2.10~), python3-astropy (\u003e= 5.1~), python3-gwcs (\u003e= 0.17~), python3-matplotlib \u003c!nodoc\u003e \u003c!nocheck\u003e, python3-ndcube (\u003e= 2.0.0~), python3-pytest \u003c!nocheck\u003e, python3-pytest-astropy \u003c!nocheck\u003e, python3-scipy, python3-setuptools, python3-setuptools-scm, python3-spectral-cube \u003c!nocheck\u003e, python3-sphinx-astropy \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d88e32cec6e8c0b8cc17af737fbca23a1d6bedc0412e1afa266d2de247c08c65 2464 specutils_1.13.0-1.dsc d8651d253baea379ad883d80fc349ee480cb587f29b284adf82702a5f78bda31 5396009 specutils_1.13.0.orig.tar.gz e83ba97e0fc7bdbcf7a4217127c82ecb1af5609f8cd7d70f4c04d79d57fd411d 5880 specutils_1.13.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/specutils"
+  ],
+  "Files": [
+    "e55f62102d2a2c160ecdb326448b1ada 2464 specutils_1.13.0-1.dsc 713b7df9212bffa34a5a66f42972fac9 5396009 specutils_1.13.0.orig.tar.gz 442c6676b3d307ad7078adedd705b44f 5880 specutils_1.13.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/astropy/specutils"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "specutils"
+  ],
+  "Package-List": [
+    "python3-specutils deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-matplotlib, python3-pytest, python3-pytest-astropy, python3-spectral-cube"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/specutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/specutils.git"
+  ],
+  "Version": [
+    "1.13.0-1"
+  ]
+}

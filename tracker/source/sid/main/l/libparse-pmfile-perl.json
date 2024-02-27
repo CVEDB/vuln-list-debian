@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libparse-pmfile-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libextutils-makemaker-cpanfile-perl, perl"
+  ],
+  "Checksums-Sha256": [
+    "3ebf0535310c70da9c60502ee5017ac8b086dbee0d2bbd728beb577676b66b9d 2418 libparse-pmfile-perl_0.45-1.dsc 4b0ee0d2673ba2b6609c4ec20d7c5a79149787dd1367d88d411997c4d9472caf 16127 libparse-pmfile-perl_0.45.orig.tar.gz ae644bfb426d2b648664e80aa29a11d01e5e371fb199c392621ea318c41a2dc6 3148 libparse-pmfile-perl_0.45-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a6c8d1cbc60789a34ff25c496c6168aaf3d8ede0 debian archive/debian/0.45-1 https://git.dgit.debian.org/libparse-pmfile-perl"
+  ],
+  "Directory": [
+    "pool/main/libp/libparse-pmfile-perl"
+  ],
+  "Files": [
+    "e4551ec8b60bf1d4eb15722f12f84fac 2418 libparse-pmfile-perl_0.45-1.dsc dfb0ef39946459fbcb3e5a418293f6fc 16127 libparse-pmfile-perl_0.45.orig.tar.gz ee0eb07e09650d8028a9e5c7242350b1 3148 libparse-pmfile-perl_0.45-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Parse-PMFile"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libparse-pmfile-perl"
+  ],
+  "Package-List": [
+    "libparse-pmfile-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libparse-pmfile-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libparse-pmfile-perl.git"
+  ],
+  "Version": [
+    "0.45-1"
+  ]
+}

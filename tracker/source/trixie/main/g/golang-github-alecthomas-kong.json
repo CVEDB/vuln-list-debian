@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-alecthomas-kong-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-alecthomas-assert-dev (\u003e= 2.1.0), golang-github-alecthomas-repr-dev (\u003e= 0.1.0)"
+  ],
+  "Checksums-Sha256": [
+    "7668b49e9f193a2065690809056b7a861a56bbc4a560ba1215af22d72e6db61d 2374 golang-github-alecthomas-kong_0.8.1-1.dsc 8dda3057ad628ee60a3e06ee05fa099f94f46bbfc765f34cc9e09bf78ab973ae 306345 golang-github-alecthomas-kong_0.8.1.orig.tar.gz 30d861920c92e5ebcb5292a8f86792a556084cfe69818f8479ee81caf7fad90f 10188 golang-github-alecthomas-kong_0.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-alecthomas-kong"
+  ],
+  "Files": [
+    "2a0d27a3b1df078096840958fb5e7782 2374 golang-github-alecthomas-kong_0.8.1-1.dsc 394c36caff3c5dfe1cd6626d26084860 306345 golang-github-alecthomas-kong_0.8.1.orig.tar.gz 359a32922ee6466e3f26d3b29707e59f 10188 golang-github-alecthomas-kong_0.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/alecthomas/kong"
+  ],
+  "Homepage": [
+    "https://github.com/alecthomas/kong"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-alecthomas-kong"
+  ],
+  "Package-List": [
+    "golang-github-alecthomas-kong-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-alecthomas-kong"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-alecthomas-kong.git"
+  ],
+  "Version": [
+    "0.8.1-1"
+  ]
+}

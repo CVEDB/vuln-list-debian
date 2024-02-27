@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-webtest, python-webtest-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dh-python, python3-all, python3-setuptools, python3-webob, python3-sphinx, python3-bs4, python3-waitress"
+  ],
+  "Checksums-Sha256": [
+    "e0b45ec23593a212559f23376d0bed53216e166ba391354c4f048d3f0b1ba9fa 2148 webtest_3.0.0-3.dsc 54bd969725838d9861a9fa27f8d971f79d275d94ae255f5c501f53bb6d9929eb 75871 webtest_3.0.0.orig.tar.gz b008f23625dc012aadf343939147a399176ce23c4596e3de0f76b92d18378a10 5060 webtest_3.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/webtest"
+  ],
+  "Files": [
+    "ca9bb3bc7cf2d42c275daea1bceeb8b3 2148 webtest_3.0.0-3.dsc f923a6279574427c82f5323c06b6f6e5 75871 webtest_3.0.0.orig.tar.gz a509108b50b177f8298f28c6ce6151f8 5060 webtest_3.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.pylonsproject.org/projects/webtest"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "webtest"
+  ],
+  "Package-List": [
+    "python-webtest-doc deb doc optional arch=all python3-webtest deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Piotr Ożarowski \u003cpiotr@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/webtest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/webtest.git"
+  ],
+  "Version": [
+    "3.0.0-3"
+  ]
+}

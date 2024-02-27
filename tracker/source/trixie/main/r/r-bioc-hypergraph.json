@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-hypergraph"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-graph"
+  ],
+  "Checksums-Sha256": [
+    "ad51b148a7f7b4a14b65593ac0685ba8f4aad144bf01e37956542752b0cfae5d 2104 r-bioc-hypergraph_1.74.0-1.dsc b13eade58013768c012f27c52728b5143f174ab14cf0cfbdc64e36cbbe937299 8444 r-bioc-hypergraph_1.74.0.orig.tar.gz 28807b29b8af19e3a12d963d14241a8f02314d9689821355feb8cf07c43666e0 4296 r-bioc-hypergraph_1.74.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-hypergraph"
+  ],
+  "Files": [
+    "a795ab2d1ef0bff2d13d1a05ea1dcdcf 2104 r-bioc-hypergraph_1.74.0-1.dsc e97653a8503ba0bcb6da1dbdf1a3552b 8444 r-bioc-hypergraph_1.74.0.orig.tar.gz bef64cc08f17f10d2d4c331f38ee4e56 4296 r-bioc-hypergraph_1.74.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/hypergraph/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-hypergraph"
+  ],
+  "Package-List": [
+    "r-bioc-hypergraph deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-hypergraph"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-hypergraph.git"
+  ],
+  "Version": [
+    "1.74.0-1"
+  ]
+}

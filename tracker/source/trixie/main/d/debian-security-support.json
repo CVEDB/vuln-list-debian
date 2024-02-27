@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debian-security-support"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), asciidoc, gettext, gawk, libfile-slurp-perl, libtemplate-perl, libtest-command-perl, libtest-differences-perl, mawk, original-awk, po-debconf, xmlto"
+  ],
+  "Checksums-Sha256": [
+    "f928acf9ae7a754cfc5a9c946e944353e8f91d49fe1e4ef9ae0c51fc3dafa089 1909 debian-security-support_13+2024.01.30.dsc 94d987bb93a6b6542413a9ade3733ac4217585366e18063c1351783619721976 34456 debian-security-support_13+2024.01.30.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/debian-security-support"
+  ],
+  "Files": [
+    "175383481222aa8d67421b048a29f267 1909 debian-security-support_13+2024.01.30.dsc 16362f419487131fa2ddb69280984dcc 34456 debian-security-support_13+2024.01.30.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Security Team \u003cteam@security.debian.org\u003e,"
+  ],
+  "Package": [
+    "debian-security-support"
+  ],
+  "Package-List": [
+    "debian-security-support deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Holger Levsen \u003cholger@debian.org\u003e, Utkarsh Gupta \u003cutkarsh@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/debian-security-support"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/debian-security-support.git"
+  ],
+  "Version": [
+    "1:13+2024.01.30"
+  ]
+}

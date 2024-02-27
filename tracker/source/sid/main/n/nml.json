@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "nml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all-dev:any, libpython3-all-dev, python3-setuptools, python3-ply, python3-pil"
+  ],
+  "Checksums-Sha256": [
+    "8c7e0716db22ecdd972663f5fa48f4ce43b06ca204bf6b55dbdaa8d4006305c1 1956 nml_0.7.4-1.dsc e48a177741849f1f87bc7390a59b2d32f489ea06567ba6118c05500bd6f7a841 569348 nml_0.7.4.orig.tar.gz aaba7e6224c62e8951006fb075dc47cac7c3ee690c9dcd07f12a278f7ef23e7e 5552 nml_0.7.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nml"
+  ],
+  "Files": [
+    "5c66fcc1b69591387f3edd8b6ff3fa57 1956 nml_0.7.4-1.dsc 9ade8a964154e5be5dd3269494d66459 569348 nml_0.7.4.orig.tar.gz 633850612b5bf5f4b18a8148048d6798 5552 nml_0.7.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/OpenTTD/nml"
+  ],
+  "Maintainer": [
+    "Matthijs Kooijman \u003cmatthijs@stdin.nl\u003e"
+  ],
+  "Package": [
+    "nml"
+  ],
+  "Package-List": [
+    "nml deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jordi Mallach \u003cjordi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openttd-team/nml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openttd-team/nml.git"
+  ],
+  "Version": [
+    "0.7.4-1"
+  ]
+}

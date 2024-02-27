@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fonts-beng-extra"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fontforge-nox"
+  ],
+  "Checksums-Sha256": [
+    "5ddcc40130174c004fd0dcdeaee9d07dc7a253b6466e764a77521593a54dfb83 1962 fonts-beng-extra_3.3.1-2.dsc 2d68c9996aec5390ceeb083f9742486db3b4ceec9a089b391edf8a6622ab7c68 976730 fonts-beng-extra_3.3.1.orig.tar.gz 0c79dc30a02d2845df7f090d17a64e1aec052db04115417b0c5f91820791250b 3568 fonts-beng-extra_3.3.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fonts-beng-extra"
+  ],
+  "Files": [
+    "8fd09fd02ba7ff1973a61761c73f34e7 1962 fonts-beng-extra_3.3.1-2.dsc ee65b5ed8b6af24e1802f43c3fac6820 976730 fonts-beng-extra_3.3.1.orig.tar.gz be9bf059a0ff72d80a805782ced2875c 3568 fonts-beng-extra_3.3.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Fonts Task Force \u003cdebian-fonts@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fonts-beng-extra"
+  ],
+  "Package-List": [
+    "fonts-beng-extra deb fonts optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "fonts"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Vasudev Kamath \u003ckamathvasudev@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/fonts-team/fonts-beng-extra"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/fonts-team/fonts-beng-extra.git"
+  ],
+  "Version": [
+    "3.3.1-2"
+  ]
+}

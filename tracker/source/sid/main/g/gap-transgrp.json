@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gap-transgrp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gap (\u003e= 4r9), gap-doc, tth, texlive-binaries, texlive-fonts-recommended"
+  ],
+  "Checksums-Sha256": [
+    "a7ae1ed044f181a6104e7462a7e343122edb435121526f31586120eaff5734be 1846 gap-transgrp_3.6.5-1.dsc 6f2ec142a004f9d5e3b28bfa03246472fee93ceb12837206960bcb560eb72376 59054123 gap-transgrp_3.6.5.orig.tar.gz 8249bb3ec2e666a75ad8a13388d08eff907fef849fd28682042d031d1ec69f67 7112 gap-transgrp_3.6.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gap-transgrp"
+  ],
+  "Files": [
+    "2d456dad8420f24ff0607e6ece408d1a 1846 gap-transgrp_3.6.5-1.dsc ce3e9b0ae4e3e2562e79f1c61a7fa050 59054123 gap-transgrp_3.6.5.orig.tar.gz 94914be1eb1d1e6a6a55de579a1b02bd 7112 gap-transgrp_3.6.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gap-system.org/Packages/transgrp.html"
+  ],
+  "Maintainer": [
+    "Bill Allombert \u003cballombe@debian.org\u003e"
+  ],
+  "Package": [
+    "gap-transgrp"
+  ],
+  "Package-List": [
+    "gap-transgrp deb math optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "3.6.5-1"
+  ]
+}

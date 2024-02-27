@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-biocviews"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase, r-bioc-graph, r-bioc-rbgl, r-cran-xml, r-cran-rcurl, r-cran-runit, r-cran-biocmanager"
+  ],
+  "Checksums-Sha256": [
+    "4519c193228f5b87ad7244c023a29f13675738253cb0c04944792ec42d0a4200 2187 r-bioc-biocviews_1.70.0-1.dsc 0b5500ff5b7d6b5a2eda6478c0a26a069074f62fee1430035bac67a80f51f33a 518308 r-bioc-biocviews_1.70.0.orig.tar.gz c8edbf8768f9a965a9f733392becb6a3b569bb0f4bf7651be8685b2031fec212 5836 r-bioc-biocviews_1.70.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-biocviews"
+  ],
+  "Files": [
+    "547c4831039fbbc8c46c3689f8aa50a1 2187 r-bioc-biocviews_1.70.0-1.dsc e258342a57f06fa23f3732c75539c58d 518308 r-bioc-biocviews_1.70.0.orig.tar.gz 99b3d28d2a4c18235b2383d8adb71359 5836 r-bioc-biocviews_1.70.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/biocViews/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-biocviews"
+  ],
+  "Package-List": [
+    "r-bioc-biocviews deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocviews"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biocviews.git"
+  ],
+  "Version": [
+    "1.70.0-1"
+  ]
+}

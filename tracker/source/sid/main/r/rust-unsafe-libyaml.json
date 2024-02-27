@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-unsafe-libyaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2822c1861fd0b7f981fe7e49355bd5510077533a15d40bfaad34b9f386cf62af 2358 rust-unsafe-libyaml_0.2.10-1.dsc ab4c90930b95a82d00dc9e9ac071b4991924390d46cbd0dfe566148667605e4b 61964 rust-unsafe-libyaml_0.2.10.orig.tar.gz 3ab135a3be9d68e5e1747a62c0d5519d4545ff2a040246b4310623c1b4b626dd 2752 rust-unsafe-libyaml_0.2.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-unsafe-libyaml"
+  ],
+  "Files": [
+    "4dc9c7f455e1000bdaa7d62e82467ae3 2358 rust-unsafe-libyaml_0.2.10-1.dsc 428fc5d72716c000ce20267887878be2 61964 rust-unsafe-libyaml_0.2.10.orig.tar.gz 3b1ccbac12003f13aae91b87e7189584 2752 rust-unsafe-libyaml_0.2.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-unsafe-libyaml"
+  ],
+  "Package-List": [
+    "librust-unsafe-libyaml-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-pretty-assertions-1+default-dev"
+  ],
+  "Uploaders": [
+    "Blair Noctis \u003cn@sail.ng\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unsafe-libyaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/unsafe-libyaml]"
+  ],
+  "Version": [
+    "0.2.10-1"
+  ]
+}

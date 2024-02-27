@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pytest-httpbin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, pandoc, python3-all, python3-flask \u003c!nocheck\u003e, python3-httpbin \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "5315c032d27f0233dd6277d990a0f7ac3b8081589a885017e69e07561cb5c0cc 2328 pytest-httpbin_2.0.0-1.dsc bec3279e3359a15f4c9615170182ccc284b842b285ee04b0fa9a721f4b07c690 19867 pytest-httpbin_2.0.0.orig.tar.gz 9b77c52be1a6dfd6bc1859111af83a4fc41947da1aca48374c6b11b3b63c59f4 4972 pytest-httpbin_2.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pytest-httpbin"
+  ],
+  "Files": [
+    "48b2b1c290a03165921f339019a83175 2328 pytest-httpbin_2.0.0-1.dsc 0a0000babd953a21eb91b35385d16d43 19867 pytest-httpbin_2.0.0.orig.tar.gz f004178d82c373f5693a29358ed1543e 4972 pytest-httpbin_2.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kevin1024/pytest-httpbin"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pytest-httpbin"
+  ],
+  "Package-List": [
+    "python3-pytest-httpbin deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-flask, python3-requests"
+  ],
+  "Uploaders": [
+    "Pierre-Elliott Bécue \u003cpeb@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pytest-httpbin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pytest-httpbin.git"
+  ],
+  "Version": [
+    "2.0.0-1"
+  ]
+}

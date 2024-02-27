@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-imdario-mergo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-gopkg-yaml.v3-dev"
+  ],
+  "Checksums-Sha256": [
+    "3666f580f82361e362c625caf3a905aa9b7d848f2b232af90e11ba9069950fd8 2357 golang-github-imdario-mergo_0.3.16-1.dsc aad20db6d2559bca1b7bd076bb97b7cadbb2a072bcd1a8053e95b254a07e6e0c 29046 golang-github-imdario-mergo_0.3.16.orig.tar.gz 4347dc18e4ec92cab65b9a158d702a9544a6af3d6d326ff786c84f65e5a0b366 3224 golang-github-imdario-mergo_0.3.16-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-imdario-mergo"
+  ],
+  "Files": [
+    "faec1156131758dd6618f48d3aba94ab 2357 golang-github-imdario-mergo_0.3.16-1.dsc e018359cd57cb5bcee42ad9acd62c95c 29046 golang-github-imdario-mergo_0.3.16.orig.tar.gz dd457270cea4e8ee459492ff1be9df87 3224 golang-github-imdario-mergo_0.3.16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/imdario/mergo"
+  ],
+  "Homepage": [
+    "https://github.com/imdario/mergo"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-imdario-mergo"
+  ],
+  "Package-List": [
+    "golang-github-imdario-mergo-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Arnaud Rebillout \u003carnaud.rebillout@collabora.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-imdario-mergo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-imdario-mergo.git"
+  ],
+  "Version": [
+    "0.3.16-1"
+  ]
+}

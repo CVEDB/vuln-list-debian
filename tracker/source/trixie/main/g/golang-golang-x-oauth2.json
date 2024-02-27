@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-oauth2-dev, golang-golang-x-oauth2-google-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-google-go-cmp-dev (\u003e= 0.5.9)"
+  ],
+  "Checksums-Sha256": [
+    "ef5bba90ddbf20da5457e315e86b47c7a3e95b4048d1f6a0e325cd43ae193ba8 2452 golang-golang-x-oauth2_0.15.0-1.dsc 4fa90f99be339725a53c2e850b1e4967e43af21d8fc7f1588ef19c4bd12799f2 74192 golang-golang-x-oauth2_0.15.0.orig.tar.xz e8be95690d6daed34aa0b0fdfbc9cacf86e897efce1f6feae9de5b773502b688 4488 golang-golang-x-oauth2_0.15.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-oauth2"
+  ],
+  "Files": [
+    "42f73f8aa87038230660b33e149ba5b0 2452 golang-golang-x-oauth2_0.15.0-1.dsc a41a7eca61205bf961304c5edf3f2503 74192 golang-golang-x-oauth2_0.15.0.orig.tar.xz edfb07e20fd6499f7ea160255098852a 4488 golang-golang-x-oauth2_0.15.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/oauth2"
+  ],
+  "Homepage": [
+    "https://golang.org/x/oauth2"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-oauth2"
+  ],
+  "Package-List": [
+    "golang-golang-x-oauth2-dev deb golang optional arch=all golang-golang-x-oauth2-google-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martina Ferrari \u003ctina@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-oauth2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-oauth2.git"
+  ],
+  "Version": [
+    "0.15.0-1"
+  ]
+}

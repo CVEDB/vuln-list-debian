@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "yamllint"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-nose, python3-pathspec, python3-setuptools, pybuild-plugin-pyproject, python3-sphinx, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "5c68cba5e6d7d945f9e45328044d9f86b45561ecab86580fe47a00687a6a0418 2153 yamllint_1.33.0-1.dsc 18ca981b1bd3d115049ef516929599d02d8b57cdb984c70ad327d99efac5d67c 126438 yamllint_1.33.0.orig.tar.gz f9899382f98e9fd22e212cc813956fd5c0e5a2c87ee5832fa749825bc8cd1f93 3860 yamllint_1.33.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yamllint"
+  ],
+  "Files": [
+    "86faced2680d4868077918f3e4fc2f35 2153 yamllint_1.33.0-1.dsc cf265ab01f7c26a91986bb182878da2d 126438 yamllint_1.33.0.orig.tar.gz 1ac367fb3da97e88fe909dc1be71ebc5 3860 yamllint_1.33.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/adrienverge/yamllint"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "yamllint"
+  ],
+  "Package-List": [
+    "yamllint deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Adrien Vergé \u003cadrienverge@gmail.com\u003e, Philipp Huebner \u003cdebalance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/yamllint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/yamllint.git"
+  ],
+  "Version": [
+    "1.33.0-1"
+  ]
+}

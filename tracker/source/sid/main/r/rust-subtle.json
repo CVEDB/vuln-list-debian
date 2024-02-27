@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-subtle-dev, librust-subtle+default-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "fd8442300c5e7a385ca0925f0c5ab24d7e6a5315ec78217ea024d71b94f2231d 2247 rust-subtle_2.5.0-1.dsc 81cdd64d312baedb58e21336b31bc043b77e01cc99033ce76ef539f78e965ebc 13909 rust-subtle_2.5.0.orig.tar.gz 68013d721699975f5431ff494ecc9f0b0c8c6d6ef87d036769bbaba9f1515186 3304 rust-subtle_2.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-subtle"
+  ],
+  "Files": [
+    "e3e650b462d9910a4509593f1120780a 2247 rust-subtle_2.5.0-1.dsc 24e0b498b23c398c49e3af66373c91cc 13909 rust-subtle_2.5.0.orig.tar.gz 3ece89b1ce09a3f8a35bf9037404f9a2 3304 rust-subtle_2.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dalek.rs/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-subtle"
+  ],
+  "Package-List": [
+    "librust-subtle+default-dev deb rust optional arch=any librust-subtle-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rand-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/subtle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/subtle]"
+  ],
+  "Version": [
+    "2.5.0-1"
+  ]
+}

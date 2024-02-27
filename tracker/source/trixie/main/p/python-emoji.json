@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-emoji"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "e8fc435f8b16adc5821e2e4f1daa572d48be57a4d5ce5079b8adf8969a3be445 2073 python-emoji_2.8.0-1.dsc 42d165510ebce9d21e821d29a39460cec5b295634f5fe848c97cbe05f30e458e 426886 python-emoji_2.8.0.orig.tar.gz f574ed1c5de4682375aa8188fa9b9d55d9e6ce828da9f077b991a88d3dc67631 2456 python-emoji_2.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-emoji"
+  ],
+  "Files": [
+    "552ba2e372f996fb92c11fdbadf5ed18 2073 python-emoji_2.8.0-1.dsc 45ac4264d1c060e5e1fa59d9f669ce02 426886 python-emoji_2.8.0.orig.tar.gz dde3511353b4555d3879cd89860d4815 2456 python-emoji_2.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/carpedm20/emoji/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-emoji"
+  ],
+  "Package-List": [
+    "python3-emoji deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-emoji"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-emoji.git"
+  ],
+  "Version": [
+    "2.8.0-1"
+  ]
+}

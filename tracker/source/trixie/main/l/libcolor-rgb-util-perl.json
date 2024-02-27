@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libcolor-rgb-util-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libdigest-sha-perl \u003c!nocheck\u003e, libtest-exception-perl \u003c!nocheck\u003e, libtest-randomresult-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "c839c3a095e6994fdcd9389800b1e80048694ae82a46a22f59c4097c103427af 2551 libcolor-rgb-util-perl_0.607-1.dsc 484c5875a6e3f227f00acec27c53e380fb18e192d0792ad7474d8923c2086609 25792 libcolor-rgb-util-perl_0.607.orig.tar.gz d74ecf1cf9f2b55e300cdfe0d9d1b0f044914e460ead1f39e9ec896fabf00c64 1852 libcolor-rgb-util-perl_0.607-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "cd5c50ba2357abcbf32a08f913ae3023665e65d8 debian archive/debian/0.607-1 https://git.dgit.debian.org/libcolor-rgb-util-perl"
+  ],
+  "Directory": [
+    "pool/main/libc/libcolor-rgb-util-perl"
+  ],
+  "Files": [
+    "51927904dfc4d70fb93776df95378e04 2551 libcolor-rgb-util-perl_0.607-1.dsc 7b2a0861ef8b49d935c4ccf7d300defa 25792 libcolor-rgb-util-perl_0.607.orig.tar.gz c67e0b0cec613997e5539468beafe4bf 1852 libcolor-rgb-util-perl_0.607-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Color-RGB-Util"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcolor-rgb-util-perl"
+  ],
+  "Package-List": [
+    "libcolor-rgb-util-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcolor-rgb-util-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcolor-rgb-util-perl.git"
+  ],
+  "Version": [
+    "0.607-1"
+  ]
+}

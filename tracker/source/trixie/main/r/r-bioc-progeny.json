@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-progeny"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase, r-cran-dplyr, r-cran-tidyr, r-cran-ggplot2, r-cran-ggrepel, r-cran-gridextra, r-bioc-decoupler, r-cran-reshape2"
+  ],
+  "Checksums-Sha256": [
+    "1e02ef53150f9298537e6a135c9749375b646f4dc3f352fd2e552a5fe186ff2c 2213 r-bioc-progeny_1.24.0+ds-1.dsc 04b1c4adcedda2ec52d4e7e09ee2b09324f2c442545a5fda58167dc76ebfccf6 9768008 r-bioc-progeny_1.24.0+ds.orig.tar.xz 6f0b4eec02c36ef395d2d4fce155888043ed4a51649dfa2cb18c673f5936f1a7 3620 r-bioc-progeny_1.24.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-progeny"
+  ],
+  "Files": [
+    "1bdb29466a80a729fbd4796ee622566c 2213 r-bioc-progeny_1.24.0+ds-1.dsc a1ecef4733c9e650c38721277eea775b 9768008 r-bioc-progeny_1.24.0+ds.orig.tar.xz 401c5831fcd20f3d2619f9a0c59ab992 3620 r-bioc-progeny_1.24.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/progeny/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-progeny"
+  ],
+  "Package-List": [
+    "r-bioc-progeny deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-progeny"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-progeny.git"
+  ],
+  "Version": [
+    "1.24.0+ds-1"
+  ]
+}

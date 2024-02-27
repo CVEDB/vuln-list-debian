@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-mergeomics"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "faa4518553102aff020b6a114a09709d423fca52042104bd981db4914beabd8e 2099 r-bioc-mergeomics_1.30.0-1.dsc 03480d2a56911e31333b3eece4d8a1d2b5418c051c276d3017e0195f99226260 3265991 r-bioc-mergeomics_1.30.0.orig.tar.gz 2de2a582f1227a1998ae99e1a01fb6f80678ebac57bbe4ffbb1d93b9f21c5b8e 3356 r-bioc-mergeomics_1.30.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-mergeomics"
+  ],
+  "Files": [
+    "81695cf1b96a062b5fa5a81deffc8b1c 2099 r-bioc-mergeomics_1.30.0-1.dsc 1b8f5bc8cf54fa99df988a83c71737d3 3265991 r-bioc-mergeomics_1.30.0.orig.tar.gz 313584784fd04bc79ce98f5a65fb4b1f 3356 r-bioc-mergeomics_1.30.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/Mergeomics/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-mergeomics"
+  ],
+  "Package-List": [
+    "r-bioc-mergeomics deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-mergeomics"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-mergeomics.git"
+  ],
+  "Version": [
+    "1.30.0-1"
+  ]
+}

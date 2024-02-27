@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "crystal-facet-uml"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libgtk-4-dev, libsqlite3-dev"
+  ],
+  "Checksums-Sha256": [
+    "e12fac5613d523ebb197c3517100d760a4096fa13fbb6bb9b8a9b7eb25a1815a 2174 crystal-facet-uml_1.55.3-1.dsc 0682f5cc20c1cb212bf83adb971f20de8e4f8ce0206eed6890d879814a64298e 5313171 crystal-facet-uml_1.55.3.orig.tar.gz 71dc2618fbb073c990c8636df8d3cc689405db566e40a51e3f3ff46d517fbdb7 6692 crystal-facet-uml_1.55.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/crystal-facet-uml"
+  ],
+  "Files": [
+    "8c2c58b97500a2287e6acf178d2c3bd4 2174 crystal-facet-uml_1.55.3-1.dsc 087c1316c015a0f95cd0fba23fe58329 5313171 crystal-facet-uml_1.55.3.orig.tar.gz ea77dddd19a462b1fa0d7a622d430f02 6692 crystal-facet-uml_1.55.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://andreaswarnke.de/crystal-facet-uml/html/index.html"
+  ],
+  "Maintainer": [
+    "Andreas Warnke \u003ccfu@andreaswarnke.de\u003e"
+  ],
+  "Package": [
+    "crystal-facet-uml"
+  ],
+  "Package-List": [
+    "crystal-facet-uml deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Debian Edu Packaging Team \u003cdebian-edu-pkg-team@lists.alioth.debian.org\u003e, Mike Gabriel \u003csunweaver@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-edu-pkg-team/crystal-facet-uml/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-edu-pkg-team/crystal-facet-uml.git"
+  ],
+  "Version": [
+    "1.55.3-1"
+  ]
+}

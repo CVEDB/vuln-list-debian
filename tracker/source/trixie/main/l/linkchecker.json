@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "linkchecker, linkchecker-web"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, gettext, pybuild-plugin-pyproject, python3-all-dev, python3-hatchling, python3-hatch-vcs, python3-tomli, python3-packaging, python3-pip, python3-pyparsing, python3-requests, python3-typing-extensions, python3-urllib3"
+  ],
+  "Checksums-Sha256": [
+    "9f313050df32396e6a59826da13d27a608373524079a1e72fedef45ca72fdbd3 1589 linkchecker_10.4.0-1.dsc e512bbcab304bfad0624d6dbeee79b59ee38e77b102ce1dd4874b6d8c924b4de 523841 linkchecker_10.4.0.orig.tar.gz ed335648d1845c59fc5673e7d61980155d8b9f153e6506c804b0526549127950 19692 linkchecker_10.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linkchecker"
+  ],
+  "Files": [
+    "1204397d19fdf9c79a45f4b5dc1654db 1589 linkchecker_10.4.0-1.dsc 48e11675e94efe67afe6bc379fab34b5 523841 linkchecker_10.4.0.orig.tar.gz aeeb420ce182be269e02ca0d9c34ef11 19692 linkchecker_10.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://linkcheck.github.io/linkchecker/"
+  ],
+  "Maintainer": [
+    "Antoine Beaupré \u003canarcat@debian.org\u003e"
+  ],
+  "Package": [
+    "linkchecker"
+  ],
+  "Package-List": [
+    "linkchecker deb web optional arch=any linkchecker-web deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.1.5"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/linkchecker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/linkchecker.git"
+  ],
+  "Version": [
+    "10.4.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 loong64 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+  ],
+  "Binary": [
+    "golang-1.22-go, golang-1.22-src, golang-1.22-doc, golang-1.22"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), golang-go (\u003e= 2:1.20~), netbase"
+  ],
+  "Checksums-Sha256": [
+    "886f5855ffaf84fd1b892c8e9d4e67e05eb08d9513a1f2d2a8b3a19fa63f3d87 2544 golang-1.22_1.22~rc2-1.dsc d193a87db8223821e1ee891edfee36c8eac9ba0cf83e42ede64795a7de8a7f27 27618539 golang-1.22_1.22~rc2.orig.tar.gz 3b0d46db7465251524ae1f7c0ca32a2fa4ae15c9f625da7c774345e60a227397 833 golang-1.22_1.22~rc2.orig.tar.gz.asc fe8d4ca99b7aa293de854489e0c4193eb0d41779ab57251cdc7b8e102ed0f6dd 36884 golang-1.22_1.22~rc2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-1.22"
+  ],
+  "Files": [
+    "e44aff68cb7fe440049ee2390df42c76 2544 golang-1.22_1.22~rc2-1.dsc 69461cde3ff7d342c56b5fec1b09c1c5 27618539 golang-1.22_1.22~rc2.orig.tar.gz 990824fa2c0cda0d90e281f9ead6faa9 833 golang-1.22_1.22~rc2.orig.tar.gz.asc cc88a60354ddcc5acacaf15173b5abc5 36884 golang-1.22_1.22~rc2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://go.dev/"
+  ],
+  "Maintainer": [
+    "Debian Go Compiler Team \u003cteam+go-compiler@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-1.22"
+  ],
+  "Package-List": [
+    "golang-1.22 deb golang optional arch=all golang-1.22-doc deb doc optional arch=all golang-1.22-go deb golang optional arch=amd64,arm64,armel,armhf,i386,loong64,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.22-src deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e, Tianon Gravi \u003ctianon@debian.org\u003e, Michael Hudson-Doyle \u003cmwhudson@debian.org\u003e, Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.22"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.22"
+  ],
+  "Version": [
+    "1.22~rc2-1"
+  ]
+}

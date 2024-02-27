@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libtuiwidgets0a, libtuiwidgets-dev, libtuiwidgets-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, ninja-build, pkg-config, qt5-qmake, qttools5-dev-tools, qtbase5-dev, catch2, python3-sphinx:native, python3-bs4, python3-freetype, fonts-dejavu-core, fonts-dejavu-extra, fonts-unifont, python3-pil, dh-sequence-sphinxdoc, libtermpaint-dev, libposixsignalmanager-dev"
+  ],
+  "Checksums-Sha256": [
+    "66f9a7f9cfb46f49b0876bb6700d5dee94289064b6bba27b042461ef0b33c1b6 2298 tuiwidgets_0.2.1-1.dsc d3c9e6ef014e80efd29079f0feacf856a5dfc428e6fdd68d1764195c9646d6f9 2624828 tuiwidgets_0.2.1.orig.tar.gz 0edd10526974c40b1ca4ea41f6e6adcc41bcbaf609f8324242c66ffc70a61b8f 6456 tuiwidgets_0.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tuiwidgets"
+  ],
+  "Files": [
+    "db927ee469e880a5cddf992ff5719ecb 2298 tuiwidgets_0.2.1-1.dsc df31af42efde0d48fdc7fb8a09c79802 2624828 tuiwidgets_0.2.1.orig.tar.gz 2fe77378234529fa76fdfd9818f6c5ea 6456 tuiwidgets_0.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tuiwidgets.namepad.de/"
+  ],
+  "Maintainer": [
+    "Christoph Hueffelmann \u003cchr@istoph.de\u003e"
+  ],
+  "Package": [
+    "tuiwidgets"
+  ],
+  "Package-List": [
+    "libtuiwidgets-dev deb libdevel optional arch=any libtuiwidgets-doc deb doc optional arch=all libtuiwidgets0a deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, catch2, libposixsignalmanager-dev, libtermpaint-dev, meson, ninja-build, pkg-config, qt5-qmake, qtbase5-dev, qttools5-dev-tools"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/chr/tuiwidgets"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/chr/tuiwidgets.git"
+  ],
+  "Version": [
+    "0.2.1-1"
+  ]
+}

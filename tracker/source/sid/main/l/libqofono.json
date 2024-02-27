@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libqofono-qt5-0, libqofono-dev, libqofono-tests, libqofono-examples, qml-module-ofono"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, qtbase5-dev, qtdeclarative5-dev, qml-module-qtquick2, libqt5xmlpatterns5-dev, pkg-kde-tools"
+  ],
+  "Checksums-Sha256": [
+    "a0547b0e3248bf651da83e925675c13506dbb2ceec0bceb4ead3eaa269614f50 2328 libqofono_0.122-1.dsc 7f4a3ecfca41c4549473c68cfe2f0fe4bfbb910b4a7a288799789018ae0e1fe7 115956 libqofono_0.122.orig.tar.gz 35e0be995eb47c96326ed24d512df6677a62554d57f89e1db764473b0ae692f2 24792 libqofono_0.122-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libq/libqofono"
+  ],
+  "Files": [
+    "208286d7794de287e102863b5da8046e 2328 libqofono_0.122-1.dsc efeff4dc1c475b87b0cb5e7b86c3fab5 115956 libqofono_0.122.orig.tar.gz 47cf1597926d2f2b89dba343c9ef3970 24792 libqofono_0.122-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sailfishos/libqofono"
+  ],
+  "Maintainer": [
+    "Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libqofono"
+  ],
+  "Package-List": [
+    "libqofono-dev deb libdevel optional arch=any libqofono-examples deb libdevel optional arch=any libqofono-qt5-0 deb libs optional arch=any libqofono-tests deb libdevel optional arch=any qml-module-ofono deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ubports-team/libqofono/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ubports-team/libqofono.git"
+  ],
+  "Version": [
+    "0.122-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-asttokens"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-astroid, python3-pytest, python3-setuptools, python3-setuptools-scm, python3-six, python3-toml, python3-wheel"
+  ],
+  "Checksums-Sha256": [
+    "560cfe40559906e633e731d1ece141b99dcace7696fea62c392cc84f4b849bd8 2223 python-asttokens_2.4.1-1.dsc b03869718ba9a6eb027e134bfdf69f38a236d681c83c160d510768af11254ba0 62284 python-asttokens_2.4.1.orig.tar.gz c6365bf7cc77641df3d8bb4c3f62b9a64a740dec66b7af2a26a507c629ce6609 2540 python-asttokens_2.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-asttokens"
+  ],
+  "Files": [
+    "a495bcbdb3ec2de3e891457a6c10d4e8 2223 python-asttokens_2.4.1-1.dsc c353679585a40f43c24ca60fca33bbf6 62284 python-asttokens_2.4.1.orig.tar.gz 5b700b24424e5e325fb7f2e226636e06 2540 python-asttokens_2.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gristlabs/asttokens"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-asttokens"
+  ],
+  "Package-List": [
+    "python3-asttokens deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Dominik George \u003cnatureshadow@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-asttokens"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-asttokens.git"
+  ],
+  "Version": [
+    "2.4.1-1"
+  ]
+}

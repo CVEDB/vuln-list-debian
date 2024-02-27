@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "htop"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1.1), libdevstat-dev [kfreebsd-any], libhwloc-dev [!linux-any], libkvm-dev [kfreebsd-any], libncurses5-dev, libncursesw5-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libsensors-dev [!hurd-any], pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "4a523863e66ef58388ee904a92945f9d3d9b9549dd8d571d756dab07d2b17e47 2112 htop_3.3.0-4.dsc 1e5cc328eee2bd1acff89f860e3179ea24b85df3ac483433f92a29977b14b045 406012 htop_3.3.0.orig.tar.gz 12f37a4ad0f33ec05c8380bdfdb70bf4efc02434ff4e433b9ff14271ccd0bcd6 13104 htop_3.3.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/htop"
+  ],
+  "Files": [
+    "1c2d5f157c731bc9daaa409b596614e4 2112 htop_3.3.0-4.dsc 637c7ef47b812884c340acc56ead2376 406012 htop_3.3.0.orig.tar.gz 655c8572fbea47532d33027871ee1063 13104 htop_3.3.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://htop.dev/"
+  ],
+  "Maintainer": [
+    "Daniel Lange \u003cDLange@debian.org\u003e"
+  ],
+  "Package": [
+    "htop"
+  ],
+  "Package-List": [
+    "htop deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Eugene V. Lyubimkin \u003cjackyf@debian.org\u003e, Graham Inggs \u003cginggs@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/htop"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/htop.git"
+  ],
+  "Version": [
+    "3.3.0-4"
+  ]
+}

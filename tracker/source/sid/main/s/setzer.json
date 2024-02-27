@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "setzer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, meson"
+  ],
+  "Checksums-Sha256": [
+    "f7f331e041548b1e08d01433811b8f0907e4b5a621e8a08e3937fb444ff06f60 1921 setzer_62-1.dsc dcc954eb440071a9847aabc3c5b064129124b0c53604dbacfc442b21ddcb09a8 4064574 setzer_62.orig.tar.gz 7b911a9e370e0fafa23b15ed9c68cbc7305101e5fe11a2eb11e8b6c156b8c65f 3084 setzer_62-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/setzer"
+  ],
+  "Files": [
+    "46bc99bf13cd94e517f687112d5ba05e 1921 setzer_62-1.dsc 21bbdde75404ae9a39d4d3d17472ab81 4064574 setzer_62.orig.tar.gz 25c2bcd961624761ab296c6a7895ffaf 3084 setzer_62-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.cvfosammmm.org/setzer/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "setzer"
+  ],
+  "Package-List": [
+    "setzer deb tex optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stephan Lachnit \u003cstephanlachnit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/setzer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/setzer.git"
+  ],
+  "Version": [
+    "62-1"
+  ]
+}

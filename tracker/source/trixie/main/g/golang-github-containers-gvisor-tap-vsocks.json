@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gvproxy, golang-github-containers-gvisor-tap-vsocks-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-apparentlymart-go-cidr-dev, golang-github-coreos-stream-metadata-go-dev, golang-github-dustin-go-humanize-dev, golang-github-google-gopacket-dev, golang-github-insomniacslk-dhcp-dev, golang-github-linuxkit-virtsock-dev, golang-github-mdlayher-vsock-dev, golang-github-miekg-dns-dev, golang-github-onsi-ginkgo-dev, golang-github-opencontainers-go-digest-dev, golang-github-pkg-errors-dev, golang-github-inetaf-tcpproxy-dev, golang-gvisor-gvisor-dev, golang-github-sirupsen-logrus-dev"
+  ],
+  "Checksums-Sha256": [
+    "a6f3faad78bc09cd8a16ec64dce97cedfb213aae2dde4dd95c7cf641be4c15eb 3128 golang-github-containers-gvisor-tap-vsocks_0.7.2+ds1-1.dsc cd080fa11b88223e3f5ae20e45f161acf2a206efcfcb1e90806edfb05c2980e6 112340 golang-github-containers-gvisor-tap-vsocks_0.7.2+ds1.orig.tar.xz 2c9c48c69a9b29e909ccbd67958ebf9323eb5b4e755e6eb3827e2bf027fd696f 2588 golang-github-containers-gvisor-tap-vsocks_0.7.2+ds1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "749d21db50327b31f2f02e36b33a83dc7b40aa1b debian archive/debian/0.7.2+ds1-1 https://git.dgit.debian.org/golang-github-containers-gvisor-tap-vsocks"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-containers-gvisor-tap-vsocks"
+  ],
+  "Files": [
+    "2bab6ae11eba2da57e7dbaed8a6169d0 3128 golang-github-containers-gvisor-tap-vsocks_0.7.2+ds1-1.dsc ba34bc86d96f923fba57269c734aa2fb 112340 golang-github-containers-gvisor-tap-vsocks_0.7.2+ds1.orig.tar.xz b55dc05c0a31af14e79fee01a53d8173 2588 golang-github-containers-gvisor-tap-vsocks_0.7.2+ds1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/containers/gvisor-tap-vsock"
+  ],
+  "Homepage": [
+    "https://github.com/containers/gvisor-tap-vsock"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-containers-gvisor-tap-vsocks"
+  ],
+  "Package-List": [
+    "golang-github-containers-gvisor-tap-vsocks-dev deb golang optional arch=all gvproxy deb golang optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages//gvisor-tap-vsocks"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/gvisor-tap-vsocks.git"
+  ],
+  "Version": [
+    "0.7.2+ds1-1"
+  ]
+}

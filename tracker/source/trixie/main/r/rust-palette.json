@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-palette-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-approx-0.5+std-dev \u003c!nocheck\u003e, librust-approx-0.5-dev \u003c!nocheck\u003e, librust-fast-srgb8-1+default-dev \u003c!nocheck\u003e, librust-palette-derive-0.7+default-dev (\u003e= 0.7.4-~~) \u003c!nocheck\u003e, librust-phf-0.11+macros-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "633756a385b5e9da23e0efd04c40840d9e2aafc35a24c26295dfdddf5ead83ed 2513 rust-palette_0.7.4-1.dsc 3d38e6e5ca1612e2081cc31188f08c3cba630ce4ba44709a153f1a0f38d678f2 203804 rust-palette_0.7.4.orig.tar.gz c7d064e49f5a9953682dce388c71ca58253e3ae5fdf50f07247b2bcd3aa6a6ee 3236 rust-palette_0.7.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-palette"
+  ],
+  "Files": [
+    "3928338af9fc6982e049c469e5fb2736 2513 rust-palette_0.7.4-1.dsc e902d0c9225e315a31c576c033be842a 203804 rust-palette_0.7.4.orig.tar.gz b9be28cabaca1b87aed3f4efbdc59d6c 3236 rust-palette_0.7.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-palette"
+  ],
+  "Package-List": [
+    "librust-palette-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-enterpolation-0.2+default-dev, librust-image-0.23+png-dev, librust-rand-mt-4+rand-traits-dev, librust-ron-0.8.0+default-dev, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/palette"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/palette]"
+  ],
+  "Version": [
+    "0.7.4-1"
+  ]
+}

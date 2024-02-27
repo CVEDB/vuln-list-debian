@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "primus, primus-libs, primus-nvidia"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-bash-completion, libglapi-mesa, mesa-common-dev"
+  ],
+  "Checksums-Sha256": [
+    "0db87a7c11624234498a5b9da746a185c4ef741098816e930e5cbf0ec907c4b3 2263 primus_0~20150328-16.dsc be1fe16bd891b4b542c2020fd69c983ed1783752c475be9d3bbe2fc1205812c0 25978 primus_0~20150328.orig.tar.gz 5ae5642769578aa72c3695eeaee2bd11964591540cac66fd63a74d9a2ca1fb60 7480 primus_0~20150328-16.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/primus"
+  ],
+  "Files": [
+    "27d58f0bc8918af7fc9746663b8f08fb 2263 primus_0~20150328-16.dsc ca27087338d9bd8cf1d03793e55f96a4 25978 primus_0~20150328.orig.tar.gz cdaf5116865dbad6164081d72909a7a2 7480 primus_0~20150328-16.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/amonakov/primus"
+  ],
+  "Maintainer": [
+    "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "primus"
+  ],
+  "Package-List": [
+    "primus deb utils optional arch=linux-any primus-libs deb utils optional arch=linux-any primus-nvidia deb contrib/utils optional arch=amd64,arm64,ppc64el"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aron Xu \u003caron@debian.org\u003e, Yunqiang Su \u003cwzssyqa@gmail.com\u003e, Luca Boccassi \u003cbluca@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nvidia-team/primus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nvidia-team/primus.git"
+  ],
+  "Version": [
+    "0~20150328-16"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "instaloader"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3, python3-requests, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "3df8438effef269d885f1a418d2a243991b6acaaa13a392d2a93e84918d16d77 2016 instaloader_4.10.3+ds-1.dsc f54ff707119c96f6ee2e68473e83fd55cfab770f353049088bc809188a7a7f1c 222316 instaloader_4.10.3+ds.orig.tar.xz 3c1acf2d3361e90bad5d1696f12dbea148eb5b786df5c776c70ceba90ffd6d3f 7936 instaloader_4.10.3+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/instaloader"
+  ],
+  "Files": [
+    "ca66b761c7510ca0fcbbe94eb95cd12a 2016 instaloader_4.10.3+ds-1.dsc b97d3cc4471351e58e55d31b2cd437dc 222316 instaloader_4.10.3+ds.orig.tar.xz 2bd725fb3c8b9ebcd26f61d49ab6759b 7936 instaloader_4.10.3+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/instaloader/instaloader"
+  ],
+  "Maintainer": [
+    "Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e"
+  ],
+  "Package": [
+    "instaloader"
+  ],
+  "Package-List": [
+    "instaloader deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/instaloader"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/instaloader.git"
+  ],
+  "Version": [
+    "4.10.3+ds-1"
+  ]
+}

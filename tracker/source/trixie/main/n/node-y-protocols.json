@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-y-protocols"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, rollup, node-rollup-plugin-node-resolve, node-rollup-plugin-commonjs, node-rollup-pluginutils, node-typescript, node-lib0, node-undici-types, node-yjs"
+  ],
+  "Checksums-Sha256": [
+    "a9d2811865493fa33fbbe5538880b23c30e8e9ca305fee9de5811fe641b9b3ff 2213 node-y-protocols_1.0.5-7.dsc 2a227402a9beecfe210a74dc859b1973873e828c2f229eaab535eb42eb45c14c 30271 node-y-protocols_1.0.5.orig.tar.gz 6c29af0890b4757978a2e0699854ad26cb07f47376179e35675d2d305d2d718b 2820 node-y-protocols_1.0.5-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-y-protocols"
+  ],
+  "Files": [
+    "aaf92fec3120f97d6f3016a0c24cd81f 2213 node-y-protocols_1.0.5-7.dsc 0209b8fde6c44b1596fd46bc7aea698b 30271 node-y-protocols_1.0.5.orig.tar.gz e25885c5e79833595ab887935f97bbfb 2820 node-y-protocols_1.0.5-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/yjs/y-protocols#readme"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-y-protocols"
+  ],
+  "Package-List": [
+    "node-y-protocols deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Roland Mas \u003clolando@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-y-protocols"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-y-protocols.git"
+  ],
+  "Version": [
+    "1.0.5-7"
+  ]
+}

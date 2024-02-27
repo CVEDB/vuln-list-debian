@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "binutils-mingw-w64, binutils-mingw-w64-i686, binutils-mingw-w64-x86-64"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), binutils-source (\u003e= 2.36~), bison, flex, dejagnu, quilt, rdfind, symlinks, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "a1fccf3922eb16bf0543140a69c04eadd3328c577e2f121dc7b19cea270bf5c5 1898 binutils-mingw-w64_11.4.dsc 92108291c471332f586421046b383f8df441becde8373fd9471f8e78d2ee02e5 10300 binutils-mingw-w64_11.4.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/binutils-mingw-w64"
+  ],
+  "Files": [
+    "256e716479b13444d11bef0527229723 1898 binutils-mingw-w64_11.4.dsc f536ad706ff2f517898420c51e39cca3 10300 binutils-mingw-w64_11.4.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/binutils/"
+  ],
+  "Maintainer": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Package": [
+    "binutils-mingw-w64"
+  ],
+  "Package-List": [
+    "binutils-mingw-w64 deb devel optional arch=all binutils-mingw-w64-i686 deb devel optional arch=any binutils-mingw-w64-x86-64 deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/mingw-w64-team/binutils-mingw-w64"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/mingw-w64-team/binutils-mingw-w64.git"
+  ],
+  "Version": [
+    "11.4"
+  ]
+}

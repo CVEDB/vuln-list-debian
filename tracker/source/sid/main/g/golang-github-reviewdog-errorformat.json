@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-reviewdog-errorformat-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-haya14busa-go-checkstyle-dev, golang-github-haya14busa-go-sarif-dev"
+  ],
+  "Checksums-Sha256": [
+    "e531b3a4167641ef889de6715d74280313d7228a64ecabea30a4b93f6b5a8062 2547 golang-github-reviewdog-errorformat_0.0~git20231214.6dd01ea-1.dsc 5d21c8b5db1b39de660e6c246acc45ef999c802c9fec3dd837f91b2e41df3614 50280 golang-github-reviewdog-errorformat_0.0~git20231214.6dd01ea.orig.tar.xz ecaedc46673c4fd8fb6f84d030e0c92259bf97c0b03f3ce7d7690ffaf3b74c18 5756 golang-github-reviewdog-errorformat_0.0~git20231214.6dd01ea-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-reviewdog-errorformat"
+  ],
+  "Files": [
+    "94bf27a5e901a18ef135d550ac6512eb 2547 golang-github-reviewdog-errorformat_0.0~git20231214.6dd01ea-1.dsc 23b8259499f36ccbf32631c04a00317f 50280 golang-github-reviewdog-errorformat_0.0~git20231214.6dd01ea.orig.tar.xz 922e139a9e15f5a0db5828d5873c2d61 5756 golang-github-reviewdog-errorformat_0.0~git20231214.6dd01ea-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/reviewdog/errorformat"
+  ],
+  "Homepage": [
+    "https://github.com/reviewdog/errorformat"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-reviewdog-errorformat"
+  ],
+  "Package-List": [
+    "golang-github-reviewdog-errorformat-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-reviewdog-errorformat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-reviewdog-errorformat.git"
+  ],
+  "Version": [
+    "0.0~git20231214.6dd01ea-1"
+  ]
+}

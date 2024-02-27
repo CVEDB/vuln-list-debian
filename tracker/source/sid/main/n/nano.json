@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "nano, nano-tiny, nano-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libncurses-dev, pkgconf, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "c272fb9b853ea8fdb24bb529cec179fa601f878adc61f96e7bad9cdd013395f4 2205 nano_7.2-2.dsc 86f3442768bd2873cec693f83cdf80b4b444ad3cc14760b74361474fc87a4526 1608444 nano_7.2.orig.tar.xz 5f91bf5bd4edfe2540cd1927e9f5eef46e655d4bfb2fdb22ceb0ffe67b4bedad 833 nano_7.2.orig.tar.xz.asc 73ee72e21d9d9246bcc0daff064992adf93619ba3b2239be23d30874783bfa6e 34088 nano_7.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nano"
+  ],
+  "Files": [
+    "d7a950f6dbfec5c7e109814fd5fc2539 2205 nano_7.2-2.dsc 13742c686c6ddb0b7b294634f0c13cec 1608444 nano_7.2.orig.tar.xz 0447e08c2a6938e9264e847432582c70 833 nano_7.2.orig.tar.xz.asc 82d6995b9b85ce5ed3a840210b6b33fb 34088 nano_7.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nano-editor.org/"
+  ],
+  "Maintainer": [
+    "Jordi Mallach \u003cjordi@debian.org\u003e"
+  ],
+  "Package": [
+    "nano"
+  ],
+  "Package-List": [
+    "nano deb editors important arch=any nano-tiny deb editors optional arch=any nano-udeb udeb debian-installer standard arch=any profile=!noudeb"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "editors"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Steve Langasek \u003cvorlon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/nano"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/nano.git"
+  ],
+  "Version": [
+    "7.2-2"
+  ]
+}

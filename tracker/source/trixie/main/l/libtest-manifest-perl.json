@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libtest-manifest-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "d26acd7ba78774ff911b5db0c91d975d1f9056a98d7ec733777d455d88cf269a 2541 libtest-manifest-perl_2.024-1.dsc 8ff3919219b54ea7e4f2aa67f5b8ca2f40bdc76661ab68c41ba49ed5ec1fbe07 15427 libtest-manifest-perl_2.024.orig.tar.gz dc350d608038ef3551cf1c6be9e7be30d76f8f891cfdd35622c3e99bcfd90f27 7108 libtest-manifest-perl_2.024-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ca610c0b8e3aa83e2ef02f805488747455a3292c debian archive/debian/2.024-1 https://git.dgit.debian.org/libtest-manifest-perl"
+  ],
+  "Directory": [
+    "pool/main/libt/libtest-manifest-perl"
+  ],
+  "Files": [
+    "b4b4bcde65b9bb88571096dc05ca7b0a 2541 libtest-manifest-perl_2.024-1.dsc 886b833751a5ded8968ea1e10d52b330 15427 libtest-manifest-perl_2.024.orig.tar.gz 92813fe602e6e440435ccf15028e299f 7108 libtest-manifest-perl_2.024-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Test-Manifest"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libtest-manifest-perl"
+  ],
+  "Package-List": [
+    "libtest-manifest-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libtest-manifest-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libtest-manifest-perl.git"
+  ],
+  "Version": [
+    "2.024-1"
+  ]
+}

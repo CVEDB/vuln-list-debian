@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lxqt-notificationd, lxqt-notificationd-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libkf5windowsystem-dev, liblxqt1-dev (\u003e= 1.4.0~), libqt5x11extras5-dev, qtbase5-private-dev"
+  ],
+  "Checksums-Sha256": [
+    "c1f46ae152b31021f378440d51a66ec6ae07d216ced35f519a81bcf6ba7f79e3 2590 lxqt-notificationd_1.4.0-1.dsc 4334b8c7f3f2d5e65bb3b88e188324924102aff91ee7aa1066f9bc6f4bf66ca8 61792 lxqt-notificationd_1.4.0.orig.tar.xz 4ceae194c15c1b396c858750b4ad71d3e0a30c24065b3a697bdfcbb1022967cb 862 lxqt-notificationd_1.4.0.orig.tar.xz.asc b46937f7026644ed973a8a1d03d0e26421b2037ec1d77e423275fe4f4d550454 7176 lxqt-notificationd_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lxqt-notificationd"
+  ],
+  "Files": [
+    "fb305a1b51aaf13531b78c0345bf5a02 2590 lxqt-notificationd_1.4.0-1.dsc 823aef2b5ad40b332a3ea6f83488bdad 61792 lxqt-notificationd_1.4.0.orig.tar.xz 3d6879e3bfe3a07c15a6da2eac3d2573 862 lxqt-notificationd_1.4.0.orig.tar.xz.asc 5aa8af86328c2491dbd9fa4e1605af15 7176 lxqt-notificationd_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxqt/lxqt-notificationd"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lxqt-notificationd"
+  ],
+  "Package-List": [
+    "lxqt-notificationd deb x11 optional arch=any lxqt-notificationd-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/lxqt-notificationd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/lxqt-notificationd.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-minio-minio-go-v7-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-dustin-go-humanize-dev, golang-github-google-uuid-dev, golang-github-json-iterator-go-dev, golang-github-klauspost-compress-dev, golang-github-minio-md5-simd-dev (\u003e= 1.1.2), golang-github-minio-sha256-simd-dev (\u003e= 1.0.0), golang-github-rs-xid-dev (\u003e= 1.4.0), golang-github-sirupsen-logrus-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-gopkg-ini.v1-dev"
+  ],
+  "Checksums-Sha256": [
+    "07c942ac3d714226cdcd172138e0086e68408170bf7c2d450c7043c9785ebd5c 2766 golang-github-minio-minio-go-v7_7.0.66-1.dsc f16761949220b0e847b1615ec8b29ffa752665b9c2e42a677c1840f412624be3 275379 golang-github-minio-minio-go-v7_7.0.66.orig.tar.gz dcdfdbe6742bdf9d8a241aee3c78e0cccfcf60da8dc76449bcec987cb20321a4 2860 golang-github-minio-minio-go-v7_7.0.66-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-minio-minio-go-v7"
+  ],
+  "Files": [
+    "acc5831497ff46cf8184589a3c3ad35d 2766 golang-github-minio-minio-go-v7_7.0.66-1.dsc 3424fd264b2dadf25a764651cc2861db 275379 golang-github-minio-minio-go-v7_7.0.66.orig.tar.gz a355af13eaa9ec6d766d48f399372c25 2860 golang-github-minio-minio-go-v7_7.0.66-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/minio/minio-go/v7"
+  ],
+  "Homepage": [
+    "https://github.com/minio/minio-go"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-minio-minio-go-v7"
+  ],
+  "Package-List": [
+    "golang-github-minio-minio-go-v7-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e, Félix Sipma \u003cfelix+debian@gueux.org\u003e, Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-minio-minio-go-v7"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-minio-minio-go-v7.git"
+  ],
+  "Version": [
+    "7.0.66-1"
+  ]
+}

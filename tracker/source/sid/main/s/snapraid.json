@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "snapraid"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "8a2b851eb8cd8584983ec4003fe51c5ae1eb4f3b0b5fadd73e9fbd946d182a6f 1836 snapraid_12.3-1.dsc 4cd490ef842b77d110a101bd0c9cde91acae42bd836ebce65cedaf2911960dd4 662164 snapraid_12.3.orig.tar.gz a66c974feb79adc807436cdd68407527c2e68b36bffe80532929f29297ff9d59 3612 snapraid_12.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/snapraid"
+  ],
+  "Files": [
+    "766bec55b16f7aafd74dcbb3a36888d5 1836 snapraid_12.3-1.dsc 5ae4ea13fb5bd6461e0870c4768f88c6 662164 snapraid_12.3.orig.tar.gz ccaa2ad829e14b47888dd2fc982bd8dd 3612 snapraid_12.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/amadvance/snapraid"
+  ],
+  "Maintainer": [
+    "Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Package": [
+    "snapraid"
+  ],
+  "Package-List": [
+    "snapraid deb admin optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/snapraid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/snapraid.git"
+  ],
+  "Version": [
+    "12.3-1"
+  ]
+}

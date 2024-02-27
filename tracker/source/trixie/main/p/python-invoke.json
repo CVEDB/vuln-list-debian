@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-invoke"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-zombie-imp"
+  ],
+  "Build-Depends-Indep": [
+    "python3-alabaster, python3-mock, python3-releases, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "b8b72e8fe9c409119c1f9d3a2d8b3c0b6284fea0271a1df9dbc98c9db142e62c 2184 python-invoke_2.0.0-1.2.dsc 3678ca16e40dcaa9b3f51975ad0ef7577d3030ec319dfcd045828749799fa29a 308039 python-invoke_2.0.0.orig.tar.gz 93d5852ac2b95fa0ae02f7c77afe84c858d38c7240e1a2c954b9f70bdfbef303 3688 python-invoke_2.0.0-1.2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-invoke"
+  ],
+  "Files": [
+    "9bfc3df48355b94021f2eb6556e552c3 2184 python-invoke_2.0.0-1.2.dsc 8cfdf71e66df6145a95e3635fd7c4928 308039 python-invoke_2.0.0.orig.tar.gz beca673be25ea2fa53160db95b958e6c 3688 python-invoke_2.0.0-1.2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.pyinvoke.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-invoke"
+  ],
+  "Package-List": [
+    "python3-invoke deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Antoine Beaupré \u003canarcat@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-invoke"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-invoke.git"
+  ],
+  "Version": [
+    "2.0.0-1.2"
+  ]
+}

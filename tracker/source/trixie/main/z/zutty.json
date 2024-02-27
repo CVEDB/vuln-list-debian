@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "zutty"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3-dev, pkg-config, libfreetype-dev, libxmu-dev, libgles2-mesa-dev"
+  ],
+  "Checksums-Sha256": [
+    "963ec6207abea1e6fbff26af48ebed583b6633ea8ef7578b2af10234c74153a9 1967 zutty_0.14.8.20231210+dfsg1-1.dsc 049d4697cf3fa3c0161d289170c519c3e3a8fae48e196b2532be45003276251d 303020 zutty_0.14.8.20231210+dfsg1.orig.tar.xz ab75539fbce7b2fc4dae6ce79d8409e5ea9f81dd9b0490909ad095e166e9dd77 6348 zutty_0.14.8.20231210+dfsg1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zutty"
+  ],
+  "Files": [
+    "29e1fcc09d7e4516669ea91178157285 1967 zutty_0.14.8.20231210+dfsg1-1.dsc 93277e2fc421b2e6a2cf6dc5d0a56664 303020 zutty_0.14.8.20231210+dfsg1.orig.tar.xz 15bbeb0a51616ceea719e1178bcc158d 6348 zutty_0.14.8.20231210+dfsg1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tomscii.sig7.se/zutty/"
+  ],
+  "Maintainer": [
+    "Ricardo Mones \u003cmones@debian.org\u003e"
+  ],
+  "Package": [
+    "zutty"
+  ],
+  "Package-List": [
+    "zutty deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/zutty"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/zutty.git"
+  ],
+  "Version": [
+    "0.14.8.20231210+dfsg1-1"
+  ]
+}

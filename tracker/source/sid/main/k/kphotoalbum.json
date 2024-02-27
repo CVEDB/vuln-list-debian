@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kphotoalbum"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.18.0~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.92.0~), gettext, libexiv2-dev (\u003e= 0.27~), libjpeg-dev, libkf5archive-dev (\u003e= 5.78.0~), libkf5completion-dev (\u003e= 5.78.0~), libkf5config-dev (\u003e= 5.78.0~), libkf5coreaddons-dev (\u003e= 5.78.0~), libkf5doctools-dev (\u003e= 5.78.0~), libkf5i18n-dev (\u003e= 5.78.0~), libkf5iconthemes-dev (\u003e= 5.78.0~), libkf5jobwidgets-dev (\u003e= 5.78.0~), libkf5kdcraw-dev, libkf5kio-dev (\u003e= 5.78.0~), libkf5purpose-dev, libkf5textwidgets-dev (\u003e= 5.78.0~), libkf5widgetsaddons-dev (\u003e= 5.78.0~), libkf5xmlgui-dev (\u003e= 5.78.0~), libmarble-dev, libphonon4qt5-dev, libqt5sql5-sqlite \u003c!nocheck\u003e, pkg-config, pkg-kde-tools (\u003e= 0.15.16), qtbase5-dev (\u003e= 5.15.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c8b98aeba9f879988235cd9b50bbc939db6be058f3562811901d70929955baf5 2920 kphotoalbum_5.12.0-1.dsc 20044722f75400fa3758a317ea2480b8d6212a4882825013825e3b681254a2c8 11907204 kphotoalbum_5.12.0.orig.tar.xz 0f30701f9d949479f68dc2ad33e58a8cf4c84354429a9916e3fab9ccd28cb4b9 833 kphotoalbum_5.12.0.orig.tar.xz.asc 03e439f612634283865045defd47ee7bb7df35ca54ba3ef8faa9d4c3a259761a 12192 kphotoalbum_5.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kphotoalbum"
+  ],
+  "Files": [
+    "cc460fb0e3cbca59418b27872087d695 2920 kphotoalbum_5.12.0-1.dsc 11d6a22be17495a56d65d45a4ffaa521 11907204 kphotoalbum_5.12.0.orig.tar.xz b02181a899307e04a7987d3b72ec79ee 833 kphotoalbum_5.12.0.orig.tar.xz.asc beed5384d5241ae5ca10b9ff27abb6c1 12192 kphotoalbum_5.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kphotoalbum.org"
+  ],
+  "Maintainer": [
+    "Debian KDE Extras Team \u003cpkg-kde-extras@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "kphotoalbum"
+  ],
+  "Package-List": [
+    "kphotoalbum deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Pino Toscano \u003cpino@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/extras/kphotoalbum"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/extras/kphotoalbum.git"
+  ],
+  "Version": [
+    "5.12.0-1"
+  ]
+}

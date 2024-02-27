@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-strum-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4dd893c3062a99bf431f26c30093bfc5a8b78069f18ec5af6b0b183cd7d1aca0 2185 rust-strum_0.25.0-1.dsc 290d54ea6f91c969195bdbcd7442c8c2a2ba87da8bf60a7ee86a235d4bc1e125 5539 rust-strum_0.25.0.orig.tar.gz e41b5c78f7a876bff115b9908c0cf42a932f4efea943d9df9797cbc506b8f75b 3056 rust-strum_0.25.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-strum"
+  ],
+  "Files": [
+    "ace02bab9035b7305a1fd7712c609364 2185 rust-strum_0.25.0-1.dsc 3976bcb8ccfe5f63e4c38209370a0de7 5539 rust-strum_0.25.0.orig.tar.gz 8f6f77553404094c6a6c9afadeba9083 3056 rust-strum_0.25.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Peternator7/strum"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-strum"
+  ],
+  "Package-List": [
+    "librust-strum-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-strum-macros-0.25+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/strum"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/strum]"
+  ],
+  "Version": [
+    "0.25.0-1"
+  ]
+}

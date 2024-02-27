@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-bids-validator"
+  ],
+  "Build-Depends": [
+    "dh-sequence-python3, python3-setuptools, pybuild-plugin-pyproject, python3-all, python3-versioneer, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "758e66ccb480187d8d21478454e43474a88bc00a03628a90f00c46f43b7b5af3 2311 python-bids-validator_1.14.0-1.dsc 33b0f865c1aa3e39fb92518df163fa6b79478d1aa102af52fd53704a5ef2ea46 36772 python-bids-validator_1.14.0.orig.tar.gz fdb3173a311fad5cd7415396c58db2334a31f6e9ab2d29e5f038a0a0cff6d7e1 3636 python-bids-validator_1.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-bids-validator"
+  ],
+  "Files": [
+    "259508d4555c2cce35258e4e0d2cad66 2311 python-bids-validator_1.14.0-1.dsc b7f3fc18b703490e2f11d54b73a07d57 36772 python-bids-validator_1.14.0.orig.tar.gz 243bf9002473cf6d0fc401862489988d 3636 python-bids-validator_1.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bids-standard/bids-validator"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-bids-validator"
+  ],
+  "Package-List": [
+    "python3-bids-validator deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, python3-all, python3-datalad, python3-pytest"
+  ],
+  "Uploaders": [
+    "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/python-bids-validator"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/python-bids-validator.git"
+  ],
+  "Version": [
+    "1.14.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-ahash-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-cargo, librust-atomic-polyfill-1+default-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-const-random-0.1+default-dev \u003c!nocheck\u003e, librust-criterion-0.3+default-dev \u003c!nocheck\u003e, librust-criterion-0.3+html-reports-dev \u003c!nocheck\u003e, librust-fnv-1+default-dev \u003c!nocheck\u003e, librust-fxhash-0.2+default-dev \u003c!nocheck\u003e, librust-getrandom-0.2+default-dev \u003c!nocheck\u003e, librust-hashbrown-dev (\u003c\u003c 0.15) \u003c!nocheck\u003e, librust-hex-0.4+default-dev \u003c!nocheck\u003e, librust-no-panic-0.1+default-dev \u003c!nocheck\u003e, librust-once-cell-1+alloc-dev \u003c!nocheck\u003e, librust-once-cell-1+atomic-polyfill-dev \u003c!nocheck\u003e, librust-rand-0.8+default-dev \u003c!nocheck\u003e, librust-seahash-4+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev \u003c!nocheck\u003e, librust-version-check-0.9+default-dev \u003c!nocheck\u003e, librust-zerocopy-dev (\u003c\u003c 0.8) \u003c!nocheck\u003e, libstring-shellquote-perl"
+  ],
+  "Checksums-Sha256": [
+    "1d737842a924ab563fae1def6cd70c65ad6584d5d68a78b48ef199cba42ad638 3363 rust-ahash_0.8.7-5.dsc 696b01f33355738589340a2459c64382efe47ca74f54a7a6cc4481682bc4d759 558314 rust-ahash_0.8.7.orig.tar.gz 63b85a6c61ca735e96da8bbd75e46e37ba48194e084c22c4e36454bdb52b57a1 18252 rust-ahash_0.8.7-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ahash"
+  ],
+  "Files": [
+    "fc58464888d90a77cdbd707f665314c2 3363 rust-ahash_0.8.7-5.dsc 12a9128bd67c220e5fd9d1b06a4b062a 558314 rust-ahash_0.8.7.orig.tar.gz 5749492825263b14c4506edcff760dd3 18252 rust-ahash_0.8.7-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tkaitchuck/ahash"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-ahash"
+  ],
+  "Package-List": [
+    "librust-ahash-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-ahash-0.8+atomic-polyfill-dev, librust-ahash-0.8+compile-time-rng-dev, librust-ahash-0.8+default-dev, librust-ahash-0.8+no-rng-dev, librust-ahash-0.8+runtime-rng-dev, librust-ahash-0.8+serde-dev, librust-ahash-0.8+std-dev, librust-ahash-0.8-dev, librust-criterion-0.3+default-dev, librust-criterion-0.3+html-reports-dev, librust-fnv-1+default-dev, librust-fxhash-0.2+default-dev, librust-hashbrown-dev, librust-hex-0.4+default-dev, librust-no-panic-0.1+default-dev, librust-rand-0.8+default-dev, librust-seahash-4+default-dev, librust-serde-json-1+default-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-ahash"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-ahash.git"
+  ],
+  "Version": [
+    "0.8.7-5"
+  ]
+}

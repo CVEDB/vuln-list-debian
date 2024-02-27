@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "grap"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), flex"
+  ],
+  "Checksums-Sha256": [
+    "9a04c7dbbbcebfa23ee0334c8957072da59d61ac7da209846199a17a063551ea 1808 grap_1.47-1.dsc 8ff6f0dc43a660e2ac7423f161247fd0d5b765960e32d62f62ab4a404bbc11c1 197766 grap_1.47.orig.tar.gz 0b6d63ad013e4ef16cba3c226464654abe2f0462cbed23f55d75ef3da2138d64 5828 grap_1.47-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/grap"
+  ],
+  "Files": [
+    "d5d7965d61e1db52363e6ad1e1c43c5f 1808 grap_1.47-1.dsc 366914d7c6be19a086781c6309f62b0d 197766 grap_1.47.orig.tar.gz 4bbc7b1322634207bafceedd51fb3f76 5828 grap_1.47-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.lunabase.org/~faber/Vault/software/grap/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "grap"
+  ],
+  "Package-List": [
+    "grap deb text optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "text"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/grap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/grap.git"
+  ],
+  "Version": [
+    "1.47-1"
+  ]
+}

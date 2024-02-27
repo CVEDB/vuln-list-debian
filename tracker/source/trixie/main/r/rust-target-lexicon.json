@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-target-lexicon-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "edd9c728db6561789c5678ec2d08c5d4eb9e8590330ee18ed4c23485315a9250 2267 rust-target-lexicon_0.12.12-1.dsc 14c39fd04924ca3a864207c66fc2cd7d22d7c016007f9ce846cbb9326331930a 25156 rust-target-lexicon_0.12.12.orig.tar.gz d44e614129566492990a82114a7d6542852ffd4e2add0c1a5d9de7eaa8f202d6 2748 rust-target-lexicon_0.12.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-target-lexicon"
+  ],
+  "Files": [
+    "cebd744d418f5d6ebd3ee2deea18dadf 2267 rust-target-lexicon_0.12.12-1.dsc 70018e00fdada95c5bf1629133f07cdc 25156 rust-target-lexicon_0.12.12.orig.tar.gz 94675d9902dcb069e631e613a9b1362d 2748 rust-target-lexicon_0.12.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-target-lexicon"
+  ],
+  "Package-List": [
+    "librust-target-lexicon-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/target-lexicon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/target-lexicon]"
+  ],
+  "Version": [
+    "0.12.12-1"
+  ]
+}

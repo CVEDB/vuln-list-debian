@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "splitpatch"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12)"
+  ],
+  "Checksums-Sha256": [
+    "f16faf5c3e491c2b7df9708f1c8e117038b8c86ed23630a94daef811323fd48a 2045 splitpatch_1.0+20190128+git3b2edf2-5.dsc 441f33ab60ff890807a1e20f03f3b1e77248c1fbbf74e283ba7cf1af101422b5 11195 splitpatch_1.0+20190128+git3b2edf2.orig.tar.gz 3b8872ecf45321fc61fe989e7f999028d66ee53accbb260f3d37dea8cacbfccc 7496 splitpatch_1.0+20190128+git3b2edf2-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/splitpatch"
+  ],
+  "Files": [
+    "30967c08931de6a92e0656626ca7e74b 2045 splitpatch_1.0+20190128+git3b2edf2-5.dsc 2989b1fcf61f601521ecedc9595d7b7f 11195 splitpatch_1.0+20190128+git3b2edf2.orig.tar.gz 60590a7c30ee922379f9ce1a31a3b437 7496 splitpatch_1.0+20190128+git3b2edf2-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.clearchain.com/blog/posts/splitting-a-patch"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "splitpatch"
+  ],
+  "Package-List": [
+    "splitpatch deb text optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/splitpatch"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/splitpatch.git"
+  ],
+  "Version": [
+    "1.0+20190128+git3b2edf2-5"
+  ]
+}

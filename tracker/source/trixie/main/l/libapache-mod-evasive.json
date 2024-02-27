@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libapache2-mod-evasive"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apache2, apache2-dev"
+  ],
+  "Checksums-Sha256": [
+    "7edbc22b93310539d3cf0efb62753306015e665a7d459341fb9e28afad7a45fd 1442 libapache-mod-evasive_1.10.1-6.dsc 306da1abf285d41f8decdeb0865e6916d6eaf03ee48094e1531ae234b55e40e1 18180 libapache-mod-evasive_1.10.1.orig.tar.gz 7acbc41a0eef539b096b344218886f2f33d77f3424ce800f7bbd4f491b250c17 5360 libapache-mod-evasive_1.10.1-6.debian.tar.xz"
+  ],
+  "Dgit": [
+    "7ed970db575818b0742b276d1700faab75398d4b debian archive/debian/1.10.1-6 https://git.dgit.debian.org/libapache-mod-evasive"
+  ],
+  "Directory": [
+    "pool/main/liba/libapache-mod-evasive"
+  ],
+  "Files": [
+    "da8785ff8188399ff27e80e875cb0011 1442 libapache-mod-evasive_1.10.1-6.dsc 69e829d1364894f1bb3a5ce9401bddd3 18180 libapache-mod-evasive_1.10.1.orig.tar.gz 0417faa54670af55aee7783864aece44 5360 libapache-mod-evasive_1.10.1-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jzdziarski/mod_evasive"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "libapache-mod-evasive"
+  ],
+  "Package-List": [
+    "libapache2-mod-evasive deb web optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "httpd"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Version": [
+    "1.10.1-6"
+  ]
+}

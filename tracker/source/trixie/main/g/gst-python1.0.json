@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-gst-1.0, gstreamer1.0-python3-plugin-loader"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, meson (\u003e= 0.62), pkgconf, libgstreamer1.0-dev (\u003e= 1.22.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.22.0), gir1.2-gstreamer-1.0 (\u003e= 1.22.0), gir1.2-gst-plugins-base-1.0 (\u003e= 1.22.0), python3-gi, python-gi-dev, python3-all-dev"
+  ],
+  "Checksums-Sha256": [
+    "3caa4f124a9ea1286a04476286dabd384b11cf5d8b3aa3dd7ecfc9db29c5fe37 2649 gst-python1.0_1.22.10-1.dsc 99e37ea9f7163099734f9b0fce361bc67a0e7a65ffba9bc497127506a3fdedb3 117164 gst-python1.0_1.22.10.orig.tar.xz ab4c2e57c7c33933aefe3069e023272592661aa5f0d1490f5b2c23601dd57fef 833 gst-python1.0_1.22.10.orig.tar.xz.asc 7d55f27402bbd820c0d41f537f0cf71d45e45e9919ce892d14aa167f7a5dda5a 10812 gst-python1.0_1.22.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gst-python1.0"
+  ],
+  "Files": [
+    "f210c57cc0d6358337184636f749430a 2649 gst-python1.0_1.22.10-1.dsc d6ad40ab2d8dd45c905aa446c2f58788 117164 gst-python1.0_1.22.10.orig.tar.xz 54903688dcc32d3bacfda4e2d8936e85 833 gst-python1.0_1.22.10.orig.tar.xz.asc 85d535e57c52f0d24bce9b9ff4d2ac48 10812 gst-python1.0_1.22.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Maintainers of GStreamer packages \u003cgst-python1.0@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "gst-python1.0"
+  ],
+  "Package-List": [
+    "gstreamer1.0-python3-plugin-loader deb python optional arch=any python3-gst-1.0 deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sebastian Dröge \u003cslomo@debian.org\u003e, Marc Leeman \u003cmarc.leeman@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gstreamer-team/gst-python1.0/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gstreamer-team/gst-python1.0.git"
+  ],
+  "Version": [
+    "1.22.10-1"
+  ]
+}

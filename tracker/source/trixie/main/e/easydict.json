@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-easydict"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "527cb30594215f64b0c6ee99439ea25cf000f7c7b6e22ff04138615c3f99436c 1648 easydict_1.11-1.dsc dcb1d2ed28eb300c8e46cd371340373abc62f7c14d6dea74fdfc6f1069061c78 6644 easydict_1.11.orig.tar.gz 60aed03173a3d8bfb838eb3316f952b257e24d59cd55538740eec2394f2aaf26 1700 easydict_1.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/easydict"
+  ],
+  "Files": [
+    "89934283a5f4bea004bd65ed0948ebdb 1648 easydict_1.11-1.dsc d5d165b5c4a17146c5636161618bce5c 6644 easydict_1.11.orig.tar.gz 46d998ea1cf34a8eadb455ab1921f677 1700 easydict_1.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/makinacorpus/easydict"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "easydict"
+  ],
+  "Package-List": [
+    "python3-easydict deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Aron Xu \u003caron@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/easydict"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/easydict.git"
+  ],
+  "Version": [
+    "1.11-1"
+  ]
+}

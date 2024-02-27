@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-ginga, ginga"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, help2man, python3-all, python3-astropy, python3-pytest-astropy \u003c!nocheck\u003e, python3-h5py \u003c!nocheck\u003e, python3-numpy, python3-pil, python3-pytest \u003c!nocheck\u003e, python3-qtpy, python3-regions, python3-scipy \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "0f10c55c2039eae315b583746774022f846cded9069f9b77530220719c81f85e 2357 ginga_5.0.0-1.dsc 7e58525feb1e65a9cab2cbd104acec4896bccb505f28578ad28f698db189cdcf 34764392 ginga_5.0.0.orig.tar.gz 77ae44017b0c631014afe0dc542c00c109fb64e32832fa75efe215bb62076b85 6184 ginga_5.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/ginga"
+  ],
+  "Files": [
+    "621b901b85202048240c7108491a27b3 2357 ginga_5.0.0-1.dsc 10e1e7300c179302a385b29881d66fd0 34764392 ginga_5.0.0.orig.tar.gz 71aa091c44a924c53ad1eb6469874d26 6184 ginga_5.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ejeschke.github.io/ginga"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ginga"
+  ],
+  "Package-List": [
+    "ginga deb science optional arch=all python3-ginga deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3, python3-astlib, python3-astropy, python3-pytest, python3-scipy"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/ginga"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/ginga.git"
+  ],
+  "Version": [
+    "5.0.0-1"
+  ]
+}

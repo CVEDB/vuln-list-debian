@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libmodule-corelist-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libtest-pod-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "015156efb0186bb3935b74b08a8b1f90e0462e578615711349f45b5d83ddb5a8 2530 libmodule-corelist-perl_5.20240129-1.dsc 8a24a91133ca27b720da601c435f3abe8460b553ad490238c485333dd835617d 74500 libmodule-corelist-perl_5.20240129.orig.tar.xz 82fc0eec51baa81d6e530d10a7846121a39711d5ac8cef35eeecc9014a5b4681 8340 libmodule-corelist-perl_5.20240129-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libm/libmodule-corelist-perl"
+  ],
+  "Files": [
+    "a9af00fa2abfea262ae1fe90c92a52a9 2530 libmodule-corelist-perl_5.20240129-1.dsc ab030be18593cf78d63f888e7356d12d 74500 libmodule-corelist-perl_5.20240129.orig.tar.xz bd84b9f7e8d2610887637b5d7a3b9ff9 8340 libmodule-corelist-perl_5.20240129-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Module-CoreList"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmodule-corelist-perl"
+  ],
+  "Package-List": [
+    "libmodule-corelist-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Niko Tyni \u003cntyni@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmodule-corelist-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmodule-corelist-perl.git"
+  ],
+  "Version": [
+    "5.20240129-1"
+  ]
+}

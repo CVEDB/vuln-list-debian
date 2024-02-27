@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "whalebuilder"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10)"
+  ],
+  "Checksums-Sha256": [
+    "a366e2b6f4ec7bf318d04bdf6e67d2e66c5cbbd8a3cefba5c7bb884e19e5cd28 1255 whalebuilder_0.11.dsc f25aac2dc5483fb2d376a388479c80e408d8ee87aabb275dffab4d45b1e103f2 24716 whalebuilder_0.11.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/whalebuilder"
+  ],
+  "Files": [
+    "fefa0604462d62b01306478021361f29 1255 whalebuilder_0.11.dsc 5b250131b5f91d4fab27f76c606994bf 24716 whalebuilder_0.11.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.uhoreg.ca/programming/debian/whalebuilder"
+  ],
+  "Maintainer": [
+    "Hubert Chathi \u003cuhoreg@debian.org\u003e"
+  ],
+  "Package": [
+    "whalebuilder"
+  ],
+  "Package-List": [
+    "whalebuilder deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/uhoreg/whalebuilder"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/uhoreg/whalebuilder.git"
+  ],
+  "Version": [
+    "0.11"
+  ]
+}

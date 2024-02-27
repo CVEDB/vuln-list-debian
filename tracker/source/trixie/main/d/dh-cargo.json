@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-cargo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "ba109ae0e20c8122bc6f20bf243c70f40e81b543d818638c8e0b8f2d502e3be1 1789 dh-cargo_31.dsc 1d837e4b98276090ae7d2f8f2794a886135f04b619f2879ec6f55c73c782376e 9816 dh-cargo_31.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dh-cargo"
+  ],
+  "Files": [
+    "0f995bca243c02140896780ab91cdff9 1789 dh-cargo_31.dsc 074beddbdae938048fda457556d57de6 9816 dh-cargo_31.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Rust Maintainers \u003cpkg-rust-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dh-cargo"
+  ],
+  "Package-List": [
+    "dh-cargo deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Josh Triplett \u003cjosh@joshtriplett.org\u003e, Ximin Luo \u003cinfinity0@debian.org\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/dh-cargo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/dh-cargo.git"
+  ],
+  "Version": [
+    "31"
+  ]
+}

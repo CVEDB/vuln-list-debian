@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libyaml-pp-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libencode-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libtest-warn-perl \u003c!nocheck\u003e, libtie-ixhash-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "586fefd1a438d6fb96e72c4a3c8796d0ab455f2d1038c4dc00c65f302f040d04 2523 libyaml-pp-perl_0.38.0-1.dsc a819465c52f6a341049a3942742c08e04f2894b2a66482e43a7f407ce10b4ea0 214572 libyaml-pp-perl_0.38.0.orig.tar.gz c5cccc5fff82b1fe5dc20dcb36e6e90f01d65787bb47255c2bb3c40e76dfc834 3380 libyaml-pp-perl_0.38.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "d7cc7c6487df2c564ee78fc1873d2ce12f3ff4a2 debian archive/debian/0.38.0-1 https://git.dgit.debian.org/libyaml-pp-perl"
+  ],
+  "Directory": [
+    "pool/main/liby/libyaml-pp-perl"
+  ],
+  "Files": [
+    "0efcf8d5eab61ea6321f750d32510e10 2523 libyaml-pp-perl_0.38.0-1.dsc 98a46a442c8e516f4ac76012104fbc6b 214572 libyaml-pp-perl_0.38.0.orig.tar.gz d8abe7653a241bf277e1201d5d5e1843 3380 libyaml-pp-perl_0.38.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/YAML-PP"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libyaml-pp-perl"
+  ],
+  "Package-List": [
+    "libyaml-pp-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libyaml-pp-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libyaml-pp-perl.git"
+  ],
+  "Version": [
+    "0.38.0-1"
+  ]
+}

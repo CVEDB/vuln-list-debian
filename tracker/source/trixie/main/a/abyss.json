@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any-amd64 arm64 loong64 mips64el ppc64el s390x ia64 ppc64 riscv64 sparc64 alpha"
+  ],
+  "Binary": [
+    "abyss"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libboost-graph-dev, libbtllib-dev, libopenmpi-dev, libsparsehash-dev, libtext-multimarkdown-perl \u003c!nodoc\u003e, libsqlite3-dev, pkg-config, help2man, debhelper"
+  ],
+  "Checksums-Sha256": [
+    "ff70ec1f306dbe7e66d563299c473cf6dbe8f77bccf8532923fd1410d5fcf8e5 2318 abyss_2.3.7-3.dsc 70ef428552d234c2ee51a430b7092d5952ba12251bbaeb6373a5f62a4a8702cb 933440 abyss_2.3.7.orig.tar.xz d7a0af8f3f26ef190722aaad2b484af6b7ef881878f9ea4673dbd6819aa7a1eb 1497704 abyss_2.3.7-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/abyss"
+  ],
+  "Files": [
+    "4d2d06ac15648b611a0a5024ee8cd0e9 2318 abyss_2.3.7-3.dsc a234694ce7d1781632123845208119f9 933440 abyss_2.3.7.orig.tar.xz de18961d29398836e298289e10449797 1497704 abyss_2.3.7-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bcgsc/abyss"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "abyss"
+  ],
+  "Package-List": [
+    "abyss deb science optional arch=any-amd64,arm64,loong64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64,alpha"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Michael R. Crusoe \u003ccrusoe@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/abyss"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/abyss.git"
+  ],
+  "Version": [
+    "2.3.7-3"
+  ]
+}

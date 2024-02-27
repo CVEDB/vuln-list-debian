@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-xml-rpc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa"
+  ],
+  "Checksums-Sha256": [
+    "47dd2191b63c0510c67e015f00be20375362cf686d6dbe170127f3fc9eec963f 2140 xml-rpc-el_1.6.17-1.dsc f3cbffa525f70f0fb7f57a66bda48efa2199546cd3e54c040343f009a5b3a4a5 19840 xml-rpc-el_1.6.17.orig.tar.xz e5bb20c6192d688e5e88316f938c2529ab4993955dceec8ce5acb0b78ee64fbf 3012 xml-rpc-el_1.6.17-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ea43a5035d409e3f722765f3ac9fca5cd512bf22 debian archive/debian/1.6.17-1 https://git.dgit.debian.org/xml-rpc-el"
+  ],
+  "Directory": [
+    "pool/main/x/xml-rpc-el"
+  ],
+  "Files": [
+    "083ee1c1429250bd177e3328ea98b21c 2140 xml-rpc-el_1.6.17-1.dsc cd4d5b74e596579fecf50760df6b8b48 19840 xml-rpc-el_1.6.17.orig.tar.xz c4eda510685b036ce8f2f4add966d92d 3012 xml-rpc-el_1.6.17-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xml-rpc-el/xml-rpc-el"
+  ],
+  "Maintainer": [
+    "Debian Emacsen Team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "xml-rpc-el"
+  ],
+  "Package-List": [
+    "elpa-xml-rpc deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
+  ],
+  "Uploaders": [
+    "Aymeric Agon-Rambosson \u003caymeric.agon@yandex.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/xml-rpc-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/xml-rpc-el.git"
+  ],
+  "Version": [
+    "1.6.17-1"
+  ]
+}

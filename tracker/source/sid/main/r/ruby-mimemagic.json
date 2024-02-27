@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ruby-mimemagic"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby-nokogiri (\u003e= 1), shared-mime-info"
+  ],
+  "Checksums-Sha256": [
+    "778d8392907ea12db7f37e6689ad77322b41b0999cd50c532b07c1e31a8a9125 1469 ruby-mimemagic_0.4.3-1.dsc d268bef14f991f738b94da3e237e97e7d04aaa2fd564e407011fa57a67e16970 7477 ruby-mimemagic_0.4.3.orig.tar.gz 856bc58f91b9e6e64577d65fc27806a9b029f8f8ebc76c98338ed986ed378c05 3420 ruby-mimemagic_0.4.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-mimemagic"
+  ],
+  "Files": [
+    "3a37a75379ac637e550da822527bef15 1469 ruby-mimemagic_0.4.3-1.dsc c3bffa5c71606db011ae835f2f2d5922 7477 ruby-mimemagic_0.4.3.orig.tar.gz fb91b370d88f7e2bea71f12456180d66 3420 ruby-mimemagic_0.4.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mimemagicrb/mimemagic"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-mimemagic"
+  ],
+  "Package-List": [
+    "ruby-mimemagic deb ruby optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Cédric Boutillier \u003cboutil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-mimemagic"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-mimemagic.git"
+  ],
+  "Version": [
+    "0.4.3-1"
+  ]
+}

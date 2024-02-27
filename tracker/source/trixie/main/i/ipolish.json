@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ipolish, wpolish"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dictionaries-common-dev, ispell (\u003e= 3.4.02), locales, recode"
+  ],
+  "Checksums-Sha256": [
+    "3688395ef9bdc50c31a7fb3fc5fa8c01ecf7a5dbfbdabe976d0552af11babe1a 2009 ipolish_20240101-1.dsc 4b56336fe08d4c2f271ac02f41e3dd127932bea42e4c0d9017e9470cd726c537 1327132 ipolish_20240101.orig.tar.bz2 824a523120ac5327d2c9073d83bcfc4c9303b47bb858366800142cdd161b969f 34452 ipolish_20240101-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/ipolish"
+  ],
+  "Files": [
+    "b8c89d2476a86165b25c045c21f8dce6 2009 ipolish_20240101-1.dsc 156493097df768f83e60e11bf75dff73 1327132 ipolish_20240101.orig.tar.bz2 b90608684079d7020529f5872ead6322 34452 ipolish_20240101-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sjp.pl/"
+  ],
+  "Maintainer": [
+    "Robert Luberda \u003crobert@debian.org\u003e"
+  ],
+  "Package": [
+    "ipolish"
+  ],
+  "Package-List": [
+    "ipolish deb text optional arch=all wpolish deb text optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "text"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "locales, recode"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ipolish/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ipolish.git"
+  ],
+  "Version": [
+    "20240101-1"
+  ]
+}

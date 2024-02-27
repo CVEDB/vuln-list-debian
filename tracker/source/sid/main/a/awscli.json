@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "awscli"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), cmake, dh-python, python3-dev:any, python3-setuptools, python3-awscrt (\u003e= 0.19.19)"
+  ],
+  "Build-Depends-Indep": [
+    "tox, python3-build, python3-colorama, python3-cryptography, python3-dateutil, python3-prompt-toolkit, python3-ruamel.yaml, python3-wheel, flit, pybuild-plugin-pyproject, python3-distro, python3-jmespath"
+  ],
+  "Checksums-Sha256": [
+    "1a044236832f1751740511bd2e8a2081ebe8446a748a0765450f00722248ab2e 2285 awscli_2.15.22-1.dsc 1a54dba93085ec9a5b21ce583d42651d16440afe71bf1746371c06136d9cd32f 14788707 awscli_2.15.22.orig.tar.gz f5db8c2e5a833525935d538576ec6874788b0cb9d6a7a92605e89cdaac9b1840 6132 awscli_2.15.22-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/awscli"
+  ],
+  "Files": [
+    "f464efbe3630733dd8275b54f886e936 2285 awscli_2.15.22-1.dsc 3d7ddbc7188b4649bad5234145ee2bb0 14788707 awscli_2.15.22.orig.tar.gz 251eb5901bf84fee42ba0bce9dc5d81f 6132 awscli_2.15.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/aws/aws-cli"
+  ],
+  "Maintainer": [
+    "Debian Cloud Team \u003cdebian-cloud@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "awscli"
+  ],
+  "Package-List": [
+    "awscli deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Ross Vandegrift \u003crvandegrift@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cloud-team/awscli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cloud-team/awscli.git"
+  ],
+  "Version": [
+    "2.15.22-1"
+  ]
+}

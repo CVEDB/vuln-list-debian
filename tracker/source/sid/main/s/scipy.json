@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-scipy, python-scipy-doc"
+  ],
+  "Build-Depends": [
+    "cython3-legacy, debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, gfortran, libblas-dev, liblapack-dev, liblbfgsb-dev, libsuitesparse-dev, python3-mesonpy (\u003e= 0.12.1~), pkgconf, python3-all-dev, python3-decorator, python3-doit (\u003e= 0.35~) \u003c!nocheck\u003e, python3-numpy (\u003e= 1:1.21.6~), python3-pooch, python3-pybind11 (\u003e= 2.10.4~), python3-pytest, python3-setuptools, python3-wheel, python3-pythran (\u003e= 0.12.0~)"
+  ],
+  "Build-Depends-Indep": [
+    "dvipng, dh-sequence-sphinxdoc, python3-doc, python3-docutils, python3-matplotlib, python3-numpydoc, python3-pydata-sphinx-theme, python3-sphinx, python3-sphinx-design, python3-sphinx-tabs, rdfind, symlinks, texlive-latex-base, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "bc223f3029ea48f748ea0e83d923b1d7efb9d3eabe5b5cbd1e649a8344c346be 3223 scipy_1.11.4-6.dsc c11132198202f6f82515537fd4ab3cb061a991a7f74d08932dfb8a93c8e35ddf 32453938 scipy_1.11.4.orig-submodules.tar.gz 06c0338e76901aa1f996cc7f21eee622b1174d9e251b9bb540e6c172457851d3 24858081 scipy_1.11.4.orig.tar.gz 5a2a51b05cb122dcd80b84055135ddd25730bc712978dd09dbd30bdd57bcf098 37596 scipy_1.11.4-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/scipy"
+  ],
+  "Files": [
+    "50dd948fc212d1ac8a466c1d03590d83 3223 scipy_1.11.4-6.dsc 5b193b88e395137d4ce3590f79d75970 32453938 scipy_1.11.4.orig-submodules.tar.gz fc6d3b346f104b467046d176ca45948c 24858081 scipy_1.11.4.orig.tar.gz d4285161a4c20384755124f2a50463ce 37596 scipy_1.11.4-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.scipy.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "scipy"
+  ],
+  "Package-List": [
+    "python-scipy-doc deb doc optional arch=all python3-scipy deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libatlas-base-dev, libblis-dev, libopenblas-dev, python3, python3-all, python3-all-dev, python3-doit, python3-pil, python3-pooch, python3-pytest"
+  ],
+  "Uploaders": [
+    "Ondrej Certik \u003condrej@certik.cz\u003e, David Cournapeau \u003ccournape@gmail.com\u003e, Varun Hiremath \u003cvarun@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/scipy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/scipy.git"
+  ],
+  "Version": [
+    "1.11.4-6"
+  ]
+}

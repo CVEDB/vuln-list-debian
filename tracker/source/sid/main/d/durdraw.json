@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "durdraw"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "23d75740c125a26784a94526b5e07010cfd01e842ab5a251936796e92ff10cfd 1826 durdraw_0.25.3-1.dsc edd91b4733f17165218b5a6c8c54e7955b036dd57fbdcc0ca8c3751a07b38c16 169723 durdraw_0.25.3.orig.tar.gz 5664562cad0f18afdbb68eaef21508b184ee2bd64bc6fe8799eb008dd7718c53 3360 durdraw_0.25.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/durdraw"
+  ],
+  "Files": [
+    "44058191e5e780b9fdcd034218042656 1826 durdraw_0.25.3-1.dsc 85827bce5e6b702da2a5d15385ecfffe 169723 durdraw_0.25.3.orig.tar.gz c916eb8400a5acbe4236465a48f01c69 3360 durdraw_0.25.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://durdraw.org"
+  ],
+  "Maintainer": [
+    "Gürkan Myczko \u003ctar@debian.org\u003e"
+  ],
+  "Package": [
+    "durdraw"
+  ],
+  "Package-List": [
+    "durdraw deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/durdraw"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/durdraw.git"
+  ],
+  "Version": [
+    "0.25.3-1"
+  ]
+}

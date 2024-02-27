@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-sys-info-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cc-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.29-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c43f9987fd8ff222b037bbceef5229b456c9ee441f20ba5dd64ca746f2da55e6 2280 rust-sys-info_0.9.1-6.dsc eedc8ca36dd7c6c3a5bab1e38bc701581ecc84fec82d2996d36e1fdda01823f7 15089 rust-sys-info_0.9.1.orig.tar.gz 23f7db7d9af9da9899988e32b2142e1ea14738e46aadb0d1a4e365900f81b2ef 3492 rust-sys-info_0.9.1-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-sys-info"
+  ],
+  "Files": [
+    "a96b3be273dd2390d82b4684ebea937a 2280 rust-sys-info_0.9.1-6.dsc 2ebb8b4f179cbd54a71e10ec703ea7ad 15089 rust-sys-info_0.9.1.orig.tar.gz 4281316dfdf4ddfb479e293e349ed12f 3492 rust-sys-info_0.9.1-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://crates.io/crates/sys-info"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-sys-info"
+  ],
+  "Package-List": [
+    "librust-sys-info-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Daniele Tricoli \u003ceriol@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sys-info"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sys-info]"
+  ],
+  "Version": [
+    "0.9.1-6"
+  ]
+}

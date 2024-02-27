@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmath-gsl-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libgsl-dev (\u003c\u003c 2.8~), libmodule-build-perl, libpkgconfig-perl, libscalar-list-utils-perl \u003c!nocheck\u003e, libtest-class-perl \u003c!nocheck\u003e, libtest-exception-perl \u003c!nocheck\u003e, libtest-most-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libtest-taint-perl \u003c!nocheck\u003e, libversion-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native, swig"
+  ],
+  "Checksums-Sha256": [
+    "44a0ecc2f67b72d7d4d4256e16f9a44a18ece1fec6e840e96eaeb3428ca451b7 2641 libmath-gsl-perl_0.44-1.dsc 27adba030d33d989269fde0b0a5854259f69884e569ca5401a3c2a442469bcb7 23850299 libmath-gsl-perl_0.44.orig.tar.gz f53ba5239473e9cc9d6698b872d14ae187ae6255d5b6210ee5a42bb92511e858 23428 libmath-gsl-perl_0.44-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "9dc3eb1969931c3a162dfb6c50ebd1c47d2bcf85 debian archive/debian/0.44-1 https://git.dgit.debian.org/libmath-gsl-perl"
+  ],
+  "Directory": [
+    "pool/main/libm/libmath-gsl-perl"
+  ],
+  "Files": [
+    "28c24118db797ac72db43fcc6e67b56b 2641 libmath-gsl-perl_0.44-1.dsc c3249e41b1c304a8fb45e6982543c408 23850299 libmath-gsl-perl_0.44.orig.tar.gz bc3384356c574e875fff15446df8058f 23428 libmath-gsl-perl_0.44-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Math-GSL"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmath-gsl-perl"
+  ],
+  "Package-List": [
+    "libmath-gsl-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Wolfgang Fütterer \u003cdebian@wlf-online.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmath-gsl-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmath-gsl-perl.git"
+  ],
+  "Version": [
+    "0.44-1"
+  ]
+}

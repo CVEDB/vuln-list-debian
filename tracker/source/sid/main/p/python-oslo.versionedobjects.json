@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.versionedobjects-doc, python3-oslo.versionedobjects"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-fixtures, python3-hacking, python3-iso8601, python3-jsonschema, python3-netaddr, python3-openstackdocstheme, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.serialization, python3-oslo.utils (\u003e= 4.7.0), python3-oslotest, python3-stestr, python3-testtools, python3-webob, subunit"
+  ],
+  "Checksums-Sha256": [
+    "fc13ca4579fbc97714aac600308959d483d9fca828cc2d22b1ce7ea9823195e5 2837 python-oslo.versionedobjects_3.2.0-4.dsc ded9c86c2f040990531aec99404ed3cc6d7131b25e49e198d3319c5288d62942 66356 python-oslo.versionedobjects_3.2.0.orig.tar.xz b1f7b62dd7424d60e191beaa444118e162fdb3cde959984e3b403c09643ed410 5616 python-oslo.versionedobjects_3.2.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.versionedobjects"
+  ],
+  "Files": [
+    "00823ecd4bc2f613542db1386c2c4b3d 2837 python-oslo.versionedobjects_3.2.0-4.dsc 73adb18d4501e764371ab94c1a6f9c51 66356 python-oslo.versionedobjects_3.2.0.orig.tar.xz 41dc2091f3dde6ba09caf0c9de614c54 5616 python-oslo.versionedobjects_3.2.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/oslo.versionedobjects"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.versionedobjects"
+  ],
+  "Package-List": [
+    "python-oslo.versionedobjects-doc deb doc optional arch=all python3-oslo.versionedobjects deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.versionedobjects"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.versionedobjects.git"
+  ],
+  "Version": [
+    "3.2.0-4"
+  ]
+}

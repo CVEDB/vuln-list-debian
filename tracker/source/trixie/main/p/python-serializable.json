@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-serializable"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, python3-simplejson"
+  ],
+  "Checksums-Sha256": [
+    "c10981aa4e9d44dd4248b6cce3724689a93b7e1775054f59cb639e56335345f4 2196 python-serializable_0.4.0+ds-1.dsc 8f36922281e6b1e3cb0b7a6947f3626533a6863262c6bcd3ad60b64d0697cb9f 11364 python-serializable_0.4.0+ds.orig.tar.xz 2d9a0be1e19dc1dc9b45342f2465bf3130b08623dec385c29f19a5900737f4b8 2420 python-serializable_0.4.0+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-serializable"
+  ],
+  "Files": [
+    "480425c84e29e07c6f4f006401fd7fcc 2196 python-serializable_0.4.0+ds-1.dsc 8b37f5141ee72bfc24c8dc66fccd42a1 11364 python-serializable_0.4.0+ds.orig.tar.xz 0ae133f367eeb155bfca560deb74cadd 2420 python-serializable_0.4.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/iskandr/serializable"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-serializable"
+  ],
+  "Package-List": [
+    "python3-serializable deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-serializable"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-serializable.git"
+  ],
+  "Version": [
+    "0.4.0+ds-1"
+  ]
+}

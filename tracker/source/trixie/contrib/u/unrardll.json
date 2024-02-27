@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Autobuild": [
+    "yes"
+  ],
+  "Binary": [
+    "python3-unrardll"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, libunrar-dev"
+  ],
+  "Checksums-Sha256": [
+    "765bcf89dbbe8f0d809d757749ef327029e175c45bb9424b0267683caac591f2 2336 unrardll_0.1.7-2.dsc e1067fe27bb4de204ef8f3692f23d93c5d3b4292f78b292c6fc7dc4f75749f76 10780032 unrardll_0.1.7.orig.tar.gz f77e45832dd5ae3346e9fa267847ad9bc606cd5fba718519cd2be3ad751e11e0 833 unrardll_0.1.7.orig.tar.gz.asc b333e983412cbb1a504fbb283c11ce4f69d233f5d0584305db43062a469c66e4 6144 unrardll_0.1.7-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/u/unrardll"
+  ],
+  "Files": [
+    "9a598f39efc79156beb9bd0e49948be8 2336 unrardll_0.1.7-2.dsc 41fc5231e04426b15e2c2916b263a3bc 10780032 unrardll_0.1.7.orig.tar.gz 81293afc6b496fb49099485894578bad 833 unrardll_0.1.7.orig.tar.gz.asc 22bf43f0bd9f6f47f750517e094cffe6 6144 unrardll_0.1.7-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kovidgoyal/unrardll"
+  ],
+  "Maintainer": [
+    "Unrardll maintainer team \u003cteam+unrardll@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "unrardll"
+  ],
+  "Package-List": [
+    "python3-unrardll deb contrib/python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Norbert Preining \u003cnorbert@preining.info\u003e, YOKOTA Hiroshi \u003cyokota.hgml@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-calibre/unrardll"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-calibre/unrardll.git"
+  ],
+  "Version": [
+    "0.1.7-2"
+  ]
+}

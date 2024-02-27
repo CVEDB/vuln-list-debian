@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-distributional"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-vctrs, r-cran-rlang, r-cran-generics, r-cran-numderiv, r-cran-lifecycle"
+  ],
+  "Checksums-Sha256": [
+    "a9bdeb51ecd9554d6c975ad3623045c744590b08ccf621fa22fe3ff4a750de56 2323 r-cran-distributional_0.4.0-1.dsc 09b5f3279bed4c79575f75d5f7f5e3e593c7838434a78c89f0b7184e8f20e602 97035 r-cran-distributional_0.4.0.orig.tar.gz b666826de8ea8409267e7737122feea1c7583f44eb85e5d53802a85b62b91db5 2620 r-cran-distributional_0.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-distributional"
+  ],
+  "Files": [
+    "ad54a66fc7a5d90a43bf51d0cf1e9bff 2323 r-cran-distributional_0.4.0-1.dsc 96a6b3560c947cf6622180d54a85db2b 97035 r-cran-distributional_0.4.0.orig.tar.gz 0cc1fca05ff52570fa31b0732666df0b 2620 r-cran-distributional_0.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=distributional"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-distributional"
+  ],
+  "Package-List": [
+    "r-cran-distributional deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-actuar, r-cran-covr, r-cran-ggplot2, r-cran-mvtnorm, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-distributional"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-distributional.git"
+  ],
+  "Version": [
+    "0.4.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-adios4dolfinx"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit, debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-adios2, python3-adios2-mpi, python3-dolfinx, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "a21362c6ff602a38c601ad5efff7e1383225a19237103596664b506daab99e78 2352 adios4dolfinx_0.7.3-6.dsc 1ebddfb4d2509e1cbceb55a60a1a6febae5ed19e13390ddc6d4972ec50a0665b 31462 adios4dolfinx_0.7.3.orig.tar.gz aa7abdb3777b569652bdabea08ed6d56bd2faffbe5d22e82a8bb5ba63e0cd089 4256 adios4dolfinx_0.7.3-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/adios4dolfinx"
+  ],
+  "Files": [
+    "efdb1fc5fb5e7f88fc136c46fb109661 2352 adios4dolfinx_0.7.3-6.dsc 344ff9220dad2fbb6e82f9a7db2440ca 31462 adios4dolfinx_0.7.3.orig.tar.gz 0bedf91021497520d62c6233f926b38d 4256 adios4dolfinx_0.7.3-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://jsdokken.com/adios4dolfinx/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "adios4dolfinx"
+  ],
+  "Package-List": [
+    "python3-adios4dolfinx deb science optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all-dev, python3-dolfinx-complex, python3-pytest"
+  ],
+  "Uploaders": [
+    "Francesco Ballarin \u003cfrancesco.ballarin@unicatt.it\u003e, Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/fenics/adios4dolfinx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/fenics/adios4dolfinx.git"
+  ],
+  "Version": [
+    "0.7.3-6"
+  ]
+}

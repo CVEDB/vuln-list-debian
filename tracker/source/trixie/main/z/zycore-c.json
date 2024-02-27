@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libzycore1.4, libzycore-dev, libzycore-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "cmake, libgtest-dev \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "cmake, libgtest-dev \u003c!nocheck\u003e, doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c5329026666287f147497777aebf599fe36da3223328746654fbf1184a637854 1566 zycore-c_1.4.1-2.dsc 01d330cffa41c6d0d039e37f4b60db76680ce291aa713d2649c3746e5043e693 61040 zycore-c_1.4.1.orig.tar.gz 53c5a73f41404b3a94b2c78c9b23bbf5189c5df0849c3b7b7fad5ea3e64481e6 5252 zycore-c_1.4.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zycore-c"
+  ],
+  "Files": [
+    "b5dbc661e502305fa867a6d69360c34c 1566 zycore-c_1.4.1-2.dsc 471064750bba56d7f4fc9ef39b67b76e 61040 zycore-c_1.4.1.orig.tar.gz 56d0562a8d43ae0f970ad0013754ec22 5252 zycore-c_1.4.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zyantific/zycore-c"
+  ],
+  "Maintainer": [
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
+  ],
+  "Package": [
+    "zycore-c"
+  ],
+  "Package-List": [
+    "libzycore-dev deb libdevel optional arch=any libzycore-doc deb doc optional arch=all libzycore1.4 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "c-compiler, cmake, gcc, libc-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/zycore-c"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/zycore-c.git"
+  ],
+  "Version": [
+    "1.4.1-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-lock-api-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.49.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-scopeguard-1-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1d2d597d0d42fe7b8daed6bf2ad2d0d61311d8ea394596f0a9697b95013aa174 2319 rust-lock-api_0.4.11-1.dsc 3c168f8615b12bc01f9c17e2eb0cc07dcae1940121185446edc3744920e8ef45 27487 rust-lock-api_0.4.11.orig.tar.gz f98b7224da18ca8db0c8750528e278ecf9329e6639cb76cb23a57585b997e60a 3328 rust-lock-api_0.4.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-lock-api"
+  ],
+  "Files": [
+    "2f21403f27fe2c53e3d65309f17a9921 2319 rust-lock-api_0.4.11-1.dsc cc1b0e90e372869ad03ef40bd53fa30f 27487 rust-lock-api_0.4.11.orig.tar.gz fd93fbcfc280afebbb0b5edcd8415eb5 3328 rust-lock-api_0.4.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-lock-api"
+  ],
+  "Package-List": [
+    "librust-lock-api-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lock-api"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/lock-api]"
+  ],
+  "Version": [
+    "0.4.11-1"
+  ]
+}

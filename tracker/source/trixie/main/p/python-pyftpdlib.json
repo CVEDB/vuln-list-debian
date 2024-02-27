@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pyftpdlib, python-pyftpdlib-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-mock, python3-openssl, python3-psutil, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "e7c563fe2edd649066d63d11b853a4cbbc850b0278fcd60baaf06eb584532867 2289 python-pyftpdlib_1.5.9-1.dsc 7403b762ea16e4c1e5805b81084c09cd099ba6a8f7dbbcaf3e331a889ea883fe 260537 python-pyftpdlib_1.5.9.orig.tar.gz ec4f2a32ab638b010c113edeb616caeccea7dc0142b24ea370ac35c3fcc4492a 6908 python-pyftpdlib_1.5.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pyftpdlib"
+  ],
+  "Files": [
+    "c7e58998811fc6fba3078a1ba493028d 2289 python-pyftpdlib_1.5.9-1.dsc e1ce09ca9b3e2c108f1dff22fbc177c8 260537 python-pyftpdlib_1.5.9.orig.tar.gz 2b187ce1d228ade2abe98bb7aa66522b 6908 python-pyftpdlib_1.5.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/giampaolo/pyftpdlib/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pyftpdlib"
+  ],
+  "Package-List": [
+    "python-pyftpdlib-doc deb doc optional arch=all python3-pyftpdlib deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-psutil"
+  ],
+  "Uploaders": [
+    "Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pyftpdlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pyftpdlib.git"
+  ],
+  "Version": [
+    "1.5.9-1"
+  ]
+}

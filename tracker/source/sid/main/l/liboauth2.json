@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "liboauth2-0, liboauth2-apache0, liboauth2-dev, liboauth2-apache-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), apache2-dev, pkg-config, libjansson-dev, libssl-dev, libcurl4-openssl-dev, libcjose-dev, check, libmemcached-dev, libhiredis-dev"
+  ],
+  "Checksums-Sha256": [
+    "1fc0e6e835f1bd87d0424a48021b3a690115d874528d8c8f0fac1103e4e9cbbd 2489 liboauth2_1.6.0-1.dsc 1714d58bf4360320a6330da361e78982b4daca6433b3dc874613857d14d9919a 162386 liboauth2_1.6.0.orig.tar.gz 3e6d2d6f72ff4037b69c4d0533eba6b104da0585b86573840d6567944a448936 17796 liboauth2_1.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libo/liboauth2"
+  ],
+  "Files": [
+    "ae9cb1494f370a48d36d0fa9ae3b65a5 2489 liboauth2_1.6.0-1.dsc 951b420bee1a015755491fd5235eeec2 162386 liboauth2_1.6.0.orig.tar.gz 74078a239836c348d64d59b7197f8c71 17796 liboauth2_1.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zmartzone/liboauth2"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "liboauth2"
+  ],
+  "Package-List": [
+    "liboauth2-0 deb libs optional arch=any liboauth2-apache-dev deb libdevel optional arch=any liboauth2-apache0 deb libs optional arch=any liboauth2-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2-dev, autoconf, check, gcc, libc-dev, libcjose-dev, libcurl4-openssl-dev, libhiredis-dev, libjansson-dev, libmemcached-dev, libssl-dev, pkg-config"
+  ],
+  "Uploaders": [
+    "Nicolas Mora \u003cbabelouest@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/liboauth2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/liboauth2.git"
+  ],
+  "Version": [
+    "1.6.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-quinn-proto-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytes-1+default-dev \u003c!nocheck\u003e, librust-rand-0.8+default-dev \u003c!nocheck\u003e, librust-ring-0.17+default-dev \u003c!nocheck\u003e, librust-rustc-hash-1+default-dev (\u003e= 1.1-~~) \u003c!nocheck\u003e, librust-rustls-0.21+quic-dev \u003c!nocheck\u003e, librust-slab-0.4+default-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev (\u003e= 1.0.21-~~) \u003c!nocheck\u003e, librust-tinyvec-1+alloc-dev (\u003e= 1.1-~~) \u003c!nocheck\u003e, librust-tinyvec-1+default-dev (\u003e= 1.1-~~) \u003c!nocheck\u003e, librust-tracing-0.1+default-dev (\u003e= 0.1.10-~~) \u003c!nocheck\u003e, librust-tracing-0.1+log-dev (\u003e= 0.1.10-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "64305cd828b0a8057d53b6a99708c6743442e23ca0095b29095b56f0b1daff9f 3063 rust-quinn-proto_0.10.6-1.dsc 141bf7dfde2fbc246bfd3fe12f2455aa24b0fbd9af535d8c86c7bd1381ff2b1a 166677 rust-quinn-proto_0.10.6.orig.tar.gz 079c60caf8eedb030aac315a1446e4b446b078ede4bc4fd2079f4db9a999b364 4744 rust-quinn-proto_0.10.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-quinn-proto"
+  ],
+  "Files": [
+    "307c1192330f2036d9f9da1682808c76 3063 rust-quinn-proto_0.10.6-1.dsc f0cd7649458c98b1433ae65d4fc27ee2 166677 rust-quinn-proto_0.10.6.orig.tar.gz d352c26aaa15c949dfe50d0f6ed28e7d 4744 rust-quinn-proto_0.10.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-quinn-proto"
+  ],
+  "Package-List": [
+    "librust-quinn-proto-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-assert-matches-1+default-dev, librust-hex-literal-0.4+default-dev, librust-lazy-static-1+default-dev, librust-rcgen-0.11+default-dev, librust-tracing-subscriber-0.3+ansi-dev, librust-tracing-subscriber-0.3+fmt-dev, librust-tracing-subscriber-0.3+local-time-dev, librust-tracing-subscriber-0.3+time-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/quinn-proto"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/quinn-proto]"
+  ],
+  "Version": [
+    "0.10.6-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ufw"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, po-debconf, python3 (\u003e= 3.2), python3-distutils"
+  ],
+  "Build-Depends-Indep": [
+    "iptables, netbase, procps, sed (\u003e= 3.95)"
+  ],
+  "Checksums-Sha256": [
+    "520495ed3cdc6ccbef00550af3a9dc78d8efb2df22d28401162f854bc35d5fd7 2026 ufw_0.36.2-5.dsc 2a57a99eecef6b44db3537ed2520b30bae3759f8465456e22e404cd643838bf5 592562 ufw_0.36.2.orig.tar.gz c0c9b5a0464a097a2a4c9cefc7eabe05f85fa8c43bf407a9bac2582f02e8be18 44380 ufw_0.36.2-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/ufw"
+  ],
+  "Files": [
+    "67fb409949fc27dd3f346e531521ba82 2026 ufw_0.36.2-5.dsc 4a1c52b7da2b25e66e91b5f16a7d032d 592562 ufw_0.36.2.orig.tar.gz 430a288a14897359130e9951ac012402 44380 ufw_0.36.2-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/ufw"
+  ],
+  "Maintainer": [
+    "Jamie Strandboge \u003cjdstrand@ubuntu.com\u003e"
+  ],
+  "Package": [
+    "ufw"
+  ],
+  "Package-List": [
+    "ufw deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-python, iptables, netbase, procps, python3, python3-setuptools, sed"
+  ],
+  "Vcs-Browser": [
+    "https://git.launchpad.net/ufw?h=debian/master"
+  ],
+  "Vcs-Git": [
+    "https://git.launchpad.net/ufw -b debian/master"
+  ],
+  "Version": [
+    "0.36.2-5"
+  ]
+}

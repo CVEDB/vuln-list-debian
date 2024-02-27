@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dvisvgm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf-archive, asciidoc-base, xmlto, xsltproc, libkpathsea-dev, libbrotli-dev, libwoff-dev, libgs-dev, libfreetype-dev, libpotrace-dev, libxxhash-dev, libttfautohint-dev, pkg-config, python3 \u003c!nocheck\u003e, python3-lxml \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c07647380319f0bed76d2d66b9deb66af1bfdba67912426c4fb187ec0aab0961 2325 dvisvgm_3.2+ds-1.dsc 9e2d7b0905548c6458445e9347d17c57b052c82137dcd79dcdee52dc27f0633f 2455087 dvisvgm_3.2+ds.orig.tar.gz 5b9be258a9c471e72a263465634ca8499e7cb471924e646f46bfd9b20a101738 8104 dvisvgm_3.2+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dvisvgm"
+  ],
+  "Files": [
+    "c54d6570d2e7ce7ca7a232937594cb75 2325 dvisvgm_3.2+ds-1.dsc d93903b54f4e8627795f6b0a9e006a24 2455087 dvisvgm_3.2+ds.orig.tar.gz 588621cf74776ade14836e7b0bac1d67 8104 dvisvgm_3.2+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dvisvgm.de/"
+  ],
+  "Maintainer": [
+    "Debian TeX Task Force \u003cdebian-tex-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "dvisvgm"
+  ],
+  "Package-List": [
+    "dvisvgm deb tex optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Hilmar Preusse \u003chille42@web.de\u003e, Norbert Preining \u003cnorbert@preining.info\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-tex/dvisvgm"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-tex/dvisvgm.git"
+  ],
+  "Version": [
+    "3.2+ds-1"
+  ]
+}

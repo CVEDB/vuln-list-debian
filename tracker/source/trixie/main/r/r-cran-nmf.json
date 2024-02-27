@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-nmf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-registry, r-cran-rngtools, r-cran-cluster, r-cran-stringr, r-cran-digest, r-cran-gridbase, r-cran-colorspace, r-cran-rcolorbrewer, r-cran-foreach, r-cran-doparallel, r-cran-ggplot2, r-cran-reshape2, r-bioc-biobase, r-cran-codetools, r-cran-biocmanager"
+  ],
+  "Checksums-Sha256": [
+    "1358ec41956593ff011400f92bd8ff5faa70a5a3201f569121f87292960457c0 2270 r-cran-nmf_0.27-1.dsc af4302efca4a7654fecd31c376f1bb3496428279a50b8d5691c8a7e66e3f3ef9 1673247 r-cran-nmf_0.27.orig.tar.gz ff6c3750bb5b9d699cfeb0b4fd999f09c5e8af0f5e8e4f5d718b7095693883a5 3576 r-cran-nmf_0.27-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-nmf"
+  ],
+  "Files": [
+    "13e03b84482d4f98691d3a173966875a 2270 r-cran-nmf_0.27-1.dsc 1b529cab49a1f0cf8d8b1c83a4f38229 1673247 r-cran-nmf_0.27.orig.tar.gz 879c1f013952a702d13819f4252736d0 3576 r-cran-nmf_0.27-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=NMF"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-nmf"
+  ],
+  "Package-List": [
+    "r-cran-nmf deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Alba Crespi \u003ccrespialba+debian@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-nmf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-nmf.git"
+  ],
+  "Version": [
+    "0.27-1"
+  ]
+}

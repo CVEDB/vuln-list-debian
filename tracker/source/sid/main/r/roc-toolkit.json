@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libroc0.3, libroc-dev, roc-toolkit-tools, roc-toolkit-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gengetopt, libcpputest-dev, libopenfec-dev [!sparc64], libpulse-dev, libsox-dev, libspeexdsp-dev, libssl-dev, libunwind-dev [!alpha !hurd-any !m68k !sparc64 !x32], libuv1-dev, pkgconf, ragel, scons"
+  ],
+  "Checksums-Sha256": [
+    "83a7a28eb3ef61573d278bae2289d7fc11314a61486e5c466410328504dab3fd 2384 roc-toolkit_0.3.0+dfsg-7.dsc 840abc3e5fadda98f899206695d0f9067dc2c5a3e45e394da7f705b4b25f47e9 1484004 roc-toolkit_0.3.0+dfsg.orig.tar.xz 2e5caaeb77fbbd908777738b188fc78f46ec2c0e7b0c5a3c9065f6e04f52954e 3092 roc-toolkit_0.3.0+dfsg-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/roc-toolkit"
+  ],
+  "Files": [
+    "a647aa28b399931db88ce5c29425d88a 2384 roc-toolkit_0.3.0+dfsg-7.dsc a9038217460eca4e94604ec6a945759f 1484004 roc-toolkit_0.3.0+dfsg.orig.tar.xz d58e05cfec14b09896e4665356f65c44 3092 roc-toolkit_0.3.0+dfsg-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://roc-streaming.org/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "roc-toolkit"
+  ],
+  "Package-List": [
+    "libroc-dev deb libdevel optional arch=any libroc0.3 deb libs optional arch=any roc-toolkit-tests deb sound optional arch=any roc-toolkit-tools deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/roc-toolkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/roc-toolkit.git"
+  ],
+  "Version": [
+    "0.3.0+dfsg-7"
+  ]
+}

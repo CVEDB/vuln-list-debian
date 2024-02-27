@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "plasma-workspace-wallpapers"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), pkg-kde-tools (\u003e= 0.15.16), qtbase5-dev (\u003e= 5.4)"
+  ],
+  "Checksums-Sha256": [
+    "e72b75631cf081e614dd65be7fa1483af8af843603c5eff6eebca6853ab81c9e 2726 plasma-workspace-wallpapers_5.27.10-1.dsc 82862d512993b958f7f96e191ce951ff2748012292941f73cdd308f37e2e64d0 94031960 plasma-workspace-wallpapers_5.27.10.orig.tar.xz bc6cd55f911f18bff7b84f0d61430fc43d21ca2a8151a77403a819179c6b4fce 833 plasma-workspace-wallpapers_5.27.10.orig.tar.xz.asc f19b2f71b9db28732daba2f0f6b758e1ec5c5567fbacc7813cb06f15fb83d4ec 14012 plasma-workspace-wallpapers_5.27.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/plasma-workspace-wallpapers"
+  ],
+  "Files": [
+    "3beb6ea342c59c2357475d95409dc98e 2726 plasma-workspace-wallpapers_5.27.10-1.dsc 5c1cbd459e786deb16d5615748114bfa 94031960 plasma-workspace-wallpapers_5.27.10.orig.tar.xz 07dc97d5eaf9536d2b6a9ace8d8fc003 833 plasma-workspace-wallpapers_5.27.10.orig.tar.xz.asc 581c08c6473317ac3b2dbf3e6db400ee 14012 plasma-workspace-wallpapers_5.27.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/plasma-workspace-wallpapers"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "plasma-workspace-wallpapers"
+  ],
+  "Package-List": [
+    "plasma-workspace-wallpapers deb kde optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/plasma-workspace-wallpapers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/plasma-workspace-wallpapers.git"
+  ],
+  "Version": [
+    "4:5.27.10-1"
+  ]
+}

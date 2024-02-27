@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "codequery"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), asciidoc-base, cmake, libqscintilla2-qt5-dev, libsqlite3-dev, qttools5-dev, xmlto"
+  ],
+  "Checksums-Sha256": [
+    "6906360f214308ec0026621567b6360ea8f9725313c04f5b67c735a1ca6015dd 1981 codequery_0.27.0+dfsg-1.dsc 893c9acd0e70da88ddc9762926f0690879403930d656dc82e0c0d7e9fb282556 1061568 codequery_0.27.0+dfsg.orig.tar.xz 834d84a2e931e161a4fe745d6180930aa6fd4b66195b20bddc99cee423732c15 11464 codequery_0.27.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/codequery"
+  ],
+  "Files": [
+    "5519c824dcf84686cf78b9eff0ac3076 1981 codequery_0.27.0+dfsg-1.dsc e5dfbeb79afcf418b2308fd8aefc61a1 1061568 codequery_0.27.0+dfsg.orig.tar.xz a599726fe9354843eaf0f6fb0df47514 11464 codequery_0.27.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ruben2020/codequery"
+  ],
+  "Maintainer": [
+    "ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
+  ],
+  "Package": [
+    "codequery"
+  ],
+  "Package-List": [
+    "codequery deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/codequery"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/codequery.git"
+  ],
+  "Version": [
+    "0.27.0+dfsg-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "sensible-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "po4a, ed \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2a49b3be4b85b3f455f9c15c26f9bfb6c508496025a414f32649b16fe6326773 1737 sensible-utils_0.0.22.dsc c744d604ad6e1f3c8b4831cd84d653cf86bf9867a856724bf3f4fceb2de215b5 74412 sensible-utils_0.0.22.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sensible-utils"
+  ],
+  "Files": [
+    "29562d58672e80376219a1cfd3a342e7 1737 sensible-utils_0.0.22.dsc ea251281f08af5d339bb3d063c1b276e 74412 sensible-utils_0.0.22.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Anibal Monsalve Salazar \u003canibal@debian.org\u003e"
+  ],
+  "Package": [
+    "sensible-utils"
+  ],
+  "Package-List": [
+    "sensible-utils deb utils required arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash, ed"
+  ],
+  "Uploaders": [
+    "Bastien Roucariès \u003crouca@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/sensible-utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/sensible-utils.git"
+  ],
+  "Version": [
+    "0.0.22"
+  ]
+}

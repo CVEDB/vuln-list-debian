@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sogo, sogo-activesync, sogo-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gobjc, libcurl4-openssl-dev, libgnustep-base-dev, liblasso3-dev, libldap2-dev, libmemcached-dev, liboath-dev, libsbjson-dev, libsodium-dev, libsope-dev (\u003e= 5.7.1), libssl-dev, libwbxml2-dev (\u003e= 0.11), libxml2-dev, libytnef-dev, libzip-dev, pkg-config, python3"
+  ],
+  "Checksums-Sha256": [
+    "c1372ed8ede354b7ef534ec94ad0b28097c937d6120406fd74c2cfbb707b4832 2264 sogo_5.9.1-1.dsc df6ac305a99196ee66d60fda395af81d8da044e7f5c1b1603a51dc4a8edf8ac4 34831391 sogo_5.9.1.orig.tar.gz 8f211e9ebbd87ee81f4869c940d96d4a749b0d21fa564174e3ca7148c7ce33e8 18276 sogo_5.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sogo"
+  ],
+  "Files": [
+    "10df580323cea3434bdca93dfcbe5c39 2264 sogo_5.9.1-1.dsc a260fe92c447f0b185dbd6ebeb411907 34831391 sogo_5.9.1.orig.tar.gz 36387abcff529a9720a676365085dd5f 18276 sogo_5.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sogo.nu/"
+  ],
+  "Maintainer": [
+    "Debian SOGo Maintainers \u003cpkg-sogo-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "sogo"
+  ],
+  "Package-List": [
+    "sogo deb mail optional arch=any sogo-activesync deb mail optional arch=any sogo-common deb mail optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeroen Dekkers \u003cjeroen@dekkers.ch\u003e, Jordi Mallach \u003cjordi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/sogo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/sogo.git"
+  ],
+  "Version": [
+    "5.9.1-1"
+  ]
+}

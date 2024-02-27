@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-nmea2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "b8c1c8e1bc7ff9d347b4b30a04e0e8a1d68419d427d065626d61a5e20b58ddff 1874 python-nmea2_1.19.0-1.dsc 1daa79b93279f887d1c235e5cc5c79e32644564138ce46989ab0f4a2fc970d7c 36240 python-nmea2_1.19.0.orig.tar.gz e12f3cccc3816528998575083f3aa18edc3ca7e1d0fbe89914a89d2dc52c3a89 50408 python-nmea2_1.19.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-nmea2"
+  ],
+  "Files": [
+    "d859322f311e55ee7a209be35a0dc99b 1874 python-nmea2_1.19.0-1.dsc c212570e79bac99e6c9fb7b89e8c04ed 36240 python-nmea2_1.19.0.orig.tar.gz 10cf123e636e594bfe8cae656c9a5fd6 50408 python-nmea2_1.19.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Knio/pynmea2"
+  ],
+  "Maintainer": [
+    "Ulises Vitulli \u003cdererk@debian.org\u003e"
+  ],
+  "Package": [
+    "python-nmea2"
+  ],
+  "Package-List": [
+    "python3-nmea2 deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/Knio/pynmea2"
+  ],
+  "Version": [
+    "1.19.0-1"
+  ]
+}

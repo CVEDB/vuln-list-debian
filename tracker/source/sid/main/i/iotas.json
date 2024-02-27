@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "iotas"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), appstream-util, desktop-file-utils, dh-sequence-python3, libadwaita-1-dev (\u003e= 1.4~), libgirepository1.0-dev, libgtk-4-dev, meson, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "2e946f2084b76d6f14c15f36eb367beaeb23e25b541f942340096e2ef3439a7a 1960 iotas_0.2.7+ds-1.dsc 2ab6b11d2d85200e21d7e52ef0e60b2546f95e7136c61f4bb29ddc6c987284da 424248 iotas_0.2.7+ds.orig.tar.xz 2331167161e6ac4a85d8c95bb086adb8f3bb3511e22ff35fa69ee76076463788 4948 iotas_0.2.7+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iotas"
+  ],
+  "Files": [
+    "b60bff24d66a9ff003eb71537ac9d39f 1960 iotas_0.2.7+ds-1.dsc affab5e1bf6f9e12715c6bb806207131 424248 iotas_0.2.7+ds.orig.tar.xz a622434764e69e228ba6a55207c34981 4948 iotas_0.2.7+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/World/iotas"
+  ],
+  "Maintainer": [
+    "Arnaud Ferraris \u003caferraris@debian.org\u003e"
+  ],
+  "Package": [
+    "iotas"
+  ],
+  "Package-List": [
+    "iotas deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/iotas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/iotas.git"
+  ],
+  "Version": [
+    "0.2.7+ds-1"
+  ]
+}

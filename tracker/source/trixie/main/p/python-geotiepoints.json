@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-geotiepoints"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, cython3 (\u003e= 3.0), pybuild-plugin-pyproject, python3-all-dev, python3-dask, python3-h5py, python3-numpy, python3-pandas, python3-pyproj, python3-pyresample, python3-pytest \u003c!nocheck\u003e, python3-scipy, python3-setuptools, python3-versioneer, python3-xarray"
+  ],
+  "Checksums-Sha256": [
+    "2b5d4d1b6c672f22b3338c5ad2e18b382454d4f4c74e555edb3a1bd62af3b771 2448 python-geotiepoints_1.7.2-1.dsc 768778c4f9d4decdfd328d65838f9974a8358bdb94f93598836c741d148344a4 9337639 python-geotiepoints_1.7.2.orig.tar.gz 7e0c2c51a085551f61843b0d1bc5d91d39268fa2633ee235927de5f68ec3b582 5728 python-geotiepoints_1.7.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-geotiepoints"
+  ],
+  "Files": [
+    "27e51f1f06457115ca49d281468dedc7 2448 python-geotiepoints_1.7.2-1.dsc 2ba37fcf166b333b2899b92431127309 9337639 python-geotiepoints_1.7.2.orig.tar.gz 2f86589c11c100e53640c58e24e9cc36 5728 python-geotiepoints_1.7.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytroll/python-geotiepoints"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-geotiepoints"
+  ],
+  "Package-List": [
+    "python3-geotiepoints deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/python-geotiepoints"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/python-geotiepoints.git"
+  ],
+  "Version": [
+    "1.7.2-1"
+  ]
+}

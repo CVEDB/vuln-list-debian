@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-qusage"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-limma, r-bioc-biobase, r-cran-nlme, r-cran-emmeans, r-cran-fftw"
+  ],
+  "Checksums-Sha256": [
+    "b1db3f4ac83dedae8c4fc3181d4bffd28d8abf54c1d982ff64f686bf4bedafb3 2127 r-bioc-qusage_2.36.0-1.dsc bc298a26d8edd29f9263f8dcbe0933e858bfa45d6ada5c5726520cec44921ae3 9935977 r-bioc-qusage_2.36.0.orig.tar.gz 6b20fbfa155f4e0d71802b4dbe5a023071fb10176a82428ba27e0b709129b25f 3288 r-bioc-qusage_2.36.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-qusage"
+  ],
+  "Files": [
+    "baddc29eeb686432808877f00f5c9129 2127 r-bioc-qusage_2.36.0-1.dsc f4675daa1494bbf070a084d05a2e672b 9935977 r-bioc-qusage_2.36.0.orig.tar.gz 19c8a5122e0f2f35ce55f2aef0ba5f87 3288 r-bioc-qusage_2.36.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/qusage/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-qusage"
+  ],
+  "Package-List": [
+    "r-bioc-qusage deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-qusage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-qusage.git"
+  ],
+  "Version": [
+    "2.36.0-1"
+  ]
+}

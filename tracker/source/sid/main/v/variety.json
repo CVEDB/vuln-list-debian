@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "variety"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-distutils-extra"
+  ],
+  "Checksums-Sha256": [
+    "9a1dfd1569c49cb08b94aa510d616e732c223288e32d0894bbf5a83074315315 1859 variety_0.8.12-1.dsc 8bf5a6748cf87976cfec3772e27ab53fb2a3dfb5704d66933481ca3e0004e09f 848707 variety_0.8.12.orig.tar.gz 39826dfefca4a6c670c01f1f389b3929eb2771a0c445f1ed869d3a2749b3f438 8720 variety_0.8.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/variety"
+  ],
+  "Files": [
+    "f28e4e1f037a932dbc029af4d7bbab78 1859 variety_0.8.12-1.dsc 53898bd624eaaa108a2ee9366daca3cd 848707 variety_0.8.12.orig.tar.gz ba80cb75dda138cfd1181695dc917989 8720 variety_0.8.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://peterlevi.com/variety/"
+  ],
+  "Maintainer": [
+    "James Lu \u003cjlu@debian.org\u003e"
+  ],
+  "Package": [
+    "variety"
+  ],
+  "Package-List": [
+    "variety deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/jlu-guest/variety"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/jlu-guest/variety.git"
+  ],
+  "Version": [
+    "0.8.12-1"
+  ]
+}

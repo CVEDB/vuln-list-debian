@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-tdewolff-parse-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.13~), golang-github-tdewolff-test-dev (\u003e= 1.0.10+git20231101.f1265d2)"
+  ],
+  "Checksums-Sha256": [
+    "140e4ca329cd7c2675369c682257ead2f4a66e3c8c38df8947e644f1d7e68ddd 2349 golang-github-tdewolff-parse_2.7.12-1.dsc 6c99569467d9fb6c2f28c0eea0366d2b5b48e5726b4caf3e0a0708dc4a7d304a 108858 golang-github-tdewolff-parse_2.7.12.orig.tar.gz 0b11ad175c033d5ada802331486b0d96178029c0f77e9a8db61cfbcf01307dcb 3340 golang-github-tdewolff-parse_2.7.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-tdewolff-parse"
+  ],
+  "Files": [
+    "28792e23a8587aea1ccd0f7bdb4308f1 2349 golang-github-tdewolff-parse_2.7.12-1.dsc 15a250b1bfc716b151e59d4700f1e9f2 108858 golang-github-tdewolff-parse_2.7.12.orig.tar.gz c6a2c3801b96fdc756539c0661ee9037 3340 golang-github-tdewolff-parse_2.7.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/tdewolff/parse"
+  ],
+  "Homepage": [
+    "https://github.com/tdewolff/parse"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-tdewolff-parse"
+  ],
+  "Package-List": [
+    "golang-github-tdewolff-parse-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-tdewolff-parse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-tdewolff-parse.git"
+  ],
+  "Version": [
+    "2.7.12-1"
+  ]
+}

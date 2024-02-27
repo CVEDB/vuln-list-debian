@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-mvdan-editorconfig-dev"
+  ],
+  "Build-Depends": [
+    "cmake \u003c!nocheck\u003e, debhelper-compat (= 13), dh-golang, golang-any"
+  ],
+  "Checksums-Sha256": [
+    "9a89a923c7ae4eb4b929ecea28bfe99070c7182ed75d073763910fd920cf04fc 1744 golang-mvdan-editorconfig_0.2.0+git20231228.1925077-1.dsc e4a4ed684d76cad2d2ea2b21e4f21934a5f1ff106d6536fb7616da17acbe58a4 9656 golang-mvdan-editorconfig_0.2.0+git20231228.1925077.orig.tar.xz 4ea67e25c7e88e61ccabc62d17151b45b4d1552b7210b79842963ba6850a441c 13756 golang-mvdan-editorconfig_0.2.0+git20231228.1925077-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-mvdan-editorconfig"
+  ],
+  "Files": [
+    "4b6d2c582fbe65f7adbe15bbf3e2e7f0 1744 golang-mvdan-editorconfig_0.2.0+git20231228.1925077-1.dsc 6b913f6093b8b64e5356d5b9ebea2358 9656 golang-mvdan-editorconfig_0.2.0+git20231228.1925077.orig.tar.xz f7a58366d75790235517ca057f728200 13756 golang-mvdan-editorconfig_0.2.0+git20231228.1925077-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "mvdan.cc/editorconfig"
+  ],
+  "Homepage": [
+    "https://mvdan.cc/editorconfig"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-mvdan-editorconfig"
+  ],
+  "Package-List": [
+    "golang-mvdan-editorconfig-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Faustin Lammler \u003cfaustin@fala.red\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-mvdan-editorconfig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-mvdan-editorconfig.git"
+  ],
+  "Version": [
+    "0.2.0+git20231228.1925077-1"
+  ]
+}

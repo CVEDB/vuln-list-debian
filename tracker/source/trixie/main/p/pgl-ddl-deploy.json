@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-16-pgl-ddl-deploy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libpq-dev, postgresql-16-pglogical, postgresql-all (\u003e= 256~)"
+  ],
+  "Checksums-Sha256": [
+    "82d1ad8219211540c76b2cf2086ba7ad899d4f540f45d3fb46b459ef4dc27486 2204 pgl-ddl-deploy_2.2.1-1.dsc e8b43c2549e586eb24365926c5c128749c0ec13cf8609b744ceabb2d14ef4620 359998 pgl-ddl-deploy_2.2.1.orig.tar.gz 16370ded1514bfdc03897f7884fb5d266070c47104c888d81b20841e16d9da0c 3772 pgl-ddl-deploy_2.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgl-ddl-deploy"
+  ],
+  "Files": [
+    "d7845c72b414ecf78a1d1d610a1445df 2204 pgl-ddl-deploy_2.2.1-1.dsc b82d6c4cbc2b23e03d4487dc1471464b 359998 pgl-ddl-deploy_2.2.1.orig.tar.gz 634c98aac849bcd423ad97ad3870acf5 3772 pgl-ddl-deploy_2.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/enova/pgl_ddl_deploy"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pgl-ddl-deploy"
+  ],
+  "Package-List": [
+    "postgresql-16-pgl-ddl-deploy deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make, postgresql-16-pglogical, postgresql-contrib-16"
+  ],
+  "Uploaders": [
+    "Jeremy Finzel \u003cjfinzel@enova.com\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pgl-ddl-deploy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pgl-ddl-deploy.git"
+  ],
+  "Version": [
+    "2.2.1-1"
+  ]
+}

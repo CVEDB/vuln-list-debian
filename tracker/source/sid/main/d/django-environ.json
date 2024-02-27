@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-environ"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-pytest, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "0b85b9d1d8254e287d3bb97f15f4b344a6d40792d8f6fa03d96dd062ec5432c9 2103 django-environ_0.11.2-1.dsc f32a87aa0899894c27d4e1776fa6b477e8164ed7f6b3e410a62a6d72caaf64be 54326 django-environ_0.11.2.orig.tar.gz ba91fce572ea63f8b68088792800d4bf62fdd0ff525846cad5a8fe974c076e86 2580 django-environ_0.11.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-environ"
+  ],
+  "Files": [
+    "21b053d267fd8874ab8819fc8aab5efd 2103 django-environ_0.11.2-1.dsc e09f141751614358d9a9e89f0c828e0a 54326 django-environ_0.11.2.orig.tar.gz 1603a206d292c78b6e3d0f17b96791bc 2580 django-environ_0.11.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/joke2k/django-environ/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-environ"
+  ],
+  "Package-List": [
+    "python3-django-environ deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.0.0"
+  ],
+  "Uploaders": [
+    "Brian May \u003cbam@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-environ"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-environ.git"
+  ],
+  "Version": [
+    "0.11.2-1"
+  ]
+}

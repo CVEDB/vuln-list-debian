@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "erlang-p1-yaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-rebar (\u003e= 0.0.6), erlang-base, erlang-eunit, erlang-p1-utils (\u003e= 1.0.25), erlang-syntax-tools, libyaml-dev"
+  ],
+  "Checksums-Sha256": [
+    "c5af720d8d39c98bfa0fdc0f42887e72c83b32e22cba1e9b52193d3808f2cbc3 2141 erlang-p1-yaml_1.0.36-2.dsc 225d1dc0515b1abe094a19d332d9e65b901fa4b3365ace5c818ebe0c3b4e8099 59102 erlang-p1-yaml_1.0.36.orig.tar.gz 33aa50144e5bb6283923fe451da0ec6478aa0ec08075dcf48a8e7052da1bb14f 3940 erlang-p1-yaml_1.0.36-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/erlang-p1-yaml"
+  ],
+  "Files": [
+    "658c92a4d5437faefc877aade23e5213 2141 erlang-p1-yaml_1.0.36-2.dsc ab3c803a0afdf94103ec1c27838aae1e 59102 erlang-p1-yaml_1.0.36.orig.tar.gz 58d7c2b67933daed90a33e0f62dbc118 3940 erlang-p1-yaml_1.0.36-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/processone/fast_yaml"
+  ],
+  "Maintainer": [
+    "Ejabberd Packaging Team \u003cejabberd@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "erlang-p1-yaml"
+  ],
+  "Package-List": [
+    "erlang-p1-yaml deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Philipp Huebner \u003cdebalance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ejabberd-packaging-team/erlang-p1-yaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ejabberd-packaging-team/erlang-p1-yaml.git"
+  ],
+  "Version": [
+    "1.0.36-2"
+  ]
+}

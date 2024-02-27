@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any-amd64"
+  ],
+  "Binary": [
+    "q2-phylogeny"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, iqtree"
+  ],
+  "Checksums-Sha256": [
+    "b45d15de8a356fc563ac54d042228729e27a71db998d15dde2236678ef4c25cb 2171 q2-phylogeny_2024.2.0-1.dsc bea13f54f11aee6a2646161e937a460da0c67cb1894d6c149de63d6b06fbb380 264986 q2-phylogeny_2024.2.0.orig.tar.gz 9bed5ce2ab2cc4189856174c56ce77114f3cbba3459f80a49a13b30869aeb927 5860 q2-phylogeny_2024.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-phylogeny"
+  ],
+  "Files": [
+    "b43349c633d930e9322ab72b07765a87 2171 q2-phylogeny_2024.2.0-1.dsc c5afe45d91b9c9290306dbf51f72f1fd 264986 q2-phylogeny_2024.2.0.orig.tar.gz 8713d238de87add9c0597e16cdb5eee5 5860 q2-phylogeny_2024.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-phylogeny"
+  ],
+  "Package-List": [
+    "q2-phylogeny deb science optional arch=any-amd64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-phylogeny"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-phylogeny.git"
+  ],
+  "Version": [
+    "2024.2.0-1"
+  ]
+}

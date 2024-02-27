@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-nb2plots"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pandoc \u003c!nocheck\u003e, python3-all, python3-ipykernel \u003c!nocheck\u003e, python3-ipython, python3-matplotlib, python3-nbconvert \u003c!nocheck\u003e, python3-nbformat \u003c!nocheck\u003e, python3-numpy, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx, python3-sphinxtesters, python3-texext"
+  ],
+  "Checksums-Sha256": [
+    "59aa7e6934c1f4306dc9ffb764fb8390a56358fc96106e87ee950ed1604b210a 2256 nb2plots_0.7.2-1.dsc ccfc6c51a4b9824a5484945914b32229216be0691b29c5a2d16ac125e144fbdf 154197 nb2plots_0.7.2.orig.tar.gz f854fbf2bb8ea62d2d97bc2ee219e0161e4ce181ed36d09d53345adf39d9bede 5060 nb2plots_0.7.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nb2plots"
+  ],
+  "Files": [
+    "afe1c806a9e95d901eff60d79d2b3a45 2256 nb2plots_0.7.2-1.dsc 7ef4de0730480957c27b0f65ef27645d 154197 nb2plots_0.7.2.orig.tar.gz 11a2bc09d12dd626ccb10855b884fa10 5060 nb2plots_0.7.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/matthew-brett/nb2plots"
+  ],
+  "Maintainer": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
+  ],
+  "Package": [
+    "nb2plots"
+  ],
+  "Package-List": [
+    "python3-nb2plots deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/nb2plots"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/nb2plots.git"
+  ],
+  "Version": [
+    "0.7.2-1"
+  ]
+}

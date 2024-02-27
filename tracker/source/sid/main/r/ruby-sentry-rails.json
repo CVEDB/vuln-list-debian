@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-sentry-rails"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 2.1~), ruby-railties, ruby-sentry-ruby (\u003e= 5.16.1~)"
+  ],
+  "Checksums-Sha256": [
+    "e73e48723062de93fc9f22b5939f070317ec40cf950d30b9880040d138763184 2117 ruby-sentry-rails_5.16.1-1.dsc 00609aa69eaf59b4ae35aeea5d75be0fa41261913263df82c29b6a01d2a1480d 16107 ruby-sentry-rails_5.16.1.orig.tar.gz 5750183770f34676eaab360fa72f9314cf9181e408744c76e2f8d247c789216c 2456 ruby-sentry-rails_5.16.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-sentry-rails"
+  ],
+  "Files": [
+    "d7a038e7b40bc3783d549879d1f0f50e 2117 ruby-sentry-rails_5.16.1-1.dsc aa16fb8959b01798c74450ff86955dde 16107 ruby-sentry-rails_5.16.1.orig.tar.gz f49d495ddea7a6b1cad6ab602e03128b 2456 ruby-sentry-rails_5.16.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/getsentry/sentry-ruby"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-sentry-rails"
+  ],
+  "Package-List": [
+    "ruby-sentry-rails deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-sentry-rails"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-sentry-rails.git"
+  ],
+  "Version": [
+    "5.16.1-1"
+  ]
+}

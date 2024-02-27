@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libffi-dev, libffi8, libffi8-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), libltdl-dev, dejagnu, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "6734a8f8e237a7d5c4f52503f5e9cc193d16f8930a201bbf737f09cb31cfe28e 1948 libffi_3.4.6-1.dsc 9ac790464c1eb2f5ab5809e978a1683e9393131aede72d1b0a0703771d3c6cda 598175 libffi_3.4.6.orig.tar.gz 7126c310b616e9c4c8fdd50bd857f54379d26897ab55383a25e89b6cbd69729c 10636 libffi_3.4.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libf/libffi"
+  ],
+  "Files": [
+    "804673b1e035b98d899c6ea3c7da7a9b 1948 libffi_3.4.6-1.dsc 449a55540ac2214fe7619c73d350c983 598175 libffi_3.4.6.orig.tar.gz 0b2fe44ed6a6e3040115d0ee54c3cd18 10636 libffi_3.4.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sourceware.org/libffi/"
+  ],
+  "Maintainer": [
+    "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libffi"
+  ],
+  "Package-List": [
+    "libffi-dev deb libdevel optional arch=any libffi8 deb libs optional arch=any libffi8-udeb udeb debian-installer optional arch=any profile=!noudeb"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Matthias Klose \u003cdoko@debian.org\u003e"
+  ],
+  "Version": [
+    "3.4.6-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-brio"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "fd4b0cfa71e35bf578b3c19b640204afb7e119f6ee874e18a6368b5765e0db88 2076 r-cran-brio_1.1.4-1.dsc 0cbbf38948682b2435eea69b04be59187b149183dc7562df71dc0d3e260e18e8 13080 r-cran-brio_1.1.4.orig.tar.gz 668c4b62b68d4f15047aeb52836661ab3928187e10ec4c3cca5b1a0a2be89cc6 2944 r-cran-brio_1.1.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-brio"
+  ],
+  "Files": [
+    "ac1533d2954718fd4a63250c5b7762ed 2076 r-cran-brio_1.1.4-1.dsc e18151323dcddd193fac454f70f138f1 13080 r-cran-brio_1.1.4.orig.tar.gz 761c8c970fe7e9bf9fb0ab756f894351 2944 r-cran-brio_1.1.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=brio"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-brio"
+  ],
+  "Package-List": [
+    "r-cran-brio deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-brio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-brio.git"
+  ],
+  "Version": [
+    "1.1.4-1"
+  ]
+}

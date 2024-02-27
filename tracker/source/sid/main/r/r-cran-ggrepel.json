@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-ggrepel"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-rcpp, r-cran-rlang, r-cran-scales, r-cran-withr (\u003e= 2.5.0)"
+  ],
+  "Checksums-Sha256": [
+    "7c024d0bcd2010e0b98cf75fcba6faf7d8eb272865cc41a20ab15ff90aba7386 2428 r-cran-ggrepel_0.9.5-1.dsc d1e600e56c2ad345961ed23f30f04b81c631ff94bd6762a260c62e0206cf8caa 151033 r-cran-ggrepel_0.9.5.orig.tar.gz 8c8a71d535873ca3b485da9a035ef096b47c683ceffa24ec52298a390f928892 2912 r-cran-ggrepel_0.9.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ggrepel"
+  ],
+  "Files": [
+    "327be66c8ed691f5027708f75a079fa3 2428 r-cran-ggrepel_0.9.5-1.dsc 07e2c7cac82ce345ea35ca0522c72ea9 151033 r-cran-ggrepel_0.9.5.orig.tar.gz 707d4bed1fe0f472956df90fc0481d15 2912 r-cran-ggrepel_0.9.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ggrepel"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ggrepel"
+  ],
+  "Package-List": [
+    "r-cran-ggrepel deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-devtools, r-cran-dplyr, r-cran-ggbeeswarm, r-cran-gridextra, r-cran-knitr, r-cran-magrittr, r-cran-patchwork, r-cran-readr, r-cran-rmarkdown, r-cran-stringr, r-cran-svglite, r-cran-testthat, r-cran-vdiffr"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e, Joost van Baal-Ilić \u003cjoostvb@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ggrepel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ggrepel.git"
+  ],
+  "Version": [
+    "0.9.5-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "yoshimi, yoshimi-data, yoshimi-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dssi-dev, fluid, libasound2-dev, libcairo2-dev, libfftw3-dev, libfltk1.3-dev, libfontconfig-dev, libgl-dev, libglu1-mesa-dev | libglu-dev, libjack-dev | libjack-jackd2-dev, libmxml-dev, libncurses-dev, libreadline-dev, libx11-dev, libxext-dev, lv2-dev, pkgconf, sharutils, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "add49d01dec27acbae22c079b38d40cfd28f73023aa57b240b037ae524fae1b4 2478 yoshimi_2.3.2-1.dsc 76fcf0aaf959665f4d1a54c8e76dc30108bcf1434f76a0761e13217f973f27f6 8720491 yoshimi_2.3.2.orig.tar.gz 527aa966d05bcbca99bfbb7ef114efa0d7c9de29dcb054ffce5c5299e89dff61 20352 yoshimi_2.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yoshimi"
+  ],
+  "Files": [
+    "1ec77134aa128e79b0b3b13cc205b0fc 2478 yoshimi_2.3.2-1.dsc 70f3a9b192b70264a40d58acbfc2373e 8720491 yoshimi_2.3.2.orig.tar.gz b06bb63cfb84bbe211933d75b3ba1a1e 20352 yoshimi_2.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://yoshimi.github.io"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "yoshimi"
+  ],
+  "Package-List": [
+    "yoshimi deb sound optional arch=any yoshimi-data deb sound optional arch=all yoshimi-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Dennis Braun \u003csnd@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/yoshimi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/yoshimi.git"
+  ],
+  "Version": [
+    "2.3.2-1"
+  ]
+}

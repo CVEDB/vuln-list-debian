@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libinput10, libinput-bin, libinput10-udeb, libinput-dev, libinput-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, pkg-config, check, libgtk-3-dev, libmtdev-dev (\u003e= 1.1.0), libudev-dev, libevdev-dev (\u003e= 1.10.0), libwacom-dev (\u003e= 0.20)"
+  ],
+  "Checksums-Sha256": [
+    "ae620d93a4bd06c4dc7b7e7d9fb6273ba65ad5d30022562f9b6c920a1b139ed2 2475 libinput_1.25.0-1.dsc f7e8425f185cadba5761d0a1dae6be041750d351163ffa04adc5b9a79a13c0ec 1016846 libinput_1.25.0.orig.tar.gz c44996ff4b92e8d846a816192d14f2f7e91b98d7de89b6fdac512cfcedf22a98 10648 libinput_1.25.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libi/libinput"
+  ],
+  "Files": [
+    "5fe871d75a55a0b372ce15254e99c408 2475 libinput_1.25.0-1.dsc fc582c553e40be99bea49adf6d4aa669 1016846 libinput_1.25.0.orig.tar.gz 0bd8009505050cfff505d9d6cff2f3fd 10648 libinput_1.25.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/libinput/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libinput"
+  ],
+  "Package-List": [
+    "libinput-bin deb libs optional arch=any libinput-dev deb libdevel optional arch=any libinput-tools deb libdevel optional arch=any libinput10 deb libs optional arch=any libinput10-udeb udeb debian-installer optional arch=any profile=!noudeb"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e, Marius Gripsgard \u003cmarius@ubports.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/lib/libinput"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/lib/libinput.git"
+  ],
+  "Version": [
+    "1.25.0-1"
+  ]
+}

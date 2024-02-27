@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mpegdash"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "20ee195976fac7cc83795aaabd193bf142213ce9e9bc3035d761dd7ba230c988 2208 python-mpegdash_0.3.1-2.dsc 6091aaa58cab7958178d623f84dd5d11081dcdc9ee67b9dc5249db7cbc0be4c4 18348 python-mpegdash_0.3.1.orig.tar.gz d35307cc524999b9d55db2c8521dad2eea52b6dec3f13b3dc26653ef328a5ed3 6768 python-mpegdash_0.3.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-mpegdash"
+  ],
+  "Files": [
+    "59f6993c25aee7116731a928095137d0 2208 python-mpegdash_0.3.1-2.dsc 81460c60bf5687abb007c8a807e370a3 18348 python-mpegdash_0.3.1.orig.tar.gz 84977e4b3ba7635dfaae53d57ac5b226 6768 python-mpegdash_0.3.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sangwonl/python-mpegdash"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-mpegdash"
+  ],
+  "Package-List": [
+    "python3-mpegdash deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-setuptools"
+  ],
+  "Uploaders": [
+    "Ondřej Kobližek \u003ckoblizeko@gmail.com\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-mpegdash"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-mpegdash.git"
+  ],
+  "Version": [
+    "0.3.1-2"
+  ]
+}

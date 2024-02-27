@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-typed-builder-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-typed-builder-macro-0.18.1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b34a37281fa09fd86631c7f9541e2afe9dd9a2c0a83b45a9a8a45f1d245aa0cf 1645 rust-typed-builder_0.18.1-1.dsc 444d8748011b93cb168770e8092458cb0f8854f931ff82fdf6ddfbd72a9c933e 20616 rust-typed-builder_0.18.1.orig.tar.gz 3e5f161c635f0f19cf209e029996d907d85b6475cb21b72db49f21b5b8dd1e2f 2648 rust-typed-builder_0.18.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-typed-builder"
+  ],
+  "Files": [
+    "7b30b948d4d6a35ec6c309598f04c384 1645 rust-typed-builder_0.18.1-1.dsc 784b7656ebd9beb100da0d4d7c9f048e 20616 rust-typed-builder_0.18.1.orig.tar.gz aa1153aba95d01232b4864e8a46ba338 2648 rust-typed-builder_0.18.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-typed-builder"
+  ],
+  "Package-List": [
+    "librust-typed-builder-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/typed-builder"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/typed-builder]"
+  ],
+  "Version": [
+    "0.18.1-1"
+  ]
+}

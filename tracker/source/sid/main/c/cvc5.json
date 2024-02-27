@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cvc5, libcvc5-dev, libcvc5-1, libcvc5parser1, python3-cvc5"
+  ],
+  "Build-Depends": [
+    "chrpath, cmake, cxxtest, cython3, debhelper-compat (= 13), dh-sequence-python3, libboost-thread-dev, libcadical-dev, libcln-dev, libcryptominisat5-dev, libfl-dev, libgmp-dev, libreadline-dev, libsymfpu-dev, pkgconf, python3, python3-dev, python3-pyparsing, python3-pytest, python3-setuptools, python3-skbuild, python3-toml"
+  ],
+  "Checksums-Sha256": [
+    "2acc89e35f37d865a773aeac92246f2001f62c9aa9f2d06ec3378f9c05c24ec8 2470 cvc5_1.1.1-1.dsc 4747502675a778d4bf5ae9590adff0c3a8258b1198098cc39ac537b0cc7802cd 8509343 cvc5_1.1.1.orig.tar.gz 8f8e814690b11e1246c0ee641bfa354ab4c0ef470388af905360950f5f94876c 6944 cvc5_1.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cvc5"
+  ],
+  "Files": [
+    "25a4ee881222adb0f4c8d89459775d14 2470 cvc5_1.1.1-1.dsc e531248dadd40743625a665f6f558ed3 8509343 cvc5_1.1.1.orig.tar.gz 200253e88f38b0f7bd5b929958d10b5c 6944 cvc5_1.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cvc5.github.io/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "cvc5"
+  ],
+  "Package-List": [
+    "cvc5 deb math optional arch=any libcvc5-1 deb libs optional arch=any libcvc5-dev deb libdevel optional arch=any libcvc5parser1 deb libs optional arch=any python3-cvc5 deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/cvc5"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/cvc5.git"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

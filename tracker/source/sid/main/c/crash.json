@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "crash"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), dpkg-dev (\u003e= 1.16.1), quilt (\u003e= 0.47), binutils, binutils-dev, bison, gawk, flex, zlib1g-dev, libncurses5-dev, liblzo2-dev, libsnappy-dev, libzstd-dev, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "a30dd02df0654020f37937a208773a0de6ea271b706c7fd838d9647505af3bd3 1951 crash_8.0.4-1.dsc 780be8c5df4cb1b76c1483367f735d782dc28d6b4fa6e96122f4a7c8e20c9c32 41080412 crash_8.0.4.orig.tar.gz 29aeac747e0951d5bb8b14b04589d763206b80942992d252dbbda6113a8cbd4b 151296 crash_8.0.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/crash"
+  ],
+  "Files": [
+    "19e41b754f80247f36400df9274c5cf0 1951 crash_8.0.4-1.dsc eb6fd09912af93ed718d629c8b9acf86 41080412 crash_8.0.4.orig.tar.gz 259502250e2ed2f962897c4ed25de8b3 151296 crash_8.0.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://crash-utility.github.io/"
+  ],
+  "Maintainer": [
+    "Troy Heber \u003ctroyh@debian.org\u003e"
+  ],
+  "Package": [
+    "crash"
+  ],
+  "Package-List": [
+    "crash deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lsb-release, software-properties-common, sudo"
+  ],
+  "Version": [
+    "8.0.4-1"
+  ]
+}

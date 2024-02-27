@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libamd3, libbtf2, libcamd3, libcolamd3, libccolamd3, libcholmod5, libcxsparse4, libklu2, libldl3, libumfpack6, librbio4, libspqr4, libsuitesparse-mongoose3, suitesparse-mongoose, mongoose, libspex2, libparu0, libsuitesparseconfig7, libsuitesparse-dev, libsuitesparse-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Build-Depends-Arch": [
+    "pkgconf, gfortran, libblas-dev, liblapack-dev, libgmp-dev, libmpfr-dev"
+  ],
+  "Build-Depends-Indep": [
+    "texlive-latex-extra, texlive-plain-generic, texlive-bibtex-extra, texlive-fonts-extra, ghostscript, texlive-science, texlive-xetex, python3-pygments"
+  ],
+  "Checksums-Sha256": [
+    "17a4d9e1406a3e95807c371d21e37d9d7e525b99899d76721a89919d382eba27 3302 suitesparse_7.6.0+dfsg-1.dsc c02d6b16889b522c6a8c6a1b17e4265c4ab24fe99be71cb36fd0b69ec4869514 50689400 suitesparse_7.6.0+dfsg.orig.tar.xz 1bbc4adbe3da5fbf9a45e9fa98c081f4314a912d1077d93ad027e6936af7c02e 26416 suitesparse_7.6.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/suitesparse"
+  ],
+  "Files": [
+    "5fe544e38d2065de829546b7e08845b4 3302 suitesparse_7.6.0+dfsg-1.dsc c5db02de41affa9c9653fd8e03c7b8e8 50689400 suitesparse_7.6.0+dfsg.orig.tar.xz 18ea8e035f5548bb1320eb773c92d488 26416 suitesparse_7.6.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://suitesparse.com"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "suitesparse"
+  ],
+  "Package-List": [
+    "libamd3 deb libs optional arch=any libbtf2 deb libs optional arch=any libcamd3 deb libs optional arch=any libccolamd3 deb libs optional arch=any libcholmod5 deb libs optional arch=any libcolamd3 deb libs optional arch=any libcxsparse4 deb libs optional arch=any libklu2 deb libs optional arch=any libldl3 deb libs optional arch=any libparu0 deb libs optional arch=any librbio4 deb libs optional arch=any libspex2 deb libs optional arch=any libspqr4 deb libs optional arch=any libsuitesparse-dev deb libdevel optional arch=any libsuitesparse-doc deb doc optional arch=all libsuitesparse-mongoose3 deb libs optional arch=any libsuitesparseconfig7 deb libs optional arch=any libumfpack6 deb libs optional arch=any mongoose deb oldlibs optional arch=all suitesparse-mongoose deb math optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/suitesparse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/suitesparse.git"
+  ],
+  "Version": [
+    "1:7.6.0+dfsg-1"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "media-player-info"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, python3, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "dc00236f57c88d32bbf340c66d41a26b50c2a1dbf4c15ebabcb059017c6c726b 1834 media-player-info_24-3.dsc e6cf46db0b503e9929407ec6aa3fcd2becc9e2ca945b4ff787c98c8db63a1134 90017 media-player-info_24.orig.tar.gz 80a1c04faeb312a790291ebe03a7affd736f650fc62856ae518e5753159803a2 4328 media-player-info_24-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/media-player-info"
+  ],
+  "Files": [
+    "66ed66e2bd23e2ab2b30cd83f1778017 1834 media-player-info_24-3.dsc 1ccbfe93a671dffd5cd67d7965ccd7b3 90017 media-player-info_24.orig.tar.gz 5c64ad146104c1500f6bf6a2f6863c42 4328 media-player-info_24-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/media-player-info/media-player-info"
+  ],
+  "Maintainer": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e"
+  ],
+  "Package": [
+    "media-player-info"
+  ],
+  "Package-List": [
+    "media-player-info deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "24-3"
+  ]
+}

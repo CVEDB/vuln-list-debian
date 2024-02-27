@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "sphinx-rtd-theme-common, python3-sphinx-rtd-theme"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, fonts-font-awesome, fonts-lato, fonts-roboto-slab (\u003e= 1.100263+20170512-2), python3-all, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinxcontrib.jquery, ruby-sass, woff2"
+  ],
+  "Checksums-Sha256": [
+    "f78b365328b92ca399ac3466087aea8ac23a82d09cdc99422c4fb2443fa936fe 2380 sphinx-rtd-theme_2.0.0+dfsg-1.dsc e64599f47aa6073b0c59e7cf8211a98338edc654028f4fde779ca1329a55bc7c 301188 sphinx-rtd-theme_2.0.0+dfsg.orig.tar.xz 1cad21ead98fdd5b787a7eeb1875f025288e89e022a6fd13043f3cd1b0d2e0f8 64280 sphinx-rtd-theme_2.0.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sphinx-rtd-theme"
+  ],
+  "Files": [
+    "5b8670628983b08950bda595ab27003b 2380 sphinx-rtd-theme_2.0.0+dfsg-1.dsc 00575b421c12aa8ee64a87a7d24c111d 301188 sphinx-rtd-theme_2.0.0+dfsg.orig.tar.xz 5852f8cf7c98543b3d1353b184ab1618 64280 sphinx-rtd-theme_2.0.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/readthedocs/sphinx_rtd_theme"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sphinx-rtd-theme"
+  ],
+  "Package-List": [
+    "python3-sphinx-rtd-theme deb python optional arch=all sphinx-rtd-theme-common deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sphinx-rtd-theme"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sphinx-rtd-theme.git"
+  ],
+  "Version": [
+    "2.0.0+dfsg-1"
+  ]
+}

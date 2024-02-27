@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rpostgresql"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-dbi, libpq-dev"
+  ],
+  "Checksums-Sha256": [
+    "75cc60818a2fe5e6a7ec4e0bc7325cb34255ff05a687eff18a356f13fc785531 2173 r-cran-rpostgresql_0.7-6+dfsg-1.dsc c85c2299de217af14dd3f51641844aa851233349a25b554b1524eac713b9e63c 122456 r-cran-rpostgresql_0.7-6+dfsg.orig.tar.xz 2b09a022596f9c0b18539bd6ac7c74221999c3e1064dcd9fa70161e575b743a9 3600 r-cran-rpostgresql_0.7-6+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rpostgresql"
+  ],
+  "Files": [
+    "63721014c64b6012c31b770ef2d6ae74 2173 r-cran-rpostgresql_0.7-6+dfsg-1.dsc 7f8597554a2e77d20e401924d8b4ed29 122456 r-cran-rpostgresql_0.7-6+dfsg.orig.tar.xz d7dde0e7c4fb26c7b3bc430a64924d44 3600 r-cran-rpostgresql_0.7-6+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=RPostgreSQL"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-rpostgresql"
+  ],
+  "Package-List": [
+    "r-cran-rpostgresql deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rpostgresql"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rpostgresql.git"
+  ],
+  "Version": [
+    "0.7-6+dfsg-1"
+  ]
+}

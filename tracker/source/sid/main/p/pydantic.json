@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-pydantic"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, cython3-legacy, python3-all-dev, python3-dotenv \u003c!nocheck\u003e, python3-email-validator \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-setuptools, python3-typing-extensions \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "bb8096e221d9a31feb485b296a1d5378a0a58514f161cf51494f639de93ccd96 2244 pydantic_1.10.14-1.dsc c4227c0317989ee9ebb993548e92042066e2b09bbc0618dc67b6cd1972215650 767164 pydantic_1.10.14.orig.tar.gz 079388d116aa2a2d3b3c7e07db4a6e312e55ff120efb78711ab7ce0da106233f 4276 pydantic_1.10.14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pydantic"
+  ],
+  "Files": [
+    "ad2842e4002307975637063759f675af 2244 pydantic_1.10.14-1.dsc 21242871529697f0d3bd7db5acd2a4ac 767164 pydantic_1.10.14.orig.tar.gz eb8c5579b5b13ba4951f46bf1ec1698f 4276 pydantic_1.10.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/samuelcolvin/pydantic"
+  ],
+  "Maintainer": [
+    "Michael Banck \u003cmbanck@debian.org\u003e"
+  ],
+  "Package": [
+    "pydantic"
+  ],
+  "Package-List": [
+    "python3-pydantic deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pydantic"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pydantic.git"
+  ],
+  "Version": [
+    "1.10.14-1"
+  ]
+}

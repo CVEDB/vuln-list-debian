@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xvier"
+  ],
+  "Build-Depends": [
+    "libx11-dev, xutils-dev, libxext-dev"
+  ],
+  "Checksums-Sha256": [
+    "f7453bfb2f5d75d0e145cc9b15db4315489c6c41dc43311b1696f0d2cacc90c6 1644 xvier_1.0-9.dsc 5d9a12a8d6c0f1fbcab113a4ad2058b4658d13f272882866a4db20a301116a86 16239 xvier_1.0.orig.tar.gz 8ed7222de084106bcee56d36a6423180435fb22708a33f7e22a55e8ed649372d 3556 xvier_1.0-9.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xvier"
+  ],
+  "Files": [
+    "fa0b33ade726ae7de631ecf9c990b63c 1644 xvier_1.0-9.dsc 6d4e0309cc373f447468b289e4b7cda6 16239 xvier_1.0.orig.tar.gz 9031187c806d089ec7005a1077d2f173 3556 xvier_1.0-9.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "xvier"
+  ],
+  "Package-List": [
+    "xvier deb games optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "3.8.3"
+  ],
+  "Version": [
+    "1.0-9"
+  ]
+}

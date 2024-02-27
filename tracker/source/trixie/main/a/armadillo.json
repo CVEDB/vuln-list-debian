@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libarmadillo-dev, libarmadillo12"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), libblas-dev, liblapack-dev, cmake, libarpack2-dev, libsuperlu-dev, quilt"
+  ],
+  "Checksums-Sha256": [
+    "cd42cfc863ee7a360db8dbf94cb680e8a1946c2c577436f302b1d66c9ddec95b 2119 armadillo_12.6.7+dfsg-1.dsc df593e545ef1e5d3735a76b17689d8182586d0579e38fbbc52f86cc1f5d3104a 636588 armadillo_12.6.7+dfsg.orig.tar.xz d1ff958668f613a75d5a5d850d909f0c7be489bdedb6cc43d0de84452835922d 7440 armadillo_12.6.7+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/armadillo"
+  ],
+  "Files": [
+    "989a8c98ce9464a430e5deb3769b34b8 2119 armadillo_12.6.7+dfsg-1.dsc a4230463459817280e381274fe1ba40f 636588 armadillo_12.6.7+dfsg.orig.tar.xz 1580753b55198ef16a43fd43ccdf6cd8 7440 armadillo_12.6.7+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://arma.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "armadillo"
+  ],
+  "Package-List": [
+    "libarmadillo-dev deb libdevel optional arch=any libarmadillo12 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Kumar Appaiah \u003cakumar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/armadillo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/armadillo.git"
+  ],
+  "Version": [
+    "1:12.6.7+dfsg-1"
+  ]
+}

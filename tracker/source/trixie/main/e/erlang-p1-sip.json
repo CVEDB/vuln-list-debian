@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "erlang-p1-sip"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-rebar (\u003e= 0.0.6), erlang-base, erlang-eunit, erlang-p1-stun (\u003e= 1.2.10), erlang-p1-tls (\u003e= 1.1.16), erlang-p1-utils (\u003e= 1.0.25), erlang-syntax-tools"
+  ],
+  "Checksums-Sha256": [
+    "d84074458f2df914e83d6190a036e540ee6ed7edacd607227b954230da47bbdf 2167 erlang-p1-sip_1.0.50-1.dsc 8db458163cd6ac5d1c927f5153ae219e005bd63905f7fda912331fd68aa78253 90138 erlang-p1-sip_1.0.50.orig.tar.gz 479fd1deb19ab2ab1c3d8d034f63a6593d4d5f6a59bd8dbc55d0c7f12bab4f84 4868 erlang-p1-sip_1.0.50-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/erlang-p1-sip"
+  ],
+  "Files": [
+    "08db435acf0623a56f3e51fa4f045cff 2167 erlang-p1-sip_1.0.50-1.dsc 143947823088d62f231bb2d25c7b104a 90138 erlang-p1-sip_1.0.50.orig.tar.gz 1ae9dbd52fdd0dce8c7dec74f3e72204 4868 erlang-p1-sip_1.0.50-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/processone/esip"
+  ],
+  "Maintainer": [
+    "Ejabberd Packaging Team \u003cejabberd@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "erlang-p1-sip"
+  ],
+  "Package-List": [
+    "erlang-p1-sip deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Philipp Huebner \u003cdebalance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ejabberd-packaging-team/erlang-p1-sip"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ejabberd-packaging-team/erlang-p1-sip.git"
+  ],
+  "Version": [
+    "1.0.50-1"
+  ]
+}

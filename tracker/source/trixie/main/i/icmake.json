@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "icmake"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libbobcat-dev (\u003e= 5.07.00)"
+  ],
+  "Checksums-Sha256": [
+    "c4953a053d2e30847c9198680e658ef5bca2cd343a2d7b304a22631c784ca558 2031 icmake_11.01.02-1.dsc 0749779a97b7d5e036c53409f63b0718f0feed0edeed143cd02390e465ca3b0a 490410 icmake_11.01.02.orig.tar.gz 7a9d0adab2242b0ceab17dd23f9df107849f313396b65c9d21f1da0cc9de116f 8752 icmake_11.01.02-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/icmake"
+  ],
+  "Files": [
+    "21a1d196f95dedf4228d12a81df764cb 2031 icmake_11.01.02-1.dsc 8098f24f52d86ce6ebe60ab0d3693b2b 490410 icmake_11.01.02.orig.tar.gz a04fc1002d1f2ee06ecc88764a7194e7 8752 icmake_11.01.02-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://fbb-git.gitlab.io/icmake"
+  ],
+  "Maintainer": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e"
+  ],
+  "Package": [
+    "icmake"
+  ],
+  "Package-List": [
+    "icmake deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash, shunit2"
+  ],
+  "Uploaders": [
+    "Frank B. Brokken \u003cf.b.brokken@rug.nl\u003e, tony mancill \u003ctmancill@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/icmake"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/icmake.git"
+  ],
+  "Version": [
+    "11.01.02-1"
+  ]
+}

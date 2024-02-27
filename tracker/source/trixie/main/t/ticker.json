@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ticker"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libslang2-dev"
+  ],
+  "Checksums-Sha256": [
+    "fbd60356f2bc1d3127db6964bc2397a6ab34891c7bc0185bbf732b43bfebddf8 1476 ticker_1.14.dsc 9390286f20f368bfb441e404567cc0de61e507d28728bbe821b2bf932a89abea 47112 ticker_1.14.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/ticker"
+  ],
+  "Files": [
+    "41b69be154c41e81c96adafbe1df63b6 1476 ticker_1.14.dsc 7326238c8df8922db8f5c910e76700cd 47112 ticker_1.14.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "http://kitenet.net/~joey/code/ticker"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "ticker"
+  ],
+  "Package-List": [
+    "ticker deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Version": [
+    "1.14"
+  ]
+}

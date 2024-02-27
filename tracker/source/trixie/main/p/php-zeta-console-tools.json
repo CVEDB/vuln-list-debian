@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-zeta-console-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-zeta-base, php-zeta-unit-test, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "8cba4914d0011f66febfd7e2864af20981624fedec8fa9808a6b9659953742a8 1947 php-zeta-console-tools_1.7.4-1.dsc 744f25b6b8813ee376441f50a2cb69cf5009b3fb5d382525e29779dda7ff420b 933175 php-zeta-console-tools_1.7.4.orig.tar.gz 2cf6771119d1dbd56f4e4d113e4cbb4d2f16effe856f9e1e5b7d52527fae43b1 5416 php-zeta-console-tools_1.7.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-zeta-console-tools"
+  ],
+  "Files": [
+    "c970676cfdc15dc2ea07d6d951c0a264 1947 php-zeta-console-tools_1.7.4-1.dsc b75128bfc7ae3a5c94f907286365a40f 933175 php-zeta-console-tools_1.7.4.orig.tar.gz f1625d2bc13ecd17bb5a1117e527f21b 5416 php-zeta-console-tools_1.7.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://zetacomponents.org/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-zeta-console-tools"
+  ],
+  "Package-List": [
+    "php-zeta-console-tools deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "patch, php-zeta-unit-test, phpunit"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-zeta-console-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-zeta-console-tools.git -b debian/latest"
+  ],
+  "Version": [
+    "1.7.4-1"
+  ]
+}

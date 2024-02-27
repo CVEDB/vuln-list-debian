@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "klayout"
+  ],
+  "Build-Depends": [
+    "chrpath, debhelper-compat (= 13), libgit2-dev, libpython3-dev, libqt5svg5-dev, libqt5xmlpatterns5-dev, qt5-qmake, qtbase5-dev, qtmultimedia5-dev, qttools5-dev, ruby-dev, txt2man, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "ccdd392c45b69e67df9d73d403f6e5b723a65fe3826ba52ff5ef7c92ca13dec5 2102 klayout_0.28.15-1.dsc a9517d0621c8fd8f46fc14570aca86f886ecdae12253a33112dbd49ea97c399f 88250574 klayout_0.28.15.orig.tar.gz 5dacaf50bbd0d24f22186cec8cfbd88d735262ab501ac061f4772b0fadab3847 8328 klayout_0.28.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/klayout"
+  ],
+  "Files": [
+    "4d89da618fc828e65b213eb11f0f554c 2102 klayout_0.28.15-1.dsc 231467a75117d929275f25b4ceb3e1fd 88250574 klayout_0.28.15.orig.tar.gz 95a63fafd5178975e523138fe7a57c52 8328 klayout_0.28.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.klayout.de"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "klayout"
+  ],
+  "Package-List": [
+    "klayout deb electronics optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ruben Undheim \u003cruben.undheim@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/klayout"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/klayout.git"
+  ],
+  "Version": [
+    "0.28.15-1"
+  ]
+}

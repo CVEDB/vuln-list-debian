@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "sitesummary, libsitesummary-perl, sitesummary-client"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "04b7e7c9608dc6b5bf6014fe22ef2dfcbc67e56daecd4353be4c06dc62fd104a 1915 sitesummary_0.1.59.dsc e7ff80071404aac6aa9d28d7a3e8d1d2796b887df4a181b1c6b79a725303d414 68432 sitesummary_0.1.59.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sitesummary"
+  ],
+  "Files": [
+    "e919608f02a4fe229a2710839136e37c 1915 sitesummary_0.1.59.dsc 7d201bd44839e4c7b50d42644634aa89 68432 sitesummary_0.1.59.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://wiki.debian.org/DebianEdu/HowTo/SiteSummary"
+  ],
+  "Maintainer": [
+    "Debian Edu Developers \u003cdebian-edu@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "sitesummary"
+  ],
+  "Package-List": [
+    "libsitesummary-perl deb perl optional arch=all sitesummary deb misc optional arch=all sitesummary-client deb misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2"
+  ],
+  "Uploaders": [
+    "Petter Reinholdtsen \u003cpere@debian.org\u003e , Mike Gabriel \u003csunweaver@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-edu/upstream/sitesummary"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-edu/upstream/sitesummary.git"
+  ],
+  "Version": [
+    "0.1.59"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-ytdl-core"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, node-sax, node-typescript, node-types-node, node-types-sax"
+  ],
+  "Checksums-Sha256": [
+    "1a0aae95bc382d0f0774c2ac115c4bd69ca578b04a47864cdbb17296a18bd7f7 2876 node-ytdl-core_4.11.2+dfsg+~cs4.10.8-2.dsc 960cc9c32151f0f81fac066ecfae565415c239344169c616e5a7bccd69377324 51276 node-ytdl-core_4.11.2+dfsg+~cs4.10.8.orig-m3u8stream.tar.xz 98fb8ebb75b2c7604bcf71953739f88a68beec9e7a7a84f72484d1e620a6142e 448124 node-ytdl-core_4.11.2+dfsg+~cs4.10.8.orig-miniget.tar.xz 1141d6f68cb8410813fb44734b13984de6a311943f34a3e9564fd5b42de41b65 130252 node-ytdl-core_4.11.2+dfsg+~cs4.10.8.orig.tar.xz b3df4641e483ea5108c92845fb64968026e4f9a2faae10ca7ce490e3e79e7a68 4312 node-ytdl-core_4.11.2+dfsg+~cs4.10.8-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-ytdl-core"
+  ],
+  "Files": [
+    "c3e0e44cd562fe1e0781f36198d5c833 2876 node-ytdl-core_4.11.2+dfsg+~cs4.10.8-2.dsc 1d2707c0323d0417d197612b89ed23f1 51276 node-ytdl-core_4.11.2+dfsg+~cs4.10.8.orig-m3u8stream.tar.xz b5dc8c9a7552d0ccac79a9d0c85400af 448124 node-ytdl-core_4.11.2+dfsg+~cs4.10.8.orig-miniget.tar.xz 15e2f5153aed7923ef6ce9d52584536b 130252 node-ytdl-core_4.11.2+dfsg+~cs4.10.8.orig.tar.xz 517f442c76ec6064010651d19957dc77 4312 node-ytdl-core_4.11.2+dfsg+~cs4.10.8-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fent/node-ytdl-core"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-ytdl-core"
+  ],
+  "Package-List": [
+    "node-ytdl-core deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "javascript"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Yadd \u003cyadd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-ytdl-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-ytdl-core.git"
+  ],
+  "Version": [
+    "4.11.2+dfsg+~cs4.10.8-2"
+  ]
+}

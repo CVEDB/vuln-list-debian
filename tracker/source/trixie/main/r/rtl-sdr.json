@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librtlsdr-dev, librtlsdr2, rtl-sdr"
+  ],
+  "Build-Depends": [
+    "base-files (\u003e= 13~), cmake, debhelper-compat (= 13), dh-sequence-movetousr, libusb-1.0-0-dev [!kfreebsd-any], libusb2-dev [kfreebsd-any], pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "542048ad8e718a85afb67fd32753a80d9f6a6379bceabbad1d2635c65c252224 2069 rtl-sdr_2.0.1-2.dsc a72ff43e706b0fa18ecc0bf2afe83f3e3e59c20b791b904a6d433803e1b44f4e 109640 rtl-sdr_2.0.1.orig.tar.xz aec99e0a62228ce1f9305c195367179b9dbf5fb6f76d8778ef605a9d01903189 35080 rtl-sdr_2.0.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rtl-sdr"
+  ],
+  "Files": [
+    "5017c2fa65f8aa1a8e6b1e397d777153 2069 rtl-sdr_2.0.1-2.dsc 8b0412c38fa9555a896db51417a715bc 109640 rtl-sdr_2.0.1.orig.tar.xz 768b9ef4f748449874380464d6895cdc 35080 rtl-sdr_2.0.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://osmocom.org/projects/rtl-sdr"
+  ],
+  "Maintainer": [
+    "A. Maitland Bottoms \u003cbottoms@debian.org\u003e"
+  ],
+  "Package": [
+    "rtl-sdr"
+  ],
+  "Package-List": [
+    "librtlsdr-dev deb libdevel optional arch=any librtlsdr2 deb libs optional arch=any rtl-sdr deb comm optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bottoms/pkg-rtl-sdr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bottoms/pkg-rtl-sdr.git"
+  ],
+  "Version": [
+    "2.0.1-2"
+  ]
+}

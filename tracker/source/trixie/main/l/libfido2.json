@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libfido2-1, libfido2-dev, libfido2-doc, fido2-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, cmake (\u003e= 3.14), mandoc, libcbor-dev, libssl-dev, libudev-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "326aba550d01ac6008f45007cb719d916be6a1ab527cc0988a7f8593fcc7c9bd 2588 libfido2_1.14.0-1.dsc 3601792e320032d428002c4cce8499a4c7b803319051a25a0c9f1f138ffee45a 660289 libfido2_1.14.0.orig.tar.gz 2c1e1c0ab6f3ea6590c69a73a0f524dc6b8b523915b071872f2b26ee97eba4a4 228 libfido2_1.14.0.orig.tar.gz.asc ab2cf6c932e0e83611a9afc886401a73962f792d672909ab33a6e28bff89e476 52896 libfido2_1.14.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "27d1c50b8dde7ec7e5458d25c22767eadbdeabd9 debian archive/debian/1.14.0-1 https://git.dgit.debian.org/libfido2"
+  ],
+  "Directory": [
+    "pool/main/libf/libfido2"
+  ],
+  "Files": [
+    "a1ff8c108ef265c12772c6d987452939 2588 libfido2_1.14.0-1.dsc 6aa04c6e9d029e595397fe026a3a03ce 660289 libfido2_1.14.0.orig.tar.gz 956f2556cdc64ada7f0dd11988bc5912 228 libfido2_1.14.0.orig.tar.gz.asc a8f2af8aa447bdae744f4027363b284e 52896 libfido2_1.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://developers.yubico.com/libfido2/"
+  ],
+  "Maintainer": [
+    "Debian Authentication Maintainers \u003cpkg-auth-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libfido2"
+  ],
+  "Package-List": [
+    "fido2-tools deb utils optional arch=any libfido2-1 deb libs optional arch=any libfido2-dev deb libdevel optional arch=any libfido2-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e, nicoo \u003cnicoo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/auth-team/libfido2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/auth-team/libfido2.git"
+  ],
+  "Version": [
+    "1.14.0-1"
+  ]
+}

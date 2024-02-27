@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pd-cyclone"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-buildinfo, dh-sequence-pd-lib-builder"
+  ],
+  "Checksums-Sha256": [
+    "153dd1d845d75a454b3a7a832901af9a33604993779b43dd74ce77e810088940 2155 pd-cyclone_0.8.0+ds-1.dsc 36f1de1a89e4f62d89d6273ac57999a5b25ac6bdfafa97b77c5f728d2512867f 1097656 pd-cyclone_0.8.0+ds.orig.tar.xz 9478bfbb603807a8a40995cd4a3956ad129ce8a3170f35f9bd0a7e4d164d01fc 9392 pd-cyclone_0.8.0+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "cd8769163c3193b01d61fe8e8bf5a33a2955a410 debian archive/debian/0.8.0+ds-1 https://git.dgit.debian.org/pd-cyclone"
+  ],
+  "Directory": [
+    "pool/main/p/pd-cyclone"
+  ],
+  "Files": [
+    "0cef6611413ce058cecccc567a6b23bf 2155 pd-cyclone_0.8.0+ds-1.dsc c8c1c117bdda42c07b4ac8594f1824fd 1097656 pd-cyclone_0.8.0+ds.orig.tar.xz e7210f2dc10afdc79aa1ce491d950b77 9392 pd-cyclone_0.8.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/porres/pd-cyclone"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "pd-cyclone"
+  ],
+  "Package-List": [
+    "pd-cyclone deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/pd/pd-cyclone"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/pd/pd-cyclone.git"
+  ],
+  "Version": [
+    "0.8.0+ds-1"
+  ]
+}

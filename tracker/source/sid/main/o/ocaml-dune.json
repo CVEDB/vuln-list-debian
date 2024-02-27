@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ocaml-dune, libdune-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "d30342d3ffb2a00f753572c0904c8093bba3413645c4b00adbedcfdfe4a47304 1850 ocaml-dune_3.14.0-1.dsc f4d09d89162621fdff424c253fa50c4920d2179fb5b3d1debab7bbe97c68b2fc 2336371 ocaml-dune_3.14.0.orig.tar.bz2 6a3a3337c884d5a164076775d005ae3fed9dbfe486c67aea712b2efd59f063d2 5108 ocaml-dune_3.14.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "6ca915d2f3fcfa89158b16452fa62dfb3cbd9e58 debian archive/debian/3.14.0-1 https://git.dgit.debian.org/ocaml-dune"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-dune"
+  ],
+  "Files": [
+    "fbc0f6a797dce8bcc755b8aaa6eebad0 1850 ocaml-dune_3.14.0-1.dsc bff778fff4996b890e5af3da7ecf5baa 2336371 ocaml-dune_3.14.0.orig.tar.bz2 1bf9ca41dc5573bb7a7a662297c6cc45 5108 ocaml-dune_3.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml/dune"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-dune"
+  ],
+  "Package-List": [
+    "libdune-ocaml-dev deb ocaml optional arch=any profile=!pkg.ocaml-dune.bootstrap ocaml-dune deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-dune"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-dune.git"
+  ],
+  "Version": [
+    "3.14.0-1"
+  ]
+}

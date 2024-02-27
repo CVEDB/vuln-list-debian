@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libxml++2.6-dev, libxml++2.6-2v5, libxml++2.6-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), docbook-xsl, doxygen, libxml2-dev (\u003e= 2.7.7), libglibmm-2.4-dev (\u003e= 2.44.0-2~), libxml2-utils, meson, mm-common (\u003e= 0.9.8), pkgconf, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "fcc5a32e1c8114d1952a72f623de1c0dbf17971136d1a181f08346cfe9bb2fd4 2253 libxml++2.6_2.42.3-1.dsc 767b850854df80f73e2bedf9d5d1110237a488434ee08665e5f4d962a36d92c7 136104 libxml++2.6_2.42.3.orig.tar.xz c6a3323746a7fcdcc8f2ca2b6a5118b2b98c72293ad70b86955d7350720f9924 6628 libxml++2.6_2.42.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libx/libxml++2.6"
+  ],
+  "Files": [
+    "d603edf538602f3ece77f9a488245a89 2253 libxml++2.6_2.42.3-1.dsc 1959ece7c4d26e1c9ac56185b4d0b804 136104 libxml++2.6_2.42.3.orig.tar.xz f32c78d66944d645e345fe58ea3061f9 6628 libxml++2.6_2.42.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libxmlplusplus.github.io/libxmlplusplus/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libxml++2.6"
+  ],
+  "Package-List": [
+    "libxml++2.6-2v5 deb libs optional arch=any libxml++2.6-dev deb libdevel optional arch=any libxml++2.6-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libxmlplusplus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libxmlplusplus.git"
+  ],
+  "Version": [
+    "2.42.3-1"
+  ]
+}

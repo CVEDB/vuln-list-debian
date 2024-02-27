@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "unicode"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3"
+  ],
+  "Checksums-Sha256": [
+    "11523d1a879bee39416f010559ae80e0f9c60107b9e41fc7bd6ee2d217427c1e 1764 unicode_3.1-1.dsc 1c7323545d43955fcbb94c6c20c7268e349298925b650ee3f40bc08bbd7881e6 22475 unicode_3.1.orig.tar.gz 1ff1b72c9034c01a6c2c2a9d6bb8b0bbccb4e0d1192d5b9d50bb579d7ae5ee52 4336 unicode_3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/unicode"
+  ],
+  "Files": [
+    "5e67b955a8ba7d0843aa473c08b374f9 1764 unicode_3.1-1.dsc a154aa6345a36d1658a54e1935d53d13 22475 unicode_3.1.orig.tar.gz ec22431f2b37a1e3104073cd07f9e987 4336 unicode_3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://kassiopeia.juls.savba.sk/~garabik/software/unicode.html"
+  ],
+  "Maintainer": [
+    "Radovan Garabík \u003cgarabik@kassiopeia.juls.savba.sk\u003e"
+  ],
+  "Package": [
+    "unicode"
+  ],
+  "Package-List": [
+    "unicode deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "3.1-1"
+  ]
+}

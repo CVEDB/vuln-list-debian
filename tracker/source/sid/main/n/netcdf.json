@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "netcdf-doc, libnetcdf19, libnetcdf-dev, netcdf-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake (\u003e= 3.6.1), chrpath, m4, doxygen, graphviz, libcurl4-gnutls-dev | libcurl-ssl-dev, libhdf5-dev, libxml2-dev"
+  ],
+  "Checksums-Sha256": [
+    "716c75f17444ec651c5e4ae4fa9c4421dd0f51aa54bd0190ee70b5ac37eaa918 2355 netcdf_4.9.2-3.dsc bc104d101278c68b303359b3dc4192f81592ae8640f1aee486921138f7f88cb7 19527342 netcdf_4.9.2.orig.tar.gz 0ac6c20874e08a49fa0fb6ff278d64b40b82980e30feb8c72199adb5eda16476 35072 netcdf_4.9.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/netcdf"
+  ],
+  "Files": [
+    "31a0ac57c62571141a9d5d4bb1f769a3 2355 netcdf_4.9.2-3.dsc 84acd096ab4f3300c20db862eecdf7c7 19527342 netcdf_4.9.2.orig.tar.gz 0670e607a56903602581b307690bd706 35072 netcdf_4.9.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.unidata.ucar.edu/software/netcdf/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "netcdf"
+  ],
+  "Package-List": [
+    "libnetcdf-dev deb libdevel optional arch=any libnetcdf19 deb libs optional arch=any netcdf-bin deb science optional arch=any netcdf-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gmt-gshhg-low"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Nico Schlömer \u003cnico.schloemer@gmail.com\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/netcdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/netcdf.git"
+  ],
+  "Version": [
+    "1:4.9.2-3"
+  ]
+}

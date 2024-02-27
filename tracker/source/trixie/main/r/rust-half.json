@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-half-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c310ff9d6a1655d73017d5e78a5c96f1513ddd5284376a0b99940d956a4072bc 2243 rust-half_1.8.2-2.dsc eabb4a44450da02c90444cf74558da904edde8fb4e9035a9a6a4e15445af0bd7 41874 rust-half_1.8.2.orig.tar.gz e064d789e91525cca44dcab94f9910f730c5fed1bb0d3f4c3996070bc6222474 3512 rust-half_1.8.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-half"
+  ],
+  "Files": [
+    "37eec5ff33d9acadbbad550269eb996d 2243 rust-half_1.8.2-2.dsc fea840ce07a32bdace46c59c41362f3b 41874 rust-half_1.8.2.orig.tar.gz 9c7a7438a64e19d3e64ae935add29d9a 3512 rust-half_1.8.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-half"
+  ],
+  "Package-List": [
+    "librust-half-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.3+default-dev, librust-quickcheck-1+default-dev, librust-quickcheck-macros-1+default-dev, librust-rand-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/half"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/half]"
+  ],
+  "Version": [
+    "1.8.2-2"
+  ]
+}

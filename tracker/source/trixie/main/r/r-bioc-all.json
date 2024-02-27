@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-all"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase"
+  ],
+  "Checksums-Sha256": [
+    "bc2f3459f47e60a0678d22df06fb27c9fb7f0ede8e79c68361b212e62eff561f 2034 r-bioc-all_1.44.0-1.dsc 6c52471acf4bb77ed86e71c25e69ce5cc5235acec50785107b212934c6eec5db 11383360 r-bioc-all_1.44.0.orig.tar.gz a4e0efcd8b34bb2eb77355e51e165be1d3454faa19984faa6945ea74cd4b8cf1 5060 r-bioc-all_1.44.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-all"
+  ],
+  "Files": [
+    "9b2455cf71ab6e42a5156d29d45ed475 2034 r-bioc-all_1.44.0-1.dsc b80eb482b4937ef4eac01027ac95a61a 11383360 r-bioc-all_1.44.0.orig.tar.gz 1ced2f64d166249f1be5091ffbc8776d 5060 r-bioc-all_1.44.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/ALL/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-all"
+  ],
+  "Package-List": [
+    "r-bioc-all deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-all"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-all.git"
+  ],
+  "Version": [
+    "1.44.0-1"
+  ]
+}

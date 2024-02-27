@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "openjazz"
+  ],
+  "Build-Depends": [
+    "asciidoctor, cmake, debhelper-compat (= 13), libsdl2-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "0b57d20feaaad8dbc0cef786b51226798f710e5f1ffd7194092334645adece04 2009 openjazz_20231028-2.dsc c45ff414dc846563ad7ae4b6c848f938ab695eb4ae6f958856b3fa409da0b8ac 417317 openjazz_20231028.orig.tar.gz 2deedba36bb6982ab3ab00f7b2e87e97b2aba03cf8feb3465cb6833e98349dfd 13796 openjazz_20231028-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/o/openjazz"
+  ],
+  "Files": [
+    "b25b3106236f52c422b9398eba5a0a34 2009 openjazz_20231028-2.dsc 5c88719e4e5353250023e4b69144c624 417317 openjazz_20231028.orig.tar.gz 3f0dd1f12a000caca543f75d55acfc34 13796 openjazz_20231028-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AlisterT/openjazz"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "openjazz"
+  ],
+  "Package-List": [
+    "openjazz deb contrib/games optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Fabian Greffrath \u003cfabian@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/openjazz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/openjazz.git"
+  ],
+  "Version": [
+    "20231028-2"
+  ]
+}

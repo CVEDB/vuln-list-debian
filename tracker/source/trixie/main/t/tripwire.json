@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tripwire"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10)"
+  ],
+  "Checksums-Sha256": [
+    "fd4373c416c5fafb4b9b01e242a695e901fe920d7b2a429cabc54f879a2cc340 1782 tripwire_2.4.3.7-5.dsc 18d40b85f04b8822717d9a3e987887600840a3753f0e9a9f6ab77692d5658450 1002257 tripwire_2.4.3.7.orig.tar.gz 1b118fa21be3a19deb63b3da2e7251ee267a53ce4dff4a33c95d61696186771f 74640 tripwire_2.4.3.7-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tripwire"
+  ],
+  "Files": [
+    "8ba03d0a1038cd474ed264a3d5572620 1782 tripwire_2.4.3.7-5.dsc a5cf1bc2f235f5d8ca458f00548db6ee 1002257 tripwire_2.4.3.7.orig.tar.gz f0e893a22b2b8691d70bfe7a3edf6040 74640 tripwire_2.4.3.7-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Tripwire/tripwire-open-source"
+  ],
+  "Maintainer": [
+    "Alberto Gonzalez Iniesta \u003cagi@inittab.org\u003e"
+  ],
+  "Package": [
+    "tripwire"
+  ],
+  "Package-List": [
+    "tripwire deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Version": [
+    "2.4.3.7-5"
+  ]
+}

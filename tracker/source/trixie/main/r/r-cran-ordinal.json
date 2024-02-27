@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-ordinal"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ucminf, r-cran-mass, r-cran-matrix, r-cran-numderiv, r-cran-nlme"
+  ],
+  "Checksums-Sha256": [
+    "a89ec6d102e8c8d335d85aa08abbde90194eca7ceac8cbbc7ab61631271aa0f6 2244 r-cran-ordinal_2023.12-4-1.dsc f5582ad983dfd2ffbaf1e90b49af6f2cc319953d1fcb33f31c6c6f335cbd9fa2 805721 r-cran-ordinal_2023.12-4.orig.tar.gz 144f355b488ce6446fd6381b14e1917c3f9cc3f36b0e5e6165d08fb353d39d40 3072 r-cran-ordinal_2023.12-4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-ordinal"
+  ],
+  "Files": [
+    "53ed89cccc0e5de89cf363e044e9aec3 2244 r-cran-ordinal_2023.12-4-1.dsc a14e655e739d633b0d4e19220509f638 805721 r-cran-ordinal_2023.12-4.orig.tar.gz fac256d1f5358cf68ae803b8179ca4da 3072 r-cran-ordinal_2023.12-4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=ordinal"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-ordinal"
+  ],
+  "Package-List": [
+    "r-cran-ordinal deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-lme4, r-cran-nnet, r-cran-testthat, r-cran-xtable"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ordinal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-ordinal.git"
+  ],
+  "Version": [
+    "2023.12-4-1"
+  ]
+}

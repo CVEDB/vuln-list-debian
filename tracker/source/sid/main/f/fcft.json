@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libfcft-dev, libfcft4, libfcft-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libtllist-dev, libharfbuzz-dev, libutf8proc-dev, scdoc, cmake, check \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d88b7a702e51852fb9678a4902acd331f76f142b46f591cd7857d0b9d67b310c 2071 fcft_3.1.8-1.dsc 9a1e62394ddc3694d460d43574bc401543feea9659639069a508368edf18c825 699272 fcft_3.1.8.orig.tar.gz 79828040d404379f6b86b1b86d00099c55efa9707a4d5e32ca642fd30b516f2f 5500 fcft_3.1.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fcft"
+  ],
+  "Files": [
+    "2df734ef9b19dd61cc29943592045a2e 2071 fcft_3.1.8-1.dsc 0198a75b36c053e4d49f78b57c8d1974 699272 fcft_3.1.8.orig.tar.gz f6dc35c6f85c6e874db6ab7d3fbf8c5f 5500 fcft_3.1.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/dnkl/fcft/"
+  ],
+  "Maintainer": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Package": [
+    "fcft"
+  ],
+  "Package-List": [
+    "libfcft-dev deb libdevel optional arch=any libfcft-doc deb doc optional arch=all libfcft4 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/birger/fcft"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/birger/fcft.git"
+  ],
+  "Version": [
+    "3.1.8-1"
+  ]
+}

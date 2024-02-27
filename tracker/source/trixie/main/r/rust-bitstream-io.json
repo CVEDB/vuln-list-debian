@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bitstream-io-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "46f254ccd18d345a66a8218c348d99ed42cef9745d136588d401822a9b484327 1608 rust-bitstream-io_2.2.0-1.dsc 06c9989a51171e2e81038ab168b6ae22886fe9ded214430dbb4f41c28cf176da 34113 rust-bitstream-io_2.2.0.orig.tar.gz c38bc808af3469513e26e116a70a4543bffbad6aa28663c4bce89c69a955aa0b 2756 rust-bitstream-io_2.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bitstream-io"
+  ],
+  "Files": [
+    "77c96547675c3a3598e05504d65bd358 1608 rust-bitstream-io_2.2.0-1.dsc e5c11658b166fd63536c18febc5a0cc8 34113 rust-bitstream-io_2.2.0.orig.tar.gz e1439fb393f7a3c415048fe7f9bb8d5a 2756 rust-bitstream-io_2.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tuffy/bitstream-io"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bitstream-io"
+  ],
+  "Package-List": [
+    "librust-bitstream-io-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bitstream-io"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bitstream-io]"
+  ],
+  "Version": [
+    "2.2.0-1"
+  ]
+}

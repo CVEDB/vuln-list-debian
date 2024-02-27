@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "epoptes, epoptes-client"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), dh-python, python3-distutils-extra, python3:any"
+  ],
+  "Checksums-Sha256": [
+    "eb4c7ef626f9c7daf1e35ee54667d725bc6ca136e04d30b091515f35f50a67e9 1387 epoptes_23.08-1.dsc de859d90fac7089afcb1abd5f163c458e302ce70806caac5139dab5a4c1d333d 351737 epoptes_23.08.orig.tar.gz 237bdf0a008562c0fc75d03dc8f68e938acbcb4923f220e2a150dfa854a598bc 12240 epoptes_23.08-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/epoptes"
+  ],
+  "Files": [
+    "79b22fa5f194eee7f17bffc534ab26aa 1387 epoptes_23.08-1.dsc 8edf1b850b30beadecaa4165ccaae19c 351737 epoptes_23.08.orig.tar.gz e09e4cc8907bc403c491dc1a44c3770b 12240 epoptes_23.08-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://epoptes.org"
+  ],
+  "Maintainer": [
+    "Epoptes Developers \u003cepoptes@lists.launchpad.net\u003e"
+  ],
+  "Package": [
+    "epoptes"
+  ],
+  "Package-List": [
+    "epoptes deb admin optional arch=all epoptes-client deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Vagrant Cascadian \u003cvagrant@debian.org\u003e, Alkis Georgopoulos \u003calkisg@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/epoptes/epoptes"
+  ],
+  "Vcs-Git": [
+    "https://github.com/epoptes/epoptes"
+  ],
+  "Version": [
+    "23.08-1"
+  ]
+}

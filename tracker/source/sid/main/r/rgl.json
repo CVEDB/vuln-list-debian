@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rgl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, libgl-dev, libglu1-mesa-dev | libglu-dev, libpng-dev, libx11-dev, libxt-dev, x11proto-core-dev, autotools-dev, r-cran-htmlwidgets, r-cran-htmltools, r-cran-knitr, r-cran-jsonlite, r-cran-magrittr, r-cran-crosstalk, libfreetype-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "0a5192b37dd148b93b451dd5365060611ba5dda3d53988049a9441dbbe0fd0d6 2030 rgl_1.2.8-1.dsc e535e738702d0babe043c1fec3d358c7bfdfe202ad95d68971b28ad7a81717f4 2557113 rgl_1.2.8.orig.tar.gz fef5f94d073d718c3bd8e0ee9f4e7ac3954c7a5ef88bd77a63851442122da907 7808 rgl_1.2.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rgl"
+  ],
+  "Files": [
+    "573a534cacc2cb3fffb867d68d572d09 2030 rgl_1.2.8-1.dsc 781667cf17fdf52609d5b499d7c4af14 2557113 rgl_1.2.8.orig.tar.gz c79e7491dd76cbfa69c40cea15c119a0 7808 rgl_1.2.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=rgl"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "rgl"
+  ],
+  "Package-List": [
+    "r-cran-rgl deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-rgl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-rgl.git"
+  ],
+  "Version": [
+    "1.2.8-1"
+  ]
+}

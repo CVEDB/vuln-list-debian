@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "afl++, afl++-doc"
+  ],
+  "Build-Depends": [
+    "clang-17, debhelper-compat (= 13), dh-buildinfo, gcc-13-plugin-dev, gcc-multilib [amd64 i386 mips64el mipsel ppc64 s390x sparc64 x32], lld-17 [!s390x], llvm-17-dev, python3-dev, clang, libcmocka-dev, dh-strip-nondeterminism"
+  ],
+  "Checksums-Sha256": [
+    "e5828c118cfe81aa4e395882bf77a98e94452e13bb1ad04fbea3a0d2075689c6 2364 aflplusplus_4.09c-1.dsc 2d3b2e4f066b1f3eda17faff147dfa3e4b16fba044257361aca51a2322c5122d 2937761 aflplusplus_4.09c.orig.tar.gz d33ba23cb4571fdfd10e74d894346cad1a763fa3a1450e5436de9cf3562c70e3 9520 aflplusplus_4.09c-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aflplusplus"
+  ],
+  "Files": [
+    "203fc10815fce810dbd014901565452a 2364 aflplusplus_4.09c-1.dsc e4a0e988d78488c24d95a596d5283465 2937761 aflplusplus_4.09c.orig.tar.gz 41400ee75c31eb5b7ffca0cd62ce1124 9520 aflplusplus_4.09c-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/vanhauser-thc/AFLplusplus"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "aflplusplus"
+  ],
+  "Package-List": [
+    "afl++ deb devel optional arch=any afl++-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adequate, build-essential"
+  ],
+  "Uploaders": [
+    "Sophie Brun \u003csophie@offensive-security.com\u003e, Raphaël Hertzog \u003craphael@offensive-security.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/aflplusplus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/aflplusplus.git"
+  ],
+  "Version": [
+    "4.09c-1"
+  ]
+}

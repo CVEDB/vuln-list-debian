@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mpg123, libmpg123-0, libout123-0, libsyn123-0, libmpg123-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libasound2-dev [linux-any], libaudio-dev, libjack-dev, libltdl-dev, libopenal-dev, libpulse-dev [!hurd-i386], pkgconf, portaudio19-dev"
+  ],
+  "Checksums-Sha256": [
+    "d94ba4ae2393720ff79fe0834820db4a860ff073a4a80978ef73a99f3529a684 1741 mpg123_1.32.4-1.dsc 414c425407eaa3fad6035b93c235349397d2f2a001155abc2c81838e510a515c 926908 mpg123_1.32.4.orig.tar.xz 315278820e59dbc9f9b3003af0ce44e9d3053e8521a956cea70f42317b669a0b 25004 mpg123_1.32.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mpg123"
+  ],
+  "Files": [
+    "33085a2c4ad41e58e94ce9ffbcf5c7ad 1741 mpg123_1.32.4-1.dsc 49c9d41a6a237519bd7119af10640578 926908 mpg123_1.32.4.orig.tar.xz 3bb833b25004b652da9278e8bd6e7596 25004 mpg123_1.32.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://mpg123.org/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "mpg123"
+  ],
+  "Package-List": [
+    "libmpg123-0 deb libs optional arch=any libmpg123-dev deb libdevel optional arch=any libout123-0 deb libs optional arch=any libsyn123-0 deb libs optional arch=any mpg123 deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e, Miguel A. Colón Vélez \u003cdebian.micove@gmail.com\u003e, Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/mpg123"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/mpg123.git"
+  ],
+  "Version": [
+    "1.32.4-1"
+  ]
+}

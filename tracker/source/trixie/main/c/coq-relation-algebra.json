@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-relation-algebra"
+  ],
+  "Build-Depends": [
+    "coq (\u003e= 8.18), debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-aac-tactics, libcoq-mathcomp-ssreflect, libcoq-core-ocaml-dev, libcoq-stdlib"
+  ],
+  "Checksums-Sha256": [
+    "3b827168e5ef546eb8b89be5792705cbbd09e61af5e2d5d67335b027697c8fbd 2244 coq-relation-algebra_1.7.9-2.dsc 5bafbf7083c0723514230c6c787e6a4545f9b45d1053e7ce4c0f177899d87625 196660 coq-relation-algebra_1.7.9.orig.tar.gz 27fb3f870aeed59d07f60f163486be578844f87bc67315e384fa2fb41f0cc175 2300 coq-relation-algebra_1.7.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/coq-relation-algebra"
+  ],
+  "Files": [
+    "67488c438c151f830a8ea0aa6e594994 2244 coq-relation-algebra_1.7.9-2.dsc 7b402eae531a30924964b690e83f5644 196660 coq-relation-algebra_1.7.9.orig.tar.gz 4a8d05361d08193a054dcebfa91d45a9 2300 coq-relation-algebra_1.7.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/damien-pous/relation-algebra"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "coq-relation-algebra"
+  ],
+  "Package-List": [
+    "libcoq-relation-algebra deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/coq-relation-algebra"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/coq-relation-algebra.git"
+  ],
+  "Version": [
+    "1.7.9-2"
+  ]
+}

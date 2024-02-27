@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lxqt-globalkeys, liblxqt-globalkeys1, liblxqt-globalkeys1-dev, liblxqt-globalkeys-ui1, liblxqt-globalkeys-ui1-dev, lxqt-globalkeys-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libkf5windowsystem-dev, liblxqt1-dev (\u003e= 1.4.0~), libqt5x11extras5-dev"
+  ],
+  "Checksums-Sha256": [
+    "314c1904721c63378549fbd85addba572fe7226c7f46d0451d642f3777265752 2869 lxqt-globalkeys_1.4.0-1.dsc ffed3e299d11b3b6298bf5558cff9ba2b979d6d7a5cad72af0ae640a991b6203 74028 lxqt-globalkeys_1.4.0.orig.tar.xz c090b8539386090cfa135af3473c8b3a35a9b4302d4d1023594131e7f1dbee5a 862 lxqt-globalkeys_1.4.0.orig.tar.xz.asc e58a16d8d541296a0e86237edaa3e9daba1f9a966403b11c99825ef85da7689b 8000 lxqt-globalkeys_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lxqt-globalkeys"
+  ],
+  "Files": [
+    "62c75ff3e95748fb7dbb02aa67c28d58 2869 lxqt-globalkeys_1.4.0-1.dsc 7fe7276feab135abc1d5bb3e699e59f5 74028 lxqt-globalkeys_1.4.0.orig.tar.xz 03ab9a8bc924629d532102299f5d0b6e 862 lxqt-globalkeys_1.4.0.orig.tar.xz.asc c29ad1c0e75271c8f3be82373e6ce8cf 8000 lxqt-globalkeys_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxqt/lxqt-globalkeys"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lxqt-globalkeys"
+  ],
+  "Package-List": [
+    "liblxqt-globalkeys-ui1 deb libs optional arch=any liblxqt-globalkeys-ui1-dev deb libdevel optional arch=any liblxqt-globalkeys1 deb libs optional arch=any liblxqt-globalkeys1-dev deb libdevel optional arch=any lxqt-globalkeys deb x11 optional arch=any lxqt-globalkeys-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e, Aaron Rainbolt \u003carraybolt3@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/lxqt-globalkeys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/lxqt-globalkeys.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

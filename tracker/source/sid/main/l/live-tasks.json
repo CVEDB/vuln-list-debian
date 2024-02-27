@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "live-task-base, live-task-recommended, live-task-extra, live-task-localisation, live-task-localisation-desktop, live-task-kde, live-task-gnome, live-task-lxde, live-task-xfce, live-task-lxqt, live-task-cinnamon, live-task-mate, live-task-debian-junior, live-task-standard"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "23b8276a5b9e677ef5a639e65f88cf79711b71fac25358f8a7a84c5559a0af07 2602 live-tasks_13.0.2.dsc 05995dd5660f7574d2940619ddb468d53dff86daa4b6c61339aba67b0d516548 4636 live-tasks_13.0.2.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/live-tasks"
+  ],
+  "Files": [
+    "0c6b4a87728a015cedfc78ed0c22c023 2602 live-tasks_13.0.2.dsc 73477a5a221debd0ddef42d884668d11 4636 live-tasks_13.0.2.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Live Systems Maintainers \u003cdebian-live@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "live-tasks"
+  ],
+  "Package-List": [
+    "live-task-base deb metapackages optional arch=all live-task-cinnamon deb metapackages optional arch=all live-task-debian-junior deb metapackages optional arch=all live-task-extra deb metapackages optional arch=all live-task-gnome deb metapackages optional arch=all live-task-kde deb metapackages optional arch=all live-task-localisation deb metapackages optional arch=all live-task-localisation-desktop deb metapackages optional arch=all live-task-lxde deb metapackages optional arch=all live-task-lxqt deb metapackages optional arch=all live-task-mate deb metapackages optional arch=all live-task-recommended deb metapackages optional arch=all live-task-standard deb metapackages optional arch=all live-task-xfce deb metapackages optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jonathan Carter \u003cjcc@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/live-team/live-tasks"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/live-team/live-tasks.git"
+  ],
+  "Version": [
+    "13.0.2"
+  ]
+}

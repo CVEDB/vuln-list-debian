@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-pykdtree"
+  ],
+  "Build-Depends": [
+    "cython3 (\u003e= 3.0), debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-mako, python3-pytest \u003c!nocheck\u003e, python3-numpy, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "a7cc41f628a8984e84e0f1053ffa3c8d223567e5b2f261dd22b756e49b3e0730 2239 pykdtree_1.3.11+ds-1.dsc d5cdaab4624dbd03d0de251bd5898604fe83d5497e7e270af2be021e4c12ae85 20284 pykdtree_1.3.11+ds.orig.tar.xz 8cbf27c2d815e2b21df17bdb73e18485bf6b569f0bf368b0dbe12f46a7576040 5784 pykdtree_1.3.11+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pykdtree"
+  ],
+  "Files": [
+    "f103ddf88e80dcd29b400e4e73e2a8ee 2239 pykdtree_1.3.11+ds-1.dsc 6919afee636b64fec3e2625eac7badd8 20284 pykdtree_1.3.11+ds.orig.tar.xz d93e52a26f061ae421c60784c532e9b5 5784 pykdtree_1.3.11+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/storpipfugl/pykdtree"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pykdtree"
+  ],
+  "Package-List": [
+    "python3-pykdtree deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/pykdtree"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/pykdtree.git"
+  ],
+  "Version": [
+    "1.3.11+ds-1"
+  ]
+}

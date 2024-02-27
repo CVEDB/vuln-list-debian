@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debian-keyring"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), gnupg, gawk"
+  ],
+  "Checksums-Sha256": [
+    "6d60796385b31a0bf676b59148fd05aa59ee1e49b118896582449a1921eb369a 1211 debian-keyring_2023.12.24.dsc f3816fb5a85e04ec91243b65ff6c40e1792be0449195f170f28665d78cc790b1 34354436 debian-keyring_2023.12.24.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/debian-keyring"
+  ],
+  "Files": [
+    "634073dff845101ece0a6aa5e1527b7e 1211 debian-keyring_2023.12.24.dsc 7c463424526f753fea1db1086e932070 34354436 debian-keyring_2023.12.24.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://keyring.debian.org/"
+  ],
+  "Maintainer": [
+    "Debian Keyring Maintainers \u003ckeyring-maint@debian.org\u003e"
+  ],
+  "Package": [
+    "debian-keyring"
+  ],
+  "Package-List": [
+    "debian-keyring deb misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Uploaders": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e, Gunnar Wolf \u003cgwolf@debian.org\u003e, John Sullivan \u003cjohns@debian.org\u003e, Jonathan McDowell \u003cnoodles@earth.li\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-keyring/keyring"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-keyring/keyring.git"
+  ],
+  "Version": [
+    "2023.12.24"
+  ]
+}

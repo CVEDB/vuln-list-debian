@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "file-roller"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), desktop-file-utils, dh-sequence-gnome, itstool, libarchive-dev (\u003e= 3.2), libglib2.0-dev (\u003e= 2.36.0), libgtk-3-dev (\u003e= 3.13.2), libgtk-4-dev, libjson-glib-dev (\u003e= 0.14), libhandy-1-dev (\u003e= 1.5.90), libnautilus-extension-dev (\u003e= 43~beta.1), meson (\u003e= 0.59)"
+  ],
+  "Checksums-Sha256": [
+    "5974d4b9dccdf5c02b7bc42528f65a2bf68259c0ea72c3745b3d8dd276f732c4 2386 file-roller_43.1-1.dsc 84994023997293beb345d9793db8f5f0bbb41faa155c6ffb48328f203957ad08 898216 file-roller_43.1.orig.tar.xz 7bf0fc7d5f4b759903eacae71c80b8cfdb4a2a2eb4d3c9f84b97f3ef71f25e1c 14300 file-roller_43.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/file-roller"
+  ],
+  "Files": [
+    "f331a491c64a619bdae0ed7b4f8c803d 2386 file-roller_43.1-1.dsc a36e8f27b0793e044652c5bfa187851d 898216 file-roller_43.1.orig.tar.xz 8a1c702ed4538c23d435dac81ae4b35d 14300 file-roller_43.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Apps/FileRoller"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "file-roller"
+  ],
+  "Package-List": [
+    "file-roller deb gnome optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/file-roller"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/file-roller.git"
+  ],
+  "Version": [
+    "43.1-1"
+  ]
+}

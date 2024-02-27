@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "tcl8.6-tdbc-sqlite3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), tcl8.6-dev, tcl8.6-tdbc (\u003e= 1.1.1~)"
+  ],
+  "Checksums-Sha256": [
+    "ddfabc67fab8dcd7536489a8aab1d8f8be79b8c241f66da98975c6285bda3946 1792 tdbcsqlite3_1.1.6-1.dsc fbca586f249aa05898a18afb86f91052c8cbaf8f8fb72a2f216586c6b10c137e 142382 tdbcsqlite3_1.1.6.orig.tar.gz 0c9c3bb3484c8c0aa8648d4bc292eb5e23b9e23cb600bf4e6cfc5bc18478653f 4396 tdbcsqlite3_1.1.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tdbcsqlite3"
+  ],
+  "Files": [
+    "8ce818ab1da977c7ca146f4c722f21b1 1792 tdbcsqlite3_1.1.6-1.dsc 8152a1911702d42d69acb5812b93ddaa 142382 tdbcsqlite3_1.1.6.orig.tar.gz fd32327eaa02e5cbafbe76389503a016 4396 tdbcsqlite3_1.1.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://core.tcl.tk/tdbcsqlite3"
+  ],
+  "Maintainer": [
+    "Massimo Manghi \u003cmxmanghi@apache.org\u003e"
+  ],
+  "Package": [
+    "tdbcsqlite3"
+  ],
+  "Package-List": [
+    "tcl8.6-tdbc-sqlite3 deb libs optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.1.6-1"
+  ]
+}

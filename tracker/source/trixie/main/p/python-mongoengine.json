@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mongoengine, python-mongoengine-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-blinker, python3-coverage, python3-gridfs, python3-pillow, python3-pymongo, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "9bdced3fa0a4f080e02e756716fb12d259b835a7c8853b02ac8d18437aa7bb3c 2378 python-mongoengine_0.27.0-1.dsc 8f38df7834dc4b192d89f2668dcf3091748d12f74d55648ce77b919167a4a49b 167389 python-mongoengine_0.27.0.orig.tar.gz 987704578315314490fb3b5223ac31929b275b4e5f761199295a7a69e769e184 6340 python-mongoengine_0.27.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-mongoengine"
+  ],
+  "Files": [
+    "038937dc51cc47a8ff02d0b83f2416c1 2378 python-mongoengine_0.27.0-1.dsc 424e56ba6f71b12d356ac447aadf31d7 167389 python-mongoengine_0.27.0.orig.tar.gz 1519d369275baa366a61735d46030538 6340 python-mongoengine_0.27.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://mongoengine.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-mongoengine"
+  ],
+  "Package-List": [
+    "python-mongoengine-doc deb doc optional arch=all python3-mongoengine deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Håvard F. Aasen \u003chavard.f.aasen@pfft.no\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-mongoengine"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-mongoengine.git"
+  ],
+  "Version": [
+    "0.27.0-1"
+  ]
+}

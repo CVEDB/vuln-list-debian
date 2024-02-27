@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "distrobox"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "bd40c76366cafe90dfbd3aa348f5ed0faea0b671d9751f2bb5ed54aaea56ca24 1235 distrobox_1.6.0.1-1.dsc d6b1330b56f6a1bf844c26a27d87f39efd8ae088ed3063f6513d48cf9c18f57e 6751373 distrobox_1.6.0.1.orig.tar.gz cde7f05b3a17bd59ce4cc4aa153be9a851128af7f540316e8d208eca94c888da 2748 distrobox_1.6.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/distrobox"
+  ],
+  "Files": [
+    "ee3b46245376be950f7eec2ad02b3f44 1235 distrobox_1.6.0.1-1.dsc fba8b7acac48915218756794b212eb77 6751373 distrobox_1.6.0.1.orig.tar.gz b577d829a71efa409720e3eb23adbff0 2748 distrobox_1.6.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://distrobox.it/"
+  ],
+  "Maintainer": [
+    "Michel Lind \u003cmichel@michel-slm.name\u003e"
+  ],
+  "Package": [
+    "distrobox"
+  ],
+  "Package-List": [
+    "distrobox deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/michel/distrobox"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/michel/distrobox.git"
+  ],
+  "Version": [
+    "1.6.0.1-1"
+  ]
+}

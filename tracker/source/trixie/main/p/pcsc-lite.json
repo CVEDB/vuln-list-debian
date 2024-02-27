@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pcscd, libpcsclite-dev, libpcsclite1"
+  ],
+  "Build-Depends": [
+    "autoconf-archive, debhelper-compat (= 13), flex, libpolkit-gobject-1-dev, libsystemd-dev, libudev-dev [linux-any], libusb2-dev [kfreebsd-any], pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "f0b3e5bf738572d37363a30d8ce521458dde4ab2f178eb1677dc22aa8388b135 2358 pcsc-lite_2.0.1-1.dsc 5edcaf5d4544403bdab6ee2b5d6c02c6f97ea64eebf0825b8d0fa61ba417dada 815103 pcsc-lite_2.0.1.orig.tar.bz2 fc3fb65dc557ce1559cc1db32cdecafed78b732f0a038fe392c5198e1769af08 833 pcsc-lite_2.0.1.orig.tar.bz2.asc c01f26e7d6923f3bd464f02dec1b751f290ed9e4b5a400ba15896180824ccdb1 19556 pcsc-lite_2.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pcsc-lite"
+  ],
+  "Files": [
+    "dab98487adff76c4beb8dc8202a10fc6 2358 pcsc-lite_2.0.1-1.dsc 730d069764c769ba3bac391a96c8a54f 815103 pcsc-lite_2.0.1.orig.tar.bz2 ea885688b24cc731c5d3506de678be0f 833 pcsc-lite_2.0.1.orig.tar.bz2.asc e9d12ecb575aa64879ed776b9e7becf4 19556 pcsc-lite_2.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pcsclite.apdu.fr/"
+  ],
+  "Maintainer": [
+    "Ludovic Rousseau \u003crousseau@debian.org\u003e"
+  ],
+  "Package": [
+    "pcsc-lite"
+  ],
+  "Package-List": [
+    "libpcsclite-dev deb libdevel optional arch=any libpcsclite1 deb libs optional arch=any pcscd deb misc optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pcsc-lite"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pcsc-lite.git"
+  ],
+  "Version": [
+    "2.0.1-1"
+  ]
+}

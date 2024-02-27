@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any hurd-any"
+  ],
+  "Binary": [
+    "libuv1-dev, libuv1"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-exec, netbase, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "996d16066c08481bdd938fc83a421cc343afb0eace6de884d53caa625ba97ac9 1986 libuv1_1.48.0-1.dsc 95b66faf3c19b021eb475c0a04c4febfe0442efbd88bca3174d32a1f8957cb71 1322696 libuv1_1.48.0.orig.tar.gz e119946f811d731e1150ae3d639f68ae31bd303429f04a95aae164439ecc10b3 21368 libuv1_1.48.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libu/libuv1"
+  ],
+  "Files": [
+    "f4af6aa8e6aba53b34d322c35b6c6e23 1986 libuv1_1.48.0-1.dsc bf42b4cdae4b327bf9d91908961421a2 1322696 libuv1_1.48.0.orig.tar.gz f59502c9382d1019b6710e0fbc8f0834 21368 libuv1_1.48.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libuv/libuv"
+  ],
+  "Maintainer": [
+    "Dominique Dumont \u003cdod@debian.org\u003e"
+  ],
+  "Package": [
+    "libuv1"
+  ],
+  "Package-List": [
+    "libuv1 deb libs optional arch=linux-any,hurd-any libuv1-dev deb libdevel optional arch=linux-any,hurd-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Luca Bruno \u003clucab@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libuv1"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libuv1.git"
+  ],
+  "Version": [
+    "1.48.0-1"
+  ]
+}

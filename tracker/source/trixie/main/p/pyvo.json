@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pyvo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-astropy, python3-pytest \u003c!nocheck\u003e, python3-requests, python3-requests-mock \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "24e03432daaf1b3791792b6ea8aeb8baf8aba0b479549e420da6f15f3cdd70cd 2208 pyvo_1.4.2-2.dsc e1000b58f554a6b75b4ca1680ae7a9772025d7dafc2368686fc1db45cdfd7a99 849830 pyvo_1.4.2.orig.tar.gz c27e914c7f5580210c0173c32901dbed5caacb920a92954ea4b43400c42c25e7 5344 pyvo_1.4.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyvo"
+  ],
+  "Files": [
+    "970731c1fc719baaf7d0e4e340d0b6a7 2208 pyvo_1.4.2-2.dsc dee0ab4dff7ade73ee2672637b70c709 849830 pyvo_1.4.2.orig.tar.gz de5e09fdeb55d2871899aaa60ef70253 5344 pyvo_1.4.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pypi.python.org/pypi/pyvo"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Maintainers \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pyvo"
+  ],
+  "Package-List": [
+    "python3-pyvo deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest, python3-requests-mock"
+  ],
+  "Uploaders": [
+    "Josue Ortega \u003cjosue@debian.org\u003e, Paul Sladen \u003cdebian@paul.sladen.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/pyvo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/pyvo.git"
+  ],
+  "Version": [
+    "1.4.2-2"
+  ]
+}

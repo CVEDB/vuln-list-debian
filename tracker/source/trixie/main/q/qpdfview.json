@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "qpdfview, qpdfview-pdf-poppler-plugin, qpdfview-djvu-plugin, qpdfview-ps-plugin, qpdfview-translations"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcups2-dev, libdjvulibre-dev, libjbig2dec0-dev, libopenjp2-7-dev, libpoppler-qt6-dev, libqt6svg6-dev, libspectre-dev, libsynctex-dev, pkg-config, qmake6, qt6-base-dev, qt6-tools-dev-tools, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "34396900acb10eae8bfda4d96c266219bd58f7390afadb966aa513799435c1ee 1765 qpdfview_0.5.0+ds-4.dsc 734e9648b427e864508efb375ca79b586011ed7dd2b8d340fe1d334ca0f02808 427540 qpdfview_0.5.0+ds.orig.tar.xz 0b50cb4047983a8f4f12d63819e6f9a2148c4bdc612224bb1ef775d872b586d7 9264 qpdfview_0.5.0+ds-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qpdfview"
+  ],
+  "Files": [
+    "a3b227f6c70ad6b4e1102c1f575157b9 1765 qpdfview_0.5.0+ds-4.dsc 915dbaf0f48279f8068e15c2bd67a55b 427540 qpdfview_0.5.0+ds.orig.tar.xz abd10be6f8a400bd306a2f839a9a83bc 9264 qpdfview_0.5.0+ds-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/qpdfview"
+  ],
+  "Maintainer": [
+    "Louis-Philippe Véronneau \u003cpollo@debian.org\u003e"
+  ],
+  "Package": [
+    "qpdfview"
+  ],
+  "Package-List": [
+    "qpdfview deb graphics optional arch=any qpdfview-djvu-plugin deb graphics optional arch=any qpdfview-pdf-poppler-plugin deb graphics optional arch=any qpdfview-ps-plugin deb graphics optional arch=any qpdfview-translations deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pollo/qpdfview"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pollo/qpdfview.git"
+  ],
+  "Version": [
+    "0.5.0+ds-4"
+  ]
+}

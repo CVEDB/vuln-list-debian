@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-vm-memory-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.39-~~) \u003c!nocheck\u003e, librust-thiserror-1+default-dev (\u003e= 1.0.38-~~) \u003c!nocheck\u003e, librust-winapi-0.3+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+errhandlingapi-dev \u003c!nocheck\u003e, librust-winapi-0.3+sysinfoapi-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3a4034a82b7c78a458096b6ddcaaf555960cfed966cc7dead980efb4b42aa11a 2533 rust-vm-memory_0.14.0-1.dsc 74ffc42216c32c35f858fa4bfdcd9b61017dfd691e0240268fdc85dbf59e5459 85354 rust-vm-memory_0.14.0.orig.tar.gz 43679c44643ac9e681aea21ee3cb4f4d6bbfe5b3d43d99909bc518fbe39b27a3 5912 rust-vm-memory_0.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-vm-memory"
+  ],
+  "Files": [
+    "f486488290874f37642200172caaa4a8 2533 rust-vm-memory_0.14.0-1.dsc 7922300faf5d344c35643d2988229aca 85354 rust-vm-memory_0.14.0.orig.tar.gz 794533636002fdb57df7eccc066110be 5912 rust-vm-memory_0.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-vm-memory"
+  ],
+  "Package-List": [
+    "librust-vm-memory-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-matches-0.1+default-dev, librust-vmm-sys-util-0.12+default-dev"
+  ],
+  "Uploaders": [
+    "Liang Yan \u003cly@xryan.net\u003e, Fabian Grünbichler \u003cdebian@fabian.gruenbichler.email\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vm-memory"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vm-memory]"
+  ],
+  "Version": [
+    "0.14.0-1"
+  ]
+}

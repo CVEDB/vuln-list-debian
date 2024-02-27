@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pytest-arraydiff"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-numpy, python3-pytest, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "a5e37a658639ddb1b53c8b66f6b642888468fb0acd5caffd9a7ac37a09aadc8f 2183 pytest-arraydiff_0.6.1-1.dsc 2937b1450fc935620f24709d87d40c67e055a043d7b8541a25fdfa994dda67de 16907 pytest-arraydiff_0.6.1.orig.tar.gz a54a234a1326c8aee120b00a2907ec7b7a6216461113e3aa09cf3d837efd79b1 3604 pytest-arraydiff_0.6.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pytest-arraydiff"
+  ],
+  "Files": [
+    "35192e6fde615c0ce6c65ac89c27e025 2183 pytest-arraydiff_0.6.1-1.dsc ee1a683fa6a312d86dd8bd9342744f78 16907 pytest-arraydiff_0.6.1.orig.tar.gz c17fca1381a0bc5a7093d1d2ddb5ebe8 3604 pytest-arraydiff_0.6.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/astropy/pytest-arraydiff"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pytest-arraydiff"
+  ],
+  "Package-List": [
+    "python3-pytest-arraydiff deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-astropy"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pytest-arraydiff"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pytest-arraydiff.git"
+  ],
+  "Version": [
+    "0.6.1-1"
+  ]
+}

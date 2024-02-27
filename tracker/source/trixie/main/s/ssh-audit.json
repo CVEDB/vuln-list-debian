@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ssh-audit"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), asciidoc-base, dh-exec, dh-python, python3, python3-pytest, python3-setuptools, xmlto"
+  ],
+  "Checksums-Sha256": [
+    "68ff631073edc0e82710b5d0ca55f1e8efa8a864cde68885501e987eed5228a2 2184 ssh-audit_3.1.0-1.dsc bea22074aa13f61cbe8e6876912a7eb5796569d980a7429deef112dc51ffd604 154296 ssh-audit_3.1.0.orig.tar.gz 046bf6272e257d8164404e8ba49c75185013fc4bd1edfc82f33f83a9b99073d8 833 ssh-audit_3.1.0.orig.tar.gz.asc 7813cceaf7408bb53d357ff4e03561c623e34e9ab6c9111051b38b8f51ff10db 5432 ssh-audit_3.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/ssh-audit"
+  ],
+  "Files": [
+    "968487c0afbea11927995c4992366cea 2184 ssh-audit_3.1.0-1.dsc 5ef7d1f3801570e85b1c3dbd8ab46ead 154296 ssh-audit_3.1.0.orig.tar.gz d35859ed77fa144a5422eaa967a5b9c2 833 ssh-audit_3.1.0.orig.tar.gz.asc 6cf8166b084c9e7deab57bd9edeea704 5432 ssh-audit_3.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jtesta/ssh-audit"
+  ],
+  "Maintainer": [
+    "ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
+  ],
+  "Package": [
+    "ssh-audit"
+  ],
+  "Package-List": [
+    "ssh-audit deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ssh-audit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ssh-audit.git"
+  ],
+  "Version": [
+    "3.1.0-1"
+  ]
+}

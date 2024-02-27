@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-filelock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all (\u003e= 3.7), python3-setuptools, python3-pytest, python3-pytest-mock, python3-pytest-timeout, pybuild-plugin-pyproject, python3-hatchling, python3-hatch-vcs"
+  ],
+  "Checksums-Sha256": [
+    "3feb8d8191337ce4894609a43964fd525425da064ced87a379d2acba1bc75167 2124 python-filelock_3.13.1-1.dsc 521f5f56c50f8426f5e03ad3b281b490a87ef15bc6c526f168290f0c7148d44e 14553 python-filelock_3.13.1.orig.tar.gz 1915ef86a8981e5a5354533be9cae3e950150900c7db2e41051c4c3c754c50a1 2924 python-filelock_3.13.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-filelock"
+  ],
+  "Files": [
+    "29c324b26c6220dd1664353ebe1aa936 2124 python-filelock_3.13.1-1.dsc 368d00d1946b89c910d4bf1da68b5a66 14553 python-filelock_3.13.1.orig.tar.gz 5694c7c07046421e78e499f8f97776f4 2924 python-filelock_3.13.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tox-dev/py-filelock"
+  ],
+  "Maintainer": [
+    "Sascha Steinbiss \u003csatta@debian.org\u003e"
+  ],
+  "Package": [
+    "python-filelock"
+  ],
+  "Package-List": [
+    "python3-filelock deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/python-filelock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/python-filelock.git"
+  ],
+  "Version": [
+    "3.13.1-1"
+  ]
+}

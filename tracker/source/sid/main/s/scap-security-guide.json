@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ssg-base, ssg-debian, ssg-debderived, ssg-applications, ssg-nondebian"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libxml2-utils, openscap-scanner, python3, python3-lxml, python3-jinja2, python3-setuptools, python3-yaml, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "ecc5a59e6da9cd2e2ca2666d0073ce46f0eab0e6145a528becdbab1745b1e010 2423 scap-security-guide_0.1.71-1.dsc f8a71930c5ce2da1ec1fa8ec94dfe63e5809448fa5b27bcb14efd2ffdae93ddd 8771631 scap-security-guide_0.1.71.orig.tar.gz f5d03203f14abe8d3b5a451342a6e9b7c057f3237f0113f660a7869d57e3cd7f 10232 scap-security-guide_0.1.71-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/scap-security-guide"
+  ],
+  "Files": [
+    "b4c25619d6b7dd106228bd6bb26e08d2 2423 scap-security-guide_0.1.71-1.dsc b12b65a3a551b87fe794a8fed0c87936 8771631 scap-security-guide_0.1.71.orig.tar.gz e4e2090250eaa16fe0e8e9f5863bdffc 10232 scap-security-guide_0.1.71-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-scap.org/security-policies/scap-security-guide"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "scap-security-guide"
+  ],
+  "Package-List": [
+    "ssg-applications deb admin optional arch=all ssg-base deb admin optional arch=all ssg-debderived deb admin optional arch=all ssg-debian deb admin optional arch=all ssg-nondebian deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Håvard F. Aasen \u003chavard.f.aasen@pfft.no\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/scap-security-guide"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/scap-security-guide.git"
+  ],
+  "Version": [
+    "0.1.71-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-pkginfo-doc, python3-pkginfo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools, python3-sphinx, python3-wheel, tox \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f03e3e9f40b8838784e8140acb9a096926a0ca3b56f84b29d7f371e503f9fa3e 2341 python-pkginfo_1.9.6-1.dsc 8fd5896e8718a4372f0ea9cc9d96f6417c9b986e23a4d116dda26b62cc29d046 379307 python-pkginfo_1.9.6.orig.tar.gz 847ffb263c9ea5c9663e9ad39b0c1cf2e6179b5d183a3064150c1e2c3d33bb39 6208 python-pkginfo_1.9.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pkginfo"
+  ],
+  "Files": [
+    "20d3a00ca1a02f9b59cebd6717597a08 2341 python-pkginfo_1.9.6-1.dsc 8c1c78c8ee593e745c69080663c26df6 379307 python-pkginfo_1.9.6.orig.tar.gz 3fdd4ab907a5337f68211e9a0d44ee1e 6208 python-pkginfo_1.9.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pythonhosted.org/pkginfo/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pkginfo"
+  ],
+  "Package-List": [
+    "python-pkginfo-doc deb doc optional arch=all python3-pkginfo deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-wheel"
+  ],
+  "Uploaders": [
+    "Jan Dittberner \u003cjandd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pkginfo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pkginfo.git"
+  ],
+  "Version": [
+    "1.9.6-1"
+  ]
+}

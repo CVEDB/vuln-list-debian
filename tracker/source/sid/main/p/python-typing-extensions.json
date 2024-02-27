@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-typing-extensions"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), flit, pybuild-plugin-pyproject, python3-all:any, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "be1aa4f6ad1072ed871449a67f14d514ac7adcfa1c72a9debe939bd0f99bc611 2226 python-typing-extensions_4.9.0-1.dsc 23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f9f5783 74918 python-typing-extensions_4.9.0.orig.tar.gz 640ccba105f8c3e1a49efa648975fe87f69779b2ef0fcdffbd8ac0e864304ae8 4256 python-typing-extensions_4.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-typing-extensions"
+  ],
+  "Files": [
+    "fe6c9ca46260c56881811cdb7bfbd39e 2226 python-typing-extensions_4.9.0-1.dsc 2bcafbd6817cb0d7a29ed7a7f1bb1e5d 74918 python-typing-extensions_4.9.0.orig.tar.gz 595a114973e27c420668699c775ce6e6 4256 python-typing-extensions_4.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://typing-extensions.readthedocs.io/en/latest/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-typing-extensions"
+  ],
+  "Package-List": [
+    "python3-typing-extensions deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-typing-extensions"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-typing-extensions.git"
+  ],
+  "Version": [
+    "4.9.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, gitweb, git-all"
+  ],
+  "Build-Depends": [
+    "libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python3, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper-compat (= 10), dh-exec (\u003e= 0.7), dh-apache2, dpkg-dev (\u003e= 1.16.2~)"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
+  ],
+  "Checksums-Sha256": [
+    "8917f913f47caeb31af3e5871ac679258fa677342db4cc3282a3ae64d6967321 2825 git_2.43.0-1.dsc 5446603e73d911781d259e565750dcd277a42836c8e392cac91cf137aa9b76ec 7382996 git_2.43.0.orig.tar.xz 79c65d02aeb19fd1816830339cd48e861dc202332a2f605237a915b0819b7790 763384 git_2.43.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/git"
+  ],
+  "Files": [
+    "3407781dc5caba8dadfc3c10de610c63 2825 git_2.43.0-1.dsc 66a036a0442b8d159b0eff5a0fe0dc94 7382996 git_2.43.0.orig.tar.xz 87eb3fcb3bd18c0ae737bbd71fb40606 763384 git_2.43.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git-scm.com/"
+  ],
+  "Maintainer": [
+    "Jonathan Nieder \u003cjrnieder@gmail.com\u003e"
+  ],
+  "Package": [
+    "git"
+  ],
+  "Package-List": [
+    "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs optional arch=all git-doc deb doc optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "vcs"
+  ],
+  "Standards-Version": [
+    "4.3.0.1"
+  ],
+  "Uploaders": [
+    "Anders Kaseorg \u003candersk@mit.edu\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://repo.or.cz/w/git/debian.git/"
+  ],
+  "Vcs-Git": [
+    "https://repo.or.cz/r/git/debian.git/"
+  ],
+  "Version": [
+    "1:2.43.0-1"
+  ]
+}

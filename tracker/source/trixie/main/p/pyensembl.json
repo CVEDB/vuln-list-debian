@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pyensembl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, python3-pandas, python3-numpy, python3-datacache, python3-serializable, python3-memoized-property, python3-gtfparse, python3-nose \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "33882853bfde8dbb3d0b978c81b8586489d18b44969b385e70fb14ce45aafdb6 2294 pyensembl_2.2.9+ds-1.dsc 932edd9d9e87f2b0e80d9f69b0cb2f51a8418eed7935a97fe0b17f088bc8f23b 45772 pyensembl_2.2.9+ds.orig.tar.xz 8ddec3d47ddedf6a96b3b372dbb1ed98dac93e3108e4ca87c1260bb1d71d8703 4564 pyensembl_2.2.9+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyensembl"
+  ],
+  "Files": [
+    "c6e599aeb223f1803438e0f0260c8f90 2294 pyensembl_2.2.9+ds-1.dsc df6fc8430f3755185bf1d8831a16b958 45772 pyensembl_2.2.9+ds.orig.tar.xz e42e8b89bcebf903a6cb49e9e639b23f 4564 pyensembl_2.2.9+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openvax/pyensembl"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pyensembl"
+  ],
+  "Package-List": [
+    "pyensembl deb science optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-nose, python3-pytest"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/pyensembl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/pyensembl.git"
+  ],
+  "Version": [
+    "2.2.9+ds-1"
+  ]
+}

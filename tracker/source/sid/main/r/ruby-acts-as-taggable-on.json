@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-acts-as-taggable-on"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ruby-activerecord (\u003e= 2:5.0), gem2deb"
+  ],
+  "Checksums-Sha256": [
+    "49589f62d5d70a8e6824510f61b4e678741bc5a5a3c4f8c9692219e44c67a8ad 2174 ruby-acts-as-taggable-on_10.0.0-2.dsc 832f2b234cc40071b03af8e2ff93d0485438d4d7a6e729c39bcedf4c57752130 54297 ruby-acts-as-taggable-on_10.0.0.orig.tar.gz 236dea0aeb9157df94e8b4fdeaf0257d1d373c383fe06725ffb4f8bd2bd801fa 3488 ruby-acts-as-taggable-on_10.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-acts-as-taggable-on"
+  ],
+  "Files": [
+    "4a345abf6f5b7b64c0675d364f658e3c 2174 ruby-acts-as-taggable-on_10.0.0-2.dsc ca59b247f11abed11575fca8f75d6acb 54297 ruby-acts-as-taggable-on_10.0.0.orig.tar.gz bd4be60779872977629036baf74eb9ba 3488 ruby-acts-as-taggable-on_10.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mbleigh/acts-as-taggable-on"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-acts-as-taggable-on"
+  ],
+  "Package-List": [
+    "ruby-acts-as-taggable-on deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-acts-as-taggable-on"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-acts-as-taggable-on.git"
+  ],
+  "Version": [
+    "10.0.0-2"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-apycula"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "f59a370e679cebfd42a8b15bbf42562f0a55aade7547f4bf966be6b5fa440869 1713 apycula_0.10.0+dfsg1-1.dsc 2d060c44955284e2f3b52143d9fc75e50ad93b390aab92a7a878ac12ddd5c13d 7152736 apycula_0.10.0+dfsg1.orig.tar.xz a1c6c86de02c479c64f3a6253ae5ec69cd6d12d824df0f3d8591e6d40eda5bb6 2612 apycula_0.10.0+dfsg1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/apycula"
+  ],
+  "Files": [
+    "b114bb3ca7c30a3859a0d88015539d05 1713 apycula_0.10.0+dfsg1-1.dsc 33fdf4d8e06250b61855bceaea7861f3 7152736 apycula_0.10.0+dfsg1.orig.tar.xz 3275e61157dd007a43bcfdc6a71b4ded 2612 apycula_0.10.0+dfsg1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/YosysHQ/apicula"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "apycula"
+  ],
+  "Package-List": [
+    "python3-apycula deb electronics optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Daniel Gröber \u003cdxld@darkboxed.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/apycula"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/apycula.git"
+  ],
+  "Version": [
+    "0.10.0+dfsg1-1"
+  ]
+}

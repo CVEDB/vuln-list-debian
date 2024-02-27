@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-argh"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, pybuild-plugin-pyproject, python3-pytest, flit"
+  ],
+  "Checksums-Sha256": [
+    "15ed0dd2e2123577f439a73646de6474c3dfc3ec99cd22d72d9280bffe77279d 2096 python-argh_0.31.2-1.dsc db1c34885804f7d4646c385dc2fb19b45298561322f4c15eae1b133993f9e323 57200 python-argh_0.31.2.orig.tar.gz 77010a9c17e990cb1545df66da48e8801623f404e8782336f00b76c255b8c7ed 3656 python-argh_0.31.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-argh"
+  ],
+  "Files": [
+    "8dd6974159e031986414b40fed47b433 2096 python-argh_0.31.2-1.dsc af222a1097dac25f1e2958222f0a116c 57200 python-argh_0.31.2.orig.tar.gz 0e5c9b317c068bd9ec3e76f08852be38 3656 python-argh_0.31.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/neithere/argh"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-argh"
+  ],
+  "Package-List": [
+    "python3-argh deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Marco Nenciarini \u003cmnencia@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-argh"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-argh.git"
+  ],
+  "Version": [
+    "0.31.2-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-sna"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-statnet.common, r-cran-network"
+  ],
+  "Checksums-Sha256": [
+    "77425af7d57255bc568d0ff7c64bf5ee3eff6bbd64b61019d2010a7837257177 2049 r-cran-sna_2.7-2-1.dsc 7b214626967feb9389e743e50b919dd4b00e7436b2355fd068c873c45ac7a7cd 301959 r-cran-sna_2.7-2.orig.tar.gz 0601a2999cb8ce351b56e0449e6c87a66330d373613aa49a0799269be4fe23c7 2296 r-cran-sna_2.7-2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-sna"
+  ],
+  "Files": [
+    "6f395189675409c162d197ca34f4eb4a 2049 r-cran-sna_2.7-2-1.dsc c4eb81ede668f0f8214afffba144d6cf 301959 r-cran-sna_2.7-2.orig.tar.gz e4bc1d4da40994f23fc102a85e913140 2296 r-cran-sna_2.7-2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=sna"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-sna"
+  ],
+  "Package-List": [
+    "r-cran-sna deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-sna"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-sna.git"
+  ],
+  "Version": [
+    "2.7-2-1"
+  ]
+}

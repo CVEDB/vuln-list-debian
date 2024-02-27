@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnet-cpp2, libnet-cpp-dev, libnet-cpp-doc"
+  ],
+  "Build-Depends": [
+    "cmake, cmake-extras (\u003e= 1.5-5~), debhelper-compat (= 13), doxygen, googletest, graphviz, libboost-dev, libboost-serialization-dev, libboost-system-dev, libcurl4-openssl-dev, libgtest-dev, libjsoncpp-dev, libprocess-cpp-dev, lsb-release, pkg-config, pkg-kde-tools, python3-httpbin, symlinks, rdfind"
+  ],
+  "Checksums-Sha256": [
+    "23cd05096cdda8f05ccee03655b80f27035bafd4afbba8bfe29fd045d15471d2 2424 net-cpp_3.1.1+dfsg-1.dsc 3fbfdaaaab01c6c26416f41d14bdb041ff298e5275fa542305bd812f2d448289 57304 net-cpp_3.1.1+dfsg.orig.tar.xz b9858b33def3a9bbab8cff32965a4a809c79de2f5e1665ea1b01b0fe417112a1 8656 net-cpp_3.1.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/net-cpp"
+  ],
+  "Files": [
+    "b93fa1dd0129817eead77a95399d60b0 2424 net-cpp_3.1.1+dfsg-1.dsc bea6a0107da214c8eaeb40aa3c8520af 57304 net-cpp_3.1.1+dfsg.orig.tar.xz c5a32b2448bec84822f579c44a156ce7 8656 net-cpp_3.1.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/ubports/development/core/lib-cpp/net-cpp"
+  ],
+  "Maintainer": [
+    "Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "net-cpp"
+  ],
+  "Package-List": [
+    "libnet-cpp-dev deb libdevel optional arch=any libnet-cpp-doc deb doc optional arch=all libnet-cpp2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Marius Gripsgard \u003cmarius@ubports.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ubports-team/net-cpp/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ubports-team/net-cpp.git"
+  ],
+  "Version": [
+    "3.1.1+dfsg-1"
+  ]
+}

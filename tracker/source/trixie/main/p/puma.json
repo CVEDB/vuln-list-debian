@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "puma"
+  ],
+  "Build-Depends": [
+    "curl, debhelper-compat (= 13), gem2deb (\u003e= 1.6), libssl-dev, rake, ruby-localhost, ruby-minitest-stub-const, ruby-nio4r (\u003e= 2), ruby-rack (\u003c\u003c 3), ruby-sd-notify, procps"
+  ],
+  "Checksums-Sha256": [
+    "947c3ed4d2c2a934e2fc5325821cbb461186521a8487cf299b24e61259e9f401 2135 puma_6.4.2-4.dsc fde1e4db169a71894117208636dbad88314470cec18cff2a3e398647ceb4bbda 387266 puma_6.4.2.orig.tar.gz ab1a7cecbc21b12f50bc445a36f958e838e955e08edd2b6b4c0e73f25e5c92ca 10544 puma_6.4.2-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puma"
+  ],
+  "Files": [
+    "0bb621987de3a37681734e69c354e21b 2135 puma_6.4.2-4.dsc 8628323ade6c89d68df3ac932ed7026b 387266 puma_6.4.2.orig.tar.gz bba7467a71c6c51bdb9676ff1619b31a 10544 puma_6.4.2-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://puma.io"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "puma"
+  ],
+  "Package-List": [
+    "puma deb web optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-ruby"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e, Lucas Kanashiro \u003ckanashiro@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/puma"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/puma.git -b debian/experimental"
+  ],
+  "Version": [
+    "6.4.2-4"
+  ]
+}

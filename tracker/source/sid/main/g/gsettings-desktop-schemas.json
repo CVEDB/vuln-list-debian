@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gsettings-desktop-schemas, gsettings-desktop-schemas-dev, gir1.2-gdesktopenums-3.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, libglib2.0-dev (\u003e= 2.31.0), libgirepository1.0-dev (\u003e= 1.31.0), meson (\u003e= 0.57.0)"
+  ],
+  "Checksums-Sha256": [
+    "20e8d23ad2582c789fc1000da415ab4c1db97e1565974d303f63b8b8318c0ce4 2686 gsettings-desktop-schemas_46~beta-3.dsc 6290ef45eee5baa7a98e2246e9a09288b944c96ea0467e4913d0287415f9c5af 755496 gsettings-desktop-schemas_46~beta.orig.tar.xz c8cb5f21aed07fe7276107d9e52dff6a47562f7bf70175f9325be0b23db8d86e 9444 gsettings-desktop-schemas_46~beta-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "46df1fcb85977fa5298dd6129873a304350376bf debian archive/debian/46_beta-3 https://git.dgit.debian.org/gsettings-desktop-schemas"
+  ],
+  "Directory": [
+    "pool/main/g/gsettings-desktop-schemas"
+  ],
+  "Files": [
+    "057cbb7e95705eca22b3623e24d9b7bf 2686 gsettings-desktop-schemas_46~beta-3.dsc f3129b8d4f7720918e9bd020e2950108 755496 gsettings-desktop-schemas_46~beta.orig.tar.xz 440cb14e608a08f32deb34f022cf80b1 9444 gsettings-desktop-schemas_46~beta-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnome.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gsettings-desktop-schemas"
+  ],
+  "Package-List": [
+    "gir1.2-gdesktopenums-3.0 deb introspection optional arch=any gsettings-desktop-schemas deb gnome optional arch=all gsettings-desktop-schemas-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gsettings-desktop-schemas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gsettings-desktop-schemas.git"
+  ],
+  "Version": [
+    "46~beta-3"
+  ]
+}

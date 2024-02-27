@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "base-passwd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), docbook \u003c!nodoc\u003e, docbook-utils \u003c!nodoc\u003e, libdebconfclient0-dev, libselinux1-dev [linux-any], po4a"
+  ],
+  "Checksums-Sha256": [
+    "bac1a87f919fd8ab28480cc1fd8126b2068a577faf4223f8a2be6baf328d313e 1762 base-passwd_3.6.3.dsc 83575327d8318a419caf2d543341215c046044073d1afec2acc0ac4d8095ff39 58284 base-passwd_3.6.3.tar.xz"
+  ],
+  "Dgit": [
+    "9877a523862220c846778b4341d513b18ad2f36e debian archive/debian/3.6.3 https://git.dgit.debian.org/base-passwd"
+  ],
+  "Directory": [
+    "pool/main/b/base-passwd"
+  ],
+  "Files": [
+    "0c34c13eddb92220c9b4ea59c74df646 1762 base-passwd_3.6.3.dsc 82806f5c353e783b33f2082b4fd1a4ee 58284 base-passwd_3.6.3.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Package": [
+    "base-passwd"
+  ],
+  "Package-List": [
+    "base-passwd deb admin required arch=any essential=yes"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/base-passwd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/base-passwd.git"
+  ],
+  "Version": [
+    "3.6.3"
+  ]
+}

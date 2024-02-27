@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-ctc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-amap"
+  ],
+  "Checksums-Sha256": [
+    "56bce7e2b8453c86aa0070653aee654241e6642ec6fbe80643c9c3dd12e36c24 2026 r-bioc-ctc_1.76.0-1.dsc a3c661080f046b936bbced906f1046d4760892f1c0fa45376cdf420c721e4881 90458 r-bioc-ctc_1.76.0.orig.tar.gz f532b3f521b89ceba272056746c77eec32f2616977f2cc99c1ca70a9136e4c23 2132 r-bioc-ctc_1.76.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-ctc"
+  ],
+  "Files": [
+    "5084af9e4c89bf8e5265a2b7a95d7d01 2026 r-bioc-ctc_1.76.0-1.dsc ea94b8b636b26d4f827ecd4569804d1e 90458 r-bioc-ctc_1.76.0.orig.tar.gz 07b3feee5206cdd22dac3da773dfe375 2132 r-bioc-ctc_1.76.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/ctc/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-ctc"
+  ],
+  "Package-List": [
+    "r-bioc-ctc deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-ctc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-ctc.git"
+  ],
+  "Version": [
+    "1.76.0-1"
+  ]
+}

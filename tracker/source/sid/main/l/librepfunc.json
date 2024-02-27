@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librepfunc1, librepfunc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "105aad04803ba882e569418655b009fe49d20c3a52db4c1bacc1513be44b5bb9 1973 librepfunc_1.9.0-1.dsc a3cd8a5233e5515c609a1903671e35e1b2658dcd5070419a3a9e15358d81d883 26844 librepfunc_1.9.0.orig.tar.xz 89d823e959be472d82fe1bbb58aeffeb014b9dff919d058fccea66aeeea548bd 3144 librepfunc_1.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libr/librepfunc"
+  ],
+  "Files": [
+    "68e2c0c4e6ff67c8821dea407dea8d3a 1973 librepfunc_1.9.0-1.dsc 9f8b27a03960f53b09085a5f1430eea1 26844 librepfunc_1.9.0.orig.tar.xz c41c66e8e4f1c71bf9a0897e140e6071 3144 librepfunc_1.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/wirbel-at-vdr-portal/librepfunc"
+  ],
+  "Maintainer": [
+    "Phil Wyett \u003cphilip.wyett@kathenas.org\u003e"
+  ],
+  "Package": [
+    "librepfunc"
+  ],
+  "Package-List": [
+    "librepfunc-dev deb libdevel optional arch=any librepfunc1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Apostolos Kefalas \u003csv1ljj@raag.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/librepfunc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/librepfunc.git"
+  ],
+  "Version": [
+    "1.9.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-drms"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-numpy, python3-pandas, python3-pytest \u003c!nocheck\u003e, python3-pytest-doctestplus \u003c!nocheck\u003e, python3-pytest-remotedata \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "197ec8e6c899f47007a4aa60c1fc4c8c7a6d6eaa76b234fad2c0ed5a8d33dc82 2206 drms_0.7.1-1.dsc d95b40191c743a761d0132bf9e03617df9900e365f10b61e4d33c275f9070007 57267 drms_0.7.1.orig.tar.gz 3be572fbe4462ab07a06bdd133031e0d8fdfd95e5924e59e0221ffca9c0395b0 3744 drms_0.7.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/drms"
+  ],
+  "Files": [
+    "b2edf528b76cf05af2293b50024f0d6c 2206 drms_0.7.1-1.dsc a3e1de5bbf3f51bc8ed793903d0ab5a7 57267 drms_0.7.1.orig.tar.gz f2954df52b7188a2013a1defb2c9aa56 3744 drms_0.7.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sunpy/drms"
+  ],
+  "Maintainer": [
+    "Debian Astro Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "drms"
+  ],
+  "Package-List": [
+    "python3-drms deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest, python3-pytest-doctestplus, python3-pytest-remotedata"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/drms"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/drms.git"
+  ],
+  "Version": [
+    "0.7.1-1"
+  ]
+}

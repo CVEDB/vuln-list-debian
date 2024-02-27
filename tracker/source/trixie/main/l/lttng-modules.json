@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lttng-modules-dkms"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-sequence-dkms"
+  ],
+  "Checksums-Sha256": [
+    "9fc77de5fdb70fa11d781d6279aa26c1f417f3b96efb50d0bff65d932e7ba02f 2290 lttng-modules_2.13.11-1.dsc 297211d6fda459c85793c1f498c90fad2939cda7939d503f3ec5eaaf5fbec3c7 352218 lttng-modules_2.13.11.orig.tar.bz2 83b9287e15bf714fcbd073c84caf2ec61095941fe2f9b5a540f2923f8e806bbf 488 lttng-modules_2.13.11.orig.tar.bz2.asc faa0f16edbab49d4db47530f739cfc71fd625e16805ed5f9e872eb15c5f24fb2 9664 lttng-modules_2.13.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lttng-modules"
+  ],
+  "Files": [
+    "62eb6d35e1b0dbb65719291ac6f8516c 2290 lttng-modules_2.13.11-1.dsc 306dc7994fd020e7a21e0c64d42ee95c 352218 lttng-modules_2.13.11.orig.tar.bz2 4f4f68209011fc744f504abe971c996d 488 lttng-modules_2.13.11.orig.tar.bz2.asc 08d7e2348da6c0b624cefa651d615a32 9664 lttng-modules_2.13.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lttng.org"
+  ],
+  "Maintainer": [
+    "Jon Bernard \u003cjbernard@debian.org\u003e"
+  ],
+  "Package": [
+    "lttng-modules"
+  ],
+  "Package-List": [
+    "lttng-modules-dkms deb kernel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Uploaders": [
+    "Michael Jeanson \u003cmjeanson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/lttng-modules/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/lttng-modules.git"
+  ],
+  "Version": [
+    "2.13.11-1"
+  ]
+}

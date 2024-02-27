@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pycountry"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, iso-codes (\u003e\u003e 4.8.0~), pybuild-plugin-pyproject, python3-all, python3-poetry-core, python3-pytest"
+  ],
+  "Checksums-Sha256": [
+    "02a1802e341d620cb8d6f42787dca6e67e60bb749bed295a05f52b3f2a0c932e 2134 pycountry_23.12.11+ds1-2.dsc 972df5c067a05cd330ae873fd3a636497a91bee848fc2009222248aca22465f3 19416 pycountry_23.12.11+ds1.orig.tar.xz 15759eb5712398aa93dc871cd8e95a53e0be480dfe4d98141cfbbed51f361fc0 6748 pycountry_23.12.11+ds1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pycountry"
+  ],
+  "Files": [
+    "0c0e3efda806f0a75d0c66c16706c8d7 2134 pycountry_23.12.11+ds1-2.dsc 1d0453d0c1cde5f981c5d15c93671009 19416 pycountry_23.12.11+ds1.orig.tar.xz 52ea2c93b46238e7d0ba4250a147a339 6748 pycountry_23.12.11+ds1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/flyingcircusio/pycountry"
+  ],
+  "Maintainer": [
+    "David Paleino \u003cdapal@debian.org\u003e"
+  ],
+  "Package": [
+    "pycountry"
+  ],
+  "Package-List": [
+    "python3-pycountry deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Stuart Prescott \u003cstuart@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pycountry"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pycountry.git"
+  ],
+  "Version": [
+    "23.12.11+ds1-2"
+  ]
+}

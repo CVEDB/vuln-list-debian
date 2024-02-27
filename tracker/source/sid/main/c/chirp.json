@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "chirp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-requests, python3-serial, python3-six, python3-yattag, wxpython-tools, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "117501cdb5491f3627cc8493cd06d9f9848a67c47bc2adea7b95db95ffc412d7 1755 chirp_20240224-1.dsc 47b2c0748628816e3ad4b1557ca2fd62eff340fe5e846fc226ddbad987051fa8 2006302 chirp_20240224.orig.tar.gz 615da94acc01bf23a750c785d7f9e0fe921e003e7a21d3ff30a50c1af5da6f20 10088 chirp_20240224-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/chirp"
+  ],
+  "Files": [
+    "2779abed54cf228a71ced72aa15c9af1 1755 chirp_20240224-1.dsc 021554ed5a7e836116291ad63013015b 2006302 chirp_20240224.orig.tar.gz 8ff79a136c111e81e7d73b44eeb5c88c 10088 chirp_20240224-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://chirp.danplanet.com/"
+  ],
+  "Maintainer": [
+    "Debian Hamradio Maintainers \u003cdebian-hams@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "chirp"
+  ],
+  "Package-List": [
+    "chirp deb hamradio optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "hamradio"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ana Custura \u003cana@netstat.org.uk\u003e, Dave Hibberd \u003chibby@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/chirp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/chirp.git"
+  ],
+  "Version": [
+    "1:20240224-1"
+  ]
+}

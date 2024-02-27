@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mir-eval, python-mir-eval-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-matplotlib, python3-nose, python3-numpy, python3-scipy, python3-setuptools, python3-six, python3-sphinx, python3-numpydoc"
+  ],
+  "Checksums-Sha256": [
+    "aef51e8575690f4f017cfaa3815a948ed06d8f62b62bb020e82789063b766257 2227 mir-eval_0.7-7.1.dsc ca9e6bbc097925e54fa337d8c826a3a845b13a5b631176a6c2bb2b34a4fb8b18 2608641 mir-eval_0.7.orig.tar.gz 73cbf03c9bc1f6c9f85479398e55fa8f507ef943e2ffa6fc26863d7a3bf8498e 6024 mir-eval_0.7-7.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mir-eval"
+  ],
+  "Files": [
+    "a1158d3eca08554c3fa8e7a2df1d30cc 2227 mir-eval_0.7-7.1.dsc d6ab864474b1628bff69e35f48da554c 2608641 mir-eval_0.7.orig.tar.gz 462a838ec63b88f95401e3feb1cfcb89 6024 mir-eval_0.7-7.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/craffel/mir_eval"
+  ],
+  "Maintainer": [
+    "Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e"
+  ],
+  "Package": [
+    "mir-eval"
+  ],
+  "Package-List": [
+    "python-mir-eval-doc deb doc optional arch=all python3-mir-eval deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-matplotlib, python3-nose, python3-numpy, python3-pytest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/mir-eval"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/mir-eval.git"
+  ],
+  "Version": [
+    "0.7-7.1"
+  ]
+}

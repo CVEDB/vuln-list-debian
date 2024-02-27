@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crossterm-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.58.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-2+default-dev (\u003e= 2.3-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-mio-0.8+default-dev \u003c!nocheck\u003e, librust-mio-0.8+os-poll-dev \u003c!nocheck\u003e, librust-parking-lot-0.12+default-dev \u003c!nocheck\u003e, librust-signal-hook-0.3+default-dev (\u003e= 0.3.17-~~) \u003c!nocheck\u003e, librust-signal-hook-mio-0.2+default-dev (\u003e= 0.2.3-~~) \u003c!nocheck\u003e, librust-signal-hook-mio-0.2+support-v0-8-dev (\u003e= 0.2.3-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ff395b02f874f261e5c7aa5ac9929c05a1b917b7da179c8b2c3c661f026e1ef4 2832 rust-crossterm_0.27.0-3.dsc f476fe445d41c9e991fd07515a6f463074b782242ccf4a5b7b1d1012e70824df 125311 rust-crossterm_0.27.0.orig.tar.gz 626cd831f193a17f58d27e3e3502396eb6af7292f50a40883b0af22c714659d3 3652 rust-crossterm_0.27.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crossterm"
+  ],
+  "Files": [
+    "b29e37d4b2c7ae61b64cc829a56ae208 2832 rust-crossterm_0.27.0-3.dsc f79b8bf7d9769418b6bbd51ccc68996c 125311 rust-crossterm_0.27.0.orig.tar.gz 39d882d9f4b9c0f0dffdfa94358adc66 3652 rust-crossterm_0.27.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crossterm"
+  ],
+  "Package-List": [
+    "librust-crossterm-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-std-1+default-dev, librust-futures-0.3+default-dev, librust-futures-timer-3+default-dev, librust-serde-json-1+default-dev, librust-serial-test-2+default-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossterm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossterm]"
+  ],
+  "Version": [
+    "0.27.0-3"
+  ]
+}

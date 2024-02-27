@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-survival"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.2), dh-r, r-cran-matrix"
+  ],
+  "Checksums-Sha256": [
+    "489e34e28748e9fb6ead892e8aa149dd27c0c4222ffc920a169622e235c0f7e7 1861 survival_3.5-8-1.dsc 71edf845a26714d206430b7fce91901d4d0774640ad8a46ca3b2022008df18b4 6728556 survival_3.5-8.orig.tar.gz 44bbd1c36ceeaf4dedb454f04361f315700c81b98cc812900d5b844b7b0d93e3 6324 survival_3.5-8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/survival"
+  ],
+  "Files": [
+    "85abb83febf3c16336af6709b9424764 1861 survival_3.5-8-1.dsc 1c09fd690cd4392bb0adb7f0e2c7fe58 6728556 survival_3.5-8.orig.tar.gz bcbbb59ecf3edf8ec8d6af489515f1cb 6324 survival_3.5-8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=survival"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "survival"
+  ],
+  "Package-List": [
+    "r-cran-survival deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-survival"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-survival.git"
+  ],
+  "Version": [
+    "3.5-8-1"
+  ]
+}

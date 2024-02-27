@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libervia-backend, libervia-tui, libervia-cli, libervia-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, markdown, pybuild-plugin-pyproject, python3, python3-rich, python3-hatchling, python3-lxml, python3-prompt-toolkit, python3-setuptools, python3-shortuuid, python3-sphinx, python3-twisted, python3-typing-extensions, python3-urwid-satext, python3-wokkel, python3-xdg"
+  ],
+  "Checksums-Sha256": [
+    "3b6b095980dedd151db95111381d7601deda2d276f4af1b15b8e5c5b7d8e5676 2539 libervia-backend_0.9.0~hg4211-1.dsc 5b16aa3fb964f9b3da3b3b64fc1c70a0c6d7d65bbf50376f87f20059cbe290d4 1063571 libervia-backend_0.9.0~hg4211.orig.tar.bz2 863be50a3bf0afd1d9c227034e69c8e44d817ca42515406f16f0b599f1bd14d0 50216 libervia-backend_0.9.0~hg4211-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libe/libervia-backend"
+  ],
+  "Files": [
+    "d33ceec3ea9864b67ef9e467fa2a3322 2539 libervia-backend_0.9.0~hg4211-1.dsc 8780fec9c2bee5571b1f78e6becfb901 1063571 libervia-backend_0.9.0~hg4211.orig.tar.bz2 293820106df7a2f3b63d2c444f246b06 50216 libervia-backend_0.9.0~hg4211-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libervia.org/"
+  ],
+  "Maintainer": [
+    "Debian XMPP Maintainers \u003cpkg-xmpp-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libervia-backend"
+  ],
+  "Package-List": [
+    "libervia-backend deb net optional arch=all libervia-cli deb net optional arch=all libervia-doc deb net optional arch=all libervia-tui deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Matteo Cypriani \u003cmcy@lm7.fr\u003e, Thomas Preud'homme \u003crobotux@debian.org\u003e, Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xmpp-team/libervia-backend"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xmpp-team/libervia-backend.git"
+  ],
+  "Version": [
+    "0.9.0~hg4211-1"
+  ]
+}

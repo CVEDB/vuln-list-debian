@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "qmidinet"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libasound2-dev, libjack-dev | libjack-jackd2-dev, libqt6svg6-dev, libtool, libx11-dev, qt6-base-dev, qt6-tools-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "ccef903e75bb080fd1a1784bcaca459f9f05c0506dbf813c2def07545b1e1f22 2147 qmidinet_0.9.12-1.dsc 4984cd11857a96afab62afa2fc2c5f5fa60a67738896f20b0a88f31bce88967c 107286 qmidinet_0.9.12.orig.tar.gz c78c3b3deae742d71a6b0a5e0fbfd85a7fbd548271ac57eb0698e56edf5ac413 4472 qmidinet_0.9.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qmidinet"
+  ],
+  "Files": [
+    "016ec03736f27392ecef99a7ef4adb5d 2147 qmidinet_0.9.12-1.dsc 71be821f8b9fd0ad91523bf78874ce01 107286 qmidinet_0.9.12.orig.tar.gz f4507b751d45de635eaf51c2f677ce7b 4472 qmidinet_0.9.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qmidinet.sourceforge.io"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qmidinet"
+  ],
+  "Package-List": [
+    "qmidinet deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dennis Braun \u003csnd@debian.org\u003e, Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/qmidinet"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/qmidinet.git"
+  ],
+  "Version": [
+    "0.9.12-1"
+  ]
+}

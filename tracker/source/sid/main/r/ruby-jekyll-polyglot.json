@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-jekyll-polyglot"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb, jekyll, ruby-nokogiri, ruby-rspec"
+  ],
+  "Checksums-Sha256": [
+    "86541d5c25e4af9ad038bf9b6d99896d43fafdfe45b8116224bbcda700bdb73b 1825 ruby-jekyll-polyglot_1.7.0-1.dsc 4d8afcd3f56525bda507326ca99cf038f5a51e1704ef8ed190665c7beb7f0ce4 306768 ruby-jekyll-polyglot_1.7.0.orig.tar.gz e8a1658b9af52e91bb92f165fd2264979400f7d12a4fdddd37617b31768a246c 3784 ruby-jekyll-polyglot_1.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-jekyll-polyglot"
+  ],
+  "Files": [
+    "4cbb2472f85d827b198179c8847f44bf 1825 ruby-jekyll-polyglot_1.7.0-1.dsc 1c273f54bd4fa59973646293a99c650a 306768 ruby-jekyll-polyglot_1.7.0.orig.tar.gz acb5af176f80e291efa7d9875fc8913c 3784 ruby-jekyll-polyglot_1.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://polyglot.untra.io/"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-jekyll-polyglot"
+  ],
+  "Package-List": [
+    "ruby-jekyll-polyglot deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Hans-Christoph Steiner \u003chans@eds.org\u003e, Daniel Leidert \u003cdleidert@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-jekyll-polyglot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-jekyll-polyglot.git"
+  ],
+  "Version": [
+    "1.7.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-rbgl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-graph, r-cran-bh"
+  ],
+  "Checksums-Sha256": [
+    "737768c8fb9d0ae150d55403f6e9579ef5e032799cfbbf1671aa84f247ff417a 2101 r-bioc-rbgl_1.78.0+dfsg-1.dsc d2f5368d9b59859086b7b28a8776e1cd0c49dfd1e7dcc672f90fc653042bc4f9 122460 r-bioc-rbgl_1.78.0+dfsg.orig.tar.xz 27301be69611136085fa20969564635caae3fa7927b14884088e40b70a8f2e6c 7276 r-bioc-rbgl_1.78.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-rbgl"
+  ],
+  "Files": [
+    "dfd376922263d5d409c7ac2d386df7bc 2101 r-bioc-rbgl_1.78.0+dfsg-1.dsc 654cdf8d3bf51742fa7f06985efcefbf 122460 r-bioc-rbgl_1.78.0+dfsg.orig.tar.xz d44da908baf4a578bfb205ffd0715497 7276 r-bioc-rbgl_1.78.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/RBGL/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-rbgl"
+  ],
+  "Package-List": [
+    "r-bioc-rbgl deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Christopher Hoskin \u003cchristopher.hoskin@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rbgl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-rbgl.git"
+  ],
+  "Version": [
+    "1.78.0+dfsg-1"
+  ]
+}

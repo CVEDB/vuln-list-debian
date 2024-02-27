@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gdnsd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ragel, libev-dev, libltdl-dev, libmaxminddb-dev, libsodium-dev, libunwind-dev [amd64 arm64 armel armhf hppa i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4], liburcu-dev, perl, libhttp-daemon-perl \u003c!nocheck\u003e, libio-socket-inet6-perl \u003c!nocheck\u003e, libnet-dns-perl \u003c!nocheck\u003e, libsocket6-perl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d9a6d5e24c21e205dd613a1f46cd0733c4a098e06d959edf84d2df14c191b2f6 2399 gdnsd_3.8.2-1.dsc f303d2ae3a027190057449955559431505b5a1cdb0e6c1190de8f6e54fcbc2c8 487332 gdnsd_3.8.2.orig.tar.xz daac286b339b20ba366c8d729239f5cb4917873d6ead2c44a7e212533fc70aa5 898 gdnsd_3.8.2.orig.tar.xz.asc 331076c65e9debafe89399256f585c612e0665df2a6ded7f91fb6972982a091e 11012 gdnsd_3.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gdnsd"
+  ],
+  "Files": [
+    "a8b5ac99e23c49ed55b612e84ac39cd3 2399 gdnsd_3.8.2-1.dsc b1ca72d5ef667625a641598a41f8737b 487332 gdnsd_3.8.2.orig.tar.xz 5a43a9573010337aff5a9c841547b229 898 gdnsd_3.8.2.orig.tar.xz.asc 72651a1686935feb2e42496f40098f37 11012 gdnsd_3.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gdnsd.org/"
+  ],
+  "Maintainer": [
+    "Faidon Liambotis \u003cparavoid@debian.org\u003e"
+  ],
+  "Package": [
+    "gdnsd"
+  ],
+  "Package-List": [
+    "gdnsd deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, bind9-dnsutils"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/paravoid/gdnsd"
+  ],
+  "Vcs-Git": [
+    "https://github.com/paravoid/gdnsd.git"
+  ],
+  "Version": [
+    "3.8.2-1"
+  ]
+}

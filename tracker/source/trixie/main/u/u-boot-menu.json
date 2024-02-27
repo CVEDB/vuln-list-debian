@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "u-boot-menu"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "95e3d07b583fa3ee7692a1717ac7f37065375c82aba2e6fdd56f3a4ce9acf797 1055 u-boot-menu_4.2.3.dsc 10c228c66f56890c2f253d3503f4c7920b5fe66edd8269781f282d55afebea20 14976 u-boot-menu_4.2.3.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/u-boot-menu"
+  ],
+  "Files": [
+    "8062b4c800805240df37da2ba0146553 1055 u-boot-menu_4.2.3.dsc 1508447793e4879ad31946571fb8eca8 14976 u-boot-menu_4.2.3.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://github.com/suihkulokki/u-boot-menu"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "u-boot-menu"
+  ],
+  "Package-List": [
+    "u-boot-menu deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Vagrant Cascadian \u003cvagrant@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/u-boot-menu"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/u-boot-menu.git"
+  ],
+  "Version": [
+    "4.2.3"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-hanwen-go-fuse-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-sys-dev"
+  ],
+  "Checksums-Sha256": [
+    "76e5c22ef9ebc0a93b787d02885bcf63992d39d74124cde962a1c150b710a5a5 1714 golang-github-hanwen-go-fuse_2.4.2-2.dsc baf5483fad078605dca84836b827a04950cf3560e1ff82688561ce65b73a531f 197719 golang-github-hanwen-go-fuse_2.4.2.orig.tar.gz b43ce3cf7e0dc3ab6edccfb40bc6626d9e52c5ec1db4243e046c70f4d406904f 5644 golang-github-hanwen-go-fuse_2.4.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-hanwen-go-fuse"
+  ],
+  "Files": [
+    "0faca193092709cb8c3569430947267e 1714 golang-github-hanwen-go-fuse_2.4.2-2.dsc 1712d5bf947627441408f6a46e3fdd2e 197719 golang-github-hanwen-go-fuse_2.4.2.orig.tar.gz 02c341072244c675ff3b8c1def26b158 5644 golang-github-hanwen-go-fuse_2.4.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/hanwen/go-fuse"
+  ],
+  "Homepage": [
+    "https://github.com/hanwen/go-fuse"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cpkg-go-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-hanwen-go-fuse"
+  ],
+  "Package-List": [
+    "golang-github-hanwen-go-fuse-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julian Gilbey \u003cjdg@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-hanwen-go-fuse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-hanwen-go-fuse.git"
+  ],
+  "Version": [
+    "2.4.2-2"
+  ]
+}

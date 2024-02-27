@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-psd-tools, python3-psd-tools-doc"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-all-dev, python3-pytest, python3-setuptools, python3-skimage, python3-sphinx-rtd-theme, sphinx | python3-sphinx | dh-sequence-sphinxdoc"
+  ],
+  "Checksums-Sha256": [
+    "7d2dd45ffffcb17a06da68d643cab45430cda21159e6b94d6f0f05d9e7ecaa28 2205 psd-tools_1.9.30+dfsg.1-1.dsc 28f3797a2a54e872890fa10b9ab3be63ba82f034019edf97b174726b9d5463fc 1207504 psd-tools_1.9.30+dfsg.1.orig.tar.xz 2831f5dce7ad7b7e7a6cc26179cb46e7b531cf84b0a6144f56b8e9c3856b6542 11912 psd-tools_1.9.30+dfsg.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/psd-tools"
+  ],
+  "Files": [
+    "5becbc14deb13c4d6b1d968e1122d066 2205 psd-tools_1.9.30+dfsg.1-1.dsc e2f328cc063e8e6a3d3c842951949824 1207504 psd-tools_1.9.30+dfsg.1.orig.tar.xz 767ce19676b1b17b68845dafa34b6814 11912 psd-tools_1.9.30+dfsg.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/psd-tools/psd-tools"
+  ],
+  "Maintainer": [
+    "Ying-Chun Liu (PaulLiu) \u003cpaulliu@debian.org\u003e"
+  ],
+  "Package": [
+    "psd-tools"
+  ],
+  "Package-List": [
+    "python3-psd-tools deb python optional arch=any python3-psd-tools-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-ipython, python3-pytest, python3-pytest-cov"
+  ],
+  "Version": [
+    "1.9.30+dfsg.1-1"
+  ]
+}

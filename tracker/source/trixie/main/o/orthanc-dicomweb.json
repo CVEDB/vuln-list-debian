@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "orthanc-dicomweb"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), pybuild-plugin-pyproject, fonts-font-awesome, libjs-bootstrap4, libgtest-dev, libjs-jquery, liborthancframework-dev, node-axios, orthanc-dev, unzip, uuid-dev, yui-compressor, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "a1e728abae77a7ff2944a2f732d5a76c08846e8ee58dd40f34eef81f29c23665 2471 orthanc-dicomweb_1.16+dfsg-1.dsc 792390191701d9a274ee836e0a9345b0f0891951b5573d51e6e9d9b1e292588a 108744 orthanc-dicomweb_1.16+dfsg.orig.tar.xz 7bd8fd85940d5efadda08cbe78b803366feb106a0c0d3da99fc80710c71d10ee 705156 orthanc-dicomweb_1.16+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/orthanc-dicomweb"
+  ],
+  "Files": [
+    "952493b36514e1d6d333b9976615b398 2471 orthanc-dicomweb_1.16+dfsg-1.dsc 01b4cb4e9fadf8a45b75615f95f8d4f3 108744 orthanc-dicomweb_1.16+dfsg.orig.tar.xz 8bf23642862a411dcd28572ff124dadf 705156 orthanc-dicomweb_1.16+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.orthanc-server.com/static.php?page=dicomweb"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "orthanc-dicomweb"
+  ],
+  "Package-List": [
+    "orthanc-dicomweb deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, debhelper-compat, libgtest-dev, liborthancframework-dev, orthanc-dev, unzip, uuid-dev"
+  ],
+  "Uploaders": [
+    "Sebastien Jodogne \u003cs.jodogne@gmail.com\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/orthanc-dicomweb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/orthanc-dicomweb.git"
+  ],
+  "Version": [
+    "1.16+dfsg-1"
+  ]
+}

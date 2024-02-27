@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "wasi-libc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), clang-16, llvm-16"
+  ],
+  "Checksums-Sha256": [
+    "281adaf42c62dd09e06117a83b3c42afad6231c7dc2e9013a219d0cff916d23e 2174 wasi-libc_0.0~git20230113.4362b18-3.dsc 58821da562132abb1cf11bf38957a82c95bea3ae2509f5fb9c1084cbc2701c35 860476 wasi-libc_0.0~git20230113.4362b18.orig.tar.xz 25224d33ad97d49fc4a3ad740fd08924207022315050aea9b0268df8935c17fa 7376 wasi-libc_0.0~git20230113.4362b18-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wasi-libc"
+  ],
+  "Files": [
+    "2438411ad56f20681be0e13aa01416ff 2174 wasi-libc_0.0~git20230113.4362b18-3.dsc d648a330328c666a8e22981030726898 860476 wasi-libc_0.0~git20230113.4362b18.orig.tar.xz ebd8ba67cc13082b960cb505fa6b308d 7376 wasi-libc_0.0~git20230113.4362b18-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/CraneStation/wasi-libc"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "wasi-libc"
+  ],
+  "Package-List": [
+    "wasi-libc deb devel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Fabian Grünbichler \u003cdebian@fabian.gruenbichler.email\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/wasi-libc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/wasi-libc.git"
+  ],
+  "Version": [
+    "0.0~git20230113.4362b18-3"
+  ]
+}

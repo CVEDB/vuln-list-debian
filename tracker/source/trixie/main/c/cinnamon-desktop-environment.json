@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cinnamon-core, cinnamon-desktop-environment"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "4bdc5a5dcfd7e90e533f62121875848ee1c7ccadc711903f66e5b6ac3b69aa39 2029 cinnamon-desktop-environment_5.8.0.dsc 1b922e3c9223d816dbb8970ffdff19201b3c0c366d46816924c2c69f254cecc2 4844 cinnamon-desktop-environment_5.8.0.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cinnamon-desktop-environment"
+  ],
+  "Files": [
+    "a27c19f2261d80bf1683832113fe9bf2 2029 cinnamon-desktop-environment_5.8.0.dsc 8630e089800353e9eafccd06d822e31d 4844 cinnamon-desktop-environment_5.8.0.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "http://cinnamon.linuxmint.com/"
+  ],
+  "Maintainer": [
+    "Debian Cinnamon Team \u003cdebian-cinnamon@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "cinnamon-desktop-environment"
+  ],
+  "Package-List": [
+    "cinnamon-core deb metapackages optional arch=all cinnamon-desktop-environment deb metapackages optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Maximiliano Curia \u003cmaxy@debian.org\u003e, Margarita Manterola \u003cmarga@debian.org\u003e, Fabio Fantoni \u003cfantonifabio@tiscali.it\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Christoph Martin \u003cmartin@uni-mainz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cinnamon-team/cinnamon-desktop-environment"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cinnamon-team/cinnamon-desktop-environment.git"
+  ],
+  "Version": [
+    "5.8.0"
+  ]
+}

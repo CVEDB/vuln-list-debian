@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libxtensor-dev, xtensor-doc, xtensor-dev"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.1), debhelper-compat (= 13), dpkg-dev (\u003e= 1.17.14), doctest-dev \u003c!nocheck\u003e, nlohmann-json3-dev (\u003e= 3.1.1~), xtl-dev (\u003e= 0.7.5~), xtl-dev (\u003c\u003c 0.8), python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-breathe \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, libjs-mathjax \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e5ac75072a42819282b1a0d74bccf1a8682f654f5865c69a2932e083f5a4e271 2445 xtensor_0.25.0-1.dsc 32d5d9fd23998c57e746c375a544edf544b74f0a18ad6bc3c38cbba968d5e6c7 1214069 xtensor_0.25.0.orig.tar.gz 64be8b24add28db35da92afd93f86fa0e1c32b8f2ed80acedc47a1ae37caa8aa 9464 xtensor_0.25.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xtensor"
+  ],
+  "Files": [
+    "f4bb36924de61f20a411c52e9befcfb0 2445 xtensor_0.25.0-1.dsc 3432b1981b12c443201e14f9ee14d1ad 1214069 xtensor_0.25.0.orig.tar.gz a53a0e3a54fe8abb670fdcf6df65995a 9464 xtensor_0.25.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xtensor-stack/xtensor"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "xtensor"
+  ],
+  "Package-List": [
+    "libxtensor-dev deb libdevel optional arch=all xtensor-dev deb libdevel optional arch=all xtensor-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "clang, cmake, doctest-dev, g++"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/xtensor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/xtensor.git"
+  ],
+  "Version": [
+    "0.25.0-1"
+  ]
+}

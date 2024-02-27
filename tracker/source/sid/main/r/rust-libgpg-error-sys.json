@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-libgpg-error-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.64) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-system-deps-6+default-dev (\u003e= 6.0.2-~~) \u003c!nocheck\u003e, libgpg-error-dev \u003c!nocheck\u003e, pkgconf \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "205e298847bbc9cc6d9654fae466e8343be29fadad4febefb1fc60c52fd7417f 2458 rust-libgpg-error-sys_0.6.0-1.dsc c97079310f39c835d3bd73578379d040f779614bb331c7ffbb6630fee6420290 7457 rust-libgpg-error-sys_0.6.0.orig.tar.gz 06349838eb0142331d061d32f1a637b115d820dac2dc17bd026c68e0d4f2fbc8 2400 rust-libgpg-error-sys_0.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-libgpg-error-sys"
+  ],
+  "Files": [
+    "57131e0e17e0391c2cf165a4a31d46c7 2458 rust-libgpg-error-sys_0.6.0-1.dsc d76cc3763ce93f6e56c149bd1f309d45 7457 rust-libgpg-error-sys_0.6.0.orig.tar.gz df898408986bd147b0dccab166755da3 2400 rust-libgpg-error-sys_0.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-libgpg-error-sys"
+  ],
+  "Package-List": [
+    "librust-libgpg-error-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libgpg-error-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libgpg-error-sys]"
+  ],
+  "Version": [
+    "0.6.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gimli-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.3+std-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.3-dev \u003c!nocheck\u003e, librust-indexmap+default-dev (\u003e= 1.9.3-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1+std-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "73218c78d7e15e3afbbd5bfe2a8ccb2dcf38d52ec648d6707544bf680ede53cb 2447 rust-gimli_0.28.1-2.dsc 4271d37baee1b8c7e4b708028c57d816cf9d2434acb33a549475f78c181f6253 270497 rust-gimli_0.28.1.orig.tar.gz 0cf870046bac3fd57889fdcfba51d7534173ba970b82142fef6839c5f549468a 9992 rust-gimli_0.28.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gimli"
+  ],
+  "Files": [
+    "e1ba7cbdb21ac0cd1a1d96993babb83c 2447 rust-gimli_0.28.1-2.dsc fbc6f6d82084b19c006198508b1ac489 270497 rust-gimli_0.28.1.orig.tar.gz 0640de3a6407c25e740bb43f462b515b 9992 rust-gimli_0.28.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gimli"
+  ],
+  "Package-List": [
+    "librust-gimli-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gimli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gimli]"
+  ],
+  "Version": [
+    "0.28.1-2"
+  ]
+}

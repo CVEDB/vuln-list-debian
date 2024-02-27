@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-pycryptodome, python-pycryptodome-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "53369a241b4c64aa4d95c43e00792be22d1959a90d0dc074eddd3df78a4d74e4 2300 pycryptodome_3.20.0+dfsg-1.dsc f7d907ec53696f7559fb9a1b19d61f55f7aff053f3196be5bf8dff83bc049a16 10883808 pycryptodome_3.20.0+dfsg.orig.tar.xz bb120cbecaff71d5c0a465be74e40e1d1498ec751806b73d734feedda7d09404 11544 pycryptodome_3.20.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pycryptodome"
+  ],
+  "Files": [
+    "d344d93b19f25c0437964f8a4373e029 2300 pycryptodome_3.20.0+dfsg-1.dsc f10ab092b8ee362d9ee1e9aa3a2221d3 10883808 pycryptodome_3.20.0+dfsg.orig.tar.xz 34e82e85459f99f549f988ec8745d468 11544 pycryptodome_3.20.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pycryptodome.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pycryptodome"
+  ],
+  "Package-List": [
+    "python-pycryptodome-doc deb doc optional arch=all python3-pycryptodome deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Christopher Hoskin \u003cmans0954@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pycryptodome"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pycryptodome.git"
+  ],
+  "Version": [
+    "3.20.0+dfsg-1"
+  ]
+}

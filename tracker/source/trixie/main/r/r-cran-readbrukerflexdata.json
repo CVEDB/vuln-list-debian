@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-readbrukerflexdata"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "2f1ef9d7668a7146152b395c9af0ffa14553e4b69256d75140548549f1d467f8 2279 r-cran-readbrukerflexdata_1.9.2-1.dsc 11f89fb32d987d41d0bb97bc37ac239adf1daf8463995729f0591d9701ade7fe 331618 r-cran-readbrukerflexdata_1.9.2.orig.tar.gz cdb130ad7d4109dfe80aeea0d0540b1f102d605b165b889721a1d9221175b6b9 3424 r-cran-readbrukerflexdata_1.9.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-readbrukerflexdata"
+  ],
+  "Files": [
+    "a9858c1a51696c7c778a4aec200504b6 2279 r-cran-readbrukerflexdata_1.9.2-1.dsc c696d075e8971861c9d96ba5d3b2e9fd 331618 r-cran-readbrukerflexdata_1.9.2.orig.tar.gz c67d2e1aa3a3120be202aef1ae38ae74 3424 r-cran-readbrukerflexdata_1.9.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=readBrukerFlexData"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-readbrukerflexdata"
+  ],
+  "Package-List": [
+    "r-cran-readbrukerflexdata deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Filippo Rusconi \u003clopippo@debian.org\u003e, Sebastian Gibb \u003csgibb.debian@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-readbrukerflexdata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-readbrukerflexdata.git"
+  ],
+  "Version": [
+    "1.9.2-1"
+  ]
+}

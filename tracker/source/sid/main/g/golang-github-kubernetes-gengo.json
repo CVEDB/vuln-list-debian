@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-kubernetes-gengo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.15~), golang-glog-dev, golang-github-davecgh-go-spew-dev, golang-github-kr-pretty-dev, golang-github-google-gofuzz-dev, golang-github-gogo-protobuf-dev, golang-github-google-go-cmp-dev, golang-github-spf13-pflag-dev, golang-gopkg-check.v1-dev, golang-golang-x-tools-dev, golang-k8s-klog-dev, golang-k8s-sigs-yaml-dev"
+  ],
+  "Checksums-Sha256": [
+    "c32328d05a8b59319d62772541bb5756ae0063381d83563d756e31d486b6b85b 2691 golang-github-kubernetes-gengo_0.0~git20230829.9cce18d-2.dsc f23677225f50f8466afa71d487aded3fa2d2e84055848eee66cc9ba636dc1959 85936 golang-github-kubernetes-gengo_0.0~git20230829.9cce18d.orig.tar.xz 8b68baea7ba818572d63d907b9d7b303f5fdcae9d48d4c8a14fda659534f48d2 3108 golang-github-kubernetes-gengo_0.0~git20230829.9cce18d-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-kubernetes-gengo"
+  ],
+  "Files": [
+    "4ce00be4889a624ebf1ff4e81c3da9ff 2691 golang-github-kubernetes-gengo_0.0~git20230829.9cce18d-2.dsc 7573a3bf3007c52baee7d921c0c6d015 85936 golang-github-kubernetes-gengo_0.0~git20230829.9cce18d.orig.tar.xz 0ebac045f731de5d1ed60e8a3bd4a6c1 3108 golang-github-kubernetes-gengo_0.0~git20230829.9cce18d-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "k8s.io/gengo"
+  ],
+  "Homepage": [
+    "https://github.com/kubernetes/gengo"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-kubernetes-gengo"
+  ],
+  "Package-List": [
+    "golang-github-kubernetes-gengo-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Tim Potter \u003ctpot@hpe.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-k8s-gengo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-k8s-gengo.git"
+  ],
+  "Version": [
+    "0.0~git20230829.9cce18d-2"
+  ]
+}

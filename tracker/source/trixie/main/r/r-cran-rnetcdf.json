@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rnetcdf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, libnetcdf-dev, libudunits2-dev"
+  ],
+  "Checksums-Sha256": [
+    "34d20bfc365c2c9e364c2148faaf896d5cbf13011cc7e749b2ce6e1465725751 2135 r-cran-rnetcdf_2.9-1-1.dsc 5c7e2b98769632c107650864425a19fc7c399bceb55cb418c4459658ce23c142 160520 r-cran-rnetcdf_2.9-1.orig.tar.gz 470bfb5a0f91a3e627f2c498b84ef474173817220508bde6f756e6f5d335c080 4556 r-cran-rnetcdf_2.9-1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rnetcdf"
+  ],
+  "Files": [
+    "7f3a8bc5144e76ea47c1339e154dc141 2135 r-cran-rnetcdf_2.9-1-1.dsc ad7be84de579f8527241b4f08bd36117 160520 r-cran-rnetcdf_2.9-1.orig.tar.gz afa65594aa81eb85ffe1986b6ac68000 4556 r-cran-rnetcdf_2.9-1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=RNetCDF"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-rnetcdf"
+  ],
+  "Package-List": [
+    "r-cran-rnetcdf deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bit64"
+  ],
+  "Uploaders": [
+    "Filippo Rusconi \u003clopippo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rnetcdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rnetcdf.git"
+  ],
+  "Version": [
+    "2.9-1-1"
+  ]
+}

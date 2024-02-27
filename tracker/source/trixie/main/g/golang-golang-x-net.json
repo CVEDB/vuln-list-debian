@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-net-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.19~), golang-golang-x-crypto-dev (\u003e= 0.19.0), golang-golang-x-sys-dev (\u003e= 0.17.0), golang-golang-x-term-dev (\u003e= 0.17.0), golang-golang-x-text-dev (\u003e= 0.14.0), publicsuffix (\u003e= 20230804.1533)"
+  ],
+  "Checksums-Sha256": [
+    "b5e004b411da47d154c28b850788a5d6487e244a182229b677eb126ddfcf2de5 2501 golang-golang-x-net_0.21.0+dfsg-1.dsc e0c6ebc0fa0ae18483e93ca67b0664afbe37e91f2d651584db63dff99279d0ca 863004 golang-golang-x-net_0.21.0+dfsg.orig.tar.xz e92397d8ad8297efcd6e9baa0f8c6746a4d49ab6914a3629d2b6ae90d8998d66 15672 golang-golang-x-net_0.21.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-net"
+  ],
+  "Files": [
+    "f75350ba477c2e4d03d90dda52008392 2501 golang-golang-x-net_0.21.0+dfsg-1.dsc 2a4d3d74f8d85f717ec9be4e83f1456c 863004 golang-golang-x-net_0.21.0+dfsg.orig.tar.xz f0e86d8d7099bf34eacfb1d5c98d018b 15672 golang-golang-x-net_0.21.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/net"
+  ],
+  "Homepage": [
+    "https://golang.org/x/net"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-net"
+  ],
+  "Package-List": [
+    "golang-golang-x-net-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martín Ferrari \u003ctincho@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-net"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-net.git"
+  ],
+  "Version": [
+    "1:0.21.0+dfsg-1"
+  ]
+}

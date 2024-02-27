@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-shirou-gopsutil-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any (\u003e= 2:1.16~1~), golang-github-stretchr-testify-dev, golang-github-tklauser-go-sysconf-dev, golang-golang-x-sys-dev (\u003e= 0.0~git20180510~), lsof, procps"
+  ],
+  "Checksums-Sha256": [
+    "c9166aed0f8be795692de9244be299191d5d5c94dabbde508c2bc99c136cfbdf 2576 golang-github-shirou-gopsutil_3.24.1-1.dsc 3bc9d9a0bc298ff58022c1c61fa668e76b22db23ffffe357e755905ae274df7c 181113 golang-github-shirou-gopsutil_3.24.1.orig.tar.gz c8e74f93b3b42f2c3a19af42e91fde816c686d379b210012866c2981c47dbaf3 5340 golang-github-shirou-gopsutil_3.24.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-shirou-gopsutil"
+  ],
+  "Files": [
+    "f3467747a5e16fcdf49d2ca9d99706dd 2576 golang-github-shirou-gopsutil_3.24.1-1.dsc 8f917677686a7ca85b09b07618aa1a80 181113 golang-github-shirou-gopsutil_3.24.1.orig.tar.gz 8ec398fedf3c55f680c7fe315c74b23f 5340 golang-github-shirou-gopsutil_3.24.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/shirou/gopsutil"
+  ],
+  "Homepage": [
+    "https://github.com/shirou/gopsutil"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-shirou-gopsutil"
+  ],
+  "Package-List": [
+    "golang-github-shirou-gopsutil-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martín Ferrari \u003ctincho@debian.org\u003e, Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Aloïs Micard \u003ccreekorful@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-shirou-gopsutil"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-shirou-gopsutil.git"
+  ],
+  "Version": [
+    "3.24.1-1"
+  ]
+}

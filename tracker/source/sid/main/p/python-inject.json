@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-inject"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatch-vcs, python3-hatchling, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "0b599064bbd91709ec0938241b39d4b8d900e7e093618d9b4e71dd1d0d262b80 2194 python-inject_5.2.0-1.dsc 864e99aacb22241dbaa461ec18791bdff71f264f6c0760e4b86eafc13a87d68c 19704 python-inject_5.2.0.orig.tar.gz d0bd787690591515afad7ec035af9b799aaa7eada175f4eedd38042e4266e54c 2436 python-inject_5.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-inject"
+  ],
+  "Files": [
+    "14cd1fab33ae6a641b7ab6fdbec7bfb3 2194 python-inject_5.2.0-1.dsc f7999555b5a27743a679cb937a1b57fd 19704 python-inject_5.2.0.orig.tar.gz 8d7c28eac5038c922c097b6cf7fd10fa 2436 python-inject_5.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ivankorobkov/python-inject"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-inject"
+  ],
+  "Package-List": [
+    "python3-inject deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-inject"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-inject.git"
+  ],
+  "Version": [
+    "5.2.0-1"
+  ]
+}

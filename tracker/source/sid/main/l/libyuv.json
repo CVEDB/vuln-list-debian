@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libyuv-dev, libyuv-utils, libyuv0"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), googletest \u003c!nocheck\u003e, libjpeg-dev"
+  ],
+  "Checksums-Sha256": [
+    "d31a6dc40f5877feb3e9db572e6e792000b4d0a9bbe48a21f2d1f2defd4ce7d7 2233 libyuv_0.0~git202401110.af6ac82-1.dsc 113a5048fa68a3cfd0f3449349961f4280404e4d9817f93e83f31a154205f5f4 569207 libyuv_0.0~git202401110.af6ac82.orig.tar.gz f6d8eb94f940a0a5fad7d1b96f98dd563d10215bd9419cc6785c0451cf041c1b 5916 libyuv_0.0~git202401110.af6ac82-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liby/libyuv"
+  ],
+  "Files": [
+    "a7266ae6de012ac9b81ee21d6f325318 2233 libyuv_0.0~git202401110.af6ac82-1.dsc 4cc762af3bdd10ee114acb9571e52d13 569207 libyuv_0.0~git202401110.af6ac82.orig.tar.gz 58a3240c13ed98679a7ecc455c35bc34 5916 libyuv_0.0~git202401110.af6ac82-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://chromium.googlesource.com/libyuv/libyuv/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libyuv"
+  ],
+  "Package-List": [
+    "libyuv-dev deb libdevel optional arch=any libyuv-utils deb libs optional arch=any libyuv0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libyuv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libyuv.git"
+  ],
+  "Version": [
+    "0.0~git202401110.af6ac82-1"
+  ]
+}

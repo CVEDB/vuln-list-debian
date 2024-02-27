@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-phpdocumentor-type-resolver"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-doctrine-deprecations, php-phpdocumentor-reflection-common, php-phpstan-phpdoc-parser, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "ef3f62eb448bcb72f2f9538b682e01f7cf32ff8daa2be01d1cc2addcbad413c1 2051 php-phpdocumentor-type-resolver_1.8.2-1.dsc 293bac46fbcee57e0afde8edb0de66a9113ee3f18f56136e3023e98473edc1d6 185996 php-phpdocumentor-type-resolver_1.8.2.orig.tar.xz b0f307f63f8813ff8c1727877b6c7252254acb28deb4899c7249b7c52a59f459 9180 php-phpdocumentor-type-resolver_1.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-phpdocumentor-type-resolver"
+  ],
+  "Files": [
+    "4af2f064133447a96cfc72305a3aa072 2051 php-phpdocumentor-type-resolver_1.8.2-1.dsc b0cecf8973e3259230908355d8e7826d 185996 php-phpdocumentor-type-resolver_1.8.2.orig.tar.xz 4ef758e1286d5ad1b12725b68a2c9c9c 9180 php-phpdocumentor-type-resolver_1.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phpdoc.org/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-phpdocumentor-type-resolver"
+  ],
+  "Package-List": [
+    "php-phpdocumentor-type-resolver deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpunit"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-phpdocumentor-type-resolver"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-phpdocumentor-type-resolver.git"
+  ],
+  "Version": [
+    "1.8.2-1"
+  ]
+}

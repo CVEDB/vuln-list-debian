@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-biobase"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics"
+  ],
+  "Checksums-Sha256": [
+    "b0e16ca10756ad4c1b56ea2947bb23af49b72d64f2e968717816c6399fa460b8 2080 r-bioc-biobase_2.62.0-1.dsc ef753acc499c2504e226bf76e0acc08b7aa370fc60cc369bb8ebc1913f57d37e 1795862 r-bioc-biobase_2.62.0.orig.tar.gz efea655a44ec0b8a5e4baa3e9ab6f86d1cfaf9811d80a16965a07dfc9334f588 8580 r-bioc-biobase_2.62.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-biobase"
+  ],
+  "Files": [
+    "902b9729dc98970660da373db0221f55 2080 r-bioc-biobase_2.62.0-1.dsc 75a65eb015d58ca611f2bebca41f9d2d 1795862 r-bioc-biobase_2.62.0.orig.tar.gz ed4167d5cc59f36321e3b918bb27cd78 8580 r-bioc-biobase_2.62.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/Biobase/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-biobase"
+  ],
+  "Package-List": [
+    "r-bioc-biobase deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biobase"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-biobase.git"
+  ],
+  "Version": [
+    "2.62.0-1"
+  ]
+}

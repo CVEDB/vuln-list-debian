@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "astap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fp-compiler, fp-units-misc, fp-units-net, lcl, lcl-qt5, lcl-utils, lazarus-src"
+  ],
+  "Checksums-Sha256": [
+    "7ba5651aa63e09be0512d564d2fa5ad3fa3000e81395ed4df92037fbe657f70d 2176 astap_2024.01.16-1.dsc 7b3d99d5a2bd4dce58bd71a743e6fe96e97985f35bf4abbe69065d23c7153bfb 2322526 astap_2024.01.16.orig.tar.gz 4cf721fc6fdedaad8714e4a8c9c536fe9e613530d8880c6d495a80312915312d 5564 astap_2024.01.16-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/astap"
+  ],
+  "Files": [
+    "0d627922810977614569f1a13d1054a0 2176 astap_2024.01.16-1.dsc cd15fadab04b929906a2cfe20267b709 2322526 astap_2024.01.16.orig.tar.gz c7973d9e696c7bc9a4f4e187540eb06c 5564 astap_2024.01.16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.hnsky.org/astap.htm"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "astap"
+  ],
+  "Package-List": [
+    "astap deb science optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/astap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/astap.git"
+  ],
+  "Version": [
+    "2024.01.16-1"
+  ]
+}

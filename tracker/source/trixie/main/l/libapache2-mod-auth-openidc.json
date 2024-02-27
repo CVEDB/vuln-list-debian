@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libapache2-mod-auth-openidc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), apache2-dev, libssl-dev, libcurl4-openssl-dev, libjansson-dev, libhiredis-dev, libpcre2-dev, zlib1g-dev, libcjose-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "48c07f0ca9796e2ab26b7d1cc323c78a07b1e8ff4925a798eb955c24f32efcdd 2305 libapache2-mod-auth-openidc_2.4.15.1-1.dsc b50b12beaf1c210e3f98d900306a0a7ea252aa1e2b77147cb3b2cb34072f3444 307690 libapache2-mod-auth-openidc_2.4.15.1.orig.tar.gz 2b2ac41d342989454878f75c861916ba6102efef8527b9479a7135dd1a8fe551 7284 libapache2-mod-auth-openidc_2.4.15.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libapache2-mod-auth-openidc"
+  ],
+  "Files": [
+    "5ca48cb5acecc5a140a8f259001947ee 2305 libapache2-mod-auth-openidc_2.4.15.1-1.dsc 547285e197d1d8ff44d21754725e7eb5 307690 libapache2-mod-auth-openidc_2.4.15.1.orig.tar.gz def34eb47ca38b14238d47d2039ab2f2 7284 libapache2-mod-auth-openidc_2.4.15.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zmartzone/mod_auth_openidc"
+  ],
+  "Maintainer": [
+    "Moritz Schlarb \u003cschlarbm@uni-mainz.de\u003e"
+  ],
+  "Package": [
+    "libapache2-mod-auth-openidc"
+  ],
+  "Package-List": [
+    "libapache2-mod-auth-openidc deb httpd optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Christoph Martin \u003cmartin@uni-mainz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libapache2-mod-auth-openidc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libapache2-mod-auth-openidc.git"
+  ],
+  "Version": [
+    "2.4.15.1-1"
+  ]
+}

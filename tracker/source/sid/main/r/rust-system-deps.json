@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-system-deps-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-expr-0.15+default-dev (\u003e= 0.15.5-~~) \u003c!nocheck\u003e, librust-cfg-expr-0.15+targets-dev (\u003e= 0.15.5-~~) \u003c!nocheck\u003e, librust-heck-0.4+default-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.23-~~) \u003c!nocheck\u003e, librust-toml-0.8+parse-dev \u003c!nocheck\u003e, librust-version-compare-0.1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "925226d58166e28a8414267bbc92eb4cd1a6c8ea5a678724790200ed735b2b23 2600 rust-system-deps_6.2.0-3.dsc 4f6099f58ecbf0c368f3b045e1fa429b40f0f271d3fa0473e7839315a72462fd 24952 rust-system-deps_6.2.0.orig.tar.gz 9b2aabef195b2d0da5883b70923174614b8d47ea53b0e77d16508b0b6c1b991a 4712 rust-system-deps_6.2.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-system-deps"
+  ],
+  "Files": [
+    "faf82e7d791ab4185265368bad03cf9c 2600 rust-system-deps_6.2.0-3.dsc 0b3d0fbda04e7e196f4617bba055a87a 24952 rust-system-deps_6.2.0.orig.tar.gz eb106e02e1dbf7a3bc626fd96079e0be 4712 rust-system-deps_6.2.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-system-deps"
+  ],
+  "Package-List": [
+    "librust-system-deps-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-assert-matches-1+default-dev, librust-itertools+default-dev, librust-lazy-static-1+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/system-deps"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/system-deps]"
+  ],
+  "Version": [
+    "6.2.0-3"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-lazr.restfulclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "227c85d4b5819cf64d477d417dd26f657dfd0d6c8dc39742661bb6743f2dad28 2156 lazr.restfulclient_0.14.6-1.dsc 43f12a1d3948463b1462038c47b429dcb5e42e0ba7f2e16511b02ba5d2adffdb 58590 lazr.restfulclient_0.14.6.orig.tar.gz abd2d884cd86573f1f2dc300604208e848fea701d29635119b1dea7812e39682 9704 lazr.restfulclient_0.14.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lazr.restfulclient"
+  ],
+  "Files": [
+    "bc69d6badf99f21d3a9e6cc611a6de3f 2156 lazr.restfulclient_0.14.6-1.dsc 7c4bd5a0dfb3f6ab726317c2e521f26f 58590 lazr.restfulclient_0.14.6.orig.tar.gz 25757c95c94bd293850728831fe61d6f 9704 lazr.restfulclient_0.14.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/lazr.restfulclient"
+  ],
+  "Maintainer": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Package": [
+    "lazr.restfulclient"
+  ],
+  "Package-List": [
+    "python3-lazr.restfulclient deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/lazr.restfulclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/lazr.restfulclient.git"
+  ],
+  "Version": [
+    "0.14.6-1"
+  ]
+}

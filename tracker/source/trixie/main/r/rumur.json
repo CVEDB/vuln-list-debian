@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rumur"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), bison, cmake, flex, libfl-dev, libgmp-dev, python3, strace"
+  ],
+  "Checksums-Sha256": [
+    "9ce9a2017b90843a429626654d674aeb7e6230cb2c5cb2813bf6c6849b281b09 1998 rumur_2023.11.27-1.dsc af7653196b5a651697ff232ca5bef6e7b175aaa95653e33a40cd91587fed5d4f 318263 rumur_2023.11.27.orig.tar.gz 6a5f52cb946facd506581f7ac630ee323cb4eb24021165989b54703d4dd0dfd7 5196 rumur_2023.11.27-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rumur"
+  ],
+  "Files": [
+    "681e1736a8107708d31f44b94a4a98cd 1998 rumur_2023.11.27-1.dsc 7198b8408bcd3ef5ac5fbdbaf878137b 318263 rumur_2023.11.27.orig.tar.gz 21bf6916045813840c8ba6cfb8de6d44 5196 rumur_2023.11.27-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Smattr/rumur"
+  ],
+  "Maintainer": [
+    "Matthew Fernandez \u003cmatthew.fernandez@gmail.com\u003e"
+  ],
+  "Package": [
+    "rumur"
+  ],
+  "Package-List": [
+    "rumur deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libfl-dev, libgmp-dev, python3"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/Smattr/rumur.git"
+  ],
+  "Vcs-Git": [
+    "https://github.com/Smattr/rumur.git -b packaging/debian"
+  ],
+  "Version": [
+    "2023.11.27-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kanshi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson (\u003e= 0.48), libwayland-dev, wayland-protocols (\u003e= 1.14), pkgconf, scdoc"
+  ],
+  "Checksums-Sha256": [
+    "d553b12f04305108143f74ac0d1a150bbc1950abe4827bf9b3e97af7a946c8ff 1989 kanshi_1.5.1-1.dsc 94b2cd3624662aa36b2126a98f01e21fe739c390688ecd742ec5f83da9be0ff1 22489 kanshi_1.5.1.orig.tar.gz bee9766e5837094adc26677e6848e2082bc2092207b4f2cd331fa43832181db0 5208 kanshi_1.5.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kanshi"
+  ],
+  "Files": [
+    "504f8ce2aea87819abb7ef8994e14d09 1989 kanshi_1.5.1-1.dsc 8227fb70a52bc97376c8756cb51a3226 22489 kanshi_1.5.1.orig.tar.gz e36cce70aea458cd38aa1d92090b65f4 5208 kanshi_1.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.sr.ht/~emersion/kanshi/refs"
+  ],
+  "Maintainer": [
+    "Sway and related packages team \u003cteam+swaywm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "kanshi"
+  ],
+  "Package-List": [
+    "kanshi deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/swaywm-team/kanshi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/swaywm-team/kanshi.git"
+  ],
+  "Version": [
+    "1.5.1-1"
+  ]
+}

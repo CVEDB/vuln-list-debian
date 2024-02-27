@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "explosive-c4"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), qmake6, qt6-base-dev, qt6-l10n-tools"
+  ],
+  "Checksums-Sha256": [
+    "bf291844966655a26df0597d4c625221d0934b4729d52c9f39f968613d3fdd53 2098 explosive-c4_1.2-3.dsc 5d5887073ab0a46041acfbd3245fed8ac4e53b77d48f96bd6ab52cafb05cc7db 28084 explosive-c4_1.2.orig.tar.gz f43f0c1cca20a5b509dcbc655c5bb587a8c536ebe9ad1e7922bc2b6e73277f08 833 explosive-c4_1.2.orig.tar.gz.asc 9ee3a7a2f7f119838973ddfef36b10d2f0d70af4804e6e7db09a1a9ca1ae0ebb 24088 explosive-c4_1.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/explosive-c4"
+  ],
+  "Files": [
+    "1ecb6d09f3a56c0332f747da60314f77 2098 explosive-c4_1.2-3.dsc 7fa7fc5f09dc1312ccf2aa17d98dfb80 28084 explosive-c4_1.2.orig.tar.gz 74cb6530ac5c2a211e031060ffc4d258 833 explosive-c4_1.2.orig.tar.gz.asc cbc0cd282ce2c5ebbc1a2645d3b557ca 24088 explosive-c4_1.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/ltworf/explosive-c4"
+  ],
+  "Maintainer": [
+    "Salvo 'LtWorf' Tomaselli \u003cltworf@debian.org\u003e"
+  ],
+  "Package": [
+    "explosive-c4"
+  ],
+  "Package-List": [
+    "explosive-c4 deb games optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://codeberg.org/ltworf/explosive-c4"
+  ],
+  "Version": [
+    "1.2-3"
+  ]
+}

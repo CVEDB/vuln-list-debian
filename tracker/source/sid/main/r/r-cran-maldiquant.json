@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-maldiquant"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "4068dd12408395445411bcc2247a1ad4ee14ed41d269e497da2bfe9ca8790c32 2207 r-cran-maldiquant_1.22.2-1.dsc 6051b07019003c698ae016d79f13945bfe2edec26f8a688126b978cb90adcfff 2500095 r-cran-maldiquant_1.22.2.orig.tar.gz a93808180d44e0c437b89a757a003a5b29d4ce80e2aab1b54e7a3a54f6a16a75 4212 r-cran-maldiquant_1.22.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-maldiquant"
+  ],
+  "Files": [
+    "dc3fec74e207af93d83a26aa97c1fe53 2207 r-cran-maldiquant_1.22.2-1.dsc 389460254c436902b8d8d0980dc805b6 2500095 r-cran-maldiquant_1.22.2.orig.tar.gz 781d9e254c33b0ad63ffe8c53fd31fb0 4212 r-cran-maldiquant_1.22.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=MALDIquant"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-maldiquant"
+  ],
+  "Package-List": [
+    "r-cran-maldiquant deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-knitr, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Filippo Rusconi \u003clopippo@debian.org\u003e, Sebastian Gibb \u003csgibb.debian@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-maldiquant"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-maldiquant.git"
+  ],
+  "Version": [
+    "1.22.2-1"
+  ]
+}

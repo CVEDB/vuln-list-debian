@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libhbci4j-core-java, libhbci4j-core-java-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk, maven-debian-helper"
+  ],
+  "Build-Depends-Indep": [
+    "libmaven-install-plugin-java, libmaven-javadoc-plugin-java, libmaven-jaxb2-plugin-java, junit4, default-jdk-doc, libjaxb-java, libjaxb-api-java"
+  ],
+  "Checksums-Sha256": [
+    "9aa8ca65f35fda516dd1338ca353264950a9857ae59b632995faf4dab3abfb73 2396 hbci4java_3.1.72-1.dsc 748e913a6b6dab35d65613f582e2c70623fa62b889a99e831a36da5787c9e71c 2141592 hbci4java_3.1.72.orig.tar.xz 09cff6c339577141b1ea0bade689f62b1f33ab2d9313065bc658dffc8b70a35a 4536 hbci4java_3.1.72-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Java online banking client using the HBCI standard HBCI4Java is a Java library for homebanking and contains support for chipTAN, smsTAN, HHD, SEPA."
+  ],
+  "Directory": [
+    "pool/main/h/hbci4java"
+  ],
+  "Files": [
+    "9a61bb7cbd377ae8c6d8c94828fdd8ed 2396 hbci4java_3.1.72-1.dsc bbfd54ae51c69400d3bbac171375c2a9 2141592 hbci4java_3.1.72.orig.tar.xz 71c98a690c1529cb19cda3582148bb09 4536 hbci4java_3.1.72-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/hbci4j/hbci4java"
+  ],
+  "Maintainer": [
+    "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "hbci4java"
+  ],
+  "Package-List": [
+    "libhbci4j-core-java deb java optional arch=all libhbci4j-core-java-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/java-team/hbci4java"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/hbci4java.git"
+  ],
+  "Version": [
+    "3.1.72-1"
+  ]
+}

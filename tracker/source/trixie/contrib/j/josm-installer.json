@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "josm-installer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3, python3-flake8, shellcheck, docbook2x, docbook-xsl, docbook-xml, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "ab81beaa41c4e2eb004a1d6ad6f078d644682c19569617a7d5e5b132171eb7a0 1820 josm-installer_0.0.3+svn18889.dsc 2e391444cc059684c16b7daecf240febe5e6eafe982d41646d1de809e4b923f8 662644 josm-installer_0.0.3+svn18889.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/j/josm-installer"
+  ],
+  "Files": [
+    "40b3abdf5cd1df96f6dec3780194bceb 1820 josm-installer_0.0.3+svn18889.dsc 9b5b7b2caa3d1cc8a179024d2b6ce327 662644 josm-installer_0.0.3+svn18889.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://josm.openstreetmap.de"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "josm-installer"
+  ],
+  "Package-List": [
+    "josm-installer deb contrib/utils optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/josm-installer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/josm-installer.git"
+  ],
+  "Version": [
+    "0.0.3+svn18889"
+  ]
+}

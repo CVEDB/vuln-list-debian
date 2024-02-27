@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "nlohmann-json3-dev"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), doxygen, ghostscript, graphviz, texlive-binaries, texlive-latex-base"
+  ],
+  "Checksums-Sha256": [
+    "5118bdb46f9d704dafd0d3ebf7857a7a79e6284515f5697cc1ed6c0ff4f106a0 2061 nlohmann-json3_3.11.3-1.dsc 0d8ef5af7f9794e3263480193c491549b2ba6cc74bb018906202ada498a79406 8053705 nlohmann-json3_3.11.3.orig.tar.gz b34b12aad8b78ca96ec3590da379c2687152d7d6e1c634094c970b3c9569e6ad 4756 nlohmann-json3_3.11.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nlohmann-json3"
+  ],
+  "Files": [
+    "eb0d7f853dfc6b94f5104b89e39de4af 2061 nlohmann-json3_3.11.3-1.dsc d603041cbc6051edbaa02ebb82cf0aa9 8053705 nlohmann-json3_3.11.3.orig.tar.gz 3bff869625583f6fed1112e322842738 4756 nlohmann-json3_3.11.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nlohmann.github.io/json/"
+  ],
+  "Maintainer": [
+    "Hubert Chathi \u003cuhoreg@debian.org\u003e"
+  ],
+  "Package": [
+    "nlohmann-json3"
+  ],
+  "Package-List": [
+    "nlohmann-json3-dev deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, ca-certificates, git"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/nlohmann-json3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/nlohmann-json3.git"
+  ],
+  "Version": [
+    "3.11.3-1"
+  ]
+}

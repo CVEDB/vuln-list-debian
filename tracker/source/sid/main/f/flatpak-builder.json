@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "flatpak-builder, flatpak-builder-tests"
+  ],
+  "Build-Depends": [
+    "appstream (\u003e= 0.15.0), appstream-compose (\u003e= 0.15.0), attr \u003c!nocheck\u003e, ca-certificates \u003c!nocheck\u003e, debhelper-compat (= 13), debugedit (\u003e= 1:5.0), desktop-file-utils \u003c!nocheck\u003e, dh-exec, docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, flatpak (\u003e= 1.12.4), fuse3 \u003c!nocheck\u003e, git \u003c!nocheck\u003e, gtk-update-icon-cache \u003c!nocheck\u003e, hicolor-icon-theme \u003c!nocheck\u003e, libarchive-dev, libattr1-dev, libcap-dev, libcurl4-gnutls-dev, libdw-dev, libelf-dev, libflatpak-dev (\u003e= 1.12.4), libglib2.0-dev (\u003e= 2.66), libjson-glib-dev, libostree-dev, libxml2-dev, libxml2-utils \u003c!nocheck\u003e, libyaml-dev, meson (\u003e= 0.56.2), ostree \u003c!nocheck\u003e, procps, python3, shared-mime-info \u003c!nocheck\u003e, xmlto \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f8c6a50372610db2ec51610b9ea5e6968f215411c46e8433bd5003462c9767a1 2952 flatpak-builder_1.4.1-1.dsc 0ae254a7c10ac8506a64b914b707ad2d135db7079350fb9e8e6584f9752a9cca 525980 flatpak-builder_1.4.1.orig.tar.xz fc69d4ac757a65a098c8505ae4d61d6dfd1daeb685be9a397f7a075dfe82fd06 10884 flatpak-builder_1.4.1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "89b03c19734f115f103393e79d97b8be0af6c8d5 debian archive/debian/1.4.1-1 https://git.dgit.debian.org/flatpak-builder"
+  ],
+  "Directory": [
+    "pool/main/f/flatpak-builder"
+  ],
+  "Files": [
+    "c955d40e8602035e1af78cdcff2d08b9 2952 flatpak-builder_1.4.1-1.dsc d5457012b89460e1cb837ef557806399 525980 flatpak-builder_1.4.1.orig.tar.xz 1d2427506915819cd4bdcaaebc2af026 10884 flatpak-builder_1.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://flatpak.org/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "flatpak-builder"
+  ],
+  "Package-List": [
+    "flatpak-builder deb devel optional arch=linux-any flatpak-builder-tests deb misc optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gnome-desktop-testing"
+  ],
+  "Uploaders": [
+    "Matthias Klumpp \u003cmak@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/flatpak-builder"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/flatpak-builder.git"
+  ],
+  "Version": [
+    "1.4.1-1"
+  ]
+}

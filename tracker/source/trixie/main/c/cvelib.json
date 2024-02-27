@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-cvelib"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-click (\u003e= 7.1.2~), python3-jsonschema, python3-pytest, python3-requests (\u003e= 2.24.0~), python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "a790449cb79b71f3429499fdf8a7bc6ada1cffc645a90743c1635c22132b9f39 2225 cvelib_1.2.1-1.dsc 80af791a98a53fc97b8f39cc658183e6af25dcb44d43f57dba6b44394d71efb9 39164 cvelib_1.2.1.orig.tar.xz 6c08f445fe4e48304ec8649545466fd8ff43710f0596549370b5dc6832bc51db 2904 cvelib_1.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cvelib"
+  ],
+  "Files": [
+    "6568679c83e54195cc2a46235df25eaa 2225 cvelib_1.2.1-1.dsc 69914d4a271b4b3fa528ad17ed696d62 39164 cvelib_1.2.1.orig.tar.xz 9cbdf5d76b3a87a6f8c0074461cc46ca 2904 cvelib_1.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RedHatProductSecurity/cvelib"
+  ],
+  "Maintainer": [
+    "Debian Security Team \u003cteam@security.debian.org\u003e"
+  ],
+  "Package": [
+    "cvelib"
+  ],
+  "Package-List": [
+    "python3-cvelib deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/security-team/cvelib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/security-team/cvelib.git"
+  ],
+  "Version": [
+    "1.2.1-1"
+  ]
+}

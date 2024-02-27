@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-aac-tactics"
+  ],
+  "Build-Depends": [
+    "coq (\u003e= 8.17), debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-core-ocaml-dev, libcoq-stdlib, ocaml"
+  ],
+  "Checksums-Sha256": [
+    "b5973f8692bbf1b28d80c77ada3eaed004efa8c988f86fcddbafeeeb9760b988 2104 aac-tactics_8.18.0-1.dsc f86eac00fa0e63e67cfbd9a4a1c7485f521ce00c780223f905648c0b86532a8d 75607 aac-tactics_8.18.0.orig.tar.gz 90a1e66c3cffd5dae2d500eeb464368dcfa74293835dfdb00e7cd058461cad0c 3716 aac-tactics_8.18.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aac-tactics"
+  ],
+  "Files": [
+    "e90debf55c733a4b506f514fa8003227 2104 aac-tactics_8.18.0-1.dsc 28a2247ef3676cb0de64970f14e24fc0 75607 aac-tactics_8.18.0.orig.tar.gz 28f9cef8bba6cace90878abf8b57e72f 3716 aac-tactics_8.18.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/coq-community/aac-tactics"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "aac-tactics"
+  ],
+  "Package-List": [
+    "libcoq-aac-tactics deb math optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e, Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/aac-tactics"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/aac-tactics.git"
+  ],
+  "Version": [
+    "8.18.0-1"
+  ]
+}

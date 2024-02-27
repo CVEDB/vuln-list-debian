@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "octave-netcdf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-octave (\u003e= 1.8.0), dh-sequence-octave, libnetcdf-dev, python3, texlive"
+  ],
+  "Checksums-Sha256": [
+    "95ebbbc4cca281aec38df0ef0f9687ea27b2eb263eacc539dfb09ced5fb0197a 2246 octave-netcdf_1.0.17-2.dsc bae143f1535e59bc8717258c0cccd60ddda7f9d1bd10599cfc99d9536b71f949 505005 octave-netcdf_1.0.17.orig.tar.gz fa8db4926b8cf16bc305b0c69e1ae54e20edf05628d845c7068471fc3f385004 8176 octave-netcdf_1.0.17-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "9fbaf64b8105c110678b7f8284398bac9f953a7b debian archive/debian/1.0.17-2 https://git.dgit.debian.org/octave-netcdf"
+  ],
+  "Directory": [
+    "pool/main/o/octave-netcdf"
+  ],
+  "Files": [
+    "1111cba8eafba5b515cea7c34a96c9d8 2246 octave-netcdf_1.0.17-2.dsc c7eac630f33977f6f7c3d9a2f28c06d3 505005 octave-netcdf_1.0.17.orig.tar.gz 9563ecee7d859be405281a8528a30006 8176 octave-netcdf_1.0.17-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnu-octave.github.io/packages/netcdf/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "octave-netcdf"
+  ],
+  "Package-List": [
+    "octave-netcdf deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-octave"
+  ],
+  "Uploaders": [
+    "Rafael Laboissière \u003crafael@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/octave-netcdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/octave-netcdf.git"
+  ],
+  "Version": [
+    "1.0.17-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "topcat, topcat-doc, starlink-topcat-java, starlink-topcat-java-doc"
+  ],
+  "Build-Depends": [
+    "ant, debhelper-compat (= 13), dh-exec, javahelper"
+  ],
+  "Build-Depends-Indep": [
+    "ant-optional, default-jdk, default-jdk-doc, javahelp2, jel-java, junit, libcds-moc-java, libfits-java, libjsamp-java, libopenjfx-java, libsaxonhe-java, starlink-datanode-java, starlink-fits-java, starlink-table-java (\u003e= 4.2~), starlink-task-java, starlink-ttools-java (\u003e= 3.4.9~), starlink-util-java (\u003e= 1.0+2022.09.23~), starlink-vo-java (\u003e= 0.2+2023.11.01~), starlink-votable-java, stilts-doc"
+  ],
+  "Checksums-Sha256": [
+    "2514c984391dadcd3eac6632b21821067184f6a27e396b32ba0a20718c47d9cc 2699 starjava-topcat_4.9-1.dsc 2d1b5423b1fa814103ce98a980f60f4b90044e0f63e968897d15eb6dc751883b 7109304 starjava-topcat_4.9.orig.tar.xz cd8dca128f177fafbb6aede39562c5f00313759c85962e76b74ebb14da80db0e 31176 starjava-topcat_4.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/starjava-topcat"
+  ],
+  "Files": [
+    "f07f4bda1b192fdaa64cf58bd5d25718 2699 starjava-topcat_4.9-1.dsc 4b5abe87fee43328b7c6328fdf4b6fd4 7109304 starjava-topcat_4.9.orig.tar.xz ad510f3ea3a496c9a9969452f4467654 31176 starjava-topcat_4.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.starlink.ac.uk/topcat/"
+  ],
+  "Maintainer": [
+    "Debian Astro Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "starjava-topcat"
+  ],
+  "Package-List": [
+    "starlink-topcat-java deb java optional arch=all starlink-topcat-java-doc deb doc optional arch=all topcat deb science optional arch=all topcat-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ant, ant-optional, default-jdk, junit"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/starjava-topcat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/starjava-topcat.git"
+  ],
+  "Version": [
+    "4.9-1"
+  ]
+}

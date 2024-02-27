@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "systemd-cron"
+  ],
+  "Build-Depends": [
+    "pkgconf, systemd-dev | systemd (\u003c\u003c 254.1-3~), debhelper-compat (= 13), dh-sequence-cruft, libmd-dev"
+  ],
+  "Checksums-Sha256": [
+    "9b092e04a764bfd76ead572d6dde4ad1affb77866595e21ec6e99794407b9824 2161 systemd-cron_2.3.2-1.dsc 0b28cda22f3b37711aa181f27c53493b36145549f0cb82b2fd994a85b9191806 57933 systemd-cron_2.3.2.orig.tar.gz b0f537152f061901fa448230e975fbba8493af82847090b9ff78bffc5c65e405 10640 systemd-cron_2.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/systemd-cron"
+  ],
+  "Files": [
+    "3516e4893e168cbb14a935ad2da4df5c 2161 systemd-cron_2.3.2-1.dsc 1166fd4c5ad53e0f3e29323541da1f85 57933 systemd-cron_2.3.2.orig.tar.gz 35469d8688f1701ffaba5f8401b21bae 10640 systemd-cron_2.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/systemd-cron/systemd-cron"
+  ],
+  "Maintainer": [
+    "Debian Systemd Maintainers \u003cpkg-systemd-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "systemd-cron"
+  ],
+  "Package-List": [
+    "systemd-cron deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Alexandre Detiste \u003ctchet@debian.org\u003e, наб \u003cnabijaczleweli@nabijaczleweli.xyz\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/systemd-team/systemd-cron"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/systemd-team/systemd-cron.git"
+  ],
+  "Version": [
+    "2.3.2-1"
+  ]
+}

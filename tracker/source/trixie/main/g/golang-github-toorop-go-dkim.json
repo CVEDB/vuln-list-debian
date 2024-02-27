@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-toorop-go-dkim-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-go-test-deep-dev, golang-github-stretchr-testify-dev"
+  ],
+  "Checksums-Sha256": [
+    "c6ab7553b8a155b941c7cf5778bd92aa2626ec8fe20ed68709e39f5bd1428d0e 2452 golang-github-toorop-go-dkim_0.0~git20240103.90b7d14-1.dsc 8c2751951a0690a42f07ff24434ba02fd41758178cb846c4b49df62fcdea1bf5 20706 golang-github-toorop-go-dkim_0.0~git20240103.90b7d14.orig.tar.gz 1eedd4814b7e777eee72e520c2a9fa8b8cfd277ffccc9ab136ead081663db6d0 2412 golang-github-toorop-go-dkim_0.0~git20240103.90b7d14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-toorop-go-dkim"
+  ],
+  "Files": [
+    "e1ab09e610eb45a7ee82cf703e1d1825 2452 golang-github-toorop-go-dkim_0.0~git20240103.90b7d14-1.dsc cc407dca07b1d567385a593035687556 20706 golang-github-toorop-go-dkim_0.0~git20240103.90b7d14.orig.tar.gz c495f4e4cec4139d06ced4c31c538234 2412 golang-github-toorop-go-dkim_0.0~git20240103.90b7d14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/toorop/go-dkim"
+  ],
+  "Homepage": [
+    "https://github.com/toorop/go-dkim"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-toorop-go-dkim"
+  ],
+  "Package-List": [
+    "golang-github-toorop-go-dkim-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-toorop-go-dkim"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-toorop-go-dkim.git"
+  ],
+  "Version": [
+    "0.0~git20240103.90b7d14-1"
+  ]
+}

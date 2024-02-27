@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "partman-auto"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-di, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "652e316b3cdd340a1edfc74eb241718386a484dc36a2ebcba395c4a1e60c5950 1684 partman-auto_164.dsc fe9ea8176a5d065f0895f36ac23cd2de293533a508cce66c830859eaafa00ed4 112140 partman-auto_164.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/partman-auto"
+  ],
+  "Files": [
+    "113f8fc8c56dfbfe93a82540ad61cffd 1684 partman-auto_164.dsc a530ca586ae652189be7b9dcdeea9b0a 112140 partman-auto_164.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "partman-auto"
+  ],
+  "Package-List": [
+    "partman-auto udeb debian-installer standard arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "debian-installer"
+  ],
+  "Uploaders": [
+    "John Paul Adrian Glaubitz \u003cglaubitz@physik.fu-berlin.de\u003e, Steve McIntyre \u003c93sam@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/partman-auto"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/partman-auto.git"
+  ],
+  "Version": [
+    "164"
+  ]
+}

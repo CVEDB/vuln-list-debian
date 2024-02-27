@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "nsd"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), flex, libevent-dev, libfstrm-dev, libprotobuf-c-dev, libssl-dev, libsystemd-dev [linux-any], openssl, pkg-config, po-debconf, protobuf-c-compiler"
+  ],
+  "Checksums-Sha256": [
+    "67b9e41914ed600c1eb21e455ac89c9a1f8391311e1c0a4aa297fe44ca07b5d0 1795 nsd_4.8.0-1.dsc 820da4e384721915f4bcaf7f2bed98519da563c6e4c130c742c724760ec02a0a 1273228 nsd_4.8.0.orig.tar.gz 4b261bf58b8cfec2c6d0599278a097f14068b306a5acd9914189a82bde60bf78 833 nsd_4.8.0.orig.tar.gz.asc 7b5737ed5a91a27810a8df56cdc7c8e714b0e369751e3a423b65f1f0d114b0e1 18796 nsd_4.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nsd"
+  ],
+  "Files": [
+    "6674fc6ed6a194b8b72f51f5586907cb 1795 nsd_4.8.0-1.dsc f21480c23b66e85f848d631be42f445e 1273228 nsd_4.8.0.orig.tar.gz 3210a1d7e48e968d38ef1f62c0fe30d3 833 nsd_4.8.0.orig.tar.gz.asc 2c4d0b2c95a6ac874ef5b538f43a3418 18796 nsd_4.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nlnetlabs.nl/projects/nsd/about/"
+  ],
+  "Maintainer": [
+    "nsd packagers \u003cnsd@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "nsd"
+  ],
+  "Package-List": [
+    "nsd deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e, Markus Schade \u003cmarkus.schade@gmail.com\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dns-team/nsd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dns-team/nsd.git"
+  ],
+  "Version": [
+    "4.8.0-1"
+  ]
+}

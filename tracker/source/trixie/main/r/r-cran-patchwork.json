@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-patchwork"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-gtable, r-cran-rlang, r-cran-cli"
+  ],
+  "Checksums-Sha256": [
+    "4400450327a640f513202dadb3d18254ae53c7c84276100ca84337ec79def1f7 2310 r-cran-patchwork_1.2.0-1.dsc cc31ea13560c424de9bfe2287d926a7d9e6cc8da2d5561402bb145b4f51b68a1 3289733 r-cran-patchwork_1.2.0.orig.tar.gz 07c9430c18dec32bec9435d6a5665b48ffce123a3c95b517d61760ea18dc2564 3320 r-cran-patchwork_1.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-patchwork"
+  ],
+  "Files": [
+    "9b1dd6a54e86952dfd4d7e66b5684c01 2310 r-cran-patchwork_1.2.0-1.dsc 3cf908b531cf600341be463a542a6e6e 3289733 r-cran-patchwork_1.2.0.orig.tar.gz c35e9b8c1e48952969603ccb42c25179 3320 r-cran-patchwork_1.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=patchwork"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-patchwork"
+  ],
+  "Package-List": [
+    "r-cran-patchwork deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-covr, r-cran-gridextra, r-cran-gridgraphics, r-cran-knitr, r-cran-png, r-cran-ragg, r-cran-rmarkdown, r-cran-testthat, r-cran-vdiffr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-patchwork"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-patchwork.git"
+  ],
+  "Version": [
+    "1.2.0-1"
+  ]
+}

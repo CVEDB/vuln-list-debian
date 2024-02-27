@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "subnetcalc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libgeoip-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "63f49df61fa8c6632cddf82da1b1de0cabe6cbf4f304121ec5ea64d6c42de012 1922 subnetcalc_2.4.23-1.dsc 0bb265e4509306a97e377972f8a00515f50ce253fdc4f027053b8ba14383beb8 128724 subnetcalc_2.4.23.orig.tar.xz 4b16bd9a8450589c24d451f77944783ba9045fb76fce66a7cefc25817b208e90 2913 subnetcalc_2.4.23.orig.tar.xz.asc 8bbf30d6cb501c7d197e035328ac2fbdf94e03fd5e3b4c95f1bb9c7bbd2c3379 75976 subnetcalc_2.4.23-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/subnetcalc"
+  ],
+  "Files": [
+    "d854e8eb0a7820541ac82c01b6f4bd97 1922 subnetcalc_2.4.23-1.dsc dee820ebf600a23f79ebd39d7c907c8d 128724 subnetcalc_2.4.23.orig.tar.xz c55a64fc6706127de026f0145352fa53 2913 subnetcalc_2.4.23.orig.tar.xz.asc e7364395133bd5b62ad0984b470f513b 75976 subnetcalc_2.4.23-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nntb.no/~dreibh/subnetcalc/"
+  ],
+  "Maintainer": [
+    "Thomas Dreibholz \u003cthomas.dreibholz@gmail.com\u003e"
+  ],
+  "Package": [
+    "subnetcalc"
+  ],
+  "Package-List": [
+    "subnetcalc deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Version": [
+    "2.4.23-1"
+  ]
+}

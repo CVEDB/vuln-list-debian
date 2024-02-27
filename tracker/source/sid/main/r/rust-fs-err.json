@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fs-err-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7cccafe246cdd4c9df75d8a326f9feb0dde1768a848a9707d62deae13be6c670 2194 rust-fs-err_2.11.0-1.dsc 88a41f105fe1d5b6b34b2055e3dc59bb79b46b48b2040b9e6c7b4b5de097aa41 20449 rust-fs-err_2.11.0.orig.tar.gz 5ef408e9b7f4a98f6023cd5800f96b594e65ce114af0dc6c1002a4f2e51a3a88 2904 rust-fs-err_2.11.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fs-err"
+  ],
+  "Files": [
+    "50d7d760cefb69a3d0482d8e57ffbefb 2194 rust-fs-err_2.11.0-1.dsc 672419f07b74564a36d5c84bcd12658a 20449 rust-fs-err_2.11.0.orig.tar.gz b4da035de27470149800291e083d35b3 2904 rust-fs-err_2.11.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fs-err"
+  ],
+  "Package-List": [
+    "librust-fs-err-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Blair Noctis \u003cn@sail.ng\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fs-err"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fs-err]"
+  ],
+  "Version": [
+    "2.11.0-1"
+  ]
+}

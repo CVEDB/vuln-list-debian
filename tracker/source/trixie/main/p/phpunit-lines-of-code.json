@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "phpunit-lines-of-code"
+  ],
+  "Build-Depends": [
+    "ant, debhelper-compat (= 13), php-parser, phpab, phpunit, dh-sequence-phpcomposer"
+  ],
+  "Checksums-Sha256": [
+    "2ddda2d88567c5d3904b589f80d9963193585ed85973ee66879b8edb1123fe31 1899 phpunit-lines-of-code_1.0.4-1.dsc 0cf44dae013d2c52cf2593efbb7297969cb01aa4ba5c2c44e46c25bd28f78ce0 3977304 phpunit-lines-of-code_1.0.4.orig.tar.xz c93e446b082fdd0a374dc724799ef66ff8fa3a0620d05eb7a9ccceee4e402eef 51048 phpunit-lines-of-code_1.0.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phpunit-lines-of-code"
+  ],
+  "Files": [
+    "edf87bfe1cd47d94db31faf3251b84b0 1899 phpunit-lines-of-code_1.0.4-1.dsc 1296fe7219a850a352c5734052d315f0 3977304 phpunit-lines-of-code_1.0.4.orig.tar.xz 87f9fd06e0a4cb401162f5fee3edf12e 51048 phpunit-lines-of-code_1.0.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sebastianbergmann/lines-of-code"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phpunit-lines-of-code"
+  ],
+  "Package-List": [
+    "phpunit-lines-of-code deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpunit-lines-of-code"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpunit-lines-of-code.git -b debian/1"
+  ],
+  "Version": [
+    "1.0.4-1"
+  ]
+}

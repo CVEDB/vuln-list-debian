@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "hackrf-doc, libhackrf-dev, libhackrf0, hackrf"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libfftw3-dev, libusb-1.0-0-dev, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "dfu-util, latexmk, python3-sphinx, python3-sphinx-rtd-theme, python3-yaml, tex-gyre, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "65148459d81cc78a5c6e6822f37a7e26778e7640c657b69ecbbdd52164c793a6 2511 hackrf_2023.01.1-9.dsc fab70f4642ef42e5df4aa9087dbd3942bfb27b4670820325f76f53fd09fb118b 349160 hackrf_2023.01.1.orig-firmware-libopencm3.tar.xz fd10cd3650900aef7546e7a40a2d475db9dd1eab86b5d6f0c1188c91bedadd31 12296409 hackrf_2023.01.1.orig.tar.gz d3a884580498c54a3a4d02830738c17bb981865b54d0828b2729afb5886b8951 971920 hackrf_2023.01.1-9.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/hackrf"
+  ],
+  "Files": [
+    "5c56a563c46993f00a2532f42037b950 2511 hackrf_2023.01.1-9.dsc 9217e0647a292019703420e7b9a8764d 349160 hackrf_2023.01.1.orig-firmware-libopencm3.tar.xz ea3099681dac8b929df759f637d3e6ac 12296409 hackrf_2023.01.1.orig.tar.gz de2a1060518e87926628163abf3bfec1 971920 hackrf_2023.01.1-9.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://greatscottgadgets.com/hackrf/"
+  ],
+  "Maintainer": [
+    "A. Maitland Bottoms \u003cbottoms@debian.org\u003e"
+  ],
+  "Package": [
+    "hackrf"
+  ],
+  "Package-List": [
+    "hackrf deb comm optional arch=any hackrf-doc deb doc optional arch=all libhackrf-dev deb libdevel optional arch=any libhackrf0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bottoms/pkg-hackrf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bottoms/pkg-hackrf.git"
+  ],
+  "Version": [
+    "2023.01.1-9"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clircle-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.117-~~) \u003c!nocheck\u003e, librust-serde-1+derive-dev (\u003e= 1.0.117-~~) \u003c!nocheck\u003e, librust-winapi-0.3+default-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+fileapi-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+handleapi-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+ntdef-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+processenv-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+std-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+winbase-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+winnt-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0ba78958a285439b2a0ea5602a8cbccdbbf664b5ddcd645ca11bacf40dd179fd 2901 rust-clircle_0.4.0-1.dsc c8e87cbed5354f17bd8ca8821a097fb62599787fe8f611743fad7ee156a0a600 14404 rust-clircle_0.4.0.orig.tar.gz 706fb3a22d447c714189c2b3cb2fcda72e08487b4076b04c83a062d7147b96c6 2952 rust-clircle_0.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clircle"
+  ],
+  "Files": [
+    "4e64de352a3cba1ee9e3894ff5f59490 2901 rust-clircle_0.4.0-1.dsc d303a7ffdd69b91b80ef430ff07f70c4 14404 rust-clircle_0.4.0.orig.tar.gz 6a8398bc6baa063b35692331739da4e6 2952 rust-clircle_0.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/niklasmohrin/clircle"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clircle"
+  ],
+  "Package-List": [
+    "librust-clircle-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-nix-0.26+term-dev, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clircle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clircle]"
+  ],
+  "Version": [
+    "0.4.0-1"
+  ]
+}

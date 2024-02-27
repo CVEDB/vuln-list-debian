@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel ia64 loong64 m68k mips64el mipsel ppc64el riscv64 all"
+  ],
+  "Binary": [
+    "libopm-models-dev, libopm-models-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libtool, mpi-default-bin, mpi-default-dev, pkgconf, libdune-grid-dev, libdune-istl-dev, libdune-localfunctions-dev, libopm-grid-dev (\u003e= 2023.10) [!mips64el], libopm-common-dev (\u003e= 2023.10), libboost-test-dev, doxygen, texlive-latex-extra, texlive-latex-recommended, ghostscript, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "57b68d2b69cbb5c5727c3af89f5a3bdf48c239c1410628d5249a9b422152fe80 2677 opm-models_2023.10+ds-2.dsc 8c2f63a4821a7bb5abb3751a9f8f9bdb6953c942d026b9a2c91da3c5194b7954 1932652 opm-models_2023.10+ds.orig.tar.xz 83db893b2ddc24108e2524af34717586d908450de7f2a07fcc990805af0f94c9 7164 opm-models_2023.10+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/opm-models"
+  ],
+  "Files": [
+    "f413b65e4d749b767d7cbc4b6c17777a 2677 opm-models_2023.10+ds-2.dsc 1ea241631ad6b6521e5d0ab458ce9bc7 1932652 opm-models_2023.10+ds.orig.tar.xz d5ffc593f012e739c3941c64732183ba 7164 opm-models_2023.10+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opm-project.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "opm-models"
+  ],
+  "Package-List": [
+    "libopm-models-dev deb libdevel optional arch=amd64,arm64,armel,ia64,loong64,m68k,mips64el,mipsel,ppc64el,riscv64 libopm-models-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libboost-test-dev, mpi-default-bin, mpi-default-dev"
+  ],
+  "Uploaders": [
+    "Arne Morten Kvarving \u003carne.morten.kvarving@sintef.no\u003e, Markus Blatt \u003cmarkus@dr-blatt.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/opm-models"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/opm-models.git"
+  ],
+  "Version": [
+    "2023.10+ds-2"
+  ]
+}

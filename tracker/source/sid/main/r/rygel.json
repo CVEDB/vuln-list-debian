@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rygel, rygel-2.8-dev, librygel-core-2.8-0, librygel-server-2.8-0, librygel-renderer-2.8-0, librygel-renderer-gst-2.8-0, librygel-ruih-2.8-0, librygel-db-2.8-0, rygel-ruih, rygel-tracker, rygel-playbin, rygel-gst-launch, rygel-preferences"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, gstreamer1.0-plugins-base, gtk-doc-tools, meson (\u003e= 0.55.0), libgee-0.8-dev, libges-1.0-dev (\u003e= 1.16), libglib2.0-dev (\u003e= 2.56.0), libglib2.0-doc, libgssdp-1.6-dev, libgstreamer-plugins-base1.0-dev (\u003e= 1.12), libgstreamer1.0-dev (\u003e= 1.12), libgtk-3-dev (\u003e= 3.22), libgupnp-1.6-dev (\u003e= 1.1.0), libgupnp-av-1.0-dev (\u003e= 0.12.8), libgupnp-dlna-2.0-dev (\u003e= 0.9.4-2), libmediaart-2.0-dev (\u003e= 0.7.0), libsoup-3.0-dev, libsqlite3-dev (\u003e= 3.5), libtracker-sparql-3.0-dev, libunistring-dev, libxml2-dev (\u003e= 2.7), libxml2-utils, valac (\u003e= 0.40.10), valadoc (\u003e= 0.2)"
+  ],
+  "Checksums-Sha256": [
+    "aeffb0528434cd6e82a057879d193da27e2d5de35d69f93a5ee3f6f2a8403a87 3401 rygel_0.42.5-1.dsc 1133602d2e6710aade6b22aa98d93384c8d56396f344763413e96e0110b7d89f 1704072 rygel_0.42.5.orig.tar.xz e33e448f69ee23cafabce4c314399b74c40fd21303792929a7c414f72f54909c 21084 rygel_0.42.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rygel"
+  ],
+  "Files": [
+    "643285648a16ac173655bf8e8f56a822 3401 rygel_0.42.5-1.dsc 0ad39ff41c61bba25fbc63bde927c2ad 1704072 rygel_0.42.5.orig.tar.xz 3869b50a8789ce9ac52279944156a6bc 21084 rygel_0.42.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Rygel"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "rygel"
+  ],
+  "Package-List": [
+    "librygel-core-2.8-0 deb libs optional arch=any librygel-db-2.8-0 deb libs optional arch=any librygel-renderer-2.8-0 deb libs optional arch=any librygel-renderer-gst-2.8-0 deb libs optional arch=any librygel-ruih-2.8-0 deb libs optional arch=any librygel-server-2.8-0 deb libs optional arch=any rygel deb net optional arch=any rygel-2.8-dev deb devel optional arch=any rygel-gst-launch deb net optional arch=any rygel-playbin deb net optional arch=any rygel-preferences deb net optional arch=any rygel-ruih deb net optional arch=any rygel-tracker deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/rygel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/rygel.git"
+  ],
+  "Version": [
+    "0.42.5-1"
+  ]
+}

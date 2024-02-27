@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libchemistry-elements-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "perl"
+  ],
+  "Checksums-Sha256": [
+    "c8d77187938353c41f82548fa01f77dab4dc0d8db14ac915912e6d16142463b4 2499 libchemistry-elements-perl_1.077-1.dsc 08ad7001560e00f8f678068c79657a79c8a8e9d8e0303baaa2ad58c60d2d2aab 23858 libchemistry-elements-perl_1.077.orig.tar.gz a117054b1e91050317d8dd0d75c2e5721cf0f5fde4a808441ce33add2cb888c4 6604 libchemistry-elements-perl_1.077-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "3f5332c9bd58046777a911899093200130ba9efc debian archive/debian/1.077-1 https://git.dgit.debian.org/libchemistry-elements-perl"
+  ],
+  "Directory": [
+    "pool/main/libc/libchemistry-elements-perl"
+  ],
+  "Files": [
+    "838bf02721d0aeb6ff4ebea17cd04c43 2499 libchemistry-elements-perl_1.077-1.dsc 72cb7ba9bf44003f80ce9d2c1772813a 23858 libchemistry-elements-perl_1.077.orig.tar.gz d4f339a4eeff803e702942acae08f9be 6604 libchemistry-elements-perl_1.077-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Chemistry-Elements"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libchemistry-elements-perl"
+  ],
+  "Package-List": [
+    "libchemistry-elements-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libchemistry-elements-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libchemistry-elements-perl.git"
+  ],
+  "Version": [
+    "1.077-1"
+  ]
+}

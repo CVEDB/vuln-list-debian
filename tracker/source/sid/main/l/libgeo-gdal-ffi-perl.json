@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libgeo-gdal-ffi-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-pdl, gdal-bin, libffi-platypus-perl \u003c!nocheck\u003e, libgdal-dev, libjson-perl \u003c!nocheck\u003e, libpkgconfig-perl \u003c!nocheck\u003e, libsort-versions-perl \u003c!nocheck\u003e, libtest-exception-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, pdl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "ed32bc723ff905a4f6beff89ebd004076882f395af4995fbf7e8356e49c7dcff 2532 libgeo-gdal-ffi-perl_0.11-1.dsc 743946ad177bb089703887e24418b857af2263c6b9e507ad1913849241ca4863 52230 libgeo-gdal-ffi-perl_0.11.orig.tar.gz 1c37c93ed49b064acfd1b5c23a1b3dced525c52170b8bce3e8754264059ea137 7628 libgeo-gdal-ffi-perl_0.11-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "9da3dafd675be4b1704ceef4473c23cd52275771 debian archive/debian/0.11-1 https://git.dgit.debian.org/libgeo-gdal-ffi-perl"
+  ],
+  "Directory": [
+    "pool/main/libg/libgeo-gdal-ffi-perl"
+  ],
+  "Files": [
+    "45113f0f2813fc1372cbbe01cdfd5c53 2532 libgeo-gdal-ffi-perl_0.11-1.dsc 6ccae0cf0ac75ea0775e72d694e1f04a 52230 libgeo-gdal-ffi-perl_0.11.orig.tar.gz fa4e72681cbf3dce40b9d6e156271fe7 7628 libgeo-gdal-ffi-perl_0.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Geo-GDAL-FFI"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgeo-gdal-ffi-perl"
+  ],
+  "Package-List": [
+    "libgeo-gdal-ffi-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libgeo-gdal-ffi-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libgeo-gdal-ffi-perl.git"
+  ],
+  "Version": [
+    "0.11-1"
+  ]
+}

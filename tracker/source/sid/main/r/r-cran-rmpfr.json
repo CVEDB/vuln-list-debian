@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rmpfr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-gmp, libmpfr-dev"
+  ],
+  "Checksums-Sha256": [
+    "731e908df344f24908e221dbbde9f7dccb3965f793f74242bde1ef224f2c6bf2 2135 r-cran-rmpfr_0.9-5-1.dsc bce9a2729efcd329a13910e2ecb4675b4626dd3322cd01b01cb835d516a5f31b 608053 r-cran-rmpfr_0.9-5.orig.tar.gz c04c95305b680f77f12fe34db399bec45a1c62b821aa8a4579d98b50a00d31c0 2684 r-cran-rmpfr_0.9-5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rmpfr"
+  ],
+  "Files": [
+    "f3d66a3063dc946cd06fc4b596166f3d 2135 r-cran-rmpfr_0.9-5-1.dsc d20d82b6a05cac1bb46dbd53f82a2d1f 608053 r-cran-rmpfr_0.9-5.orig.tar.gz b7be10479a8813cc084b3148698ee81f 2684 r-cran-rmpfr_0.9-5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=Rmpfr"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-rmpfr"
+  ],
+  "Package-List": [
+    "r-cran-rmpfr deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-mass, r-cran-polynom, r-cran-sfsmisc"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rmpfr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rmpfr.git"
+  ],
+  "Version": [
+    "0.9-5-1"
+  ]
+}

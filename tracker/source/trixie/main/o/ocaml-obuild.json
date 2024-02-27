@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ocaml-obuild"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "2eff2179bcd8cf8acbe2aaa2a6e3872e255b0497da75a6d3f57d65d168c4664a 1820 ocaml-obuild_0.1.11-1.dsc fc1decfd710acdc10db898b594bfbe7d1107f1cbef2aefebe9e1780e40ff23d4 82445 ocaml-obuild_0.1.11.orig.tar.gz b5b3a4d62cd3af041a10f83beb4c3a2991431380cb6fb84fccbdab0dd1f435a2 3732 ocaml-obuild_0.1.11-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "4cc7e64e48d80d8b524fcbe31358f48f2a891bd8 debian archive/debian/0.1.11-1 https://git.dgit.debian.org/ocaml-obuild"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-obuild"
+  ],
+  "Files": [
+    "260e2fd309b02dafb9fa813897d51cad 1820 ocaml-obuild_0.1.11-1.dsc 0df5359e3103ee2b52aa90eedc9c045e 82445 ocaml-obuild_0.1.11.orig.tar.gz dfae0bfb696e7d3278bca2dda34dc241 3732 ocaml-obuild_0.1.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml-obuild/obuild"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-obuild"
+  ],
+  "Package-List": [
+    "ocaml-obuild deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ocaml-nox"
+  ],
+  "Uploaders": [
+    "Andy Li \u003candy@onthewings.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-obuild"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-obuild.git"
+  ],
+  "Version": [
+    "0.1.11-1"
+  ]
+}

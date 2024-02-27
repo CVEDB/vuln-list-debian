@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-robust"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-fit.models, r-cran-lattice, r-cran-mass, r-cran-robustbase, r-cran-rrcov"
+  ],
+  "Checksums-Sha256": [
+    "a0d056ef7f8ab96da3c8638092bd5428162e6e6cfba4d17342f840f58e34f921 2139 r-cran-robust_0.7-3-1.dsc 89a712a481883284b72834647949c68aaa74fbeeead01e57d43287706dc4475e 236374 r-cran-robust_0.7-3.orig.tar.gz 0098456ed0b1dda73163965022a613dc681c9b80329bd9b44063ee5b57938599 2712 r-cran-robust_0.7-3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-robust"
+  ],
+  "Files": [
+    "bb9e56f7c00fb7f14619b6a52a157ecd 2139 r-cran-robust_0.7-3-1.dsc bda776aae8cce356da39163d8a59b322 236374 r-cran-robust_0.7-3.orig.tar.gz 181ec7b16029e815bd46a8cb7582eece 2712 r-cran-robust_0.7-3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=robust"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-robust"
+  ],
+  "Package-List": [
+    "r-cran-robust deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-robust"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-robust.git"
+  ],
+  "Version": [
+    "0.7-3-1"
+  ]
+}

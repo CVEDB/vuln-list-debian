@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-mpris-server-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-async-trait-0.1+default-dev \u003c!nocheck\u003e, librust-futures-channel-0.3+default-dev \u003c!nocheck\u003e, librust-futures-util-0.3+std-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-zbus-3+default-dev (\u003e= 3.14-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "27d6d4140d3f67a91c9c4e75ad7564e5eb9877f722de88497164a805b75dbc7b 2592 rust-mpris-server_0.7.0-1.dsc ca665e9b0f892e42d7ad9ee6076adaf5de762497640816c67fb6406aca946d40 51878 rust-mpris-server_0.7.0.orig.tar.gz d46db2290a68d6e9209d4d8c2bbc303c17e7d345697414c5045459062d767b16 2260 rust-mpris-server_0.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-mpris-server"
+  ],
+  "Files": [
+    "7cc4ec5f4ff8724cc638c805c73cc338 2592 rust-mpris-server_0.7.0-1.dsc cfc3f86f3dcef0c809da4e26f1c65c8a 51878 rust-mpris-server_0.7.0.orig.tar.gz d9f732c964527d0ed2cc098a769ed281 2260 rust-mpris-server_0.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/SeaDve/mpris-server"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-mpris-server"
+  ],
+  "Package-List": [
+    "librust-mpris-server-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-std-1+attributes-dev, librust-async-std-1+default-dev, librust-async-std-1+unstable-dev, librust-static-assertions-1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mpris-server"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/mpris-server]"
+  ],
+  "Version": [
+    "0.7.0-1"
+  ]
+}

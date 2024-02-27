@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "elpa-ghub"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa, texinfo, texlive-latex-base"
+  ],
+  "Checksums-Sha256": [
+    "9a80cddcaba4455073ee602d2ef441d6bfbc2f4abafc6720e3c30f689f330ff2 2077 ghub-el_3.6.0-4.dsc 1f922eb83419f59fa4dc140bb6619bab4ddc4ca1600d75cf9fee57a2336378ac 46192 ghub-el_3.6.0.orig.tar.xz eb66fabeadb27baf7b90b483c0aa45e67e196f6ee27c90929d04217121a7119e 3120 ghub-el_3.6.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/ghub-el"
+  ],
+  "Files": [
+    "6827304df9fc8d0d15b4ff2a198e8214 2077 ghub-el_3.6.0-4.dsc 00aa2b83ad77f97b14a4d9dc78b4349b 46192 ghub-el_3.6.0.orig.tar.xz a627ff68b80c14fe1531cc512355bda9 3120 ghub-el_3.6.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/magit/ghub"
+  ],
+  "Maintainer": [
+    "Debian Emacsen Team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ghub-el"
+  ],
+  "Package-List": [
+    "elpa-ghub deb lisp optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Matteo F. Vescovi \u003cmfv@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/ghub-el"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/ghub-el.git"
+  ],
+  "Version": [
+    "3.6.0-4"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "git-cola"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python"
+  ],
+  "Build-Depends-Indep": [
+    "python3, python3-qtpy, python3-sphinx, rsync, git-core, gettext, asciidoc (\u003e= 8.2), xmlto"
+  ],
+  "Checksums-Sha256": [
+    "9c424d2a7c60ffc3a610f2626d9295898c524d837d4e71d747e717b244ed3b47 1838 git-cola_4.5.0-1.dsc f8baaf6e168d605bf087e6ef77137089d9f01ea13f7947bb31cc7ac58e5aa248 1233372 git-cola_4.5.0.orig.tar.gz 48b91e5179559733fb79b714e20e160ed75ea213c9371dd704a57d4d7b388684 8076 git-cola_4.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/git-cola"
+  ],
+  "Files": [
+    "1d4536cb864dbe829f9c7b9114a469e5 1838 git-cola_4.5.0-1.dsc 9952d3f07c70dfcae90eeeac656a29ef 1233372 git-cola_4.5.0.orig.tar.gz 6cbaa09aad103cdf1102594c8551f8ef 8076 git-cola_4.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git-cola.github.io/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "git-cola"
+  ],
+  "Package-List": [
+    "git-cola deb vcs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "vcs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "4.5.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libticonv-dev, libticonv9"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libglib2.0-dev, pkg-config, tfdocgen"
+  ],
+  "Checksums-Sha256": [
+    "68fbb4f8e4947dd21ec05eee89d10425cc35c65e9a0bc6de4b88188f9b394eaf 2232 libticonv_1.1.6~git20231126.f67c953-1.dsc 900433b0b298bad48e93bf86516f51587dda12d898dc0ed74d15da88a6e3abcb 74260 libticonv_1.1.6~git20231126.f67c953.orig.tar.bz2 6bccae58fb8baa9879cf68e5300e60786e168249263a9b1f49a13388007fc6af 5368 libticonv_1.1.6~git20231126.f67c953-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libt/libticonv"
+  ],
+  "Files": [
+    "34a4be3838275451ee6b5750cb686a00 2232 libticonv_1.1.6~git20231126.f67c953-1.dsc 23594ef8684304bb6b978ba38ff4be63 74260 libticonv_1.1.6~git20231126.f67c953.orig.tar.bz2 d10fcb23c6ad5879321079aa72895f43 5368 libticonv_1.1.6~git20231126.f67c953-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/debrouxl/tilibs"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libticonv"
+  ],
+  "Package-List": [
+    "libticonv-dev deb libdevel optional arch=any libticonv9 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Andreas B. Mundt \u003candi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/libticonv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/libticonv.git"
+  ],
+  "Version": [
+    "1.1.6~git20231126.f67c953-1"
+  ]
+}

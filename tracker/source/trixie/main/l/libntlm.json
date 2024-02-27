@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libntlm0, libntlm0-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "2fdd4acc13f340d14883a38b15bfc547bcfa5caa5f49dc5745e7674b8c9988c8 1752 libntlm_1.7-1.dsc d805ebb901cbc9ff411e704cbbf6de4d28e7bcb05c9eca2124f582cbff31c0b1 610829 libntlm_1.7.orig.tar.gz 87d8cdc1d43fc158a29b59f13e5d07818fe24b01bb52c28e238db37e0b94bc0a 228 libntlm_1.7.orig.tar.gz.asc 38669d11517482c33fa76ea82560a16c8d2dc291177c4203882c799d558988be 6016 libntlm_1.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libntlm"
+  ],
+  "Files": [
+    "46843a662fd435e5cd6a0ca24e1815c6 1752 libntlm_1.7-1.dsc ecb7ffe83a97588e444eafa0d85c3c01 610829 libntlm_1.7.orig.tar.gz 9229e9c62b268b4cde35dbd0e1d54d82 228 libntlm_1.7.orig.tar.gz.asc f3d10c2c0f3f54dae3af97e53a9883a8 6016 libntlm_1.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nongnu.org/libntlm/"
+  ],
+  "Maintainer": [
+    "Debian Authentication Maintainers \u003cpkg-auth-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libntlm"
+  ],
+  "Package-List": [
+    "libntlm0 deb libs optional arch=any libntlm0-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, man, pkg-config"
+  ],
+  "Uploaders": [
+    "Thadeu Lima de Souza Cascardo \u003ccascardo@minaslivre.org\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/auth-team/libntlm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/auth-team/libntlm.git"
+  ],
+  "Version": [
+    "1.7-1"
+  ]
+}

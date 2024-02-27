@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "xdg-desktop-portal-gnome"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 41), libfontconfig-dev, libadwaita-1-dev, libglib2.0-dev (\u003e= 2.44), libgnome-desktop-4-dev, libgnome-bg-4-dev, libgtk-4-dev (\u003e= 4.0), meson (\u003e= 0.57.0), systemd-dev (\u003e= 242), xdg-desktop-portal-dev (\u003e= 1.17.1), xmlto"
+  ],
+  "Checksums-Sha256": [
+    "9e121b05756a15d7e5a37d1494b839f7568774afa7769c8c6f3bfcc436d69f24 2632 xdg-desktop-portal-gnome_44.2-4.dsc 50ed1aac290303ea0bc5c840a9c1165918546ab4a73a24c52dcaa27072b5ff21 127484 xdg-desktop-portal-gnome_44.2.orig.tar.xz 53f267de67a978617b296da097f02ab3fbfbbd78d98ed765d3a8fcd87b968dea 6092 xdg-desktop-portal-gnome_44.2-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "2de24f94873dc68b0787e8b584d696c322306dc6 debian archive/debian/44.2-4 https://git.dgit.debian.org/xdg-desktop-portal-gnome"
+  ],
+  "Directory": [
+    "pool/main/x/xdg-desktop-portal-gnome"
+  ],
+  "Files": [
+    "8e3ff5f615d1e2a1bda8dc3aac01e915 2632 xdg-desktop-portal-gnome_44.2-4.dsc d80659975dfc97eddbea1c0f82d54948 127484 xdg-desktop-portal-gnome_44.2.orig.tar.xz 2c7869ce19fff84785b45cfb5b62a20d 6092 xdg-desktop-portal-gnome_44.2-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "xdg-desktop-portal-gnome"
+  ],
+  "Package-List": [
+    "xdg-desktop-portal-gnome deb gnome optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Simon McVittie \u003csmcv@debian.org\u003e, Amin Bandali \u003cbandali@ubuntu.com\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/xdg-desktop-portal-gnome"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/xdg-desktop-portal-gnome.git -b debian/trixie"
+  ],
+  "Version": [
+    "44.2-4"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tix, tix-dev"
+  ],
+  "Build-Depends": [
+    "tcl-dev, tk-dev, debhelper-compat (= 13), perl, groff"
+  ],
+  "Checksums-Sha256": [
+    "86a99e4d794b14c9cf96abf801cd40b906b9b880c2a42299bb169afe01d378fa 1817 tix_8.4.3-12.dsc 562f040ff7657e10b5cffc2c41935f1a53c6402eb3d5f3189113d734fd6c03cb 1831503 tix_8.4.3.orig.tar.gz 430c6821d8851b57ac4204f5e7df28563e1631c29f78e7435e963d2ec39830bc 68060 tix_8.4.3-12.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tix"
+  ],
+  "Files": [
+    "cd9c16340bbf876369dac9c7938bc4c2 1817 tix_8.4.3-12.dsc 2b8bf4b10a852264678182652f477e59 1831503 tix_8.4.3.orig.tar.gz 2695f7cd8d6efced88062d00b8bd95a2 68060 tix_8.4.3-12.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Package": [
+    "tix"
+  ],
+  "Package-List": [
+    "tix deb libs optional arch=any tix-dev deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/georgesk/tix"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/georgesk/tix.git"
+  ],
+  "Version": [
+    "8.4.3-12"
+  ]
+}

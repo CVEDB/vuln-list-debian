@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "mintstick"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3, gettext"
+  ],
+  "Checksums-Sha256": [
+    "eb95b3d10edf0a471b8e26f520942e64de12ade3bafd9d497f5a7cc26b7f961a 1852 mintstick_1.6.0-1.dsc dc348e85ac6a02168a11cefde9c2749e3bb66631f88c5ae688f43c07825765f8 57380 mintstick_1.6.0.orig.tar.xz f974fe689779c4e94caf4fefe1d85a4ee40bff5cebc7dac44cfca129b664bd0e 74452 mintstick_1.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mintstick"
+  ],
+  "Files": [
+    "014ff66d265fb47fb812d297243e7ab1 1852 mintstick_1.6.0-1.dsc bf7e1ff6b25f667e15326a4cc4ee1120 57380 mintstick_1.6.0.orig.tar.xz 7ea8d48cb010b876361fae0a78554df5 74452 mintstick_1.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linuxmint/mintstick"
+  ],
+  "Maintainer": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Package": [
+    "mintstick"
+  ],
+  "Package-List": [
+    "mintstick deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/mintstick"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/mintstick.git"
+  ],
+  "Version": [
+    "1.6.0-1"
+  ]
+}

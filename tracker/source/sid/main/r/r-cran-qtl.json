@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-qtl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "889a14fb5bb4825cac1653f92fa80fcc5df0859bd6e6c10055cae742221ec877 2088 r-cran-qtl_1.66-1.dsc d46a7d49f2d0875c0c1cba77c993f995e7cac4db5796dfb1c62d9fa4eb60d681 4378872 r-cran-qtl_1.66.orig.tar.gz a5ab18e6c1edad755d95f50f24cc9b4a0dcfbc143f80fc2fede860c17f8ae14b 7244 r-cran-qtl_1.66-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-qtl"
+  ],
+  "Files": [
+    "bb78636ccf8ed51ba9787429db6dba18 2088 r-cran-qtl_1.66-1.dsc 6b196598f827825cf7c9063fb740b61e 4378872 r-cran-qtl_1.66.orig.tar.gz a1509096c19c9189785973b211d46774 7244 r-cran-qtl_1.66-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=qtl"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-qtl"
+  ],
+  "Package-List": [
+    "r-cran-qtl deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-qtl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-qtl.git"
+  ],
+  "Version": [
+    "1.66-1"
+  ]
+}

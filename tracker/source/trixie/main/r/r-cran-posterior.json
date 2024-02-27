@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-posterior"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-abind, r-cran-checkmate, r-cran-rlang (\u003e= 1.0.6), r-cran-tibble (\u003e= 3.1.0), r-cran-vctrs (\u003e= 0.5.0), r-cran-tensora, r-cran-pillar, r-cran-distributional, r-cran-matrixstats"
+  ],
+  "Checksums-Sha256": [
+    "9a6c21c22363f1b3dfe75013710cf6a20a54219d60ea81cc8f1f7596b65da6b1 2480 r-cran-posterior_1.5.0+dfsg-1.dsc e58e17f400a28b41c02441cc2b382e8e09b98d431adacacae6537130f3fc09c1 228928 r-cran-posterior_1.5.0+dfsg.orig.tar.xz ed158b8f71c4347fd08b1382528de48d703be1658652f5de67beaf02cdb3763a 3864 r-cran-posterior_1.5.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-posterior"
+  ],
+  "Files": [
+    "803232693b7f7556349f7e7abe002fe6 2480 r-cran-posterior_1.5.0+dfsg-1.dsc 09e457f4d54fe25efc331c9d97f5ca1d 228928 r-cran-posterior_1.5.0+dfsg.orig.tar.xz 3e8b885e4c5ffe3142acd2b19d640a31 3864 r-cran-posterior_1.5.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=posterior"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-posterior"
+  ],
+  "Package-List": [
+    "r-cran-posterior deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-caret, r-cran-dplyr, r-cran-e1071, r-cran-gbm, r-cran-ggplot2, r-cran-knitr, r-cran-randomforest, r-cran-rmarkdown, r-cran-testthat, r-cran-tidyr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-posterior"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-posterior.git"
+  ],
+  "Version": [
+    "1.5.0+dfsg-1"
+  ]
+}

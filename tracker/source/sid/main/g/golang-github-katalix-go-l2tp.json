@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-github-katalix-go-l2tp-dev, go-l2tp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-go-kit-kit-dev, golang-github-mdlayher-genetlink-dev, golang-github-mdlayher-netlink-dev, golang-github-pelletier-go-toml-dev, golang-golang-x-sys-dev"
+  ],
+  "Checksums-Sha256": [
+    "8edbf23a3818a5d6d4a762f2e7989fe7bdf2b449ae2eaad1b79e999615a27529 1883 golang-github-katalix-go-l2tp_0.1.7-1.dsc 19785318e472995de7721da5606eee26f5f6ca6ecc3515386ea8afdd9db11c39 95128 golang-github-katalix-go-l2tp_0.1.7.orig.tar.gz e73876fd0e2abb6d902470f06a55069b471409067e321eef5ad12d7786034094 3484 golang-github-katalix-go-l2tp_0.1.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-katalix-go-l2tp"
+  ],
+  "Files": [
+    "826d4275be801e5c146616cb78ec3a1d 1883 golang-github-katalix-go-l2tp_0.1.7-1.dsc dcd9d17ef146a3d8918539abcf728874 95128 golang-github-katalix-go-l2tp_0.1.7.orig.tar.gz 23e8e98617d3e3458732f35ad8e719f1 3484 golang-github-katalix-go-l2tp_0.1.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/katalix/go-l2tp"
+  ],
+  "Homepage": [
+    "https://github.com/katalix/go-l2tp"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-katalix-go-l2tp"
+  ],
+  "Package-List": [
+    "go-l2tp deb golang optional arch=any golang-github-katalix-go-l2tp-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Tom Parkin \u003ctparkin@katalix.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-katalix-go-l2tp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-katalix-go-l2tp.git"
+  ],
+  "Version": [
+    "0.1.7-1"
+  ]
+}

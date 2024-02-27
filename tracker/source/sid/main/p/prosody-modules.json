@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "prosody-modules"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), uglifyjs"
+  ],
+  "Checksums-Sha256": [
+    "595ac8f81efc3bbbb27096b7f19a055f3665580ee7e1adb8d83801ec5ba70d39 2218 prosody-modules_0.0~hg20240124.b109773ce6fe+dfsg-1.dsc f7bd6aa5c15becfdcc724aaf1d524491c978c2174511c231494bbcd7eb3ff8ba 1383945 prosody-modules_0.0~hg20240124.b109773ce6fe+dfsg.orig.tar.bz2 b34e7abd164f5651e4ce135ceff35ada95347d531dfac79a28e21b297a0c3d9d 32068 prosody-modules_0.0~hg20240124.b109773ce6fe+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/prosody-modules"
+  ],
+  "Files": [
+    "a1ea4d2210c9efd3a38228230948124e 2218 prosody-modules_0.0~hg20240124.b109773ce6fe+dfsg-1.dsc 96634497f11de72ef13e4f0fbac766c7 1383945 prosody-modules_0.0~hg20240124.b109773ce6fe+dfsg.orig.tar.bz2 ee68b560fbce0495398c031f3c01e269 32068 prosody-modules_0.0~hg20240124.b109773ce6fe+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://hg.prosody.im/prosody-modules/"
+  ],
+  "Maintainer": [
+    "Debian XMPP Maintainers \u003cpkg-xmpp-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "prosody-modules"
+  ],
+  "Package-List": [
+    "prosody-modules deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.4"
+  ],
+  "Uploaders": [
+    "Victor Seva \u003cvseva@debian.org\u003e, Martin \u003cdebacle@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xmpp-team/prosody-modules"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xmpp-team/prosody-modules.git"
+  ],
+  "Version": [
+    "0.0~hg20240124.b109773ce6fe+dfsg-1"
+  ]
+}

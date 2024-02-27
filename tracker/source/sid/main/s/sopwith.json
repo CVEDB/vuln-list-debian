@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "sopwith"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, libsdl2-dev"
+  ],
+  "Checksums-Sha256": [
+    "dd1d3f1a14b365cc4c79c0a9cf435e1490d464760bff424c426651926c7058e8 1855 sopwith_2.4.0-1.dsc dd5a4479794777fd1c0e4a837438303f23800a277337c9c7940232c437f11a4d 1045301 sopwith_2.4.0.orig.tar.gz 56fa5f3ee21ec405cefe084a7d3218d39a41f59d90071083c21fe7ef1e55c38e 10692 sopwith_2.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sopwith"
+  ],
+  "Files": [
+    "574fdab5093f6d224ccb30bc3d2e1d9b 1855 sopwith_2.4.0-1.dsc 01885a262c413900719beaeb8f68bce6 1045301 sopwith_2.4.0.orig.tar.gz 9587cdef1472f110c430cd26ebe6082b 10692 sopwith_2.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://fragglet.github.io/sdl-sopwith/"
+  ],
+  "Maintainer": [
+    "Kenneth J. Pronovici \u003cpronovic@debian.org\u003e"
+  ],
+  "Package": [
+    "sopwith"
+  ],
+  "Package-List": [
+    "sopwith deb games optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/sopwith"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/sopwith.git"
+  ],
+  "Version": [
+    "2.4.0-1"
+  ]
+}

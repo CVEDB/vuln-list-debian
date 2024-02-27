@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "bandwidthd, bandwidthd-pgsql"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), flex, libgd-dev, libpcap0.8-dev | libpcap-dev, libpq-dev, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "87a7930c56a2ac517aa82fb911d5d132d832d46870d8b211f20acc5baf29aa37 1967 bandwidthd_2.0.1+cvs20090917-16.dsc 9e91e59a64d98c4f2ae11530e8bd8e360ad4df9168ae77fa5896ffc5953fbffb 112476 bandwidthd_2.0.1+cvs20090917.orig.tar.gz a05d392391a2d19af4a085259285f7b42200fa597e787bf0533db17855d1a932 47968 bandwidthd_2.0.1+cvs20090917-16.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bandwidthd"
+  ],
+  "Files": [
+    "09380694671e631e3f3d6eda7eb5bd06 1967 bandwidthd_2.0.1+cvs20090917-16.dsc 4cc5ab8fb992d014779a3db5aa17bbf0 112476 bandwidthd_2.0.1+cvs20090917.orig.tar.gz cb1f775c2c608b8332861169f65eb956 47968 bandwidthd_2.0.1+cvs20090917-16.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://bandwidthd.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "bandwidthd"
+  ],
+  "Package-List": [
+    "bandwidthd deb net optional arch=any bandwidthd-pgsql deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "2.0.1+cvs20090917-16"
+  ]
+}

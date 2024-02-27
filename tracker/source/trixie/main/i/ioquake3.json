@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ioquake3, ioquake3-server"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apparmor [linux-any] \u003c!pkg.flatpak.app\u003e, libcurl4-gnutls-dev, libjpeg-dev, libopenal-dev, libopus-dev, libopusfile-dev, libsdl2-dev, libvorbis-dev"
+  ],
+  "Checksums-Sha256": [
+    "cdd61f67daf45522ec0a27893f2aab02011b40332ce94b30161be319c04500a8 2440 ioquake3_1.36+u20231123.972635e+dfsg-1.dsc a4434d87e437467b7b679d432a3ec3addc7ef6e33783e3da09f0cdab1df6d8e0 1935480 ioquake3_1.36+u20231123.972635e+dfsg.orig.tar.xz 83238c9445ffd048f53f5487c6166d9df5a1433d141854096486c326d8fb7707 26072 ioquake3_1.36+u20231123.972635e+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "1942e747faf27ab2ee1f723005566520e3936a77 debian archive/debian/1.36+u20231123.972635e+dfsg-1 https://git.dgit.debian.org/ioquake3"
+  ],
+  "Directory": [
+    "pool/main/i/ioquake3"
+  ],
+  "Files": [
+    "fff1052174d11417070861dc73ee6aee 2440 ioquake3_1.36+u20231123.972635e+dfsg-1.dsc 688eb7577db451abaa6ae337404a2f02 1935480 ioquake3_1.36+u20231123.972635e+dfsg.orig.tar.xz 18ef7f5349727856b312468fc74e9444 26072 ioquake3_1.36+u20231123.972635e+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ioquake3.org/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ioquake3"
+  ],
+  "Package-List": [
+    "ioquake3 deb games optional arch=any ioquake3-server deb games optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Bruno \"Fuddl\" Kleinert \u003cfuddl@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/ioquake3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/ioquake3.git"
+  ],
+  "Version": [
+    "1.36+u20231123.972635e+dfsg-1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pebble"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, python3-setuptools, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "991ee2a3ae61401efe82c995237dc2211ef10a6930f2c086a4a27c206e5faf45 1885 python-pebble_5.0.6-1.dsc e7f7ecfd0107ab7cec9f3bb411a856c4d7d552202d4e9a8b038e9a64ae31fd8c 30635 python-pebble_5.0.6.orig.tar.gz 313120e0f10f25b2e8f8d0429010a728e4f1fc9ef631ddc0165b3f4368ec511f 1852 python-pebble_5.0.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pebble"
+  ],
+  "Files": [
+    "e85ef38a6cf00ae5878d0fbca553b74c 1885 python-pebble_5.0.6-1.dsc ebaa240591950acaa6cfe312a1f28119 30635 python-pebble_5.0.6.orig.tar.gz 5d7bc2d5591ee4655e38f015588617c5 1852 python-pebble_5.0.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pypi.org/project/Pebble/"
+  ],
+  "Maintainer": [
+    "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pebble"
+  ],
+  "Package-List": [
+    "python3-pebble deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Matthias Klose \u003cdoko@debian.org\u003e"
+  ],
+  "Version": [
+    "5.0.6-1"
+  ]
+}

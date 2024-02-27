@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-http-httplug"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-http-promise, php-psr-http-client, php-psr-http-message, phpab"
+  ],
+  "Checksums-Sha256": [
+    "ac5bee81a72c5f05a527a8218caa78fab6f20ae57d61b0135de631f23c82aabf 1750 php-http-httplug_2.4.0-2.dsc d7cd89a40a6c548ace9cdd3f653a601e65e750dca99c4080c81636b140ac1dfc 5364 php-http-httplug_2.4.0.orig.tar.gz ae6c7e4cdb261150fce4b663de7f91d9529be877c6d6166f179b69e85d010819 2840 php-http-httplug_2.4.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-http-httplug"
+  ],
+  "Files": [
+    "76792f9d697a07185a77187379cd0d1d 1750 php-http-httplug_2.4.0-2.dsc ba803ba501ad3a61fdf1daea9f2f8972 5364 php-http-httplug_2.4.0.orig.tar.gz d8f3cafb69b63544b68ad8c7d298c8cf 2840 php-http-httplug_2.4.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://httplug.io"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-http-httplug"
+  ],
+  "Package-List": [
+    "php-http-httplug deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-http-httplug"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-http-httplug.git"
+  ],
+  "Version": [
+    "2.4.0-2"
+  ]
+}

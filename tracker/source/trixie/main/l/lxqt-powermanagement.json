@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lxqt-powermanagement, lxqt-powermanagement-l10n"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libkf5idletime-dev, libkf5solid-dev, libkf5windowsystem-dev, liblxqt1-dev (\u003e= 1.4.0~), liblxqt-globalkeys1-dev (\u003e= 1.4.0~), liblxqt-globalkeys-ui1-dev (\u003e= 1.4.0~), libqt5x11extras5-dev, libxcb-dpms0-dev, libxcb-screensaver0-dev, qtbase5-private-dev"
+  ],
+  "Checksums-Sha256": [
+    "f7422eb3f938d4154ba796cca0851d3cdfc235163c69e5595f5f3f2b37a2d831 2744 lxqt-powermanagement_1.4.0-1.dsc a0d4e3c429a138453606d3067d189e0d163ff61ceaa8239100b2997b2e0b532d 93280 lxqt-powermanagement_1.4.0.orig.tar.xz 8f013606c7d804dd2f6f871e9a90fb5c79f6d13b4ef0f7633e5538c004462f68 862 lxqt-powermanagement_1.4.0.orig.tar.xz.asc 23c51992c2164a9e3d885c65c9eee6e153becfe59a105918b80947e93c3fd044 9556 lxqt-powermanagement_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lxqt-powermanagement"
+  ],
+  "Files": [
+    "d2571b4c54ae0a7f0ddb6f7ff2e7cc95 2744 lxqt-powermanagement_1.4.0-1.dsc 74807502b819853a13c2c03406a1aeb5 93280 lxqt-powermanagement_1.4.0.orig.tar.xz f07eba8d61897bde7d9d2f83dd74bb0b 862 lxqt-powermanagement_1.4.0.orig.tar.xz.asc 7157222d86f72a159453a58615a8107e 9556 lxqt-powermanagement_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lxqt/lxqt-powermanagement"
+  ],
+  "Maintainer": [
+    "LXQt Packaging Team \u003cteam+lxqt@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lxqt-powermanagement"
+  ],
+  "Package-List": [
+    "lxqt-powermanagement deb x11 optional arch=any lxqt-powermanagement-l10n deb localization optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alf Gaida \u003cagaida@siduction.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lxqt-team/lxqt-powermanagement"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lxqt-team/lxqt-powermanagement.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

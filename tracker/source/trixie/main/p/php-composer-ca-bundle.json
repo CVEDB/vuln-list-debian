@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-composer-ca-bundle"
+  ],
+  "Build-Depends": [
+    "ca-certificates, debhelper-compat (= 13), dh-sequence-phpcomposer, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "5368e84ce232a3588c71d9e7d463e141e4012f269952cda385ecb99dc502cbf6 1857 php-composer-ca-bundle_1.4.0-1.dsc be3a8dfa167eb6b638318f552ed0baff1b23e1f5077660747e3a4f11e03f39d2 135016 php-composer-ca-bundle_1.4.0.orig.tar.xz a97919c7a164e7edf4f631886e8b1fa4b448bd18aa08ac8374ad697e5db02dd2 5940 php-composer-ca-bundle_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-composer-ca-bundle"
+  ],
+  "Files": [
+    "ec36d6981fbeb99cf034ba20e7299f5f 1857 php-composer-ca-bundle_1.4.0-1.dsc 06d867ea29d59ae4f57e806268309e92 135016 php-composer-ca-bundle_1.4.0.orig.tar.xz 6e30f2eeda16307b8ee42c56d46ad7e9 5940 php-composer-ca-bundle_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/composer/ca-bundle"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-composer-ca-bundle"
+  ],
+  "Package-List": [
+    "php-composer-ca-bundle deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "phpunit"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-composer-ca-bundle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-composer-ca-bundle.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

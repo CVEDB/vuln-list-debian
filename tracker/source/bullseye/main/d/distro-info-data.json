@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "distro-info-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), python3"
+  ],
+  "Checksums-Sha256": [
+    "7e11327202a538006e9ffd67b28eb58b68d17b0467e66ad4174d06471ac4a100 1133 distro-info-data_0.51+deb11u5.dsc f67c2a1a2b9c9fce5a2cd320011a06c1786c113109d15f370b4fd99e50822bee 9840 distro-info-data_0.51+deb11u5.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/distro-info-data"
+  ],
+  "Files": [
+    "c857839588f6136003547d5f7da6257b 1133 distro-info-data_0.51+deb11u5.dsc b780f912edeaae053a3be10926e13b9c 9840 distro-info-data_0.51+deb11u5.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Benjamin Drung \u003cbdrung@debian.org\u003e"
+  ],
+  "Package": [
+    "distro-info-data"
+  ],
+  "Package-List": [
+    "distro-info-data deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/distro-info-data"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/distro-info-data.git"
+  ],
+  "Version": [
+    "0.51+deb11u5"
+  ]
+}

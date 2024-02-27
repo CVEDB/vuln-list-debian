@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-graph"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics"
+  ],
+  "Checksums-Sha256": [
+    "038d98cf98391dc2da401bb508de0075b9be73ec8a16fdecd51a183d19d38bc6 2056 r-bioc-graph_1.80.0-1.dsc 017446e90386aba89d2326d30006db14d191bc9b4ce916e0d0ebd979a73fef5c 1497364 r-bioc-graph_1.80.0.orig.tar.gz 718c6cfbf6e96654a7de96742e6ea10d7acbb3726e40baab7e5d41d657032c65 5244 r-bioc-graph_1.80.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-graph"
+  ],
+  "Files": [
+    "d55dd821310e3b186f388c982adeeea3 2056 r-bioc-graph_1.80.0-1.dsc 735b96df0f7c955806148170220b75b2 1497364 r-bioc-graph_1.80.0.orig.tar.gz 79cecc203c6d494b2cc572818bacb052 5244 r-bioc-graph_1.80.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/graph/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-graph"
+  ],
+  "Package-List": [
+    "r-bioc-graph deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-graph"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-graph.git"
+  ],
+  "Version": [
+    "1.80.0-1"
+  ]
+}

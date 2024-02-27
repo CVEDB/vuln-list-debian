@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "print-manager"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.100.0~), libcups2-dev (\u003e= 1.5), libkf5config-dev (\u003e= 5.100.0~), libkf5configwidgets-dev (\u003e= 5.100.0~), libkf5coreaddons-dev (\u003e= 5.100.0~), libkf5dbusaddons-dev (\u003e= 5.100.0~), libkf5i18n-dev (\u003e= 5.100.0~), libkf5iconthemes-dev (\u003e= 5.100.0~), libkf5kcmutils-dev (\u003e= 5.100.0~), libkf5kio-dev (\u003e= 5.100.0~), libkf5notifications-dev (\u003e= 5.100.0~), libkf5plasma-dev (\u003e= 5.100.0~), libkf5widgetsaddons-dev (\u003e= 5.100.0~), libkf5windowsystem-dev (\u003e= 5.100.0~), pkg-config, pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "054a1d837a059cdb62e2dad8ff37491b3050d5942ff4b4450e5aebf221830104 2962 print-manager_23.08.3-1.dsc db2a86cd1ce470a31403e66bbccc151c215a5c673656d929412a5e043801dc40 289328 print-manager_23.08.3.orig.tar.xz 3c7975b775bdf5e54638893a18d1072b05f4b09dcf0339f844537dd8d554ec22 833 print-manager_23.08.3.orig.tar.xz.asc 339f895daad11ac788258788932ab1be2631795f625a922124d4acd6bcf07bef 21832 print-manager_23.08.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/print-manager"
+  ],
+  "Files": [
+    "706c268da222456aca3716d6d50998c0 2962 print-manager_23.08.3-1.dsc 52bb8a5b5564ee502bb280f119454da8 289328 print-manager_23.08.3.orig.tar.xz 64bbd7d425af06caabf9c512b6bfc475 833 print-manager_23.08.3.orig.tar.xz.asc 61616ee9fc01dd4d11e2e22ace3fa495 21832 print-manager_23.08.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://apps.kde.org/en/print-manager"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "print-manager"
+  ],
+  "Package-List": [
+    "print-manager deb kde optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e, Sune Vuorela \u003csune@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/print-manager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/print-manager.git"
+  ],
+  "Version": [
+    "4:23.08.3-1"
+  ]
+}

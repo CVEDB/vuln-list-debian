@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmodsecurity-dev, libmodsecurity3"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), libyajl-dev, libgeoip-dev, libxml2-dev, libpcre2-dev, libcurl4-gnutls-dev, liblua5.3-dev, libmaxminddb-dev, libfuzzy-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "3214e121ffb64de6ec73da1d1a4a5ee51b89470171e5c6857c171878c44c37af 2084 modsecurity_3.0.12-1.dsc fb184c0054d83942b34c82b9593ceb85f652a0214c3aff28b29b1b2e00ae5441 3482989 modsecurity_3.0.12.orig.tar.gz 117a53a55315d0fd688aa01834fa518e1108da7fe6afccea02ba330fe9c62f6f 7536 modsecurity_3.0.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/modsecurity"
+  ],
+  "Files": [
+    "0ed273fc7e571e8ede43ddd23fee1d92 2084 modsecurity_3.0.12-1.dsc c6d4585be65ef54e07eb11ac84865ab9 3482989 modsecurity_3.0.12.orig.tar.gz e569b8b965e0d0a77bedce2eeb2f5596 7536 modsecurity_3.0.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.modsecurity.org/"
+  ],
+  "Maintainer": [
+    "Alberto Gonzalez Iniesta \u003cagi@inittab.org\u003e"
+  ],
+  "Package": [
+    "modsecurity"
+  ],
+  "Package-List": [
+    "libmodsecurity-dev deb libdevel optional arch=any libmodsecurity3 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Ervin Hegedus \u003cairween@gmail.com\u003e"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/agi/modsecurity.git"
+  ],
+  "Version": [
+    "3.0.12-1"
+  ]
+}

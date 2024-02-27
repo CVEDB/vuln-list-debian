@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cpio"
+  ],
+  "Build-Depends": [
+    "texinfo, gettext, autotools-dev, autoconf, automake-1.16"
+  ],
+  "Checksums-Sha256": [
+    "b56871fcab62611476976625ee7496408895446ac17ee55a190ee4d60702a901 1906 cpio_2.15+dfsg-1.dsc 9d699d5abad667f5571296190e6739a644ceb24f67677ccb128bb52ae620c579 1632626 cpio_2.15+dfsg.orig.tar.bz2 28b76e58cc97f98a6a822880ce3750046e79b264673556a224929835ec1ef0f7 15200 cpio_2.15+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cpio"
+  ],
+  "Files": [
+    "85d1366dda3720cf712f3883b3516e98 1906 cpio_2.15+dfsg-1.dsc 90debcd610184b493ebd142b630f5141 1632626 cpio_2.15+dfsg.orig.tar.bz2 50cd12f7f8e2e4abd6361777eed6f4f3 15200 cpio_2.15+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/cpio/"
+  ],
+  "Maintainer": [
+    "Anibal Monsalve Salazar \u003canibal@debian.org\u003e"
+  ],
+  "Package": [
+    "cpio"
+  ],
+  "Package-List": [
+    "cpio deb utils important arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Chris Lamb \u003clamby@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lamby/pkg-cpio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lamby/pkg-cpio.git"
+  ],
+  "Version": [
+    "2.15+dfsg-1"
+  ]
+}

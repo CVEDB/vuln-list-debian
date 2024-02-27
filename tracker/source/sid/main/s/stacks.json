@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "stacks"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), zlib1g-dev, libbam-dev, libsparsehash-dev, samtools, libhts-dev"
+  ],
+  "Checksums-Sha256": [
+    "20636160337e9635dc92c600131532ee2787d706d991d21ff487007e8397fe1e 2041 stacks_2.66+dfsg-1.dsc ebfe03f3ff69f9e398e891ae055c75d09f0f5e46a4094be5b75268eae410cf95 339220 stacks_2.66+dfsg.orig.tar.xz 10cf0e2485079286ec96d0d3a256c8f89a42670b9d57d932d98c03bac4140f65 12128 stacks_2.66+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/stacks"
+  ],
+  "Files": [
+    "2cbe9c9e8718abb2b20d5557311681ab 2041 stacks_2.66+dfsg-1.dsc ad4aa860ad9e955b5add40699f74ee1d 339220 stacks_2.66+dfsg.orig.tar.xz 5f9ede170e0058c49fe7bbf2193676ae 12128 stacks_2.66+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://creskolab.uoregon.edu/stacks/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "stacks"
+  ],
+  "Package-List": [
+    "stacks deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Tim Booth \u003ctbooth@ceh.ac.uk\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/stacks"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/stacks.git"
+  ],
+  "Version": [
+    "2.66+dfsg-1"
+  ]
+}

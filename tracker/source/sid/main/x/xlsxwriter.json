@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-xlsxwriter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest"
+  ],
+  "Checksums-Sha256": [
+    "6cc12795add80bf7c3fb141f920085b5703b51e609203548cc3cac20459e84ea 2046 xlsxwriter_3.1.9-1.dsc 5b26858a43526b6ca6987cf9542872ab87173cfa656005c2dad7bec9d2ecf0c8 37377544 xlsxwriter_3.1.9.orig.tar.gz 02179d3f771bc0538c593fc47c15dc3fa0ffc26afcb7effa772b786e5c13cd22 4452 xlsxwriter_3.1.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xlsxwriter"
+  ],
+  "Files": [
+    "efcbf8e1d59c16473bbc781eac201a0f 2046 xlsxwriter_3.1.9-1.dsc 7e14bfb53e6154d35bded66039301f90 37377544 xlsxwriter_3.1.9.orig.tar.gz ee3b12d3223c5e1138276d52d41279b0 4452 xlsxwriter_3.1.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://xlsxwriter.readthedocs.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "xlsxwriter"
+  ],
+  "Package-List": [
+    "python3-xlsxwriter deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/xlsxwriter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/xlsxwriter.git"
+  ],
+  "Version": [
+    "3.1.9-1"
+  ]
+}

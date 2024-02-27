@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "rocm-cmake"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "37fdfca88a7f2b68f776d9c59b5c1b9b78fec2b50caa195c4bc82bb388e9261d 2086 rocm-cmake_6.0.0-1.dsc 82bd97ba23d1883ef38bb667e92f7367fedc50d6c11c82f54cced4ab04b0412d 83212 rocm-cmake_6.0.0.orig.tar.gz c91ad3b43196f9bffa0c7a4acc81ac19889f999ec6437e5cee10ddf6ad0fcf65 2532 rocm-cmake_6.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rocm-cmake"
+  ],
+  "Files": [
+    "5c405c17582c01ab7a743edca85cdcc4 2086 rocm-cmake_6.0.0-1.dsc 9951c47bad97d58911f678aaaf42c2ab 83212 rocm-cmake_6.0.0.orig.tar.gz c88ec8361ee7ac92ed3c93bfd37b8988 2532 rocm-cmake_6.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ROCm/rocm-cmake"
+  ],
+  "Maintainer": [
+    "Debian Deep Learning Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "rocm-cmake"
+  ],
+  "Package-List": [
+    "rocm-cmake deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mo Zhou \u003clumin@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Étienne Mollier \u003cemollier@debian.org\u003e, Maxime Chambonnet \u003cmaxzor@maxzor.eu\u003e, Cordell Bloor \u003ccgmb@slerp.xyz\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rocm-team/rocm-cmake"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rocm-team/rocm-cmake.git"
+  ],
+  "Version": [
+    "6.0.0-1"
+  ]
+}

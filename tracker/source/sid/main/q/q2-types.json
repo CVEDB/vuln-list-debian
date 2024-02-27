@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "q2-types"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools, python3-pytest-cov, python3-biom-format, python3-skbio, python3-ijson, python3-h5py, qiime (\u003e= 2024.2)"
+  ],
+  "Checksums-Sha256": [
+    "b08be255ba6581409faae6d5f4a05b1e938535ceda1694f916f247522cbeb672 2265 q2-types_2024.2.0-1.dsc 07c9381756f2a018a70ef800ee159e588c629e6f179b35c018aa308458098541 15448743 q2-types_2024.2.0.orig.tar.gz 2b71bf5cd56f2396f263ce99f1bb36f236b3a4075afc818e17fb8bb96403a852 7540 q2-types_2024.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/q2-types"
+  ],
+  "Files": [
+    "989c27cb34b54c3dd47c40b50a2d69ec 2265 q2-types_2024.2.0-1.dsc bf758dddfea4defb673dd2b19366f114 15448743 q2-types_2024.2.0.orig.tar.gz a3a8b96abcba254a23a86830a3641445 7540 q2-types_2024.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qiime2.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "q2-types"
+  ],
+  "Package-List": [
+    "q2-types deb science optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Liubov Chuprikova \u003cchuprikovalv@gmail.com\u003e, Étienne Mollier \u003cemollier@debian.org\u003e, Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/q2-types"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/q2-types.git"
+  ],
+  "Version": [
+    "2024.2.0-1"
+  ]
+}

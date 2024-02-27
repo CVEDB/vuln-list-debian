@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gcc-arm-none-eabi, gcc-arm-none-eabi-source"
+  ],
+  "Build-Depends": [
+    "autoconf2.69, autogen, autotools-dev, binutils-arm-none-eabi, bison, debhelper (\u003e= 9.0.0), dh-autoreconf, dejagnu, flex, gawk, gettext, libgmp-dev, libmpc-dev, libmpfr-dev, libtool, locales, lsb-release, lzma, m4, patchutils, sharutils, texinfo, xz-utils, zlib1g-dev, subversion, rename, libisl-dev"
+  ],
+  "Checksums-Sha256": [
+    "3e94996a92d55892ccbf3e9ab6537be61389b08312f39a444b042c59e9b1be9e 2514 gcc-arm-none-eabi_13.2.rel1-2.dsc 2db06abe865ce68eced25e449aecb45cdb6c151c3551c739620cfc3730214c91 104971782 gcc-arm-none-eabi_13.2.rel1.orig.tar.bz2 ba61e1e9268a753890d206c49601d694683b3f306676409a5fdec05163de1025 19812 gcc-arm-none-eabi_13.2.rel1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gcc-arm-none-eabi"
+  ],
+  "Files": [
+    "194da3b3494d3233ac9375597930be39 2514 gcc-arm-none-eabi_13.2.rel1-2.dsc 761b3b6126d17cd24bf0421654ad08ca 104971782 gcc-arm-none-eabi_13.2.rel1.orig.tar.bz2 8b56e99ef6549f3a6e95d99427ac2ead 19812 gcc-arm-none-eabi_13.2.rel1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://developer.arm.com/open-source/gnu-toolchain/gnu-rm"
+  ],
+  "Maintainer": [
+    "Agustin Henze \u003ctin@debian.org\u003e"
+  ],
+  "Package": [
+    "gcc-arm-none-eabi"
+  ],
+  "Package-List": [
+    "gcc-arm-none-eabi deb devel optional arch=any gcc-arm-none-eabi-source deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libstdc++-arm-none-eabi-newlib"
+  ],
+  "Uploaders": [
+    "Keith Packard \u003ckeithp@keithp.com\u003e, Thomas Preud'homme \u003cthomas.preudhomme@arm.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/gcc-arm-none-eabi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/gcc-arm-none-eabi.git"
+  ],
+  "Version": [
+    "15:13.2.rel1-2"
+  ]
+}

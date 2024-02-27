@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "bootstrap-icons"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "14368b57a839a5567f43bd8c401fe243a33f4026173feff54b406569f69fba97 2019 bootstrap-icons_1.11.3+dfsg-1.dsc b3c71af04271539436f1f947f06304669ffb84f18127f73c8a00f0306559ffe1 577212 bootstrap-icons_1.11.3+dfsg.orig.tar.xz 3153161b5d982e35c9a61173347d614314c34e74d2fa62053dc4e3d616b04d78 2272 bootstrap-icons_1.11.3+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bootstrap-icons"
+  ],
+  "Files": [
+    "5b0d3e04b03c9c183018774bbfc495f5 2019 bootstrap-icons_1.11.3+dfsg-1.dsc 1ffea575d837a040bc9f17441127492a 577212 bootstrap-icons_1.11.3+dfsg.orig.tar.xz 723b320d5f779aa4a75d970874c785e1 2272 bootstrap-icons_1.11.3+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://icons.getbootstrap.com"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "bootstrap-icons"
+  ],
+  "Package-List": [
+    "bootstrap-icons deb web optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/boottrap-icons"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/bootstrap-icons"
+  ],
+  "Version": [
+    "1.11.3+dfsg-1"
+  ]
+}

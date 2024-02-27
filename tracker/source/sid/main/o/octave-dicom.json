@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "octave-dicom"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-octave (\u003e= 1.8.0), dh-sequence-octave, libgdcm-dev (\u003e= 2.0.16), python3, texlive"
+  ],
+  "Checksums-Sha256": [
+    "474046b3bbfcab65ad9d0af871ee0a11596df5b5d4bdb6a832db9441ea29b669 2241 octave-dicom_0.6.0-3.dsc 085b29a8f243494d4f83ea3a76e6f5ffe83e98f0e9b3db0f96eb3a91e0e3ea1d 892969 octave-dicom_0.6.0.orig.tar.gz 5389366a302e70fb518502a37245eae770d3b0b165d0741bae8238fbb08349eb 4844 octave-dicom_0.6.0-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "98aaca4fd34da64fa9f4bf95c68322e4aabac0f9 debian archive/debian/0.6.0-3 https://git.dgit.debian.org/octave-dicom"
+  ],
+  "Directory": [
+    "pool/main/o/octave-dicom"
+  ],
+  "Files": [
+    "f109dad6cbc982b6444f435531913491 2241 octave-dicom_0.6.0-3.dsc 07f08e1117b15709f86c1e0b37e3746a 892969 octave-dicom_0.6.0.orig.tar.gz 557ae1f13cc0933fb7491a7a7c198dcf 4844 octave-dicom_0.6.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnu-octave.github.io/packages/dicom/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "octave-dicom"
+  ],
+  "Package-List": [
+    "octave-dicom deb math optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-octave"
+  ],
+  "Uploaders": [
+    "Rafael Laboissière \u003crafael@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/octave-dicom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/octave-dicom.git"
+  ],
+  "Version": [
+    "0.6.0-3"
+  ]
+}

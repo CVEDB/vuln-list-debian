@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librosconsole-dev, librosconsole3d"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), catkin (\u003e= 0.8.10-1~), libroscpp-core-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, liblog4cxx-dev, libgtest-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "bd939eda2bcac15755ada180a0008800feaa4f8b532072579b0457091d113423 2265 ros-rosconsole_1.14.3-12.dsc 0b2cbc4f9a92466c0fbae7863482b286ef87692de4941527cb429e6c74639246 26274 ros-rosconsole_1.14.3.orig.tar.gz bc7863c599918955eb946844f0e66bd0b4c626b7bedcac2c35b2c0cf8d0c979d 7064 ros-rosconsole_1.14.3-12.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ros-rosconsole"
+  ],
+  "Files": [
+    "f1dd85aeebc1dfb225d25237830798b6 2265 ros-rosconsole_1.14.3-12.dsc 59f996efb16a12bc6d9d3f6aa5b92411 26274 ros-rosconsole_1.14.3.orig.tar.gz f7a5bac84d8065b687d7ab1c5f852200 7064 ros-rosconsole_1.14.3-12.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.ros.org/rosconsole"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ros-rosconsole"
+  ],
+  "Package-List": [
+    "librosconsole-dev deb libdevel optional arch=any librosconsole3d deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e, Leopold Palomo-Avellaneda \u003cleo@alaxarxa.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/ros-rosconsole"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/ros-rosconsole.git"
+  ],
+  "Version": [
+    "1.14.3-12"
+  ]
+}

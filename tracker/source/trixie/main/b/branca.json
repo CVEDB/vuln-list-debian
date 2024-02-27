@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-branca"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-setuptools-scm, python3-jinja2, python3-six"
+  ],
+  "Checksums-Sha256": [
+    "f057b5990c2aeb323e60aac96a6fcea4a5c984b22f077a9dd8cd6073d6421b45 1917 branca_0.7.1-1.dsc 08732000ab410b2213c8cec5c9539e35e83704eacd554db5e9dec3d3032384e8 43005 branca_0.7.1.orig.tar.gz 631fd28ab38b25023a7a49aef1563e365f9ca5ebadf7d62daf31e1ec47920dc1 2500 branca_0.7.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/branca"
+  ],
+  "Files": [
+    "46af1cf7d3c70ed85c45376e0e70ea26 1917 branca_0.7.1-1.dsc 0a4fd8426750f6f0bd68b58a041fd6ee 43005 branca_0.7.1.orig.tar.gz 88aa7350289dadce68880089146b0c80 2500 branca_0.7.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pypi.org/project/branca/"
+  ],
+  "Maintainer": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Package": [
+    "branca"
+  ],
+  "Package-List": [
+    "python3-branca deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/georgesk/branca"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/georgesk/branca.git"
+  ],
+  "Version": [
+    "0.7.1-1"
+  ]
+}

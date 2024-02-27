@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-docutils, docutils-common, docutils-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dh-python, python3-all, python3-roman, python3-setuptools, xml-core"
+  ],
+  "Checksums-Sha256": [
+    "46832afd2f43105257b0ca9fc6ad45a28ee645c2ced9f08b6ac960ccb8f96d92 2368 python-docutils_0.20.1+dfsg-3.dsc 4b9d0903e0bf909a53fd93410b65c07d941588a04e3ee2734f6c690f146fd921 1530488 python-docutils_0.20.1+dfsg.orig.tar.xz c071f19bff36dc7bc2159a95282245e0cc1776c9403719a831c1d95315a08fcb 32684 python-docutils_0.20.1+dfsg-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-docutils"
+  ],
+  "Files": [
+    "bf40095cc2bb3e25ee73d69507df0932 2368 python-docutils_0.20.1+dfsg-3.dsc 9c46a5b1cd59e1a16a1ef9315ca6e193 1530488 python-docutils_0.20.1+dfsg.orig.tar.xz 67181e92f443eb8af47b956bf08f9ab5 32684 python-docutils_0.20.1+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docutils.sourceforge.io/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-docutils"
+  ],
+  "Package-List": [
+    "docutils-common deb python optional arch=all docutils-doc deb doc optional arch=all python3-docutils deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Michael Schutte \u003cmichi@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-docutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-docutils.git"
+  ],
+  "Version": [
+    "0.20.1+dfsg-3"
+  ]
+}

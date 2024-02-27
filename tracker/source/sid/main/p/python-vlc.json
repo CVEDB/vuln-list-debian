@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-vlc"
+  ],
+  "Build-Depends": [
+    "dh-python, python3-setuptools, python3-all:any, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "606aa98e59bad7bb746857c2223b8df439c43a07b80b19ad60daf1c36f708403 2103 python-vlc_3.0.20123-1.dsc 244fbb9e392a0326841fca926d6d12a2a36c546982191f493f148fa19e66b1d4 159444 python-vlc_3.0.20123.orig.tar.gz 3bb20c58fffecd815877458be8815b0d3dd4338b55cdeb5cdfc810fcc51bd88e 3496 python-vlc_3.0.20123-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-vlc"
+  ],
+  "Files": [
+    "578c90ee9d919242acaa7e5a0edc0a6b 2103 python-vlc_3.0.20123-1.dsc 63cb9f6690acaf7c1475b00d375c8e80 159444 python-vlc_3.0.20123.orig.tar.gz 62a3020372a7e657259dabc08d287226 3496 python-vlc_3.0.20123-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://wiki.videolan.org/PythonBinding"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-vlc"
+  ],
+  "Package-List": [
+    "python3-vlc deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-vlc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-vlc.git"
+  ],
+  "Version": [
+    "3.0.20123-1"
+  ]
+}

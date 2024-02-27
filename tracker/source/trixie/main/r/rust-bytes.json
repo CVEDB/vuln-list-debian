@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bytes-dev, librust-bytes+serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "64d337c010d920cf99c8f0de488a9a66b1dff77a185be8c2646b33fd8f529ea9 2408 rust-bytes_1.5.0-1.dsc a2bd12c1caf447e69cd4528f47f94d203fd2582878ecb9e9465484c4148a8223 58909 rust-bytes_1.5.0.orig.tar.gz 82fbddced7fb749f4489d3f99b287631fa49435417652601e9cdf2fb6946254a 3080 rust-bytes_1.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bytes"
+  ],
+  "Files": [
+    "c975ee6a817bf4a866e77e4cfb82caf2 2408 rust-bytes_1.5.0-1.dsc 51ed49380bb7d086c005208e805983b2 58909 rust-bytes_1.5.0.orig.tar.gz fa5c1a909ca93e5afe786e77167e4d96 3080 rust-bytes_1.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bytes"
+  ],
+  "Package-List": [
+    "librust-bytes+serde-dev deb rust optional arch=any librust-bytes-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-loom-0.5+default-dev, librust-serde-test-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Robin Krahl \u003crobin.krahl@ireas.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytes]"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

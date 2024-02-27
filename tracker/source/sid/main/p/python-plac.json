@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-plac"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "3aea0279261676c3495ec866e703b3d8bc3bca0609633e679e36d3e4e60102b7 2087 python-plac_1.4.1-1.dsc b848a1c274371b2f25b1972c642e67c3cce1b49bdd536b8fbc0381574ead0e2f 61410 python-plac_1.4.1.orig.tar.gz 7dafa616e3935d7b9141dcb381cc433b5beec73b5d4256f6ae60a5da4e7582c5 4508 python-plac_1.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-plac"
+  ],
+  "Files": [
+    "c1aa38f5af7f9fd54d5980bcc7384a2c 2087 python-plac_1.4.1-1.dsc bc2c500d574b0e82d754b7cbdd2da86d 61410 python-plac_1.4.1.orig.tar.gz f75c27627f440aa992263779be4dc799 4508 python-plac_1.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ialbert/plac"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-plac"
+  ],
+  "Package-List": [
+    "python3-plac deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-plac"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-plac.git"
+  ],
+  "Version": [
+    "1.4.1-1"
+  ]
+}

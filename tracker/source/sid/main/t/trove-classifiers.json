@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-trove-classifiers"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, pybuild-plugin-pyproject, python3-pytest \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9d374224a527a30d1d3d4414ebf7ff77250088d67e49f3afdd470a5e508add05 2305 trove-classifiers_2024.1.31-1.dsc bfdfe60bbf64985c524416afb637ecc79c558e0beb4b7f52b0039e01044b0229 15958 trove-classifiers_2024.1.31.orig.tar.gz bfccd6687cdc13384991ea35eb6e867979e50bc498d832ff72c04fcddfa69342 3456 trove-classifiers_2024.1.31-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/trove-classifiers"
+  ],
+  "Files": [
+    "2fc55ab83e3dfc998334d56d7e2ff187 2305 trove-classifiers_2024.1.31-1.dsc 7e1a29ff916c35db16833bedb6e5f63c 15958 trove-classifiers_2024.1.31.orig.tar.gz 48713e2e0a2976b38139b06ecb9cb0b7 3456 trove-classifiers_2024.1.31-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pypa/trove-classifiers"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "trove-classifiers"
+  ],
+  "Package-List": [
+    "python3-trove-classifiers deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-pybuild"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Gudjon I. Gudjonsson \u003cgudjon@gudjon.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/trove-classifiers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/trove-classifiers.git"
+  ],
+  "Version": [
+    "2024.1.31-1"
+  ]
+}

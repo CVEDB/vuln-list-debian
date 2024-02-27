@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "bcftools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), zlib1g-dev, libbz2-dev, liblzma-dev, libhts-dev (\u003e= 1.14), libgsl-dev, tabix \u003c!nocheck\u003e, libio-pty-perl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4b09a2016df2a0f48c8b5a369f1290d5d74546590a28740408f96ed6f7431daa 2270 bcftools_1.19-1.dsc b87bdecd89816b5bcc05992804486469d286e189bb87c6dbb68e0ed7d7c15223 3539654 bcftools_1.19.orig.tar.gz 32e6749ad9e09a5fb7261b867f201d032f33aa0af436816080e23e9cc729dff1 11136 bcftools_1.19-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "3e5318c53e47d615190052f20c8104796daf7dc7 debian archive/debian/1.19-1 https://git.dgit.debian.org/bcftools"
+  ],
+  "Directory": [
+    "pool/main/b/bcftools"
+  ],
+  "Files": [
+    "aa1a50844a31a798f6a508c0f739d355 2270 bcftools_1.19-1.dsc 5e19cb5d60c257e54273194e4ae3e90f 3539654 bcftools_1.19.orig.tar.gz 99016b6e83ca6b95505d1cf1a0440740 11136 bcftools_1.19-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://samtools.github.io/bcftools/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "bcftools"
+  ],
+  "Package-List": [
+    "bcftools deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "perl, tabix"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/bcftools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/bcftools.git"
+  ],
+  "Version": [
+    "1.19-1"
+  ]
+}

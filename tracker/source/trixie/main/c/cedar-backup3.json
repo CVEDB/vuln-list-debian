@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "cedar-backup3, cedar-backup3-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, pybuild-plugin-pyproject, python3-poetry-core (\u003e= 1.6.1), python3-astroid, python3-chardet, python3-importlib-metadata, python3-toml, python3-sphinx, python3-sphinx-autoapi, python3-typing-extensions"
+  ],
+  "Checksums-Sha256": [
+    "b2ecbb011c122dc5aaa1dad09074446fc4135f56b4ebadf534086c3907e1cf5c 2250 cedar-backup3_3.8.0-1.dsc 3d8e638cd8c079f9545b428207a3d10c95ecb5fd5a3738d72a9ad256cf642f7a 694577 cedar-backup3_3.8.0.orig.tar.gz 916abc9db401f5596897fb0d690c6b4211587b6429246db390832e3feff65ad8 13556 cedar-backup3_3.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cedar-backup3"
+  ],
+  "Files": [
+    "97392537a039ae81bd7549c0b8cbb80b 2250 cedar-backup3_3.8.0-1.dsc 7cdf6e6558a4e501aa8eb1870c718285 694577 cedar-backup3_3.8.0.orig.tar.gz 64f5a468f2f3c0c0debc397f46d4cc0d 13556 cedar-backup3_3.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pronovic/cedar-backup3"
+  ],
+  "Maintainer": [
+    "Kenneth J. Pronovici \u003cpronovic@debian.org\u003e"
+  ],
+  "Package": [
+    "cedar-backup3"
+  ],
+  "Package-List": [
+    "cedar-backup3 deb admin optional arch=all cedar-backup3-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "awk, diffutils, tar"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/cedar-backup3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/cedar-backup3.git"
+  ],
+  "Version": [
+    "3.8.0-1"
+  ]
+}

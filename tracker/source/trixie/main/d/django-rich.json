@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-rich"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage \u003c!nocheck\u003e, python3-django \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-django \u003c!nocheck\u003e, python3-rich \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "05115b57cdbb56c402ac7078526e267e0f6954e0c3982a2af805de32d725c561 2408 django-rich_1.8.0-2.dsc 9e8989e5013c31f041b00e8526da32920b5760e314fe60cb00b842fb5c9fb301 70663 django-rich_1.8.0.orig.tar.gz 685e1348bbb544760f5cd5a01c351c42ac910a3f0f17c8cc12f9a7c330004a15 6352 django-rich_1.8.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-rich"
+  ],
+  "Files": [
+    "a1ffa5802f2c3b24ad9105f0cf18afd5 2408 django-rich_1.8.0-2.dsc 92940abddaf03a11407d4384c3809d8a 70663 django-rich_1.8.0.orig.tar.gz 25f102801c205541917ad7fb52b47c32 6352 django-rich_1.8.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/adamchainz/django-rich"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-rich"
+  ],
+  "Package-List": [
+    "python3-django-rich deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pybuild-plugin-pyproject, python3-all, python3-coverage, python3-django, python3-pytest, python3-pytest-django"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-rich"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-rich.git"
+  ],
+  "Version": [
+    "1.8.0-2"
+  ]
+}

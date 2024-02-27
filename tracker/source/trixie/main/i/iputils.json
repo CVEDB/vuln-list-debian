@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "iputils-ping, iputils-tracepath, iputils-arping, iputils-clockdiff"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), xsltproc, docbook-xsl, docbook-xsl-ns, libcap-dev, iproute2, libgcrypt-dev, libidn2-dev, bash (\u003e= 3), meson, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "4049dca90dc5d4cc9566888a4fd465bbd7935151c2729ad3a8b0a8eddeae9b7c 2182 iputils_20240117-1.dsc 9b505fb86b77274c66a86998f1e88edba34c6c79692a99962aab2e3195fd8a66 445072 iputils_20240117.orig.tar.xz 30de655670cd67f1d4847f5dfacc47c04ba255f451ed4c844d42ed4ac1f0a454 297284 iputils_20240117-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iputils"
+  ],
+  "Files": [
+    "850dd8e65ff9743a2d1082b0828078d9 2182 iputils_20240117-1.dsc 645d2d0a0dc00addf024151b5b4fc360 445072 iputils_20240117.orig.tar.xz cad95611c01f24136ef466ad93da3cae 297284 iputils_20240117-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/iputils/iputils/"
+  ],
+  "Maintainer": [
+    "Noah Meyerhans \u003cnoahm@debian.org\u003e"
+  ],
+  "Package": [
+    "iputils"
+  ],
+  "Package-List": [
+    "iputils-arping deb net optional arch=any iputils-clockdiff deb net optional arch=any iputils-ping deb net important arch=any iputils-tracepath deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/iputils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/iputils.git"
+  ],
+  "Version": [
+    "3:20240117-1"
+  ]
+}

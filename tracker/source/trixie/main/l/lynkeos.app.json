@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lynkeos.app, lynkeos.app-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libavcodec-dev, libavformat-dev, libswscale-dev, libcfitsio-dev, libfftw3-dev, libraw-dev, libtiff-dev, libgnustep-gui-dev, liblapacke-dev, pkgconf, icnsutils"
+  ],
+  "Checksums-Sha256": [
+    "2b7d6e822447db320fa5f144e6319174bc476db67913abc6f3e005cbbe6dfb17 2208 lynkeos.app_3.7+dfsg-1.dsc f16fb8ab386aff60ed6921b2e9617fd3f7d176db26694c055afcbfdbd90cc6b0 575308 lynkeos.app_3.7+dfsg.orig.tar.xz b408c042adf3f39e9aeb3dc27f91877ebade10b8d2ce34266278fd0914de2142 30988 lynkeos.app_3.7+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lynkeos.app"
+  ],
+  "Files": [
+    "52c62fe2b2986e1a7b6be401b0c8ae23 2208 lynkeos.app_3.7+dfsg-1.dsc f9b31838905c18f5d24eba8da5c9f279 575308 lynkeos.app_3.7+dfsg.orig.tar.xz 9609dd881194faf6d1e32f38a7255a89 30988 lynkeos.app_3.7+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://lynkeos.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian GNUstep maintainers \u003cpkg-gnustep-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "lynkeos.app"
+  ],
+  "Package-List": [
+    "lynkeos.app deb gnustep optional arch=any lynkeos.app-common deb gnustep optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnustep"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Yavor Doganov \u003cyavor@gnu.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnustep-team/lynkeos.app"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnustep-team/lynkeos.app.git"
+  ],
+  "Version": [
+    "3.7+dfsg-1"
+  ]
+}

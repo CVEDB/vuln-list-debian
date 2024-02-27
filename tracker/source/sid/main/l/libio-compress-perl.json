@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libio-compress-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libcompress-raw-bzip2-perl (\u003e= 2.207) \u003c!nocheck\u003e, libcompress-raw-zlib-perl (\u003e= 2.207) \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "7127b55a74841984064f4aa2b5329db020b164bbb2f141af2b254f795005fcee 2573 libio-compress-perl_2.207-1.dsc d08b2e7ed30a2a9dca9c75b50ecfe825f4fd01bf201c81511087247e23e8ab07 326643 libio-compress-perl_2.207.orig.tar.gz 69872b03a9fab159ee1b467e31e668f4910c9ee2afa0741e991b699e5cf9b1a8 6824 libio-compress-perl_2.207-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "59989922b5dbc409e281011e3ed6d6699d1b88cb debian archive/debian/2.207-1 https://git.dgit.debian.org/libio-compress-perl"
+  ],
+  "Directory": [
+    "pool/main/libi/libio-compress-perl"
+  ],
+  "Files": [
+    "76bfa9365ecf01804cb4c4646117aeda 2573 libio-compress-perl_2.207-1.dsc 8c35518beb98a4a05f307654a5cbd7a3 326643 libio-compress-perl_2.207.orig.tar.gz 68a3c0b5d0407ef7c8a6a2881558bcec 6824 libio-compress-perl_2.207-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/IO-Compress"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libio-compress-perl"
+  ],
+  "Package-List": [
+    "libio-compress-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libio-compress-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libio-compress-perl.git"
+  ],
+  "Version": [
+    "2.207-1"
+  ]
+}

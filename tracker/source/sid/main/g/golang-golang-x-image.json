@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-image-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-golang-x-text-dev (\u003e= 0.14.0)"
+  ],
+  "Checksums-Sha256": [
+    "e24ff84eb0f650ce57f1e59ca644ba49d4712e9b8ed8dbf526c2b6ac46458df3 2276 golang-golang-x-image_0.15.0-1.dsc 90b6dbb36a61290acac3050008594203c5c094af562b8e7be5af7d3b7230f53b 5093053 golang-golang-x-image_0.15.0.orig.tar.gz bc0662a3c9fba0f9959a382a5ad02cb613c044ac700a21eeb62d993617e3d9d2 6072 golang-golang-x-image_0.15.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-image"
+  ],
+  "Files": [
+    "24ba07b2ec86b793158ddc40be5e9e42 2276 golang-golang-x-image_0.15.0-1.dsc 9d15e1cae665be166cea93d1595d8d0e 5093053 golang-golang-x-image_0.15.0.orig.tar.gz 68d7371e2ad9698f0f7d20159e5ffbbb 6072 golang-golang-x-image_0.15.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/image"
+  ],
+  "Homepage": [
+    "https://golang.org/x/image/"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-image"
+  ],
+  "Package-List": [
+    "golang-golang-x-image-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-image"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-image.git"
+  ],
+  "Version": [
+    "0.15.0-1"
+  ]
+}

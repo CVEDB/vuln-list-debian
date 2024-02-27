@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "batctl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libnl-3-dev, libnl-genl-3-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "1dd8c49321e0f6530b9a85a98e38834bf2f16d15c30ada0f0f4ec108c71134d9 2265 batctl_2024.0-1.dsc 76853e87201af63c411db152fd0c625a729a9733115897d1331604e2c5a67c7d 118033 batctl_2024.0.orig.tar.gz 16dd7ef576f21c0dc6c199a9c37f7d0713ef6090822070a3a3274454bfbb1eac 919 batctl_2024.0.orig.tar.gz.asc 74f0a32aba160244c072acc83d12dbc6a4196ed5bdc48a3e138fa31f233c5e47 14324 batctl_2024.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/batctl"
+  ],
+  "Files": [
+    "88fb3a18a223046cd3218e5c6fa82310 2265 batctl_2024.0-1.dsc be148ec3f668bcf23837035c31bcc3ed 118033 batctl_2024.0.orig.tar.gz c2254eb0a7f26e6556eeda4233f8a958 919 batctl_2024.0.orig.tar.gz.asc 93858b3a9c9127db3126a3cb5b44471a 14324 batctl_2024.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-mesh.org/"
+  ],
+  "Maintainer": [
+    "Debian CommunityWLAN Team \u003cteam+communitywlan@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "batctl"
+  ],
+  "Package-List": [
+    "batctl deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Simon Wunderlich \u003csw@simonwunderlich.de\u003e, Sven Eckelmann \u003csven@narfation.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/communitywlan-team/batctl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/communitywlan-team/batctl.git -b debian/unstable"
+  ],
+  "Version": [
+    "2024.0-1"
+  ]
+}

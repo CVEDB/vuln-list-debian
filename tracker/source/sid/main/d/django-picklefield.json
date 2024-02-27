@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-picklefield"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "6bca27c2ef1cc4202d16fb646e3c2a34f4397286efa3be2a9d4c8e126a3e9083 2266 django-picklefield_3.1.0-2.dsc a95d9d305668f4973baab74c9c9a6c0ce961035e08131eec98a2a6d4cdd5af68 11821 django-picklefield_3.1.0.orig.tar.gz b3f2834dc1e589ee9872a470c28a7aea0627fdb20f608c98fa6fa1b702cc440a 7560 django-picklefield_3.1.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-picklefield"
+  ],
+  "Files": [
+    "5021b57a974ab7b6564b42ec313ac3c5 2266 django-picklefield_3.1.0-2.dsc 215b3b789a3c32ff62ac5b84e82377d8 11821 django-picklefield_3.1.0.orig.tar.gz 562728cd6d7488bcba26633c66a72ff7 7560 django-picklefield_3.1.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gintas/django-picklefield"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-picklefield"
+  ],
+  "Package-List": [
+    "python3-django-picklefield deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.1.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-picklefield"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-picklefield.git"
+  ],
+  "Version": [
+    "3.1.0-2"
+  ]
+}

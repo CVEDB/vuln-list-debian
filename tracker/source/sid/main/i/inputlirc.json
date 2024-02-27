@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "inputlirc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "7160deb7490cd7a977b76075432a98ffef0997e008c3b34db042af986181efab 1692 inputlirc_33-3.dsc 44b48b687bf27b0fb7f0b2f61413f58be154f62ed8bb3c8790d65327cace5c93 8896 inputlirc_33.orig.tar.xz bfa496deb29377890f6b2043ac7b86762b994f14590e6124f84aa54ea0a2f88b 3140 inputlirc_33-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/inputlirc"
+  ],
+  "Files": [
+    "376de6f8176dee1a0244ab3bb7318825 1692 inputlirc_33-3.dsc fb8f479626d55b9f0d5a58765cd79ac9 8896 inputlirc_33.orig.tar.xz 7e2773bc503827b9fac0dbc0ac8ae584 3140 inputlirc_33-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "inputlirc"
+  ],
+  "Package-List": [
+    "inputlirc deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Version": [
+    "33-3"
+  ]
+}

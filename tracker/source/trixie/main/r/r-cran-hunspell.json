@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-hunspell"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-digest, libhunspell-private-dev"
+  ],
+  "Checksums-Sha256": [
+    "32efb6547bd38406aef658912191c99da2c6049b8c689498c25d43f2f3ea88cd 2341 r-cran-hunspell_3.0.3+dfsg2-1.dsc 98c8a9cc9df29262063756593061afa3e24e5e523244c3da50c606313f5001db 1576756 r-cran-hunspell_3.0.3+dfsg2.orig.tar.xz 1bfde26cf8b29c9540843b63e378fcfec6196f1c35b40fec9266e6f661986e0c 5320 r-cran-hunspell_3.0.3+dfsg2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-hunspell"
+  ],
+  "Files": [
+    "7e530a3283aa5cee195a5f087c090179 2341 r-cran-hunspell_3.0.3+dfsg2-1.dsc 9c58620359d2b7243c42ada3db07bea0 1576756 r-cran-hunspell_3.0.3+dfsg2.orig.tar.xz 032c5b4c86886a6114ccf8f78794b6b8 5320 r-cran-hunspell_3.0.3+dfsg2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=hunspell"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-hunspell"
+  ],
+  "Package-List": [
+    "r-cran-hunspell deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-janeaustenr, r-cran-knitr, r-cran-pdftools, r-cran-rmarkdown, r-cran-spelling, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Joost van Baal-Ilić \u003cjoostvb@debian.org\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-hunspell"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-hunspell.git"
+  ],
+  "Version": [
+    "3.0.3+dfsg2-1"
+  ]
+}

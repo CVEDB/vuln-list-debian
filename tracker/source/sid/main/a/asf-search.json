@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-asf-search"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-dateparser, python3-dateutil, python3-importlib-metadata, python3-numpy, python3-remotezip, python3-requests, python3-setuptools, python3-setuptools-scm, python3-shapely, python3-tenacity, python3-tz"
+  ],
+  "Checksums-Sha256": [
+    "e2f1d89dc56477103d9c7bfc5a0fa49106e760c470370e7e6231fc8c2d663385 2552 asf-search_7.0.4-1.dsc 5461f49dd42cafb37af1f3333ab3467a7e2762b7c50793c374b98617dc908657 799181 asf-search_7.0.4.orig.tar.gz 2e48bffb43ed225914ecd98a1abd1380e4245aa69b138b61683a1fd4e7d6bd24 3188 asf-search_7.0.4-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Python wrapper for ASF's SearchAPI ASF Data Search is an easy to use search tool for finding SAR data and freely processing higher level SAR products such as InSAR and AutoRIFT products with ASF's HyP3 service."
+  ],
+  "Directory": [
+    "pool/main/a/asf-search"
+  ],
+  "Files": [
+    "bf3acaa5b1e2d4a9a26d19bfb17b9ca3 2552 asf-search_7.0.4-1.dsc a563d6bd2cd7c4abaf7c289257751540 799181 asf-search_7.0.4.orig.tar.gz 13ee5663057f6b3e04309098ca2b751c 3188 asf-search_7.0.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/asfadmin/Discovery-asf_search"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "asf-search"
+  ],
+  "Package-List": [
+    "python3-asf-search deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/asf-search"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/asf-search.git"
+  ],
+  "Version": [
+    "7.0.4-1"
+  ]
+}

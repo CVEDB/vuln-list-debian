@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dkms, dh-dkms, dkms-test-dkms, dkms-noautoinstall-test-dkms"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "ef8c6bb7fcbdf203c82f2c9d804ad886c0c52b86f6738cc5701e8353597a2d21 2360 dkms_3.0.12-5.dsc b1b0205973371bda2f963d67056034d060001ab012f98a0dbf9fcb4145534302 88241 dkms_3.0.12.orig.tar.gz f4e06eb123440f63a980b53ecfd4192b87ef8b2618586f8baa236a58bb712141 34392 dkms_3.0.12-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dkms"
+  ],
+  "Files": [
+    "f7641a15c7cf239706dc360398a099c6 2360 dkms_3.0.12-5.dsc 5a79464d43c0e7236b022f1db46fcc0c 88241 dkms_3.0.12.orig.tar.gz 00830f88c5aea4304f0f28437624b78e 34392 dkms_3.0.12-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dell/dkms"
+  ],
+  "Maintainer": [
+    "Dynamic Kernel Module System Team \u003cdkms@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "dkms"
+  ],
+  "Package-List": [
+    "dh-dkms deb kernel optional arch=all dkms deb kernel optional arch=all dkms-noautoinstall-test-dkms deb kernel optional arch=all dkms-test-dkms deb kernel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "kernel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-dkms"
+  ],
+  "Testsuite-Triggers": [
+    "linux-headers-generic, linux-headers-rpi, linux-image-generic, openssl"
+  ],
+  "Uploaders": [
+    "David Paleino \u003cdapal@debian.org\u003e, Petter Reinholdtsen \u003cpere@debian.org\u003e, Aron Xu \u003caron@debian.org\u003e, Mario Limonciello \u003cMario_Limonciello@dell.com\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dkms"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dkms.git"
+  ],
+  "Version": [
+    "3.0.12-5"
+  ]
+}

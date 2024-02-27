@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "lutris"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), appstream, dh-sequence-python3, meson"
+  ],
+  "Checksums-Sha256": [
+    "a3249ba598ab3be1417bf3c3c5082152fa5d3fd352cd5bf32cc5df77a922db91 1924 lutris_0.5.14-2.dsc c844b4a8338c4bb15df62d1edd0a8bd86bc9a06254711ccf4214aef4bce82f1d 1500492 lutris_0.5.14.orig.tar.gz 9aba437c20bfb14c3fa5c3319d9d22e9e2915672f457f34a0226476c7f256af2 2888 lutris_0.5.14-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/l/lutris"
+  ],
+  "Files": [
+    "9c30fad4ff8bc3e3453f5e237862f234 1924 lutris_0.5.14-2.dsc cb896e8f1ec15c800905e7c067e2aa36 1500492 lutris_0.5.14.orig.tar.gz a54bade54d4fa5e31def33a49a17f9d4 2888 lutris_0.5.14-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lutris.net"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cteam+pkg-games@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "lutris"
+  ],
+  "Package-List": [
+    "lutris deb contrib/games optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Stephan Lachnit \u003cstephanlachnit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/lutris"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/lutris.git"
+  ],
+  "Version": [
+    "0.5.14-2"
+  ]
+}

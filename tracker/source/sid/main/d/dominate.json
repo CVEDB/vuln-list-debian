@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-dominate"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-pytest"
+  ],
+  "Checksums-Sha256": [
+    "054fefec9bbba5556e1941af7e8a82d6131e8d30bfca651f0cbf86fd10c23090 1855 dominate_2.9.0-1.dsc 0a97321ab05fbf0c73be3fa9c250d712721dd61dc4bf1381370320961ce0f58b 31463 dominate_2.9.0.orig.tar.gz 97a86a216eb2d46f604e012039053da7b3eb920c744c6ea3968617396e9c571b 2972 dominate_2.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dominate"
+  ],
+  "Files": [
+    "7d96e6c03fa6cd3f623e85713ee63801 1855 dominate_2.9.0-1.dsc 824af241c200b979990a8e132e1eefad 31463 dominate_2.9.0.orig.tar.gz 96b57747cdfb395df1670c936e9b6fc6 2972 dominate_2.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Knio/dominate"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dominate"
+  ],
+  "Package-List": [
+    "python3-dominate deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/dominate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/dominate.git"
+  ],
+  "Version": [
+    "2.9.0-1"
+  ]
+}

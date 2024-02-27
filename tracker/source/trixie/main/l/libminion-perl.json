@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libminion-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-strip-nondeterminism"
+  ],
+  "Build-Depends-Indep": [
+    "fonts-fork-awesome \u003c!nocheck\u003e, libjs-bootstrap4 \u003c!nocheck\u003e, libjs-d3 \u003c!nocheck\u003e, libjs-moment \u003c!nocheck\u003e, libmojolicious-perl (\u003e= 9.0) \u003c!nocheck\u003e, libyaml-libyaml-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "2c45618271fa968d0cdab6b7efa4aacb574469627751810f7d4b431d9bb2a97f 2558 libminion-perl_10.28+dfsg-1.dsc c3e6c4c173be79c42587d701ec2b0920e63caabfa1dccf209cb1266939ad775b 198972 libminion-perl_10.28+dfsg.orig.tar.xz af37296ab1ebc7122198fdc1164f09c24c040bafbe4295877c32eed5afacf434 31556 libminion-perl_10.28+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "2060e0fa79be2ed558777024ca57673228edb9c6 debian archive/debian/10.28+dfsg-1 https://git.dgit.debian.org/libminion-perl"
+  ],
+  "Directory": [
+    "pool/main/libm/libminion-perl"
+  ],
+  "Files": [
+    "a12182e23105d3889c67c5f789c08107 2558 libminion-perl_10.28+dfsg-1.dsc 139621897a3c2bcff13610c2e87f5ab5 198972 libminion-perl_10.28+dfsg.orig.tar.xz becb657ad61bffa12def7ef21a5c7db5 31556 libminion-perl_10.28+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Minion"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libminion-perl"
+  ],
+  "Package-List": [
+    "libminion-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Nick Morrott \u003cnickm@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libminion-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libminion-perl.git"
+  ],
+  "Version": [
+    "10.28+dfsg-1"
+  ]
+}

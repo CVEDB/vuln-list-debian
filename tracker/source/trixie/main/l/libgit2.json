@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgit2-dev, libgit2-1.7, libgit2-fixtures"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3-minimal:any, pkgconf, ca-certificates, cmake, zlib1g-dev, libmbedtls-dev, libssh2-1-dev, libhttp-parser-dev, libpcre2-dev, libkrb5-dev"
+  ],
+  "Checksums-Sha256": [
+    "fad7efd04bdc2f9ea93fb117f1a3c14e2cf882c0748994993bc424af89cf4375 2259 libgit2_1.7.2+ds-1.dsc fe3e524576e624141f9bf00183c25421aa6d8fb3e90a1793a5f4e9a5360f53af 4245244 libgit2_1.7.2+ds.orig.tar.xz fda27230513e4182496e1c374284d260425c7cf044c883f373320eb0e89f9885 18032 libgit2_1.7.2+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "0d00d19ad8a0d40209d2ec8a5a088bfd5350b624 debian archive/debian/1.7.2+ds-1 https://git.dgit.debian.org/libgit2"
+  ],
+  "Directory": [
+    "pool/main/libg/libgit2"
+  ],
+  "Files": [
+    "68868beeefcd70cce7b7fd9689c9b376 2259 libgit2_1.7.2+ds-1.dsc b86cab767fba4c594e0d68cad0e40ebc 4245244 libgit2_1.7.2+ds.orig.tar.xz f3796a2294c5b2202d8f43977d37e8f1 18032 libgit2_1.7.2+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libgit2.github.com/"
+  ],
+  "Maintainer": [
+    "Utkarsh Gupta \u003cutkarsh@debian.org\u003e"
+  ],
+  "Package": [
+    "libgit2"
+  ],
+  "Package-List": [
+    "libgit2-1.7 deb libs optional arch=any libgit2-dev deb libdevel optional arch=any libgit2-fixtures deb libs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, g++, gcc"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e, Mohammed Bilal \u003cmdbilal@disroot.org\u003e, Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libgit2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libgit2.git"
+  ],
+  "Version": [
+    "1.7.2+ds-1"
+  ]
+}

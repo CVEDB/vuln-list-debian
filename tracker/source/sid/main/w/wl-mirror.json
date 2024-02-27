@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "wl-mirror"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-cmake, cmake (\u003e= 3.18), scdoc (\u003e= 1.11.2) \u003c!nodoc\u003e, pkg-config, libwayland-dev, libgles-dev"
+  ],
+  "Checksums-Sha256": [
+    "295a69211349b1a3a2352747bc6483816db63c6cab8ddb948dc853ed100aa99f 2210 wl-mirror_0.16.1-1.dsc de4b00186a50301cc9f4acaa75f8ded52323f0cddb0b7b0066771c136acdd7fc 197409 wl-mirror_0.16.1.orig.tar.gz 27b719743c676a7ee0ace99e16e116c136e7ff2b35dfcd291ca8e54933fbbf29 244 wl-mirror_0.16.1.orig.tar.gz.asc 513f1c5678f6f7dea5de019bd3f7aad4c4813297011569c2b5efade36a570f90 3092 wl-mirror_0.16.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wl-mirror"
+  ],
+  "Files": [
+    "0f94583984b25b24569c4e3f722aee61 2210 wl-mirror_0.16.1-1.dsc b2c18982abf74101d9bfb1273b4cd979 197409 wl-mirror_0.16.1.orig.tar.gz 1b0649d1c9c03f1a7221650642e5ccb6 244 wl-mirror_0.16.1.orig.tar.gz.asc dc0b62822320ea539b35013b924be108 3092 wl-mirror_0.16.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Ferdi265/wl-mirror"
+  ],
+  "Maintainer": [
+    "Ferdinand Bachmann \u003cferdinand.bachmann@yrlf.at\u003e"
+  ],
+  "Package": [
+    "wl-mirror"
+  ],
+  "Package-List": [
+    "wl-mirror deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/Ferdi265/wl-mirror-debian"
+  ],
+  "Vcs-Git": [
+    "https://github.com/Ferdi265/wl-mirror-debian.git"
+  ],
+  "Version": [
+    "0.16.1-1"
+  ]
+}

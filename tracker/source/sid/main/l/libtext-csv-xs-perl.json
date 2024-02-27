@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libtext-csv-xs-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libencode-perl (\u003e= 3.20) \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "05451d10e7ab1a9a1090a8cfa81dea92162aec11cc63594ff07887ead737dda9 2613 libtext-csv-xs-perl_1.53-1.dsc ba3231610fc755a69e14eb4a3c6d8cce46cc4fd32853777a6c9ce485a8878b42 273211 libtext-csv-xs-perl_1.53.orig.tar.gz 3df3dc1041bc5a7d191248cc3282aa1ba0dfec44967ce1006775cc58f405c095 8224 libtext-csv-xs-perl_1.53-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "c10a96f0750ac4a7905831c819853cfd4e2d191b debian archive/debian/1.53-1 https://git.dgit.debian.org/libtext-csv-xs-perl"
+  ],
+  "Directory": [
+    "pool/main/libt/libtext-csv-xs-perl"
+  ],
+  "Files": [
+    "f9dd86b65437f49b5fe81934cf58c2cd 2613 libtext-csv-xs-perl_1.53-1.dsc d6af5f1aec99e5a5392ae3175de9a7ae 273211 libtext-csv-xs-perl_1.53.orig.tar.gz e56e423780bd7f77bd25197339cb75e3 8224 libtext-csv-xs-perl_1.53-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Text-CSV_XS"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libtext-csv-xs-perl"
+  ],
+  "Package-List": [
+    "libtext-csv-xs-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Niko Tyni \u003cntyni@debian.org\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Vincent Danjean \u003cvdanjean@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libtext-csv-xs-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libtext-csv-xs-perl.git"
+  ],
+  "Version": [
+    "1.53-1"
+  ]
+}

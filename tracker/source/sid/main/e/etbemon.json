@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mon"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), perl, libtime-period-perl, libtirpc-dev"
+  ],
+  "Checksums-Sha256": [
+    "24c44406736a98bc8055ae73de2314ee78b0415dbcd06afe844e6c26992b5494 1972 etbemon_1.3.8-1.dsc bb917664e168cf4acd78a114600a685de7ffd988ef504496a611d79053893d78 269612 etbemon_1.3.8.orig.tar.xz 8298220a96f25bf19fc1395556f9e3b0df1f7d7f6070482fc1ae807e266b1c3b 15100 etbemon_1.3.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/etbemon"
+  ],
+  "Files": [
+    "7bba545f9053f4ed703152df8f3dfa59 1972 etbemon_1.3.8-1.dsc 3b8fb9b0f41484989778dc29e319a663 269612 etbemon_1.3.8.orig.tar.xz 13c26a93c50a190b0cc86a3cb06adc54 15100 etbemon_1.3.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.coker.com.au/projects/etbe-mon/"
+  ],
+  "Maintainer": [
+    "Debian Mon Maintainers \u003cpkg-monitoring-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "etbemon"
+  ],
+  "Package-List": [
+    "mon deb admin optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.3.0"
+  ],
+  "Uploaders": [
+    "Dario Minnucci \u003cmidget@debian.org\u003e, Russell Coker \u003crussell@coker.com.au\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/etbe/etbemon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/etbe/etbemon.git"
+  ],
+  "Version": [
+    "1.3.8-1"
+  ]
+}

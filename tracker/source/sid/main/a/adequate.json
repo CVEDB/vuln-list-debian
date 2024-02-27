@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "adequate"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), perl, python3, python3-apt"
+  ],
+  "Checksums-Sha256": [
+    "01ade04986f788e7980964ff0f34c0219f5ef33a3a467b54800d13cf26beb4da 1734 adequate_0.15.9.dsc 906e94b55e8a9cb30b8e899f2e534c48e9f59582f01836b47c11e1e9ca058456 27812 adequate_0.15.9.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/adequate"
+  ],
+  "Files": [
+    "712f772a131ccfb06211af0fff103ea2 1734 adequate_0.15.9.dsc 28f61d1e3d20b5a2965cda8318664c16 27812 adequate_0.15.9.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/debian/adequate"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "adequate"
+  ],
+  "Package-List": [
+    "adequate deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debhelper-compat, pkg-config, python3, python3-apt"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/adequate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/adequate.git"
+  ],
+  "Version": [
+    "0.15.9"
+  ]
+}

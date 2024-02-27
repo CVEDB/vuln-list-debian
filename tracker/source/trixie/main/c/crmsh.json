@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "crmsh, crmsh-doc"
+  ],
+  "Build-Depends": [
+    "asciidoc, debhelper-compat (= 13), dh-python, docbook-xml, docbook-xsl, dos2unix, libxml2-utils, pkgconf, python3-all, python3-dateutil, python3-packaging, python3-pygments, python3-setuptools, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "eafa0649405da416b441f719dde0a08e17b32a621e623a1e689f9e595d588d9b 2353 crmsh_4.6.0-1.dsc 006ef95137b3cf0882758b2cb6f2df633622f7736fbd33638b7d476390010a4a 1889085 crmsh_4.6.0.orig.tar.gz 72afe2a1fbd5a9cf2702c18a9c9eb8a962f98542150344040e2308577496c084 31260 crmsh_4.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/crmsh"
+  ],
+  "Files": [
+    "7dfde1f3db0482c645c392bcca17d08f 2353 crmsh_4.6.0-1.dsc 7940feff2fd614f8b242861e6f4bb540 1889085 crmsh_4.6.0.orig.tar.gz 94928015d1202542ed1c356591e21b37 31260 crmsh_4.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://crmsh.github.io/"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "crmsh"
+  ],
+  "Package-List": [
+    "crmsh deb admin optional arch=all crmsh-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "booth, booth-pacemaker, csync2, dmidecode, fence-virt, ntp, openssh-server, python3-pytest, ufw"
+  ],
+  "Uploaders": [
+    "Richard B Winters \u003crik@mmogp.com\u003e, Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e, Valentin Vidic \u003cvvidic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/crmsh"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/crmsh.git"
+  ],
+  "Version": [
+    "4.6.0-1"
+  ]
+}

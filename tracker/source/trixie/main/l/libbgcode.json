@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libbgcode-dev, bgcode"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), catch2, cmake, libboost-dev, libboost-nowide-dev, libheatshrink-dev, pandoc, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "4f0a4c676f9f35d32cc747b655e4f75322711691a88c093dcb35bf3faf2f8ea7 2125 libbgcode_0.0~git20240206.27ebf16-1.dsc eb024736992920fc8bd7ead68512974ed8ca0d9376f14fa90aed663fd792d56a 278396 libbgcode_0.0~git20240206.27ebf16.orig.tar.xz f9dc221ae8a8102cbcb45ae23a90a52cd4a7091e67bc658a780acfbeb7481f23 4680 libbgcode_0.0~git20240206.27ebf16-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libb/libbgcode"
+  ],
+  "Files": [
+    "cfaf697247bc8503b030b4a231d03941 2125 libbgcode_0.0~git20240206.27ebf16-1.dsc 2e4924884ab587712e3f40a6631b15f1 278396 libbgcode_0.0~git20240206.27ebf16.orig.tar.xz 36b9b7598f2d9498404258c507e6236f 4680 libbgcode_0.0~git20240206.27ebf16-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/prusa3d/libbgcode"
+  ],
+  "Maintainer": [
+    "Chow Loong Jin \u003chyperair@debian.org\u003e"
+  ],
+  "Package": [
+    "libbgcode"
+  ],
+  "Package-List": [
+    "bgcode deb misc optional arch=any libbgcode-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/3dprinting-team/libbgcode"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/3dprinting-team/libbgcode.git"
+  ],
+  "Version": [
+    "0.0~git20240206.27ebf16-1"
+  ]
+}

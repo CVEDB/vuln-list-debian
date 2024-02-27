@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-stringi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "183070d5fd7779724bb82ebf36ff4769a618e6dcbc193c21f1282bb15fdfd373 2071 r-cran-stringi_1.8.3-1.dsc 1602be8edd1dd8ac5a836f4077cbc9d6a312ca4b2c594a0486370e8c1e314925 11917752 r-cran-stringi_1.8.3.orig.tar.gz eef04b92a760161d3fcea125157f0ddb26d0b702cd6288bbd85e3657cfaf12ba 3828 r-cran-stringi_1.8.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-stringi"
+  ],
+  "Files": [
+    "35de9dc800cfb37453c5092569537c44 2071 r-cran-stringi_1.8.3-1.dsc ebc7252eb0269ff7aae2966e4a85b4d6 11917752 r-cran-stringi_1.8.3.orig.tar.gz d786e87c6fda27210b956defda233058 3828 r-cran-stringi_1.8.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=stringi"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-stringi"
+  ],
+  "Package-List": [
+    "r-cran-stringi deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-stringi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-stringi.git"
+  ],
+  "Version": [
+    "1.8.3-1"
+  ]
+}

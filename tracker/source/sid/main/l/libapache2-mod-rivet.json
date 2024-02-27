@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libapache2-mod-rivet, libapache2-mod-rivet-doc"
+  ],
+  "Build-Depends": [
+    "tcl-dev, apache2-dev, libtool, debhelper-compat (= 13), automake"
+  ],
+  "Checksums-Sha256": [
+    "34c32956e454f9be031c8711bf5662071a5c7d9262907b39d5b2e1faa9149f46 1948 libapache2-mod-rivet_3.2.4-1.dsc c2c75a94a409f1437cd42847cbba19d67fff7bf79a1c67c93e830009cba572cb 1681207 libapache2-mod-rivet_3.2.4.orig.tar.gz 109b49e7d5fb60a316ad87d7c3019ca05dc274c6ddb9e187a7b06623ce4b3258 14304 libapache2-mod-rivet_3.2.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libapache2-mod-rivet"
+  ],
+  "Files": [
+    "4337e779ce3b7d30906a0bb046ade007 1948 libapache2-mod-rivet_3.2.4-1.dsc e31d0d18e4fba6925aaaae86ddc66301 1681207 libapache2-mod-rivet_3.2.4.orig.tar.gz 6a263082e4bb01fc2118218df69e1184 14304 libapache2-mod-rivet_3.2.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://tcl.apache.org/rivet/"
+  ],
+  "Maintainer": [
+    "Massimo Manghi \u003cmxmanghi@apache.org\u003e"
+  ],
+  "Package": [
+    "libapache2-mod-rivet"
+  ],
+  "Package-List": [
+    "libapache2-mod-rivet deb httpd optional arch=any libapache2-mod-rivet-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "httpd"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "3.2.4-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clap-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-heck-0.4+default-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.42-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev (\u003e= 1.0.9-~~) \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.8-~~) \u003c!nocheck\u003e, librust-syn-2+full-dev (\u003e= 2.0.8-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e569be2d329607740bb8b75985955474aca929b6e05f7444ce08124da28e6e01 2446 rust-clap-derive_4.4.7-2.dsc cf9804afaaf59a91e75b022a30fb7229a7901f60c755489cc61c9b423b836442 29046 rust-clap-derive_4.4.7.orig.tar.gz 0c527b4d1f68fadd507e2ce3de15ab9ce1941d95d343c6741ca52250bf630d55 3208 rust-clap-derive_4.4.7-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clap-derive"
+  ],
+  "Files": [
+    "e3d27b6f17db13ec74ae206f159696c2 2446 rust-clap-derive_4.4.7-2.dsc 08b9a34eadbb01ac16e36694e53eb254 29046 rust-clap-derive_4.4.7.orig.tar.gz 498490c048c95053019621e6f1f41a2d 3208 rust-clap-derive_4.4.7-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clap-derive"
+  ],
+  "Package-List": [
+    "librust-clap-derive-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Ben Westover \u003cme@benthetechguy.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clap-derive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-derive]"
+  ],
+  "Version": [
+    "4.4.7-2"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "audmes"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libasound2-dev [linux-any], libfccp-dev, libpulse-dev, libwxgtk3.2-dev"
+  ],
+  "Checksums-Sha256": [
+    "5cea0798241350b87247014c8269d68ca69107d51331875e24332924b20eb35d 2033 audmes_2024.02.18-1.dsc c23df1e89fbf22fa8052dad4df5fa344fe9034336ca993f26fc7fbdaddeabaac 126804 audmes_2024.02.18.orig.tar.gz 4885b840b4db7c6254c38aee85409e4170c0c582b6313aab17f9920210bc7fa3 6624 audmes_2024.02.18-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/audmes"
+  ],
+  "Files": [
+    "607659ea070c964d15b53ecb2ac7a3fe 2033 audmes_2024.02.18-1.dsc ab15ba9b17f23e81d80f5f08896af446 126804 audmes_2024.02.18.orig.tar.gz 532a1ae99bc919cef4199338717f86c6 6624 audmes_2024.02.18-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sourceforge.net/projects/audmes/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "audmes"
+  ],
+  "Package-List": [
+    "audmes deb sound optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dennis Braun \u003csnd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/audmes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/audmes.git"
+  ],
+  "Version": [
+    "2024.02.18-1"
+  ]
+}

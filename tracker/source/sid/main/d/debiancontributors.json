@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-debiancontributors"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-debian"
+  ],
+  "Build-Depends-Indep": [
+    "help2man"
+  ],
+  "Checksums-Sha256": [
+    "0db2d4b227d38eeb4ba9daa298d690508ddb80af4bfbd462081f293ade677a84 1947 debiancontributors_0.7.10.dsc 5613eacb986f9182be7e38677f70e049a6f4935db870ac7e2e123cc3c3024596 549036 debiancontributors_0.7.10.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/debiancontributors"
+  ],
+  "Files": [
+    "b7796c723cdfea1133b6561420273f7d 1947 debiancontributors_0.7.10.dsc 7960f9324851b791ee0208e7031ad379 549036 debiancontributors_0.7.10.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/python-team/modules/python-debiancontributors"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "debiancontributors"
+  ],
+  "Package-List": [
+    "python3-debiancontributors deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Enrico Zini \u003cenrico@debian.org\u003e, Daniele Tricoli \u003ceriol@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-debiancontributors"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-debiancontributors.git"
+  ],
+  "Version": [
+    "0.7.10"
+  ]
+}

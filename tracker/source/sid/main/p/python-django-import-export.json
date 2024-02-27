@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-import-export"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-django, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "663eec5845eab655ca622ca9bd6301caf8f4be5880569114fef97dfaf688dd10 2286 python-django-import-export_3.3.4-1.dsc 85e14580b2b38535a55eac43c449b5e9c7ec7503cf6ce103fe2ff8e99813ed47 421299 python-django-import-export_3.3.4.orig.tar.gz 7e3e1fd87941e712ab1e4bdb147c277b3841d41267f6afe2ea5988c4050a050e 2600 python-django-import-export_3.3.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-django-import-export"
+  ],
+  "Files": [
+    "30030d60e26420516e8dc19729556ff3 2286 python-django-import-export_3.3.4-1.dsc 428fb11697acf1069454613ce62b70ff 421299 python-django-import-export_3.3.4.orig.tar.gz 738299d9e9bac71f0fa68e8e9f8a4ef6 2600 python-django-import-export_3.3.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/django-import-export/django-import-export"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-django-import-export"
+  ],
+  "Package-List": [
+    "python3-django-import-export deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-django-import-export"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-django-import-export.git"
+  ],
+  "Version": [
+    "3.3.4-1"
+  ]
+}

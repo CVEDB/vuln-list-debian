@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-data.table"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "423da3e9dc8409578eefcc09450e1d2cf0ac515bc98d928a31f30c51b51dba73 2357 r-cran-data.table_1.14.10+dfsg-1.dsc 52de91ee53592ac42c8f0ab6f89d9f4c46c00b890a3379667976b5fb5919c749 4052584 r-cran-data.table_1.14.10+dfsg.orig.tar.xz 2b25c2b5388d6999cac07b04ec6d8d106cff20631bffeb883b7e4f70f0cccf4f 3732 r-cran-data.table_1.14.10+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-data.table"
+  ],
+  "Files": [
+    "0bc388dd2ae2b3cdb1d2877fa83da5f9 2357 r-cran-data.table_1.14.10+dfsg-1.dsc eedf1e5d75a6785e184bfc21c0268ccd 4052584 r-cran-data.table_1.14.10+dfsg.orig.tar.xz 33f871ede77efd287944aeb81faf9d6e 3732 r-cran-data.table_1.14.10+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=data.table"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-data.table"
+  ],
+  "Package-List": [
+    "r-cran-data.table deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bit, r-cran-bit64, r-cran-curl, r-cran-knitr, r-cran-nanotime, r-cran-r.utils, r-cran-rmarkdown, r-cran-xts, r-cran-yaml, r-cran-zoo"
+  ],
+  "Uploaders": [
+    "Alba Crespi \u003ccrespialba+debian@gmail.com\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-data.table"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-data.table.git"
+  ],
+  "Version": [
+    "1.14.10+dfsg-1"
+  ]
+}

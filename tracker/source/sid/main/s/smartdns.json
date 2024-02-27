@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "smartdns"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, qrencode, zbar-tools"
+  ],
+  "Checksums-Sha256": [
+    "06f752574cb197e871b06360a9aebbde2172a15e26668f87a9d26e21ab65a730 1909 smartdns_45+dfsg-1.dsc e4a988be21d984d31449dab5d64d7e751a3db73adece608bb4557feaf8a5c6ee 429640 smartdns_45+dfsg.orig.tar.xz b3e170efccf5208e34e12444aa7ea3f96a1260352c5637ddb21517e8ba4bb541 6384 smartdns_45+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/smartdns"
+  ],
+  "Files": [
+    "b965d81db11dc8f810d644ce0fbda012 1909 smartdns_45+dfsg-1.dsc 9aa8d45f433c3fbe0333343f4241adb3 429640 smartdns_45+dfsg.orig.tar.xz 33c415ec8b5ae5f4276a8ab2c7571c84 6384 smartdns_45+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pymumu/smartdns"
+  ],
+  "Maintainer": [
+    "Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Package": [
+    "smartdns"
+  ],
+  "Package-List": [
+    "smartdns deb net optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/smartdns"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/smartdns.git"
+  ],
+  "Version": [
+    "45+dfsg-1"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "liblzma5, liblzma5-udeb, xz-utils, xzdec, liblzma-dev, liblzma-doc"
+  ],
+  "Build-Conflicts": [
+    "automake1.4"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.2), autoconf (\u003e= 2.64~), automake, libtool (\u003e= 2.2), gettext, autopoint | gettext (\u003c\u003c 0.18-1), autopoint | cvs, po4a"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha256": [
+    "0c9496cc0bbc7dc623d9a46f23b6439b18b2f52f18605145e02d92c5079cf00c 2530 xz-utils_5.6.0-0.1.dsc cdafe1632f139c82937cc1ed824f7a60b7b0a0619dfbbd681dcac02b1ac28f5b 1773076 xz-utils_5.6.0.orig.tar.xz 12bcbb95747f710130c0ce6814f611eaa56b7584be480ecd0e6299623df32513 833 xz-utils_5.6.0.orig.tar.xz.asc eabd04ad2422f3ea63cdb94e8e5e27c4cfd8f7975d82d402e31e7949d082d7c1 26904 xz-utils_5.6.0-0.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xz-utils"
+  ],
+  "Files": [
+    "c3be88d5bc1a0e5551c12ea484436fba 2530 xz-utils_5.6.0-0.1.dsc cfb1afdfcfeca02f7677b1b401bc536e 1773076 xz-utils_5.6.0.orig.tar.xz 358ca4eb1d3f883e616fbbb18fe6016c 833 xz-utils_5.6.0.orig.tar.xz.asc d87289ddfa0709c74b10a975a390bd78 26904 xz-utils_5.6.0-0.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://xz.tukaani.org/xz-utils/"
+  ],
+  "Maintainer": [
+    "Jonathan Nieder \u003cjrnieder@gmail.com\u003e"
+  ],
+  "Package": [
+    "xz-utils"
+  ],
+  "Package-List": [
+    "liblzma-dev deb libdevel optional arch=any liblzma-doc deb doc optional arch=all liblzma5 deb libs optional arch=any liblzma5-udeb udeb debian-installer optional arch=any xz-utils deb utils standard arch=any xzdec deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "autoconf, automake, debhelper-compat, gettext, libtool"
+  ],
+  "Uploaders": [
+    "Mohammed Adnène Trojette \u003cadn+deb@diwi.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/xz-utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/xz-utils.git"
+  ],
+  "Version": [
+    "5.6.0-0.1"
+  ]
+}

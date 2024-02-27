@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "eprover"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), help2man, picosat"
+  ],
+  "Checksums-Sha256": [
+    "93ba1c785238ba2d51b8273de93b0f6cfc79b7f7572363e2341e55a043ca3a46 1934 eprover_3.0.03+ds-1.dsc f94276e6862911bb1d81d7e7ad5c2535cef13864f1fe02f5b90b05f5a80e5f64 1031728 eprover_3.0.03+ds.orig.tar.xz 235f25b56c7eea4b1d835ae3830f482d6d0080e2f3a53e908729473e7889de42 4892 eprover_3.0.03+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/eprover"
+  ],
+  "Files": [
+    "15216210a04afbc9dba3cb58374ea9d3 1934 eprover_3.0.03+ds-1.dsc bffa5911331e1fa308f350b02a744f14 1031728 eprover_3.0.03+ds.orig.tar.xz e25f0e927fced589604c9711464e202f 4892 eprover_3.0.03+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://eprover.org"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "eprover"
+  ],
+  "Package-List": [
+    "eprover deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/eprover"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/eprover.git"
+  ],
+  "Version": [
+    "3.0.03+ds-1"
+  ]
+}

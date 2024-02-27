@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "foliate"
+  ],
+  "Build-Depends": [
+    "appstream \u003c!nocheck\u003e, debhelper-compat (= 13), desktop-file-utils, gjs, libadwaita-1-dev (\u003e= 1.4), libgjs-dev, libgtk-4-dev (\u003e= 4.12), libwebkitgtk-6.0-dev, meson"
+  ],
+  "Checksums-Sha256": [
+    "0cb69c5e064b6bb5aff98f2440d71be8f1b7a161932f5fbb43f3c1742a4bddfc 2078 foliate_4.~really3.1.0-0.1.dsc f9ffae5e78648fe70a36f463d82084f74321c957a4c30566bc8b3bc243883f21 8047894 foliate_4.~really3.1.0.orig.tar.gz 45a6d3f15abb3ad4a1d778ebdf656a070841ce998f31ecf680d8caf1d5c92718 4292 foliate_4.~really3.1.0-0.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/foliate"
+  ],
+  "Files": [
+    "ce0073b6d3093d800371590e60c97e37 2078 foliate_4.~really3.1.0-0.1.dsc 62e238528748ed2bc5ace495408dd5a1 8047894 foliate_4.~really3.1.0.orig.tar.gz 9edecf71fcea665bfb902dc7adfaefaf 4292 foliate_4.~really3.1.0-0.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://johnfactotum.github.io/foliate/"
+  ],
+  "Maintainer": [
+    "Jonathan Carter \u003cjcc@debian.org\u003e"
+  ],
+  "Package": [
+    "foliate"
+  ],
+  "Package-List": [
+    "foliate deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Federico Ceratto \u003cfederico@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/foliate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/foliate.git"
+  ],
+  "Version": [
+    "4.~really3.1.0-0.1"
+  ]
+}

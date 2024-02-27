@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dav1d, libdav1d7, libdav1d-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, ninja-build, nasm [any-amd64 any-i386]"
+  ],
+  "Checksums-Sha256": [
+    "d92026b0bce5bcf34cbec24c0ead909ec9907946355347759d42948bae1ee0f1 2287 dav1d_1.4.0-1.dsc ac8f8ff581906c8ef6479370cf6c1465f282fd2e7cfc2c6366c772f84ad9d30e 942120 dav1d_1.4.0.orig.tar.xz 0517b62da109c68bcc03f6c81abcbb65fc3668e1fd0e482e2effb992d67d41a2 195 dav1d_1.4.0.orig.tar.xz.asc d000bf36f5cd79fbd0f9a48ecd346077595f9f771b67ef004ee2663fe3530f85 8388 dav1d_1.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dav1d"
+  ],
+  "Files": [
+    "4ec4e62d96e2cc76a4beff791ea5da68 2287 dav1d_1.4.0-1.dsc 7b68038c6a77803c79e540647d80e8d0 942120 dav1d_1.4.0.orig.tar.xz 2ae18ef04592b851057c8ac88c6637da 195 dav1d_1.4.0.orig.tar.xz.asc 4d2eb2f68ec68f8f202c78c0b096dbf4 8388 dav1d_1.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.videolan.org/projects/dav1d.html"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "dav1d"
+  ],
+  "Package-List": [
+    "dav1d deb video optional arch=any libdav1d-dev deb libdevel optional arch=any libdav1d7 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/dav1d"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/dav1d.git"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "lua5.4, liblua5.4-dev, liblua5.4-0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libreadline-dev"
+  ],
+  "Checksums-Sha256": [
+    "7c86561fb70d98873148abec0678a0a5995c47726f656f43590e1d51d2a80e80 2051 lua5.4_5.4.6-3.dsc 7d5ea1b9cb6aa0b59ca3dde1c6adcb57ef83a1ba8e5432c0ecd06bf439b3ad88 363329 lua5.4_5.4.6.orig.tar.gz 6ccef0ed6494cb1c25f7514a56b2a56110356e4f79617774d4a9417406965d9c 13064 lua5.4_5.4.6-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lua5.4"
+  ],
+  "Files": [
+    "2e07202b9233dbe5366cf569d9a44d46 2051 lua5.4_5.4.6-3.dsc 25a429319dff20dfbfb9956c2b5be911 363329 lua5.4_5.4.6.orig.tar.gz 32e99897b198ec544d92c3fa79a1226b 13064 lua5.4_5.4.6-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.lua.org"
+  ],
+  "Maintainer": [
+    "Debian Lua Team \u003cpkg-lua-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "lua5.4"
+  ],
+  "Package-List": [
+    "liblua5.4-0 deb libs optional arch=any liblua5.4-dev deb libdevel optional arch=any lua5.4 deb interpreters optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "g++, gcc"
+  ],
+  "Uploaders": [
+    "Sergei Golovan \u003csgolovan@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lua-team/lua5.4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lua-team/lua5.4.git"
+  ],
+  "Version": [
+    "5.4.6-3"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libcpan-audit-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libcapture-tiny-perl \u003c!nocheck\u003e, libcpan-distnameinfo-perl \u003c!nocheck\u003e, libhttp-tiny-perl \u003c!nocheck\u003e, libio-interactive-perl \u003c!nocheck\u003e, libjson-perl \u003c!nocheck\u003e, libmodule-corelist-perl \u003c!nocheck\u003e, libmodule-cpanfile-perl \u003c!nocheck\u003e, libmodule-extract-version-perl \u003c!nocheck\u003e, libperlio-gzip-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libversion-perl \u003c!nocheck\u003e, libyaml-tiny-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "303579165cfe436b0a1725d63037b49995544a381af716d7b64ea66324d6474c 2820 libcpan-audit-perl_20240215.001-1.dsc 947fbc597cb253a0f301d6940f5cff3a6e05f8f943f865accc4d68bde9a52425 701902 libcpan-audit-perl_20240215.001.orig.tar.gz 53274af48a9a9042672a6c7eeb68412a13dc13480a4e96199a29acfbe2ecd0b6 6336 libcpan-audit-perl_20240215.001-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "06228416dcca502ec18f22fd65ef1d4bed7d17ba debian archive/debian/20240215.001-1 https://git.dgit.debian.org/libcpan-audit-perl"
+  ],
+  "Directory": [
+    "pool/main/libc/libcpan-audit-perl"
+  ],
+  "Files": [
+    "b8017d971d121287af4a31f2e2f5f5a3 2820 libcpan-audit-perl_20240215.001-1.dsc 5921a25881e43e8cb4baa800c4fcd825 701902 libcpan-audit-perl_20240215.001.orig.tar.gz e3d07a79bc2b1630f31bf8d6b2176dda 6336 libcpan-audit-perl_20240215.001-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/CPAN-Audit"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcpan-audit-perl"
+  ],
+  "Package-List": [
+    "libcpan-audit-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcpan-audit-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libcpan-audit-perl.git"
+  ],
+  "Version": [
+    "20240215.001-1"
+  ]
+}
