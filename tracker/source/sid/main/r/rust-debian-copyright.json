@@ -6,16 +6,16 @@
     "librust-debian-copyright-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-deb822-lossless+default-dev (\u003e= 0.1.10-~~) \u003c!nocheck\u003e, librust-debversion+default-dev (\u003e= 0.3-~~) \u003c!nocheck\u003e, librust-regex+default-dev (\u003e= 1.10-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-deb822-lossless+default-dev (\u003e= 0.1.10-~~) \u003c!nocheck\u003e, librust-deb822-lossless+derive-dev (\u003e= 0.1.10-~~) \u003c!nocheck\u003e, librust-debversion+default-dev (\u003e= 0.3-~~) \u003c!nocheck\u003e, librust-regex+default-dev (\u003e= 1.10-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "387ccac9886d39e079ee997a3d2413c7c967f00ecb49d973c60d23a95c867155 2083 rust-debian-copyright_0.1.25-1.dsc 5d86ef35777337105c390afbd4b9d130be764eecc06ffd16c38d4d7c3223d5df 8559 rust-debian-copyright_0.1.25.orig.tar.gz 7743383ca147a1c583c69896250ff35f1f1e723742e81e22e0c6ad341e4c7598 3352 rust-debian-copyright_0.1.25-1.debian.tar.xz"
+    "32b6ddfb234536b1c43557da650082de06cf2e5fc224688cd76ab93ab901cba7 2158 rust-debian-copyright_0.1.26-2.dsc f70c67f0e99e0de82d1f48ee8123ef1b8759fb033502c596f11a13d6a7410662 9537 rust-debian-copyright_0.1.26.orig.tar.gz 98e526b030e91332b8f7731a554b1725feec8377fc4d41b6479ecc34a55165d6 2360 rust-debian-copyright_0.1.26-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-debian-copyright"
   ],
   "Files": [
-    "3127fd9f15517d62689537f9a0396a94 2083 rust-debian-copyright_0.1.25-1.dsc 797aec101c514f0f87807b78ff8d23ac 8559 rust-debian-copyright_0.1.25.orig.tar.gz 9629734596f35629e02a6d0addbd5d13 3352 rust-debian-copyright_0.1.25-1.debian.tar.xz"
+    "40b75c3f7dae4e027b5baa8c62db982c 2158 rust-debian-copyright_0.1.26-2.dsc bc813f7d5734f4b959ca9faa0d459bcf 9537 rust-debian-copyright_0.1.26.orig.tar.gz c1886da643e32423abc9ecc722533f6e 2360 rust-debian-copyright_0.1.26-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/debian-copyright]"
   ],
   "Version": [
-    "0.1.25-1"
+    "0.1.26-2"
   ]
 }

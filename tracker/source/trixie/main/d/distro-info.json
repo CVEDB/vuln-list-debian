@@ -6,16 +6,16 @@
     "distro-info, libdistro-info-perl, python3-distro-info"
   ],
   "Build-Depends": [
-    "black \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, distro-info-data (\u003e= 0.59~) \u003c!nocheck\u003e, isort \u003c!nocheck\u003e, mypy [!i386] \u003c!nocheck\u003e, pylint (\u003e= 2.2.2-2~) \u003c!nocheck\u003e, python3-all, python3-flake8 \u003c!nocheck\u003e, python3-setuptools, python3-typeshed \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, distro-info-data (\u003e= 0.59~) \u003c!nocheck\u003e, mypy [!i386] \u003c!nocheck\u003e, pylint (\u003e= 2.2.2-2~) \u003c!nocheck\u003e, python3-all, python3-flake8 \u003c!nocheck\u003e, python3-setuptools, python3-typeshed \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "1aea05adb25bdb1fc4fede7cf02aad46b12df29f7c4ad3d1f3b2c1f7ca969d5a 1539 distro-info_1.7.dsc 6fa91b888320b74cd4391941092601a9bc33f3427d1d0ba93efcb7f31bcecf7e 33408 distro-info_1.7.tar.xz"
+    "1d522d5604fd2a0f9f810824122b52f85f3a93c78fda837473dd662aa2c823d1 2066 distro-info_1.9.dsc f2493a5189f6cdf06d47a076039726447491b4d704e7c26620d3d8641066b188 34020 distro-info_1.9.tar.xz"
   ],
   "Directory": [
     "pool/main/d/distro-info"
   ],
   "Files": [
-    "196fd852fb552438e5e4ae7680b2b7f8 1539 distro-info_1.7.dsc 5bbd2f4992ff7db5d05056b660b6c659 33408 distro-info_1.7.tar.xz"
+    "6a32482e3ec1d37a3aa83f75745068b7 2066 distro-info_1.9.dsc f69904682c9ec6916a4d3fd234917577 34020 distro-info_1.9.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,13 +36,13 @@
     "devel"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "black, isort, mypy, pylint, pylint3, python3-all, python3-flake8, python3-typeshed, shunit2"
+    "mypy, pylint, pylint3, python3-all, python3-flake8, python3-typeshed, shunit2"
   ],
   "Uploaders": [
     "Stefano Rivera \u003cstefanor@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/distro-info.git"
   ],
   "Version": [
-    "1.7"
+    "1.9"
   ]
 }

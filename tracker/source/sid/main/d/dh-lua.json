@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), python3-markdown, perl, txt2man"
   ],
   "Checksums-Sha256": [
-    "b377d21671da1de508cb7671587f5628f91d21a9a47f0ddc3b1683ea15082a7f 1542 dh-lua_30.dsc 67ea20d107f56b8d02bd960949440d6553b50ff5920011a7d2a312d3044f8b2f 23532 dh-lua_30.tar.xz"
+    "faec36bed67afbdf7703710b30f2a1cdfd7d24fc46c0e7782969db2dfb8b7256 1111 dh-lua_32.dsc 0e5684b7cbcc672a098676531d558a3b3eb10e6e499f6bcfdce81b7f4b249b77 23624 dh-lua_32.tar.xz"
   ],
   "Directory": [
     "pool/main/d/dh-lua"
   ],
   "Files": [
-    "e087912a3b69cc3f673b6db5f9edaa8c 1542 dh-lua_30.dsc 5c2d54b8ceb847f399486501bdf7a26d 23532 dh-lua_30.tar.xz"
+    "d3accaf7e79112e3c45c21721b612765 1111 dh-lua_32.dsc df3e7b0572cbe5325737fa9ac4291199 23624 dh-lua_32.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/lua-team/dh-lua.git"
   ],
   "Version": [
-    "30"
+    "32"
   ]
 }

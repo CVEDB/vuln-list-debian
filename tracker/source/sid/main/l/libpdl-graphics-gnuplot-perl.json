@@ -6,16 +6,16 @@
     "libpdl-graphics-gnuplot-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-pdl, libalien-gnuplot-perl, libipc-run-perl, libsafe-isa-perl, pdl, perl, gnuplot-nox | gnuplot-x11 | gnuplot-qt"
+    "debhelper-compat (= 13), dh-sequence-pdl, libalien-gnuplot-perl, libipc-run-perl, libsafe-isa-perl, pdl (\u003e= 1:2.093), perl, gnuplot-nox | gnuplot-x11 | gnuplot-qt"
   ],
   "Checksums-Sha256": [
-    "d23b1561f54ccec1b9b50f40ded7f10ca3b4a2fe8241fa2bdf8c569e9c0ef109 2330 libpdl-graphics-gnuplot-perl_2.028-1.dsc d82956c1c576be315078ea12d00f20523c0f7f7c4836189237e4460125991ec8 156452 libpdl-graphics-gnuplot-perl_2.028.orig.tar.gz 0c523756f4bcedb0b473148cc55cbf37228c19c8b19453b27c9f534ecb71aa23 3720 libpdl-graphics-gnuplot-perl_2.028-1.debian.tar.xz"
+    "48b27b5e9eae37c797c9cdffc9b90c692200c90390abfb601e1d90251519a513 2343 libpdl-graphics-gnuplot-perl_2.030-1.dsc 3975034fe2d557934b93969cda33250300918b9779118a70133d79f4c8293e3e 156655 libpdl-graphics-gnuplot-perl_2.030.orig.tar.gz 1e4b5f7f3d444e1ba036626f0fb679e7464e3d83cd661d9357781d35f584eeb0 3764 libpdl-graphics-gnuplot-perl_2.030-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libp/libpdl-graphics-gnuplot-perl"
   ],
   "Files": [
-    "11cbd10269e16257f5672e9849bccf35 2330 libpdl-graphics-gnuplot-perl_2.028-1.dsc e1d44ae1c2627e0ad4e44ce1c83b82a7 156452 libpdl-graphics-gnuplot-perl_2.028.orig.tar.gz 44b6c4442ccfc522a8bf766915ae1016 3720 libpdl-graphics-gnuplot-perl_2.028-1.debian.tar.xz"
+    "e9b0ce0170d6ddf54e1095ffb378bbb1 2343 libpdl-graphics-gnuplot-perl_2.030-1.dsc 298cef7279c3bd3c9527dbc27b5d5aa1 156655 libpdl-graphics-gnuplot-perl_2.030.orig.tar.gz c95ee9820584f6f927c632d314cd5a51 3764 libpdl-graphics-gnuplot-perl_2.030-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libpdl-graphics-gnuplot-perl.git"
   ],
   "Version": [
-    "2.028-1"
+    "2.030-1"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), gettext, python3, python3-setuptools, dh-python"
   ],
   "Checksums-Sha256": [
-    "b0df7a8427f41f62d3b06255495502c9de314c780fb3799726a51360c92f4159 1914 rednotebook_2.33+ds-1.dsc f9e2ecfa7e0df90baf7c5a2969e9b037e78fbc3459f3b55483ea0f3bbed94e31 2261408 rednotebook_2.33+ds.orig.tar.gz 68f53d134fedc2024e371d1d5e85eccd7d35946898d88473c69910c18c927b16 7872 rednotebook_2.33+ds-1.debian.tar.xz"
+    "15b273ee85a264841056e5326f08f44dac01a9e7924c23e985bfdbe80ef15770 1914 rednotebook_2.35+ds-1.dsc e8739b29e92866e03cb2378c1ab49edde10f00d968856e68662f70fc08d1e074 2280988 rednotebook_2.35+ds.orig.tar.gz bef7116b485c2f123da4693afa0cc9bf196fe1fccd672f9c8263183306df6b83 8164 rednotebook_2.35+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rednotebook"
   ],
   "Files": [
-    "be599acc46527aed7313d3b2d83015a4 1914 rednotebook_2.33+ds-1.dsc 544b8244ecba358f66e694f1ba778b28 2261408 rednotebook_2.33+ds.orig.tar.gz c23487faff911572ba4af374fc81321c 7872 rednotebook_2.33+ds-1.debian.tar.xz"
+    "7d1c50fd50d15a21b77eb7e929ff26b1 1914 rednotebook_2.35+ds-1.dsc f1e243e4e57eca8975ddda60fd857116 2280988 rednotebook_2.35+ds.orig.tar.gz d0c50af0b00152d33fe9a80dee16c9c5 8164 rednotebook_2.35+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,12 +42,12 @@
     "4.7.0"
   ],
   "Vcs-Browser": [
-    "https://github.com/jendrikseipp/rednotebook"
+    "https://salsa.debian.org/debian/rednotebook"
   ],
   "Vcs-Git": [
-    "https://github.com/jendrikseipp/rednotebook.git"
+    "https://salsa.debian.org/debian/rednotebook.git"
   ],
   "Version": [
-    "2.33+ds-1"
+    "2.35+ds-1"
   ]
 }

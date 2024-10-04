@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-setuptools, python3-pytest \u003c!nocheck\u003e, python3-aiofiles \u003c!nocheck\u003e, python3-anyio \u003c!nocheck\u003e, python3-h11 \u003c!nocheck\u003e, python3-httpx (\u003e= 0.22.0) \u003c!nocheck\u003e, python3-multipart \u003c!nocheck\u003e, python3-itsdangerous \u003c!nocheck\u003e, python3-jinja2 \u003c!nocheck\u003e, python3-trio \u003c!nocheck\u003e, python3-typing-extensions \u003c!nocheck\u003e, python3-uvicorn | python3-daphne \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "e2193a0c091affab76b933121a3d906494c3c65470e4ad5d6caf9da9c41b9212 2424 starlette_0.38.2-1.dsc c7c0441065252160993a1a37cf2a73bb64d271b17303e0b0c1eb7191cfb12d75 2844770 starlette_0.38.2.orig.tar.gz 06bed876eb80fc35787182906aeab35cfa481d5171aae6976102177a55c33119 3580 starlette_0.38.2-1.debian.tar.xz"
+    "044d6fe3e4dcc56170de0b0d185a8b7b881e5d1aceb9ae1157cb0e72815c3672 2424 starlette_0.39.2-1.dsc caaa3b87ef8518ef913dac4f073dea44e85f73343ad2bdc17941931835b2a26a 2573080 starlette_0.39.2.orig.tar.gz 768a11a42c365fcdcaebd9621b9607886ae46b595418fd630a74cb1f23d985d5 3624 starlette_0.39.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/starlette"
   ],
   "Files": [
-    "796157e3e3b93cbbb33aaff137b1d359 2424 starlette_0.38.2-1.dsc c56bd58a7ed1320677cff4b1055dff18 2844770 starlette_0.38.2.orig.tar.gz 665f044e11d1b27796280f082a955bb4 3580 starlette_0.38.2-1.debian.tar.xz"
+    "b6790cdadf8b491384aa599ce7b64932 2424 starlette_0.39.2-1.dsc cdef39e4684305e568bd91b45ceb9dbf 2573080 starlette_0.39.2.orig.tar.gz b12dcbc3dff715af775dbcee2e6aeceb 3624 starlette_0.39.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/starlette.git"
   ],
   "Version": [
-    "0.38.2-1"
+    "0.39.2-1"
   ]
 }

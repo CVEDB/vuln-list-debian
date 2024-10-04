@@ -12,13 +12,13 @@
     "alembic, python3-alembic, python3-coverage, python3-cursive, python3-ddt, python3-eventlet, python3-fixtures, python3-glanceclient, python3-hacking, python3-jsonpatch, python3-keystonemiddleware, python3-microversion-parse, python3-openstackdocstheme, python3-openstacksdk, python3-os-resource-classes, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.policy, python3-oslo.privsep, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest, python3-pecan, python3-psutil, python3-pycodestyle, python3-pygments, python3-sphinxcontrib.svg2pdfconverter, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-tempest, python3-testresources, python3-testscenarios, python3-testtools, python3-webtest, python3-wsme, subunit"
   ],
   "Checksums-Sha256": [
-    "37300072231ac7e270008bcf415896c775f7147741108b2e6741fa3064cf0d10 3275 cyborg_12.0.0-1.dsc 707d8ed622cd8a9f5be47bea2f124711f2aac662f2400f62c7b569cd27712422 262976 cyborg_12.0.0.orig.tar.xz 1f6eadd1081e739ac926c9110c84c45dce98d81f54990d8f09ce7db1f7038b95 6020 cyborg_12.0.0-1.debian.tar.xz"
+    "1d4bec44f78886ccf49af8860b045fe8ebcf198fb750d04ecaf8ada859e40f64 3275 cyborg_13.0.0-1.dsc 40b6ace528e18f74eea23536856cc4b51c28df6465a5a765d575a61e4e6dd986 262760 cyborg_13.0.0.orig.tar.xz cfac7556692f9984c009442b0a582f5eb86bbbb8536650aa387b686e61953624 6064 cyborg_13.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cyborg"
   ],
   "Files": [
-    "6594d0539a6c11fff9e1a7732a77becf 3275 cyborg_12.0.0-1.dsc 24db6da1360c906348c717999b4cba35 262976 cyborg_12.0.0.orig.tar.xz d3cee333e994717e5a85871107c99c64 6020 cyborg_12.0.0-1.debian.tar.xz"
+    "883f71be798f4f9a31d7cd5ec7d06dbe 3275 cyborg_13.0.0-1.dsc e1ed06e1c0ef3ee06030918bbe34a2f6 262760 cyborg_13.0.0.orig.tar.xz 39bc6f3e14fb4556b7b1318608313309 6064 cyborg_13.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/services/cyborg.git"
   ],
   "Version": [
-    "12.0.0-1"
+    "13.0.0-1"
   ]
 }

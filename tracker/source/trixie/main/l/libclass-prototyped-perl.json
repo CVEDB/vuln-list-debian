@@ -6,16 +6,19 @@
     "libclass-prototyped-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), perl, libmodule-build-perl"
+    "debhelper-compat (= 13), libmodule-build-perl, perl"
   ],
   "Checksums-Sha256": [
-    "4afd6cfbbd3688f826238a7ec0b37dbe70d2b3bb048f1113d0411e17ec45a43f 2129 libclass-prototyped-perl_1.13-4.dsc 031f9e4b5c2ab0de014c34224ab2c90f6cdd5875dce3b0c25334429b05fecc6c 73191 libclass-prototyped-perl_1.13.orig.tar.gz 32d76dfd655af6cd1f8618dbf70797193d879a338be9fddae6c33c6256f7b9e5 4588 libclass-prototyped-perl_1.13-4.debian.tar.xz"
+    "8cb1d707c99bd9fdd26ee71eff5de73ec90fe4d8719d589a295470604f328f10 2435 libclass-prototyped-perl_1.16-1.dsc 348d60938445f174cdbc56147393411a164e286abb680c8d30832019e9063a82 60390 libclass-prototyped-perl_1.16.orig.tar.gz 7707b303310b77948019afc8d208aebbc84c44517825fa8e5ec7d3f8095b3bec 4428 libclass-prototyped-perl_1.16-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "aeb8427f6a69767593b5629593b7d83d1e5cc7a4 debian archive/debian/1.16-1 https://git.dgit.debian.org/libclass-prototyped-perl"
   ],
   "Directory": [
     "pool/main/libc/libclass-prototyped-perl"
   ],
   "Files": [
-    "95abdb15e2efbea6e4db0b7cb05db118 2129 libclass-prototyped-perl_1.13-4.dsc 3ebf182e8b3f665f30f7748b6b5e7fe9 73191 libclass-prototyped-perl_1.13.orig.tar.gz 0d61e6fa7db26467c176387e2ae96007 4588 libclass-prototyped-perl_1.13-4.debian.tar.xz"
+    "5896fc0c8c567b544227b9cff3d3ff50 2435 libclass-prototyped-perl_1.16-1.dsc d29726b12fd389b16da11690aa9408fc 60390 libclass-prototyped-perl_1.16.orig.tar.gz 66fc319b6741b7912349488e5bd135df 4428 libclass-prototyped-perl_1.16-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +42,13 @@
     "perl"
   ],
   "Standards-Version": [
-    "3.9.6"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/perl-team/modules/packages/libclass-prototyped-perl"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libclass-prototyped-perl.git"
   ],
   "Version": [
-    "1.13-4"
+    "1.16-1"
   ]
 }

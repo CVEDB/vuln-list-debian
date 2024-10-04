@@ -9,13 +9,13 @@
     "autopoint, debhelper-compat (= 13), dh-exec, libapparmor-dev [linux-any], libarchive-dev, libbz2-dev, libexiv2-dev, libflac-dev, libgdk-pixbuf-2.0-dev, libgif-dev, libglib2.0-dev, libgsf-1-dev, libgstreamer-plugins-base1.0-dev, libjpeg-dev, libmagic-dev, libmagick-dev, libmpeg2-4-dev, libogg-dev, librpm-dev, libsmf-dev, libswscale-dev, libtidy-dev, libtiff-dev, libvorbis-dev, pkgconf, texinfo, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "74a149944fae1fdc71deac3c93a3c81730897765e2150dba941668c962cfa8c1 3710 libextractor_1.13-4.dsc 50b03190f15ae3240c6a6f96a418772b6aac228c4f2182d6f708556ecff31d12 7127292 libextractor_1.13.orig.tar.xz e67c343496ef71db7e18c1a25eafa83a3904aa3e24cb8425f9d1999c3e2f2309 19792 libextractor_1.13-4.debian.tar.xz"
+    "1c486bbdb45dc465d009a11c0f731e9afedafed4cd4337ac79af936f960be323 3707 libextractor_1.13-7.dsc 50b03190f15ae3240c6a6f96a418772b6aac228c4f2182d6f708556ecff31d12 7127292 libextractor_1.13.orig.tar.xz d697093c5b1cff5a7b09dd14f81e076e655a11e94257df110ee451e0b6bc2f65 20540 libextractor_1.13-7.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libe/libextractor"
   ],
   "Files": [
-    "9c6b809ed83ddb098cac1dfa52cea3cf 3710 libextractor_1.13-4.dsc 03cc2b1c0c13ae3d03e46218e563daf5 7127292 libextractor_1.13.orig.tar.xz 4ef093f5cac167f3d927ace6e943fbc3 19792 libextractor_1.13-4.debian.tar.xz"
+    "a1ff1d2e56766e58024e6570669b1e81 3707 libextractor_1.13-7.dsc 03cc2b1c0c13ae3d03e46218e563daf5 7127292 libextractor_1.13.orig.tar.xz cabd5eb0d322d02beba9079bb0e06a69 20540 libextractor_1.13-7.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,9 +45,9 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkg-config"
+    "build-essential, pkgconf"
   ],
   "Version": [
-    "1:1.13-4"
+    "1:1.13-7"
   ]
 }

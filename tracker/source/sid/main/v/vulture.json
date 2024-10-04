@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-pint \u003c!nocheck\u003e, python3-pytest, python3-setuptools, txt2man"
   ],
   "Checksums-Sha256": [
-    "f80df82bf7c3dd0d33bb2149da2e03ef23d3a2ebd86fd8726403cc505b76748e 2194 vulture_2.11-1.dsc f0fbb60bce6511aad87ee0736c502456737490a82d919a44e6d92262cb35f1c2 55532 vulture_2.11.orig.tar.gz b83b69757103771a8f457c6e458ca6f5fbe399235a80b9545580687b7b4b2102 4592 vulture_2.11-1.debian.tar.xz"
+    "f39625e4c3e40355c22c3fa7976aafac7106210dba950bf65d48fda8f69b9c80 2174 vulture_2.13-1.dsc 78248bf58f5eaffcc2ade306141ead73f437339950f80045dce7f8b078e5a1aa 57066 vulture_2.13.orig.tar.gz f852b2f2802e294ce978c649e890c89519a5005f4e4b1289928a901ca4715f9a 4372 vulture_2.13-1.debian.tar.xz"
   ],
   "Dgit": [
-    "131b57e256795ac4109b73c5d95839c52faf12ef debian archive/debian/2.11-1 https://git.dgit.debian.org/vulture"
+    "6d2dfa9b43da7eb980c8a2821d112399e2c83542 debian archive/debian/2.13-1 https://git.dgit.debian.org/vulture"
   ],
   "Directory": [
     "pool/main/v/vulture"
   ],
   "Files": [
-    "e69969978978c0f629a418c35ecb8767 2194 vulture_2.11-1.dsc 03f1ea5a5c6d60879ad488d8c37143b3 55532 vulture_2.11.orig.tar.gz 10e0fbbfc05c39149cfacc2614958dcf 4592 vulture_2.11-1.debian.tar.xz"
+    "45a7c22a8678fc27ebead7c7284854ce 2174 vulture_2.13-1.dsc 5bae9774eece2fd72de30476c5cd888a 57066 vulture_2.13.orig.tar.gz a837c1eeb33ee0cc5f9d7256a8c6be32 4372 vulture_2.13-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,10 +45,7 @@
     "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/vulture.git"
   ],
   "Version": [
-    "2.11-1"
+    "2.13-1"
   ]
 }

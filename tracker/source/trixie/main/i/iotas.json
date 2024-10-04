@@ -6,16 +6,16 @@
     "iotas"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), appstream, desktop-file-utils, dh-sequence-python3, gobject-introspection, libadwaita-1-dev (\u003e= 1.5~), libgtk-4-dev, libgtksourceview-5-dev, meson, python3-all"
+    "debhelper-compat (= 13), appstream, desktop-file-utils, dh-sequence-python3, gobject-introspection, libadwaita-1-dev (\u003e= 1.6~), libgtk-4-dev (\u003e= 4.16~), libgtksourceview-5-dev, meson, python3-all"
   ],
   "Checksums-Sha256": [
-    "6042362649ab706a8cb6469946237af4c7e1194d445761211c77698239f521f6 1978 iotas_0.8.2+ds-1.dsc d7281713ccd8457579fe36164ade3dc25248ebdab1135bf945eb407bd29d4081 446332 iotas_0.8.2+ds.orig.tar.xz ace73d9fd1e72ef0608d6edb55cce58847bb3daf864363e002ae400e870cb20c 5456 iotas_0.8.2+ds-1.debian.tar.xz"
+    "5ad9db77478e63ce7b196e4e29b7e135b7cd1821f6154f49da752e928c88a63f 1971 iotas_0.9.1-1.dsc f822b742e4be4f07a7c1992ce4f00edf519a0ae5897fcb354692a2e15c4c0047 533060 iotas_0.9.1.orig.tar.bz2 b476a7f350819b93bd1d6b94523c512ad0a0ccb171386f8eedf27008bd5650b3 5376 iotas_0.9.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iotas"
   ],
   "Files": [
-    "e50f836de85fda880ef8a1d758327789 1978 iotas_0.8.2+ds-1.dsc 5b9de8c14f3faf119071fa1a31e09e23 446332 iotas_0.8.2+ds.orig.tar.xz 19c7fe221e538153067fe7ad76afcceb 5456 iotas_0.8.2+ds-1.debian.tar.xz"
+    "97137cbcae8e22567268c3c57f5b1816 1971 iotas_0.9.1-1.dsc d64c9b17335218319bccf4ccb714443a 533060 iotas_0.9.1.orig.tar.bz2 922eb6377efe6a03cfa00fc1620a4d1a 5376 iotas_0.9.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/iotas.git"
   ],
   "Version": [
-    "0.8.2+ds-1"
+    "0.9.1-1"
   ]
 }
