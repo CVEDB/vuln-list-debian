@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "ababdbef8cddc126e063cd8667da746cdb21dfa56f7168ed0e87fd29f25c78d1 2007 pci.ids_0.0~2025.01.13-1.dsc a4aa22aadda0cfc49dd3bbf0c291df532e648e4a67d1b9d32574bfe53de0a894 258468 pci.ids_0.0~2025.01.13.orig.tar.xz 52d8436dc12af2dc84bb47378ef057ed91bb88ef99540d8eceddf235774a0784 5036 pci.ids_0.0~2025.01.13-1.debian.tar.xz"
+    "6dea995bf9018a547c06510d40ace49e5ca726bb1a6a92a861a91cf5f3b72c4c 2007 pci.ids_0.0~2025.02.05-1.dsc 9c26bb66b1bd9e65e784598b0ad6d84e75090b1a52559411068b21fe0cbb1512 260624 pci.ids_0.0~2025.02.05.orig.tar.xz f1d0e62d9a7f1b6f257d3e1db98917c69b77638ca40947e5211a4755769cd8dd 5060 pci.ids_0.0~2025.02.05-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pci.ids"
   ],
   "Files": [
-    "f0ea41074cdf34f4a9fe8bb7b8a8a0ee 2007 pci.ids_0.0~2025.01.13-1.dsc 201f693632528d410aab5aa44f9297bc 258468 pci.ids_0.0~2025.01.13.orig.tar.xz d254af137822164a4c79c6e1b5342688 5036 pci.ids_0.0~2025.01.13-1.debian.tar.xz"
+    "bc2678c6b347e4f0e500ffe8db89fbb0 2007 pci.ids_0.0~2025.02.05-1.dsc 3ab6f20739e458f73506383f482df292 260624 pci.ids_0.0~2025.02.05.orig.tar.xz ac3979d0773ca4a0c8d76f067d57c8d7 5060 pci.ids_0.0~2025.02.05-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://git.hadrons.org/git/debian/pkgs/pci.ids.git"
   ],
   "Version": [
-    "0.0~2025.01.13-1"
+    "0.0~2025.02.05-1"
   ]
 }

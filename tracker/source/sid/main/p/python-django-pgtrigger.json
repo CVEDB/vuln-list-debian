@@ -6,25 +6,25 @@
     "python-django-pgtrigger-doc, python3-django-pgtrigger"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, mkdocs, mkdocs-material, mkdocstrings, mkdocstrings-python-handlers, pybuild-plugin-pyproject, python-installer-doc, python3-all, python3-dj-database-url, python3-django, python3-django-postgres-extra, python3-doc, python3-myst-parser, python3-poetry-core, python3-psycopg2, python3-pymdownx"
+    "debhelper-compat (= 13), dh-sequence-python3, mkdocs, mkdocs-material, mkdocstrings, mkdocstrings-python-handlers, pybuild-plugin-pyproject, python-installer-doc, python3-all, python3-dj-database-url, python3-django (\u003e= 3:4.0), python3-django-postgres-extra, python3-doc, python3-myst-parser, python3-poetry-core, python3-psycopg2, python3-pymdownx"
   ],
   "Checksums-Sha256": [
-    "893f86a2e77b47acb2c3951b157b218bd7a5bd6078a03da10d4ec4030c454fa9 2897 python-django-pgtrigger_4.13.2-1.dsc a245c3ed15f3eef7a26ffa55f39d5abee7b22231eaa44341f2cf7aa799b9bb22 162699 python-django-pgtrigger_4.13.2.orig.tar.gz c19b55bbc6188a641ed19346ce8e2564986dcc3afc725dcf2863763f0122f261 4224 python-django-pgtrigger_4.13.2-1.debian.tar.xz"
+    "d63bba091695a8fa30b88b373bb608892f8345f60a84acd71904c07c115527f9 2913 python-django-pgtrigger_4.13.3-1.dsc 87dd63399e7c021fff1e31d9ce73dc66aa62f0bf80a6ec89ed99bd6844a4def7 181286 python-django-pgtrigger_4.13.3.orig.tar.gz 14d2e5f17493a9c495f5cd9f3ef8682ca31ab74afcb61790694aa5e6441479c6 4360 python-django-pgtrigger_4.13.3-1.debian.tar.xz"
   ],
   "Dgit": [
-    "385e16c037ff8899c1254ccac6a5114e9f8c456e debian archive/debian/4.13.2-1 https://git.dgit.debian.org/python-django-pgtrigger"
+    "d27f46a7f4e3ef6da82640768031a9dba12bf6b8 debian archive/debian/4.13.3-1 https://git.dgit.debian.org/python-django-pgtrigger"
   ],
   "Directory": [
     "pool/main/p/python-django-pgtrigger"
   ],
   "Files": [
-    "792b0d5bc0c7c3bed73cfd14a64a6de3 2897 python-django-pgtrigger_4.13.2-1.dsc c2ec645894e0ea0d75963219729890e4 162699 python-django-pgtrigger_4.13.2.orig.tar.gz 7aa60dd1006989dcff59974a030d9606 4224 python-django-pgtrigger_4.13.2-1.debian.tar.xz"
+    "229a645257c6a6c24a0b0458cf587ae8 2913 python-django-pgtrigger_4.13.3-1.dsc b31a032b5cfed3afaa3a92d7af7bdc54 181286 python-django-pgtrigger_4.13.3.orig.tar.gz 79fd6545cd6a40ff6df87d17ebe08113 4360 python-django-pgtrigger_4.13.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/Opus10/django-pgtrigger"
+    "https://github.com/AmbitionEng/django-pgtrigger"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-django-pgtrigger.git"
   ],
   "Version": [
-    "4.13.2-1"
+    "4.13.3-1"
   ]
 }

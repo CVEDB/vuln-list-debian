@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, php-codecoverage (\u003e= 10.1), php-deepcopy, php-invoker, php-mbstring, php-pcov, php-phar-io-manifest, php-soap, php-timer, phpab, phpunit-cli-parser, phpunit-code-unit, phpunit-comparator, phpunit-diff, phpunit-environment, phpunit-global-state (\u003e= 6), phpunit-object-enumerator (\u003e= 5), phpunit-type (\u003e= 5)"
   ],
   "Checksums-Sha256": [
-    "91a929e069d6f3aa48b1d04bed9640d759be13779cb73a8817207944a1c3184f 2038 phpunit_11.5.3-1.dsc 3bc9e0933352ccc69c66405cd89b184d3fb2880ba45f307dd6ecd4e2f19716c8 5521704 phpunit_11.5.3.orig.tar.xz 1471bad891d675feddf8ab450f098622c07dd24a8ba0e7095d794713018a0b25 80128 phpunit_11.5.3-1.debian.tar.xz"
+    "bfed23633986608b78c93b8fa66969304b5dce8c78395362b9da188392e5cbc9 2051 phpunit_11.5.7-1.dsc d648b09d585a96d1b63b3d990cd69fafe71f4a6691103df1187d8cef4c8cc90d 5521384 phpunit_11.5.7.orig.tar.xz 3172ce769bd7525c5999c8c6b64dd55e126e4f1473cf948893d200a44e455a6f 80344 phpunit_11.5.7-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/phpunit"
   ],
   "Files": [
-    "ad9cc9e576ff7ad125a41de747460d6a 2038 phpunit_11.5.3-1.dsc 336c70b1fd7aff26389f58e5faec3771 5521704 phpunit_11.5.3.orig.tar.xz 09a70e689a4a7e5f9434a061f14c8afc 80128 phpunit_11.5.3-1.debian.tar.xz"
+    "c0cc695091e52f80122370d2c21cd5b7 2051 phpunit_11.5.7-1.dsc 80d9c0543f86398992327fa91a71715c 5521384 phpunit_11.5.7.orig.tar.xz a49ca7a4cd06e3c34cff845407085049 80344 phpunit_11.5.7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,9 +54,9 @@
     "https://salsa.debian.org/php-team/pear/phpunit"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/php-team/pear/phpunit.git"
+    "https://salsa.debian.org/php-team/pear/phpunit.git -b debian/11"
   ],
   "Version": [
-    "11.5.3-1"
+    "11.5.7-1"
   ]
 }

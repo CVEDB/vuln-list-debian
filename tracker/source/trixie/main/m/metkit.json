@@ -6,16 +6,16 @@
     "libmetkit0d, libmetkit-data, libmetkit-dev, libmetkit-utils"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), architecture-is-64-bit, ecbuild (\u003e= 3.7.2-1~), libeckit-dev (\u003e= 1.25.0-1~), libodc-dev, odc, libeccodes-dev, libeccodes-tools, libopenjp2-7-dev"
+    "debhelper-compat (= 13), architecture-is-64-bit, ecbuild (\u003e= 3.7.2-1~), libeckit-dev (\u003e= 1.28.5-1~), libodc-dev, odc, libeccodes-dev, libeccodes-tools, libopenjp2-7-dev"
   ],
   "Checksums-Sha256": [
-    "cb41edf5acc1215753de47108e38ad028bef9f55e27d3094e7ba4dfb91244271 2284 metkit_1.11.22-1.dsc beb473dd764949f4c4cbb9f38bb8c14ab20cf96037d837383a7fd62e31d0e02f 422280 metkit_1.11.22.orig.tar.xz d42630647a1c451319b9f2cca902ba495a5519535cddfd455a0bb3b409f5016d 4680 metkit_1.11.22-1.debian.tar.xz"
+    "284ecd7a725489a9c9922663898fc9bb968fba266f2dba26c2fcea409bb591d8 2277 metkit_1.12.1-1.dsc db308d11b4f975ccd23b13db2034bac8e24917decaea73081c9d48c403e3fe8e 427508 metkit_1.12.1.orig.tar.xz 746a685c9f08d7b896cf8c92cfc457ff75deb292c04f25a02b106c83ca8418df 4836 metkit_1.12.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/metkit"
   ],
   "Files": [
-    "bac2fac6ed428345702b789544af7949 2284 metkit_1.11.22-1.dsc 58d860bc3e85522640cbaf9c94086f94 422280 metkit_1.11.22.orig.tar.xz 5f16e3644e7db0b156727b9cd447115d 4680 metkit_1.11.22-1.debian.tar.xz"
+    "c4b1f72cf0e86cdd01d1850f12681119 2277 metkit_1.12.1-1.dsc ebbf967d1aadb65b625d5cba637cdb0d 427508 metkit_1.12.1.orig.tar.xz ecd832733d5a236f48070ce1c5e3b12c 4836 metkit_1.12.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/science-team/metkit.git -b debian/latest"
   ],
   "Version": [
-    "1.11.22-1"
+    "1.12.1-1"
   ]
 }

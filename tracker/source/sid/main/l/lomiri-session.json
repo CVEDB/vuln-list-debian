@@ -9,13 +9,13 @@
     "cmake, dbus-bin, debhelper-compat (= 13), libsystemd-dev [linux-any], pkgconf, systemd-dev"
   ],
   "Checksums-Sha256": [
-    "19de7f755bb38b4c1f88c8dfdcbbc9edbe2f42eb96a1b19cee406df191fa3d38 2215 lomiri-session_0.3-7.dsc b2dab5cf78dcc56739f7e72bb93ebab879be69d1308b85907434e7d4a9e1bede 9022 lomiri-session_0.3.orig.tar.bz2 1e468dd5db461acbbe3b090062402a5b30a78b6601aa88be4ecddb8d21252bb6 5644 lomiri-session_0.3-7.debian.tar.xz"
+    "198d23126558f4376e3ae06256281091977778504f560337c412f1c5d27cf7f5 2215 lomiri-session_0.3-9.dsc b2dab5cf78dcc56739f7e72bb93ebab879be69d1308b85907434e7d4a9e1bede 9022 lomiri-session_0.3.orig.tar.bz2 b5b465bac46c86267df5ef64d3b90f1bd1f24b9faeb2fc1cb508d6a6137d1450 6008 lomiri-session_0.3-9.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lomiri-session"
   ],
   "Files": [
-    "c776b24a0854bddce6c7388d9b0f7366 2215 lomiri-session_0.3-7.dsc f6555c38468a3ddc0db15f01c4302149 9022 lomiri-session_0.3.orig.tar.bz2 3e77c3d4c596a98dca78d33c2e7e208f 5644 lomiri-session_0.3-7.debian.tar.xz"
+    "977f4a5f0c3eb938dea9cb78c873cd63 2215 lomiri-session_0.3-9.dsc f6555c38468a3ddc0db15f01c4302149 9022 lomiri-session_0.3.orig.tar.bz2 db1bbf263009f4a667acb78799e24b26 6008 lomiri-session_0.3-9.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/ubports-team/lomiri-session.git"
   ],
   "Version": [
-    "0.3-7"
+    "0.3-9"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libgraph-perl \u003c!nocheck\u003e, libnauty-dev, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha256": [
-    "af4dc8f29a92ac977fc03aaa96501b84805995122200cf37c7ff03b0dc8cc037 2223 libgraph-nauty-perl_0.5.1-2.dsc d2def9793db236961f60fbead4f3bd02dc02a7b6a19b5a7543a2dadd001bbf88 10324 libgraph-nauty-perl_0.5.1.orig.tar.gz c16e3a5dda937b38600bc08de2c348843bc8a6ac00ae0de4d3f45f3fec812128 2356 libgraph-nauty-perl_0.5.1-2.debian.tar.xz"
+    "c400ba60221248b717e45cc5a8c0d3d265b0efa846f47428a0f810a019031987 2219 libgraph-nauty-perl_0.5.3-1.dsc 177faced68a9251773c5b32e41c2cf65120f8a943de48d517e2b7dac4b8da40c 11010 libgraph-nauty-perl_0.5.3.orig.tar.gz 82c88df12afc041a693996be07f67d07f11a84338f52040caf58f96d564fd4d8 2392 libgraph-nauty-perl_0.5.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libg/libgraph-nauty-perl"
   ],
   "Files": [
-    "b8964a116df242cf37a180c11b178d3f 2223 libgraph-nauty-perl_0.5.1-2.dsc 3302d12459b337b5b241211cce2afa44 10324 libgraph-nauty-perl_0.5.1.orig.tar.gz 8c5711b1891443337c7691f023b635ce 2356 libgraph-nauty-perl_0.5.1-2.debian.tar.xz"
+    "d9eb3170605a428e7e8fefe62bba37e4 2219 libgraph-nauty-perl_0.5.3-1.dsc 2a0856f4d2abdd6ccede065f98b12991 11010 libgraph-nauty-perl_0.5.3.orig.tar.gz e36f6ce809b2599a4ca83f5dc3283faa 2392 libgraph-nauty-perl_0.5.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libgraph-nauty-perl.git"
   ],
   "Version": [
-    "0.5.1-2"
+    "0.5.3-1"
   ]
 }

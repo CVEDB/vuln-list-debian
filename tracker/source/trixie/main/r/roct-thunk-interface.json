@@ -1,6 +1,6 @@
 {
   "Architecture": [
-    "any"
+    "amd64 arm64 ppc64el"
   ],
   "Binary": [
     "libhsakmt1, libhsakmt-dev"
@@ -9,13 +9,13 @@
     "cmake, debhelper-compat (= 13), libdrm-dev, libnuma-dev, libudev-dev, pkgconf, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "179bfd51d874351cdabfb48fc19fdf1054cb2fd5305ed6e87fd54660b51484a0 2292 roct-thunk-interface_5.7.0-1.dsc 52293e40c4ba0c653d796e2f6109f5fb4c79f5fb82310ecbfd9a5432acf9da43 665525 roct-thunk-interface_5.7.0.orig.tar.gz 556f8dfd04c3d33c8573632ac8ee2ae23230de0f668648af32da134c8716dae2 5740 roct-thunk-interface_5.7.0-1.debian.tar.xz"
+    "caa35bfe56ebfbfb1b9fe373b17785e468855df1e3da8ba43beabb7c61b66c95 2493 roct-thunk-interface_6.2.4+ds-1.dsc 8f18a8dd6c3df3526c26440820a3c5d68ce0965e3da47cbdf10cb9b6f4fcc688 324804 roct-thunk-interface_6.2.4+ds.orig.tar.xz e9ec58badc345b05a9c59bd690ce0a6f273894968e3f8ca5a34871009446e878 6860 roct-thunk-interface_6.2.4+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/roct-thunk-interface"
   ],
   "Files": [
-    "f5155f77589c723123d5d9b02fb10e39 2292 roct-thunk-interface_5.7.0-1.dsc f3bdc6444ccfe8474772a8a1bf0f42ba 665525 roct-thunk-interface_5.7.0.orig.tar.gz 4e4f47835ea449aa3f065c7ef7f04f22 5740 roct-thunk-interface_5.7.0-1.debian.tar.xz"
+    "9553260346a005650e702d3b68292d73 2493 roct-thunk-interface_6.2.4+ds-1.dsc e3709afe053c3b7076884f2ee7be6229 324804 roct-thunk-interface_6.2.4+ds.orig.tar.xz 9318386ed98c5f815455ad0d08a6df37 6860 roct-thunk-interface_6.2.4+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,13 +24,13 @@
     "https://github.com/ROCm/ROCT-Thunk-Interface"
   ],
   "Maintainer": [
-    "ROCm Team \u003cdebian-ai@lists.debian.org\u003e"
+    "Debian ROCm Team \u003cdebian-ai@lists.debian.org\u003e"
   ],
   "Package": [
     "roct-thunk-interface"
   ],
   "Package-List": [
-    "libhsakmt-dev deb libdevel optional arch=any libhsakmt1 deb libs optional arch=any"
+    "libhsakmt-dev deb libdevel optional arch=amd64,arm64,ppc64el libhsakmt1 deb libs optional arch=amd64,arm64,ppc64el"
   ],
   "Priority": [
     "extra"
@@ -39,10 +39,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Mo Zhou \u003clumin@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Maxime Chambonnet \u003cmaxzor@maxzor.eu\u003e, Étienne Mollier \u003cemollier@debian.org\u003e, Cordell Bloor \u003ccgmb@slerp.xyz\u003e"
+    "Mo Zhou \u003clumin@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Maxime Chambonnet \u003cmaxzor@maxzor.eu\u003e, Étienne Mollier \u003cemollier@debian.org\u003e, Cordell Bloor \u003ccgmb@slerp.xyz\u003e, Xuanteng Huang \u003cxuanteng.huang@outlook.com\u003e, Christian Kastner \u003cckk@debian.org\u003e, Mario Limonciello \u003csuperm1@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/rocm-team/roct-thunk-interface"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/rocm-team/roct-thunk-interface.git"
   ],
   "Version": [
-    "5.7.0-1"
+    "6.2.4+ds-1"
   ]
 }

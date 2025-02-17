@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "puppet-module-voxpupuli-archive"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), openstack-pkg-tools"
+  ],
+  "Checksums-Sha256": [
+    "49d4c6978828031268cfb517f93f9763ca59184576d32d0c6f0630d45a8c5af8 2200 puppet-module-voxpupuli-archive_7.1.0-2.dsc a885ccc64c134361c96e453f508c5f32d0bbc55b2cd729fb421abcb18ae2337b 159620 puppet-module-voxpupuli-archive_7.1.0.orig.tar.xz 60b0fcdcf8a73d5f39f72f5c1bcb0de239c783f9b19c3ed46303e8dadeeeeebc 1992 puppet-module-voxpupuli-archive_7.1.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puppet-module-voxpupuli-archive"
+  ],
+  "Files": [
+    "db72b232fb0f9a2e47e8ce5aa126f3b6 2200 puppet-module-voxpupuli-archive_7.1.0-2.dsc c9a8487781811b5b2b25088d1a5e1ed8 159620 puppet-module-voxpupuli-archive_7.1.0.orig.tar.xz 1e30e827e051187cf2b55ea9af0c4d4b 1992 puppet-module-voxpupuli-archive_7.1.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/voxpupuli/puppet-archive"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "puppet-module-voxpupuli-archive"
+  ],
+  "Package-List": [
+    "puppet-module-voxpupuli-archive deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/puppet/puppet-module-voxpupuli-archive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/puppet/puppet-module-voxpupuli-archive.git"
+  ],
+  "Version": [
+    "7.1.0-2"
+  ]
+}

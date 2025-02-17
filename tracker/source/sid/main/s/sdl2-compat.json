@@ -6,19 +6,19 @@
     "libsdl2-compat, libsdl2-compat-dev, libsdl2-compat-shim, libsdl2-compat-tests"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libgl-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libgles-dev [!hurd-any] \u003c!nocheck\u003e \u003c!noinsttest\u003e, libsdl3-dev (\u003e= 3.2.0), libvulkan-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libx11-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e"
+    "cmake, debhelper-compat (= 13), libgl-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libgles-dev [!hurd-any] \u003c!nocheck\u003e \u003c!noinsttest\u003e, libsdl3-dev (\u003e= 3.2.4), libvulkan-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libx11-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e"
   ],
   "Checksums-Sha256": [
-    "2bb06d67d3dbd59e10b117558f12f388041e52395093c7f0679fb0d4832dc4ca 2694 sdl2-compat_2.30.51+ds-1.dsc b5e966467acacfc50b0c09c7c5a182935029c175670371a12238a7c469242456 1212024 sdl2-compat_2.30.51+ds.orig.tar.xz e59675808cfa7c5c0726cc5ce34da6083f0dc195f5d8d7f2b5a9854e9bed27f5 20864 sdl2-compat_2.30.51+ds-1.debian.tar.xz"
+    "abaa987eb0d7c5427e6172c48244b76e0b1b0a636840ea998498f052cf89dacc 2694 sdl2-compat_2.32.50+ds-1.dsc 6850f60be25314d6a0a223e23ab66b75cf32fd1e1f77f15849fb13f9779813e9 1217240 sdl2-compat_2.32.50+ds.orig.tar.xz e9b6911da65de32821898c272d2c5def62f4c718a16d02365bd330506b0d4769 24416 sdl2-compat_2.32.50+ds-1.debian.tar.xz"
   ],
   "Dgit": [
-    "1e0dac5f7bbc6c81a16ff34283e23db428b5fd78 debian archive/debian/2.30.51+ds-1 https://git.dgit.debian.org/sdl2-compat"
+    "f79b1233893c109b1c09ea9056a401b9e7747c9b debian archive/debian/2.32.50+ds-1 https://git.dgit.debian.org/sdl2-compat"
   ],
   "Directory": [
     "pool/main/s/sdl2-compat"
   ],
   "Files": [
-    "97562182c235c863af2b0e06e2684909 2694 sdl2-compat_2.30.51+ds-1.dsc 066e27986c97a9e6e5930ad76aa20753 1212024 sdl2-compat_2.30.51+ds.orig.tar.xz 7e71d159293c975723158fda990d6a85 20864 sdl2-compat_2.30.51+ds-1.debian.tar.xz"
+    "ae51ca52e9d6c76a0e3742c3aae3f9d6 2694 sdl2-compat_2.32.50+ds-1.dsc 25dbd9cd805d6a3ed613042b9e444ce7 1217240 sdl2-compat_2.32.50+ds.orig.tar.xz 99ce988b26d87686f157042a6c097bbb 24416 sdl2-compat_2.32.50+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/sdl-team/sdl2-compat.git"
   ],
   "Version": [
-    "2.30.51+ds-1"
+    "2.32.50+ds-1"
   ]
 }

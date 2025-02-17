@@ -6,19 +6,19 @@
     "elpa-mastodon"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-elpa, elpa-el-mock, texinfo"
+    "debhelper-compat (= 13), dh-elpa, elpa-el-mock (\u003e= 1.25.1+git20220625.6cfbc9d-1~), elpa-persist (\u003e= 0.4), elpa-request (\u003e= 0.3.0), elpa-tp (\u003e= 0.7), git \u003c!nocheck\u003e, jdupes, texinfo"
   ],
   "Checksums-Sha256": [
-    "d9d1773959f1a9ccaac9f4b8bacd691dedb1d39c40088087f83b04be92166e3d 2096 mastodon-el_1.0.13-2.dsc 66c5c9f2f9ca1980deaf00afdeed8749dd37dc9092e5e139382d6522a9db7494 155603 mastodon-el_1.0.13.orig.tar.gz d369125e261dbc59c6d2d0c6e14482f00e8b8e3f5781c3afb500705fa8f05986 1832 mastodon-el_1.0.13-2.debian.tar.xz"
+    "1f85fe80c6cd514a778de65af063acd9f7123f2d71e508c8bcc8473773af8783 2303 mastodon-el_1.1.9-2.dsc 48b6c4718a404f70d0964b063272031f7baba2c7180a8f10812a9a3c6ff8ff1f 703107 mastodon-el_1.1.9.orig.tar.gz 74e6c0c4e0fdb0a6f2613564e89ce8470b70c2dcb346d3180a7c866008cbe172 6144 mastodon-el_1.1.9-2.debian.tar.xz"
   ],
   "Dgit": [
-    "34d1553d4a945ea655cb43ead4c9d5848e1bc3cf debian archive/debian/1.0.13-2 https://git.dgit.debian.org/mastodon-el"
+    "84f7a07b5cb7ed109bba368b879aa94002777dbf debian archive/debian/1.1.9-2 https://git.dgit.debian.org/mastodon-el"
   ],
   "Directory": [
     "pool/main/m/mastodon-el"
   ],
   "Files": [
-    "0d13bae1628051391838397732d051a8 2096 mastodon-el_1.0.13-2.dsc edeeb5d179e079d4537c8b1569f5134b 155603 mastodon-el_1.0.13.orig.tar.gz e2adc47c9560f68d4e11994b84407148 1832 mastodon-el_1.0.13-2.debian.tar.xz"
+    "741cd155ecdac8f51e64bac13796788b 2303 mastodon-el_1.1.9-2.dsc 5ff644305f0ecbf2710e10d080a6628c 703107 mastodon-el_1.1.9.orig.tar.gz d7701339085cfac2bc545e752fa3efd0 6144 mastodon-el_1.1.9-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-elpa"
   ],
   "Uploaders": [
-    "Martin \u003cdebacle@debian.org\u003e"
+    "Martin \u003cdebacle@debian.org\u003e, Xiyue Deng \u003cmanphiz@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/emacsen-team/mastodon-el"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/emacsen-team/mastodon-el.git"
   ],
   "Version": [
-    "1.0.13-2"
+    "1.1.9-2"
   ]
 }

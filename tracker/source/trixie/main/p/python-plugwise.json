@@ -12,13 +12,13 @@
     "python3-aiohttp \u003c!nocheck\u003e, python3-dateutil \u003c!nocheck\u003e, python3-defusedxml \u003c!nocheck\u003e, python3-freezegun \u003c!nocheck\u003e, python3-munch \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "3e239dfb38d952cff084fdbe79b391afc539390c16520d45908cb0c163fb2b59 2437 python-plugwise_1.6.4-1.dsc 1a634d46be3559036a3ffbef524579558bc731b903fba1ce3f4a0807ea265722 810684 python-plugwise_1.6.4.orig.tar.gz bf99c4ef794427957a28c4b6d0d3c9f8f83dda45372755cb944d6587f4bd83f0 2948 python-plugwise_1.6.4-1.debian.tar.xz"
+    "e08fca58dcc43007fb120534e77d778403bc92ab62ceb1baf4af8e168c973354 2437 python-plugwise_1.7.1-1.dsc 8accbe392e97ca37e0932fb26324ce094933752202d687e5c81b582ca51dccc0 830754 python-plugwise_1.7.1.orig.tar.gz e1a5a32f2ead8dd9f248d0972b8b606e2ff3773272742ced98fef4ba34279739 2900 python-plugwise_1.7.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-plugwise"
   ],
   "Files": [
-    "3fda55b82d08629ffa02f60e25c9573a 2437 python-plugwise_1.6.4-1.dsc c4acd86df04b4ad839834db6ffb415b9 810684 python-plugwise_1.6.4.orig.tar.gz 207a9e61f1c2f8188c99cc162b4d6980 2948 python-plugwise_1.6.4-1.debian.tar.xz"
+    "7d210ccc31f48229f68ffc9a30145557 2437 python-plugwise_1.7.1-1.dsc 7e66f95e2f13247c14b23bf9fe2ffe62 830754 python-plugwise_1.7.1.orig.tar.gz f1c605881dcf968d0a826f4d83a5d14f 2900 python-plugwise_1.7.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/python-plugwise.git"
   ],
   "Version": [
-    "1.6.4-1"
+    "1.7.1-1"
   ]
 }

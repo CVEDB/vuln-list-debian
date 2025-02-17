@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-chewxy-math32-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any"
+  ],
+  "Checksums-Sha256": [
+    "0a1fb0af79fde4b264bb9a6ddc65d8dcdac290c01a6592c763ffb51e9c69fd6c 2659 golang-github-chewxy-math32_1.11.1-2.dsc 52b9c4aa2d5bcd85a916271dee9ab5851ebeac29dfcd8a1199b81a9aeab04653 43938 golang-github-chewxy-math32_1.11.1.orig.tar.gz 2e50f9ea923301f6aafb197f26d69e808c03e11c2d4d57893e9a0f4db8141ec3 3360 golang-github-chewxy-math32_1.11.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-chewxy-math32"
+  ],
+  "Files": [
+    "daec4872e45f5a444e7e1c2468cd1bfd 2659 golang-github-chewxy-math32_1.11.1-2.dsc 32786aa41e1b869a1492c01ddc3b4137 43938 golang-github-chewxy-math32_1.11.1.orig.tar.gz 38b9e1007feec741fe782610b8b64659 3360 golang-github-chewxy-math32_1.11.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/chewxy/math32"
+  ],
+  "Homepage": [
+    "https://github.com/chewxy/math32"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-chewxy-math32"
+  ],
+  "Package-List": [
+    "golang-github-chewxy-math32-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-chewxy-math32"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-chewxy-math32.git"
+  ],
+  "Version": [
+    "1.11.1-2"
+  ]
+}

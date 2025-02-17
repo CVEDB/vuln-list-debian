@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "054d85e51a8c8a91130a1215f0eaaa3d0c20226450ab19b5cad3ffca93c6e79e 2155 distribution-gpg-keys_1.107+ds-1.dsc 1b8da2d992b80a64e0de98c940b9808b9751f266a52ca3996f4314846d62ab85 71974392 distribution-gpg-keys_1.107+ds.orig.tar.xz 7db6002cae13efdf5a0b7bc04b8a227cba84991fab2e93ecabfac7983c16aa05 3148 distribution-gpg-keys_1.107+ds-1.debian.tar.xz"
+    "b726481fc8bc027075c4768ec8bd571401c268875b3ced54b57e64f4f9ecda4e 2156 distribution-gpg-keys_1.109+ds-1.dsc 3e820f382693095af4a316c062fef0a034d8765580e3e14f3b67e4dd806b0f0a 75839528 distribution-gpg-keys_1.109+ds.orig.tar.xz e7113bcea1e064ae13e00ab0c449bc049402861c845b066e49bfb032b725fefe 3176 distribution-gpg-keys_1.109+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/distribution-gpg-keys"
   ],
   "Files": [
-    "0680dbe0e87fc98b53e533f98763ae11 2155 distribution-gpg-keys_1.107+ds-1.dsc 5049902d6da6222019e080de7425a9d0 71974392 distribution-gpg-keys_1.107+ds.orig.tar.xz 69e049928452d8d41b482ad4b80f4e62 3148 distribution-gpg-keys_1.107+ds-1.debian.tar.xz"
+    "d5462cdca7d4b86614217ef0beebd5fa 2156 distribution-gpg-keys_1.109+ds-1.dsc b3059167339b19cc57fd7a613ce744f7 75839528 distribution-gpg-keys_1.109+ds.orig.tar.xz 8669772888e2e7e93ff1fd758e8f7353 3176 distribution-gpg-keys_1.109+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/pkg-rpm-team/distribution-gpg-keys.git"
   ],
   "Version": [
-    "1.107+ds-1"
+    "1.109+ds-1"
   ]
 }

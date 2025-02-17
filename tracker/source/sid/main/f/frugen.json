@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libfru2, libfru-dev, frugen"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, doxygen, graphviz, help2man, libjson-c-dev, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "03ae95d2b30d2b0dd5f7dd02fc1fb2c9a2d09f15fa46bf58041e38ef8d0f0c3d 1964 frugen_2.1-1.dsc 55dc205d4fd620024b2db1d48b766c26f021f8c7bb4096a3b5768c05ceda06d8 65400 frugen_2.1.orig.tar.xz 855a8e3aec3f62483c59d8f7abf8ae7674eba9f538cb62a371a4a94850d922f6 4696 frugen_2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/frugen"
+  ],
+  "Files": [
+    "584db876b9debfbc92b9c0419ccf05e8 1964 frugen_2.1-1.dsc 9066509832777183dced4692cbab1236 65400 frugen_2.1.orig.tar.xz 8ca9fcfaec32622137ef6dc3ba2aedad 4696 frugen_2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/IPMITool/frugen"
+  ],
+  "Maintainer": [
+    "Shengqi Chen \u003charry@debian.org\u003e"
+  ],
+  "Package": [
+    "frugen"
+  ],
+  "Package-List": [
+    "frugen deb utils optional arch=any libfru-dev deb libdevel optional arch=any libfru2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/harry/frugen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/harry/frugen.git"
+  ],
+  "Version": [
+    "2.1-1"
+  ]
+}

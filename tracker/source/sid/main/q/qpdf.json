@@ -12,13 +12,13 @@
     "python3-sphinx, python3-sphinx-rtd-theme (\u003e= 1~), libjs-sphinxdoc (\u003e= 4.3.2~), texlive, texlive-latex-extra, latexmk, tex-gyre"
   ],
   "Checksums-Sha256": [
-    "1ac4de31fb7afce8b1f302292f01fdebd8aea246a7e2bb81bb6d596a0c0e3bc5 2411 qpdf_11.9.1-1.dsc 2ba4d248f9567a27c146b9772ef5dc93bd9622317978455ffe91b259340d13d1 18585065 qpdf_11.9.1.orig.tar.gz cc216df298386ccbad56d80e08a21a50178609d5a35bc1a84651da6446112f62 833 qpdf_11.9.1.orig.tar.gz.asc da2f831c1663f61cf2c787df2e53a246b815203da63976d8e41b75c8c55347d8 15276 qpdf_11.9.1-1.debian.tar.xz"
+    "e30886cd9c1d41100942ebeb3b917beac324b560ade6421f6423c2788dd04491 2421 qpdf_11.10.1-1.dsc defca435cf57d26f8a0619864841aa21f5469fddc6eb5662f62d8443021c069d 19497326 qpdf_11.10.1.orig.tar.gz c5aa36461a8bd4bdc42f2570c913ce3df57c78743fd9cf93ac3f25e2b6aeab1a 833 qpdf_11.10.1.orig.tar.gz.asc 2fc24f17395b378d6b8e9ccbadf512c1404fce9712152d0ab0e3864729bdfe4c 15300 qpdf_11.10.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qpdf"
   ],
   "Files": [
-    "ae5454d1f17b36ccfd34a9d2be3206d2 2411 qpdf_11.9.1-1.dsc 22dcfec7700e4d8b08a116ecc1c529ac 18585065 qpdf_11.9.1.orig.tar.gz 341a4bb689a20c946a42e99043b90f82 833 qpdf_11.9.1.orig.tar.gz.asc 9c99fad4406684cffac51cd831fcef70 15276 qpdf_11.9.1-1.debian.tar.xz"
+    "f55c459aad71dc046fe7a948db8dabde 2421 qpdf_11.10.1-1.dsc 1ff2340ee610bd8d1e1296d3523c79c9 19497326 qpdf_11.10.1.orig.tar.gz 7820ccc848c9aafc552fa3b7aba9a747 833 qpdf_11.10.1.orig.tar.gz.asc 52481d4df43e5b532a828d7bdb847f82 15300 qpdf_11.10.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "build-essential, cmake, pkg-config"
   ],
   "Version": [
-    "11.9.1-1"
+    "11.10.1-1"
   ]
 }

@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), autoconf-archive, dh-python, python3, libgmp-dev, libcgal-dev, libboost-thread-dev, libboost-system-dev, libboost-iostreams-dev, libboost-regex-dev, libboost-coroutine-dev, libboost-graph-dev, libboost-python-dev, libexpat1-dev, libsparsehash-dev, libcairomm-1.0-dev, python3-dev, python3-numpy-dev, python3-cairo-dev, python3-numpy, python3-scipy, python3-matplotlib, zstd, vpx-tools, librsvg2-common, gir1.2-gtk-3.0, python3-gi"
   ],
   "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc, python3-docutils, python3-sphinx, python3-doc, python3-numpydoc, python-scipy-doc, python-mpltoolkits.basemap-doc, python3-cairo-doc, python-ipython-doc, python-pandas-doc, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, cm-super-minimal, poppler-utils, latexmk"
+    "dh-sequence-sphinxdoc, python3-docutils, python3-sphinx, python3-doc, python3-numpydoc, python-scipy-doc, python3-cairo-doc, python-ipython-doc, python-pandas-doc, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, cm-super-minimal, poppler-utils, latexmk"
   ],
   "Checksums-Sha256": [
-    "b862e2e071c1c59205c4b1540469cccb30caec0c16480aea0d73234894afb807 2759 graph-tool_2.77+ds-3.dsc cbb4dccbca81491d373a3fd6fd5cfafa2004a665da95a61e0ad0ada660df5a77 14706028 graph-tool_2.77+ds.orig.tar.xz d819346791509e5dedf0b71a484a6c0a0d6eec56f5faa39b54030c8bcffc315d 363472 graph-tool_2.77+ds-3.debian.tar.xz"
+    "cdf456c654eee4b0da660473d11d0787f124b276220da98fb7c4c3dd78aadcc0 3796 graph-tool_2.91+ds-1.dsc eff6d53e8cf5d3cbb508e58352ea7ece2610ed3a65c803bec8395cb49708324d 14768184 graph-tool_2.91+ds.orig.tar.xz 89810ea7779288ffaeaa346d2ed940a009c3273f30513338316ba1ffc467f337 364368 graph-tool_2.91+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/graph-tool"
   ],
   "Files": [
-    "defeb42eb73aa34fcc9158c68902fa9e 2759 graph-tool_2.77+ds-3.dsc 10cd9fe9e3eddab9618586387952b832 14706028 graph-tool_2.77+ds.orig.tar.xz 55c1294eef0fc60543bd921659c1a808 363472 graph-tool_2.77+ds-3.debian.tar.xz"
+    "abe076bcade358d7199de0a9f2b46425 3796 graph-tool_2.91+ds-1.dsc d939f35d43db2a214d4f00a8ead4c424 14768184 graph-tool_2.91+ds.orig.tar.xz 03ebaa023b3cb162a292057fde4182c3 364368 graph-tool_2.91+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/graph-tool.git"
   ],
   "Version": [
-    "2.77+ds-3"
+    "2.91+ds-1"
   ]
 }

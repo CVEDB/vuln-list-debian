@@ -9,13 +9,13 @@
     "architecture-is-64-bit \u003c!pkg.postgresql.32-bit\u003e, debhelper-compat (= 13), libicu-dev, postgresql-all \u003c!nocheck\u003e, postgresql-server-dev-all"
   ],
   "Checksums-Sha256": [
-    "7121a407fd41efb5d2e692b22d657bed11302aefec7f97f06aae371599ac8fa5 2216 plpgsql-check_2.7.13-1.dsc 9df9947a4a0c196a075a03affa89a94f982f89f512270327053915c2bc5c22a7 294011 plpgsql-check_2.7.13.orig.tar.gz d99c883579bf98a128237481cd57fff895075c2ad32591d90629cfa978bf18b0 3648 plpgsql-check_2.7.13-1.debian.tar.xz"
+    "fc77a95f01012d3cc817aeca029f7a751140c9893c5e1892b7db97ae14534abe 2216 plpgsql-check_2.7.15-1.dsc 1a16b957fa10dadd1abf3b17201eb702d3fc7fd466ff6ce04db2d6d6d38da442 295573 plpgsql-check_2.7.15.orig.tar.gz 9d96eda6bf912b843fb4819e12fa4f114f79f4c90edcf8fce8b523cf26e5e704 3672 plpgsql-check_2.7.15-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/plpgsql-check"
   ],
   "Files": [
-    "875b3cd778ca6027f7dc412c94878d76 2216 plpgsql-check_2.7.13-1.dsc b474f4375609573d17c4881dcc0de7e8 294011 plpgsql-check_2.7.13.orig.tar.gz bbb9553c984a158d73d1d11791163097 3648 plpgsql-check_2.7.13-1.debian.tar.xz"
+    "8b18082587a45f0c5a0c2b3d963e617e 2216 plpgsql-check_2.7.15-1.dsc fdd2fd4d4845f315d488eb7da0cf9876 295573 plpgsql-check_2.7.15.orig.tar.gz c64e63d93c6822718b1f3e41a2c7fe51 3672 plpgsql-check_2.7.15-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/postgresql/plpgsql-check.git"
   ],
   "Version": [
-    "2.7.13-1"
+    "2.7.15-1"
   ]
 }

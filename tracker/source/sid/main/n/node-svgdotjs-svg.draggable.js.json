@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-svgdotjs-svg.draggable.js"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, dh-nodejs"
+  ],
+  "Checksums-Sha256": [
+    "af9e338971042cb6c43346616acbd9e1987dc29316d79ba5542807fa0632393f 2237 node-svgdotjs-svg.draggable.js_3.0.6-1.dsc 133f383f4ffee2cdddc96640e667828514619754eb173d026d1b386c19755e43 37567 node-svgdotjs-svg.draggable.js_3.0.6.orig.tar.gz 503cd3e8c19d3d3f100e6edbcc232d421d95e16672ac29f6a9154d1eaf583059 3064 node-svgdotjs-svg.draggable.js_3.0.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-svgdotjs-svg.draggable.js"
+  ],
+  "Files": [
+    "6dfe76437b710f1aa6ccba6a6c6756e3 2237 node-svgdotjs-svg.draggable.js_3.0.6-1.dsc 1963b97ba18f55fbeb8dd38caac7f00d 37567 node-svgdotjs-svg.draggable.js_3.0.6.orig.tar.gz 37868685f1b15e211ac4ff54281066c8 3064 node-svgdotjs-svg.draggable.js_3.0.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/svgdotjs/svg.draggable.js"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-svgdotjs-svg.draggable.js"
+  ],
+  "Package-List": [
+    "node-svgdotjs-svg.draggable.js deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-svgdotjs-svg.draggable.js"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-svgdotjs-svg.draggable.js.git"
+  ],
+  "Version": [
+    "3.0.6-1"
+  ]
+}

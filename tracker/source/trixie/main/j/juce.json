@@ -9,22 +9,22 @@
     "build-essential [armel]"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libasound2-dev, libcurl4-gnutls-dev | libcurl-dev, libfontconfig-dev, libfreetype-dev, libjpeg-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxext-dev, libxinerama-dev, libxrandr-dev, pkgconf | pkg-config, python3:any, zlib1g-dev"
+    "debhelper-compat (= 13), cmake, libasound2-dev, libcurl4-gnutls-dev | libcurl-dev, libfontconfig-dev, libfreetype-dev, libjpeg-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxext-dev, libxinerama-dev, libxrandr-dev, pkgconf | pkg-config, python3:any, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
     "dh-sequence-doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "352030cd38fa2fd4037074b6c7c89dc3aafc0102f84cd4d35389f53abfac28de 2752 juce_8.0.3+ds-2.dsc 8067052a19f07aae11b7e9b7504bb41c8e739d6aa61bcfa2be04837ceca90b2d 12799132 juce_8.0.3+ds.orig.tar.xz b803fa0b4215208e11c32034255dd564207a57670651de4e0a6e2f6f7679a1e1 58488 juce_8.0.3+ds-2.debian.tar.xz"
+    "875f60aa9810331de2b41dcc3b2d3af86dbcb8bbb4571b30d26e34cc3f96db58 2719 juce_8.0.6+ds-2.dsc 4126ec8066866a1ccbc9cdd2beac712fd51e55ac7f24d8fdc45077b187a358ef 12786164 juce_8.0.6+ds.orig.tar.xz 98f781365d85d35639b5c47416b769c3d68ad9858c8559fc6c80bb95710976a1 58952 juce_8.0.6+ds-2.debian.tar.xz"
   ],
   "Dgit": [
-    "f5a93f1f57db450303a030b3ca7ef0f41e460896 debian archive/debian/8.0.3+ds-2 https://git.dgit.debian.org/juce"
+    "14ae8052b94750e501922a26a3db9348a59c895d debian archive/debian/8.0.6+ds-2 https://git.dgit.debian.org/juce"
   ],
   "Directory": [
     "pool/main/j/juce"
   ],
   "Files": [
-    "5448ed324aa7bed0c985bb3da1744927 2752 juce_8.0.3+ds-2.dsc 4cc2ffdb333a83eba486e6794c0901cc 12799132 juce_8.0.3+ds.orig.tar.xz d3edb531feb1ef46dbe1f51ee340a687 58488 juce_8.0.3+ds-2.debian.tar.xz"
+    "47ea3c7485b11bcdaa234450ae20a939 2719 juce_8.0.6+ds-2.dsc 0f1177f770fdda2e357f42ca390a4c58 12786164 juce_8.0.6+ds.orig.tar.xz dd6f4b797406be53303baef7084b65d2 58952 juce_8.0.6+ds-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/multimedia-team/juce.git"
   ],
   "Version": [
-    "8.0.3+ds-2"
+    "8.0.6+ds-2"
   ]
 }

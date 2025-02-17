@@ -6,16 +6,16 @@
     "libpomegranate-clojure"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libmaven3-core-java, libmaven-resolver-java, libmaven-resolver-transport-http-java, libdynapath-clojure, libwagon-provider-api-java, libwagon-http-java, libwagon-ssh-java, libhttpclient-java, libhttpcore-java, libplexus-interpolation-java, libplexus-component-annotations-java, libplexus-utils2-java, clojure"
+    "debhelper-compat (= 13), default-jdk, javahelper, libcognitect-test-runner-clojure, maven-repo-helper, libmaven3-core-java, libmaven-resolver-java, libmaven-resolver-transport-http-java, libdynapath-clojure, libwagon-provider-api-java, libwagon-http-java, libwagon-ssh-java, libhttpclient-java, libhttpcore-java, libplexus-interpolation-java, libplexus-component-annotations-java, libplexus-utils2-java, libtools-build-clojure"
   ],
   "Checksums-Sha256": [
-    "ad9fbbbb74723b5a47b0fb657bbe4393e35ab43650ff0406afbb9d3343d9d36a 1844 pomegranate-clojure_1.2.1-5.1.dsc b49401ef0dac3969c74b09dd17529f2090deaaf097291acf73ef6533da82bfe1 27504 pomegranate-clojure_1.2.1.orig.tar.xz d6415f947fcc3d40263327e131e6126829d4a72fd4734956d58314708b4bb98a 9036 pomegranate-clojure_1.2.1-5.1.debian.tar.xz"
+    "15a6e323ad52377e0856aa5ce39b8fe0488328bc4d25c2c483616948849dfddb 2567 pomegranate-clojure_1.2.24-4.dsc d61695772104d65d645b2f00214fd0b7a9838cfdb9e4b1444de9b301a7c4fbbb 44012 pomegranate-clojure_1.2.24.orig.tar.xz 592fc9a2c3ef51a4f017e51590c96ab62fe65b661fc7bd84c792ef9970899ad0 10308 pomegranate-clojure_1.2.24-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pomegranate-clojure"
   ],
   "Files": [
-    "6b241788e54ff91cbf48827f452c2730 1844 pomegranate-clojure_1.2.1-5.1.dsc 6269d67c7344fbe9c715511712ef88da 27504 pomegranate-clojure_1.2.1.orig.tar.xz 2084405c0b82489de524161248d95f70 9036 pomegranate-clojure_1.2.1-5.1.debian.tar.xz"
+    "78dec459961fd6791d154fab2cd0b109 2567 pomegranate-clojure_1.2.24-4.dsc 1ddd107bcbd10970a4708db5b60d4dda 44012 pomegranate-clojure_1.2.24.orig.tar.xz 7f59daa3c5fee619e211092c1cc4f593 10308 pomegranate-clojure_1.2.24-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "clojure"
+    "default-jdk, libcognitect-test-runner-clojure"
   ],
   "Uploaders": [
     "Elana Hashman \u003cehashman@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/clojure-team/pomegranate-clojure.git"
   ],
   "Version": [
-    "1.2.1-5.1"
+    "1.2.24-4"
   ]
 }

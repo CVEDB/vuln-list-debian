@@ -12,13 +12,13 @@
     "asciidoc, docbook-xsl, shunit2, xsltproc"
   ],
   "Checksums-Sha256": [
-    "c2cdcfea060beceda919058d23c2934b395c570ed54bdfd9d3e29bbf1072ec71 1739 grml-debootstrap_0.112.dsc 838df167635633abd5fc1dfda614ade70723b4708bac48c4c348567250115795 90796 grml-debootstrap_0.112.tar.xz"
+    "aa4e5fb00839e1b18a8382ce4237a553d6abeae154ae52092f98d18db93bed37 1739 grml-debootstrap_0.114.dsc 701f6b403abd862b01cb59aa3cec50979aed3a2ff12d912353376df70b7fa392 90516 grml-debootstrap_0.114.tar.xz"
   ],
   "Directory": [
     "pool/main/g/grml-debootstrap"
   ],
   "Files": [
-    "e5536231c59069e7791e625ca8facb25 1739 grml-debootstrap_0.112.dsc edc414ace6b8ac7881a64ec4febdc5f2 90796 grml-debootstrap_0.112.tar.xz"
+    "5a7c416838d4e0aae61c926399e80ba4 1739 grml-debootstrap_0.114.dsc d7101c6e1659833f7b83f228f997861b 90516 grml-debootstrap_0.114.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -54,6 +54,6 @@
     "https://github.com/grml/grml-debootstrap.git"
   ],
   "Version": [
-    "0.112"
+    "0.114"
   ]
 }

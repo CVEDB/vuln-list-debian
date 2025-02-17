@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "reform-tools, reform2-lpc-dkms"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-dkms, help2man, python3-psutil, python3-usb1"
+  ],
+  "Checksums-Sha256": [
+    "c1831e810ba2919ccfa402b69a718df9736dedab7a2ed7e6977f78713dee93f8 2248 reform-tools_1.67-1.dsc 227d61e718228785922434a8c94d9f263a791d58c059f7da2f745fdb6ede721c 600305 reform-tools_1.67.orig.tar.gz 86beceaaa3e163aa979c3a3f37a7823433900966e1a02a3cb6d6472975f1c406 10120 reform-tools_1.67-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ea43b24245a9b24ce48dcee71dc5df1930f363da debian archive/debian/1.67-1 https://git.dgit.debian.org/reform-tools"
+  ],
+  "Directory": [
+    "pool/main/r/reform-tools"
+  ],
+  "Files": [
+    "d6a0c338e749655a4f3673b21c1014fc 2248 reform-tools_1.67-1.dsc 603afb847326c166ea2d663942a4e07e 600305 reform-tools_1.67.orig.tar.gz 1bf640b109af4164f42feb45d5e1e475 10120 reform-tools_1.67-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://source.mnt.re/reform/reform-tools/"
+  ],
+  "Maintainer": [
+    "Debian Reform Team \u003cteam+reform@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "reform-tools"
+  ],
+  "Package-List": [
+    "reform-tools deb admin optional arch=all protected=yes reform2-lpc-dkms deb kernel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Uploaders": [
+    "Johannes Schauer Marin Rodrigues \u003cjosch@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/reform-team/reform-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/reform-team/reform-tools.git"
+  ],
+  "Version": [
+    "1.67-1"
+  ]
+}

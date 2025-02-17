@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "packetq"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmaxminddb-dev, pkgconf, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "babcfe6c445b368131c260f5a6d486bd4edf6c48ed4de8e3d9c9d60c40976c35 1289 packetq_1.7.3+dfsg-3.dsc ec0166511efe6ab9ba27605f745f7cf3298967051bc8378764b09cb8384361d3 183444 packetq_1.7.3+dfsg.orig.tar.xz 6c0baa4a4706ccc4aa27bf38c7a4e31627e662dec2d43eb7baf0c97d7c1daa2b 1936 packetq_1.7.3+dfsg-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/packetq"
+  ],
+  "Files": [
+    "32c288b27b1f24081f18b6e203134a15 1289 packetq_1.7.3+dfsg-3.dsc 488e27671c06e8041ee134187e1c023e 183444 packetq_1.7.3+dfsg.orig.tar.xz 736a2e12570da57ebc8aa13db5549f72 1936 packetq_1.7.3+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.dns-oarc.net/tools/packetq"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "packetq"
+  ],
+  "Package-List": [
+    "packetq deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/dns-oarc/packetq"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/dns-oarc/packetq"
+  ],
+  "Version": [
+    "1.7.3+dfsg-3"
+  ]
+}

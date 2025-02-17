@@ -6,25 +6,25 @@
     "qbootctl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, libz-dev"
+    "debhelper-compat (= 13), meson"
   ],
   "Checksums-Sha256": [
-    "0f91762e87fa9cc7b4bde13bdb6f3fe6cf110a1eb6ec6d7255bdb637d2403d78 1874 qbootctl_0.1.2-1.dsc 82c37d2e82d048766b6c55cfd9484d8f6f5fc9c0b105d5063c5def41b83bf0b1 31540 qbootctl_0.1.2.orig.tar.gz 710bfc7360810bdfdaa039accd3388aeaa10ebcf2e2577f159fd2623b9b92bf9 5444 qbootctl_0.1.2-1.debian.tar.xz"
+    "2723afc1184d9a551147e7fe35786fb92fd6116f4dfaa8a932562b0ba2fa8d84 1995 qbootctl_0.2.0-2.dsc 08028c28ad157155c0ce6baab780908c4e460503e83d22ce1f4b0932a66fdd3f 42314 qbootctl_0.2.0.orig.tar.gz 20b50f15ef22eb7b5b75b551d14606d9826fbf6a4331415d0d9e5e687e92c539 6048 qbootctl_0.2.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qbootctl"
   ],
   "Files": [
-    "94c8ee0f4544f77b7e2ddd9c04e94a95 1874 qbootctl_0.1.2-1.dsc 10fda21d714f09a25afd06a8f83fc50c 31540 qbootctl_0.1.2.orig.tar.gz f3132553767934c3921cb432ba322ece 5444 qbootctl_0.1.2-1.debian.tar.xz"
+    "97aeb80a22f72258f440c7a683a04e9a 1995 qbootctl_0.2.0-2.dsc f87503ba323babe4de52ee9bb55b8483 42314 qbootctl_0.2.0.orig.tar.gz 14baab0000b479dcb64edea4b2642b5a 6048 qbootctl_0.2.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.com/sdm845-mainline/qbootctl"
+    "https://github.com/linux-msm/qbootctl"
   ],
   "Maintainer": [
-    "Dmitry Baryshkov \u003cdbaryshkov@gmail.com\u003e"
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
   ],
   "Package": [
     "qbootctl"
@@ -39,15 +39,18 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Dmitry Baryshkov \u003cdbaryshkov@gmail.com\u003e, Arnaud Ferraris \u003caferraris@debian.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/lumag/qbootctl"
+    "https://salsa.debian.org/DebianOnMobile-team/qbootctl"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/lumag/qbootctl.git"
+    "https://salsa.debian.org/DebianOnMobile-team/qbootctl.git"
   ],
   "Version": [
-    "0.1.2-1"
+    "0.2.0-2"
   ]
 }

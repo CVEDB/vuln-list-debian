@@ -6,22 +6,25 @@
     "yes"
   ],
   "Binary": [
-    "fonts-bedstead"
+    "fonts-bedstead, xfonts-bedstead, consolefonts-bedstead"
   ],
   "Build-Depends": [
-    "fontforge-nox, ghostscript, debhelper-compat (= 13)"
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "fonttools, ghostscript, xfonts-utils, bdf2psf"
   ],
   "Checksums-Sha256": [
-    "96386aa3380c9500d7d491a0ff3063a5643d55877c3d6304bad9d01067e1b006 1596 bedstead_002.009-1.dsc e70ef82c322dbfa76762884936a6c1797d215a78aefdcc2546a396b7efebe88e 108919 bedstead_002.009.orig.tar.gz eea02281fb8758a6b67e793958e13fdc83f30095958ad54335baa0179df07f89 3317 bedstead_002.009-1.diff.gz"
+    "a1c821e9c63de2d4ad3839f637f63d42926edd34e291e6ae09693024ab07daa1 1901 bedstead_3.251-4.dsc e156c296c30a66a4713ef6dea96d45ef7e55f5253bca0e66d3660082f0fa1d76 129732 bedstead_3.251.orig.tar.gz 9a2b18acab2009bde780b8e95ab9c8598d5baf03f80387c615cd19e55079e12e 9693 bedstead_3.251-4.diff.gz"
   ],
   "Dgit": [
-    "14fb8f753c9a5b54ae4bb6e9fa64073c0dceccf6 debian archive/debian/002.009-1 https://git.dgit.debian.org/bedstead"
+    "036a905219cdb6a7dfb93cf1b0e905c2d3c5744f debian archive/debian/3.251-4 https://git.dgit.debian.org/bedstead"
   ],
   "Directory": [
     "pool/non-free/b/bedstead"
   ],
   "Files": [
-    "0c551aea2b6e5b82eda8aacf87317925 1596 bedstead_002.009-1.dsc e9077fc6d7a75c81defd8b5cd45d298c 108919 bedstead_002.009.orig.tar.gz b3490a636f3e8aceb92f2c2a1a48d24d 3317 bedstead_002.009-1.diff.gz"
+    "407c90bd72c2c3b207426d0e9f0e73fb 1901 bedstead_3.251-4.dsc 9f8f7304644ef3a69bbb77343515514f 129732 bedstead_3.251.orig.tar.gz 7283d5dddaca978815f66b9700d376da 9693 bedstead_3.251-4.diff.gz"
   ],
   "Format": [
     "1.0"
@@ -36,7 +39,7 @@
     "bedstead"
   ],
   "Package-List": [
-    "fonts-bedstead deb non-free/fonts optional arch=all"
+    "consolefonts-bedstead deb non-free/fonts optional arch=all fonts-bedstead deb non-free/fonts optional arch=all xfonts-bedstead deb non-free/fonts optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -51,9 +54,15 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "fontconfig, ghostscript"
+    "fontconfig, ghostscript, x11-utils, xauth, xvfb"
+  ],
+  "Vcs-Browser": [
+    "https://browse.dgit.debian.org/bedstead.git/"
+  ],
+  "Vcs-Git": [
+    "https://git.dgit.debian.org/bedstead"
   ],
   "Version": [
-    "002.009-1"
+    "3.251-4"
   ]
 }

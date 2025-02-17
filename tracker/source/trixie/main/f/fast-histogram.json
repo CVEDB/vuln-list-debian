@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-all-dev, python3-setuptools, python3-numpy, python3-hypothesis, python3-pytest, python3-setuptools-scm"
   ],
   "Checksums-Sha256": [
-    "e4095c2a3139917533e77cd083e2ae832967f34a2521f992ad6128db0b84bad1 2253 fast-histogram_0.14-2.dsc 390973b98af22bda85c29dcf6f008ba0d626321e9bd3f5a9d7a43e5690ea69ea 47469 fast-histogram_0.14.orig.tar.gz aa02aca681c59ecd8870c8bd77cf8a2162a09886e2e8c3b4cbbea840151ae391 3464 fast-histogram_0.14-2.debian.tar.xz"
+    "21d03f8a6f0d7e86169e3bab6e8b8c000895b1b62fb603e080159b73e7e5befd 2289 fast-histogram_0.14-4.dsc 390973b98af22bda85c29dcf6f008ba0d626321e9bd3f5a9d7a43e5690ea69ea 47469 fast-histogram_0.14.orig.tar.gz 6e3d431ee5204ad60d4b0f0fc9634ee3469cf80368fb4d0037826f3256a118d0 3876 fast-histogram_0.14-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fast-histogram"
   ],
   "Files": [
-    "6aba2d6fc4a1ae7a5f70a4e0dfdbbdd3 2253 fast-histogram_0.14-2.dsc 4a9bbb01431024af1c17d7c7c0deb142 47469 fast-histogram_0.14.orig.tar.gz 9b63b13595f85bed9510fdb211d334ba 3464 fast-histogram_0.14-2.debian.tar.xz"
+    "2bb04cc93c6553e90b58dd5e0bb0fb49 2289 fast-histogram_0.14-4.dsc 4a9bbb01431024af1c17d7c7c0deb142 47469 fast-histogram_0.14.orig.tar.gz 80e5b13b66aa403d11bf014249975dcb 3876 fast-histogram_0.14-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "python3-hypothesis, python3-pytest"
   ],
   "Uploaders": [
-    "Josue Ortega \u003cjosue@debian.org\u003e"
+    "Josue Ortega \u003cjosue@debian.org\u003e, Ole Streicher \u003colebole@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian-astro-team/python-fast-histogram"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-astro-team/python-fast-histogram.git"
   ],
   "Version": [
-    "0.14-2"
+    "0.14-4"
   ]
 }

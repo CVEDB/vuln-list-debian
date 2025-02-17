@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, bash-completion, pandoc \u003c!nodoc\u003e, python3-all, pybuild-plugin-pyproject, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "fa20b25a63dc82b0ac654e4733591863441d7edb246c07e6d3a805282e7d65ab 2431 mkosi_25.2-1.dsc 44b3648183c19e9affca19e148577e3b06f9b600e7462a52525fcb4a1c0d84e0 392440 mkosi_25.2.orig.tar.gz 67308ec74954093298995cb2480811df8040e9c4873d24e9f9fae88adbe986e4 7492 mkosi_25.2-1.debian.tar.xz"
+    "14a00abdd7456a4863f631ff1ee9e1d2cfd67893622df45c4e6cf2045c20f981 2490 mkosi_25.3-5.dsc 7b039fb3b34e1680173a7f4af1bc24b475465afe335c8b21c213167734061e35 392923 mkosi_25.3.orig.tar.gz 8b8e9ffa5a9171b4d3a61bbce982eff7b44ed9e8336736d5eb8e54277c977859 8568 mkosi_25.3-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mkosi"
   ],
   "Files": [
-    "b6cdcbd9c38ea08aeffd73351b6c7348 2431 mkosi_25.2-1.dsc 254003b84a8d5070243fe2639cc5c3c0 392440 mkosi_25.2.orig.tar.gz dc812d2978545f968e13890d91b2a936 7492 mkosi_25.2-1.debian.tar.xz"
+    "3ba2a2e5608ede386af233ab262cf575 2490 mkosi_25.3-5.dsc 1a85c75592f785df23323d5fb08cea88 392923 mkosi_25.3.orig.tar.gz 1bcd27f22f6b9453312777d2ebcd5d3c 8568 mkosi_25.3-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@, bsdutils, linux-image-amd64, linux-image-arm64, linux-image-generic, linux-image-loong64, linux-image-riscv64, ovmf, python3-all, qemu-efi-aarch64, qemu-efi-loongarch64, qemu-efi-riscv64, qemu-system-amd64, qemu-system-arm64, qemu-system-loong64, qemu-system-riscv64, systemd-boot, virtiofsd"
+    "@builddeps@, binutils, bsdutils, file, gzip, ipxe-qemu, kmod, linux-image-amd64, linux-image-arm64, linux-image-generic, linux-image-loong64, linux-image-riscv64, ovmf, python3-all, qemu-efi-aarch64, qemu-efi-loongarch64, qemu-efi-riscv64, qemu-system-amd64, qemu-system-arm64, qemu-system-loong64, qemu-system-riscv64, systemd-boot, systemd-container, virtiofsd"
   ],
   "Uploaders": [
     "Felipe Sateler \u003cfsateler@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/systemd-team/mkosi.git"
   ],
   "Version": [
-    "25.2-1"
+    "25.3-5"
   ]
 }

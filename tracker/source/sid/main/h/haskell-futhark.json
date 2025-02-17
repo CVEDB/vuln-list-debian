@@ -12,13 +12,13 @@
     "ghc-doc, libghc-aeson-doc, libghc-ansi-terminal-doc, libghc-async-doc, libghc-base16-bytestring-doc, libghc-blaze-html-doc, libghc-bmp-doc, libghc-bytestring-to-vector-doc, libghc-cmark-gfm-doc, libghc-cryptohash-md5-doc, libghc-directory-tree-doc, libghc-dlist-doc, libghc-fgl-doc, libghc-fgl-visualize-doc, libghc-file-embed-doc, libghc-free-doc, libghc-futhark-data-doc, libghc-futhark-manifest-doc, libghc-futhark-server-doc, libghc-githash-doc, libghc-half-doc, libghc-language-c-quote-doc, libghc-lens-doc, libghc-mainland-pretty-doc, libghc-megaparsec-doc, libghc-mwc-random-doc, libghc-neat-interpolation-doc, libghc-parallel-doc, libghc-prettyprinter-doc, libghc-prettyprinter-ansi-terminal-doc, libghc-process-extras-doc, libghc-random-doc, libghc-regex-tdfa-doc, libghc-srcloc-doc, libghc-statistics-doc, libghc-temporary-doc, libghc-terminal-size-doc, libghc-vector-doc, libghc-versions-doc, libghc-zlib-doc"
   ],
   "Checksums-Sha256": [
-    "ba50dacfebed9a25ac1c65fc69abd5474e4a9b72e587ee6376f1221da563fb7b 5671 haskell-futhark_0.25.23-2.dsc 5ea8f3f23e523121cdb8cf576130de9a73e35636c231c50f4d6da75f6b27a715 1803584 haskell-futhark_0.25.23.orig.tar.gz e726d35d5a3cd7a502835f52e386679d6d5f0be9c6f5e5aa7eff0752e7cd8377 6044 haskell-futhark_0.25.23-2.debian.tar.xz"
+    "e5ed8f593784739a631b92a12d6e3538ed9d16f9f7fdc20267089894009c89a5 5671 haskell-futhark_0.25.27-1.dsc 7130f6591b157f620489332ab78f5820da32017e854171a91d2e50f8ec888033 1829016 haskell-futhark_0.25.27.orig.tar.gz e3c406f47b1edf666298049760c3514453a07dd6ca766daad719d1111ceb8a5d 5668 haskell-futhark_0.25.27-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/h/haskell-futhark"
   ],
   "Files": [
-    "19ed32c3751ab053e8e0f2c62b6b0764 5671 haskell-futhark_0.25.23-2.dsc 6f9cfdd82b72eb6e4de587d4fd3f75ab 1803584 haskell-futhark_0.25.23.orig.tar.gz 3c78ee7d2d2ee28b154801806132efd3 6044 haskell-futhark_0.25.23-2.debian.tar.xz"
+    "0486e213be0903ad02fbd539e2b735e0 5671 haskell-futhark_0.25.27-1.dsc 072367dd0b643622199c0cc32d142b1d 1829016 haskell-futhark_0.25.27.orig.tar.gz edfc4fbd2cff2b6391608807aa211a3f 5668 haskell-futhark_0.25.27-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-futhark]"
   ],
   "Version": [
-    "0.25.23-2"
+    "0.25.27-1"
   ]
 }

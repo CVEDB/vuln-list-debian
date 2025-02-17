@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-python, passwd, pybuild-plugin-pyproject, python3-all, python3-anymarkup, python3-docopt-ng, python3-lxml, python3-poetry, python3-pytest, python3-pyxattr, python3-requests, python3-setuptools, python3-simplejson, python3-sphinx, python3-sphinx-rtd-theme, python3-yaml"
   ],
   "Checksums-Sha256": [
-    "e09d4c0df65ee5af9b2470ab6ef9937418eaf168adae6bb0cbd36e80d6a8e88c 3169 kiwi_10.1.20-1.dsc b8be040c2337db18009e3ac31f719cb90df4090fcb0d93e2db01d86b249c7d1c 1041355 kiwi_10.1.20.orig.tar.gz 7bbe144563350be617dff60d2db91cf2cfbb830f970b17edb44dd6fcd65f3052 4816 kiwi_10.1.20-1.debian.tar.xz"
+    "7bbbfbb7b91d7c0df11bc24fdec3398e37cb0fbf7dffef65986fc703008ae2b2 3169 kiwi_10.2.10-1.dsc 093af1f6db77e3a683d963affed3a733a672c68fe8f9bb27e2d59b4e0780ee82 1048328 kiwi_10.2.10.orig.tar.gz 5865b22a04c62e3441cb68c6a3bc19b89967657488ded0f6b4876eb1e67c5e2e 4860 kiwi_10.2.10-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kiwi"
   ],
   "Files": [
-    "d5921fc1e3806c1a2d5493a0f9bbdea7 3169 kiwi_10.1.20-1.dsc 3c30045c6bd6722b5f592fe7b83e892a 1041355 kiwi_10.1.20.orig.tar.gz 0f2f6f18a01a5d59f800867c68852d1d 4816 kiwi_10.1.20-1.debian.tar.xz"
+    "69aaa66e86ff7268146344ae15b59ae8 3169 kiwi_10.2.10-1.dsc a8be841611f07f5eecae81545979871d 1048328 kiwi_10.2.10.orig.tar.gz 4065e0b6a48de7744c8c486d69619120 4860 kiwi_10.2.10-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/kiwi.git"
   ],
   "Version": [
-    "10.1.20-1"
+    "10.2.10-1"
   ]
 }

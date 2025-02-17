@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "minetest, luanti, minetest-server, luanti-server, minetest-data, luanti-data"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), gettext, libcurl4-openssl-dev, libfreetype-dev, libgl-dev, libgmp-dev, libjpeg-dev, libjsoncpp-dev, libleveldb-dev, libluajit-5.1-dev, libogg-dev, libopenal-dev, libpng-dev, libpq-dev, libspatialindex-dev, libsqlite3-dev, libvorbis-dev, libxi-dev, pkgconf, zlib1g-dev, libzstd-dev, prometheus-cpp-dev"
+  ],
+  "Checksums-Sha256": [
+    "02bebcf2c8e6230c2d51bfebefc1462d5e005cadae720f3e0719eab804228ed7 2664 luanti_5.10.0+dfsg-2.dsc 76f3d212b69c9591f9d7a7b7eeb699d7ec00afe2c2bfb3654081f50d58707937 7780564 luanti_5.10.0+dfsg.orig.tar.xz 11a500a22cdad4394048502d73a671366521cd62a7c2971abc1a9278cd0a86a5 33036 luanti_5.10.0+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/luanti"
+  ],
+  "Files": [
+    "3194a3ba24fea16269360564150315c6 2664 luanti_5.10.0+dfsg-2.dsc 41e4fcf3a6628452bd26413063afce8e 7780564 luanti_5.10.0+dfsg.orig.tar.xz 015461b5467af4d113b5e8603632bfa2 33036 luanti_5.10.0+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.luanti.org"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "luanti"
+  ],
+  "Package-List": [
+    "luanti deb games optional arch=any luanti-data deb games optional arch=all luanti-server deb games optional arch=any minetest deb oldlibs optional arch=all minetest-data deb oldlibs optional arch=all minetest-server deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Travis Wrightsman \u003ctravis@wrightsman.org\u003e, Martin Quinson \u003cmquinson@debian.org\u003e, Markus Koschany \u003capo@debian.org\u003e, Dominik George \u003cnatureshadow@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/minetest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/minetest.git"
+  ],
+  "Version": [
+    "5.10.0+dfsg-2"
+  ]
+}

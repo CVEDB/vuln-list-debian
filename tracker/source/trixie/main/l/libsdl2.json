@@ -12,16 +12,16 @@
     "graphviz \u003c!nodoc\u003e, doxygen \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "cd1c32427e22c81b0c3fead9f71c9cde4c925390fa5002ed35981ad1373c6db0 3246 libsdl2_2.30.11+dfsg-1.dsc 75adb877abfe360a23e1516ee32086e98cc7884fcfc5edc1a3e34ead36717c36 5188472 libsdl2_2.30.11+dfsg.orig.tar.gz 3c34b7ee45accf8d5ce6a22a0e1518004bdba53bb94fd018c23e7b465cfc8b4c 43192 libsdl2_2.30.11+dfsg-1.debian.tar.xz"
+    "d3fc0716502a448f887b1bc44587cc18b3150ccbc7bb386ff165425532c271eb 3238 libsdl2_2.32.0+dfsg-1.dsc afd3616be538c4faaddc61c9dbb6e5d5088628327527fbe2153013f77e3be96b 5229196 libsdl2_2.32.0+dfsg.orig.tar.gz db2d915281cf9b89ec8640d23084a9610c52a2b289527b23ff8b9e6495087f6d 43700 libsdl2_2.32.0+dfsg-1.debian.tar.xz"
   ],
   "Dgit": [
-    "053a395938384a67390f36a235fde68c5d3a2ec3 debian archive/debian/2.30.11+dfsg-1 https://git.dgit.debian.org/libsdl2"
+    "e9a9705130101972a891a02a130a9d114a309ad3 debian archive/debian/2.32.0+dfsg-1 https://git.dgit.debian.org/libsdl2"
   ],
   "Directory": [
     "pool/main/libs/libsdl2"
   ],
   "Files": [
-    "b38e4d9ff65a3c05519236652cb72a4b 3246 libsdl2_2.30.11+dfsg-1.dsc dc235e6ac8f0921cd37cb7559a5baa84 5188472 libsdl2_2.30.11+dfsg.orig.tar.gz 4ccb6bd7f10627f57e53a1d56952ebd4 43192 libsdl2_2.30.11+dfsg-1.debian.tar.xz"
+    "d47117e56045bb589bbb78d319c039dc 3238 libsdl2_2.32.0+dfsg-1.dsc 7f4df4032989eabe10efd91180d0a973 5229196 libsdl2_2.32.0+dfsg.orig.tar.gz bf36c46767eeff1baf85f9a6135a79d2 43700 libsdl2_2.32.0+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -63,6 +63,6 @@
     "https://salsa.debian.org/sdl-team/libsdl2.git"
   ],
   "Version": [
-    "2.30.11+dfsg-1"
+    "2.32.0+dfsg-1"
   ]
 }

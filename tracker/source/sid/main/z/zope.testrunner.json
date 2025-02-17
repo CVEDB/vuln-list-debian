@@ -6,19 +6,19 @@
     "python3-zope.testrunner"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-zope.exceptions, python3-zope.interface, python3-zope.testing \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-zope.exceptions, python3-zope.interface, python3-zope.testing \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "784eb2dd0419676dbeacee592cac685ba0ec9101603b1036cd0f8576fbe88e3e 2329 zope.testrunner_6.6.1-1.dsc 949426d4ae5f572dc8a6b07309f26f4da4e63e6f91e03bc7c4b9f5b8f6db0650 156492 zope.testrunner_6.6.1.orig.tar.gz 1abcc029a9640439aba035dc54a4d86ac80d688c78d9ea98409411546aafb43b 7212 zope.testrunner_6.6.1-1.debian.tar.xz"
+    "44222ebef0c60c9dd57c723c240bf1bdf7c086f29de486359d777570aea0f09f 2323 zope.testrunner_7.0-1.dsc 06245c359d203ac95c562cec6cac53436ce21bf3af33775b81b3ae20b55700a0 154190 zope.testrunner_7.0.orig.tar.gz 1a2fa9aefdf869e0e55f2b6f226b59739a673b5f5fd58d26b2908fc73e3bf828 7300 zope.testrunner_7.0-1.debian.tar.xz"
   ],
   "Dgit": [
-    "4565f9af48f52120a1fd0273e217f46d37f22b72 debian archive/debian/6.6.1-1 https://git.dgit.debian.org/zope.testrunner"
+    "8855b4f6f7008476300124f47c2dadf292317f3e debian archive/debian/7.0-1 https://git.dgit.debian.org/zope.testrunner"
   ],
   "Directory": [
     "pool/main/z/zope.testrunner"
   ],
   "Files": [
-    "94ed391dd5c029831402c28c678240ca 2329 zope.testrunner_6.6.1-1.dsc 71fab41ad9e9ad16d5c0474176284225 156492 zope.testrunner_6.6.1.orig.tar.gz 57823f2baa5ac354f771c8e8522d44e2 7212 zope.testrunner_6.6.1-1.debian.tar.xz"
+    "8514a08e96eb99964d1460caf153b3eb 2323 zope.testrunner_7.0-1.dsc 8c800efa87cd1722ab77ef07502ad998 154190 zope.testrunner_7.0.orig.tar.gz 6b9b824126e1674132661d6824aab7f6 7300 zope.testrunner_7.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/zope.testrunner.git"
   ],
   "Version": [
-    "6.6.1-1"
+    "7.0-1"
   ]
 }

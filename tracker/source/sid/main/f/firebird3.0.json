@@ -12,13 +12,13 @@
     "autoconf, automake, debhelper-compat (= 13), firebird-dev, gawk, libboost-dev, libedit-dev, libicu-dev, libtommath-dev, libtool, pkgconf, po-debconf, recode, rename, systemd-dev, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "ddbd90553d06cac5d9bd037ed43a1f3e5ac2656b84ca8f53e7188cd89034eceb 2628 firebird3.0_3.0.12.ds7-8.dsc bacbfd29734967227420837ea5b08c7332682a9054d723af1c31185113ac4163 3425220 firebird3.0_3.0.12.ds7.orig.tar.xz 4d0483946c693aa4ca2791dc783e896400c02f97aa07dd89513dfb50805e6aae 107936 firebird3.0_3.0.12.ds7-8.debian.tar.xz"
+    "c1705a020f4b587de8c79a714ecfaaa5fd0c9a8cd37e9dc128b9755f53901a7f 2632 firebird3.0_3.0.12.ds7-11.dsc bacbfd29734967227420837ea5b08c7332682a9054d723af1c31185113ac4163 3425220 firebird3.0_3.0.12.ds7.orig.tar.xz 21b84388fd2a359a0ad5495ddfc3d3dd4e1b97b66781dcd21837ca0ac960a34d 108848 firebird3.0_3.0.12.ds7-11.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/f/firebird3.0"
   ],
   "Files": [
-    "e6607ea6ed1bfe0a2a715883699e2bb2 2628 firebird3.0_3.0.12.ds7-8.dsc 50b1b3f53b835ab7190109674c3294f1 3425220 firebird3.0_3.0.12.ds7.orig.tar.xz bb03bc13e9fd4d0bf0db0d3bb0c5bde5 107936 firebird3.0_3.0.12.ds7-8.debian.tar.xz"
+    "05f86765062bb3d375dfcdfbf29e60a4 2632 firebird3.0_3.0.12.ds7-11.dsc 50b1b3f53b835ab7190109674c3294f1 3425220 firebird3.0_3.0.12.ds7.orig.tar.xz 7ad7825733020a62b903be625665d009 108848 firebird3.0_3.0.12.ds7-11.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/firebird-team/firebird3.0.git -b debian/experimental"
   ],
   "Version": [
-    "3.0.12.ds7-8"
+    "3.0.12.ds7-11"
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-terminaltables3-doc, python3-terminaltables3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-colorama, python3-colorclass, python3-poetry, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-termcolor"
+  ],
+  "Checksums-Sha256": [
+    "f1830b64fe18865332cfc4c5811f7837913acbbc5cc97694465c72410e429429 1647 terminaltables3_4.0.0-2.dsc 4f0ed23cfc5e753a3863eb51ea4576d97c6e5e119ae15cdcfde38d097951a942 269480 terminaltables3_4.0.0.orig.tar.xz 0454c3dce1a625f8bc64f0e118d1f1cf2b1bc24526734f12a9bba31e76b231e9 5864 terminaltables3_4.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/terminaltables3"
+  ],
+  "Files": [
+    "60284353fca4cb3a757abc478ab96fdc 1647 terminaltables3_4.0.0-2.dsc adcae23f8646472ab2148b486ef2220d 269480 terminaltables3_4.0.0.orig.tar.xz 531ef25e3c79dcc39aacea36d5c25d84 5864 terminaltables3_4.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/matthewdeanmartin/terminaltables3"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "terminaltables3"
+  ],
+  "Package-List": [
+    "python-terminaltables3-doc deb doc optional arch=all python3-terminaltables3 deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/python/terminaltables3"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/python/terminaltables3"
+  ],
+  "Version": [
+    "4.0.0-2"
+  ]
+}

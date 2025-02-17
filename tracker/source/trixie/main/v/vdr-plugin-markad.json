@@ -9,13 +9,13 @@
     "debhelper (\u003e= 10), gettext, libavcodec-dev, libavfilter-dev, libavformat-dev, pkgconf, vdr-dev (\u003e= 2.6.0)"
   ],
   "Checksums-Sha256": [
-    "95bd7eaf86bd765a19bff43412b99abaa64a8c53fafa2a916e26769573f87b75 2236 vdr-plugin-markad_4.1.7-1.dsc 1874121d734b8282ab9e33856b74ac10b50801c44fb63b4390e97e122d6dcfdb 304463 vdr-plugin-markad_4.1.7.orig.tar.gz 26005176272dbaa085475235ec1c3f7b5d6c13f005056fccb131ae2c57ec97aa 4156 vdr-plugin-markad_4.1.7-1.debian.tar.xz"
+    "a7be07d3fb2b4ef69b05b31b29f2e56cc5aa2b713a31a5e81241b0c0f7bdee93 2236 vdr-plugin-markad_4.2.9-1.dsc 6318752f7a31ccac97c59735aa2639c0404fdcf6e30c99141a741c813b8c84f0 322237 vdr-plugin-markad_4.2.9.orig.tar.gz bcbbb81f8daebb753902502f611406bb991c75e21410d2c426728a6e54229852 4188 vdr-plugin-markad_4.2.9-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/v/vdr-plugin-markad"
   ],
   "Files": [
-    "1c547578dbcdb711388ece2e39b74906 2236 vdr-plugin-markad_4.1.7-1.dsc a8a20e5d1c32213ddec23a1aa1fe8b92 304463 vdr-plugin-markad_4.1.7.orig.tar.gz 676ccc3ae4eee7f043aa3a3f9d4825d9 4156 vdr-plugin-markad_4.1.7-1.debian.tar.xz"
+    "5ba6d194c8a1f4c898af7e25ea4d54a8 2236 vdr-plugin-markad_4.2.9-1.dsc 56abf8f71cc246005f569acc25611d53 322237 vdr-plugin-markad_4.2.9.orig.tar.gz 5e9951fb3fa5280327a385c06c90d43e 4188 vdr-plugin-markad_4.2.9-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/vdr-team/vdr-plugin-markad.git"
   ],
   "Version": [
-    "4.1.7-1"
+    "4.2.9-1"
   ]
 }

@@ -6,13 +6,13 @@
     "libortp-dev, libortp-doc, libortp16"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libbctoolbox-dev (\u003e= 5.2.0~)"
+    "cmake, debhelper-compat (= 13), libbctoolbox-dev (\u003e= 5.3.104~)"
   ],
   "Build-Depends-Indep": [
     "doxygen \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "d2427d3ef92cde1648b916b3611a57f718e3eede8d5bef9901bd2782685c5d59 2251 ortp_5.2.0-2.dsc a8fd86972e555ac0176a754c3ea08a2780b8e95e8a9d8c806950d2c266809578 245502 ortp_5.2.0.orig.tar.gz fcee6428f540a87015cdf23f2ab06881a45349f759d24aa9d427d5892bedee08 19756 ortp_5.2.0-2.debian.tar.xz"
+    "2e07be61c610a47e8aaaefda41ea06e3e6ab12752b8048ea46dd63c6d4dd0874 1694 ortp_5.3.104-2.dsc c82de4edc9b06d59c0d5c3fbeb1ea8078ee3e894cd289fc5e489510b0fb2ef59 282589 ortp_5.3.104.orig.tar.gz 07dbebb51a8b6848e8123412ca43ee5bfcaf3c51319f7efb806c5ce028ca78c4 19100 ortp_5.3.104-2.debian.tar.xz"
   ],
   "Description": [
     "Real-time Transport Protocol (RTP) library"
@@ -21,7 +21,7 @@
     "pool/main/o/ortp"
   ],
   "Files": [
-    "73a24afc87528541f41b9011597b8082 2251 ortp_5.2.0-2.dsc c974dad42471a280a82130d531915697 245502 ortp_5.2.0.orig.tar.gz 49929ee6bbf6d03eb912b68ca63a2afb 19756 ortp_5.2.0-2.debian.tar.xz"
+    "b76ff3359ec7903241d2fd83aa303875 1694 ortp_5.3.104-2.dsc c055fb5560e27df3372f4446e664e732 282589 ortp_5.3.104.orig.tar.gz 936e8007f98425f85bfc6b929a10c292 19100 ortp_5.3.104-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "4.6.2"
   ],
   "Uploaders": [
-    "Felix Lechner \u003cfelix.lechner@gmail.com\u003e, Bernhard Schmidt \u003cberni@debian.org\u003e,"
+    "Felix Lechner \u003cfelix.lechner@gmail.com\u003e, Bernhard Schmidt \u003cberni@debian.org\u003e, Victor Seva \u003cvseva@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/pkg-voip-team/linphone-stack/ortp"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pkg-voip-team/linphone-stack/ortp.git"
   ],
   "Version": [
-    "1:5.2.0-2"
+    "1:5.3.104-2"
   ]
 }
