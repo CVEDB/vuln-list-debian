@@ -12,13 +12,13 @@
     "python3-aiohttp \u003c!nocheck\u003e, python3-colorlog \u003c!nocheck\u003e, python3-pint \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "286d696626fab8656adee9f30b96152fd6911e02b71e9e7cc80e49ea25df6051 2239 aiocomelit_0.11.3-1.dsc eb27ace71100bc625d13d7efd887e5a3c9243f24f35eced6ef9ca15393069d93 57329 aiocomelit_0.11.3.orig.tar.gz 6b3d37f54703e33132c50ae2123dfed87679b34b6b927dae06f4a80e9e390abf 2196 aiocomelit_0.11.3-1.debian.tar.xz"
+    "763761218bef860a1ce390cd58a852c9473dd77b34eca2b841eed9244e13dad2 2232 aiocomelit_1.0.0-1.dsc 165fee15760466d5f15b4f68e38b0d0cbb66bdf28e0db93cc0ab88ee46240c58 59004 aiocomelit_1.0.0.orig.tar.gz cc8752702a78f35656b4633a6ed5644a4e5bdacaa73346f8a26d05443af54e42 2340 aiocomelit_1.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/aiocomelit"
   ],
   "Files": [
-    "72aec98059b630c565ab7ccff38ad5e7 2239 aiocomelit_0.11.3-1.dsc c9dae8003b1d8c762b266d67af5298d2 57329 aiocomelit_0.11.3.orig.tar.gz 6a1181fa4677f2bfa2392a9d8fa221af 2196 aiocomelit_0.11.3-1.debian.tar.xz"
+    "aa5beee28d29df541e0960f881554c6a 2232 aiocomelit_1.0.0-1.dsc aef500b8749ef358caa8bd0b1bc9289a 59004 aiocomelit_1.0.0.orig.tar.gz 4e9864d4854b37a7e3a51d8ea5bdd283 2340 aiocomelit_1.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/aiocomelit.git"
   ],
   "Version": [
-    "0.11.3-1"
+    "1.0.0-1"
   ]
 }

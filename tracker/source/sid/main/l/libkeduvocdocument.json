@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.3.0~), gettext, libkf6archive-dev (\u003e= 6.3.0~), libkf6i18n-dev (\u003e= 6.3.0~), libkf6kio-dev (\u003e= 6.3.0~), pkg-kde-tools (\u003e= 0.18.3), qt6-base-dev (\u003e= 6.4.0~)"
   ],
   "Checksums-Sha256": [
-    "cc096b6e0f4d149d151803e973829757a230aec2dca146f614ac4e53dd41a858 2835 libkeduvocdocument_24.12.0-1.dsc f855eac0ab1fa3caf1777484ef21ea0e66ff640e5a98f7ded29a82d02aa2e16c 228488 libkeduvocdocument_24.12.0.orig.tar.xz 0f20396d9937aa3769af4b6732efee0e5ceb4e877bb561fd10bdaf716d394ece 833 libkeduvocdocument_24.12.0.orig.tar.xz.asc 9a23f7582cacedf5e351dffdad9203827d1b0f400a43dd58f668502279c4e27d 20368 libkeduvocdocument_24.12.0-1.debian.tar.xz"
+    "ed86be7ace209cf6a2d4e1c3286acdf8df30078889322ef53f12048b126312f8 2764 libkeduvocdocument_25.08.0-1.dsc b6739f73e41c5df9ee312011985f75bd2e74200e78a7cba771958bb1f029517a 229344 libkeduvocdocument_25.08.0.orig.tar.xz 0319050d160243c56f3b16b14735fd951ea5cf2f88c8ec503ea9b823cb050c41 833 libkeduvocdocument_25.08.0.orig.tar.xz.asc 9be4823b2f65def29db0b301066dec965e628236c249ad5c4b1513031f083a17 20408 libkeduvocdocument_25.08.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libk/libkeduvocdocument"
   ],
   "Files": [
-    "6e08c0b27b60ec1d839e76c8e4b5b0bc 2835 libkeduvocdocument_24.12.0-1.dsc 82f133c9397d04bd344256a4b7ab6929 228488 libkeduvocdocument_24.12.0.orig.tar.xz f8d4874467541a5fbb2e0155b1c32d99 833 libkeduvocdocument_24.12.0.orig.tar.xz.asc 0d8d10151117e0d38690e734d8e56fe4 20368 libkeduvocdocument_24.12.0-1.debian.tar.xz"
+    "2dd7176a943b97c9e3bb2b6fcbf2a91f 2764 libkeduvocdocument_25.08.0-1.dsc 4f9b1095dabca9ab67991b7894391429 229344 libkeduvocdocument_25.08.0.orig.tar.xz c1bf43fadd7d29f2c6d20a900448287c 833 libkeduvocdocument_25.08.0.orig.tar.xz.asc 3fe585eb05118bcb5c11b692369adc4c 20408 libkeduvocdocument_25.08.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/libkeduvocdocument"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/libkeduvocdocument.git"
   ],
   "Version": [
-    "4:24.12.0-1"
+    "4:25.08.0-1"
   ]
 }

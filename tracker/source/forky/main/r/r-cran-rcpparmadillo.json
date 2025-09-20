@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rcpparmadillo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.5.1), r-cran-rcpp, r-cran-pkgkitten, dh-r"
+  ],
+  "Checksums-Sha256": [
+    "6b12d8309fa8a8395c0644179c1d491bc7d78ab399caa4fe66ebf64a70f5f6c7 2007 r-cran-rcpparmadillo_15.0.2-1-1.dsc 3dc69d06658f31513a1ef3110705c244d0c4b668af7735f7b30361c89d6ec426 2118155 r-cran-rcpparmadillo_15.0.2-1.orig.tar.gz 4c78d52ef086984449edf0ff82576410f7817ffb42b890fffaa147f0b51d7ba0 5600 r-cran-rcpparmadillo_15.0.2-1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rcpparmadillo"
+  ],
+  "Files": [
+    "094ab81583605639829f2447cf74ea45 2007 r-cran-rcpparmadillo_15.0.2-1-1.dsc a613dab091d97db65ec643278e9ad356 2118155 r-cran-rcpparmadillo_15.0.2-1.orig.tar.gz 4978a302533ea3f56ed9d7e49652efe2 5600 r-cran-rcpparmadillo_15.0.2-1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=RcppArmadillo"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-cran-rcpparmadillo"
+  ],
+  "Package-List": [
+    "r-cran-rcpparmadillo deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-rcpparmadillo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-rcpparmadillo.git"
+  ],
+  "Version": [
+    "15.0.2-1-1"
+  ]
+}

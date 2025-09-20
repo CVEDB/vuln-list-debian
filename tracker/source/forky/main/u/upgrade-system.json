@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "upgrade-system"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "9cba7557b6eea5583eb2d949da06f22f5ebf4ceec1b775b3b6ec01fa270d1178 1637 upgrade-system_1.10.0.dsc a69f97f507e8ea45957dce93a9df1b379bf46d8edf48cfea8fe6b37a6d7a20f8 14964 upgrade-system_1.10.0.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/upgrade-system"
+  ],
+  "Files": [
+    "9e464c75b27512750efe67cd5256f2d2 1637 upgrade-system_1.10.0.dsc 20bc744c2d7b7203c7b4d1a97f2c8da3 14964 upgrade-system_1.10.0.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Martin-Éric Racine \u003cmartin-eric.racine@iki.fi\u003e"
+  ],
+  "Package": [
+    "upgrade-system"
+  ],
+  "Package-List": [
+    "upgrade-system deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adequate, debhelper"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/upgrade-system"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/upgrade-system.git"
+  ],
+  "Version": [
+    "1.10.0"
+  ]
+}

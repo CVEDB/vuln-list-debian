@@ -6,16 +6,16 @@
     "wireless-regdb, wireless-regdb-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), openssl, python3, python3-m2crypto, quilt"
+    "debhelper-compat (= 12), openssl, python3, python3-m2crypto, python-is-python3, quilt"
   ],
   "Checksums-Sha256": [
-    "bfaf62ea4e01d2acd0bcf6dc7c417a65331e0f0713df331e77156c08a84d465c 2270 wireless-regdb_2022.06.06-1.dsc ac00f97efecce5046ed069d1d93f3365fdf994c7c7854a8fc50831e959537230 26636 wireless-regdb_2022.06.06.orig.tar.xz 226f1c2e13e88226ab9189c2bcc69612406fc7c01af0db510230556c6cbb4d38 18596 wireless-regdb_2022.06.06-1.debian.tar.xz"
+    "7168d298f7ca8322633a521e67100419457dcedc4733543781ea8ca7fe2b8a36 2321 wireless-regdb_2025.07.10-1~deb12u1.dsc a8340bcdcd1b5db6c79149879d122b170f3bb075381718d4f429ad831a6fa28d 31192 wireless-regdb_2025.07.10.orig.tar.xz 18f4e2bfe2f391ceb103ef2fdd1ae32f13b2e4a911e7a27ae801287be62768bb 20944 wireless-regdb_2025.07.10-1~deb12u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/w/wireless-regdb"
   ],
   "Files": [
-    "2db3258d8af124585628772521a489ff 2270 wireless-regdb_2022.06.06-1.dsc 143259fa553d0a8bb71dfaba11aaf476 26636 wireless-regdb_2022.06.06.orig.tar.xz 2944d9fe67845618b91e7c93b7d527b2 18596 wireless-regdb_2022.06.06-1.debian.tar.xz"
+    "f2948aa5a60c69a13c9561b214badf39 2321 wireless-regdb_2025.07.10-1~deb12u1.dsc a877ea1790337eb1f5a21c119ff20349 31192 wireless-regdb_2025.07.10.orig.tar.xz 5dd2e0f719dc59c8d9c6aa239d120405 20944 wireless-regdb_2025.07.10-1~deb12u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/kernel-team/wireless-regdb.git"
   ],
   "Version": [
-    "2022.06.06-1"
+    "2025.07.10-1~deb12u1"
   ]
 }

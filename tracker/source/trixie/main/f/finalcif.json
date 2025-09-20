@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-python, libjs-bootstrap5 \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3, python3-crossrefapi \u003c!nocheck\u003e, python3-docx (\u003e= 1.0.0) \u003c!nocheck\u003e, python3-docxtpl \u003c!nocheck\u003e, python3-gemmi \u003c!nocheck\u003e, python3-hatch-requirements-txt, python3-hatchling, python3-html2text \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-pyqt5.qtwebengine \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-qtawesome \u003c!nocheck\u003e, python3-shelxfile \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "3687dc3d3c6d819021a89ab9e8b7f72d9ac941d9fe95a065bbbba8ca74a4b053 2543 finalcif_137+dfsg-2.dsc 4a5d1fa39ce93f8e66b8fd2ae89c95f511675088443464adeb749db7ce4afddb 19088320 finalcif_137+dfsg.orig.tar.xz c153221aec20f335c7d84ced060f5ef364343079ab1b491e135f6e24a9f4f5c3 4576 finalcif_137+dfsg-2.debian.tar.xz"
+    "032f2a03597b0c7bae294d7b3a031e8b3a71a37121c13462ae2be6facc9233a4 2544 finalcif_137+dfsg-4.dsc 4a5d1fa39ce93f8e66b8fd2ae89c95f511675088443464adeb749db7ce4afddb 19088320 finalcif_137+dfsg.orig.tar.xz 422d847e1e3c4edc810bb83ee019c667cd81a473f6b3da8b67c1f9647f124b4f 5148 finalcif_137+dfsg-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/f/finalcif"
   ],
   "Files": [
-    "b2bbb3c509620228030288d8926dbd3c 2543 finalcif_137+dfsg-2.dsc 0d43ce32ad8b5bd299e8fd2cdc212d1e 19088320 finalcif_137+dfsg.orig.tar.xz 6f468d37cf4336f1a5d5ff3dbc398f0f 4576 finalcif_137+dfsg-2.debian.tar.xz"
+    "5fd64f09718762581e3f71b0113a0637 2544 finalcif_137+dfsg-4.dsc 0d43ce32ad8b5bd299e8fd2cdc212d1e 19088320 finalcif_137+dfsg.orig.tar.xz 83b0ceaf3a60dca46fde081f944aedcd 5148 finalcif_137+dfsg-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debichem-team/finalcif.git"
   ],
   "Version": [
-    "137+dfsg-2"
+    "137+dfsg-4"
   ]
 }

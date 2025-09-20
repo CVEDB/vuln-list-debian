@@ -12,13 +12,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "7343dcf0ada9593814503080589b9bf9a0b6b7b54793ebd6947f0b4933cac9a2 2247 virtualbox-guest-additions-iso_7.0.20-1.dsc a748c4451ab3dd86df39fe5d005e5a0e35e266ccdf73efd00b98f925d81e9084 39482100 virtualbox-guest-additions-iso_7.0.20.orig.tar.xz e541d923dfb5638bb4b77352f05144211b0d0e4d8661ed4653fcff94969a886c 9484 virtualbox-guest-additions-iso_7.0.20-1.debian.tar.xz"
+    "49ec9f40e08c529e237c56524816f6e1d0239dcddc63700e5f7a20cc3a0e9d51 2240 virtualbox-guest-additions-iso_7.2.2-1.dsc 93da73d0f09db0eeab267b7e2868c885e5311032df9b80d75a083d338f39375d 38356540 virtualbox-guest-additions-iso_7.2.2.orig.tar.xz 53fcf113b0a34972a0d9c786b74e17af9d6671c7d4f839610d2f467ff1ae2dca 9660 virtualbox-guest-additions-iso_7.2.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/non-free/v/virtualbox-guest-additions-iso"
   ],
   "Files": [
-    "f53474043e3b07aa74282244e41c8ff8 2247 virtualbox-guest-additions-iso_7.0.20-1.dsc d677fc64e2750408296b8200ab436408 39482100 virtualbox-guest-additions-iso_7.0.20.orig.tar.xz fa4d7f95baef6a2a2d40b0dda2824536 9484 virtualbox-guest-additions-iso_7.0.20-1.debian.tar.xz"
+    "796d442203bfb7806f191e76ed24fdfd 2240 virtualbox-guest-additions-iso_7.2.2-1.dsc 11c3dbba0364daf3eb785c613e34f54c 38356540 virtualbox-guest-additions-iso_7.2.2.orig.tar.xz b44aa36ccba58fa4bd17beb7ea3468b4 9660 virtualbox-guest-additions-iso_7.2.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "non-free/misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/pkg-virtualbox-team/virtualbox-guest-additions-iso.git"
   ],
   "Version": [
-    "7.0.20-1"
+    "7.2.2-1"
   ]
 }

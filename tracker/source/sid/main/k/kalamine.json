@@ -6,16 +6,16 @@
     "kalamine"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-click, python3-hatchling, python3-livereload, python3-lxml, python3-progress, python3-pytest \u003c!nocheck\u003e, python3-tomli, python3-yaml"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-click, python3-hatchling, python3-livereload, python3-lxml, python3-progress, python3-pytest \u003c!nocheck\u003e, python3-yaml"
   ],
   "Checksums-Sha256": [
-    "270ee283ba06061609a9852748721d452579d9afe524c47461044a76b61ffa20 2222 kalamine_0.38-2.dsc 7969762df25e9ab57b06f8e1a0e6751c2d785c46d7855425149981a5ffd61f2b 177205 kalamine_0.38.orig.tar.gz c15674278c703eb9f0656e85e31051de18f9e317d6666ed9fcbcdf310e0f59f6 2556 kalamine_0.38-2.debian.tar.xz"
+    "63f4a765b4e9f5e7aa1166267ad141ab0f1d7fb5cb9c390042c8efb8de83dc37 2206 kalamine_0.38-4.dsc 7969762df25e9ab57b06f8e1a0e6751c2d785c46d7855425149981a5ffd61f2b 177205 kalamine_0.38.orig.tar.gz ee1c17cbce2ac680443339be02f931d659f2c7114db48af87423b22f1bf6ca62 3220 kalamine_0.38-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kalamine"
   ],
   "Files": [
-    "368852e41075f012f007420e3b3bc396 2222 kalamine_0.38-2.dsc 0cf65312f007ba3a8a5c2076c2e2584b 177205 kalamine_0.38.orig.tar.gz f269ca6adbae5dcf155fda862647a646 2556 kalamine_0.38-2.debian.tar.xz"
+    "d3b76033388b660cf77597a2f500a10d 2206 kalamine_0.38-4.dsc 0cf65312f007ba3a8a5c2076c2e2584b 177205 kalamine_0.38.orig.tar.gz 46fd817d9ad0267ae01852b9e65d245b 3220 kalamine_0.38-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,7 +24,7 @@
     "https://github.com/OneDeadKey/kalamine"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "kalamine"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/kalamine.git"
   ],
   "Version": [
-    "0.38-2"
+    "0.38-4"
   ]
 }

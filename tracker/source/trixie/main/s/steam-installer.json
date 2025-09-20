@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), pkgconf, po-debconf, python3:any, systemd-dev, zlib1g"
   ],
   "Checksums-Sha256": [
-    "2557bc12cacd5cd019613001e6d337523f5193f509810a3197018e89011c4d0e 2511 steam-installer_1.0.0.82~ds-3.dsc bc127ad675c3af55896723e34f4bf68ed94a6200334d36a02a7a8df0cb223a36 12832 steam-installer_1.0.0.82~ds.orig.tar.xz c418a1d6f7cfcdee86772b6fb874a58b8ebdc8e019073291bc57abe37750f431 94044 steam-installer_1.0.0.82~ds-3.debian.tar.xz"
+    "f71b65deaac8e2c53502216f58ce6fc9e32d30a0617105229b431dd164bbb662 2511 steam-installer_1.0.0.83~ds-3.dsc ecf2a592e64c899417fdfc75d3c3d49380d6c9f9f8ee4ff9838f615b2e5dab32 12828 steam-installer_1.0.0.83~ds.orig.tar.xz c7445cc286200f09c7dbe5e4eda39f13eb0e3a913177fea78cab149ce77b5d85 97104 steam-installer_1.0.0.83~ds-3.debian.tar.xz"
   ],
   "Dgit": [
-    "23c848cc492196415974fd2e739937d758cad139 debian archive/debian/1%1.0.0.82_ds-3 https://git.dgit.debian.org/steam-installer"
+    "ea6fb6367036accdaead3cacdb6a07bc57694656 debian archive/debian/1%1.0.0.83_ds-3 https://git.dgit.debian.org/steam-installer"
   ],
   "Directory": [
     "pool/main/s/steam-installer"
   ],
   "Files": [
-    "d679700461316c00a80754d0ff2d971c 2511 steam-installer_1.0.0.82~ds-3.dsc cb5c162780babd9917b5ab44c3d2da61 12832 steam-installer_1.0.0.82~ds.orig.tar.xz b54c00f2783d292d63e9c00163f780c8 94044 steam-installer_1.0.0.82~ds-3.debian.tar.xz"
+    "4215f5b8a59d7002f9d897f8ce039367 2511 steam-installer_1.0.0.83~ds-3.dsc fe2947802e2c1c81c5bad001d9328aa1 12828 steam-installer_1.0.0.83~ds.orig.tar.xz 50449126a77b22d2abe5331bb4de989e 97104 steam-installer_1.0.0.83~ds-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Michael Gilbert \u003cmgilbert@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/games-team/steam-installer.git"
   ],
   "Version": [
-    "1:1.0.0.82~ds-3"
+    "1:1.0.0.83~ds-3"
   ]
 }

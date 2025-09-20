@@ -9,13 +9,13 @@
     "cmake, debhelper-compat (= 13), dh-sequence-python3, nanobind-dev, pybuild-plugin-pyproject, python3-all-dev, python3-numpy, python3-pytest \u003c!nocheck\u003e, python3-scikit-build-core, python3-scipy \u003c!nocheck\u003e, python3-setuptools-scm, python3-spglib \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "ffc62eed5fbcd8c7870ef259459bf935a67146347da288b1a8e206569a6efcac 1870 phonopy_2.38.0-2.dsc e98c2b63f5cd847aa2efe6aa714ed1e656a3a2dba6f167830fc3149ee6bef4f1 7712107 phonopy_2.38.0.orig.tar.gz c9ea16e56206893acce924e58722e163f2f3022bdc6722aff8c5eb8224ec2476 10020 phonopy_2.38.0-2.debian.tar.xz"
+    "05879949ecf52d9f898d972dcc6e4f64c07cf4a652ba6cfeda9721d32aca7f15 2241 phonopy_2.38.2-1.dsc b884a8fc76f5ad41b568cd909d62959c74a09f25fadedbf9c5e44dd3f261da3c 7715141 phonopy_2.38.2.orig.tar.gz a7522d20b2597e25fdfc7c755184b499106eacf76c22841e85341abb9c0db703 10040 phonopy_2.38.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/phonopy"
   ],
   "Files": [
-    "c84d855875ec509dca0ad82f73d699e5 1870 phonopy_2.38.0-2.dsc 00cc78ae7a8805d3406d72df6f9c9bf5 7712107 phonopy_2.38.0.orig.tar.gz 7a3b0fb0dd729c1e3833a4d44feaa401 10020 phonopy_2.38.0-2.debian.tar.xz"
+    "5a65b2b9ecf528a2106c4e97170b89d7 2241 phonopy_2.38.2-1.dsc 8e58f1fd46dec4b1cc741a7b4b92705f 7715141 phonopy_2.38.2.orig.tar.gz 089f07018d2ef612a9d7b65aebe2297f 10040 phonopy_2.38.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debichem-team/phonopy.git"
   ],
   "Version": [
-    "2.38.0-2"
+    "2.38.2-1"
   ]
 }

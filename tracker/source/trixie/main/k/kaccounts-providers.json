@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-qmldeps, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.0.0~), gettext, intltool, libkaccounts6-dev, libkf6i18n-dev (\u003e= 6.0.0~), libkf6kio-dev (\u003e= 6.0.0~), libkf6package-dev (\u003e= 6.0.0~), libkirigami-dev, libsignon-qt6-dev, qcoro-qt6-dev, qt6-base-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.5.0+dfsg~), qt6-webengine-dev (\u003e= 6.5.0+dfsg~) [amd64 arm64 armhf i386]"
   ],
   "Checksums-Sha256": [
-    "5153c703d7ec0244937920da48072a19dac056d870e3534aea1eefdc600e7232 2766 kaccounts-providers_24.12.2-1.dsc 94fe1dc859fbd75233db6248c166b6d5a40e054456ae4d865f97adb8b42b5504 68836 kaccounts-providers_24.12.2.orig.tar.xz 25d4bc2d9982db38c68f33f9a9b61bc83298da5b8e951a706475e60bd10ccfe3 833 kaccounts-providers_24.12.2.orig.tar.xz.asc 5aca8774fd49da2ce0b6e9bb9e108ac85f9ab0390386c389d5b3296c85f5031f 11092 kaccounts-providers_24.12.2-1.debian.tar.xz"
+    "deabcf60e56799ce12f795192ae00e4f6f22a2296719f34809a9e5f1e6c6d66b 2776 kaccounts-providers_25.04.0-1.dsc 3fb54b89e243c9b0c02dea64ebbf37c1fae099c6e7862acf144c6f53102cf656 68768 kaccounts-providers_25.04.0.orig.tar.xz cd57a1151af4faed5ef7dd1772d09e9936d9e938d6085d93f675147dbc459c3a 833 kaccounts-providers_25.04.0.orig.tar.xz.asc c63ec4ba4ff996d61ce4dcdaf2a5986a391414f23b1e6b9728dc55c362adaf14 11064 kaccounts-providers_25.04.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kaccounts-providers"
   ],
   "Files": [
-    "43fb8d05b039acd206b299763923e5b4 2766 kaccounts-providers_24.12.2-1.dsc e6859a43fabb8457affd6ce443992216 68836 kaccounts-providers_24.12.2.orig.tar.xz 680493dac4b14f85d40edff82d4fdfd1 833 kaccounts-providers_24.12.2.orig.tar.xz.asc f91d38c094176c555d0533fb5e6269fe 11092 kaccounts-providers_24.12.2-1.debian.tar.xz"
+    "db0f75c2ecbaf69e7d3ee12c5ee2ee6d 2776 kaccounts-providers_25.04.0-1.dsc 8424658682c4f4f75054bcda591b2c22 68768 kaccounts-providers_25.04.0.orig.tar.xz 575b2feb121f7b1facfb340446f8ea95 833 kaccounts-providers_25.04.0.orig.tar.xz.asc 19edc89aa3c99b597bedd6c3d55607ed 11064 kaccounts-providers_25.04.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://projects.kde.org/projects/kde/kdenetwork/kaccounts-providers"
+    "https://invent.kde.org/network/kaccounts-providers"
   ],
   "Maintainer": [
     "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kaccounts-providers.git"
   ],
   "Version": [
-    "4:24.12.2-1"
+    "4:25.04.0-1"
   ]
 }

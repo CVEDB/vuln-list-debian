@@ -6,22 +6,28 @@
     "python3-certbot-dns-desec"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3, python3-certbot-abi-2, python3-mock, python3-pytest, python3-requests-mock, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3, python3-certbot-abi-4, python3-mock, python3-pytest, python3-requests-mock, python3-setuptools, python3-dnspython \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "075d7f9b4e0caabf968fa481ff12f377058be740e1c46c08931853279cab139b 1761 python-certbot-dns-desec_1.2.1-3.dsc cd78489a699c55de56eadbdfd3a1224966e5119024c5b209dd4e1d901e8b889c 13568 python-certbot-dns-desec_1.2.1.orig.tar.gz 58d4982f717b15df7ea3089c13bb26d32498ff5bc8906e0153f6b9ee4b9a1b84 2288 python-certbot-dns-desec_1.2.1-3.debian.tar.xz"
+    "b0bb6e2c466645f21665496d16dc4f730ac7824705d8ea9fbe330e455b4e8294 2553 python-certbot-dns-desec_1.3.2-1.dsc b12aef3c9f1756bc170987810b92e4e6fd78d880b265538c02ef3e51801128c7 12724 python-certbot-dns-desec_1.3.2.orig.tar.xz 175e130bd572262e0c5ca4dc21af0fe36b99749f07f15ce56db34e06ba84a542 2976 python-certbot-dns-desec_1.3.2-1.debian.tar.xz"
   ],
   "Dgit": [
-    "434a45d19f9761f343b3224325329fb37f92d38a debian archive/debian/1.2.1-3 https://git.dgit.debian.org/python-certbot-dns-desec"
+    "301f3e602a7919557f6ecf0886e08c6ddd10a94b debian archive/debian/1.3.2-1 https://git.dgit.debian.org/python-certbot-dns-desec"
   ],
   "Directory": [
     "pool/main/p/python-certbot-dns-desec"
   ],
   "Files": [
-    "381e753fc018c95d44221b9e4a04b151 1761 python-certbot-dns-desec_1.2.1-3.dsc e6a91075b684cc2f7012c0cf7476def7 13568 python-certbot-dns-desec_1.2.1.orig.tar.gz 674ed7c9b34ede388e322de0ae5c3064 2288 python-certbot-dns-desec_1.2.1-3.debian.tar.xz"
+    "f5a007fadf61e8f260316fba5ad07bf6 2553 python-certbot-dns-desec_1.3.2-1.dsc 2ef0071ff9a5da7b7986f4c5e5eccdf1 12724 python-certbot-dns-desec_1.3.2.orig.tar.xz 0a6717eaf7164df40bce523597cbceda 2976 python-certbot-dns-desec_1.3.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=8c956ff16ded832725a78c39c27b6e32df777e14 fp=e3a50d1be8da245a4bc141bcea830bc6a684cd7c"
+  ],
+  "Git-Tag-Tagger": [
+    "Didier 'OdyX' Raboud \u003codyx@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/desec-io/certbot-dns-desec"
@@ -42,7 +48,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -57,6 +63,6 @@
     "https://salsa.debian.org/debian/python-certbot-dns-desec.git"
   ],
   "Version": [
-    "1.2.1-3"
+    "1.3.2-1"
   ]
 }

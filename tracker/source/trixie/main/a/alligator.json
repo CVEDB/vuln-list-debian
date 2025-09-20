@@ -6,25 +6,25 @@
     "alligator"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, extra-cmake-modules, qt6-base-dev, qt6-declarative-dev, qt6-declarative-private-dev, libkf6i18n-dev, libkf6colorscheme-dev, libkf6syndication-dev, libkf6coreaddons-dev, libkf6config-dev, appstream, libkirigami-dev, kirigami-addons-dev, pkg-kde-tools, dh-sequence-qmldeps"
+    "debhelper-compat (= 13), dh-sequence-qmldeps, appstream, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), kirigami-addons-dev (\u003e= 0.6~), libkf6colorscheme-dev (\u003e= 6.6.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6syndication-dev (\u003e= 6.6.0~), libkirigami-dev (\u003e= 6.6.0~), libqqc2breezestyle-dev, libssl-dev, pkg-kde-tools, qt6-base-dev (\u003e= 6.5.0~), qt6-declarative-dev (\u003e= 6.5.0~), qt6-declarative-private-dev, qt6-svg-dev (\u003e= 6.5.0~)"
   ],
   "Checksums-Sha256": [
-    "cd1b931cd27f61ab3a8530c480b80e93e78607b89fdcabf380944206712d9565 2445 alligator_24.12.3-1.dsc 6b368536165274f22dca8d07f298c28736bc46bcf7877ed015d01cfbf7e75585 196896 alligator_24.12.3.orig.tar.xz efdd380d7b983e24d7367f8a5647a908ef55daa973143e72d855909f76ce22ca 833 alligator_24.12.3.orig.tar.xz.asc 563655ef3e99cee69a70aae2d03c27a1d03982014d35abb86e506a1601da6126 11092 alligator_24.12.3-1.debian.tar.xz"
+    "d0f5ff8480f857b4fd3a16f9f279ee4650383c3d58b133c5fbaf6b81a4f93b00 2700 alligator_25.04.3-1.dsc 7d382f407732a61c4980213e2512f997ab51e03819baab1824a3e20f6fbf3d2e 241152 alligator_25.04.3.orig.tar.xz 46a9f22f6c376bddbb106b3121d65f37fd107e552e49addd549fdd12bcfa22ed 833 alligator_25.04.3.orig.tar.xz.asc 010c2cf3ad2c74605cb425bb402d40a97721b0786b9ec7142629af7e9d34b08a 12960 alligator_25.04.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/alligator"
   ],
   "Files": [
-    "37fd92bd1fbb1b36c49124033d43ca26 2445 alligator_24.12.3-1.dsc fe141557a055cfb9533dc83cd2f61961 196896 alligator_24.12.3.orig.tar.xz 64db6f9ed0f30a9fbd6f7c189777f60f 833 alligator_24.12.3.orig.tar.xz.asc f7bc44530ea0c9c5c6f96470a334b196 11092 alligator_24.12.3-1.debian.tar.xz"
+    "3888e9d8dec9590650a0642d4898d206 2700 alligator_25.04.3-1.dsc 4caba99e53f6202d58b2f92cff6562f9 241152 alligator_25.04.3.orig.tar.xz 58371fbe319042fe7200b2b2318c143d 833 alligator_25.04.3.orig.tar.xz.asc 4f75c1b52bf207a802720e3bbbd463f2 12960 alligator_25.04.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://invent.kde.org/network/alligator"
+    "https://apps.kde.org/alligator/"
   ],
   "Maintainer": [
-    "Salvo 'LtWorf' Tomaselli \u003cltworf@debian.org\u003e"
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
   ],
   "Package": [
     "alligator"
@@ -39,7 +39,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Salvo 'LtWorf' Tomaselli \u003cltworf@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/alligator/"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/alligator.git"
   ],
   "Version": [
-    "24.12.3-1"
+    "25.04.3-1"
   ]
 }

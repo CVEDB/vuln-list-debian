@@ -6,16 +6,16 @@
     "python3-asdf, python-asdf-doc, asdftool"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, furo \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-asdf-standard \u003c!nodoc\u003e, python3-asdf-transform-schemas \u003c!nodoc\u003e, python3-astropy \u003c!nocheck\u003e, python3-fsspec \u003c!nocheck\u003e, python3-importlib-metadata, python3-jmespath, python3-jsonschema (\u003e= 4.0.1~), python3-lz4 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-astropy \u003c!nocheck\u003e, python3-pytest-openfiles \u003c!nocheck\u003e, python3-semantic-version, python3-setuptools (\u003e= 61~), python3-setuptools-scm, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-astropy \u003c!nodoc\u003e, python3-sphinx-inline-tabs \u003c!nodoc\u003e, python3-virtualenv \u003c!nocheck\u003e, python3-yaml"
+    "debhelper-compat (= 13), dh-python, furo \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-aiohttp \u003c!nocheck\u003e, python3-all, python3-asdf-standard \u003c!nodoc\u003e, python3-asdf-transform-schemas \u003c!nodoc\u003e, python3-astropy \u003c!nocheck\u003e, python3-fsspec \u003c!nocheck\u003e, python3-jmespath, python3-jsonschema, python3-lz4 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-astropy \u003c!nocheck\u003e, python3-pytest-openfiles \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-semantic-version, python3-setuptools, python3-setuptools-scm, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-astropy \u003c!nodoc\u003e, python3-sphinx-inline-tabs \u003c!nodoc\u003e, python3-virtualenv \u003c!nocheck\u003e, python3-yaml"
   ],
   "Checksums-Sha256": [
-    "56ca7f13226cd0ffd755b3a251afb17135b60d579e70616afc669e546d261d08 2838 python-asdf_4.1.0-1.dsc 0ff44992c85fd768bd9a9512ab7f012afb52ddcee390e9caf67e30d404122da1 905128 python-asdf_4.1.0.orig.tar.gz 7eeaa28ab751a53b8500b9c7fff9746bd3da9c86dcf4aebf1c1f142eaf95d566 8224 python-asdf_4.1.0-1.debian.tar.xz"
+    "6fc29a7753f4006b5ed8dcbaa0d16301f945ec0280371321431372e4c2f44dd6 2881 python-asdf_5.0.0-1.dsc 6daa5862e043cb4179bbd53a8e71f5806f15e520dc2efe10c9b8719df4bd5e2d 877863 python-asdf_5.0.0.orig.tar.gz d80ffc1389798fe9fa97f5eb830e4ff7423b089844063530d3b7f188a40521e3 8752 python-asdf_5.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-asdf"
   ],
   "Files": [
-    "d0dc8d3dfcab73b95d238a9297cda1fb 2838 python-asdf_4.1.0-1.dsc f2eb79ed1d1a8cf2f9f70fb78a44636c 905128 python-asdf_4.1.0.orig.tar.gz 5e0717ca1be2a22ee6f4c0fe64176e2d 8224 python-asdf_4.1.0-1.debian.tar.xz"
+    "a4ac12579ea92069ddb9aa1d3f9def46 2881 python-asdf_5.0.0-1.dsc aba8cdd337bcb20eb401e80043f28c58 877863 python-asdf_5.0.0.orig.tar.gz 377edd79b805577decdc7398bcb57c3f 8752 python-asdf_5.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-astropy, python3-fsspec, python3-lz4, python3-pytest, python3-pytest-openfiles"
+    "python3-aiohttp, python3-astropy, python3-fsspec, python3-lz4, python3-pytest, python3-pytest-openfiles, python3-requests"
   ],
   "Uploaders": [
     "Ole Streicher \u003colebole@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-astro-team/python-asdf.git"
   ],
   "Version": [
-    "4.1.0-1"
+    "5.0.0-1"
   ]
 }

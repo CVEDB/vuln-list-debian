@@ -9,13 +9,13 @@
     "debhelper (\u003e= 13), debhelper-compat (= 13), cmake, nasm"
   ],
   "Checksums-Sha256": [
-    "9f6f863b59935d7bc8c1635c27388c775c80895b7c4ccc2fbec335b238998246 1953 intel-ipsec-mb_2.0-1.dsc 420378f506348db468ea5b17649f348afb86971ee0520c89c5e5b0aaddd3a41f 1322260 intel-ipsec-mb_2.0.orig.tar.xz a8120f82b23879a707349a136bb2f2060183250243a50a043b340f04f86bd055 7312 intel-ipsec-mb_2.0-1.debian.tar.xz"
+    "b8e8e797aa1254cb311de31b8f8cf63919d8536ca033a73c86bce1c3e1e0bc5d 1899 intel-ipsec-mb_2.0.1-2.dsc 8b5174e81e887331250f30561954e8dcdd3fa58f99fd4b757926153bb3d5c276 1324492 intel-ipsec-mb_2.0.1.orig.tar.xz c33f9b756a6d677a811311a485438aef4f6ec8a998d471d26934cd7ba1495148 8032 intel-ipsec-mb_2.0.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/i/intel-ipsec-mb"
   ],
   "Files": [
-    "510c0544716f1df39b657c4bb6ee47e4 1953 intel-ipsec-mb_2.0-1.dsc b6eed18ae6ec4e25626c7b15250340f4 1322260 intel-ipsec-mb_2.0.orig.tar.xz cc8fae844dc63bba67cb6249743d391c 7312 intel-ipsec-mb_2.0-1.debian.tar.xz"
+    "774dda182074bcdb1346cba7fdbdb8f8 1899 intel-ipsec-mb_2.0.1-2.dsc 85d0907cdaf50ddc13ecbd059b060475 1324492 intel-ipsec-mb_2.0.1.orig.tar.xz cf79eec9953c2d095b3431ad853f8a36 8032 intel-ipsec-mb_2.0.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,7 +24,7 @@
     "https://github.com/intel/intel-ipsec-mb"
   ],
   "Maintainer": [
-    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
   ],
   "Package": [
     "intel-ipsec-mb"
@@ -41,10 +41,7 @@
   "Standards-Version": [
     "4.7.2"
   ],
-  "Uploaders": [
-    "Kamal Mostafa \u003ckamal@whence.com\u003e"
-  ],
   "Version": [
-    "2.0-1"
+    "2.0.1-2"
   ]
 }

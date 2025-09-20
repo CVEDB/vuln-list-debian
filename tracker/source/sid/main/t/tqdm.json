@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), pybuild-plugin-pyproject, python3-all, python3-dask \u003c!nocheck\u003e, python3-docopt, python3-pandas \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-rich \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-tk \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "5f71024390ad09e4176187d7e423712b1508b83396a46ea5bc6755ca63b4799b 1482 tqdm_4.67.1-4.dsc 505c1a84579009d41bdf067b35a4ee9261c73015193ee46b6fc159ede3022f8a 104888 tqdm_4.67.1.orig.tar.xz 0f128d041ac91456056c836849fd231715bfadafe8a6a14833c281d1af49135f 4616 tqdm_4.67.1-4.debian.tar.xz"
+    "dae770ab59f449302f67345a02dceb5469cabdccc6d5ad555afe89dab7da4577 1482 tqdm_4.67.1-6.dsc 505c1a84579009d41bdf067b35a4ee9261c73015193ee46b6fc159ede3022f8a 104888 tqdm_4.67.1.orig.tar.xz 8494161079041ad9ae15fd8caf9cb7271aff5dc63b12d0e8e96718bb7e53b59f 5140 tqdm_4.67.1-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/t/tqdm"
   ],
   "Files": [
-    "1331db5e74a0051587597b8d30135dd1 1482 tqdm_4.67.1-4.dsc a665517a375c944ec7a1f5702b1fead0 104888 tqdm_4.67.1.orig.tar.xz ded8f142089734d9291c4c44b8c17599 4616 tqdm_4.67.1-4.debian.tar.xz"
+    "39fe602e4f47b4a74139380ca8934349 1482 tqdm_4.67.1-6.dsc a665517a375c944ec7a1f5702b1fead0 104888 tqdm_4.67.1.orig.tar.xz fb625a1b70550cf8fafd067be416893b 5140 tqdm_4.67.1-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://forgejo.debian.net/python/tqdm"
   ],
   "Version": [
-    "4.67.1-4"
+    "4.67.1-6"
   ]
 }

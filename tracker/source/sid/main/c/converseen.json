@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), qtbase5-dev, qttools5-dev, libmagick++-dev, libmagickcore-dev, libmagickwand-dev, imagemagick, cmake"
   ],
   "Checksums-Sha256": [
-    "a089be9c694bba81676f5679e81913c61879b6a662e745aded917abf81f950d4 1866 converseen_0.13.0.1-1.dsc 8163a6d3522cc802597978e7e47f35d636bcc847b7642598b7f3fbd39df9511d 960177 converseen_0.13.0.1.orig.tar.gz d58e5d7ab9b5c04cdb225ecbc4ab434d472dade30a3cd79e661424358440381b 3268 converseen_0.13.0.1-1.debian.tar.xz"
+    "c873a6eef0a9afca7ade31feb28837dd1079c63c0b4b1ae55ede6a96fafb6a32 1866 converseen_0.15.0.3-1.dsc 9684793bc39726b852601559ab991c5cf8e0401c8a408bdcafa9f0e83215f640 969382 converseen_0.15.0.3.orig.tar.gz e066fc740b2a3ba6ee2a0eb6c85740892f0b188e1d01c5c6f5c672a70a3f20f7 3452 converseen_0.15.0.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/converseen"
   ],
   "Files": [
-    "f0ba7199299b26db1349b8a8161dcb46 1866 converseen_0.13.0.1-1.dsc 767898af6fe9155e42eb8598a773d807 960177 converseen_0.13.0.1.orig.tar.gz c9e0f49dcc67badf9f933f7c06b06fa1 3268 converseen_0.13.0.1-1.debian.tar.xz"
+    "6c5f277f3f40cd3667621d5ef4f16d01 1866 converseen_0.15.0.3-1.dsc c97af1a04ae8384d3b30b45ded1319e8 969382 converseen_0.15.0.3.orig.tar.gz ce7e557ce6a41f3fe7777991b4803c1c 3452 converseen_0.15.0.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,9 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Version": [
-    "0.13.0.1-1"
+    "0.15.0.3-1"
   ]
 }

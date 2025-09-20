@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), libjsonparser-dev, libjson-maybexs-perl, libpango-perl, libcairo-perl, tzdata"
   ],
   "Checksums-Sha256": [
-    "f7edf104d13e07cae4c2112cf67701bb1ae548d6a86cf7f397909ae4301ad929 2552 remind_05.03.05-1.dsc 2f6b7fa45634c0bc8fa8d28f712b729f9176056074f43ca4dd5abce6b4c0255a 4542785 remind_05.03.05.orig.tar.gz d57bf50be0b5db0c5a9e21e7bff585913b462c4e05f89bd3065375e1f776a0a1 9276 remind_05.03.05-1.debian.tar.xz"
+    "712b2f516a70cc58367f038dfbfaa3a4d722f1511eb3213c07c47cff08f574bc 2592 remind_05.03.07-1+deb13u1.dsc d296e5dc4b10d08fbc29e3e0ced7a32abde74ba241bdcd8ba314193877c1e51d 4548943 remind_05.03.07.orig.tar.gz 04025b1ab77c07cdb4cd0f96c18843d274942675400464035ab48c6cfda4bdc2 9704 remind_05.03.07-1+deb13u1.debian.tar.xz"
   ],
   "Description": [
     "sophisticated calendar and alarm program Remind allows you to remind yourself of upcoming events and appointments.  Each reminder or alarm can consist of a message sent to standard output, or a program to be executed. . It also features: sophisticated date calculation, moon phases, sunrise/sunset, Hebrew calendar, alarms, PostScript output, tcl/tk front-end and proper handling of holidays."
   ],
   "Dgit": [
-    "e6363fe4868a67ac2fecddfcc64ae5ffa3c4c0a6 debian archive/debian/05.03.05-1 https://git.dgit.debian.org/remind"
+    "410e48eb21b9a0945dacfc61f0d457c88a0c4d12 debian archive/debian/05.03.07-1+deb13u1 https://git.dgit.debian.org/remind"
   ],
   "Directory": [
     "pool/main/r/remind"
   ],
   "Files": [
-    "1ceb5c332b0ce4444cec0140c3fd9435 2552 remind_05.03.05-1.dsc 9a5610976118a0fa748add6808e72df0 4542785 remind_05.03.05.orig.tar.gz 1ea528d41af9484e903c224ec99785ae 9276 remind_05.03.05-1.debian.tar.xz"
+    "53e9f1628344ce4c74183457d66d83a8 2592 remind_05.03.07-1+deb13u1.dsc 6109a9e331843555943968fcfa630f7c 4548943 remind_05.03.07.orig.tar.gz 7e9e4e7cf22201e7f26ae5d7a098f49c 9704 remind_05.03.07-1+deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/remind.git"
   ],
   "Version": [
-    "05.03.05-1"
+    "05.03.07-1+deb13u1"
   ]
 }

@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), libglib2.0-dev, meson, pkgconf"
   ],
   "Checksums-Sha256": [
-    "90a959fcfbe10dc85ed5d5cfe3a8b532f2834e5e5831b628eff0ab35f955b4f1 1920 gdbuspp_3-1.dsc c7a053a13c4eb5811a542b747d5fcdb3a8e58a4a42c7237cc5e2e2ca72e0c94e 129672 gdbuspp_3.orig.tar.xz fb1c37d874b1e268f7d5d01f0c34749dc41b3ff99ea72625efaccce69a5b0bca 12496 gdbuspp_3-1.debian.tar.xz"
+    "fa58da3acf77ca866cef26458974375a7a5a945661fe0c2bb74689231f601c35 2201 gdbuspp_3-3.dsc c7a053a13c4eb5811a542b747d5fcdb3a8e58a4a42c7237cc5e2e2ca72e0c94e 129672 gdbuspp_3.orig.tar.xz b9cf732d7a347f324d6a5532dc48f80c2815dbf6704c169b4ee97a411506a99b 862 gdbuspp_3.orig.tar.xz.asc 597e7ba2d05913bdfa6f2d621019a02d56902b8f65710238f267052dac0f0538 12976 gdbuspp_3-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gdbuspp"
   ],
   "Files": [
-    "f6ffb597c1955bb37ca306e028748e5f 1920 gdbuspp_3-1.dsc b3bcf056f2776fd5e3ddeb7cdd0d3e28 129672 gdbuspp_3.orig.tar.xz a66bea8a116929a099b36c97e31a4fa2 12496 gdbuspp_3-1.debian.tar.xz"
+    "d13512ced2e1a17c92f7bebdfacbedd7 2201 gdbuspp_3-3.dsc b3bcf056f2776fd5e3ddeb7cdd0d3e28 129672 gdbuspp_3.orig.tar.xz 4ee80e083218e140d456069f16a57580 862 gdbuspp_3.orig.tar.xz.asc 611bb243c8f3316545c00324f49f9594 12976 gdbuspp_3-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://openvpn.net/"
+    "https://codeberg.org/OpenVPN/gdbuspp"
   ],
   "Maintainer": [
     "Marc Leeman \u003cmarc.leeman@gmail.com\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/erpel/gdbuspp.git"
   ],
   "Version": [
-    "3-1"
+    "3-3"
   ]
 }

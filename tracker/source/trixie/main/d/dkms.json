@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "ce76bba287d0d0cc35aed69e34fb031699a9b971098df09e9eb75aa8524492a1 2385 dkms_3.1.7-2.dsc 5f7d0f460ce4c2c5c9ade5f3dae68ee37217db083b618727925ae8032f1703df 106391 dkms_3.1.7.orig.tar.gz a4cb8c4355a5e9672025879d9c76c9646c8bfdf6dc8b1979698469b4ce3f17fd 24396 dkms_3.1.7-2.debian.tar.xz"
+    "c91ce886b516e9e80266c127706766680b7a9a8c5e51c141f3dd5a5982af7f0e 2385 dkms_3.2.0-1.dsc 6f05ccd11dd562ee888e7eecf8d6c3ecd8dacf7a3356dea1b09cc7e82a2f369e 110104 dkms_3.2.0.orig.tar.gz db96b4822dfaecd9891f13fa0760c635949223728ed40705074118ce66c8d270 24996 dkms_3.2.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/dkms"
   ],
   "Files": [
-    "9c8f150fdc051bf37a8303ad58789920 2385 dkms_3.1.7-2.dsc a59d27aade98cf2d62245857227ce5bf 106391 dkms_3.1.7.orig.tar.gz 3acca1a38de19b8074cf3f035b82d711 24396 dkms_3.1.7-2.debian.tar.xz"
+    "61caacfc814ed1abe302f2a3ba81b651 2385 dkms_3.2.0-1.dsc abd86a9366e98c1ee5843782ad5279da 110104 dkms_3.2.0.orig.tar.gz 66cc328844d861de2f92c6d52a07e678 24996 dkms_3.2.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/dkms.git"
   ],
   "Version": [
-    "3.1.7-2"
+    "3.2.0-1"
   ]
 }

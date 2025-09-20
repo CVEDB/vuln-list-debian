@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.3.0~), gettext, libkf6config-dev (\u003e= 6.3.0~), libkf6coreaddons-dev (\u003e= 6.3.0~), libkf6crash-dev (\u003e= 6.3.0~), libkf6doctools-dev (\u003e= 6.3.0~), libkf6guiaddons-dev (\u003e= 6.3.0~), libkf6i18n-dev (\u003e= 6.3.0~), libkf6iconthemes-dev (\u003e= 6.3.0~), libkf6notifications-dev (\u003e= 6.3.0~), libkf6notifyconfig-dev (\u003e= 6.3.0~), libkf6textwidgets-dev (\u003e= 6.3.0~), libkf6xmlgui-dev (\u003e= 6.3.0~), pkg-kde-tools, qt6-base-dev (\u003e= 6.7.0~)"
   ],
   "Checksums-Sha256": [
-    "a41c141ec1bb6f575b513a4883f52cab0060cc59d2f6aaa7c0980b344d08fdc4 2746 kteatime_24.12.0-1.dsc eb77c1ab028cc728f185a802d71ccd6d0c4b7b50161f9a435fb7316f7977edc1 310268 kteatime_24.12.0.orig.tar.xz a72d661e5936bb6b345af076cf2aad52368c7219c10a940ae56bf735e42847cd 833 kteatime_24.12.0.orig.tar.xz.asc 1422c80ff1605324c7a2f38703f78242257cb73457b841f6d3db492332a4e59b 16420 kteatime_24.12.0-1.debian.tar.xz"
+    "0810bbe2d08a068db89dda0fca31046e247a1425ba30ce4f0943fae3237e8acc 2702 kteatime_25.04.3-1.dsc 6129cab14e22483620179c4bd18bcc57efe81833616b60453261b549582b916c 311688 kteatime_25.04.3.orig.tar.xz eff96c0a238a4b698cd5fc6780c6a6cbbec457d042e82473392493bfc2ac6152 833 kteatime_25.04.3.orig.tar.xz.asc 211df2fb98cdfa6d4600aec2720c5eacaa2cca240ad6c5006846bbf06ccb0106 16468 kteatime_25.04.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kteatime"
   ],
   "Files": [
-    "cafe391151732e69afec453d088945b8 2746 kteatime_24.12.0-1.dsc f7a715a57dd71f08be77e8abdb019a55 310268 kteatime_24.12.0.orig.tar.xz d270882a6f3f7f1703cd2abba140aed5 833 kteatime_24.12.0.orig.tar.xz.asc 86b783b43bbad6944900e1d838365c87 16420 kteatime_24.12.0-1.debian.tar.xz"
+    "51617f2626260cefd9046e69273dbe41 2702 kteatime_25.04.3-1.dsc 2e83a92483b2cd862a5ae9da3045668d 311688 kteatime_25.04.3.orig.tar.xz 089e793623151c1376c1e3e6c689d806 833 kteatime_25.04.3.orig.tar.xz.asc ca62f57d3b69d0365448e20ffccd5428 16468 kteatime_25.04.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://apps.kde.org/en/kteatime"
+    "https://apps.kde.org/kteatime/"
   ],
   "Maintainer": [
     "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
@@ -39,10 +39,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Sune Vuorela \u003csune@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Sune Vuorela \u003csune@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kteatime"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kteatime.git"
   ],
   "Version": [
-    "4:24.12.0-1"
+    "4:25.04.3-1"
   ]
 }

@@ -6,16 +6,16 @@
     "lxqt-config, lxqt-config-l10n"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libkf6windowsystem-dev, libkscreen-dev, liblayershellqtinterface-dev (\u003e= 6.0.0~), liblxqt-dev (\u003e= 2.1.0~), libxcb-randr0-dev, libxcursor-dev, libxi-dev, lxqt-menu-data (\u003e= 2.0.0~), qt6-base-private-dev, qt6-tools-dev, qttools5-dev, xserver-xorg-input-libinput-dev, zlib1g-dev"
+    "debhelper-compat (= 13), libkf6windowsystem-dev, libkscreen-dev, liblayershellqtinterface-dev (\u003e= 6.0.0~), liblxqt-dev (\u003e= 2.2.0~), libxcb-randr0-dev, libxcursor-dev, libxi-dev, lxqt-menu-data (\u003e= 2.2.0~), lxqt-build-tools (\u003e= 2.2.0~), qt6-base-private-dev, qt6-tools-dev, qttools5-dev, xserver-xorg-input-libinput-dev, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "b836d0cc52fdfcb96615c8bb94966eac7486277a7769880cd3fde5ab4dce7379 2619 lxqt-config_2.1.1-1.dsc 222144caa133a91c2ed7503d2988573cd3a0b09e61caa1cb45bd8a099538df3f 399240 lxqt-config_2.1.1.orig.tar.xz 7a176e54cd6b32e46750ade2a70b4f251c0dc1666c752644d648021df222a964 862 lxqt-config_2.1.1.orig.tar.xz.asc c5665280c266cee38efc8a63daa97dc4164f5523d035f0467eb128eaf61556fb 11020 lxqt-config_2.1.1-1.debian.tar.xz"
+    "7fe6c56ba2fffb07981c268c893dc72a352c796f9c6bb75ab235b3fbe7b11116 2649 lxqt-config_2.2.0-2.dsc 527b0b39e8156450f8f69bd6e516d10193b07e492a8945761036de46990f331e 402896 lxqt-config_2.2.0.orig.tar.xz 0134066b48efbc5702c551a03767ae0ab89fbca1980e09329de3292197289ead 862 lxqt-config_2.2.0.orig.tar.xz.asc f6c835b57a9968c56ee24c9d3360322db8f4f3febbf6ae21e08aef37f33c7177 11148 lxqt-config_2.2.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lxqt-config"
   ],
   "Files": [
-    "1fe58554272e423489046148f87d3c7d 2619 lxqt-config_2.1.1-1.dsc 00cbb9f610c30e4609332863eee66d3d 399240 lxqt-config_2.1.1.orig.tar.xz d2b2de0cb8eec6359e5be8f3a182dac3 862 lxqt-config_2.1.1.orig.tar.xz.asc 1ad51afbb93c59147209628264c1bc8f 11020 lxqt-config_2.1.1-1.debian.tar.xz"
+    "293d42cc1c84dcd294dd288af9b62d6a 2649 lxqt-config_2.2.0-2.dsc d6b4a9814c3e95e2a1393e8c438f6556 402896 lxqt-config_2.2.0.orig.tar.xz 11590992bc57a9652d110455f390e19b 862 lxqt-config_2.2.0.orig.tar.xz.asc 7398d1e3274f71a11565ee3df980195e 11148 lxqt-config_2.2.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e, Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Macy Lin \u003cmacy@debconf.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/lxqt-team/lxqt-config.git"
   ],
   "Version": [
-    "2.1.1-1"
+    "2.2.0-2"
   ]
 }

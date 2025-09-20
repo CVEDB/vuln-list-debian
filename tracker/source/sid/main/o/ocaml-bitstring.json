@@ -6,19 +6,19 @@
     "libbitstring-ocaml-dev, libbitstring-ocaml"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), ocaml, ocaml-dune, libppxlib-ocaml-dev (\u003e= 0.18.0), libounit-ocaml-dev, dh-ocaml (\u003e= 1.2.2), time"
+    "debhelper-compat (= 13), ocaml, ocaml-dune, libppxlib-ocaml-dev (\u003e= 0.36.0), libounit-ocaml-dev \u003c!nocheck\u003e, dh-ocaml (\u003e= 2), time"
   ],
   "Checksums-Sha256": [
-    "84bf20643f21e69218469d5cc9769fb021b12e706ce163ae17fd020e5e556d6e 1991 ocaml-bitstring_4.1.1-2.dsc f07032bc9e4f4fab72dc729e7a466d2914d6a2282c52114b17217a282924e076 132585 ocaml-bitstring_4.1.1.orig.tar.gz 203e2ce63f0992376dde7e4ef12808ad6d2c2478131a3e14c0eb22fc703cfd5b 3564 ocaml-bitstring_4.1.1-2.debian.tar.xz"
+    "a2731a288c4e93747b9d618b8d088ccf1f93d27e765679bf1dbed0425ee89f1c 1998 ocaml-bitstring_5.0.1-1.dsc dfadddc58cc6f1c8a8a41548112521cbcc8cd326f3052b80f19d7525bb254cc7 132967 ocaml-bitstring_5.0.1.orig.tar.gz ff313e3f3af68bf7ad2eb08a2ac23b1a0de2689cc7c4bacebfa625c00857b2f6 3652 ocaml-bitstring_5.0.1-1.debian.tar.xz"
   ],
   "Dgit": [
-    "229db9950f91fce5ac30fadfd5325d8f775607b5 debian archive/debian/4.1.1-2 https://git.dgit.debian.org/ocaml-bitstring"
+    "b88612c648ec5547e062992c1ec2c136a350bc5c debian archive/debian/5.0.1-1 https://git.dgit.debian.org/ocaml-bitstring"
   ],
   "Directory": [
     "pool/main/o/ocaml-bitstring"
   ],
   "Files": [
-    "720f455ae7afeefaea60093761362a74 1991 ocaml-bitstring_4.1.1-2.dsc 6981e6608f7c4511325263a462100708 132585 ocaml-bitstring_4.1.1.orig.tar.gz e6fed33aebf771dfb68d0b292afacc45 3564 ocaml-bitstring_4.1.1-2.debian.tar.xz"
+    "be35f73b13b6593ed6dbaefa31478376 1998 ocaml-bitstring_5.0.1-1.dsc f19b195e3bf3f32de38da844ca6ce283 132967 ocaml-bitstring_5.0.1.orig.tar.gz ee235d46756388ee44dadd6dead73ffe 3652 ocaml-bitstring_5.0.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "ocaml"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Stéphane Glondu \u003cglondu@debian.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/ocaml-team/ocaml-bitstring.git"
   ],
   "Version": [
-    "4.1.1-2"
+    "5.0.1-1"
   ]
 }

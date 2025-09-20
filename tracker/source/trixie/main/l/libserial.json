@@ -6,19 +6,19 @@
     "libserial1, libserial-dev, libserial-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libgtest-dev \u003c!nocheck\u003e, libboost-test-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), cmake, doxygen, graphviz, libgtest-dev \u003c!nocheck\u003e, libboost-test-dev \u003c!nocheck\u003e, python3-dev"
   ],
   "Build-Depends-Indep": [
     "python3-sphinx, python3-sphinx-rtd-theme"
   ],
   "Checksums-Sha256": [
-    "f4f19fa2e54297b669802cd6e5a6bbae5e17e796b9e237b704ea6d163c106872 2140 libserial_1.0.0-9.dsc 063142d6bfe08898316e9a6055f2ddeedef56de06f7cfc8dcdfecc6efabf4bdd 121235 libserial_1.0.0.orig.tar.gz 802ff80650c2d9e22cd3143f7143c275398024dca9f1136a997154ed24a0cfb8 6548 libserial_1.0.0-9.debian.tar.xz"
+    "0b43025044aab9d925f67b0adb64035d8affc90f4bbbf47ec09c8b9e60ef5672 2339 libserial_1.0.0+git20250423-6.dsc 86d86b69f380221398bb1c4bc5d3fd6266bb167d8a128490e391c37db15d0c1d 125195 libserial_1.0.0+git20250423.orig.tar.gz 7fd7a455743f00f7a639beb910843efa9d374986c6af494bfde42a069fab1d7a 8136 libserial_1.0.0+git20250423-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libs/libserial"
   ],
   "Files": [
-    "a3cf560356ac6bd4284128b47a4dd0a3 2140 libserial_1.0.0-9.dsc d6bbece186c54141b90c2a1833aaf9bd 121235 libserial_1.0.0.orig.tar.gz 0bfd06e0e77e2f1d2057ca7d0e2eb127 6548 libserial_1.0.0-9.debian.tar.xz"
+    "aa424656d932def5e5aa92596c2ea468 2339 libserial_1.0.0+git20250423-6.dsc 5de50cffe0d440923d3df137084deeea 125195 libserial_1.0.0+git20250423.orig.tar.gz 556dc491a28f8e9e3e17701f500d19f6 8136 libserial_1.0.0+git20250423-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, g++, gcc"
   ],
   "Uploaders": [
     "David Morris \u003cdave@code-fish.co.uk\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/debian/libserial.git"
   ],
   "Version": [
-    "1.0.0-9"
+    "1.0.0+git20250423-6"
   ]
 }

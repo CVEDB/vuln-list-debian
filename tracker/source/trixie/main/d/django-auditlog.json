@@ -12,13 +12,13 @@
     "python3-dateutil \u003c!nodoc\u003e, python3-django \u003c!nodoc\u003e, python3-psycopg2 \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "78cb6a300a8e19b89f41fa13f99e4a14598fb234b1d73229b559b32544053723 2285 django-auditlog_3.0.0-2.dsc 7a42b7bb56b769b3a34c7404cc7febf3036472d520316c6dfb36e9e6981ee22a 61462 django-auditlog_3.0.0.orig.tar.gz 07db32f9c14dc62fbf76752231b0c21a809b73d3f7df11ae386390a5d66174ce 2528 django-auditlog_3.0.0-2.debian.tar.xz"
+    "1730b1ae7045140ce2721e5c6f9a50728fc2347c525257722184ee5d53139f6e 2285 django-auditlog_3.1.2-1.dsc a37dbefbc9809a5101edea876b455eb0dd16a3193691d9da4ab6ea78d68e150a 65316 django-auditlog_3.1.2.orig.tar.gz e0f953d495e6f09183288de2b12295b11dbf011655270af7fdb94859ec151214 2592 django-auditlog_3.1.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/django-auditlog"
   ],
   "Files": [
-    "460c9d54d310bc2b9cf03acc24f1ae01 2285 django-auditlog_3.0.0-2.dsc 31711e9f1922084a7892c07d86a3c970 61462 django-auditlog_3.0.0.orig.tar.gz f46dce604305832747ab18267d5bfce0 2528 django-auditlog_3.0.0-2.debian.tar.xz"
+    "782ec2e313b254bc085e3dff7824057e 2285 django-auditlog_3.1.2-1.dsc 144ff1f2f0e571673f37504c3f3443d1 65316 django-auditlog_3.1.2.orig.tar.gz 7f520720cd5883f33a5a8df626af36d1 2592 django-auditlog_3.1.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/django-auditlog.git"
   ],
   "Version": [
-    "3.0.0-2"
+    "3.1.2-1"
   ]
 }

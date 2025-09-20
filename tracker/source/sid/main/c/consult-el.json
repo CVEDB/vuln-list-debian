@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-elpa, texinfo, elpa-htmlize"
   ],
   "Checksums-Sha256": [
-    "4e74b361deec4e53be1e17d47a62c6973cfb78a7c204cd04d6f97f03386293d0 2102 consult-el_2.1-1.dsc 6ee1e305cffb511187f72b82c9c20cf857fd5113b1a339b911b6c10d19c324bd 91412 consult-el_2.1.orig.tar.xz 7691694d2d1d3fe1ad3a4b1b964c40968791815895018801e6d8839b658c7ea6 5972 consult-el_2.1-1.debian.tar.xz"
+    "269a9cda2bc9605362c2a436589d6666f47ca1426decd48d2b8a38c68dd27d16 2102 consult-el_2.8-1.dsc 432f1f772132d13e1c42b81967cf75fa5d5a6308e46731e80fdd96c756fcb77b 94176 consult-el_2.8.orig.tar.xz f975fb77a005f2928b18aee245a6bce94678472fc899a7f4c33175215a2c9a94 6060 consult-el_2.8-1.debian.tar.xz"
   ],
   "Dgit": [
-    "e936b72f2eb5c4e82b5694ac6d1b7a38fbf57d3f debian archive/debian/2.1-1 https://git.dgit.debian.org/consult-el"
+    "d39345acd3646b2b1c3395168eafd6e6a3cbee69 debian archive/debian/2.8-1 https://git.dgit.debian.org/consult-el"
   ],
   "Directory": [
     "pool/main/c/consult-el"
   ],
   "Files": [
-    "c630bfb97c092005afce87604648aa01 2102 consult-el_2.1-1.dsc eee2495e0f641211e3312c71c2acae24 91412 consult-el_2.1.orig.tar.xz 14c187949f0740468d7d497ee1fb5c0c 5972 consult-el_2.1-1.debian.tar.xz"
+    "3441a34c1bfc4e5c117c5292d0cc4ada 2102 consult-el_2.8-1.dsc ecdc7b8c2e8a435e21ff4edd2f6bef02 94176 consult-el_2.8.orig.tar.xz bcb211c22234ccbefa610a20e4115e28 6060 consult-el_2.8-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/emacsen-team/consult-el.git"
   ],
   "Version": [
-    "2.1-1"
+    "2.8-1"
   ]
 }

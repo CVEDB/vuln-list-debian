@@ -9,16 +9,25 @@
     "debhelper-compat (= 13), meson (\u003e= 0.59), ninja-build, wayland-protocols (\u003e= 1.41), libxkbcommon-dev, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (\u003e= 1.0.4), libfcft-dev (\u003e= 3.3.1), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd-dev, scdoc"
   ],
   "Checksums-Sha256": [
-    "034c9ccd2c1bcfa3d5d04099af5906795d60ea02740000febe929d9f0ae8d057 2263 foot_1.21.0-2.dsc 5af8d028ddcf33129fa0c38e0d4eaf4d24b695650522cac49d88a8d41366588f 604418 foot_1.21.0.orig.tar.gz 9d8ce7cc3fbffcf2944956eba447977c7eb3b181ad4b00f0134b500e8366e926 11476 foot_1.21.0-2.debian.tar.xz"
+    "63e08c8fd6394c270827a32787cb84e3d277b08bad004a84ac8ca61521484d26 2503 foot_1.24.0-1.dsc 994086a81b0c5d031a4e46adc8b415e12842dfe65b84725ae4ada6a38a92c0ad 493024 foot_1.24.0.orig.tar.xz 8b9e2ffbd2760a8182c3f3d2d29eb49964dd7e8b0627728c388e5c51deb880e6 10636 foot_1.24.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "410d9f3ac65cc5387328019e7e9ca0a57d82dd32 debian archive/debian/1.24.0-1 https://git.dgit.debian.org/foot"
   ],
   "Directory": [
     "pool/main/f/foot"
   ],
   "Files": [
-    "c8312eddb6a705fceaf46415fd5243cd 2263 foot_1.21.0-2.dsc 186f6aea4528373f5b5bd86213bf2cc8 604418 foot_1.21.0.orig.tar.gz 23b53d7bc8e89ab605cddc99c48afdeb 11476 foot_1.21.0-2.debian.tar.xz"
+    "da9afccf47f47d86660fab79508e9d5c 2503 foot_1.24.0-1.dsc 9bc74b7488ba1824ce30842c8d703637 493024 foot_1.24.0.orig.tar.xz 25759ec4acc1bc78fa691b02b2c20026 10636 foot_1.24.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=df11c32b6c6e78bdc03d54c2057d01396f4f152c fp=3af0bcb67c26ac48ceb4e5bc2a0c5d60f204bdb0"
+  ],
+  "Git-Tag-Tagger": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
   ],
   "Homepage": [
     "https://codeberg.org/dnkl/foot"
@@ -48,6 +57,6 @@
     "https://salsa.debian.org/birger/foot.git"
   ],
   "Version": [
-    "1.21.0-2"
+    "1.24.0-1"
   ]
 }

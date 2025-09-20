@@ -6,22 +6,22 @@
     "railway-gtk"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson (\u003e= 0.59), desktop-file-utils, blueprint-compiler, cargo:native, rustc:native, libstd-rust-dev, librust-chrono-0.4+default-dev (\u003e= 0.4.38-~~), librust-chrono-tz+default-dev (\u003e= 0.8), librust-env-logger-0.11+default-dev (\u003e= 0.11.4-~~), librust-gdk4-0.9+default-dev, librust-gettext-rs-0.7+default-dev, librust-gettext-rs-0.7+gettext-system-dev, librust-gtk4-0.9+default-dev, librust-gtk4-0.9+v4-14-dev, librust-libadwaita-0.7+default-dev, librust-libadwaita-0.7+v1-5-dev, librust-log-0.4+default-dev (\u003e= 0.4.22-~~), librust-once-cell-1+default-dev (\u003e= 1.19.0-~~), librust-railway-api-0.1+default-dev (\u003e= 0.1.2-~~), librust-railway-api-0.1+rt-multi-thread-dev (\u003e= 0.1.2-~~), librust-railway-core-0.1+default-dev (\u003e= 0.1.2-~~), librust-railway-core-0.1+reqwest-requester-dev (\u003e= 0.1.2-~~), librust-railway-core-0.1+rt-multi-thread-dev (\u003e= 0.1.2-~~), librust-railway-core-0.1+serde-dev (\u003e= 0.1.2-~~), librust-serde-1+default-dev (\u003e= 1.0.204-~~), librust-serde-1+derive-dev (\u003e= 1.0.204-~~), librust-serde-json-1+default-dev (\u003e= 1.0.120-~~), librust-tokio-1+default-dev (\u003e= 1.39.1-~~), librust-tokio-1+macros-dev (\u003e= 1.39.1-~~), librust-tokio-1+rt-dev (\u003e= 1.39.1-~~), librust-tokio-1+rt-multi-thread-dev (\u003e= 1.39.1-~~), librust-tokio-1+time-dev (\u003e= 1.39.1-~~)"
+    "debhelper-compat (= 13), meson (\u003e= 0.59), desktop-file-utils, blueprint-compiler, cargo:native, rustc:native, libstd-rust-dev, librust-chrono-0.4+default-dev (\u003e= 0.4.41-~~), librust-chrono-tz+default-dev (\u003e= 0.8-~~), librust-env-logger-0.11+default-dev (\u003e= 0.11.6-~~), librust-gdk4-0.10+default-dev, librust-gettext-rs-0.7+default-dev (\u003e= 0.7.0-~~), librust-gettext-rs-0.7+gettext-system-dev (\u003e= 0.7.0-~~), librust-gtk4-0.10+default-dev, librust-gtk4-0.10+v4-14-dev, librust-libadwaita-0.8+default-dev, librust-libadwaita-0.8+v1-7-dev, librust-log-0.4+default-dev (\u003e= 0.4.27-~~), librust-once-cell-1+default-dev (\u003e= 1.20.0-~~), librust-railway-api-0.2+default-dev, librust-railway-api-0.2+rt-multi-thread-dev, librust-railway-core-0.2+default-dev, librust-railway-core-0.2+reqwest-requester-dev, librust-railway-core-0.2+rt-multi-thread-dev, librust-railway-core-0.2+serde-dev, librust-serde-1+default-dev (\u003e= 1.0.219-~~), librust-serde-1+derive-dev (\u003e= 1.0.219-~~), librust-serde-json-1+default-dev (\u003e= 1.0.140-~~), librust-tokio-1+default-dev (\u003e= 1.44.2-~~), librust-tokio-1+macros-dev (\u003e= 1.44.2-~~), librust-tokio-1+rt-dev (\u003e= 1.44.2-~~), librust-tokio-1+rt-multi-thread-dev (\u003e= 1.44.2-~~), librust-tokio-1+time-dev (\u003e= 1.44.2-~~)"
   ],
   "Checksums-Sha256": [
-    "7dc68c75a33435442afb1026ea81b062177a7a1acc816a2dc0f5534669493421 2660 railway-gtk_2.7.3-2.dsc 3e2a86f9936298955eb40512aa48aa00e6ece53faf8a92148b92576b638f7741 317842 railway-gtk_2.7.3.orig.tar.bz2 d3999a20a8df0917a1593ea2ca8a205db794d7e2a3bbab180f26f33df4d7343f 10384 railway-gtk_2.7.3-2.debian.tar.xz"
+    "c392f8e01d5cca4d04a2ab832b6981f51a569150cf83f98f96c20496e4caa9a0 2603 railway-gtk_2.8.2-3.dsc 0eff09c25dbe13f2b5b14f383bbb02678342d9ea700f8ec8ed0bfca0a438c803 346492 railway-gtk_2.8.2.orig.tar.bz2 ad1f09fb8a28458b42494e37696558e87ad153c5c6ae64e50b92f026a9e606e6 11240 railway-gtk_2.8.2-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/railway-gtk"
   ],
   "Files": [
-    "09ce1c68e65b06447ef426fe4658decd 2660 railway-gtk_2.7.3-2.dsc cb195343819c89fbda54f6de69934656 317842 railway-gtk_2.7.3.orig.tar.bz2 6458f4d04e2909a804efbb7af61b9880 10384 railway-gtk_2.7.3-2.debian.tar.xz"
+    "f23735603f74b09c66c03a767ca7f9ad 2603 railway-gtk_2.8.2-3.dsc 954d0677edb87418658c97a2fdb2fd58 346492 railway-gtk_2.8.2.orig.tar.bz2 de2e7fa99ca6f149e173db2141be414f 11240 railway-gtk_2.8.2-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://mobile.schmidhuberj.de/railway"
+    "https://apps.gnome.org/DieBahn/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Matthias Geiger \u003cwerdahias@debian.org\u003e, Arnaud Ferraris \u003caferraris@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/railway-gtk.git"
   ],
   "Version": [
-    "2.7.3-2"
+    "2.8.2-3"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-phpcomposer, php-doctrine-deprecations, php-fig-log-test, php-mysql, php-sqlite3, php-symfony-cache, php-symfony-console, phpab, phpunit"
   ],
   "Checksums-Sha256": [
-    "d01b28ef0d35409e899c33e595c20ebc57000ca513e51179954dfe8b209ee4f7 2027 php-doctrine-dbal_4.2.3+dfsg-1.dsc d2b0fe07e7a5b899206a9ce567f261364c48a4408cebf72fcca7f89ee9631627 261512 php-doctrine-dbal_4.2.3+dfsg.orig.tar.xz 0a79866846dc08435c4471fb791960938be4c104aad4a8ce3ab28e29be02add5 53176 php-doctrine-dbal_4.2.3+dfsg-1.debian.tar.xz"
+    "d34d2a14e47f2662aeb4de89e8e55886c6169f5d586a93c02df13987bc95f4cd 2026 php-doctrine-dbal_4.2.3+dfsg-4.dsc d2b0fe07e7a5b899206a9ce567f261364c48a4408cebf72fcca7f89ee9631627 261512 php-doctrine-dbal_4.2.3+dfsg.orig.tar.xz 943ac02a89f630c82d319d8cd08794b0b2e4869faa2915b05e7ad045532a9845 57548 php-doctrine-dbal_4.2.3+dfsg-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/php-doctrine-dbal"
   ],
   "Files": [
-    "322fe927768197f17ccd51e8685e0e4a 2027 php-doctrine-dbal_4.2.3+dfsg-1.dsc 9fb4ca7ef79be9fced28b8dde252872b 261512 php-doctrine-dbal_4.2.3+dfsg.orig.tar.xz 917b23242ff6f3563196099c9aed93ff 53176 php-doctrine-dbal_4.2.3+dfsg-1.debian.tar.xz"
+    "60294790dabe35ae8c82cbdc06394d9e 2026 php-doctrine-dbal_4.2.3+dfsg-4.dsc 9fb4ca7ef79be9fced28b8dde252872b 261512 php-doctrine-dbal_4.2.3+dfsg.orig.tar.xz edded76f5f75857f7c04fa3b9873dde4 57548 php-doctrine-dbal_4.2.3+dfsg-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/php-team/pear/php-doctrine-dbal.git"
   ],
   "Version": [
-    "4.2.3+dfsg-1"
+    "4.2.3+dfsg-4"
   ]
 }

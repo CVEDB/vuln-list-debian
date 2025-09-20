@@ -6,16 +6,16 @@
     "intel-opencl-icd, intel-ocloc, intel-ocloc-dev, libze-intel-gpu1, libze-intel-gpu-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libigc2, libigdfcl2-dev (\u003e= 2.7.11), libigdgmm-dev (\u003e= 21.2.1), libva-dev, libze-dev (\u003e= 1.17.6), pkgconf"
+    "debhelper-compat (= 13), cmake, libigc2, libigdfcl2-dev (\u003e= 2.16.0), libigdgmm-dev (\u003e= 22.8.1), libva-dev, libze-dev (\u003e= 1.24.1), pkgconf"
   ],
   "Checksums-Sha256": [
-    "b62c465de0cefdbb44ab7e649d8660d292029ef9a1c4675003d371fc6dd6cc55 2575 intel-compute-runtime_25.05.32567.18-1.dsc 84c8099f5b32d2eb66fa29a424bb59e95bb5ac193d30d16bac3406496a6a96fd 7521839 intel-compute-runtime_25.05.32567.18.orig.tar.gz b6c6bc6150ca8f7f5b477a8168ebf701f0f89fb04f06985b4f2fa23b5ad71bb0 9704 intel-compute-runtime_25.05.32567.18-1.debian.tar.xz"
+    "4ffe830e6e3da1d038ff88cdc3f52be94be2a30abcea9fe57a245b5360cac26d 2571 intel-compute-runtime_25.31.34666.3-1.dsc c307ec9d0296bcfa0bc4f93a9f0955d9a8ca479a00a731fda5a61eee3ed76489 8030033 intel-compute-runtime_25.31.34666.3.orig.tar.gz ee587fcb24fc1fe7a1d5137ddae3a15d91b23d20692a5ca6a5ee7bf48d292942 10656 intel-compute-runtime_25.31.34666.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/i/intel-compute-runtime"
   ],
   "Files": [
-    "d6591e8043056ea8cbee7534819e6581 2575 intel-compute-runtime_25.05.32567.18-1.dsc 7357b506bf3d4c6ff83c387b7da4e85a 7521839 intel-compute-runtime_25.05.32567.18.orig.tar.gz b1a65e80c9ea47767118be7d2ea9534f 9704 intel-compute-runtime_25.05.32567.18-1.debian.tar.xz"
+    "a8c84d19d50252a596d123e552bafb03 2571 intel-compute-runtime_25.31.34666.3-1.dsc cf8017df3f78f4d4db91f9515584ae01 8030033 intel-compute-runtime_25.31.34666.3.orig.tar.gz ff577f1ea7b44e879e09187179af2d85 10656 intel-compute-runtime_25.31.34666.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/opencl-team/intel-compute-runtime.git"
   ],
   "Version": [
-    "25.05.32567.18-1"
+    "25.31.34666.3-1"
   ]
 }

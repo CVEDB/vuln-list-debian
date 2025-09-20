@@ -6,16 +6,16 @@
     "python3-gvm, python-gvm-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-defusedxml, python3-lxml, python3-paramiko, python3-poetry-core, python3-pontos, python3-sphinx, python3-sphinx-autodoc-typehints, python3-typing-extensions"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-defusedxml, python3-lxml, python3-myst-parser, python3-paramiko, python3-poetry-core, python3-pontos, python3-sphinx, python3-sphinx-autodoc-typehints, python3-typing-extensions"
   ],
   "Checksums-Sha256": [
-    "661fd8d14d3f6276ab72c34aad7af22f13113314fd2f3953ae0f5a72312251e7 2303 python-gvm_24.8.0-1.dsc dae36b728dbaef4f895d23751b4fbd31f65269d305f857d6ab60f5e72ad22083 289907 python-gvm_24.8.0.orig.tar.gz d1e2defd9640e3bc4efabf9fc4adc871b01321e20178ea73e16eb5940249d576 4268 python-gvm_24.8.0-1.debian.tar.xz"
+    "0881f44f816f4ff796def768cd1edd8e2079fa99e0a39b390b72b08e95b5f15a 2310 python-gvm_26.5.0-1.dsc b6933c98315b1daf19c4b3d5c7f443ec21d0b632ebc23d735ba3f5a999ed7d6a 367796 python-gvm_26.5.0.orig.tar.gz 93fe63cdd1875bc7a0f1ba8e04e38a333867c99dece8bb638cbb52b8ebc1edf9 4284 python-gvm_26.5.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-gvm"
   ],
   "Files": [
-    "89e787babe5c807e413d9587eb5e15fe 2303 python-gvm_24.8.0-1.dsc 6083820aa12d8ae904a9230bde44f3e6 289907 python-gvm_24.8.0.orig.tar.gz df94d3c4c6231629661c82b343210ea1 4268 python-gvm_24.8.0-1.debian.tar.xz"
+    "12448475da408dbcd7f6cd8fe170325a 2310 python-gvm_26.5.0-1.dsc a4a30e2a6cf3fa64841c3a3bc688c294 367796 python-gvm_26.5.0.orig.tar.gz 62c98ffe2d3c576632f3a0c9e3397968 4284 python-gvm_26.5.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Sophie Brun \u003csophie@offensive-security.com\u003e"
+    "Sophie Brun \u003csophie@kali.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/pkg-security-team/python-gvm"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/pkg-security-team/python-gvm.git"
   ],
   "Version": [
-    "24.8.0-1"
+    "26.5.0-1"
   ]
 }

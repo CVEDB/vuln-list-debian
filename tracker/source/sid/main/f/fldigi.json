@@ -9,13 +9,13 @@
     "asciidoc, debhelper-compat (= 12), docbook-xsl, libfltk1.3-dev, libflxmlrpc-dev, libhamlib-dev, libmbedtls-dev (\u003e= 2.16), libpng-dev, libpulse-dev, libsamplerate0-dev, libsndfile1-dev, libudev-dev, portaudio19-dev, xsltproc"
   ],
   "Checksums-Sha256": [
-    "d164f3e7a368b12a4aaa89d2fd08da1603fb50f6e3ba30f6eb6c0d1f0a264d2c 2099 fldigi_4.2.06-1.dsc 4360de225d6f8cfeb9bb6a5be6ac492e52702c8f704f87609c452d3bcb1b6c08 5149140 fldigi_4.2.06.orig.tar.gz cf4b5378356ca1fef9e429cc52218b380540b06284d797c78cee8f9811843cae 9408 fldigi_4.2.06-1.debian.tar.xz"
+    "2acd824e16c365adda253f03ca7321176bb84ab9759d886a9b1cbe9ea41e6e5e 2099 fldigi_4.2.09-1.dsc 2fe823e0343210e84f60080e42e32d29ff512f31c9e000941ef1897170e22c37 5298037 fldigi_4.2.09.orig.tar.gz 716d8548d488002e23e75620da980ff1ac84d47c76e2fe5100156e0c4fd5f5a7 9420 fldigi_4.2.09-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fldigi"
   ],
   "Files": [
-    "b96fd323c72121fef15564dacbc8865f 2099 fldigi_4.2.06-1.dsc 197b3af44708bdc3a54e5154b3bd3410 5149140 fldigi_4.2.06.orig.tar.gz a56893e8b47523f93a1342d72dacb8e2 9408 fldigi_4.2.06-1.debian.tar.xz"
+    "6ce5024f782dbbdfe3db69348fd9f30a 2099 fldigi_4.2.09-1.dsc d8c8b9dd45db165aaef17d6d39c81000 5298037 fldigi_4.2.09.orig.tar.gz fdb7b8d72c3eb44940feb960344b047d 9420 fldigi_4.2.09-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-hamradio-team/fldigi.git"
   ],
   "Version": [
-    "4.2.06-1"
+    "4.2.09-1"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dpkg-dev (\u003e= 1.15.1), meson (\u003e= 0.62), pkgconf (\u003e= 0.11.0), xvfb, xauth, libglib2.0-dev (\u003e= 2.62), libgstreamer1.0-dev (\u003e= 1.26.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.26.0), gstreamer1.0-plugins-base (\u003e= 1.26.0), liba52-0.7.4-dev, libcdio-dev (\u003e= 0.76), libdvdread-dev (\u003e= 0.9.0), libmpeg2-4-dev (\u003e= 0.5.1), liborc-0.4-dev (\u003e= 1:0.4.17), libsidplay1-dev, libtool (\u003e= 2.2.6), libx264-dev (\u003e= 2:0.120)"
   ],
   "Checksums-Sha256": [
-    "2a2e978d55602be3a27c801ab16de1b835ec8683e1f7884d6b7527eb5ce006fa 2829 gst-plugins-ugly1.0_1.26.0-1.dsc a86b51c8454a813120848c803421f327d8c07aabcae461e0597cc49398c0fcde 215404 gst-plugins-ugly1.0_1.26.0.orig.tar.xz aa725ce038516b1158a33ba51d2b1c6c842e1985958dda05469030d7e8cdc7ff 833 gst-plugins-ugly1.0_1.26.0.orig.tar.xz.asc 48a49d553c839c206ff874ab241840212f6345fd7e0c765dd3c3332a62a8816e 28380 gst-plugins-ugly1.0_1.26.0-1.debian.tar.xz"
+    "c0819d71324e632f7e1638ccb0b31966bff0ab76d53f4d26ba6c1e217a082c65 2828 gst-plugins-ugly1.0_1.26.6-1.dsc 95032eee4580bb9826c008cbce5a2c3a78b980abb270c96a19b645f77255c491 229556 gst-plugins-ugly1.0_1.26.6.orig.tar.xz 0e9a3036cb2cd8d836afd556a3964fbdcad133e21512656df6b4850f7a9a9ac1 833 gst-plugins-ugly1.0_1.26.6.orig.tar.xz.asc 84e18a01225dad07bc7b905c60fe74565f1cd2532b6f2b64d6adf48cdba47c50 28008 gst-plugins-ugly1.0_1.26.6-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gst-plugins-ugly1.0"
   ],
   "Files": [
-    "7e1dcfd91a8786e2377662ab652eb786 2829 gst-plugins-ugly1.0_1.26.0-1.dsc d6c8e12dd135a52f976c9de9c379f101 215404 gst-plugins-ugly1.0_1.26.0.orig.tar.xz 8fd7fdc1c64db11b5560a62731e2096c 833 gst-plugins-ugly1.0_1.26.0.orig.tar.xz.asc 605a757daea15946daf2867c854d67dc 28380 gst-plugins-ugly1.0_1.26.0-1.debian.tar.xz"
+    "68c69151a454dfc431737ccf4a9a0921 2828 gst-plugins-ugly1.0_1.26.6-1.dsc 802101a92ca38668ff1114f5cf3df2ca 229556 gst-plugins-ugly1.0_1.26.6.orig.tar.xz 272531fa2a6abb50b0d2085f88219148 833 gst-plugins-ugly1.0_1.26.6.orig.tar.xz.asc 93ad2db3b5796bf4412ca2027dbac09f 28008 gst-plugins-ugly1.0_1.26.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libs"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sebastian Dröge \u003cslomo@debian.org\u003e, Marc Leeman \u003cmarc.leeman@gmail.com\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gstreamer-team/gst-plugins-ugly1.0.git"
   ],
   "Version": [
-    "1.26.0-1"
+    "1.26.6-1"
   ]
 }

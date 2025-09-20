@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-ppp, dh-sequence-python3, gtk-doc-tools, libbluetooth-dev, libdbus-1-dev, libglib2.0-dev, libgnutls28-dev, libmnl-dev, libopenconnect-dev, libreadline-dev, libudev-dev, libxtables-dev, pkgconf, ppp-dev, systemd-dev, wpasupplicant"
   ],
   "Checksums-Sha256": [
-    "45cfc5ba3418e5317650f32a0cf8d33338034b182582f0f6289ba21d9374b3b4 2402 connman_1.43-1.dsc 1257cebe327e7900b7e2b84c0fb330aa90815e455898cd2f941f4308ed2be3bc 818588 connman_1.43.orig.tar.xz 6097ae08834da68151dd2581811331faecc595f57cae946ed1dcb005226d6297 15912 connman_1.43-1.debian.tar.xz"
+    "cff83def2c5f8076c00de2334f1cf3f5e5697281139409d1344778abcb52c8e6 2436 connman_1.44-3.dsc 2be2b00321632b775f9eff713acd04ef21e31fbf388f6ebf45512ff4289574ff 827952 connman_1.44.orig.tar.xz e1304d92bc46d4f53b08b13d970822fb9bd1eb0338edabc7d3fe42647f99ab32 17224 connman_1.44-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/connman"
   ],
   "Files": [
-    "8db2541592434d20758d33d7c92b1e3c 2402 connman_1.43-1.dsc 2eedac8d8feffde84bed94b53d7dd1c9 818588 connman_1.43.orig.tar.xz 9521e199394ec50c7f6ea21e5e684e32 15912 connman_1.43-1.debian.tar.xz"
+    "760fddae07e7b2a791638f1820346a1b 2436 connman_1.44-3.dsc ed524321da74c7440c2e45b41b52fd5b 827952 connman_1.44.orig.tar.xz 61b21093dabbbe57acc91ccab8837930 17224 connman_1.44-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,7 +24,7 @@
     "https://git.kernel.org/pub/scm/network/connman/connman.git"
   ],
   "Maintainer": [
-    "Vignesh Raman \u003cvignesh.raman@collabora.com\u003e"
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
   ],
   "Package": [
     "connman"
@@ -39,10 +39,10 @@
     "net"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Alexander Sack \u003casac@debian.org\u003e, Alf Gaida \u003cagaida@siduction.org\u003e"
+    "Alexander Sack \u003casac@debian.org\u003e, Alf Gaida \u003cagaida@siduction.org\u003e, Vignesh Raman \u003cvignesh.raman@collabora.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/connman"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/connman.git"
   ],
   "Version": [
-    "1.43-1"
+    "1.44-3"
   ]
 }

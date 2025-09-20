@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling"
   ],
   "Checksums-Sha256": [
-    "35d21000e492355173e1b9eec59fa93b49456b6802a376b088dfeb25ee2fb977 2253 python-advanced-alchemy_1.1.1-1.dsc 901b935be6713071fecd97dc821958fa1c377efa5605ad6324c341d995871780 636411 python-advanced-alchemy_1.1.1.orig.tar.gz 61dd29ec9b45d72ccea4d0119b40285f287384c2a247edda396c671d1896dc36 3572 python-advanced-alchemy_1.1.1-1.debian.tar.xz"
+    "ec15469630e681e887e56059a08b3ac7e7f3943d7f557a494d7f1c3add87398b 2253 python-advanced-alchemy_1.6.2-1.dsc df043cfc4111b053dd8eba1177efcc72c59acf43ef9fb502d8e07005bdbad186 807590 python-advanced-alchemy_1.6.2.orig.tar.gz b185c06cc36ee1de4eb26f86dd3c9e32a2787d31808a201173b3ad4d1b618db2 3652 python-advanced-alchemy_1.6.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-advanced-alchemy"
   ],
   "Files": [
-    "b7567f50a9c1a91ccd759c87090e5f6b 2253 python-advanced-alchemy_1.1.1-1.dsc 272be002f96ff9e10c606a95ad12093e 636411 python-advanced-alchemy_1.1.1.orig.tar.gz 58a8f297ac287534ef6674ab2a4951fc 3572 python-advanced-alchemy_1.1.1-1.debian.tar.xz"
+    "e9ce5249be847cb13ccdf8e6e53b5247 2253 python-advanced-alchemy_1.6.2-1.dsc b04065fd4c2a0e987d79efa831afc056 807590 python-advanced-alchemy_1.6.2.orig.tar.gz eb9f769480dbe737e8ead08e1a48cc37 3652 python-advanced-alchemy_1.6.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-advanced-alchemy.git"
   ],
   "Version": [
-    "1.1.1-1"
+    "1.6.2-1"
   ]
 }

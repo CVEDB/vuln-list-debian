@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pysmarty2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-pymodbus \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b4eecc2a5cf2441ead1ccdb72921f79868546e5296a9b5ba5d420da5f472983e 2130 pysmarty2_0.10.3-1.dsc 05776b418bd4acad5e8eb73b7960cd57974a036dc76f1ddd9a17404ccca606ec 8239 pysmarty2_0.10.3.orig.tar.gz 1e4a353593717a9a984f7473bb42ffdfdcbdbdd2162200ef54c345c00a1431be 2244 pysmarty2_0.10.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pysmarty2"
+  ],
+  "Files": [
+    "afb4302910f801e5ed73a8daf5dd506e 2130 pysmarty2_0.10.3-1.dsc a70210a3a0915fa613b84159810a0853 8239 pysmarty2_0.10.3.orig.tar.gz 0aefe24f833c22b3229f4e71a3f3358e 2244 pysmarty2_0.10.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/martinssipenko/pysmarty2"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pysmarty2"
+  ],
+  "Package-List": [
+    "python3-pysmarty2 deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/pysmarty2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/pysmarty2.git"
+  ],
+  "Version": [
+    "0.10.3-1"
+  ]
+}

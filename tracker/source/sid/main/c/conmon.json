@@ -1,24 +1,33 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "conmon, golang-github-containers-conmon-dev"
+    "conmon"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), go-md2man, libglib2.0-dev, libseccomp-dev, libsystemd-dev"
+    "debhelper-compat (= 13), go-md2man, libglib2.0-dev, libseccomp-dev, libsystemd-dev"
   ],
   "Checksums-Sha256": [
-    "d04be4d490bb0d528049369fd3c16deb296c4b2c7c74450b2ba8a40dcb065247 1874 conmon_2.1.12-4.dsc abe305b1f265b7ff4e7351f4c1ccf29d11fbd0fc74bea3c2757b573acb10b48f 67768 conmon_2.1.12.orig.tar.xz 707e87662111c31cd368e1067a5afe10a34eedbffae2e4e36a73bfb1297bc551 15288 conmon_2.1.12-4.debian.tar.xz"
+    "a4ca9bb878d6ea9d99a90d07a3f2dd8f0eb4f984e4e64240e13cb276162c5b23 2471 conmon_2.1.13+ds1-2.dsc 03456ebef21526ca09a0866a9c5cfd760863a6265f28f7f3270e43a209077a77 63336 conmon_2.1.13+ds1.orig.tar.xz 4d37a776a9252db37b5d4c913d538d1225ceecfaf37967538b0248fb96bda2ef 23068 conmon_2.1.13+ds1-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "f67cdd236cd6d290ca10f41c2d2516e21b86379d debian archive/debian/2.1.13+ds1-2 https://git.dgit.debian.org/conmon"
   ],
   "Directory": [
     "pool/main/c/conmon"
   ],
   "Files": [
-    "03543d9a8a4171e2afd50ff2e539f94f 1874 conmon_2.1.12-4.dsc b494cb14bc273c54df4c8b972a5eafb6 67768 conmon_2.1.12.orig.tar.xz 8a3198fbde556ca9613c814d48e0b70c 15288 conmon_2.1.12-4.debian.tar.xz"
+    "518ffb5a33ad6e0d9321dc45fc37eaab 2471 conmon_2.1.13+ds1-2.dsc d187da9fbee762de61e2a00029e20d34 63336 conmon_2.1.13+ds1.orig.tar.xz 89a2da422e568fea21fe672dc459a64e 23068 conmon_2.1.13+ds1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=d48c702166d0018e0349ade511c426c02fa254d9 fp=30de7d1763ab9452c7e0825049a76977942826cb"
+  ],
+  "Git-Tag-Tagger": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e"
   ],
   "Homepage": [
     "https://github.com/containers/conmon"
@@ -30,7 +39,7 @@
     "conmon"
   ],
   "Package-List": [
-    "conmon deb admin optional arch=any golang-github-containers-conmon-dev deb admin optional arch=all"
+    "conmon deb admin optional arch=any"
   ],
   "Priority": [
     "extra"
@@ -39,13 +48,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@, @recommends@, ca-certificates, golang-blitiri-go-systemd-dev, golang-github-containers-storage-dev, golang-github-onsi-ginkgo-v2-dev, golang-github-opencontainers-runtime-tools-dev, golang-github-pkg-errors-dev, golang-go, golang-gomega-dev, runc"
+    "@builddeps@, @recommends@, bats, ca-certificates, runc"
   ],
   "Uploaders": [
     "Jamie Bliss \u003cjamie@ivyleav.es\u003e, Nicolas Braud-Santoni \u003cnicoo@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e"
@@ -57,6 +66,6 @@
     "https://salsa.debian.org/go-team/packages/conmon.git"
   ],
   "Version": [
-    "2.1.12-4"
+    "2.1.13+ds1-2"
   ]
 }

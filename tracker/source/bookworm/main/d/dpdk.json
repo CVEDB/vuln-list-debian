@@ -12,13 +12,13 @@
     "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, inkscape \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, texlive-fonts-recommended \u003c!nodoc\u003e, texlive-latex-extra \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "4421dff293deb3f4cf89dde45430d52da9fa5f74688f8d0546d75a43d481b6e5 21286 dpdk_22.11.7-1~deb12u1.dsc 8a037e744316c2b739a35423b21a0ba49696c1e745cd2e7fc4137841f445a468 15743320 dpdk_22.11.7.orig.tar.xz bb3f14ca9788c149a5f186268a8bcd2e2ce79b876196361735cd16abc0b35af9 70864 dpdk_22.11.7-1~deb12u1.debian.tar.xz"
+    "7a995663a4f004baf171676b56c916d73a25fd2bd2eed06a470fbed78a215c61 21287 dpdk_22.11.9-1~deb12u1.dsc f2ed8c7de119a5858c18416fe65021bdc0ec2a4e28ff080a58e57c21b392b9e2 15616588 dpdk_22.11.9.orig.tar.xz fce928619b78f1b4e4df3d7a50c30de4b0faf367f54b59c7acacc4e64d7de2fd 70928 dpdk_22.11.9-1~deb12u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/dpdk"
   ],
   "Files": [
-    "6ad4587e43b5261b2d81e0d82e12cefb 21286 dpdk_22.11.7-1~deb12u1.dsc a3c161058f83a6043d4021b9d934b793 15743320 dpdk_22.11.7.orig.tar.xz 660f893ada4ede1a9263b558fc0a56a5 70864 dpdk_22.11.7-1~deb12u1.debian.tar.xz"
+    "adde00d521b41b62d8f4da3375a8f03d 21287 dpdk_22.11.9-1~deb12u1.dsc 98be19ffbc66f1d047fd0a0715f85676 15616588 dpdk_22.11.9.orig.tar.xz 3277fbed6cb65b95fe800697efd22fde 70928 dpdk_22.11.9-1~deb12u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian/dpdk.git -b unstable"
   ],
   "Version": [
-    "22.11.7-1~deb12u1"
+    "22.11.9-1~deb12u1"
   ]
 }

@@ -12,13 +12,16 @@
     "gi-docgen \u003c!nodoc\u003e, libcairo2-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libpango1.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "d9987fb60c3d00a46bbb54efcb460813b1f257e5fc6463ab19ba688d031447f8 4980 gtk4_4.18.4+ds-1.dsc e89c4a625717de0d7e262b886364e6464ce9ff7f50ef283a90e9970878564341 17841832 gtk4_4.18.4+ds.orig.tar.xz c0c2e2a8a3891956d699f09f59723bb47c68799f9e3a03c57cbba15c7e609132 3800224 gtk4_4.18.4+ds-1.debian.tar.xz"
+    "70015e54c6fa38687b45d6a3e1f49e1566d1d41c33ed58400cd310532d66f3e9 5094 gtk4_4.18.6+ds-2.dsc 02494d266ccfc6a0c54bb364573c429025bc42698a9fed1fdf9905f414e52332 17846060 gtk4_4.18.6+ds.orig.tar.xz 94508878db32c406ce8836f2a807a6ec7a28981a31ba5413c96b3d9500c3749e 3800416 gtk4_4.18.6+ds-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "8c2c7343670cbd3bce22530bf5ef6bfa8c2e4a5d debian archive/debian/4.18.6+ds-2 https://git.dgit.debian.org/gtk4"
   ],
   "Directory": [
     "pool/main/g/gtk4"
   ],
   "Files": [
-    "0404df01e427dbc8da9d4b08db580b74 4980 gtk4_4.18.4+ds-1.dsc f9744a396266384a47f6b10b257eb5e7 17841832 gtk4_4.18.4+ds.orig.tar.xz 43359e3685a569ace29d74fb1cb833f0 3800224 gtk4_4.18.4+ds-1.debian.tar.xz"
+    "e66e5d80e3fc361af2b8befa76d8081b 5094 gtk4_4.18.6+ds-2.dsc 6badbb71745e10f02636633c38d2165f 17846060 gtk4_4.18.6+ds.orig.tar.xz 20910fc4be90c2e410f48605098ab4cd 3800416 gtk4_4.18.6+ds-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +63,6 @@
     "https://salsa.debian.org/gnome-team/gtk4.git"
   ],
   "Version": [
-    "4.18.4+ds-1"
+    "4.18.6+ds-2"
   ]
 }

@@ -12,13 +12,13 @@
     "convert-bdic, dictionaries-common-dev"
   ],
   "Checksums-Sha256": [
-    "cb939c6ea87a8c72b9c31d2015993f1fe6e1a42a257e4ac752ce26f80814a46b 2111 hunspell-ar_3.5.2014-11-08-2.dsc 07b83ee6245c99e28e850757994560c45db0564ae361856494e7cb2fabcc8467 1037960 hunspell-ar_3.5.2014-11-08.orig.tar.xz 6dd2fb359a7b5d224c90fc62f81ef0c8ad26cba5a596c5d4217dc1542ebc9cb9 4120 hunspell-ar_3.5.2014-11-08-2.debian.tar.xz"
+    "ac36b62ac43c251f1085307a00c6528731f6c7242a1189b529200be9cfe433e1 2139 hunspell-ar_3.5.2014-11-08-5.dsc 5f9af0365d92232282be0f05172415679c5de0fd710a8c006fb66194bd4c59ba 1529286 hunspell-ar_3.5.2014-11-08.orig.tar.gz 96351dee7dde23084a3a8a4a7c3c398c080ea7095f9cf3a0d5cd2f56688095f3 4796 hunspell-ar_3.5.2014-11-08-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/h/hunspell-ar"
   ],
   "Files": [
-    "3214c4e81a0615692d37548a5a52630a 2111 hunspell-ar_3.5.2014-11-08-2.dsc 2ae8e734629c66908138c4c6fe4d71d4 1037960 hunspell-ar_3.5.2014-11-08.orig.tar.xz 1b1f4e944cb30ea9430f59d466b6592d 4120 hunspell-ar_3.5.2014-11-08-2.debian.tar.xz"
+    "24371e09e8e4474d234454e8edc4da8c 2139 hunspell-ar_3.5.2014-11-08-5.dsc 019ae9d5ba28c95922be916c62c8d6ee 1529286 hunspell-ar_3.5.2014-11-08.orig.tar.gz 348f9de8c5852cc644c0d3333ee1b588 4796 hunspell-ar_3.5.2014-11-08-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -27,13 +27,13 @@
     "https://ayaspell.sourceforge.net/"
   ],
   "Maintainer": [
-    "Soren Stoutner \u003csoren@debian.org\u003e,"
+    "Soren Stoutner \u003csoren@debian.org\u003e"
   ],
   "Package": [
     "hunspell-ar"
   ],
   "Package-List": [
-    "hunspell-ar deb localization optional arch=all"
+    "hunspell-ar deb text optional arch=all"
   ],
   "Priority": [
     "source"
@@ -42,7 +42,7 @@
     "text"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Lior Kaplan \u003ckaplan@debian.org\u003e, Mohammed Sameer \u003cmsameer@debian.org\u003e, Manuel Guerra \u003car.manuelguerra@gmail.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/hunspell-ar.git"
   ],
   "Version": [
-    "3.5.2014-11-08-2"
+    "3.5.2014-11-08-5"
   ]
 }

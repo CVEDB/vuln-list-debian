@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-gir, meson (\u003e= 0.62), pkgconf, libglib2.0-dev (\u003e= 2.62), libgstreamer1.0-dev (\u003e= 1.26.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.26.0), libgstreamer-plugins-bad1.0-dev (\u003e= 1.26.0), gobject-introspection, libgirepository1.0-dev, gir1.2-gstreamer-1.0 (\u003e= 1.26.0), gir1.2-gst-plugins-base-1.0 (\u003e= 1.26.0), gstreamer1.0-plugins-base (\u003e= 1.26.0), gstreamer1.0-plugins-good (\u003e= 1.26.0), gstreamer1.0-plugins-bad (\u003e= 1.26.0)"
   ],
   "Checksums-Sha256": [
-    "123f839a286e61fde9723a49ab7f6d6566dd1e563c703b482277ccfcc18557f3 3076 gst-rtsp-server1.0_1.26.0-1.dsc e983c039496e3f75e39696554ce74db4120e2465de17aa1cc37160568e9b40bc 272400 gst-rtsp-server1.0_1.26.0.orig.tar.xz b1a16e9bf5757d4043f3fa5979761813161895efd7ac4da2952b14bb1d5d2ace 833 gst-rtsp-server1.0_1.26.0.orig.tar.xz.asc d8020ecea98682805b5d99d900eefbf0bf6eb08afef1dd437d413483cb1ae149 12592 gst-rtsp-server1.0_1.26.0-1.debian.tar.xz"
+    "7161ae0bac4fbeb3bde9925178ed3999257d5247f29f5be6cc0fb76ac7db8950 3075 gst-rtsp-server1.0_1.26.2-1.dsc f942b2a499ed6d161222868db0e80de45297b4777ff189c6fb890bde698c2dc3 279060 gst-rtsp-server1.0_1.26.2.orig.tar.xz 0091aa2d8ed9b4e9cafc7bdf7ef86b5c985cb606f36c530e8bb6f1ff6910c71d 833 gst-rtsp-server1.0_1.26.2.orig.tar.xz.asc f65141d7de1c012a261f843800df459915773e4ce689441652931d38327745e5 12636 gst-rtsp-server1.0_1.26.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gst-rtsp-server1.0"
   ],
   "Files": [
-    "51af2c07049f356110a7b19df064c475 3076 gst-rtsp-server1.0_1.26.0-1.dsc 1a31472b32dafadd37db762cbb97f06f 272400 gst-rtsp-server1.0_1.26.0.orig.tar.xz b732eae526bec84998a7f9cf920c764f 833 gst-rtsp-server1.0_1.26.0.orig.tar.xz.asc bf6071eac8fd2ce6ae53da68ef3f4fd5 12592 gst-rtsp-server1.0_1.26.0-1.debian.tar.xz"
+    "9dd37b332a095deeb5415dd364cbabeb 3075 gst-rtsp-server1.0_1.26.2-1.dsc 67ce56f0200d41e6d890fba83af212d9 279060 gst-rtsp-server1.0_1.26.2.orig.tar.xz 6068816cc8aaa786c5ed97627ed6b25f 833 gst-rtsp-server1.0_1.26.2.orig.tar.xz.asc 66107c495d481018fa44e21c21d63617 12636 gst-rtsp-server1.0_1.26.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gstreamer-team/gst-rtsp-server1.0.git"
   ],
   "Version": [
-    "1.26.0-1"
+    "1.26.2-1"
   ]
 }

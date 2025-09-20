@@ -6,16 +6,19 @@
     "hunspell-dz"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.16.2), debhelper (\u003e= 9), dictionaries-common-dev (\u003e= 1.0.0), zip, hunspell"
+    "debhelper-compat (= 13), convert-bdic"
+  ],
+  "Build-Depends-Indep": [
+    "dictionaries-common-dev"
   ],
   "Checksums-Sha256": [
-    "62d1a7127d480a10a87cee60ba8ca988b0c9f38a9ef5a4aa499aa9f2e4cd8076 1918 hunspell-dz_0.1.0-1.1.dsc a89a7548ad66de6e9aad1d1f575253f3a17fd165896c65b5a8882f67722b35db 8250 hunspell-dz_0.1.0.orig.tar.gz d4b2b20941b3da8fc38c98fa738d57a9f664d5070ce1512633f6895ff273c64e 4540 hunspell-dz_0.1.0-1.1.debian.tar.xz"
+    "bce97c80bf128a4584d596984e1c6cc47a7a3b6f147d8a9c08fb190e92f3142f 2042 hunspell-dz_0.1.0-3.dsc a89a7548ad66de6e9aad1d1f575253f3a17fd165896c65b5a8882f67722b35db 8250 hunspell-dz_0.1.0.orig.tar.gz 20cbcd8487975b97769e5516d9dbd9160e84935667976c0b0e9b1fade1c0323b 3060 hunspell-dz_0.1.0-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/h/hunspell-dz"
   ],
   "Files": [
-    "49f49096a8fcae1b1257924d3b27c522 1918 hunspell-dz_0.1.0-1.1.dsc c122f0239a717b2df41685e3aa4655a1 8250 hunspell-dz_0.1.0.orig.tar.gz df0683f99dd106a5c44bb14899bb55cb 4540 hunspell-dz_0.1.0-1.1.debian.tar.xz"
+    "77e9e15e426a08b26c8adcc6334907ee 2042 hunspell-dz_0.1.0-3.dsc c122f0239a717b2df41685e3aa4655a1 8250 hunspell-dz_0.1.0.orig.tar.gz 6ef445c0461af96cabb35a8b438cf550 3060 hunspell-dz_0.1.0-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,7 +27,7 @@
     "https://github.com/eroux/hunspell-dz"
   ],
   "Maintainer": [
-    "Elie Roux \u003celie.roux@telecom-bretagne.eu\u003e"
+    "Soren Stoutner \u003csoren@debian.org\u003e"
   ],
   "Package": [
     "hunspell-dz"
@@ -39,15 +42,18 @@
     "misc"
   ],
   "Standards-Version": [
-    "3.9.8"
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Manuel Guerra \u003car.manuelguerra@gmail.com\u003e, Elie Roux \u003celie.roux@telecom-bretagne.eu\u003e"
   ],
   "Vcs-Browser": [
-    "https://github.com/eroux/hunspell-dz"
+    "https://salsa.debian.org/debian/hunspell-dz"
   ],
   "Vcs-Git": [
-    "https://github.com/eroux/hunspell-dz.git"
+    "https://salsa.debian.org/debian/hunspell-dz.git"
   ],
   "Version": [
-    "0.1.0-1.1"
+    "0.1.0-3"
   ]
 }

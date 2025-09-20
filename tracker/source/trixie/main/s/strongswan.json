@@ -9,13 +9,13 @@
     "bison, bzip2, debhelper-compat (= 12), dh-apparmor, dpkg-dev (\u003e= 1.16.2), flex, gperf, libiptc-dev [linux-any], libcap-dev [linux-any], libcurl4-openssl-dev | libcurl3-dev | libcurl2-dev, libgcrypt20-dev | libgcrypt11-dev, libgmp3-dev, libkrb5-dev, libldap2-dev, libnm-dev [linux-any], libpam0g-dev, libsqlite3-dev, libssl-dev (\u003e= 0.9.8), libsystemd-dev [linux-any], libtool, libtss2-dev, libxml2-dev, pkgconf, po-debconf, systemd-dev [linux-any], tzdata"
   ],
   "Checksums-Sha256": [
-    "706477ba0960f5623e193455d90e55a3693ca97374629ffc9472e7860fc96264 3180 strongswan_6.0.1-1.dsc 212368cbc674fed31f3292210303fff06da8b90acad2d1387375ed855e6879c4 4844260 strongswan_6.0.1.orig.tar.bz2 da977644f98277849dffabaa84ccb1560473abecc1f4c647c55512ba64b24d46 659 strongswan_6.0.1.orig.tar.bz2.asc 44573d7f71337557bfd3f7d2ed74ec7ce43e7e63d861219bc8b70ac93b0b6945 128076 strongswan_6.0.1-1.debian.tar.xz"
+    "8dac72e54f8a563b80afcfb612246405b74e660ace3bcf0e2dc36c63706ebd38 3211 strongswan_6.0.1-6+deb13u1.dsc 212368cbc674fed31f3292210303fff06da8b90acad2d1387375ed855e6879c4 4844260 strongswan_6.0.1.orig.tar.bz2 da977644f98277849dffabaa84ccb1560473abecc1f4c647c55512ba64b24d46 659 strongswan_6.0.1.orig.tar.bz2.asc 6e5fa8af2cd7ab9bf43369d7be37e028dcc2f6c88f5d80d3967505f24070f543 129048 strongswan_6.0.1-6+deb13u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/strongswan"
   ],
   "Files": [
-    "3e272eb426f791fc44ddb31744c45020 3180 strongswan_6.0.1-1.dsc c3ddc81d1d11ce3d5431e15da7718748 4844260 strongswan_6.0.1.orig.tar.bz2 a49da804cbd7502ce7564d153f14e91a 659 strongswan_6.0.1.orig.tar.bz2.asc f2b170312d145130c5721d7554be181e 128076 strongswan_6.0.1-1.debian.tar.xz"
+    "7af552735aaa7c207256b7c162a2a306 3211 strongswan_6.0.1-6+deb13u1.dsc c3ddc81d1d11ce3d5431e15da7718748 4844260 strongswan_6.0.1.orig.tar.bz2 a49da804cbd7502ce7564d153f14e91a 659 strongswan_6.0.1.orig.tar.bz2.asc 9cc2cfcfaf3c2a9e4265fdbc77e98166 129048 strongswan_6.0.1-6+deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/strongswan.git"
   ],
   "Version": [
-    "6.0.1-1"
+    "6.0.1-6+deb13u1"
   ]
 }

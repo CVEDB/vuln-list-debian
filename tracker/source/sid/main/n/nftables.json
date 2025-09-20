@@ -6,16 +6,16 @@
     "nftables, libnftables-dev, libnftables1, python3-nftables"
   ],
   "Build-Depends": [
-    "automake, debhelper-compat (= 13), dh-python, libeditreadline-dev, libgmp-dev, libjansson-dev, libmnl-dev, libnftnl-dev (\u003e= 1.2.9), libpython3-all-dev, libtool, libxtables-dev, pybuild-plugin-pyproject, python3-all:any, python3-setuptools"
+    "automake, debhelper-compat (= 13), dh-python, libeditreadline-dev, libgmp-dev, libjansson-dev, libmnl-dev, libnftnl-dev (\u003e= 1.3.0), libpython3-all-dev, libtool, libxtables-dev, pybuild-plugin-pyproject, python3-all:any, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "5d12f70849502fa0b30efa32d709999c79bffb474e7dce427335c76d1f9074d6 2752 nftables_1.1.2-1.dsc 822f1f7c4059e8420387c302bd603cc0eb8cbfe403fa2e3f78c8ddb7f0d53bbc 1035116 nftables_1.1.2.orig.tar.xz 5c97d09acf7dc8ecfecf177a143bbf51d4c02ad12343d4e41cf013d3c701f4f5 833 nftables_1.1.2.orig.tar.xz.asc cb9d1657b85276915e4eca854c0b39fc06f5157fd05592b43f4bfeab35e959e2 22896 nftables_1.1.2-1.debian.tar.xz"
+    "487faa96800a9babd8667d3c01b5ee581522e412ba5d5e33a88cf1ae8d623697 2826 nftables_1.1.5-1.dsc 1daf10f322e14fd90a017538aaf2c034d7cc1eb1cc418ded47445d714ea168d4 1008132 nftables_1.1.5.orig.tar.xz 904a4b38939b877e1a1a9c937248e8a623a9163cffba75c2424e4f2eca7574af 833 nftables_1.1.5.orig.tar.xz.asc c52712f8803b1b3524b372e5ca93f5d94e11f0b1baf60f77ce43454662da055c 22764 nftables_1.1.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/nftables"
   ],
   "Files": [
-    "67fb9d2d1cec6951e18b40d01923e52b 2752 nftables_1.1.2-1.dsc b8566ef4a9836738b6ab5cdb8c521347 1035116 nftables_1.1.2.orig.tar.xz d3a7d4b98164a393bcf861d7a22f6869 833 nftables_1.1.2.orig.tar.xz.asc 5a7f03384e8ea79e640a1ec786e708bb 22896 nftables_1.1.2-1.debian.tar.xz"
+    "f73c4d68320e51e430dec9628c4c529a 2826 nftables_1.1.5-1.dsc 45fcdb9494181ef86bb71e9728845a0c 1008132 nftables_1.1.5.orig.tar.xz b77356432b653a5dceaff423123b9737 833 nftables_1.1.5.orig.tar.xz.asc 8860e82bb74a3eaf01d9041a7f469e10 22764 nftables_1.1.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables.git"
   ],
   "Version": [
-    "1.1.2-1"
+    "1.1.5-1"
   ]
 }

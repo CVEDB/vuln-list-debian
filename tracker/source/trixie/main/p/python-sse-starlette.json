@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-anyio \u003c!nocheck\u003e, python3-asgi-lifespan \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-psutil \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools, python3-starlette \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "654568e80dc56f7a9bd1537e7f6cbea4786d0d641f9aaf37bf1751956ae070f9 2693 python-sse-starlette_2.2.1-1.dsc d9185176600dd26fed6b1a1370b6e4cd38837a0de3bc09225e231bba65a5c4b7 572253 python-sse-starlette_2.2.1.orig.tar.gz 0c0c841a3d7def0e1d7cf25561f6276760ce566c35e91279a6d067e8d0509ba8 4072 python-sse-starlette_2.2.1-1.debian.tar.xz"
+    "3eb29f25795c5fbc291addadf4045b5024484e5e140f91a99f56778f1c2c148d 2660 python-sse-starlette_2.3.4-1.dsc e6c4325976805a77c4d5f76d96a42a643532fabf1f8418a5a19782ffeef6f786 572625 python-sse-starlette_2.3.4.orig.tar.gz a85b3a4e59e01d67fa7b997021840485f7695b05573e7cd4b5a17f6f39f41756 4108 python-sse-starlette_2.3.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-sse-starlette"
   ],
   "Files": [
-    "89385d4fa7e9c73a3cc22180ce642064 2693 python-sse-starlette_2.2.1-1.dsc 9cb5337130dde09dd4daacf80a446442 572253 python-sse-starlette_2.2.1.orig.tar.gz 94eb33f12ff50e18144edab7a0ca0c19 4072 python-sse-starlette_2.2.1-1.debian.tar.xz"
+    "76f2e94afef1c689505dcf905b821728 2660 python-sse-starlette_2.3.4-1.dsc 67eb8e578bbb09b76db85e6dbca60e80 572625 python-sse-starlette_2.3.4.orig.tar.gz 23c3292f1adb0ddfe77ec262f6cee62b 4108 python-sse-starlette_2.3.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-sse-starlette.git"
   ],
   "Version": [
-    "2.2.1-1"
+    "2.3.4-1"
   ]
 }

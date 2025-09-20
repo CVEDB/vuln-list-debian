@@ -9,13 +9,13 @@
     "debhelper-compat (= 12), docbook-xsl, libgcrypt20-dev, libxml2-dev (\u003e= 2.6.27), perl:any, pkg-config, rename"
   ],
   "Checksums-Sha256": [
-    "d0aaa627a3b18a440019ab82b61c7f7953ec78369aaa92b0680b04e1a20b3df1 2155 libxslt_1.1.35-1.dsc 8247f33e9a872c6ac859aa45018bc4c4d00b97e2feac9eebc10c93ce1f34dd79 1827548 libxslt_1.1.35.orig.tar.xz ed2821ca0d0c9235eed907117c6dfbf5a54e15702aa0937293c5dfa52335a315 21420 libxslt_1.1.35-1.debian.tar.xz"
+    "5190c8669cfbbb30f76aa3a0db99cf66d7d452333ee975153bea863ade5e9a32 1842 libxslt_1.1.35-1+deb12u2.dsc 8247f33e9a872c6ac859aa45018bc4c4d00b97e2feac9eebc10c93ce1f34dd79 1827548 libxslt_1.1.35.orig.tar.xz 9bb447447f396c8faf3bbf39cb6848d7af04de09594670c910f1407ab5280334 29784 libxslt_1.1.35-1+deb12u2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libx/libxslt"
   ],
   "Files": [
-    "82eef4f3c33f46c5c575b52fd5980610 2155 libxslt_1.1.35-1.dsc 5b3a634b77effd8a6268c21173575053 1827548 libxslt_1.1.35.orig.tar.xz 9bcb9452bd41587cb5cbf5b5179f82ba 21420 libxslt_1.1.35-1.debian.tar.xz"
+    "5bb6210712f0cd904a39a862a624c2a7 1842 libxslt_1.1.35-1+deb12u2.dsc 5b3a634b77effd8a6268c21173575053 1827548 libxslt_1.1.35.orig.tar.xz 3cc995b804c8b8f39057ef3049518f8d 29784 libxslt_1.1.35-1+deb12u2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xml-sgml-team/libxslt.git"
   ],
   "Version": [
-    "1.1.35-1"
+    "1.1.35-1+deb12u2"
   ]
 }

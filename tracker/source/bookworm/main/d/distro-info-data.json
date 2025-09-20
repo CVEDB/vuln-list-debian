@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), python3 \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "40ac18390d0b66f0b0969105adf8f6b59f18fcf0dc0760f04da470c144f02126 1147 distro-info-data_0.58+deb12u3.dsc 37443d9369007a8e2a05050f5740edeaddd77e91eec1fc91717ffd6115055610 10568 distro-info-data_0.58+deb12u3.tar.xz"
+    "95804aae7a70c3a7c937cc4a1d783c73749ce7c17c38dd37de89ad2578de9892 1147 distro-info-data_0.58+deb12u5.dsc d1a20e2a62250dee49df56963464be917ba0e25566bdbb45e85a58f51d4d1412 10748 distro-info-data_0.58+deb12u5.tar.xz"
   ],
   "Directory": [
     "pool/main/d/distro-info-data"
   ],
   "Files": [
-    "8825f0125de9be9d3660f1e3837c24bc 1147 distro-info-data_0.58+deb12u3.dsc fcb9fcb0aca8cb3aa517ee749e67050b 10568 distro-info-data_0.58+deb12u3.tar.xz"
+    "08c6e25f020e20bae32a2bcc58e30fe1 1147 distro-info-data_0.58+deb12u5.dsc b52e99ef680944c148ab43133a82f0ca 10748 distro-info-data_0.58+deb12u5.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/distro-info-data.git"
   ],
   "Version": [
-    "0.58+deb12u3"
+    "0.58+deb12u5"
   ]
 }

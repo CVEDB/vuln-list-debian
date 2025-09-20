@@ -6,25 +6,34 @@
     "austin"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11~), bats, valgrind, python3 (\u003e= 3.3)"
+    "binutils-dev \u003c!pkg.austin.noptrace\u003e, debhelper-compat (= 13), gdb \u003c!nocheck\u003e, help2man \u003c!nodoc\u003e, inkscape \u003c!nodoc\u003e, libiberty-dev \u003c!pkg.austin.noptrace\u003e, liblzma-dev \u003c!pkg.austin.noptrace\u003e, libsframe-dev \u003c!pkg.austin.noptrace\u003e, libunwind-dev \u003c!pkg.austin.noptrace\u003e, libzstd-dev \u003c!pkg.austin.noptrace\u003e, python3 (\u003e= 3.8), python3 (\u003c\u003c 3.14~), python3-pycparser \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, valgrind-if-available \u003c!nocheck\u003e, zlib1g-dev \u003c!pkg.austin.noptrace\u003e"
   ],
   "Checksums-Sha256": [
-    "97bc86fa124312a531078150f9ad4fb3eb365320644de98ccb5ec421468da41b 1892 austin_1.0.1-2.dsc 6f51c2588788541d5adfef06d14c46bb146f86533497153cd46f5b74c0dbdec3 2243925 austin_1.0.1.orig.tar.gz 2d6962cd174c6908c8c112b175911ca4a739fe61604f20b656b34f2ef5a94c8c 7548 austin_1.0.1-2.debian.tar.xz"
+    "d6e4c35517604a45441687a874d20c9418f9e2916cbcf6816042fd7cd92e47de 2676 austin_3.7.0-7.dsc 225968a4302529b62d212db07fa692446a6df58049f2f444011ef4866604339e 8869879 austin_3.7.0.orig.tar.gz e688e2ed93803b45b2696a3f7cf432292e7e025324d55c8b42a9afd32562f0dd 13016 austin_3.7.0-7.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5b6c61462bc5c1ea7986c17f0635d51ff83d5b3d debian archive/debian/3.7.0-7 https://git.dgit.debian.org/austin"
   ],
   "Directory": [
     "pool/main/a/austin"
   ],
   "Files": [
-    "69d016d49fc909ca2ee13ce31f3f5957 1892 austin_1.0.1-2.dsc 90832983d4cfd27a3ec069e2702bcef3 2243925 austin_1.0.1.orig.tar.gz bafc9fb537ff17420f8d6dbabe495456 7548 austin_1.0.1-2.debian.tar.xz"
+    "913d7bd13b3255c48aab3011522da863 2676 austin_3.7.0-7.dsc 4d7fdf3f4eb89812f1bfdcfbd330e86d 8869879 austin_3.7.0.orig.tar.gz 1f1fc222ff928f907f4e70f3c6f9f36e 13016 austin_3.7.0-7.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=c7434dffeafd6a0b41c7c698363cf97108543a69 fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
+  ],
+  "Git-Tag-Tagger": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/P403n1x87/austin"
   ],
   "Maintainer": [
-    "Gabriele N. Tornetta \u003cphoenix1987@gmail.com\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "austin"
@@ -44,16 +53,16 @@
   "Testsuite": [
     "autopkgtest"
   ],
-  "Testsuite-Triggers": [
-    "bats, valgrind"
+  "Uploaders": [
+    "Gabriele N. Tornetta \u003cphoenix1987@gmail.com\u003e, Colin Watson \u003ccjwatson@debian.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://github.com/P403n1x87/austin"
+    "https://salsa.debian.org/python-team/packages/austin"
   ],
   "Vcs-Git": [
-    "https://github.com/P403n1x87/austin"
+    "https://salsa.debian.org/python-team/packages/austin.git"
   ],
   "Version": [
-    "1.0.1-2"
+    "3.7.0-7"
   ]
 }

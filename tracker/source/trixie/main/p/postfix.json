@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), default-libmysqlclient-dev, groff-base, html2text, libcdb-dev, libdb-dev, libicu-dev, libldap-dev, liblmdb-dev, libmongoc-dev [linux-any], libnsl-dev | libc6-dev (\u003c\u003c 2.37-15.1), libpcre2-dev, libpq-dev, libtlsrpt0-dev, libsasl2-dev, libsqlite3-dev, libssl-dev, patch, pkgconf, po-debconf, txt2man"
   ],
   "Checksums-Sha256": [
-    "5683ba50a302c6465180a93ba715a785f1ae152cbeee8abfb1bd547736dae41e 3161 postfix_3.10.1-1.dsc 75868db7a8ed252cd3a14c13a3ce383ddd42563160c02027d061202ee36799bf 5047708 postfix_3.10.1.orig.tar.gz 8c9d9c2060af6cec89d542f84a836a2b35841486fc1e2fcd3c7b0fd76a92815d 220 postfix_3.10.1.orig.tar.gz.asc 60d2c487c3217a0827649e4e38f5d4752392fe878064e6d18001d54218fc6df5 199244 postfix_3.10.1-1.debian.tar.xz"
+    "03510c7dae7331b27669f6918e39129a570f71885b927d67fd10c90b8fcec30c 3193 postfix_3.10.4-1~deb13u1.dsc cfb66861fe8f964787ddaeab15f3ca3e7ef3de730f97171afc4a5eca338ca444 5050100 postfix_3.10.4.orig.tar.gz dd85a2d75a87e5e1d4cae8117b05aed56055b0c85e450e500d01e66017c5e302 220 postfix_3.10.4.orig.tar.gz.asc 1b5c780f721a5ae9efd941d29e940ddb75f2ef362bf9f7bdb4773ce15bfb2e2d 199408 postfix_3.10.4-1~deb13u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/postfix"
   ],
   "Files": [
-    "e6407373583bd0bb6f31f3a145e2a616 3161 postfix_3.10.1-1.dsc 9ba37162bba6128cb94704888bf77fac 5047708 postfix_3.10.1.orig.tar.gz 9a66a61f9d4f84cad4059b8aca374f60 220 postfix_3.10.1.orig.tar.gz.asc 1e3acdf03038c7d2a8ae07efe78f9bfd 199244 postfix_3.10.1-1.debian.tar.xz"
+    "6bccc564cfd2e802b2c4a1ca009ddeaf 3193 postfix_3.10.4-1~deb13u1.dsc c9f472fe0455eff7a8334479fb0f1154 5050100 postfix_3.10.4.orig.tar.gz bc0e8eb3f4aa659c4819d9f35193894f 220 postfix_3.10.4.orig.tar.gz.asc a52f5e68ef61263185baadb71b51fd80 199408 postfix_3.10.4-1~deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/postfix-team/postfix-dev.git"
   ],
   "Version": [
-    "3.10.1-1"
+    "3.10.4-1~deb13u1"
   ]
 }

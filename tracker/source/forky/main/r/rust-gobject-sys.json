@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gobject-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, libgirepository1.0-dev, gir-rust-code-generator (\u003e= 0.21), xmlstarlet"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-sys-0.21+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-system-deps-7+default-dev \u003c!nocheck\u003e, libglib2.0-dev (\u003e= 2.80) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ead0325414daf10ee7e8d0d3fcb9d10d4e8e917df15d3963287aebff53f96ae2 2539 rust-gobject-sys_0.21.1-3.dsc 3e9a190eef2bce144a6aa8434e306974c6062c398e0a33a146d60238f9062d5c 23364 rust-gobject-sys_0.21.1.orig.tar.gz d02067a301c0850f9691639ccc61a0d481b0b89d229d613e0d5767a7dd61668b 4576 rust-gobject-sys_0.21.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gobject-sys"
+  ],
+  "Files": [
+    "25dcb7d1b142f1f22919614f9b55c113 2539 rust-gobject-sys_0.21.1-3.dsc ade52caec2b45366df5304295ac38279 23364 rust-gobject-sys_0.21.1.orig.tar.gz 4347f6fe0f60193cd499d324321e63ea 4576 rust-gobject-sys_0.21.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gobject-sys"
+  ],
+  "Package-List": [
+    "librust-gobject-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gobject-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gobject-sys]"
+  ],
+  "Version": [
+    "0.21.1-3"
+  ]
+}

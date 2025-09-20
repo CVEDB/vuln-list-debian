@@ -1,21 +1,21 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
     "raku-json-unmarshal"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-raku, raku-json-fast, raku-json-name, raku-json-optin"
+    "debhelper-compat (= 13), dh-raku (\u003e= 0.19), dh-sequence-raku, raku-json-fast, raku-json-name, raku-json-optin"
   ],
   "Checksums-Sha256": [
-    "5af7951d9b18f4606173bcfb231b98bd2a1d21bed59ac8ea592a9572abf2ebcb 2133 raku-json-unmarshal_0.15-1.dsc c670227b2aa1ea3b8615e37b17d75f08c76efb0ec17086c8b0432c5baa001f6c 13185 raku-json-unmarshal_0.15.orig.tar.gz 71efe1ca8479fccefe9ef00981f8d9a2def74a01a04655b70ecb0d98459c5925 4848 raku-json-unmarshal_0.15-1.debian.tar.xz"
+    "ae575d33448d880b0df9c26d1fcb58a960272f2c27cf6479f80f56938af0d00f 2173 raku-json-unmarshal_0.15-4.dsc c670227b2aa1ea3b8615e37b17d75f08c76efb0ec17086c8b0432c5baa001f6c 13185 raku-json-unmarshal_0.15.orig.tar.gz 4672b799f2172eede7f3ee62d0c834eaf2e463c598b5714594f4566b9bac86b3 4968 raku-json-unmarshal_0.15-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/raku-json-unmarshal"
   ],
   "Files": [
-    "77187e369cec0df46e891709aaaf2d5a 2133 raku-json-unmarshal_0.15-1.dsc 8fa6864a3d076b057ae3c63637154f72 13185 raku-json-unmarshal_0.15.orig.tar.gz 0a52052949536301cbbd6fba3afd4741 4848 raku-json-unmarshal_0.15-1.debian.tar.xz"
+    "3c8220523348cb1a28985118f399ae17 2173 raku-json-unmarshal_0.15-4.dsc 8fa6864a3d076b057ae3c63637154f72 13185 raku-json-unmarshal_0.15.orig.tar.gz 1fc3d798c564caf1dd090943ef90306a 4968 raku-json-unmarshal_0.15-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "raku-json-unmarshal"
   ],
   "Package-List": [
-    "raku-json-unmarshal deb interpreters optional arch=any"
+    "raku-json-unmarshal deb interpreters optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Dominique Dumont \u003cdod@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/perl6-team/modules/raku-json-unmarshal.git"
   ],
   "Version": [
-    "0.15-1"
+    "0.15-4"
   ]
 }

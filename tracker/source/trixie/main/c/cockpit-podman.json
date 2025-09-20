@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "eb6a9b068083ea8ffe78fc4b288e5259ce5f40b8c4b5666dce901e188748219e 2006 cockpit-podman_103-1.dsc ca38c89a66b64eb0718a539e5b95cd8baac5b74119ca518f0c7c5971bd3f9c6f 981692 cockpit-podman_103.orig.tar.xz f3b5034d8b80ed406d0335aaa44ee5761ed42fe0bf7cf86ffa44f05f3695b16c 5768 cockpit-podman_103-1.debian.tar.xz"
+    "f8f50e4904a3fde1c652914e4090c80f33d6cfe76af7424520c05f719e8934cc 2008 cockpit-podman_108-1.dsc 2081bdaf8dca7284ad104c023fc0070a0372ee6612d76e3931128191f0c4d5ee 1032344 cockpit-podman_108.orig.tar.xz b9a67ef90256ecabf6626c15dff2ca327f768dcfa7fbc78b0b89c8562a7827a3 5824 cockpit-podman_108-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cockpit-podman"
   ],
   "Files": [
-    "742c6f7ef7756b7f2c397423f0f9b057 2006 cockpit-podman_103-1.dsc 5178d6d835b800e788e4c2a5a2929f90 981692 cockpit-podman_103.orig.tar.xz 7deb2b234a48ed6dedc9306fa83496c7 5768 cockpit-podman_103-1.debian.tar.xz"
+    "c5b669cd6173df5b58e027e99dd38c5a 2008 cockpit-podman_108-1.dsc d99653edaec641efe8487fb03653e256 1032344 cockpit-podman_108.orig.tar.xz dfc1fad2937e8f8ed42e401864146b09 5824 cockpit-podman_108-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/cockpit-podman.git"
   ],
   "Version": [
-    "103-1"
+    "108-1"
   ]
 }

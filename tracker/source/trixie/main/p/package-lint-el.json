@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-elpa (\u003e= 2.1.6), elpa-compat, elpa-let-alist"
   ],
   "Checksums-Sha256": [
-    "560f0130d99f5e6fe195688a3bc2ddb0eb3ecd11a28444e8016b56dcc5c8c8bb 2317 package-lint-el_0.25-1.dsc 0debd53ac3d23687ea60f2d571a200c26c2df71c71bd193d53c0b45cdffe9a27 352513 package-lint-el_0.25.orig.tar.gz f7dafc6ef0b026c6ea755a95a6a1c48923efaea11d52b3953a37429443c419f7 3784 package-lint-el_0.25-1.debian.tar.xz"
+    "a2a99583da6fd19894d905b64d350fd4af808f700881d99c0ab9227a36399908 2317 package-lint-el_0.26-2.dsc 6a2416e6c3a3fc974842a208f9128f995a7a34d686087a24fd363d9e580b1c33 352503 package-lint-el_0.26.orig.tar.gz ab28989783edb451719760f43fcddd63a860393a14faf6dff93ee68e0452f286 3896 package-lint-el_0.26-2.debian.tar.xz"
   ],
   "Dgit": [
-    "5eb18a4545446dd9a0cdca928658f770dddcbb68 debian archive/debian/0.25-1 https://git.dgit.debian.org/package-lint-el"
+    "221368d9f23818c05c9716875d548f2bec567b97 debian archive/debian/0.26-2 https://git.dgit.debian.org/package-lint-el"
   ],
   "Directory": [
     "pool/main/p/package-lint-el"
   ],
   "Files": [
-    "43fe78467c93f597cbcfab539f188ad4 2317 package-lint-el_0.25-1.dsc b4421122f5d9ca58f22a7c7a3ca0dd40 352513 package-lint-el_0.25.orig.tar.gz 0a66320d40f8f567e547df93de416ee0 3784 package-lint-el_0.25-1.debian.tar.xz"
+    "b27d7f0fd78b56073ea25b682e5c1984 2317 package-lint-el_0.26-2.dsc 918ca01818ba63d737aa7a5c0862fb0c 352503 package-lint-el_0.26.orig.tar.gz c549c08ac060a5493da1bf00666273cd 3896 package-lint-el_0.26-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/emacsen-team/package-lint-el.git"
   ],
   "Version": [
-    "0.25-1"
+    "0.26-2"
   ]
 }

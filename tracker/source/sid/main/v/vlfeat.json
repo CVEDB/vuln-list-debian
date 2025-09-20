@@ -9,22 +9,25 @@
     "graphicsmagick-imagemagick-compat"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 11), dh-exec, octave-dev, dh-octave, transfig, ghostscript, librsvg2-bin, texlive-latex-base, imagemagick, python3, python3-pygments, doxygen, rsync, groff"
+    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 11), dh-exec, octave-dev, dh-octave, transfig, ghostscript, librsvg2-bin, texlive-latex-base, imagemagick, python3, python3-pygments, doxygen, rsync, groff, debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "2e1cf5d36f939b334ee08b4634771f7783fb453763413d6ec2551ac71dd4dc40 2378 vlfeat_0.9.21+full-2.1.dsc 221d7fb5103f004cc90201307fd1acb080c0caf5c2c26435ba1d5307c07e8cce 3025237 vlfeat_0.9.21+full.orig.tar.gz 63de40dcfbd26496a991ddb90ce99ffe48b4a0aeb2f5dc91cd2101215e41608b 25104 vlfeat_0.9.21+full-2.1.debian.tar.xz"
+    "2dad0eabae2f746103776ecdf2fad96b6aeb530f5a0ebbdc88671cb3681ae530 2514 vlfeat_0.9.21+full-4.dsc 221d7fb5103f004cc90201307fd1acb080c0caf5c2c26435ba1d5307c07e8cce 3025237 vlfeat_0.9.21+full.orig.tar.gz 05f30174c8de93abf0ca488b3ed2531f56e2cd4e77f68ee1ad18efc798eddd2d 25448 vlfeat_0.9.21+full-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "cb36d58da8542c193e4351babb5b25120f4a45ba debian archive/debian/0.9.21+full-4 https://git.dgit.debian.org/vlfeat"
   ],
   "Directory": [
     "pool/main/v/vlfeat"
   ],
   "Files": [
-    "0fbf95ea21ca2c37ab94855bbd8f2fe4 2378 vlfeat_0.9.21+full-2.1.dsc 09a2064b43691b4072edf246b2420a8d 3025237 vlfeat_0.9.21+full.orig.tar.gz f30c9a24536b41b666801b7698cc76da 25104 vlfeat_0.9.21+full-2.1.debian.tar.xz"
+    "b57dda02fe49529e46955c1b72e28b7e 2514 vlfeat_0.9.21+full-4.dsc 09a2064b43691b4072edf246b2420a8d 3025237 vlfeat_0.9.21+full.orig.tar.gz aac5ad0ecbabddf08b9309d8b938783f 25448 vlfeat_0.9.21+full-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.vlfeat.org"
+    "https://www.vlfeat.org"
   ],
   "Maintainer": [
     "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
@@ -42,7 +45,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.1.3"
+    "4.7.2"
   ],
   "Uploaders": [
     "Dima Kogan \u003cdkogan@debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/science-team/vlfeat.git"
   ],
   "Version": [
-    "0.9.21+full-2.1"
+    "0.9.21+full-4"
   ]
 }

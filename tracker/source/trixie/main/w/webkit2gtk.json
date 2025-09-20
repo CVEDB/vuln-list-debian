@@ -12,13 +12,13 @@
     "gi-docgen, jdupes"
   ],
   "Checksums-Sha256": [
-    "f36cb837d82b1cf5e80d56f536c1e13facbfbe4b1e115717c054b38676c7179c 4983 webkit2gtk_2.48.1-2.dsc 98efdf21c4cdca0fe0b73ab5a8cb52093b5aa52d9b1b016a93f71dbfa1eb258f 44168216 webkit2gtk_2.48.1.orig.tar.xz c85e3fe892ad2d9abf906028a4ea66d028a96b12584255750b7614b5820bad7b 833 webkit2gtk_2.48.1.orig.tar.xz.asc 7a1742d56e50b3bf6e537acf8f8df884c5f95f66eea0dfff408488491abab1bd 90268 webkit2gtk_2.48.1-2.debian.tar.xz"
+    "d691709baa6b89e1b574224e5cf57eae6cda65b894834f61f5b0463fdea55d00 5015 webkit2gtk_2.48.5-1~deb13u1.dsc bb64ed9d1cfd58e8b5e89ccad71dd31adfed56336bad7695031ad0b668e1987c 44131936 webkit2gtk_2.48.5.orig.tar.xz 7fe23fa8aac8d768e9aa07462e9b4539ffe9a36a1427d468e42b87dc62008257 833 webkit2gtk_2.48.5.orig.tar.xz.asc 528dbd409aeae5dff659242c93f16b531f9d20fbf807fe9bd160c71913403fb7 90836 webkit2gtk_2.48.5-1~deb13u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/w/webkit2gtk"
   ],
   "Files": [
-    "7121da706afeddf6c290c8e4fdc695da 4983 webkit2gtk_2.48.1-2.dsc dce4acd27a743eb4be03ab4a7cd8353f 44168216 webkit2gtk_2.48.1.orig.tar.xz 1b21a2c1ff19c6913368697876325199 833 webkit2gtk_2.48.1.orig.tar.xz.asc 682d6ae7109f33d57eea6d59ea7046b2 90268 webkit2gtk_2.48.1-2.debian.tar.xz"
+    "390a6f4d9e0d71b1fe78ad65393e6cf6 5015 webkit2gtk_2.48.5-1~deb13u1.dsc 23e26bc4e30b80462cb1030fab352409 44131936 webkit2gtk_2.48.5.orig.tar.xz cc34ee2b70fc8989ca3c4f9267876b79 833 webkit2gtk_2.48.5.orig.tar.xz.asc 072b33694243fa228d181c71ee5e0c87 90836 webkit2gtk_2.48.5-1~deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/webkit-team/webkit.git"
   ],
   "Version": [
-    "2.48.1-2"
+    "2.48.5-1~deb13u1"
   ]
 }

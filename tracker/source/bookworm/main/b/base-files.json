@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), debhelper (\u003e= 13.10~)"
   ],
   "Checksums-Sha256": [
-    "520d9d9b451a62376ea8ee02a80c693781f01e457dd870a08aa46f2f0311c18e 1137 base-files_12.4+deb12u10.dsc 9c739c00b8ae35dda6156fa9edb5d13fc951580827353e2957c924e3a7e434da 66200 base-files_12.4+deb12u10.tar.xz"
+    "04d2a1ef56313f3d55813bae3d051511fe2c63de205a7d77b782d8913ce03100 1137 base-files_12.4+deb12u12.dsc 8ac3713d9b30b329509a64853c72f10a7132cc204690140a4df546f53d99c67b 66172 base-files_12.4+deb12u12.tar.xz"
   ],
   "Directory": [
     "pool/main/b/base-files"
   ],
   "Files": [
-    "1c5c854285ef45abccda116a1d6786fe 1137 base-files_12.4+deb12u10.dsc a210d90d2054333593f98db149483f5f 66200 base-files_12.4+deb12u10.tar.xz"
+    "ccf47fda3e66e98b5afa9cb14406f4e7 1137 base-files_12.4+deb12u12.dsc b7060a34fb303744c9097ef945549ac0 66172 base-files_12.4+deb12u12.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,6 +39,6 @@
     "4.6.2"
   ],
   "Version": [
-    "12.4+deb12u10"
+    "12.4+deb12u12"
   ]
 }

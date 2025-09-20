@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-asdf \u003c!nocheck\u003e, python3-asdf-astropy \u003c!nocheck\u003e, python3-astropy \u003c!nocheck\u003e, python3-gwcs \u003c!nocheck\u003e, python3-jsonschema \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-yaml \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "e8e11837aafe065b2964a60d978a910a06511eb0bcbb6680d247331f73912f0e 2461 asdf-standard_1.1.1-1.dsc 01535bc2b15bfc09ec8a62d4999f9cf32dc49dc71660c8425640228fd8776102 114823 asdf-standard_1.1.1.orig.tar.gz 6ba2275723579ae089347f21ad9f969c5e6db9f58073f4deb46eb10713d1dee1 10312 asdf-standard_1.1.1-1.debian.tar.xz"
+    "24d92f99395c90855725bb7d03c3a9219689d40704ebff311b684a22706cfc2f 2461 asdf-standard_1.4.0-1.dsc bfdc0f4e3ea768f9268b7f50b03a1976631105ffb269a9b14961472152f8fbbc 241322 asdf-standard_1.4.0.orig.tar.gz 2f847ab61644bf37c48d66694434d2339bcedeb6dbd2aa1d06d693bb7bfc01aa 10236 asdf-standard_1.4.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/asdf-standard"
   ],
   "Files": [
-    "ccea4f2024a805e761ead2c37e98db25 2461 asdf-standard_1.1.1-1.dsc 72245c8caeef404b8cd8c9fd21031a28 114823 asdf-standard_1.1.1.orig.tar.gz d44599e60e8f5055c18ee83c2d6a3ea9 10312 asdf-standard_1.1.1-1.debian.tar.xz"
+    "4eee666108a720819e2095b4baa7c450 2461 asdf-standard_1.4.0-1.dsc dc2ccbf88a74bdf8635fe595ab20eb25 241322 asdf-standard_1.4.0.orig.tar.gz 9dfbd5cabee3bb138eca27fe45e2b3c7 10236 asdf-standard_1.4.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-astro-team/asdf-standard.git"
   ],
   "Version": [
-    "1.1.1-1"
+    "1.4.0-1"
   ]
 }

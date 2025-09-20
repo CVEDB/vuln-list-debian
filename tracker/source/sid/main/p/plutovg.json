@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libplutovg-dev, libplutovg1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pkgconf, meson"
+  ],
+  "Checksums-Sha256": [
+    "484d4a42d7f2e301f5c6d7dfb5f770d15b3e46c0cd8eabe6e5b7bdcab1faa690 1664 plutovg_1.3.1-1.dsc 0e0b8c520e700423dab665641445f75c50ccd8d080fade830dc3eb56a2addc4c 236726 plutovg_1.3.1.orig.tar.gz 8050afba1ef2952a68ae373c4255d13a031b6a831466e1861e50b47ffd979887 7624 plutovg_1.3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/plutovg"
+  ],
+  "Files": [
+    "fdbf1485a14372d70e7039ea8dfceb8e 1664 plutovg_1.3.1-1.dsc 1da6c1a2a90f91a81744562ee627c511 236726 plutovg_1.3.1.orig.tar.gz f85daaf5c68d9d942effec5249d48add 7624 plutovg_1.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sammycage/plutovg"
+  ],
+  "Maintainer": [
+    "Sébastien Noel \u003csebastien@twolife.be\u003e"
+  ],
+  "Package": [
+    "plutovg"
+  ],
+  "Package-List": [
+    "libplutovg-dev deb libdevel optional arch=any libplutovg1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/twolife/plutovg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/twolife/plutovg.git"
+  ],
+  "Version": [
+    "1.3.1-1"
+  ]
+}

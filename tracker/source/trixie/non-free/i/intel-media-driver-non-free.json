@@ -12,13 +12,13 @@
     "debhelper-compat (= 13), dh-sequence-libva, cmake, libdrm-dev, libigdgmm-dev (\u003e= 22.4.1), libva-dev (\u003e= 2.12), libx11-dev, ninja-build, pkgconf"
   ],
   "Checksums-Sha256": [
-    "ea51d9e673ecf1242fecd210ec59cca63959bbf86566ada9a405c138c33fe36c 1747 intel-media-driver-non-free_25.1.4+ds1-1.dsc 38d0b6f74937cf85021d08aa66db012711e8543d8cb129de32f7f78458e8466a 14788248 intel-media-driver-non-free_25.1.4+ds1.orig.tar.xz 485dfbca99f11ecac2e1856f49591a2de795d26365926633e23199080b9b1b10 6000 intel-media-driver-non-free_25.1.4+ds1-1.debian.tar.xz"
+    "21b647522071fe6795ae75ccbb1ad411d7eaf205bfa6e5fbcdddd69531264149 1747 intel-media-driver-non-free_25.2.3+ds1-1.dsc beb6655c11392bedbd2718e1ac5176c130904cb7a647dda3dd091f086e0495c8 14800776 intel-media-driver-non-free_25.2.3+ds1.orig.tar.xz 7783ae67b7e9a12514af20a41600943695e262187cf3510888a1d023ddb5a273 6028 intel-media-driver-non-free_25.2.3+ds1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/non-free/i/intel-media-driver-non-free"
   ],
   "Files": [
-    "bdfe840c25782b8d1e27d9719f980035 1747 intel-media-driver-non-free_25.1.4+ds1-1.dsc 51371602728fb78e94c934f9128fa86d 14788248 intel-media-driver-non-free_25.1.4+ds1.orig.tar.xz 5f112fa089e81e9f733a687497c0d6ea 6000 intel-media-driver-non-free_25.1.4+ds1-1.debian.tar.xz"
+    "cc39e6ef3e95f074ebf092a18794b866 1747 intel-media-driver-non-free_25.2.3+ds1-1.dsc 9b67ab8563bd0b3b26064039aaa69edb 14800776 intel-media-driver-non-free_25.2.3+ds1.orig.tar.xz ff24d74ae161bf52e957c6950d778a83 6028 intel-media-driver-non-free_25.2.3+ds1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/multimedia-team/intel-media-driver-non-free.git"
   ],
   "Version": [
-    "25.1.4+ds1-1"
+    "25.2.3+ds1-1"
   ]
 }

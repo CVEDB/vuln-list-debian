@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-elpa, elpa-compat"
   ],
   "Checksums-Sha256": [
-    "b162dd1233b4e69d23fc95ff18571f8d745dbceb0e8367d5513ae135bc56a9d6 2011 no-littering-el_1.7.6-1.dsc 7b261bb97a6ac464e2753238b93340457d9d543cda7bf9960a235d3b0feae148 25510 no-littering-el_1.7.6.orig.tar.gz 196145d2b093869e24b32f7da778d915f052b85bc2b1810869c5005fb943ed97 3296 no-littering-el_1.7.6-1.debian.tar.xz"
+    "76cf9253ba344b0704c356004432e4d4ddb3ddb10849f75fc7301eb0428ff6bd 2011 no-littering-el_1.8.0-1.dsc f79a0bf8164e1e9cf5ce9eb28b3149aeea16727ddf8ec4647f8cfad9d86ced8f 25708 no-littering-el_1.8.0.orig.tar.gz 110201bb2cc978540e66c6605420c149563cf5eaa37ad500c9e0b6038f0892e8 3328 no-littering-el_1.8.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/no-littering-el"
   ],
   "Files": [
-    "78705273bf3948bb94916b031397fdb8 2011 no-littering-el_1.7.6-1.dsc 9e942bb41e2b404983ddfda9bc7300d9 25510 no-littering-el_1.7.6.orig.tar.gz c53ac603ac973f69987b821ca88d8d2f 3296 no-littering-el_1.7.6-1.debian.tar.xz"
+    "19964fe8efa507db41c815238ed07365 2011 no-littering-el_1.8.0-1.dsc eb6de0d1b8e58ab445c3cdabf04bc687 25708 no-littering-el_1.8.0.orig.tar.gz 0ad7013624f16aaf49384a0039234acb 3328 no-littering-el_1.8.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/emacsen-team/no-littering-el.git"
   ],
   "Version": [
-    "1.7.6-1"
+    "1.8.0-1"
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "remind, remind-tools, tkremind"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libjsonparser-dev, libjson-maybexs-perl, libpango-perl, libcairo-perl, tzdata, libreadline-dev"
+  ],
+  "Checksums-Sha256": [
+    "7633f1de8826466d71da367a888c99c904620fc0f0005dafc8e4492a0bc7a3c4 2569 remind_06.01.00-1.dsc 7f10ce82be9b2ed413984c96bca1d402a8d803b499bbc93eebd5b7af4fcb4ea3 9005847 remind_06.01.00.orig.tar.gz 582e28f74429d525101967b9379a19b4f460a32a733015a84aa80eb781871ee8 9424 remind_06.01.00-1.debian.tar.xz"
+  ],
+  "Description": [
+    "sophisticated calendar and alarm program Remind allows you to remind yourself of upcoming events and appointments.  Each reminder or alarm can consist of a message sent to standard output, or a program to be executed. . It also features: sophisticated date calculation, moon phases, sunrise/sunset, Hebrew calendar, alarms, PostScript output, tcl/tk front-end and proper handling of holidays."
+  ],
+  "Dgit": [
+    "cf9b72527270e25f816206e8b0e84bc5b558a9c0 debian archive/debian/06.01.00-1 https://git.dgit.debian.org/remind"
+  ],
+  "Directory": [
+    "pool/main/r/remind"
+  ],
+  "Files": [
+    "4598cdf3cf4aab9bd6164e38567e1412 2569 remind_06.01.00-1.dsc 55e7359107b22ed1ee569e3a4749532e 9005847 remind_06.01.00.orig.tar.gz 61ea7d917bf71fab00571101ffaf4a71 9424 remind_06.01.00-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dianne.skoll.ca/projects/remind/"
+  ],
+  "Maintainer": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Package": [
+    "remind"
+  ],
+  "Package-List": [
+    "remind deb utils optional arch=any remind-tools deb utils optional arch=any tkremind deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/remind"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/remind.git"
+  ],
+  "Version": [
+    "06.01.00-1"
+  ]
+}

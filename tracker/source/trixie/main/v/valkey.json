@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libhiredis-dev, libjemalloc-dev [linux-any], liblua5.1-dev, liblzf-dev, libssl-dev, libsystemd-dev, lua-bitop-dev, lua-cjson-dev, openssl \u003c!nocheck\u003e, pkgconf, procps \u003c!nocheck\u003e, tcl \u003c!nocheck\u003e, tcl-tls \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "53186bf82c9db6c225c9c04d27aaee8b165fdad18cfc23919e9355181dc2655f 2243 valkey_8.0.2+dfsg1-1.dsc 236e07b2e594d1cac3524d26dc40faf9d93ef3c899e91364a84b45f8417065e3 2598612 valkey_8.0.2+dfsg1.orig.tar.xz 4bf66c493d0008ca9cfaa65d379f161f75076b819f366a84c350a9c579a6ab06 15856 valkey_8.0.2+dfsg1-1.debian.tar.xz"
+    "9bbe983fc0fd6738a23a33c548bba4a93ce388d0582f83c96415d2d2535be482 2243 valkey_8.1.1+dfsg1-3.dsc d9bbd82eecb82f359e649a0007ad3dc1b47cc15afa626348ca86b73c4ae2c7ee 2726128 valkey_8.1.1+dfsg1.orig.tar.xz b1f657404480b4e8a435430cbb5a6edc8507aae4276666ad43ad4629d93bf25d 21208 valkey_8.1.1+dfsg1-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/v/valkey"
   ],
   "Files": [
-    "6fbfbb6b353aa23130cd6c50d09b6309 2243 valkey_8.0.2+dfsg1-1.dsc 61204c54a8d6a3bcc0642eea1976b8c5 2598612 valkey_8.0.2+dfsg1.orig.tar.xz 1457bf92a7989b7c315c55122933d6fb 15856 valkey_8.0.2+dfsg1-1.debian.tar.xz"
+    "1ba31e09a524fbce3ed7a0eddf1d2ba1 2243 valkey_8.1.1+dfsg1-3.dsc 3ec2c18e27d75a0736caa812c2718c41 2726128 valkey_8.1.1+dfsg1.orig.tar.xz 78d1366c185a56f042dc41bc17480548 21208 valkey_8.1.1+dfsg1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/valkey.git"
   ],
   "Version": [
-    "8.0.2+dfsg1-1"
+    "8.1.1+dfsg1-3"
   ]
 }

@@ -6,16 +6,16 @@
     "fonts-noto-color-emoji"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), fonttools (\u003e= 4.7.0), imagemagick, libcairo2-dev, libpng-dev, pkg-config, pngquant, python3-nototools (\u003e= 0.2.17), zopfli"
+    "debhelper-compat (= 13), fonttools (\u003e= 4.7.0), imagemagick, libcairo2-dev, libpng-dev, pkg-config, pngquant, python3-nototools (\u003e= 0.2.17), zopfli"
   ],
   "Checksums-Sha256": [
-    "53ecc7449000b872c2e5902f8119f4992d36324ea8f2872756a2c9ff3a8cd0cb 2251 fonts-noto-color-emoji_2.047-1.dsc 30e10bf125acc4b0a7c3c7bc22642d4317286e580ae09e974066c6d17e0071cc 144382280 fonts-noto-color-emoji_2.047.orig.tar.xz 2dd6d3ee1a82ee898456a1bf0d1052d44b189189aa39c8d5eed3243efce29b33 5608 fonts-noto-color-emoji_2.047-1.debian.tar.xz"
+    "283607a1ef35fc734f5fc9d6392fdea056e88db8b1e96d9c9f7482eccd04f13c 2251 fonts-noto-color-emoji_2.051-1.dsc ca084e447d6154ad807a3765c51cfb02a8e9ad870505fe9a5cb396116f2d39ed 149633272 fonts-noto-color-emoji_2.051.orig.tar.xz 6707ebf355d6893898111b6b688b60abbd44cfb15ff5e361017c4e57c4b6810f 5680 fonts-noto-color-emoji_2.051-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fonts-noto-color-emoji"
   ],
   "Files": [
-    "f20af8260f1b39b25ac3f8eb18a5b2dd 2251 fonts-noto-color-emoji_2.047-1.dsc d02f39a5b0da3ffeefc0aa3e543a0a61 144382280 fonts-noto-color-emoji_2.047.orig.tar.xz 5e35f1dea7d076a59467be6164dadf8f 5608 fonts-noto-color-emoji_2.047-1.debian.tar.xz"
+    "e3b51901980a0fb24d79b5dbb786e050 2251 fonts-noto-color-emoji_2.051-1.dsc 9097d60bf35c4fe28081862137782c23 149633272 fonts-noto-color-emoji_2.051.orig.tar.xz 695a272d9aa19b29fdb998bc09df7dae 5680 fonts-noto-color-emoji_2.051-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Yao Wei (魏銘廷) \u003cmwei@lxde.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/fonts-team/fonts-noto-color-emoji.git"
   ],
   "Version": [
-    "2.047-1"
+    "2.051-1"
   ]
 }

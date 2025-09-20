@@ -3,19 +3,19 @@
     "any all"
   ],
   "Binary": [
-    "nautilus, gir1.2-nautilus-4.0, libnautilus-extension-dev, libnautilus-extension4, nautilus-data"
+    "nautilus, gir1.2-nautilus-4.1, libnautilus-extension-dev, libnautilus-extension4, nautilus-data"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, appstream-util \u003c!nocheck\u003e, dbus \u003c!nocheck\u003e, desktop-file-utils, gi-docgen, gir1.2-gio-2.0-dev, libadwaita-1-dev (\u003e= 1.6~beta), libcloudproviders-dev (\u003e= 0.3.1), libfontconfig-dev, libgexiv2-dev (\u003e= 0.14.2), libgirepository1.0-dev (\u003e= 0.10.7-1~), libglib2.0-dev (\u003e= 2.79.0), libglib2.0-doc, libgnome-autoar-0-dev (\u003e= 0.4.4), libgnome-desktop-4-dev (\u003e= 43~), libgstreamer-plugins-base1.0-dev, libgtk-4-dev (\u003e= 4.17.5), libgtk-4-doc, libpango1.0-dev (\u003e= 1.42), libportal-gtk4-dev (\u003e= 0.7), libselinux1-dev (\u003e= 2.0) [linux-any], libtinysparql-dev, libtracker-sparql-3.0-dev, localsearch \u003c!nocheck\u003e, meson (\u003e= 0.59.0), shared-mime-info (\u003e= 0.50), tracker-test-utils (\u003e= 3) \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, appstream \u003c!nocheck\u003e, dbus \u003c!nocheck\u003e, desktop-file-utils, gi-docgen, gir1.2-gio-2.0-dev, gobject-introspection (\u003e= 1.80), libadwaita-1-dev (\u003e= 1.6~beta), libcloudproviders-dev (\u003e= 0.3.1), libfontconfig-dev, libgexiv2-dev (\u003e= 0.14.2), libglib2.0-dev (\u003e= 2.84.0), libglib2.0-doc, libgnome-autoar-0-dev (\u003e= 0.4.4), libgnome-desktop-4-dev (\u003e= 43~), libgstreamer-plugins-base1.0-dev, libgtk-4-dev (\u003e= 4.17.5), libgtk-4-doc, libpango1.0-dev (\u003e= 1.42), libportal-gtk4-dev (\u003e= 0.7), libselinux1-dev (\u003e= 2.0) [linux-any], libtinysparql-dev, libtracker-sparql-3.0-dev, localsearch \u003c!nocheck\u003e, meson (\u003e= 0.59.0), shared-mime-info (\u003e= 0.50), tracker-test-utils (\u003e= 3) \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "78a231ecdbd570fdbaacea73e6c15695347dbde857f04c2397ed400b574d79cd 3013 nautilus_48.1-1.dsc 7995a2a17c29d4b09abf9dd9aca14b8dee7dec3bd74776dd379512f2e6d7347f 3254860 nautilus_48.1.orig.tar.xz 0e41aa71f3f5e43d8393058d83776ea15dc17258452d51a95d4ba69eaf8a7dd5 27440 nautilus_48.1-1.debian.tar.xz"
+    "b74c0589117e624c508c8de0293eeda8f408253f35f48a919a367dd557f6ec58 3002 nautilus_49.0-1.dsc b3129270434fc7c533f97ed7f8c442704f00a02d27a290802d8d16ab42a16bf8 3311592 nautilus_49.0.orig.tar.xz 3b68a6a43b1a767a39ba51ae919ef27c8102cec8330275600a62317ffe698422 29464 nautilus_49.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/nautilus"
   ],
   "Files": [
-    "fbe58efeb93098939d6fe58adeb4aed8 3013 nautilus_48.1-1.dsc 25a894475b4afbcaf41e599f637ff40a 3254860 nautilus_48.1.orig.tar.xz 25f5de9e43d4ae487417fe24b3ba9bf7 27440 nautilus_48.1-1.debian.tar.xz"
+    "d7402bdedc7054b17a979867d62875ce 3002 nautilus_49.0-1.dsc 46ce9af0ee77dbca4e29167bdab2a437 3311592 nautilus_49.0.orig.tar.xz 410639d6b3410bd01fbffd60a435fd96 29464 nautilus_49.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "nautilus"
   ],
   "Package-List": [
-    "gir1.2-nautilus-4.0 deb introspection optional arch=any libnautilus-extension-dev deb libdevel optional arch=any libnautilus-extension4 deb libs optional arch=any nautilus deb gnome optional arch=any nautilus-data deb gnome optional arch=all"
+    "gir1.2-nautilus-4.1 deb introspection optional arch=any libnautilus-extension-dev deb libdevel optional arch=any libnautilus-extension4 deb libs optional arch=any nautilus deb gnome optional arch=any nautilus-data deb gnome optional arch=all"
   ],
   "Priority": [
     "source"
@@ -39,7 +39,7 @@
     "gnome"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/nautilus.git"
   ],
   "Version": [
-    "48.1-1"
+    "49.0-1"
   ]
 }

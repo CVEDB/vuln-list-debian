@@ -12,13 +12,13 @@
     "mkdocs \u003c!nocheck\u003e, mkdocstrings \u003c!nocheck\u003e, mkdocs-material \u003c!nocheck\u003e, python3-griffe \u003c!nocheck\u003e, python3-pymdownx \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "1f0f3d8712f4a5dd925e87527fca87674ca7749dc8e186caceefc43f2366b38d 2528 mkdocs-autorefs_1.4.1-1.dsc e4aa8876b79bf8e0bcb49388c18f5b02c38478f3ef641601d842e7070a702f11 51047 mkdocs-autorefs_1.4.1.orig.tar.gz 81f26611ab6421f61174e5d2e263c1e63f55fdd3933e2b758d2c25d4b753a3c5 4468 mkdocs-autorefs_1.4.1-1.debian.tar.xz"
+    "30380601d143357a60401dc90e65f2dfff2c79a2ba6ab2ea04f7dd1b4aa40067 2527 mkdocs-autorefs_1.4.3-1.dsc 7d09423e9a473fcc4575ccb1a077b205bc52aca9d33d53a2f79ca28f4ce82ccf 52089 mkdocs-autorefs_1.4.3.orig.tar.gz 8185fffe9a46f9ddadaeadec6429abbbc6499af98deb9936648a5926721135e9 4540 mkdocs-autorefs_1.4.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mkdocs-autorefs"
   ],
   "Files": [
-    "c039595b42fb0ec019c78260b091478e 2528 mkdocs-autorefs_1.4.1-1.dsc b38cc5f09e5d6f0928467486e6a3900d 51047 mkdocs-autorefs_1.4.1.orig.tar.gz 80de8b2c71d4c86faee072b59a4a6f12 4468 mkdocs-autorefs_1.4.1-1.debian.tar.xz"
+    "b8762de826b96301a8f760386bd15b7a 2527 mkdocs-autorefs_1.4.3-1.dsc ce3d16db59fdbc6a6b7cd70e83136770 52089 mkdocs-autorefs_1.4.3.orig.tar.gz 7d7fda4f5bb6465530313395f762e46c 4540 mkdocs-autorefs_1.4.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/mkdocs-autorefs.git"
   ],
   "Version": [
-    "1.4.1-1"
+    "1.4.3-1"
   ]
 }

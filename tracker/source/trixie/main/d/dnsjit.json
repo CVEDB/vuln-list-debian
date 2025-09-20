@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libck-dev, libgnutls28-dev, liblmdb-dev, libluajit-5.1-dev, libnghttp2-dev, libpcap-dev, libuv1-dev, luajit, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "5e164c0d1f55f584165b797361bac5967de8d32f89429dd8a397248d93be8a27 1325 dnsjit_1.4.0-3.dsc a9aa567ae808c34ae0f6a12defd51f65079cd26c74eb7a0a966c2f37fa51429d 375724 dnsjit_1.4.0.orig.tar.xz e3c50e35bc8044d62c055191ce93ee7743ec35ab451c7a92c2d02dc1f8fadf88 2352 dnsjit_1.4.0-3.debian.tar.xz"
+    "e355d2b53872c308118cf7002ef5f1e25231169a20ee77ac95649bac0b939d88 1324 dnsjit_1.5.0-2.dsc 1c9cb345917a5cefcb1c3e1b80136c40d18f01d49339da7300462cf433ccabf1 383632 dnsjit_1.5.0.orig.tar.xz 1b811168c8afc80014ab91a2ab47e4879427d80f40f91ab8fba038ac4659977a 2376 dnsjit_1.5.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/dnsjit"
   ],
   "Files": [
-    "26f1f6b62b877af27ad5e21d51f02139 1325 dnsjit_1.4.0-3.dsc 3e42f4266a2e760259c33e0e05186f38 375724 dnsjit_1.4.0.orig.tar.xz 9c5be0c0c3ee9faaf285207c5e818166 2352 dnsjit_1.4.0-3.debian.tar.xz"
+    "6150bff903d6efaa5f22819548d97d03 1324 dnsjit_1.5.0-2.dsc 09a1303b0aaab00d163b7b1430d4772e 383632 dnsjit_1.5.0.orig.tar.xz 6a3bfcade66f5443f4948db8d004a52f 2376 dnsjit_1.5.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://forgejo.debian.net/dns-oarc/dnsjit"
   ],
   "Version": [
-    "1.4.0-3"
+    "1.5.0-2"
   ]
 }

@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), libudev-dev, pkgconf, systemd-dev"
   ],
   "Checksums-Sha256": [
-    "8c6049cb2f13926b2e8bdd0e96d734d85addb0c645de77562466d2ed35f885fa 1339 mdadm_4.4-7.dsc 68d4efd220474c0fda80e6c09d1909a3b3484592ba2815c0caa9e10437543022 468816 mdadm_4.4.orig.tar.xz d410439e5df640451493c2e99528406ccba58f8cdcd38016c049b1acf133f759 89268 mdadm_4.4-7.debian.tar.xz"
+    "229ddf4567add9a3b87efb96a064f1884186c8c51b1e230fe0aff1180ff60006 1356 mdadm_4.4-13.dsc 68d4efd220474c0fda80e6c09d1909a3b3484592ba2815c0caa9e10437543022 468816 mdadm_4.4.orig.tar.xz 5de6dee55b6489cfabc9d2be9547d44bd5a644e42f4e8ede4ec6cff83706b4ed 89828 mdadm_4.4-13.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mdadm"
   ],
   "Files": [
-    "a6c099c7b42d68c08e3f1e8238dd4f25 1339 mdadm_4.4-7.dsc d55e87456bc0906cef41c073bc7ca697 468816 mdadm_4.4.orig.tar.xz 7ab4a6305c32cceaa9aff730c2f64a14 89268 mdadm_4.4-7.debian.tar.xz"
+    "89b93a3d9d9bdd45ed34956c348eb223 1356 mdadm_4.4-13.dsc d55e87456bc0906cef41c073bc7ca697 468816 mdadm_4.4.orig.tar.xz b5281f7c4de68768d8226720d663e445 89828 mdadm_4.4-13.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://raid.wiki.kernel.org"
+    "https://github.com/md-raid-utilities/mdadm"
   ],
   "Maintainer": [
     "Daniel Baumann \u003cdaniel@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://forgejo.debian.net/linux/mdadm"
   ],
   "Version": [
-    "4.4-7"
+    "4.4-13"
   ]
 }

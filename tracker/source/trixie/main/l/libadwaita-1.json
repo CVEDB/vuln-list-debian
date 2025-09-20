@@ -12,13 +12,13 @@
     "gi-docgen \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "0e7eceb91dfe73dcca91c51c9d58f357f7789ffda86e16e5d4d00f5415d4145d 2846 libadwaita-1_1.7.0-1.dsc 58bf99b8a9f8b0171964de0ae741d01d5a09db3662134fa67541c99a8ed7dec0 2803488 libadwaita-1_1.7.0.orig.tar.xz 6dc7f888a2ed230dda5eb63913182cf4b3c58ed169fb15a115841691af94dc52 18708 libadwaita-1_1.7.0-1.debian.tar.xz"
+    "e0fe9380f2afbbe4c4a85d376837e16f68cb4045f9f21635bb9068fb19b4ffc2 2878 libadwaita-1_1.7.6-1~deb13u1.dsc 5eacc5550f0bdbba6a1568aebf25a3d88f5ee07d6b558becc6fd9487579c9a29 2803676 libadwaita-1_1.7.6.orig.tar.xz 66542477b4026f4e1a86a1d6ab0a2b524ee2aad62888d6f8422ddb53a4f7a2bc 19772 libadwaita-1_1.7.6-1~deb13u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/liba/libadwaita-1"
   ],
   "Files": [
-    "b315707a379e594c362ea0d398cce1e0 2846 libadwaita-1_1.7.0-1.dsc f10aaac91bcfddac3ebbb4855985855f 2803488 libadwaita-1_1.7.0.orig.tar.xz 6d8cee9e354cfa705298c485d72f5bb4 18708 libadwaita-1_1.7.0-1.debian.tar.xz"
+    "710ca107ad48e546fa73fa6412fd7aae 2878 libadwaita-1_1.7.6-1~deb13u1.dsc b8465c0046767c4004a4660d2e790985 2803676 libadwaita-1_1.7.6.orig.tar.xz b8aaa9596b87743d97a81a9faa3be209 19772 libadwaita-1_1.7.6-1~deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/libadwaita.git"
   ],
   "Version": [
-    "1.7.0-1"
+    "1.7.6-1~deb13u1"
   ]
 }

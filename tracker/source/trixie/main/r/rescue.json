@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-di"
   ],
   "Checksums-Sha256": [
-    "d47c34769213b40cc29e9820582e0a58ab5ea346d140693a7baf4106a6b59799 1678 rescue_1.99.dsc 03978342ce20c1fe2c71794513e722d41e0f0d4bb5df7150c3ed25cd3d305346 145760 rescue_1.99.tar.xz"
+    "602fd7036293d064edff368594338b0ca97ee6296241dc29e7493ed32c443630 1678 rescue_1.105.dsc 6ad7c9397066a3f0fb333db0aa15a8ab715b07b8b32f23d747a5001317987d06 146396 rescue_1.105.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rescue"
   ],
   "Files": [
-    "2e7ed6acf52c041f67514886ffd78535 1678 rescue_1.99.dsc 9ce1912e49c6916967431134b6db88c3 145760 rescue_1.99.tar.xz"
+    "96b83a0de57f6591747b4f055ff9f9bf 1678 rescue_1.105.dsc 7e812328214257dfc943e281d7adc2b0 146396 rescue_1.105.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/rescue.git"
   ],
   "Version": [
-    "1.99"
+    "1.105"
   ]
 }

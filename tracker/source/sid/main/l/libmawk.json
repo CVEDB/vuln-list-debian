@@ -6,16 +6,16 @@
     "libmawk1t64, libmawk-dev"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 11)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 11)"
   ],
   "Checksums-Sha256": [
-    "22f5b9c9bedc84bf9c23d1fe2f04bff5e9a289a9743e06d2e25d69cdcd2976f9 1993 libmawk_1.0.4-3.dsc 4f5666135dcca1dac217209af30c000fe4f1f6b8670be8bdcb4193e4406b7597 312564 libmawk_1.0.4.orig.tar.bz2 4e621a0ac650659ee169226e8b7fee16e3754262e7911221578c4c2227ab13cb 3352 libmawk_1.0.4-3.debian.tar.xz"
+    "97efecb4dd9af206f890cc9160c28b4a72d6ad8e0390b844888401823349cbbc 2025 libmawk_1.0.5-1.dsc a667451e470bd8b121aacb486f9cbcc5057dc8470199f392c28ef1a875781bb6 313131 libmawk_1.0.5.orig.tar.bz2 b10ba68069f147e8c1f94a6f9c928763fc3a2a09da0b5821aa1bf215882f20a6 3468 libmawk_1.0.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libm/libmawk"
   ],
   "Files": [
-    "91d2a084a40c39f001795e109c8c5b35 1993 libmawk_1.0.4-3.dsc ce16b72c1e3864bf7582ef76b06eec81 312564 libmawk_1.0.4.orig.tar.bz2 49e32e67744013f1433dbd32971cc0cd 3352 libmawk_1.0.4-3.debian.tar.xz"
+    "48c59c9fa544e98b338dcade8844371f 2025 libmawk_1.0.5-1.dsc f33b8a962aed1a1c2e67a395fb38bb55 313131 libmawk_1.0.5.orig.tar.bz2 1f37cab95a9021f7c2e53d8e51a73267 3468 libmawk_1.0.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,12 +45,12 @@
     "Bdale Garbee \u003cbdale@gag.com\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/electronics-team/libmawk"
+    "https://salsa.debian.org/electronics-team/ringdove-eda/libmawk"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/electronics-team/libmawk.git"
+    "https://salsa.debian.org/electronics-team/ringdove-eda/libmawk.git"
   ],
   "Version": [
-    "1.0.4-3"
+    "1.0.5-1"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha256": [
-    "89cacaff3f5932b06ed61f111c706b42c179e03e90c555b9ac8fd4fbbb09bff1 2194 sunpy-sphinx-theme_2.0.18-1.dsc 92fa32300719e00b9a9459b9d368cc18171c941dfba0c22b8017ccbfe4973578 211961 sunpy-sphinx-theme_2.0.18.orig.tar.gz 0a2ca44b66ca56e17de27e804052a4cfa8334e095a14ff708be64d5240c84f03 2436 sunpy-sphinx-theme_2.0.18-1.debian.tar.xz"
+    "adfcf22507eab52cf6a0fe688987ad085a9db074d90e1cdaaf64868a90264185 2194 sunpy-sphinx-theme_2.0.23-1.dsc 4030cc96fe3167d7f76afff15942899efd9dede24baedd0915a1f33cc9decd7c 515499 sunpy-sphinx-theme_2.0.23.orig.tar.gz b8d264afd4022a0ecb0d714208a50589f1f67c69fd05f3a94279ba479e2076f9 2412 sunpy-sphinx-theme_2.0.23-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sunpy-sphinx-theme"
   ],
   "Files": [
-    "0898016f727ac7de8a5d8ad45307bf4f 2194 sunpy-sphinx-theme_2.0.18-1.dsc 9d024caed292a50c03b5f24c83ebc523 211961 sunpy-sphinx-theme_2.0.18.orig.tar.gz 9256046012dc11d4431e8a19aeb1890a 2436 sunpy-sphinx-theme_2.0.18-1.debian.tar.xz"
+    "f8aa74cf1b4a550c0ac73bc7cdaefe47 2194 sunpy-sphinx-theme_2.0.23-1.dsc 36fc66d2666b35a10c302d1f335ad035 515499 sunpy-sphinx-theme_2.0.23.orig.tar.gz 7d9ffb6573ca7662eb1dd69c124ce87b 2412 sunpy-sphinx-theme_2.0.23-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Vincent Prat \u003cvivi@debian.org\u003e, Ole Streicher \u003colebole@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-astro-team/sunpy-sphinx-theme.git"
   ],
   "Version": [
-    "2.0.18-1"
+    "2.0.23-1"
   ]
 }

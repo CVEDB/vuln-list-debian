@@ -6,19 +6,19 @@
     "python3-ollama"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling"
   ],
   "Build-Depends-Indep": [
-    "python3-httpx \u003c!nocheck\u003e, python3-pillow \u003c!nocheck\u003e, python3-pydantic \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-httpserver \u003c!nocheck\u003e"
+    "python3-hatch-vcs, python3-httpx \u003c!nocheck\u003e, python3-pillow \u003c!nocheck\u003e, python3-pydantic \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-httpserver \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "99d8aed011b8628ff81c3d68b46119263bbeee7d86ffb35f2bf4073ac5935dfa 2443 ollama-python_0.4.7-1.dsc 6d59d084ebf61d5eff140af25e40562e377823471a1933f191471b11b533288c 42483 ollama-python_0.4.7.orig.tar.gz b79faf1630d229ecc13a1cbea32ec1dad79cec938346581e9ab89997e469a75f 2508 ollama-python_0.4.7-1.debian.tar.xz"
+    "1708e31374573f63f5f9f9a4eef28ed9c995599a7b9b5da19d5076ee927f4d7c 2357 ollama-python_0.5.1-1.dsc 1968f0f6eb8b5d9450f1a8f0a21fcca259c90906389b4b3120ef52d15af9c5c1 44801 ollama-python_0.5.1.orig.tar.gz 5cc7ffc4d85dce1c3e427e8b7efd8c5428f998559ff74f0db9561c7c43b3ae8e 2488 ollama-python_0.5.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/o/ollama-python"
   ],
   "Files": [
-    "8065d77e9c1e7b6c9035f60d415269ee 2443 ollama-python_0.4.7-1.dsc c02796e65b5f237e7ac37349d9308ec8 42483 ollama-python_0.4.7.orig.tar.gz 81645323f8cf8ab39638b352c6797cfa 2508 ollama-python_0.4.7-1.debian.tar.xz"
+    "42c5453d20840bb77b5a80c8f7c6aba0 2357 ollama-python_0.5.1-1.dsc 5777ddd4f3c34cb2063ef29d946d331d 44801 ollama-python_0.5.1.orig.tar.gz 88e98125b14b56ec022aaa66dbd9ff8b 2488 ollama-python_0.5.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pillow, python3-pytest, python3-pytest-asyncio, python3-pytest-httpserver"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/ollama-python.git"
   ],
   "Version": [
-    "0.4.7-1"
+    "0.5.1-1"
   ]
 }

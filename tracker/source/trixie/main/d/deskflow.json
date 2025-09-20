@@ -6,16 +6,16 @@
     "deskflow"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libcli11-dev, libei-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev, libgmock-dev, libgtest-dev, libgtk-3-dev, libnotify-dev, libportal-dev, libpugixml-dev, libssl-dev, libtomlplusplus-dev, libx11-dev, libxext-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxtst-dev, ninja-build, qt6-base-dev, qt6-tools-dev, x11proto-dev, go-md2man"
+    "debhelper-compat (= 13), cmake, libcli11-dev, libei-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev, libgmock-dev, libgtest-dev, libgtk-3-dev, libnotify-dev, libportal-dev, libpugixml-dev, libssl-dev, libtomlplusplus-dev, libx11-dev, libxext-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxtst-dev, ninja-build, qt6-base-dev, qt6-tools-dev, x11proto-dev, help2man, unsupported-architecture [s390x hppa hurd-amd64 hurd-i386 m68k powerpc ppc64 sparc64 x32]"
   ],
   "Checksums-Sha256": [
-    "b4c2ad2dab6248c908137a0af8fd61d1f2c296b01861824deff6e66e67a08f9e 2239 deskflow_1.21.1+dfsg-1.dsc e88dff11f05ba4dff2a6d48ddd9e4bd179a670f8c2d3fdf1494a085b68bec9d3 705508 deskflow_1.21.1+dfsg.orig.tar.xz d6064efa09c2ddeb851c981033e8fa816b4fdd8b9139555f8fd23b30b00d3d51 6020 deskflow_1.21.1+dfsg-1.debian.tar.xz"
+    "5a4840ba5a9d16ff6197adea21e66d86e02b2f47ce541344a7608ed5cef8df1c 2384 deskflow_1.22.0+dfsg-7.dsc 194d80cba4e390f63aaa61a03c64b77d47be43d658bc4c1cd52af0810247b682 684976 deskflow_1.22.0+dfsg.orig.tar.xz 3f0ed579d654d56a1525ad234e1bad099ea3e70046b8c7f7272e7205a5f5e169 5444 deskflow_1.22.0+dfsg-7.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/deskflow"
   ],
   "Files": [
-    "8543efb3389939d368b39020e8e9a1f7 2239 deskflow_1.21.1+dfsg-1.dsc 24b31ea0b63eabc7b7395fd244a06135 705508 deskflow_1.21.1+dfsg.orig.tar.xz 9a366512b07511a0711cc236f39bc47b 6020 deskflow_1.21.1+dfsg-1.debian.tar.xz"
+    "2be954d024f5d4addd6db522661aecba 2384 deskflow_1.22.0+dfsg-7.dsc e1b0920d0aac8dde8bb31058c6b58d1f 684976 deskflow_1.22.0+dfsg.orig.tar.xz dfbadea3b6640512007d99916a829b97 5444 deskflow_1.22.0+dfsg-7.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,6 +41,12 @@
   "Standards-Version": [
     "4.7.2"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/deskflow"
   ],
@@ -48,6 +54,6 @@
     "https://salsa.debian.org/debian/deskflow.git"
   ],
   "Version": [
-    "1.21.1+dfsg-1"
+    "1.22.0+dfsg-7"
   ]
 }

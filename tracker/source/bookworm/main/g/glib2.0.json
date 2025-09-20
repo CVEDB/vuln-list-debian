@@ -15,16 +15,16 @@
     "gtk-doc-tools (\u003e= 1.32.1)"
   ],
   "Checksums-Sha256": [
-    "d0b354438f0d095980eb22399f0155ce7e7e9ebb697106778cf72b5b90e809f6 3726 glib2.0_2.74.6-2+deb12u5.dsc dabcaff9298aa111a94e580561d2f29371f3e61b356c925ec5e0792df2b11ff2 267596 glib2.0_2.74.6.orig-unicode-data.tar.xz 069cf7e51cd261eb163aaf06c8d1754c6835f31252180aff5814e5afc7757fbc 5217312 glib2.0_2.74.6.orig.tar.xz 307d0004b2b732bca1752604285b423f26277bcfff4b78e0084112eee221ffba 140168 glib2.0_2.74.6-2+deb12u5.debian.tar.xz"
+    "066362edce4b07892c9be16a45c4c622e40d6db150c184d18f11a952db5bac88 3791 glib2.0_2.74.6-2+deb12u7.dsc dabcaff9298aa111a94e580561d2f29371f3e61b356c925ec5e0792df2b11ff2 267596 glib2.0_2.74.6.orig-unicode-data.tar.xz 069cf7e51cd261eb163aaf06c8d1754c6835f31252180aff5814e5afc7757fbc 5217312 glib2.0_2.74.6.orig.tar.xz 60c9115898dab3f6553ccc5f928a689117486b2b62639e09c8dc52b9d0fd6396 146116 glib2.0_2.74.6-2+deb12u7.debian.tar.xz"
   ],
   "Dgit": [
-    "f376cd7631199cad3725afcb0bf677d7d48ba222 debian archive/debian/2.74.6-2+deb12u5 https://git.dgit.debian.org/glib2.0"
+    "5dcf84710f0657752609e0edbd7f8efb01270f30 debian archive/debian/2.74.6-2+deb12u7 https://git.dgit.debian.org/glib2.0"
   ],
   "Directory": [
     "pool/main/g/glib2.0"
   ],
   "Files": [
-    "d52112cbbdc06426bb8c302c1defe89e 3726 glib2.0_2.74.6-2+deb12u5.dsc b04bd93cfba7c4035f152578abe28c32 267596 glib2.0_2.74.6.orig-unicode-data.tar.xz 38f81d4a06c03e667b1f4d73cb803da8 5217312 glib2.0_2.74.6.orig.tar.xz 6e65c410bfe1c0f63733f2236a6d56ac 140168 glib2.0_2.74.6-2+deb12u5.debian.tar.xz"
+    "1968c94b6473602ab7708d1e4fd98c9b 3791 glib2.0_2.74.6-2+deb12u7.dsc b04bd93cfba7c4035f152578abe28c32 267596 glib2.0_2.74.6.orig-unicode-data.tar.xz 38f81d4a06c03e667b1f4d73cb803da8 5217312 glib2.0_2.74.6.orig.tar.xz a8c585d345c0713a083541d186586b7d 146116 glib2.0_2.74.6-2+deb12u7.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,7 +54,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, dbus-daemon, dbus-x11, gnome-desktop-testing, locales, locales-all, xauth, xvfb"
+    "build-essential, dbus-daemon, dbus-x11, dconf-gsettings-backend, dpkg-repack, gnome-desktop-testing, gsettings-desktop-schemas, locales, locales-all, xauth, xvfb"
   ],
   "Uploaders": [
     "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Simon McVittie \u003csmcv@debian.org\u003e"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/gnome-team/glib.git -b debian/bookworm"
   ],
   "Version": [
-    "2.74.6-2+deb12u5"
+    "2.74.6-2+deb12u7"
   ]
 }

@@ -12,13 +12,13 @@
     "libgjs-dev (\u003e= 1.76.2)"
   ],
   "Checksums-Sha256": [
-    "fab41a6f4968b82b00603da5b79a97f83aa51ade49f45961acf2ab022a1ae7e6 2503 gpaste_45.2-2.dsc 3e373b7d57a4da0688583cd0ee03eb4789911e14a7e9a544f2b9db0069908301 381378 gpaste_45.2.orig.tar.gz c52ecfd92dbc591337e331732c14dc82aa6ddaeb233c76014ea3bb1c3ddc095c 16700 gpaste_45.2-2.debian.tar.xz"
+    "5f1474888c3d2164af9ddf7ea07ebe7a69428380489322a6a60e9998982dcd5b 2587 gpaste_45.3-2.dsc a7940eaf54725f61e4ffc9d7443f014ce2c3cfddc6c1df76c2202de296819a3f 404690 gpaste_45.3.orig.tar.gz 242ecd5999d923153c5b6b4690805c592dfd68cb4ab538a03af9b3bae6b45016 16900 gpaste_45.3-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gpaste"
   ],
   "Files": [
-    "4ad4ed68ada9657cd0af0b12b9f5bfc3 2503 gpaste_45.2-2.dsc 63f5c5dcc4508bafef35c35681859122 381378 gpaste_45.2.orig.tar.gz 17d64b6076c8724db560c2483b572e77 16700 gpaste_45.2-2.debian.tar.xz"
+    "8826e478287fc75e076347d3df9329d7 2587 gpaste_45.3-2.dsc c0235d965dd076cde0555e54655d7493 404690 gpaste_45.3.orig.tar.gz 15112c5ec5be48c5df236cb530f32061 16900 gpaste_45.3-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -27,7 +27,7 @@
     "https://github.com/Keruspe/GPaste"
   ],
   "Maintainer": [
-    "Jérémy Lal \u003ckapouer@melix.org\u003e"
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "gpaste"
@@ -42,7 +42,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Jérémy Lal \u003ckapouer@melix.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/gpaste"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/gpaste.git"
   ],
   "Version": [
-    "45.2-2"
+    "45.3-2"
   ]
 }

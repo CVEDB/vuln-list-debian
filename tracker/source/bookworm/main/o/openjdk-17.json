@@ -12,13 +12,13 @@
     "graphviz, pandoc"
   ],
   "Checksums-Sha256": [
-    "7df3c9d76677b30aa54bd11df5f2bd26298a35fd1f2f6b9ff86781ea13b4542d 4879 openjdk-17_17.0.14+7-1~deb12u1.dsc 65165bc0ee3e518916f7374f71c4bce6071090f5c5bcd665fa5aea23cd73131d 616784 openjdk-17_17.0.14+7.orig-googletest.tar.xz aebd1fa111185e82c8347e224adc5a0b17525ff608463b8ca171a721fdc2d66e 63285752 openjdk-17_17.0.14+7.orig.tar.xz 23ab51c8efc7fba903b75bc3fc83f3aa1b26da992bcace1c369466d4d30d7a23 204408 openjdk-17_17.0.14+7-1~deb12u1.debian.tar.xz"
+    "e1198e597b0dcfc88303589b5f91f825301299bebeee0b02713e04a9eb608bc1 4900 openjdk-17_17.0.16+8-1~deb12u1.dsc c2013181c6fbd98d7aa2b868ee6dec7ca24f0ebee05f6b074a420b0910866f38 616652 openjdk-17_17.0.16+8.orig-googletest.tar.xz d65e6d5c78bc89cefe7d726c076359578399d21f4fd44b5d2186b2f5e427dfc1 63602644 openjdk-17_17.0.16+8.orig.tar.xz 166e4e43474be93fcdce31d80c992595437d2737eede5c62f2f2449ca50b5de8 204900 openjdk-17_17.0.16+8-1~deb12u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/o/openjdk-17"
   ],
   "Files": [
-    "11ac67e4724e0510dc9bcb8a975ec066 4879 openjdk-17_17.0.14+7-1~deb12u1.dsc b685050366e61b66f7693c8a883c182b 616784 openjdk-17_17.0.14+7.orig-googletest.tar.xz bc54be83bb3b8282798dc1d2eb815e86 63285752 openjdk-17_17.0.14+7.orig.tar.xz f80e175fd602ab39203a8eeeef8a95fa 204408 openjdk-17_17.0.14+7-1~deb12u1.debian.tar.xz"
+    "a5231c813fecd8425a1e5abf669428e8 4900 openjdk-17_17.0.16+8-1~deb12u1.dsc edcb7552a0ef4a3f0261203a675ad342 616652 openjdk-17_17.0.16+8.orig-googletest.tar.xz 5374822ee72f5c71d43d2dcda33cf486 63602644 openjdk-17_17.0.16+8.orig.tar.xz 1709afd9203b0a9368f8791e03c13e6f 204900 openjdk-17_17.0.16+8-1~deb12u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-17"
   ],
   "Version": [
-    "17.0.14+7-1~deb12u1"
+    "17.0.16+8-1~deb12u1"
   ]
 }

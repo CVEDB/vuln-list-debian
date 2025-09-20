@@ -9,16 +9,13 @@
     "debhelper-compat (= 13), dh-python, dh-sequence-python3, libegl1, libgl1, libglu1-mesa | libglu1, pybuild-plugin-pyproject, python3-all, python3-psutil \u003c!nocheck\u003e, python3-pygame \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-xvfb \u003c!nocheck\u003e, python3-setuptools, python3-tk \u003c!nocheck\u003e, python3-xlib \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "2b2fbc5c9998b2c22453a11bdfcdbc0b559601a6bf4b2679fcb6b561182207b4 2605 pyopengl_3.1.9+dfsg-1.dsc 64bcb39eb00e5d22a50808b80b6fbf8bb4dc2993752b2af9dc0784bcc0e53aee 647196 pyopengl_3.1.9+dfsg.orig.tar.xz 3ef252b4cd66ac7ed1449b02dbb9639f3622e1f10cdf6a5bb6d4f5afbc33aa80 12064 pyopengl_3.1.9+dfsg-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "7a809c4971d390139f724f48cc4f6e7d7414e2d0 debian archive/debian/3.1.9+dfsg-1 https://git.dgit.debian.org/pyopengl"
+    "9e649f15b74792d1f0e868601904b68325ac24167633c37edbc47191166b2c3e 2461 pyopengl_3.1.9+dfsg-2.dsc 64bcb39eb00e5d22a50808b80b6fbf8bb4dc2993752b2af9dc0784bcc0e53aee 647196 pyopengl_3.1.9+dfsg.orig.tar.xz 1a0221cfa0801b6ff161a64c16a0cb1672a2c9b260308f3c47053ee6b687c6b1 13436 pyopengl_3.1.9+dfsg-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pyopengl"
   ],
   "Files": [
-    "bfcd272a733863a8749d2470adc185e0 2605 pyopengl_3.1.9+dfsg-1.dsc 4cf2556c69b38328d499a586557d5d99 647196 pyopengl_3.1.9+dfsg.orig.tar.xz 645641d055448f2622d043572dbe6c73 12064 pyopengl_3.1.9+dfsg-1.debian.tar.xz"
+    "3b49c27121afece20ed45a8ee834a475 2461 pyopengl_3.1.9+dfsg-2.dsc 4cf2556c69b38328d499a586557d5d99 647196 pyopengl_3.1.9+dfsg.orig.tar.xz bff1bb67b392b3dbaf1a0d0f2d208f44 13436 pyopengl_3.1.9+dfsg-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pyopengl.git"
   ],
   "Version": [
-    "3.1.9+dfsg-1"
+    "3.1.9+dfsg-2"
   ]
 }

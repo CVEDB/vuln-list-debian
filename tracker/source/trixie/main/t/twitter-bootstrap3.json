@@ -9,13 +9,13 @@
     "cssmin, debhelper-compat (= 13), lcdf-typetools, node-less, node-source-map, uglifyjs, pandoc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "1cd5eda8b03852af4f217d87a218fdb98a8937845ec280f0ba0fc78d35f2c29e 1926 twitter-bootstrap3_3.4.1+dfsg-3.dsc 9eb17937c62ff1133779bdca0b2ee62bfc3a8fc3348aef3b197e6020c9ce3528 2011336 twitter-bootstrap3_3.4.1+dfsg.orig.tar.xz 78dee49d4186593d269adf0cb04acdd5d9d616619fe34fcf29cf5a3b5968b02b 53772 twitter-bootstrap3_3.4.1+dfsg-3.debian.tar.xz"
+    "17c646be6b75fcc6e3e581de12650db92f02fa3315573f342faa5e693b0f5c74 2271 twitter-bootstrap3_3.4.1+dfsg-6.dsc 9eb17937c62ff1133779bdca0b2ee62bfc3a8fc3348aef3b197e6020c9ce3528 2011336 twitter-bootstrap3_3.4.1+dfsg.orig.tar.xz 7b884c8db9c2169f0fc56a9f2c237d3a07bd1ffbda07ba5b5b1a062e31289e4c 55940 twitter-bootstrap3_3.4.1+dfsg-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/t/twitter-bootstrap3"
   ],
   "Files": [
-    "7518e76624555dae814303ecd7e59eb2 1926 twitter-bootstrap3_3.4.1+dfsg-3.dsc 504ddae4ecdda987cbe48168d176ab41 2011336 twitter-bootstrap3_3.4.1+dfsg.orig.tar.xz 16c513d6ee53916d2cd9a45875e1930d 53772 twitter-bootstrap3_3.4.1+dfsg-3.debian.tar.xz"
+    "013bc3865a0cb5ba2c6aa24f87efb30e 2271 twitter-bootstrap3_3.4.1+dfsg-6.dsc 504ddae4ecdda987cbe48168d176ab41 2011336 twitter-bootstrap3_3.4.1+dfsg.orig.tar.xz c7ae90b7a7343bc4e31ae341c6b3d43b 55940 twitter-bootstrap3_3.4.1+dfsg-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/js-team/twitter-bootstrap3.git"
   ],
   "Version": [
-    "3.4.1+dfsg-3"
+    "3.4.1+dfsg-6"
   ]
 }

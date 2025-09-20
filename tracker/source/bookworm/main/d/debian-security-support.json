@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), asciidoc, gettext, gawk, libfile-slurp-perl, libtemplate-perl, libtest-command-perl, libtest-differences-perl, mawk, original-awk, po-debconf, xmlto"
   ],
   "Checksums-Sha256": [
-    "0c529342903b9a5b1f549cd0eade49fcd17a73e32f738fa6c0d616063352e55c 1908 debian-security-support_12+2024.12.22.dsc ae7413262046e8e4910ee8aeba08f32bb648446f9f798e2cb9ef60f39ec1920a 34148 debian-security-support_12+2024.12.22.tar.xz"
+    "6f5b60c4191d868fc74b7e8164246eb20dd8644e58dfecdaaefea8af5d5f7df6 1335 debian-security-support_12+2025.06.20.dsc 393f688c4492b43d7fca46715118482ab06d4e4e285ecbd3d9c113cdcdeb8903 34720 debian-security-support_12+2025.06.20.tar.xz"
   ],
   "Directory": [
     "pool/main/d/debian-security-support"
   ],
   "Files": [
-    "870791df0b19500f7fc9652de9bf471e 1908 debian-security-support_12+2024.12.22.dsc 4b32e3c873e3a814fdf78aa5806f84c7 34148 debian-security-support_12+2024.12.22.tar.xz"
+    "8aec968115cf9a9e36f6a57aff9453d4 1335 debian-security-support_12+2025.06.20.dsc 73622facee11184c20a0c136988fe7fd 34720 debian-security-support_12+2025.06.20.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/debian-security-support.git"
   ],
   "Version": [
-    "1:12+2024.12.22"
+    "1:12+2025.06.20"
   ]
 }

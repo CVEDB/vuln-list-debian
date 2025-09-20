@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-apparmor"
   ],
   "Checksums-Sha256": [
-    "e3cdd64cef781e065b090b4ae49a981aae6721caecb02a002932563e2ce6ad9b 1943 passt_0.0~git20250415.2340bbf-1.dsc f915b7fac649b9c0329c8ac9c30e1836a303625ddb2740744cae1a334c8c9852 260660 passt_0.0~git20250415.2340bbf.orig.tar.xz b46f6fbd05020b1c6b35f8fd13fcc243c24e35480a7c01a76f4a56aa54ceb22f 6840 passt_0.0~git20250415.2340bbf-1.debian.tar.xz"
+    "4b3d88bb091de2f7858350e1b5d83eec970925619f266765142d1a69b7056d1b 1943 passt_0.0~git20250911.6cbcccc-1.dsc 931b8325d104e28da7acfb19782aada476f3212297d7d6aa02d122e5d5e36ead 266244 passt_0.0~git20250911.6cbcccc.orig.tar.xz ab3061f515e3c11f8f92249842adddd404fe0db9beaae787d5cad2b23ed6854f 6980 passt_0.0~git20250911.6cbcccc-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/passt"
   ],
   "Files": [
-    "19c5bc5ea0e32af399edfbbce3d830f2 1943 passt_0.0~git20250415.2340bbf-1.dsc 593c9662486b55dd828a266999aaae0e 260660 passt_0.0~git20250415.2340bbf.orig.tar.xz fc11bdf5ae977ec05d029f77dff4b0d5 6840 passt_0.0~git20250415.2340bbf-1.debian.tar.xz"
+    "b36505d3f8d4108a7626c100de7fd35b 1943 passt_0.0~git20250911.6cbcccc-1.dsc e4c73d2e58030e4c1ccc829d5658c18e 266244 passt_0.0~git20250911.6cbcccc.orig.tar.xz b47570092af37d9968a7e3d448b0fe3b 6980 passt_0.0~git20250911.6cbcccc-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/sbrivio/passt.git"
   ],
   "Version": [
-    "0.0~git20250415.2340bbf-1"
+    "0.0~git20250911.6cbcccc-1"
   ]
 }

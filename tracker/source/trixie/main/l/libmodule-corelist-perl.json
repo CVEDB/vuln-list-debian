@@ -12,13 +12,13 @@
     "libtest-pod-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha256": [
-    "f33182945e41ebb83ccb47b5dd8472d878d91a3ca4134d0a150de67241c3820d 2531 libmodule-corelist-perl_5.20250321-1.dsc e5799f4e40de812090856ba8c983510e0fc7be488e61d931e328b092ea897b88 77280 libmodule-corelist-perl_5.20250321.orig.tar.xz bc16b36a2cb0e29019e0e1978c0f304f94eb12f0072de4be9bd08c247652f22a 8508 libmodule-corelist-perl_5.20250321-1.debian.tar.xz"
+    "832da3eefc9ebcd64b51dc83e4127c96761f5c1bd5f9158a116f6b2cee9e7726 2530 libmodule-corelist-perl_5.20250421-1.dsc 0b51e4906603ce530bafc879cf3e1414940126fb8204e3150c5becce1c5c5664 77760 libmodule-corelist-perl_5.20250421.orig.tar.xz efdf7b7944c6be8498b3b0f47a285a820e22ca30838e1dea5e7a5e842f1dd4e5 8520 libmodule-corelist-perl_5.20250421-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libm/libmodule-corelist-perl"
   ],
   "Files": [
-    "f6267cf70eab3d79c034f4bee2af3c79 2531 libmodule-corelist-perl_5.20250321-1.dsc ee86fe6dde7ecc56f5644feba302c1fd 77280 libmodule-corelist-perl_5.20250321.orig.tar.xz 200449de7b2684d9b043ecd89cfb269b 8508 libmodule-corelist-perl_5.20250321-1.debian.tar.xz"
+    "57f475c925ed338b364718c59bb62ef0 2530 libmodule-corelist-perl_5.20250421-1.dsc 0e855888cc089130ed66335abe2d4487 77760 libmodule-corelist-perl_5.20250421.orig.tar.xz ac1b0551237f02bd5203be49c278d07e 8520 libmodule-corelist-perl_5.20250421-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libmodule-corelist-perl.git"
   ],
   "Version": [
-    "5.20250321-1"
+    "5.20250421-1"
   ]
 }

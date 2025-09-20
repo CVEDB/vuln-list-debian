@@ -12,13 +12,13 @@
     "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
   ],
   "Checksums-Sha256": [
-    "0ff8e1ffeb1471f012ee2b93bcf21ceb2776abd88b1e9a171771f94d13eecde6 2832 git_2.47.2-0.1.dsc b19268be6b6f1556b47a9dd834272e167d3a75740cdcd283cf3812edffe3930f 7655652 git_2.47.2.orig.tar.xz a183a1a1edd7190b6c6836f62a98662d1d2228a8b16ddd8163c29101b4342482 792848 git_2.47.2-0.1.debian.tar.xz"
+    "41ee783af84774dfab31ff6af54a07f70513dd09914e2d622626f4dfecae0a86 2702 git_2.47.3-0+deb13u1.dsc 9c2eb1250781b3e5bfef098572d07fdf132d67e6c065e4307332ade9819a1501 7657416 git_2.47.3.orig.tar.xz db44b90ab928d41959f5945a49fcaa101385a4bd085b118b5fd40162a0a84066 793112 git_2.47.3-0+deb13u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/git"
   ],
   "Files": [
-    "a36ade18cd007ec7842d8e98dce23e1f 2832 git_2.47.2-0.1.dsc 0ac16b9a3552f5c0d5fe5f0700ec24d3 7655652 git_2.47.2.orig.tar.xz 7524dad3e2a91e23273021b90c0756ad 792848 git_2.47.2-0.1.debian.tar.xz"
+    "14b7604dd821e2f027cf46b336f9413b 2702 git_2.47.3-0+deb13u1.dsc 467860ca61d8840cda3fb10db687f771 7657416 git_2.47.3.orig.tar.xz f42dbbc65c6800848bb2aa481e3fd8e4 793112 git_2.47.3-0+deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://repo.or.cz/r/git/debian.git/"
   ],
   "Version": [
-    "1:2.47.2-0.1"
+    "1:2.47.3-0+deb13u1"
   ]
 }

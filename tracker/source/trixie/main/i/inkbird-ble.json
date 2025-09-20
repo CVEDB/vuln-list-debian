@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
   ],
   "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-bluetooth-data-tools \u003c!nocheck\u003e, python3-bluetooth-sensor-state-data \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sensor-state-data \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-bluetooth-data-tools \u003c!nocheck\u003e, python3-bluetooth-sensor-state-data (\u003e= 1.8.0) \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sensor-state-data \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "b434f192436d26d65621ebbaa839789f408dbf2e7233f631dcdbf73770508f4a 2474 inkbird-ble_0.10.1-1.dsc 76af3967c636b64c5ba501c5860ab6cdcd90ce4e0b766257ec18f87d4ee8ef85 67191 inkbird-ble_0.10.1.orig.tar.gz 81f8140aa7a934e4669245030841cf0f1686c4b83da331f69840f326eb59fadf 4084 inkbird-ble_0.10.1-1.debian.tar.xz"
+    "f103c8b8eefb27f6772ce58b5e29de5b9578f06a8be28194704fb2f1d6fa7570 2478 inkbird-ble_1.0.0-1.dsc aed89eee09469cd12b505a60f93e8fbd75dae13e528c988faece9a3bc56637f7 75347 inkbird-ble_1.0.0.orig.tar.gz 59d869c709cd26404958945cadffe18ac227ac348dc64f7f4225bba8cbc41a8b 4156 inkbird-ble_1.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/i/inkbird-ble"
   ],
   "Files": [
-    "cde7ad87858acc54ccb22ec189ff4b6d 2474 inkbird-ble_0.10.1-1.dsc c587b0193a90b8ac4e6034ae0a1e683d 67191 inkbird-ble_0.10.1.orig.tar.gz baa1a0c606f769440d00377e2079d41b 4084 inkbird-ble_0.10.1-1.debian.tar.xz"
+    "f9500fc5987ad643844c72263c286e27 2478 inkbird-ble_1.0.0-1.dsc 7fc260c8019b0ed0aada85114162ce30 75347 inkbird-ble_1.0.0.orig.tar.gz 8d7b0e0cb33f81399494dfb2e3eed376 4156 inkbird-ble_1.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/inkbird-ble.git"
   ],
   "Version": [
-    "0.10.1-1"
+    "1.0.0-1"
   ]
 }

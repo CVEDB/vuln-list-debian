@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), clang, protobuf-compiler, protobuf-compiler-grpc, libprotobuf-dev, libgrpc++-dev, libfmt-dev, nlohmann-json3-dev, libgit2-dev, libssl-dev, libcli11-dev, libmsgsl-dev, libarchive-dev, libcurl4-openssl-dev, python3, pandoc, patch, unzip, pkgconf"
   ],
   "Checksums-Sha256": [
-    "c46a498045e1866a747de7d2943595e3e24aa57b4c1694cc1fddbdd7d89fda34 2104 justbuild_1.4.1-1.dsc 2b6bd77d180761ac215330689ca7a921bd902fc12aaacfa8968f3f0a3db54864 751284 justbuild_1.4.1.orig.tar.xz 9290756e0cc982923a6dc6e069d68722c422c15340ff83db7e3d9e4d937bf7d3 9224904 justbuild_1.4.1-1.debian.tar.xz"
+    "14958ea8a46486c2c4ecfec8ef84617441046bed8a0cdc1c06f505653f12db83 2104 justbuild_1.6.3-1.dsc a7aeb2d4e4d8002e8e47ce54d9502e6fb1c6c806c11478165ea55bda2557bf3b 879068 justbuild_1.6.3.orig.tar.xz 3b8ed27aff16e041b563de66ab23d0c7c71265f9b65cc67b85a8a15df539fa56 9267120 justbuild_1.6.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/j/justbuild"
   ],
   "Files": [
-    "6a73531f857ea9e12bb546ee588bcddd 2104 justbuild_1.4.1-1.dsc 7b5f8dc3d70bbc86e85fd814ec4fb513 751284 justbuild_1.4.1.orig.tar.xz 54bbe948b429b6c55f574c8f0b434b3b 9224904 justbuild_1.4.1-1.debian.tar.xz"
+    "216e01e7ed60aec144b40e07ed086d2c 2104 justbuild_1.6.3-1.dsc 0068a6a8ba967b867b4a2cbb32111d56 879068 justbuild_1.6.3.orig.tar.xz b0442cca963be3f8e3a46508e511e549 9267120 justbuild_1.6.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/justbuild"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/justbuild.git"
   ],
   "Version": [
-    "1.4.1-1"
+    "1.6.3-1"
   ]
 }

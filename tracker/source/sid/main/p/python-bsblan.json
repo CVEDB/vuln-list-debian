@@ -6,19 +6,19 @@
     "python3-bsblan"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling"
   ],
   "Build-Depends-Indep": [
     "python3-aiohttp \u003c!nocheck\u003e, python3-aresponses \u003c!nocheck\u003e, python3-mashumaro \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-yarl \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "a5e3df6d7fd9e5ced3ea34e35356c37729873c6f228e33dd62de0b32b8e6439e 2415 python-bsblan_1.2.1-1.dsc 1cdd471e52802f196176cbca6448e0593dc81c622d82e1489e3fa135e5e38906 102011 python-bsblan_1.2.1.orig.tar.gz 4af6c303678ed63db5aa7f89c7326fc82f7ec04ae48f8644ac88e4f8c45f45a9 2620 python-bsblan_1.2.1-1.debian.tar.xz"
+    "479fef49cc4232ea18c7a2f1526457dcd5a344caf7b2d27c7c88fc7ab94ff0dd 2333 python-bsblan_3.1.0-1.dsc 8769e7348a0607a30ab521c450febab373b257f64ed284d921c815652f8006dc 176903 python-bsblan_3.1.0.orig.tar.gz 7b6865ec3a24468d0dfd27a1598b3ff047fb533df43255352b8e950beebeb2ab 2648 python-bsblan_3.1.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-bsblan"
   ],
   "Files": [
-    "15458619852260a39c587b08cd8f7e75 2415 python-bsblan_1.2.1-1.dsc c4564c5943faa4674db62662d223ba9e 102011 python-bsblan_1.2.1.orig.tar.gz 84191603e47b99e24896dd356dc80e34 2620 python-bsblan_1.2.1-1.debian.tar.xz"
+    "117379429c9439eda26628363b3d870f 2333 python-bsblan_3.1.0-1.dsc b7d61dca4aa5a526f56a099b0602563d 176903 python-bsblan_3.1.0.orig.tar.gz e8fb6413f522cf7c3e701f2328e672da 2648 python-bsblan_3.1.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-aresponses, python3-pytest, python3-pytest-asyncio"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/python-bsblan.git"
   ],
   "Version": [
-    "1.2.1-1"
+    "3.1.0-1"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-shell-completions, convmv \u003c!nocheck\u003e, file \u003c!nocheck\u003e, man-db \u003c!nocheck\u003e, shellcheck \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "bdd9e9dee7ee3a0ad8d0e58ad36055c6e748714f089ab7421ab3672e9d04bbd4 1680 play.it_2.32.4-1.dsc edcd1e9829368af0e966096820a42a5567cf60e178c03bcda88548def5bc2925 167381 play.it_2.32.4.orig.tar.gz 384841abac1f013a596186a1c300419a5850c074018b081e27a2cc30d68871b6 228 play.it_2.32.4.orig.tar.gz.asc 6ab69ba2cc9a84989a688a26481137a454b1c9217e698ca94257fde33c87ef0f 5956 play.it_2.32.4-1.debian.tar.xz"
+    "e4b684d265737031c8e564736b6c09a1d12b6e793fb241f044028b1e75836e5e 1681 play.it_2.33.2-1.dsc 216bb73a52232e37fe5ea4f418bbc2e35ac53103e9cea1a75d93e4e911f69d73 172406 play.it_2.33.2.orig.tar.gz 203a31f88038379d5e4786a76dd0be6e7ce8c2b46ec410d3a588d214b53bee89 228 play.it_2.33.2.orig.tar.gz.asc 903ff180d16d7fbd87e8c22820410529dabce8ba4b9381ef090b361955b8ebee 5784 play.it_2.33.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/contrib/p/play.it"
   ],
   "Files": [
-    "3ebf2981fecb7295d739f1e22c546818 1680 play.it_2.32.4-1.dsc e8207ec0fd519944c6935a551d80e761 167381 play.it_2.32.4.orig.tar.gz 6e2ea9f8d884d059b3613e03021875c3 228 play.it_2.32.4.orig.tar.gz.asc 5ddd7be08481357738c26e3061d85a85 5956 play.it_2.32.4-1.debian.tar.xz"
+    "d3290969f49810ccfa8c6b044e4ed8e4 1681 play.it_2.33.2-1.dsc 664c76dce7ee2630ad052eb82fc91d6c 172406 play.it_2.33.2.orig.tar.gz 28a84e7bed2adc5d8e5fe2d64d3e558c 228 play.it_2.33.2.orig.tar.gz.asc 35bf7d5417706fe42f13f60735e1db83 5784 play.it_2.33.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "4.7.2"
   ],
   "Uploaders": [
-    "Antoine Le Gonidec \u003cdebian@vv221.fr\u003e,"
+    "Antoine Le Gonidec \u003cvv221@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/games-team/play.it"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/games-team/play.it.git"
   ],
   "Version": [
-    "2.32.4-1"
+    "2.33.2-1"
   ]
 }

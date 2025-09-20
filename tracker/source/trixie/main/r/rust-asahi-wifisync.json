@@ -12,13 +12,13 @@
     "cargo:native, rustc:native, libstd-rust-dev, librust-apple-nvram-0.3+default-dev, librust-clap-3+cargo-dev, librust-clap-3+default-dev, librust-rust-ini-0.21+default-dev"
   ],
   "Checksums-Sha256": [
-    "df2e0ad366b2e49c40f0f28eafd206706093b71c716a9c4337c04ff36b464ab6 1707 rust-asahi-wifisync_0.2.2-4.dsc b0b54e23f056992a7e63360e7ab962328956a06ba01013afc245874b1ee986d0 6066 rust-asahi-wifisync_0.2.2.orig.tar.gz a4be79335e0461f5f2a80a5f02030e75491ad960c7a644e070fb92b6775e643c 3080 rust-asahi-wifisync_0.2.2-4.debian.tar.xz"
+    "a851845587d8362b05229ced0601ec9614bea5c26ff9aa3d994cfaf3adcaa5aa 1707 rust-asahi-wifisync_0.2.2-6.dsc b0b54e23f056992a7e63360e7ab962328956a06ba01013afc245874b1ee986d0 6066 rust-asahi-wifisync_0.2.2.orig.tar.gz 2429d30e6e62157b9845d422d16e645ce440c7d61af2b7eb57485f5f866dd113 3904 rust-asahi-wifisync_0.2.2-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-asahi-wifisync"
   ],
   "Files": [
-    "c0d0dc806d191a8ad37cd6cd6407ff78 1707 rust-asahi-wifisync_0.2.2-4.dsc 01efd50fce87afcd02e65d397817e2f1 6066 rust-asahi-wifisync_0.2.2.orig.tar.gz aa29f548e144de953fa9d0f71d979506 3080 rust-asahi-wifisync_0.2.2-4.debian.tar.xz"
+    "5115da8e2f4813b60f131e0142038b5e 1707 rust-asahi-wifisync_0.2.2-6.dsc 01efd50fce87afcd02e65d397817e2f1 6066 rust-asahi-wifisync_0.2.2.orig.tar.gz b4690c50c244d2c2e6099bad12ea1c35 3904 rust-asahi-wifisync_0.2.2-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/asahi-wifisync]"
   ],
   "Version": [
-    "0.2.2-4"
+    "0.2.2-6"
   ]
 }

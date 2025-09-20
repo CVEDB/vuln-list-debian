@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-forgejo-forgejo-levelqueue-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-stretchr-testify-dev, golang-github-syndtr-goleveldb-dev"
+  ],
+  "Checksums-Sha256": [
+    "7df8d5ab0fd2d2613152814bb8fff5bb9699106b864c7c1ec97197bcdc4f312b 1691 golang-forgejo-forgejo-levelqueue_1.0.0-3.dsc 2b0bc6e403293d142ebb7d9df6642ed32bfbb6d4db519304c1c8aa25b42d62d1 7276 golang-forgejo-forgejo-levelqueue_1.0.0.orig.tar.xz 32a7464331e5a3f1d6a9adb04d6d1f9c722ff98b51267c2f13b2f69beb7dfa34 2128 golang-forgejo-forgejo-levelqueue_1.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-forgejo-forgejo-levelqueue"
+  ],
+  "Files": [
+    "1b31e4dc59b4a18920bc3c30c7e6aa93 1691 golang-forgejo-forgejo-levelqueue_1.0.0-3.dsc f8f27223edda05acc6975b92f80e3632 7276 golang-forgejo-forgejo-levelqueue_1.0.0.orig.tar.xz bf5caf33397b4a9d0bf1f1494ba2410d 2128 golang-forgejo-forgejo-levelqueue_1.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "code.forgejo.org/forgejo/levelqueue"
+  ],
+  "Homepage": [
+    "https://code.forgejo.org/forgejo/levelqueue"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "golang-forgejo-forgejo-levelqueue"
+  ],
+  "Package-List": [
+    "golang-forgejo-forgejo-levelqueue-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/golang/golang-forgejo-forgejo-levelqueue"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/golang/golang-forgejo-forgejo-levelqueue"
+  ],
+  "Version": [
+    "1.0.0-3"
+  ]
+}

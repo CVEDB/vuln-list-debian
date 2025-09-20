@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "commitizen"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-argcomplete \u003c!nocheck\u003e, python3-charset-normalizer \u003c!nocheck\u003e, python3-colorama \u003c!nocheck\u003e, python3-dateutil \u003c!nocheck\u003e, python3-decli \u003c!nocheck\u003e, python3-deprecated \u003c!nocheck\u003e, python3-jinja2 \u003c!nocheck\u003e, python3-poetry-core, python3-prompt-toolkit \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-datadir \u003c!nocheck\u003e, python3-pytest-freezegun \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-pytest-regressions \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-questionary \u003c!nocheck\u003e, python3-termcolor \u003c!nocheck\u003e, python3-tomlkit \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e18c023c3ad6ef792bbf744d5d9720bd4455e7713552f58f8b3e48b1f9b6240e 1938 commitizen_4.9.1-1.dsc 77e99b8b8e468fc9138b5f66cf122c47717e19dda315d15b7da66482e3b57dfc 708288 commitizen_4.9.1.orig.tar.xz bbc726d8e4fccc03bb217fd6985d190d28f106c6354b171ddfd5194f03702045 2544 commitizen_4.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/commitizen"
+  ],
+  "Files": [
+    "0a2bb32e95e21dbf31e95d82b69e7549 1938 commitizen_4.9.1-1.dsc 9c82502019364585473ba8a402ccda8f 708288 commitizen_4.9.1.orig.tar.xz 246db243fa8d2391d3b878991c013215 2544 commitizen_4.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/commitizen-tools/commitizen"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "commitizen"
+  ],
+  "Package-List": [
+    "commitizen deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/commitizen/commitizen"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/commitizen/commitizen"
+  ],
+  "Version": [
+    "4.9.1-1"
+  ]
+}

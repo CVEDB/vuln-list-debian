@@ -9,13 +9,13 @@
     "architecture-is-64-bit \u003c!pkg.postgresql.32-bit\u003e, debhelper-compat (= 13), postgresql-all \u003c!nocheck\u003e, postgresql-server-dev-all"
   ],
   "Checksums-Sha256": [
-    "2f2daf55be7c685376d8fefa020ee908aed3f2d6a19c2ab4bb988b5ca4d024dd 2143 pgextwlist_1.17-3.dsc 183eae8b80e61431f0950b29a2552dd20ceebc9cb63f8fe40e48c84d6e6c033b 19234 pgextwlist_1.17.orig.tar.gz 290a66f85cc626a04281c0009145bead7983eda3768fcd4d5a250e8c43a43ef1 3272 pgextwlist_1.17-3.debian.tar.xz"
+    "bb66052a7722252513ab82bef767354ec7ca6145894884f6a96818def1263497 2143 pgextwlist_1.19-1.dsc 449cf6a277bcd590b59c151d24ae670e86fd9bde32f30925163e452653f59be4 19593 pgextwlist_1.19.orig.tar.gz 48dbe626eace84bc961d703713a78112f9aa501d6b5044f0c952222cdbfb3814 3360 pgextwlist_1.19-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pgextwlist"
   ],
   "Files": [
-    "15eb4dea34d59dcc93f9f4883e462138 2143 pgextwlist_1.17-3.dsc 77e52bd69764a2e17f27c5a486ced5b1 19234 pgextwlist_1.17.orig.tar.gz e060ac01b9599bb8a2b470b1f86fa244 3272 pgextwlist_1.17-3.debian.tar.xz"
+    "b90d2fbd69b548f2782f70fe449f8f7c 2143 pgextwlist_1.19-1.dsc 941ad7cd1f9bd64036912dc72b81afc4 19593 pgextwlist_1.19.orig.tar.gz a92f1e0cfa3a199bb1e061cdab2799c4 3360 pgextwlist_1.19-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://github.com/dimitri/pgextwlist.git"
   ],
   "Version": [
-    "1.17-3"
+    "1.19-1"
   ]
 }

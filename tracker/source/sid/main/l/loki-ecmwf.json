@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-setuptools, python3-setuptools-scm, python3-setuptools-whl, pybuild-plugin-pyproject, python3-all, python3-numpy, python3-codetiming, python3-pcpp, python3-pydantic, python3-pymbolic, python3-fparser, python3-nbconvert \u003c!nocheck\u003e, python3-pandas \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, pylint \u003c!nocheck\u003e, pandoc \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-nbsphinx \u003c!nodoc\u003e, python3-networkx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-recommonmark \u003c!nodoc\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-sphinx-design \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "2d11827e9b1f730539935a79852778947e6309217e3c0eead57cb9c3adf00bdb 2763 loki-ecmwf_0.3.1-1.dsc 2a54b687d8c5403e22d53523c65a956f856117a1ec1256e3d78cf1855ff5fb5f 767460 loki-ecmwf_0.3.1.orig.tar.xz 4fb2cc6a2bc18813cd7f9cad9c29fe17b45264fb15886e74b41f014f8aa263a3 4064 loki-ecmwf_0.3.1-1.debian.tar.xz"
+    "fd78338f98168e342ab622130181106cf97431eaeeab351c9bfeab7aff6c90cf 2763 loki-ecmwf_0.3.4-1.dsc dc8cc63ac349dcf7fc9cdb8a77ffee31488ad23f9664027160e307d85f4f7197 820220 loki-ecmwf_0.3.4.orig.tar.xz 95b5241626000d05a9e2e0840eb8328d85cb977779cddf81f9580701e4b64860 4172 loki-ecmwf_0.3.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/l/loki-ecmwf"
   ],
   "Files": [
-    "3707158d91adae1d7d99cd1e00cdf620 2763 loki-ecmwf_0.3.1-1.dsc 809d60a5d2a36db90fb7b9b9e12c36a6 767460 loki-ecmwf_0.3.1.orig.tar.xz 1b39b2b3fe7c3bb2e915db0d6463dd81 4064 loki-ecmwf_0.3.1-1.debian.tar.xz"
+    "45fe9e27d8b1c76af2bf186522cb011f 2763 loki-ecmwf_0.3.4-1.dsc 141e9124f753116f88284d799fe163e2 820220 loki-ecmwf_0.3.4.orig.tar.xz d817b9ca51d9567b7e10abb09eaf2cb7 4172 loki-ecmwf_0.3.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/science-team/loki-ecmwf.git"
   ],
   "Version": [
-    "0.3.1-1"
+    "0.3.4-1"
   ]
 }

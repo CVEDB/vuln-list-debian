@@ -9,13 +9,13 @@
     "asciidoctor (\u003e= 1.5.4), debhelper (\u003e= 13), debhelper-compat (= 13), cmake, pkgconf, libncurses-dev, ruby-dev, libperl-dev, python3-dev, libaspell-dev, liblua5.3-dev, tcl8.6-dev, guile-3.0-dev, php-dev, libphp-embed, libargon2-dev, libsodium-dev, libxml2-dev, libcurl4-gnutls-dev, libgcrypt20-dev, libgnutls28-dev, libzstd-dev, zlib1g-dev, libcjson-dev"
   ],
   "Checksums-Sha256": [
-    "6ea17dbedadd147a0b5ad57b6b570b1b4d18b9424f01d7206a2e66ef5f1cfb01 3100 weechat_4.5.1-1.dsc 67c143c7bc70e689b9ea86df674c9a9ff3cf44ccc9cdff21be6a561d5eafc528 2745788 weechat_4.5.1.orig.tar.xz 0b1bb52d86f683160298bd23c90f3dc6d478b0a1434025bb28980db5c09cc7d8 833 weechat_4.5.1.orig.tar.xz.asc 6b571e5a9e4282ef2cf0da9670d5487ccd6820ef53ec8b2359aefa685246e27e 19360 weechat_4.5.1-1.debian.tar.xz"
+    "751555b69f4d5ba0722d6d20228788118ca8c7e9401f42863df9ac4d984a6514 3101 weechat_4.6.3-1.dsc 5c0b5efa969b873c4be582019b18523ee403e7430b8223825bcdb44a89f5815d 2763576 weechat_4.6.3.orig.tar.xz dd811148fbfbd694ef26689815ea6564e7cea24516e75589b55fec3c4e8a0316 833 weechat_4.6.3.orig.tar.xz.asc cf3022c328d054073d3397f2cc9b3224fef9736b69c421de88ad342aa66db4e1 19516 weechat_4.6.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/w/weechat"
   ],
   "Files": [
-    "3e717d42ec43a25cd2e6fdfcb3540e4a 3100 weechat_4.5.1-1.dsc 27df844a481201f7da0d03fa06d6af86 2745788 weechat_4.5.1.orig.tar.xz b3b10496f929df7af27b5af166a15df2 833 weechat_4.5.1.orig.tar.xz.asc 2035902f316f66903ff0a38d90660db9 19360 weechat_4.5.1-1.debian.tar.xz"
+    "c322a31e6065940885aa52e0fe086f3f 3101 weechat_4.6.3-1.dsc 96dc2d0d883cf61f504144552f30dd31 2763576 weechat_4.6.3.orig.tar.xz fb606885cb5df37cf293f191d2b86b3e 833 weechat_4.6.3.orig.tar.xz.asc 5c3de1b9036b86f067f6bbc305829454 19516 weechat_4.6.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "net"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/kolter/weechat"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/kolter/weechat.git"
   ],
   "Version": [
-    "4.5.1-1"
+    "4.6.3-1"
   ]
 }

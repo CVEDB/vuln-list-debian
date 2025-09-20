@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha256": [
-    "274fd7261e7bd639669c4fdfd8c3e8dca3840a9cd8eaeb7d439eeb9001389c47 1331 sqlglot_26.14.0-1.dsc c3af85c9581bfcbcd26dc89ca6d0270c9b871614876d73ce316c1811d30211eb 13455860 sqlglot_26.14.0.orig.tar.xz 60954b0b954df07b68f8f306e1a1cba33778d624acdb96bd82a1a7b504dc9cfa 3628 sqlglot_26.14.0-1.debian.tar.xz"
+    "c3f5789cc9992e7f7ed75421d152ac06c357fa8e28857f96f1229770ec38f9d0 1348 sqlglot_27.16.0-1.dsc c20ea5c47d47ddcbb48f0457dfd45ed8d426a1d53d3e29e5121788f9c6c690a9 14095780 sqlglot_27.16.0.orig.tar.xz 3661a8754f9e25d5b622cc069d2f047289d6d85fe9f8ef7a5265bc00889ef990 4096 sqlglot_27.16.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sqlglot"
   ],
   "Files": [
-    "31f0a0c57f3b1aaaef35fc66da090721 1331 sqlglot_26.14.0-1.dsc eed895b8f924d6d503b9a559682459c4 13455860 sqlglot_26.14.0.orig.tar.xz 0b34875a85bd833682c96655bce03359 3628 sqlglot_26.14.0-1.debian.tar.xz"
+    "831d7e4a941add58fed39f00b1282ec4 1348 sqlglot_27.16.0-1.dsc 9dc3dbcabd5e04de96bebcf4bb85ac8f 14095780 sqlglot_27.16.0.orig.tar.xz cf53cadb4be3bdb7899ca99a9da94b4d 4096 sqlglot_27.16.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://sqlglot.com"
+    "https://github.com/tobymao/sqlglot"
   ],
   "Maintainer": [
     "Daniel Baumann \u003cdaniel@debian.org\u003e"
@@ -42,12 +42,12 @@
     "4.7.2"
   ],
   "Vcs-Browser": [
-    "https://forgejo.debian.net/dbcli/sqlglot"
+    "https://forgejo.debian.net/python/sqlglot"
   ],
   "Vcs-Git": [
-    "https://forgejo.debian.net/dbcli/sqlglot"
+    "https://forgejo.debian.net/python/sqlglot"
   ],
   "Version": [
-    "26.14.0-1"
+    "27.16.0-1"
   ]
 }

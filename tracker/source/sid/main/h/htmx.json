@@ -9,16 +9,25 @@
     "debhelper-compat (= 13), uglifyjs"
   ],
   "Checksums-Sha256": [
-    "c5ce8be9a2c7eb32513abc51e24d00bb18087b8418041feadab07c7654a01aa5 1813 htmx_2.0.4-1.dsc 5a7fe6f832ffad1478bcda4a5e82cadf918937505212f19cfaf98287e90f7b74 88256255 htmx_2.0.4.orig.tar.gz ce5991dd237363797a389dac41b73e134706a19b2ac59ba773f615c48e167655 1860 htmx_2.0.4-1.debian.tar.xz"
+    "a1dead1bf7b73c384e11eca40ef77fcda9beda7b52028d8a1a41800f9a04e9f7 2055 htmx_2.0.7-1.dsc 72fd6248b5d8d2f93fb5554d2fa8fbbcb0fc4b91d591f44e080d78eadeaf7188 88473172 htmx_2.0.7.orig.tar.xz c19ac385bbcfe798f977e6ca1624399b7e2757a469488f5e4ecc2c71f6a22bf3 1888 htmx_2.0.7-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a44019f74244a73a5daba38bbd1b38b24e40639a debian archive/debian/2.0.7-1 https://git.dgit.debian.org/htmx"
   ],
   "Directory": [
     "pool/main/h/htmx"
   ],
   "Files": [
-    "053f0d3a440ad935c78b04cbc88742e8 1813 htmx_2.0.4-1.dsc 6102857c857f11d68ed9b4e2e4af4dd4 88256255 htmx_2.0.4.orig.tar.gz bf75c5562ef0a8591978f4d9d0e8eaf3 1860 htmx_2.0.4-1.debian.tar.xz"
+    "603eb27dc8453a2e57945dc66b43b222 2055 htmx_2.0.7-1.dsc e55954fb2a3a05df4c85ac61a7c7c45c 88473172 htmx_2.0.7.orig.tar.xz 41adca910a25228b5936ef8eb1bf05f2 1888 htmx_2.0.7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=00b5dbf301147a0d25fa484cc9b7ac8e68a50cea fp=c7203c0a920670bf94f00bb1b01d1a72ac8dc9a1"
+  ],
+  "Git-Tag-Tagger": [
+    "Jonathan Carter \u003cjcc@debian.org\u003e"
   ],
   "Homepage": [
     "https://htmx.org/"
@@ -48,6 +57,6 @@
     "https://salsa.debian.org/debian/htmx.git"
   ],
   "Version": [
-    "2.0.4-1"
+    "2.0.7-1"
   ]
 }

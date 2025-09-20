@@ -6,16 +6,16 @@
     "gcal, gcal-common"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), libncurses5-dev, texinfo"
+    "debhelper-compat (= 13), libncurses-dev, texinfo, check, pkg-config"
   ],
   "Checksums-Sha256": [
-    "dfa5e3e4581e7f6995f60b8ffdff91b9cd94078e93eb4751c541e507a41aa927 1869 gcal_4.1-3.1.dsc 363cdb016125bd64cfe5fcaa28b4b828fdfe88b1ee76d9f58ba9ea120587bb39 3100539 gcal_4.1.orig.tar.gz 864dd7d5b5a31feaef9c76af3a6629ea0af8d8dcf4f52d27e3af4191e6c21e79 10684 gcal_4.1-3.1.debian.tar.xz"
+    "5797bd122023f75d17886f93d09cf507ef10561c5098cdb11ca419849de28ced 2058 gcal_4.2.0-3.dsc b670e21bf0972c91f18f5b1311521038bd950d96428ab58f509dd4e4a7c5b185 3553707 gcal_4.2.0.orig.tar.gz 1eb3467818aa1c4b1b6e77502b633f0b313ab8f8a67fca5a26b586f76814127a 10316 gcal_4.2.0-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gcal"
   ],
   "Files": [
-    "30bf8f19e13528a592c07755ad621a49 1869 gcal_4.1-3.1.dsc 434232fa6275347c6580496131875234 3100539 gcal_4.1.orig.tar.gz 1ad7a40bee97493bc4b6c23cfbb11a71 10684 gcal_4.1-3.1.debian.tar.xz"
+    "40add1ee57f4ec9ca17d3236b836e5c4 2058 gcal_4.2.0-3.dsc de39e9f4fc34674d98e9ca770cbdba34 3553707 gcal_4.2.0.orig.tar.gz db525e97fe53149d7594ed0b4573476e 10316 gcal_4.2.0-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "utils"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/alteholz/gcal"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/alteholz/gcal.git"
   ],
   "Version": [
-    "4.1-3.1"
+    "4.2.0-3"
   ]
 }

@@ -9,13 +9,13 @@
     "autoconf, autoconf-archive, debhelper-compat (= 13), dh-python, libgdbuspp-dev, libasio-dev, libcap-ng-dev, libdbus-1-dev, libglib2.0-dev, libjsoncpp-dev, liblz4-dev, libnl-3-dev, libnl-genl-3-dev, libprotobuf-dev, libprotoc-dev, protobuf-compiler, libssl-dev, systemd-dev | systemd (\u003c\u003c 253-2~), libtinyxml2-dev, libxml2-utils, meson, pkgconf, polkitd, python3, python3-dbus, python3-docutils, python3-jinja2, python3-minimal, python3-systemd, uuid-dev"
   ],
   "Checksums-Sha256": [
-    "f30e9ec1167b5bd2b36916cadc0a6664ef2f33374d5062ad49e0302f1b650892 2355 openvpn3-client_24+dfsg-1.dsc c1ac256a0ad5b96085ecd7037f2cb14655490da4705404e8fa99b052b1efb0f0 2569376 openvpn3-client_24+dfsg.orig.tar.xz d1af07fcff8f161a257616f28c5b3b05660f6865357911d527e3d8e0c5f72533 22692 openvpn3-client_24+dfsg-1.debian.tar.xz"
+    "1f435e5c9f13361085ffc372bf9a893892987b83c89cab12d636b7fc340e7357 2402 openvpn3-client_24.1+dfsg-1.dsc 88be2cad8a1b2810933e5730463c2f9d59ac1adfd9b8e781c5db675471155ece 2573228 openvpn3-client_24.1+dfsg.orig.tar.xz 19775434484fcd0da90ce0f9c492e288dd9364d9e1036280358ace372abd034c 23760 openvpn3-client_24.1+dfsg-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/o/openvpn3-client"
   ],
   "Files": [
-    "475fd4d079d8e1323805693ef6aee750 2355 openvpn3-client_24+dfsg-1.dsc 576622485c33af52dab9de91b4e46a9f 2569376 openvpn3-client_24+dfsg.orig.tar.xz 8ef297b8ddbd3137fa482b672839e060 22692 openvpn3-client_24+dfsg-1.debian.tar.xz"
+    "b541396391243e7d85a4d59ca142df95 2402 openvpn3-client_24.1+dfsg-1.dsc a77e783926c36b31c1d72b5695e3faa0 2573228 openvpn3-client_24.1+dfsg.orig.tar.xz 341ac3e43ffcc3b493cfd810442c8145 23760 openvpn3-client_24.1+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/erpel/openvpn3-client"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/erpel/openvpn3-client.git"
   ],
   "Version": [
-    "24+dfsg-1"
+    "24.1+dfsg-1"
   ]
 }

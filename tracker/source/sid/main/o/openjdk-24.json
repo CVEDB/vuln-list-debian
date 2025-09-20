@@ -12,13 +12,13 @@
     "graphviz, pandoc"
   ],
   "Checksums-Sha256": [
-    "47759cbfa502ccf51bf419ed91985e842168ade0a2bdb0ad8878280fd7fc134d 5330 openjdk-24_24+36-1.dsc db220ce29459378d5fd0d725da4379cac15f0158962e018b862fdb10b460a1ee 616792 openjdk-24_24+36.orig-googletest.tar.xz ef972ed328b6cf4dfd96d20e9b6b1c90feb9f191f1d5b0000f5884e384aced77 73648584 openjdk-24_24+36.orig.tar.xz a988bd5297c835e1bfc059cc91c09a995fa94424d6b54b5f205bcb8d8dacadea 205904 openjdk-24_24+36-1.debian.tar.xz"
+    "c53de7ff65a0975bf482cd5f6a593edcff932eb31a5b0c969caf4b098c178cd5 5370 openjdk-24_24.0.2+12-1.dsc c2013181c6fbd98d7aa2b868ee6dec7ca24f0ebee05f6b074a420b0910866f38 616652 openjdk-24_24.0.2+12.orig-googletest.tar.xz 3ad913167c4754f24a2c8e9bac6155e0956ed10598036416937c744515ebf835 73476180 openjdk-24_24.0.2+12.orig.tar.xz f856900680d10a1cdc3eb5a74d2110f86d10f6ca2a374ccd302590f5446be02d 206836 openjdk-24_24.0.2+12-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/o/openjdk-24"
   ],
   "Files": [
-    "0f749925722968332b88bb3dd966b4e1 5330 openjdk-24_24+36-1.dsc de5c55b8e5bce1324d6baa80dc60ef28 616792 openjdk-24_24+36.orig-googletest.tar.xz ad6167cc5b218424ce85681456c4109c 73648584 openjdk-24_24+36.orig.tar.xz 5c47057835b352d0dce221a33e2d481a 205904 openjdk-24_24+36-1.debian.tar.xz"
+    "6baf0a10879896a91854a13b67013f7b 5370 openjdk-24_24.0.2+12-1.dsc edcb7552a0ef4a3f0261203a675ad342 616652 openjdk-24_24.0.2+12.orig-googletest.tar.xz 88e934cd3b998f6949f08fd437dbcebb 73476180 openjdk-24_24.0.2+12.orig.tar.xz afb0158cd51a93338b5b585caf75d4ea 206836 openjdk-24_24.0.2+12-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-24"
   ],
   "Version": [
-    "24+36-1"
+    "24.0.2+12-1"
   ]
 }

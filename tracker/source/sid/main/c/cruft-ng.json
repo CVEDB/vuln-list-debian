@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "cruft-ng, dh-cruft, cruft"
+    "cruft-ng, dh-cruft"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13)"
@@ -12,19 +12,19 @@
     "libdpkg-dev, pkgconf"
   ],
   "Checksums-Sha256": [
-    "0b86c4aac953a1fad0012ef135863fddfc4f3e4816b57dc8d76913c81020e57d 1922 cruft-ng_0.9.68.dsc 8ac609175a8e841fa88a3068e9270b98723bf40095b7166605c9e98655c0ae7b 128420 cruft-ng_0.9.68.tar.xz"
+    "9ef9cfdeb052379e4360446aee19b6d465f574470c0595dd4deedde995525d4b 1891 cruft-ng_0.9.75.dsc de4594401c94eeef2d6cbbeae2f3a1d604adb01abfbe2cc9477858e6c7093ded 130596 cruft-ng_0.9.75.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cruft-ng"
   ],
   "Files": [
-    "ff7215f764c7e2d37d8012493738740c 1922 cruft-ng_0.9.68.dsc a0959a5c9775aa1159c26700c3cd5260 128420 cruft-ng_0.9.68.tar.xz"
+    "1b82d8a9e12aca7b0847def50bde6fe4 1891 cruft-ng_0.9.75.dsc 1c0e858897b55efe2c8dd1bb1a4b38de 130596 cruft-ng_0.9.75.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
   ],
   "Homepage": [
-    "https://github.com/a-detiste/cruft-ng/"
+    "https://salsa.debian.org/pkg-security-team/cruft-ng"
   ],
   "Maintainer": [
     "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
@@ -33,7 +33,7 @@
     "cruft-ng"
   ],
   "Package-List": [
-    "cruft deb oldlibs optional arch=all cruft-ng deb admin optional arch=any dh-cruft deb admin optional arch=all"
+    "cruft-ng deb admin optional arch=any dh-cruft deb admin optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/pkg-security-team/cruft-ng.git"
   ],
   "Version": [
-    "0.9.68"
+    "0.9.75"
   ]
 }

@@ -6,16 +6,16 @@
     "systemd-boot-efi-amd64-signed"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), sbsigntool, systemd-boot-efi (= 257.5-2)"
+    "debhelper-compat (= 13), sbsigntool, systemd-boot-efi (= 258-1)"
   ],
   "Checksums-Sha256": [
-    "75792cda18c999fcfd1a2b7f0c15e6e6fc54ba9f813cd8ab08534929ddd3bce6 1783 systemd-boot-efi-amd64-signed_257.5+2.dsc 9a0d84c4d7dbbbd9a48a3b48ca3473032b54279486451d17767754fab2322edd 3576 systemd-boot-efi-amd64-signed_257.5+2.tar.xz"
+    "5f94ae92b0a6c1f0f66b8908d001feae597d25a5b6d3981e7f3a8e52ff5f9f69 1168 systemd-boot-efi-amd64-signed_258+1.dsc 67b16be6e009f113b736e9d0f6806b4bf1cb44eae14b0921e9e04cff76a357bb 3764 systemd-boot-efi-amd64-signed_258+1.tar.xz"
   ],
   "Directory": [
     "pool/main/s/systemd-boot-efi-amd64-signed"
   ],
   "Files": [
-    "0b64b94bb5258594a84958e1902c5cf0 1783 systemd-boot-efi-amd64-signed_257.5+2.dsc acf1c9dd844b7a0d255a114424867c0d 3576 systemd-boot-efi-amd64-signed_257.5+2.tar.xz"
+    "9ca3f4cc4a32fb7a6a4018ac41bb37b5 1168 systemd-boot-efi-amd64-signed_258+1.dsc 80f7ef87879d4545710e33fbc518a031 3764 systemd-boot-efi-amd64-signed_258+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +36,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/systemd-team/systemd.git"
   ],
   "Version": [
-    "257.5+2"
+    "258+1"
   ]
 }

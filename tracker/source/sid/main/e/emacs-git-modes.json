@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-elpa, elpa-compat"
   ],
   "Checksums-Sha256": [
-    "491c596be854b2fdf007fc8282a379dcef047b56199b215fba1ab799274efcc1 2207 emacs-git-modes_1.4.4-1.dsc 3e4da3b81de80314ecd6d1d9cea8b74f00a1004ef65dd236c3d4fbfe8a8921a1 18690 emacs-git-modes_1.4.4.orig.tar.gz edd97f9d73c94127edc1c3178d96c3e17991e51a4eed2200507e60ca97749cb7 3280 emacs-git-modes_1.4.4-1.debian.tar.xz"
+    "e9da345424a9e029ba48e77b7b2c3ae7dcc2e21b38b2d79a67b1da445c9a16c7 2207 emacs-git-modes_1.4.6-1.dsc 7a9329e2cfd5fb4b90f0fc0cdfe4dcd4ca8b14b30c0d5ac5edf8181d082552f1 18841 emacs-git-modes_1.4.6.orig.tar.gz 20c15f0de61772a26db80545412ef92d314420424da15463c388a77cbcd0bb68 3692 emacs-git-modes_1.4.6-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/e/emacs-git-modes"
   ],
   "Files": [
-    "18b4dd0718612b2c4173ecc5b8a9b59b 2207 emacs-git-modes_1.4.4-1.dsc 0a64c2dfaf947db1cc63827b8497753a 18690 emacs-git-modes_1.4.4.orig.tar.gz cd9357bd4884dce35def1b7e53c5c095 3280 emacs-git-modes_1.4.4-1.debian.tar.xz"
+    "b278d57fae65446f47c6b9a55ce77d01 2207 emacs-git-modes_1.4.6-1.dsc 1fb4c4013182a70c3338b5f4d623564f 18841 emacs-git-modes_1.4.6.orig.tar.gz 84d9d6d568f9c3202e9a46204ce7c262 3692 emacs-git-modes_1.4.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Lev Lamberov \u003cdogsleg@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/emacsen-team/emacs-git-modes.git"
   ],
   "Version": [
-    "1.4.4-1"
+    "1.4.6-1"
   ]
 }

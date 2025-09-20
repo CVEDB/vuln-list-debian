@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-rghost"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13), gem2deb"
+  ],
+  "Checksums-Sha256": [
+    "249b5c1c484dfb76cefdc834b503c0cc396108657beda2a825a9865e08d85698 2018 ruby-rghost_0.9.9-5.dsc b0d322610571e78f4a8507b8583c9348345181aa9e52c65106163a21c34c5d22 331874 ruby-rghost_0.9.9.orig.tar.gz b5aaa28e8810f04f4022b8104bcb1576e64f1967784c3f2a03f719f73c6361cf 13492 ruby-rghost_0.9.9-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-rghost"
+  ],
+  "Files": [
+    "9347d0498f68160b4b63a565a1b33201 2018 ruby-rghost_0.9.9-5.dsc fa82e8a6ab40a6071154a938e9f59a88 331874 ruby-rghost_0.9.9.orig.tar.gz d718459801781c7a19ff2fb7525e3fb5 13492 ruby-rghost_0.9.9-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/shairontoledo/rghost"
+  ],
+  "Maintainer": [
+    "Debian Ruby Extras Maintainers \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-rghost"
+  ],
+  "Package-List": [
+    "ruby-rghost deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Keith Packard \u003ckeithp@keithp.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ruby-rghost"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ruby-rghost.git"
+  ],
+  "Version": [
+    "0.9.9-5"
+  ]
+}

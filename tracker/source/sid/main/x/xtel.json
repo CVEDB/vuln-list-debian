@@ -9,13 +9,13 @@
     "libmotif-dev, libx11-dev, libxmu-dev, libxpm-dev, libxt-dev, x11proto-core-dev, xbitmaps, libxaw7-dev, debhelper-compat (= 13), imagemagick, xfonts-utils, xutils-dev, libjpeg-dev, doc-base"
   ],
   "Checksums-Sha256": [
-    "d8a9655043ea5dd192ca09a0e6cedc53d5e37235ce3cc09ae53f72f94a9756da 1949 xtel_3.3.0-30.dsc 86fec2da34d070c911b6c5cf2d3c05639a18a1f09a583e476b539f5533ba8ede 304742 xtel_3.3.0.orig.tar.gz bee253e887d04b3c2ba940b71e99ceb255d380562c7120f0851256d0a0881c60 35236 xtel_3.3.0-30.debian.tar.xz"
+    "627d0b88be4cce9dc448fff3d3fe68d7737cbb341a6d97c8b6ce5a56d22f4d3c 1949 xtel_3.3.0-32.dsc 86fec2da34d070c911b6c5cf2d3c05639a18a1f09a583e476b539f5533ba8ede 304742 xtel_3.3.0.orig.tar.gz 5b62f51ae891cd5c1af43cc2690c7d1dcb3ab3703aca849c093d201cf4b5904c 35580 xtel_3.3.0-32.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/x/xtel"
   ],
   "Files": [
-    "14d4b6b3a8ba5f102ff3ae8ff32108d1 1949 xtel_3.3.0-30.dsc d451ff0f1a9ed9ddd0d11f1a9f1f2a6b 304742 xtel_3.3.0.orig.tar.gz 9bd6b147f7448e678e84ed50bc7cf8ce 35236 xtel_3.3.0-30.debian.tar.xz"
+    "97ad19f45515ec90a28f1869130b5805 1949 xtel_3.3.0-32.dsc d451ff0f1a9ed9ddd0d11f1a9f1f2a6b 304742 xtel_3.3.0.orig.tar.gz 7646f059165e8c1f262e225a5feb2b49 35580 xtel_3.3.0-32.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "comm"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/xtel"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/xtel.git"
   ],
   "Version": [
-    "3.3.0-30"
+    "3.3.0-32"
   ]
 }

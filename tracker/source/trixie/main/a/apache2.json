@@ -9,16 +9,16 @@
     "autoconf2.13"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1~), bison, gawk | awk, jdupes, libapr1-dev, libaprutil1-dev, libbrotli-dev, liblua5.4-dev, libnghttp2-dev, libpcre2-dev, libssl-dev, libxml2-dev, lsb-release, perl, zlib1g-dev, libcurl4-openssl-dev | libcurl4-dev, libjansson-dev"
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1~), bison, gawk | awk, jdupes, libapr1-dev, libaprutil1-dev, libbrotli-dev, libcrypt-dev, libcurl4-openssl-dev | libcurl4-dev, libjansson-dev, liblua5.4-dev, libnghttp2-dev, libpcre2-dev, libssl-dev, libxml2-dev, lsb-release, perl, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "4a9a5cba5fc4e253d8424ba85e9784130cfcac5f55cfbe81147dcccebe59fc4a 3445 apache2_2.4.63-1.dsc 1fdf1667ebe313a04e9f4d35ea9f043a4e0ebb62ba5a3047abcad824224c3867 9805186 apache2_2.4.63.orig.tar.gz b336582bffcce1dcb3ba2238fee0403614aaadf656fbbfcf724c03238ef2aa88 833 apache2_2.4.63.orig.tar.gz.asc ebc4843ff25df954595dbc60702002f38990eb4eadcc4c6b0027824ede368569 823660 apache2_2.4.63-1.debian.tar.xz"
+    "95dc154965dc99627580f9dbc6ba4b9c9a0ede366b2e10724c9f41f7ef8d98f9 3494 apache2_2.4.65-2.dsc 4f92861a50325c6d1046ebad5d814bff0d4169ada8cc265655f32b7f1ba4be1b 9814591 apache2_2.4.65.orig.tar.gz 500de0ea39e041cbbafab9c0e0697b0e0e65b99f29cd1a403741d2afc5383995 833 apache2_2.4.65.orig.tar.gz.asc 2cd33c87bc7fbd455d1bda0c2beab8ba4bc3571684ffb8caba12f712c2154c24 824328 apache2_2.4.65-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/apache2"
   ],
   "Files": [
-    "6984e11579f58fea9905421bfa4b5f6a 3445 apache2_2.4.63-1.dsc 5de8608b88cdc5c68d973380fb9bad01 9805186 apache2_2.4.63.orig.tar.gz 1c1db52fcb786f39cb1a3bfdc9c086b5 833 apache2_2.4.63.orig.tar.gz.asc 294cca2c2fc0b92a0027e4cd1af1aa2a 823660 apache2_2.4.63-1.debian.tar.xz"
+    "fbeaf836f2eee2081627e22080b6dad5 3494 apache2_2.4.65-2.dsc e7bc55dca2ff88a81da208ab50b3f8a7 9814591 apache2_2.4.65.orig.tar.gz 77e7f7bf91a2f3c4c249449409a10ac5 833 apache2_2.4.65.orig.tar.gz.asc 9da198eab03439205c613fddc821dda3 824328 apache2_2.4.65-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, curl, dpkg-dev, expect, gcc, libanyevent-perl, libcrypt-ssleay-perl, libdatetime-perl, libfcgi-perl, libhtml-parser-perl, libhttp-dav-perl, libnet-ssleay-perl, libpcre2-dev, libprotocol-http2-perl, libtime-hires-perl, libwww-perl, netcat-openbsd, netcat-traditional, nghttp2-client, perl-doc, rsync, ssl-cert, uwsgi, uwsgi-plugin-python3, wget"
+    "build-essential, curl, dpkg-dev, expect, gcc, libanyevent-perl, libanyevent-websocket-client-perl, libcrypt-ssleay-perl, libdatetime-perl, libfcgi-perl, libhtml-parser-perl, libhttp-dav-perl, libnet-ssleay-perl, libpcre2-dev, libprotocol-http2-perl, libtime-hires-perl, libwww-perl, netcat-openbsd, netcat-traditional, nghttp2-client, perl-doc, rsync, ssl-cert, uwsgi, uwsgi-plugin-python3, wget"
   ],
   "Uploaders": [
     "Stefan Fritsch \u003csf@debian.org\u003e, Arno Töll \u003carno@debian.org\u003e, Ondřej Surý \u003condrej@debian.org\u003e, Yadd \u003cyadd@debian.org\u003e, Bastien Roucariès \u003crouca@debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/apache-team/apache2.git"
   ],
   "Version": [
-    "2.4.63-1"
+    "2.4.65-2"
   ]
 }

@@ -12,16 +12,16 @@
     "libtest-simple-perl \u003c!nocheck\u003e, libyaml-libyaml-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha256": [
-    "6dccd99952740a96e69e1c0b2acc8544a689f91f2d1f3acc885d2abe545d6ffa 2477 libcpansa-db-perl_20250407.003-1.dsc c936a25f2190a9c7d63bedf587014c6f9e10038046db43fc64c5aa7f6f3d02b4 1417812 libcpansa-db-perl_20250407.003.orig.tar.gz d55f95e986a380e33f87f69abbd9bdfb7e44a729a123d280a48b6a114fea289c 5088 libcpansa-db-perl_20250407.003-1.debian.tar.xz"
+    "183d9a823380b8d59e032e2322b35626c8c48b25e3f1ef192823c243387f2ce0 2477 libcpansa-db-perl_20250521.001-1.dsc 1047f62b87b6c01f41c14560e00968fa6c7b53f66843a2c5aa27725fffcbd342 1433528 libcpansa-db-perl_20250521.001.orig.tar.gz 67491bb1ef64f368ca855d8d580183df5fc66fc8f3b50cffa6a12a5c29cc0b42 5164 libcpansa-db-perl_20250521.001-1.debian.tar.xz"
   ],
   "Dgit": [
-    "2a94bec0ef1127cd5d69b55d6899b4dea5c66d6d debian archive/debian/20250407.003-1 https://git.dgit.debian.org/libcpansa-db-perl"
+    "d777ee55766417c08186e97ba1b40dfc4fca1f59 debian archive/debian/20250521.001-1 https://git.dgit.debian.org/libcpansa-db-perl"
   ],
   "Directory": [
     "pool/main/libc/libcpansa-db-perl"
   ],
   "Files": [
-    "952956b427df1858eed5ab75ad59d225 2477 libcpansa-db-perl_20250407.003-1.dsc e9f4933a82a6b6c8bd665230eb2ac86c 1417812 libcpansa-db-perl_20250407.003.orig.tar.gz c27fcee08bc79572ea604d633f8b496d 5088 libcpansa-db-perl_20250407.003-1.debian.tar.xz"
+    "17cd857c9fb140ba2e002526b2d62841 2477 libcpansa-db-perl_20250521.001-1.dsc 8420bd595aa18269ec9bbe124f16c921 1433528 libcpansa-db-perl_20250521.001.orig.tar.gz 825ce18807e9dc9010963da1012c6de3 5164 libcpansa-db-perl_20250521.001-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libcpansa-db-perl.git"
   ],
   "Version": [
-    "20250407.003-1"
+    "20250521.001-1"
   ]
 }

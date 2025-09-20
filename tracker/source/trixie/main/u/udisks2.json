@@ -12,13 +12,13 @@
     "libglib2.0-doc \u003c!nodoc\u003e, policykit-1-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "dfdb6344dc9a8adc835b7c8032107ac02691b52bfaa5c0139ef5e26c904230d3 3443 udisks2_2.10.1-12.dsc b75734ccf602540dedb4068bec206adcb508a4c003725e117ae8f994d92d8ece 1896207 udisks2_2.10.1.orig.tar.bz2 3abf81ee113158793f4d028037432d1504d2c4185829362175ba1132a16984b6 23204 udisks2_2.10.1-12.debian.tar.xz"
+    "4f73953bc32e640f31a0543932bf9a26a30224ca24a97cf07953ccca019c4453 3638 udisks2_2.10.1-12.1+deb13u1.dsc b75734ccf602540dedb4068bec206adcb508a4c003725e117ae8f994d92d8ece 1896207 udisks2_2.10.1.orig.tar.bz2 7b3e299c93a508ac1476e6f9af0686b340785cbd0e3739fc16cfb03957dd5c9c 24320 udisks2_2.10.1-12.1+deb13u1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/u/udisks2"
   ],
   "Files": [
-    "f35cc44c85c5ac7810905a5a36707c04 3443 udisks2_2.10.1-12.dsc 613af9bfea52cde74d2ac34d96de544d 1896207 udisks2_2.10.1.orig.tar.bz2 19c8322dd6b0fe3f32287edddd0f2e60 23204 udisks2_2.10.1-12.debian.tar.xz"
+    "311199553a8d888e559412dea912a7e8 3638 udisks2_2.10.1-12.1+deb13u1.dsc 613af9bfea52cde74d2ac34d96de544d 1896207 udisks2_2.10.1.orig.tar.bz2 eea014219a21742deb319392e46d2d98 24320 udisks2_2.10.1-12.1+deb13u1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/utopia-team/udisks2.git"
   ],
   "Version": [
-    "2.10.1-12"
+    "2.10.1-12.1+deb13u1"
   ]
 }

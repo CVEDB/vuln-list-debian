@@ -6,16 +6,16 @@
     "verilator"
   ],
   "Build-Depends": [
-    "bison, debhelper-compat (= 13), dh-sequence-sphinxdoc, flex, latexmk, libfl-dev, libsystemc-dev [amd64 arm64 i386 kfreebsd-any], help2man, python3, python3-sphinx, python3-sphinx-rtd-theme, tex-gyre, texlive-latex-extra"
+    "bison, debhelper-compat (= 13), dh-sequence-sphinxdoc, flex, latexmk, libfl-dev, libsystemc-dev [amd64 arm64 i386 kfreebsd-any], help2man, python3, python3-sphinx, python3-sphinx-rtd-theme, tex-gyre, texlive-latex-extra, python3-distro, architecture-is-64-bit"
   ],
   "Checksums-Sha256": [
-    "0c6d1b8c99843a43ba26bd0c44da7b55f4c6b7a17e766c4ed63886a794b0989e 1924 verilator_5.032-1.dsc e50e401854d16285a73db0dac6a119ea3e63d11f963cc38c6c59ea2839fce40e 32925262 verilator_5.032.orig.tar.gz bfa0ba447bac3333cac7d6a92568daf7a438cc5720f36d293804cc7b6701b2f1 13240 verilator_5.032-1.debian.tar.xz"
+    "a88a2323e24fe31bb1fed9e11305733b6c1940c8380039d158ebe843470f249c 1964 verilator_5.040-2.dsc d0defa439056fd989906168c4b8158d42fdc17fb91eaf237e5be22818acc6ef7 36151367 verilator_5.040.orig.tar.gz 9bf5e1b349a488ed503e02ada552ee39011575eeb92e82e5f78a7284e30c6a43 13780 verilator_5.040-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/v/verilator"
   ],
   "Files": [
-    "3b11674cb499e8c11f4202d929cd6871 1924 verilator_5.032-1.dsc 9ae4ca474a3b25c0361e7c474b261fb2 32925262 verilator_5.032.orig.tar.gz e90ebb5b9d4f6a5361bfb83d40c86a40 13240 verilator_5.032-1.debian.tar.xz"
+    "feb846c15551c1609d4c20a1126cbce3 1964 verilator_5.040-2.dsc b74cef40c4a3e2d6894bd51db88a2d23 36151367 verilator_5.040.orig.tar.gz 703ddc1778f68b9170cfaf3b5443ce6b 13780 verilator_5.040-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "electronics"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/electronics-team/verilator.git"
   ],
   "Version": [
-    "5.032-1"
+    "5.040-2"
   ]
 }

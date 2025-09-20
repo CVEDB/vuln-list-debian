@@ -9,13 +9,13 @@
     "debhelper (\u003e= 10), debhelper-compat (= 13), dh-python, python3, python3-dev, python3-libnbd, python3-libvirt, python3-lxml, python3-lz4, python3-paramiko, python3-setuptools, python3-tqdm, python3-colorlog"
   ],
   "Checksums-Sha256": [
-    "549b3091c0b85001be7628bd374af7b3a360fa070abc47170c4d38af468986a9 2060 virtnbdbackup_2.28-1.dsc a259686739eae63e42281c4c22b75dca87d7925553a1d0e3d44b9d4a65816c23 100333 virtnbdbackup_2.28.orig.tar.gz 7e7ce18e6906022653f1225046b5bec16f83a5c84b1274a0d2d142207dbea84b 2884 virtnbdbackup_2.28-1.debian.tar.xz"
+    "0cc2be12a388fa00afc8bc3ba7d7e8c46218595e53737b39c6e790f24ebce895 2060 virtnbdbackup_2.35-1.dsc 1af5490d6bfbcf285436bece6a0031069aa9e3ae5cd2d68470bc378016ff0477 103189 virtnbdbackup_2.35.orig.tar.gz 76b203b6f9182d3ef6e13285ff734c380d64210936e210776aac9c21190ebb10 2968 virtnbdbackup_2.35-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/v/virtnbdbackup"
   ],
   "Files": [
-    "ec4f6bf17fc95c6ba881ad28f81036ea 2060 virtnbdbackup_2.28-1.dsc de4181fdb965ee39d877803887ca3c3c 100333 virtnbdbackup_2.28.orig.tar.gz 346f13cb13e91dcae0de563c45b6d351 2884 virtnbdbackup_2.28-1.debian.tar.xz"
+    "e4bda9fec3177460857bf2e165e8f373 2060 virtnbdbackup_2.35-1.dsc 2e2853e2b2b52b70a40b9a7cbc9c6736 103189 virtnbdbackup_2.35.orig.tar.gz a23ff004bf87bc63a58256e73da8e326 2968 virtnbdbackup_2.35-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/virtnbdbackup.git"
   ],
   "Version": [
-    "2.28-1"
+    "2.35-1"
   ]
 }

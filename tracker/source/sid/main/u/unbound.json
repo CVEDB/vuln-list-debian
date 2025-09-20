@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), autoconf, bison, dh-apparmor \u003c!pkg.unbound.libonly\u003e, dh-sequence-python3 \u003c!pkg.unbound.libonly\u003e, dpkg-dev (\u003e= 1.16.1~), flex, libbsd-dev (\u003e= 0.8.1~) [!linux-any], libevent-dev, libexpat1-dev, libhiredis-dev \u003c!pkg.unbound.libonly\u003e, libnghttp2-dev \u003c!pkg.unbound.libonly\u003e, libprotobuf-c-dev \u003c!pkg.unbound.libonly\u003e, libssl-dev, libsystemd-dev \u003c!pkg.unbound.libonly\u003e, libtool, pkgconf, protobuf-c-compiler \u003c!pkg.unbound.libonly\u003e, python3-dev:any \u003c!pkg.unbound.libonly\u003e, libpython3-dev \u003c!pkg.unbound.libonly\u003e, swig \u003c!pkg.unbound.libonly\u003e"
   ],
   "Checksums-Sha256": [
-    "0f0af250e37756b71e644e9ca850efcd5b4b75edac8ae191bdb3b325abca613d 3169 unbound_1.22.0-1.dsc c5dd1bdef5d5685b2cedb749158dd152c52d44f65529a34ac15cd88d4b1b3d43 6682466 unbound_1.22.0.orig.tar.gz 1b5d91ad040b1f1c0351b8f6fe288b4123fc63b887152463512be69bc687f915 833 unbound_1.22.0.orig.tar.gz.asc d92e3d3231905c2612cd0c88a5f4634ef0372b7d963169c59e946a267efac75b 28800 unbound_1.22.0-1.debian.tar.xz"
+    "ea12b7e06daddc75e3f47c102d5aa8e13cfef47434339cec65a057a378ddab90 3267 unbound_1.24.0-1.dsc 147b22983cc7008aa21007e251b3845bfcf899ffd2d3b269253ebf2e27465086 6896053 unbound_1.24.0.orig.tar.gz f8aa1b5614413ab18fe52b4d3636de85c55a8d4379b3cf96477ede8eb350eee8 833 unbound_1.24.0.orig.tar.gz.asc df2314d53da24b5a4a48c6b981c32217cd7330446f40b64082724baa4757cae0 29032 unbound_1.24.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/u/unbound"
   ],
   "Files": [
-    "7c13fa5970992afdd956110cd5b6efe9 3169 unbound_1.22.0-1.dsc be0e5ae64c6619a638c116addd4da670 6682466 unbound_1.22.0.orig.tar.gz 4e435494ea5757d1ea1f89aca2bb0be0 833 unbound_1.22.0.orig.tar.gz.asc 9769b3c41390660df6c0aa3ef17bc29d 28800 unbound_1.22.0-1.debian.tar.xz"
+    "25a2c1864e132c1e0914f064bfeee10a 3267 unbound_1.24.0-1.dsc fa7d04ae457c967452bd84996546767a 6896053 unbound_1.24.0.orig.tar.gz 9b065acccaff4e8439bf386fe8cc2ac3 833 unbound_1.24.0.orig.tar.gz.asc 94f754d97d9e9e6953332446d68b78a0 29032 unbound_1.24.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/dns-team/unbound.git"
   ],
   "Version": [
-    "1.22.0-1"
+    "1.24.0-1"
   ]
 }

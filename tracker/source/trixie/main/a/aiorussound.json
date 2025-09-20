@@ -12,13 +12,13 @@
     "python3-mashumaro \u003c!nocheck\u003e, python3-orjson \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "23ae40e47b7ed4065bf02ffc352a1128a402d1a53048c99eec97ae7a5c7ed5f7 2267 aiorussound_4.5.0-1.dsc de5e976b696d80c56b9736c64a8098c626e2eedede0aea24bc4c624fb33e64f2 40647 aiorussound_4.5.0.orig.tar.gz c4b2cd99b4ca541837ce8f470ce9552ef3212f28b87057577ab864a3673b06ed 2304 aiorussound_4.5.0-1.debian.tar.xz"
+    "0db98c0f424089cae672c861c499b496b06879d72bd7e3ac3f66dab075dce9e2 2267 aiorussound_4.6.0-1.dsc 729fd2895c68b1a4c57b419c45daa1979a30b67ed433b4fd10983c03b6a07354 41344 aiorussound_4.6.0.orig.tar.gz ace9cc9720f11c7749f2005be79d6dcbaa7d1548a181d333fe1d78c8c95ab1c3 2352 aiorussound_4.6.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/aiorussound"
   ],
   "Files": [
-    "5c93a7c5bd67195794ec75008909554d 2267 aiorussound_4.5.0-1.dsc d0dc04440a684d16fc200f413f42b4ed 40647 aiorussound_4.5.0.orig.tar.gz 7d2d5c5107efb1eb2b9645375cfd114b 2304 aiorussound_4.5.0-1.debian.tar.xz"
+    "3418c27bd6920caaab268fe2cfd36ebb 2267 aiorussound_4.6.0-1.dsc 8c014ed5fba877474e81d63c5e92e202 41344 aiorussound_4.6.0.orig.tar.gz dcedbd59197865c286bc3fa6280b8923 2352 aiorussound_4.6.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/aiorussound.git"
   ],
   "Version": [
-    "4.5.0-1"
+    "4.6.0-1"
   ]
 }

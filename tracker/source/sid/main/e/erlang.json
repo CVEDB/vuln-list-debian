@@ -15,13 +15,13 @@
     "elixir-ex-doc (\u003e= 0.35.1+dfsg-4~) \u003c!nodoc\u003e, default-jdk | sun-java6-jdk"
   ],
   "Checksums-Sha256": [
-    "c41b9559cc08257483ccedb584c7f85302d566d003c18336c56e64e100d9990d 4896 erlang_27.3.3+dfsg-1.dsc c3bc2596a7439f7f06e7db9d515d063afa7e83b12e063895ba4f062b4805e62f 47407188 erlang_27.3.3+dfsg.orig.tar.xz 6f41a4e88faa56cffded7dd0ab7a61d2dd0eed3c65fe5d49c1afd666dc658a84 57424 erlang_27.3.3+dfsg-1.debian.tar.xz"
+    "49e8b3e0c8a647a9bff8e1609bd9fca5c29c9adb178eb875c057084769216cda 4910 erlang_27.3.4.3+dfsg-1.dsc 1ca65f18f835725aa47d7185dc39c9262320c5891dafcbe788c2f1fd940783ed 47608284 erlang_27.3.4.3+dfsg.orig.tar.xz de530bcd8b7ff889b7ff8f7e449a4645572c510ff207279fa392004897624a33 57748 erlang_27.3.4.3+dfsg-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/e/erlang"
   ],
   "Files": [
-    "255e8b00cfe901f3225b1385b6acd7d4 4896 erlang_27.3.3+dfsg-1.dsc c48ab313756a205ddc7d8ab44f4e9ad7 47407188 erlang_27.3.3+dfsg.orig.tar.xz 656b4995f42948bc2e46af313b320276 57424 erlang_27.3.3+dfsg-1.debian.tar.xz"
+    "f84eb5a370f76efbf3d40c27cf0e935b 4910 erlang_27.3.4.3+dfsg-1.dsc 9829ed4db8d913b3b6757d22c554b871 47608284 erlang_27.3.4.3+dfsg.orig.tar.xz ddbe586df20e9a8ccbd96ec5175d20b8 57748 erlang_27.3.4.3+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/erlang-team/packages/erlang.git"
   ],
   "Version": [
-    "1:27.3.3+dfsg-1"
+    "1:27.3.4.3+dfsg-1"
   ]
 }

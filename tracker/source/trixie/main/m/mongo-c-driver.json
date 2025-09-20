@@ -9,13 +9,13 @@
     "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 11), cmake, libssl-dev, pkgconf, python3-sphinx, python3-sphinx-design, furo, libmongocrypt-dev (\u003e= 1.12.0) \u003c!pkg.mongo-c-driver.no-libmongocrypt\u003e, zlib1g-dev, libsasl2-dev, libsnappy-dev, libutf8proc-dev, libzstd-dev"
   ],
   "Checksums-Sha256": [
-    "97a30ccc4645c0d15a4f01511b3dc9cc616ac678919f4fe05de945ad6032dbb7 2702 mongo-c-driver_1.30.2-1.dsc eca8c802b443a3833348b6e681e233d9041cb338f17856ea189e101e747ff418 6874955 mongo-c-driver_1.30.2.orig.tar.gz e6b1839fabfe9398da1d2ec719c70e77b1403c4a21aae05bf2b028c6932e5c34 13116 mongo-c-driver_1.30.2-1.debian.tar.xz"
+    "65190932ef81d6b9617dbae9f6412fb9dc662b40ec3f8779ed50afec38ad24d2 2702 mongo-c-driver_1.30.4-1.dsc 2883a6d61251b881530566d79cedc48de9694ff88f01bf2452306434d18cc74c 6881389 mongo-c-driver_1.30.4.orig.tar.gz 66e021dd3607791e7f7cad17094b97ace868410cf184f8cb99b5bc0555248928 13128 mongo-c-driver_1.30.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mongo-c-driver"
   ],
   "Files": [
-    "6655c205f02475358ac2373b08df3a7d 2702 mongo-c-driver_1.30.2-1.dsc ed2b098d3c38f8578d9ebf1ea858d1a6 6874955 mongo-c-driver_1.30.2.orig.tar.gz cc4f2df40f132041f22b288c5e3c10f2 13116 mongo-c-driver_1.30.2-1.debian.tar.xz"
+    "5cc49d3f2572f15b7ed24dcca0c24a0f 2702 mongo-c-driver_1.30.4-1.dsc 1c2d77ea3e102a67020efec152d339f6 6881389 mongo-c-driver_1.30.4.orig.tar.gz 2505a2a3877a10f14a47d6b9ee49a777 13128 mongo-c-driver_1.30.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://github.com/mongodb/mongo-c-driver.git"
   ],
   "Version": [
-    "1.30.2-1"
+    "1.30.4-1"
   ]
 }

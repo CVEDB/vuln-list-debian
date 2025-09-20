@@ -9,16 +9,25 @@
     "debhelper-compat (= 13), default-jdk, javahelper, junit4, liblibreoffice-java, unzip"
   ],
   "Checksums-Sha256": [
-    "c3b39defcc368fdbdaf37a9b55233322df78389dc55f5c9f94c6e751d16ec12a 2082 h2orestart_0.7.2-1.dsc 3428652c126d1d8959e186fec6ffe406672b7bef079357434e983ac8886400a4 685320 h2orestart_0.7.2.orig.tar.gz 00aa18830bdd8835ea6dc5cef7fbf29341949704298cc4b4af631c3ef2e8f90f 12184 h2orestart_0.7.2-1.debian.tar.xz"
+    "eb461eabbe732a211ab2f018a6d097bf390eab51fc1d492890959cbd7192cff7 2349 h2orestart_0.7.7-1.dsc 2073b764d5b2428519da592c71b11c8214607405e5800a77345b8e48e813f3a2 631484 h2orestart_0.7.7.orig.tar.xz 8b89f810fbd81b007bf7e1934f6b7a203b6c5b3cc95793eec6ce57e446ab6484 12224 h2orestart_0.7.7-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "4cc7a22b986da98f5d5409af778e9147d242408c debian archive/debian/0.7.7-1 https://git.dgit.debian.org/h2orestart"
   ],
   "Directory": [
     "pool/main/h/h2orestart"
   ],
   "Files": [
-    "510bd695bb3844b0c5fb911f16dda3dc 2082 h2orestart_0.7.2-1.dsc 5ee71e77c4e0c7fc4d7afddc124a3267 685320 h2orestart_0.7.2.orig.tar.gz 8a88b655e76594efbf935a76b86d8838 12184 h2orestart_0.7.2-1.debian.tar.xz"
+    "2230283ccf417885df16909055f41e44 2349 h2orestart_0.7.7-1.dsc 3ae35e24c1d33a91bc20e8870495c748 631484 h2orestart_0.7.7.orig.tar.xz e520ae82604843504ccdcd1e9d0b649b 12224 h2orestart_0.7.7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=b6457236ce6c21c61984ae8b5b0c683f72640865 fp=a27cbeba35256865380e0cc9ec1879d076d8ab48"
+  ],
+  "Git-Tag-Tagger": [
+    "Changwoo Ryu \u003ccwryu@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/ebandal/H2Orestart"
@@ -39,7 +48,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +66,6 @@
     "https://salsa.debian.org/l10n-korean-team/h2orestart.git"
   ],
   "Version": [
-    "0.7.2-1"
+    "0.7.7-1"
   ]
 }

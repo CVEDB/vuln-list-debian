@@ -9,16 +9,16 @@
     "libavahi-compat-libdnssd-dev"
   ],
   "Build-Depends": [
-    "bison, cmark-gfm \u003c!nodoc\u003e, cracklib-runtime, debhelper-compat (= 13), docbook-xsl \u003c!nodoc\u003e, flex, libacl1-dev, libavahi-client-dev, libcrack2-dev, libcups2-dev, libdb-dev, libevent-dev, libgcrypt20-dev, libkrb5-dev, libldap2-dev, libltdl-dev, libmariadb-dev, libpam0g-dev, libtalloc-dev, libtirpc-dev, libtinysparql-dev, libtracker-sparql-3.0-dev, libwrap0-dev, localsearch, meson, ninja-build, pkgconf, systemtap-sdt-dev, unicode-data, xsltproc \u003c!nodoc\u003e"
+    "bison, cmark-gfm \u003c!nodoc\u003e, cracklib-runtime, debhelper-compat (= 13), flex, libacl1-dev, libavahi-client-dev, libcrack2-dev, libcups2-dev, libdb-dev, libevent-dev, libgcrypt20-dev, libiniparser-dev, libkrb5-dev, libldap2-dev, libltdl-dev, libmariadb-dev, libpam0g-dev, libtalloc-dev, libtirpc-dev, libtinysparql-dev, libtracker-sparql-3.0-dev, libwrap0-dev, localsearch, meson, ninja-build, pkgconf, systemtap-sdt-dev, unicode-data"
   ],
   "Checksums-Sha256": [
-    "958f9f2d0e1b078e95ad26156eb2eef47be2428ee0343013cb831f2d013963c3 3120 netatalk_4.1.2~ds-4.dsc 76646dad325787fd24fbccc08d1055e35c6af36ac2f89e871db192904c7ae21e 843932 netatalk_4.1.2~ds.orig.tar.xz 6b933a4397f9efd0fa259ac9df1a6637b05f883e65fcf8d66a40ce64a7d8d64a 44160 netatalk_4.1.2~ds-4.debian.tar.xz"
+    "6e39469821fce2a10e05619532ce340ca95b672672777f9cb035597b448d67b7 3097 netatalk_4.2.3~ds-1.dsc 3a935770a2b7e7ad2e56650c2f7ef5f3a92088e7ac627e5fdedce8e36b78b1e7 853516 netatalk_4.2.3~ds.orig.tar.xz c31e3870be413c936162b72fdab802982fddcab0d42aa5a900269184351045d3 44552 netatalk_4.2.3~ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/netatalk"
   ],
   "Files": [
-    "bd512372527d13c0fcef2ab26e9d749d 3120 netatalk_4.1.2~ds-4.dsc bcf42a1dc5e400b71f9498c58372f346 843932 netatalk_4.1.2~ds.orig.tar.xz 47430d6ada9e78fd5ae5e7c9caa5fcfb 44160 netatalk_4.1.2~ds-4.debian.tar.xz"
+    "7cb82f716399873a49cee99327323615 3097 netatalk_4.2.3~ds-1.dsc bd17c26426fdf4dce399a9679a341a2c 853516 netatalk_4.2.3~ds.orig.tar.xz 623e0a3d429523f72807237ccd04a236 44552 netatalk_4.2.3~ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/netatalk-team/netatalk.git"
   ],
   "Version": [
-    "4.1.2~ds-4"
+    "4.2.3~ds-1"
   ]
 }

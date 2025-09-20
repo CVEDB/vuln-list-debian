@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), cmake, libtorrent-rasterbar-dev (\u003e= 2.0.9~), libboost-dev (\u003e= 1.76~), zlib1g-dev, qt6-base-dev, qt6-tools-dev, qt6-svg-dev, libxkbcommon-dev, systemd-dev, ninja-build, qt6-base-private-dev, pkgconf"
   ],
   "Checksums-Sha256": [
-    "3b1c1eed2fe4ba18f7a0ec3cf1f7ee864f6786ef850254df468f9f8d94d13c57 2264 qbittorrent_5.0.4-1.dsc b0a610a24158694e522a2ca742b0b0cf2281f0c916ab6c0d3b5bab5dce1fa193 4555524 qbittorrent_5.0.4.orig.tar.xz ff15c96fc25dde3f461b39436d111c40171206e0117114fad7fc83da393f973f 849 qbittorrent_5.0.4.orig.tar.xz.asc 794422d1ddef19cab82f9c1757f08484bf33e840c04d424f0806b39a8e680c71 124604 qbittorrent_5.0.4-1.debian.tar.xz"
+    "7c3820c29f6d0b195018f46818ac1968165b8f696a6bd1f3a618384cc8656911 2264 qbittorrent_5.1.0-2.dsc 24e7551bdb355827fa4d89f61058768f7ac678934152531f3a5e01538e426930 4623396 qbittorrent_5.1.0.orig.tar.xz c7bd0400d3ea5468967d4b1e3276c9736b272f0a554ab41bcdee22f294f47393 849 qbittorrent_5.1.0.orig.tar.xz.asc 9c127482d756c1fdc5877ffb1401425eb4dc96a65d64b7c508d29f2155e213e0 126984 qbittorrent_5.1.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qbittorrent"
   ],
   "Files": [
-    "8750a2e9d2912064571fcb43a584e712 2264 qbittorrent_5.0.4-1.dsc 451b0e3b146902e130fb90e7b6867a56 4555524 qbittorrent_5.0.4.orig.tar.xz c52e1a3897b52c8412298e205c8847d4 849 qbittorrent_5.0.4.orig.tar.xz.asc 45165cfc1089987c5e3aaedc8cf69afd 124604 qbittorrent_5.0.4-1.debian.tar.xz"
+    "8d4347c4d769cd1ffc819b09eb539cdd 2264 qbittorrent_5.1.0-2.dsc 761d3e984341846ed84c0ea1f198a344 4623396 qbittorrent_5.1.0.orig.tar.xz d982c3d39825088e82231fe667680670 849 qbittorrent_5.1.0.orig.tar.xz.asc 9940722496312179cf87d81979593a04 126984 qbittorrent_5.1.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,9 @@
     "net"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Version": [
-    "5.0.4-1"
+    "5.1.0-2"
   ]
 }

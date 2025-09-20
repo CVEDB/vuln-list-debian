@@ -6,16 +6,16 @@
     "python3-bluetooth-data-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-cryptography \u003c!nocheck\u003e, python3-poetry-core, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-cryptography \u003c!nocheck\u003e, python3-poetry-core, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools (\u003e= 77)"
   ],
   "Checksums-Sha256": [
-    "0cd5d0318ca0f67e2576e8d455e67418e53982977973d074ccca8685ac9625f3 2306 bluetooth-data-tools_1.26.5-1.dsc d83f17c2aa8d93a1dc9c5aff5c000293786646eb631812005b723c9f483848fd 75151 bluetooth-data-tools_1.26.5.orig.tar.gz 2180c6734ad4ddd67cf0fa19b2ed7f056d206eca482fa0c734cfa824bd484e13 3124 bluetooth-data-tools_1.26.5-1.debian.tar.xz"
+    "622bb5939a7876729a5ef2d9fb708f9ce86048b1080a427a656951b6b286e971 2314 bluetooth-data-tools_1.28.2-1.dsc c3e75bb0388e467efa5af5ca2a3adc1e36654897fcb2ff4480eb486a0eb2a67c 77883 bluetooth-data-tools_1.28.2.orig.tar.gz a31c8e0fa7af81f772b0c64d3729917c34b0dcac194e44138f20aeb265c710f7 2844 bluetooth-data-tools_1.28.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/b/bluetooth-data-tools"
   ],
   "Files": [
-    "d582940a125ddbf62cffc744b57aabe0 2306 bluetooth-data-tools_1.26.5-1.dsc 570cd878032dbb4d23aa15b3c72e8b3a 75151 bluetooth-data-tools_1.26.5.orig.tar.gz 661379dc7329a938595c2d8256902256 3124 bluetooth-data-tools_1.26.5-1.debian.tar.xz"
+    "fab1cc808dbe09fc494c95f37d606c63 2314 bluetooth-data-tools_1.28.2-1.dsc ad84c60c9274490b10f030af5ffbaf93 77883 bluetooth-data-tools_1.28.2.orig.tar.gz 3b7965825c0282640a2f35534db30655 2844 bluetooth-data-tools_1.28.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/bluetooth-data-tools.git"
   ],
   "Version": [
-    "1.26.5-1"
+    "1.28.2-1"
   ]
 }

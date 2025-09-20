@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), wget, debian-archive-keyring, gpgv, dctrl-tools"
   ],
   "Checksums-Sha256": [
-    "f42e4f94aa4b40065981079568e631313356bdb261ecb8a5f29675dd4240d914 2588 debian-installer-netboot-images_20230607+deb12u10.dsc 32e78a868be09b8c27abd855a36a2ce5338bc706fa59bf9e4852d9fb5b55ec79 8228 debian-installer-netboot-images_20230607+deb12u10.tar.xz"
+    "2035a489f6ecffa57ab3b1656316ed09e9f92969ff3f79ca6538ef4e45526086 2588 debian-installer-netboot-images_20230607+deb12u12.dsc 37f932f01c1b2947960232a8eb01b482e5d39504e323a81757e74c0bcc571afa 8236 debian-installer-netboot-images_20230607+deb12u12.tar.xz"
   ],
   "Directory": [
     "pool/main/d/debian-installer-netboot-images"
   ],
   "Files": [
-    "56c5f04cceed9ab7bc4ad6cda787bf39 2588 debian-installer-netboot-images_20230607+deb12u10.dsc b06da8d704c8a1d80751985e5a40c316 8228 debian-installer-netboot-images_20230607+deb12u10.tar.xz"
+    "81db211204807926d64b2e804a9582f9 2588 debian-installer-netboot-images_20230607+deb12u12.dsc 14520ae4a982bb720f0bd176d87c5f5c 8236 debian-installer-netboot-images_20230607+deb12u12.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/installer-team/debian-installer-netboot-images.git"
   ],
   "Version": [
-    "20230607+deb12u10"
+    "20230607+deb12u12"
   ]
 }

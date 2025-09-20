@@ -9,13 +9,13 @@
     "debhelper (\u003e= 13), debhelper-compat (= 13), libacl1-dev, zlib1g-dev, libbsd-dev, libeigen3-dev, libcrypt-dev, libjpeg-dev, libmpfr-dev, libgmp-dev, libkeyutils-dev [linux-any], libapparmor-dev [linux-any], apparmor [linux-any], libaio-dev [linux-any], libcap-dev [linux-any], libsctp-dev [linux-any], libipsec-mb-dev [amd64], libjudy-dev, libatomic1 [linux-any], libkmod-dev [linux-any], libxxhash-dev, libglvnd-dev, libgbm-dev [linux-any]"
   ],
   "Checksums-Sha256": [
-    "431ed3b6291fee078f03cf9eae03860748fdc1f8f5b4dac291f1e57580d5da7f 2198 stress-ng_0.18.12-1.dsc 7d9a272fbf20ad89da93b325f7ee09c03429551baa07cb66b401c8de11775c7b 5750980 stress-ng_0.18.12.orig.tar.xz b0f3062de780fca432d7c5864ab914017b8c209e57eb4e0a6cb58129b101e37e 215236 stress-ng_0.18.12-1.debian.tar.xz"
+    "1f7d36197a695e17715432f6eea1f8c571776f09bc702dc4b8c734549b7141b1 2198 stress-ng_0.19.02-1.dsc ffe8907154cc3b65cc66cde8663106355f88c948b58169cee1badbde9e0f52bd 5775180 stress-ng_0.19.02.orig.tar.xz 09c5567e9053390d50fd10c968fe11653bb47c44616b0a4c8098c0a8af636695 217388 stress-ng_0.19.02-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/stress-ng"
   ],
   "Files": [
-    "b0f423ea2993d84b3f97bcd1d56dfa2e 2198 stress-ng_0.18.12-1.dsc e9306122b2415799e7322a19e190509a 5750980 stress-ng_0.18.12.orig.tar.xz 1eabc1c1f91deb44b1edfdd6881164d8 215236 stress-ng_0.18.12-1.debian.tar.xz"
+    "461561a2005c0f33c8d1232f6c848745 2198 stress-ng_0.19.02-1.dsc 8a8f6f07a801058d075fc449ec991604 5775180 stress-ng_0.19.02.orig.tar.xz cab9a4dc53e1dc01ac4a0da7cbfe7a55 217388 stress-ng_0.19.02-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,6 +45,6 @@
     "autopkgtest"
   ],
   "Version": [
-    "0.18.12-1"
+    "0.19.02-1"
   ]
 }

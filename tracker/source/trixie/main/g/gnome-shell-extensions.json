@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-gnome, dpkg-build-api (= 1), libglib2.0-bin, meson (\u003e= 1.1.0), sassc"
   ],
   "Checksums-Sha256": [
-    "17a1cb2a3199c98e897f42a6e7739d1b76d7bd86d004387f2ef76a10e82fd21d 3982 gnome-shell-extensions_48.0-1.dsc f301b5e7354d5adc01c8bb21793810074e1ea408de45300f767d104454db3e33 230932 gnome-shell-extensions_48.0.orig.tar.xz b5c8657825f2bfc17f7ad72418eb72b65b538f64908b5f8c32e063802dd5e1b4 12396 gnome-shell-extensions_48.0-1.debian.tar.xz"
+    "9fc85f48ac88b1c81d5632fb41664b1d6058508ecf52556dfbdc60b8d85e0690 3982 gnome-shell-extensions_48.2-1.dsc e9287e863489e5fa6a2c55ae5bea1ca910ae4016deeb3417362678b04a91ecff 231188 gnome-shell-extensions_48.2.orig.tar.xz bd70e997fd137dda667d7ca2c3b0b84b6ab3eb55b80839e07f61f6140784b287 12416 gnome-shell-extensions_48.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-shell-extensions"
   ],
   "Files": [
-    "2b2d280a10c794a32c0ebd8f00197682 3982 gnome-shell-extensions_48.0-1.dsc 52816eb24d91ea81f3345b411220adb3 230932 gnome-shell-extensions_48.0.orig.tar.xz de1a246967204937d7b1758afdbdfbcf 12396 gnome-shell-extensions_48.0-1.debian.tar.xz"
+    "51a7231e114d2cac3a0f9e90139260f7 3982 gnome-shell-extensions_48.2-1.dsc 08aad8787870c63e0e4757d1efb1f48f 231188 gnome-shell-extensions_48.2.orig.tar.xz 27f0daae57ef43e25a2e33a3f838e80a 12416 gnome-shell-extensions_48.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-shell-extensions.git"
   ],
   "Version": [
-    "48.0-1"
+    "48.2-1"
   ]
 }
